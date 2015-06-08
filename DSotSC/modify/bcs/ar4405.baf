@@ -1,0 +1,15 @@
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","%NashkelMines_MulaheysCave%",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		SetGlobal("DS_MoreStooges","%NashkelMines_MulaheysCave%",1)
+		CreateCreature("KOBCOMM",[907.352],2) // Kobold Commando
+		CreateCreature("KOBCOMM",[900.388],2) // Kobold Commando
+		CreateCreature("KOBCOMM",[473.199],1) // Kobold Commando
+		CreateCreature("KOBCOMM",[335.203],0) // Kobold Commando
+		Continue()
+END
+
+

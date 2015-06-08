@@ -1,0 +1,121 @@
+IF
+	Global("Shar","GLOBAL",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+		SmallWait(5)
+		ForceSpellPoint([1433.371],WIZARD_DIMENSION_DOOR)
+		Wait(3)
+		ForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		SmallWait(5)
+		ForceSpell(Myself,CLERIC_PROTECTION_FROM_FIRE)
+		Wait(2)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+		SetGlobal("Shar","GLOBAL",1)
+END
+
+IF
+	Global("Shar","GLOBAL",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),POWERWORD_STUN)
+		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_RAY_OF_ENFEEBLEMENT)
+		SetGlobal("Shar","GLOBAL",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
+		Wait(1)
+		ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_MORDENKAINENS_SWORD)
+		SetGlobal("Shar","GLOBAL",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ForceSpell(LeaderOf(NearestEnemyOf(Myself)),CLERIC_CHAOTIC_COMMANDS)
+		Wait(1)
+		ForceSpellRES("DSSPWI51",Myself) // Melf's Explosive Meteors
+		SetGlobal("Shar","GLOBAL",4)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_INVISIBLE_STALKER)
+		SetGlobal("Shar","GLOBAL",5)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ForceSpellRES("DSSPWI42",StrongestOf(NearestEnemyOf(Myself))) // Ajandurah's Ice Shard
+		SetGlobal("Shar","GLOBAL",6)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",6)
+THEN
+	RESPONSE #100
+		ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),CLERIC_COMMAND)
+		SetGlobal("Shar","GLOBAL",7)
+END
+
+IF
+	Global("Shar_Heal","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,75)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CONJURE_FIRE_ELEMENTAL)
+		SetGlobal("Shar_Heal","LOCALS",1)
+END
+
+IF
+	Global("Shar_Heal","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,34)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_HEAL)
+		SetGlobal("Shar_Heal","LOCALS",2)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",7)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself))
+		AttackOneRound(NearestEnemyOf(Myself))
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE)
+		SetGlobal("Shar","GLOBAL",8)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Shar","GLOBAL",8)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself))
+		AttackOneRound(NearestEnemyOf(Myself))
+		Continue()
+END

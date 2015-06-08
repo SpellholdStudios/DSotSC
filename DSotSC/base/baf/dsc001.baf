@@ -1,0 +1,70 @@
+IF
+//	OnCreation()
+	Global("BansheeMap1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Weather(RAIN)
+		SetGlobal("BansheeMap1","GLOBAL",1)
+		Continue()
+END
+
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","DSC001",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		Wait(5)
+		SetGlobal("DS_MoreStooges","DSC001",1)
+		CreateCreature("KOBCOMM",[471.323],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[471.323],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[471.323],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[471.323],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[461.340],8) // Kobold Commando
+		CreateCreature("KOBCOMM",[461.340],8) // Kobold Commando
+		CreateCreature("KOBCOMM",[461.340],8) // Kobold Commando
+		CreateCreature("KOBCOMM",[461.340],8) // Kobold Commando
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC01",[593.1576],3) // Orc
+		CreateCreature("ORC02",[560.2390],4) // Orc Archer
+		CreateCreature("ORC02",[560.2390],4) // Orc Archer
+		CreateCreature("ORC02",[560.2390],4) // Orc Archer
+		CreateCreature("ORC01",[560.2390],4) // Orc
+		CreateCreature("ORC01",[560.2390],4) // Orc
+		CreateCreature("ORC01",[560.2390],4) // Orc
+		CreateCreature("ORC03",[3072.3301],3) // Orc Priest
+		CreateCreature("ORC04",[3072.3301],3) // Orc Mage
+		CreateCreature("ORC02",[3072.3301],3) // Orc Archer
+		CreateCreature("ORC02",[3072.3301],3) // Orc Archer
+		CreateCreature("ORC01",[3072.3301],3) // Orc
+		CreateCreature("ORC01",[3072.3301],3) // Orc
+		CreateCreature("ORC04",[1598.3129],0) // Orc Mage
+		CreateCreature("ORC03",[1598.3129],0) // Orc Priest
+		CreateCreature("ORC02",[1598.3129],0) // Orc Archer
+		CreateCreature("ORC02",[1598.3129],0) // Orc Archer
+		CreateCreature("ORC01",[1598.3129],0) // Orc
+		CreateCreature("ORC01",[1598.3129],0) // Orc
+		CreateCreature("ORC02",[2107.2416],0) // Orc Archer
+		CreateCreature("ORC02",[2107.2416],0) // Orc Archer
+		CreateCreature("ORC02",[2107.2416],0) // Orc Archer
+		CreateCreature("ORC01",[2107.2416],0) // Orc
+		CreateCreature("ORC01",[2107.2416],0) // Orc
+		CreateCreature("ORC01",[2107.2416],0) // Orc
+		CreateCreature("ORC02",[3138.2009],0) // Orc Archer
+		CreateCreature("ORC02",[3138.2009],0) // Orc Archer
+		CreateCreature("ORC02",[3138.2009],0) // Orc Archer
+		CreateCreature("ORC02",[3128.2029],0) // Orc Archer
+		CreateCreature("ORC02",[3128.2029],0) // Orc Archer
+		CreateCreature("ORC02",[3128.2029],0) // Orc Archer
+		CreateCreature("ORC02",[4041.2677],0) // Orc Archer
+		CreateCreature("ORC02",[4041.2677],0) // Orc Archer
+		CreateCreature("ORC01",[4041.2677],0) // Orc
+		CreateCreature("ORC01",[4041.2677],0) // Orc
+		CreateCreature("ORC03",[4041.2677],0) // Orc Priest
+		CreateCreature("ORC04",[4041.2677],0) // Orc Mage
+		Continue()
+END

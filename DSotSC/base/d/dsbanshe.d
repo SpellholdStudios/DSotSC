@@ -1,0 +1,30 @@
+BEGIN ~DSBANSHE~
+
+IF ~InParty("Jetlaya")
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXTERN ~JETLAJ~ 0
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXTERN ~JETLAJ~ 1
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXTERN ~JETLAJ~ 2
+END
+
+IF ~!InParty("Jetlaya")
+~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @4
+  IF ~~ THEN DO ~Enemy()
+~ EXIT
+END

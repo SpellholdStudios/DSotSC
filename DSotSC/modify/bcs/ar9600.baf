@@ -1,0 +1,9 @@
+IF
+	Global("TrungleSpawn","%RedCanyons%",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTRUNGL",[4894.877],0)
+		SetGlobal("TrungleSpawn","%RedCanyons%",1)
+END
+
+

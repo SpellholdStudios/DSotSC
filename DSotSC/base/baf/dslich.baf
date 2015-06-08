@@ -1,0 +1,143 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+  Global("DSLichTalk","DSC002",0)
+THEN
+  RESPONSE #100
+    StartDialogue("DSLICH",[PC])
+    SetGlobal("DSLichTalk","DSC002",1)
+END
+
+IF
+  Global("Lich","LOCALS",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    PlaySound("Lich2")
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_HORROR)
+    SmallWait(5)
+    ForceSpell(Myself,WIZARD_MINOR_SPELL_TURNING)
+    SmallWait(5)
+    CreateCreature("SKELET_C",[-1.-1],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[-1.-1],14)  // ~Skeleton~
+    CreateCreature("SKELET03",[-1.-1],15)  // ~Skeleton~
+    CreateCreature("SKELET03",[-1.-1],13)  // ~Skeleton~
+    CreateCreature("SKELET03",[-1.-1],12)  // ~Skeleton~
+    Wait(1)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+    SetGlobal("Lich","LOCALS",1)
+END
+
+IF
+  Global("Lich","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
+    SmallWait(5)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_HORROR)
+    SmallWait(5)
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_POWER_WORD_SLEEP)
+    SmallWait(5)
+    SetGlobal("Lich","LOCALS",2)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","LOCALS",2)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON)
+    Wait(1)
+    ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_SLOW)
+    SmallWait(1)
+    ForceSpell(Myself,CLERIC_HEAL)
+    SmallWait(1)
+    ForceSpell(Myself,CLERIC_IRONSKIN)
+    SetGlobal("Lich","LOCALS",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","LOCALS",3)
+THEN
+  RESPONSE #100
+    ForceSpellPoint([2406.97],WIZARD_DIMENSION_DOOR)
+    SetGlobal("Lich","LOCALS",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","LOCALS",4)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_EMOTION_HOPELESSNESS)
+    SetGlobal("Lich","LOCALS",5)
+END
+
+IF
+  !See([PC])
+  Global("Lich","LOCALS",5)
+THEN
+  RESPONSE #100
+    ForceSpellPoint([2036.247],FAST_SKULLTRAP)
+    SmallWait(5)
+    ForceSpellPoint([2225.429],FAST_SKULLTRAP)
+    SmallWait(5)
+    ForceSpellPoint([2484.484],FAST_SKULLTRAP)
+    SmallWait(5)
+    ForceSpellPoint([2735.335],FAST_SKULLTRAP)
+    SmallWait(5)
+    ForceSpellPoint([2320.252],FAST_SKULLTRAP)
+    SmallWait(5)
+    ForceSpellPoint([2515.207],FAST_SKULLTRAP)
+    SetGlobal("Lich","LOCALS",6)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","LOCALS",6)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_EMOTION_HOPELESSNESS)
+    SmallWait(5)
+    ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),CLERIC_SLAY_LIVING)
+    SetGlobal("Lich","LOCALS",7)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalGT("Lich","LOCALS",6)
+  GlobalLT("Lich","LOCALS",12)
+THEN
+  RESPONSE #20
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    IncrementGlobal("Lich","LOCALS",1)
+  RESPONSE #20
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE)
+    IncrementGlobal("Lich","LOCALS",1)
+  RESPONSE #20
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_SEEDS)
+    IncrementGlobal("Lich","LOCALS",1)
+  RESPONSE #20
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)
+    IncrementGlobal("Lich","LOCALS",1)
+  RESPONSE #20
+    ForceSpell(Myself,CLERIC_MAGIC_RESISTANCE)
+    IncrementGlobal("Lich","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","LOCALS",12)
+THEN
+  RESPONSE #75
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    Continue()
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_HORROR)
+    Continue()
+END
+

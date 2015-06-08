@@ -1,0 +1,10 @@
+IF
+	Global("TalkedBlane","GLOBAL",1)
+	Global("JarentSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSJAREN",[231.176],0)
+		SetGlobal("JarentSpawn","GLOBAL",1)
+END
+
+

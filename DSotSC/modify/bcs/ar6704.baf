@@ -1,0 +1,59 @@
+IF
+	Global("TalkedJet","GLOBAL",1)
+	Global("LennanSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSLENNAN",[464.844],0)
+		SetGlobal("LennanSpawn","GLOBAL",1)
+END
+
+IF
+	Global("TeamBGSpawn","%Beregost_JovialJuggler_L1%",0)
+	Global("Chapter","GLOBAL",%tutu_chapter_3%)
+THEN
+	RESPONSE #100
+		CreateCreature("DSKENB",[550.800],0)
+		CreateCreature("DSSPEC",[654.846],0)
+		SetGlobal("TeamBGSpawn","%Beregost_JovialJuggler_L1%",1)
+END
+
+IF
+	Global("TeamBGSpawn","%Beregost_JovialJuggler_L1%",1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+THEN
+	RESPONSE #100
+		ActionOverride("DSSPEC",DestroySelf())
+		ActionOverride("DSKENB",DestroySelf())
+		SetGlobal("TeamBGSpawn","%Beregost_JovialJuggler_L1%",2)
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	Global("ThorfinnSpawn","GLOBAL",0)
+	LevelLT(Player1,4)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHORF2",[160.910],0)
+		SetGlobal("ThorfinnSpawn","GLOBAL",1)
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	Global("ThorfinnSpawn","GLOBAL",0)
+	LevelGT(Player1,3)
+	LevelLT(Player1,6)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHORF4",[160.910],0)
+		SetGlobal("ThorfinnSpawn","GLOBAL",1)
+END
+
+IF
+	Global("TalkedJet","GLOBAL",1)
+	Global("ThorfinnSpawn","GLOBAL",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHORF6",[160.910],0)
+		SetGlobal("ThorfinnSpawn","GLOBAL",1)
+END

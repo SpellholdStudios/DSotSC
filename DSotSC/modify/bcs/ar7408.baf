@@ -1,0 +1,15 @@
+IF
+	Global("DSitems","%NEBaldursGate_CountingHouse_L2%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 1",CreateItem("POTN25",0,0,0)) // Potion of Healing
+		ActionOverride("Container 1",CreateItem("MISC07",44,0,0)) // Gold Piece
+		ActionOverride("Container 2",CreateItem("SCRL5C",0,0,0)) // Protection from Lightning
+		ActionOverride("Container 2",CreateItem("SCRL5P",0,0,0)) // Chaos
+		ActionOverride("Container 3",CreateItem("MISC07",22,0,0)) // Gold Piece
+		ActionOverride("Container 4",CreateItem("POTN02",0,0,0)) // Potion of Fire Resistance
+		SetGlobal("DSitems","%NEBaldursGate_CountingHouse_L2%",1)
+		Continue()
+END
+
+

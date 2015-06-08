@@ -1,0 +1,51 @@
+BEGIN ~DSCLARS~
+
+IF ~NumberOfTimesTalkedTo(0)
+AreaCheck("DSC016")
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 2
+  IF ~~ THEN REPLY @6 GOTO 4
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @9
+  IF ~~ THEN DO ~SetGlobal("DSClairisCut","DSC016",1)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 3
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @12
+  IF ~~ THEN DO ~ActionOverride(Myself,Polymorph(VAMPIRE_FEMALE))
+Enemy()
+SetGlobal("DSCuchClairs","GLOBAL",0)
+~ EXIT
+END
+
+IF ~AreaCheck("DSC017")
+~ THEN BEGIN 6
+  SAY @13
+  IF ~~ THEN EXIT
+END
+
+IF ~AreaCheck("DSC018")
+~ THEN BEGIN 7
+  SAY @14
+  IF ~~ THEN EXIT
+END

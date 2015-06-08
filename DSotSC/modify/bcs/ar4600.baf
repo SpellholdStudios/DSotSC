@@ -1,0 +1,58 @@
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("HalfSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSHALF01",[2044.1480],0)
+		CreateCreature("DSHALFD2",[4233.651],0)
+		CreateCreature("DSHALFDD",[4125.603],0)
+		CreateCreature("DSHALFDD",[3854.1480],0)
+		CreateCreature("DSHALF05",[2190.1282],0)
+		CreateCreature("DSHALF03",[2020.1485],0)
+		CreateCreature("DSHALF02",[2040.1517],0)
+		CreateCreature("DSHALF04",[2200.1260],5)
+		CreateCreature("DSGNOLLC",[3888.1474],4)
+		CreateCreature("DSFORDRG",[4239.526],3)
+		CreateCreature("DSBARDO",[2990.1630],5)
+		SetGlobal("HalfSpawn","GLOBAL",1)
+		SetGlobal("DragonSpawn","GLOBAL",1)
+END
+
+IF
+	Global("DragonDead","GLOBAL",0)
+	PartyHasItem("DSMISC10")
+THEN
+	RESPONSE #100
+		SetGlobal("DragonDead","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("DragonDead","GLOBAL",1)
+	Global("TorquilSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTORQUI",[2783.1581],0)
+		SetGlobal("TorquilSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("DragonSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC006",FALSE)
+		Continue()
+END
+
+IF
+	Global("DragonSpawn","GLOBAL",1)
+	Global("DragonDoor","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC006",TRUE)
+		SetGlobal("DragonDoor","GLOBAL",1)
+		Continue()
+END
+
+

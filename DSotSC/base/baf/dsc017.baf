@@ -1,0 +1,28 @@
+IF
+  Global("VampSpawn","DSC017",0)
+THEN
+  RESPONSE #100
+    CreateCreature("VAMFLF01",[532.1680],0)
+    CreateCreature("VAMFLF01",[3284.2069],0)
+    CreateCreature("VAMFLF01",[2413.2050],0)
+    SetGlobal("VampSpawn","DSC017",1)
+END
+
+IF
+  Global("Vamp1Spawn","DSC017",0)
+  !Dead("LORDVAMP")
+THEN
+  RESPONSE #100
+    CreateCreature("DSVAMPM",[3376.1272],0)
+    SetGlobal("Vamp1Spawn","DSC017",1)
+END
+
+IF
+  Global("Vamp2Spawn","DSC017",0)
+  !Dead("Clairis")
+THEN
+  RESPONSE #100
+    CreateCreature("DSCLARS",[484.911],0)
+    SetGlobal("Vamp2Spawn","DSC017",1)
+END
+

@@ -1,0 +1,9 @@
+IF
+  Dead("LordVamp")
+  PartyHasItem("DSMISC07")
+THEN
+  RESPONSE #100
+    SetGlobal("TalkedGillian","GLOBAL",2)
+    Dialog([PC])
+END
+

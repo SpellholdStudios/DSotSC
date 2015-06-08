@@ -1,0 +1,134 @@
+IF
+	Global("FindTearlac","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC020",FALSE)
+		Continue()
+END
+
+IF
+	Global("FindTearlac","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC020",TRUE)
+		Continue()
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_1%)
+	GlobalLT("Chapter","GLOBAL",%tutu_chapter_4%)
+	Global("OrcSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3149.979],0) // Orc
+		CreateCreature("ORC02",[3172.1065],0) // Orc Archer
+		SetGlobal("OrcSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("Chapter","GLOBAL",%tutu_chapter_5%)
+	Global("BansheeDead","GLOBAL",1)
+	Global("OrcSpawn2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3149.979],0) // Orc
+		CreateCreature("ORC04",[3172.1065],0) // Orc Mage
+		CreateCreature("ORC06",[3246.1523],0) // Orog
+		CreateCreature("ORC02",[3167.1124],0) // Orc Archer
+		SetGlobal("OrcSpawn2","GLOBAL",1)
+		Continue()
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	Global("DragonDead","GLOBAL",1)
+	Global("OrcSpawn3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3149.979],0) // Orc
+		CreateCreature("ORC02",[3246.1523],0) // Orc Archer
+		SetGlobal("OrcSpawn3","GLOBAL",1)
+		Continue()
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	Global("OthoMace","GLOBAL",2)
+	Global("OrcSpawn2a","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3149.979],0) // Orc
+		CreateCreature("ORC06",[3172.1065],0) // Orog
+		CreateCreature("ORC03",[3246.1523],0) // Orc Priest
+		CreateCreature("ORC02",[3167.1124],0) // Orc Archer
+		SetGlobal("OrcSpawn2a","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("JulesSpawn","GLOBAL",1)
+	Global("OrcJulesSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSORC01",[1821.1348],0)
+		SetGlobal("OrcJulesSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("VampirDead","GLOBAL",1)
+	Global("OrcSpawn4","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3172.1065],0) // Orc
+		CreateCreature("ORC02",[3246.1523],0) // Orc Archer
+		CreateCreature("ORC04",[3167.1124],0) // Orc Mage
+		SetGlobal("OrcSpawn4","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("FindTearlac","GLOBAL",1)
+	Global("OrcSpawn5","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ORC01",[3149.979],0) // Orc
+		CreateCreature("ORC02",[3172.1065],0) // Orc Archer
+		CreateCreature("ORC02",[3246.1523],0) // Orc Archer
+		CreateCreature("ORC03",[3340.1002],0) // Orc Priest
+		CreateCreature("ORC06",[3109.830],0) // Orog
+		CreateCreature("ORC02",[3193.762],0) // Orc Archer
+		CreateCreature("ORC01",[3230.1010],0) // Orc
+		CreateCreature("ORC01",[3157.1215],0) // Orc
+		CreateCreature("ORC01",[3167.1124],0) // Orc
+		SetGlobal("OrcSpawn5","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("TalkedGillian","GLOBAL",1)
+	Global("CuChoSpawn","GLOBAL",0)
+	LevelLT(Player1,7)
+THEN
+	RESPONSE #100
+		CreateCreature("DSCuch5",[1770.2280],1)
+		SetGlobal("CuChoSpawn","GLOBAL",1)
+		SetGlobal("CuChoinneach","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("TalkedGillian","GLOBAL",1)
+	Global("CuChoSpawn","GLOBAL",0)
+	LevelGT(Player1,6)
+THEN
+	RESPONSE #100
+		CreateCreature("DSCuch7",[1770.2280],1)
+		SetGlobal("CuChoSpawn","GLOBAL",1)
+		SetGlobal("CuChoinneach","GLOBAL",1)
+		Continue()
+END
+
+

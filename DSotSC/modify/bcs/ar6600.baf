@@ -1,0 +1,423 @@
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_A",[849.169],0) // Kobold
+		CreateCreature("KOBOLD02",[849.169],0)
+		CreateCreature("KOBOLD02",[849.169],0)
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLD11",[849.169],0)
+		CreateCreature("KOBOLD02",[849.169],0)
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_C",[849.169],0) // Kobold
+		CreateCreature("KOBOLA_B",[849.169],0) // Kobold
+		CreateCreature("KOBOLD02",[849.169],0)
+		CreateCreature("KOBOLD11",[849.169],0)
+		CreateCreature("KOBOLD02",[849.169],0)
+		CreateCreature("KOBAMP01",[849.169],0) // Kobold Amplifier - Kobold Scribe
+		CreateCreature("KOBCAP01",[849.169],0) // Kobold Captain
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[849.169],0) // Kobold Commando
+		CreateCreature("KOBCAP01",[849.169],0) // Kobold Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_A",[1816.3040],0) // Kobold
+		CreateCreature("KOBOLD02",[1816.3040],0)
+		CreateCreature("KOBOLD02",[1816.3040],0)
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLD11",[1816.3040],0)
+		CreateCreature("KOBOLD02",[1816.3040],0)
+		CreateCreature("KOBCAP01",[1816.3040],0) // Kobold Captain
+		CreateCreature("KOBCOMM",[1816.3040],0) // Kobold Commando
+		CreateCreature("KOBKAM01",[1816.3040],0) // Kamikaze Kobold
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_C",[1816.3040],0) // Kobold
+		CreateCreature("KOBOLA_B",[1816.3040],0) // Kobold
+		CreateCreature("KOBOLD02",[1816.3040],0)
+		CreateCreature("KOBOLD11",[1816.3040],0)
+		CreateCreature("KOBOLD02",[1816.3040],0)
+		CreateCreature("KOBKAM01",[1816.3040],0) // Kamikaze Kobold
+		CreateCreature("KOBKAM01",[1816.3040],0) // Kamikaze Kobold
+		CreateCreature("KOBCAP01",[1816.3040],0) // Kobold Captain
+		CreateCreature("KOBCOMM",[1816.3040],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[1816.3040],0) // Kobold Commando
+		CreateCreature("KOBSHA01",[1816.3040],0) // Kobold Shaman
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_A",[1313.1758],0) // Kobold
+		CreateCreature("KOBOLD02",[1313.1758],0)
+		CreateCreature("KOBOLD02",[1313.1758],0)
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLD11",[1313.1758],0)
+		CreateCreature("KOBOLD02",[1313.1758],0)
+		CreateCreature("KOBCAP01",[1313.1758],0) // Kobold Captain
+		CreateCreature("KOBCOMM",[1313.1758],0) // Kobold Commando
+		CreateCreature("KOBKAM01",[1313.1758],0) // Kamikaze Kobold
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,1)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLA_C",[1313.1758],0) // Kobold
+		CreateCreature("KOBOLA_B",[1313.1758],0) // Kobold
+		CreateCreature("KOBOLD3",[1313.1758],0) // Kobold
+		CreateCreature("KOBOLD11",[1313.1758],0)
+		CreateCreature("KOBOLD02",[1313.1758],0)
+		CreateCreature("KOBCAP01",[1313.1758],0) // Kobold Captain
+		CreateCreature("KOBKAM01",[1313.1758],0) // Kamikaze Kobold
+		CreateCreature("KOBSHA01",[1313.1758],0) // Kobold Shaman
+		CreateCreature("KOBCOMM",[1313.1758],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[1313.1758],0) // Kobold Commando
+		CreateCreature("KOBCOMM",[1313.1758],0) // Kobold Commando
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB04",[849.169],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB01",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB04",[849.169],0) // Goblin Captain
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB03",[849.169],0) // Goblin
+		CreateCreature("ICGOB02",[849.169],0) // Goblin
+		CreateCreature("ICGOB04",[849.169],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB04",[1816.3040],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB02",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB03",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB04",[1816.3040],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB02",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB02",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB03",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB03",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB04",[1816.3040],0) // Goblin Captain
+		CreateCreature("ICGOB01",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB03",[1816.3040],0) // Goblin
+		CreateCreature("ICGOB04",[1816.3040],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB04",[1313.1758],0) // Goblin Captain
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB02",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB02",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB03",[1313.1758],0) // Goblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,2)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB01",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB02",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB02",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB02",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB03",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB03",[1313.1758],0) // Goblin
+		CreateCreature("ICGOB04",[1313.1758],0) // Goblin Captain
+		CreateCreature("ICGOB04",[1313.1758],0) // Goblin Captain
+		CreateCreature("ICGOB03",[1313.1758],0) // Goblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_prologue%)
+	GlobalLT("RandomSpawn","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("RandomSpawn","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1313.1758],0) // Chill Hobgoblin - Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	RandomNum(3,3)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	GlobalLT("RandomSpawn","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBGOBC",[1313.1758],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[1313.1758],0) // Chill Hobgoblin - Hobgoblin
+		CreateCreature("HOBGOBC",[1313.1758],0) // Chill Hobgoblin - Hobgoblin
+		IncrementGlobal("RandomSpawn","GLOBAL",1)
+END
+
+IF
+	Global("Chapter","GLOBAL",%tutu_chapter_1%)
+	Global("RandomSpawn","GLOBAL",3)
+	!GlobalTimerNotExpired("RandomSpawnTime","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("RandomSpawn","GLOBAL",0)
+		SetGlobalTimer("RandomSpawnTime","GLOBAL",TWO_DAYS)
+END

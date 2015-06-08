@@ -1,0 +1,180 @@
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","DSC002",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		SetGlobal("DS_MoreStooges","DSC002",1)
+		CreateCreature("GHOUL",[4009.1378],0) // Ghoul
+		CreateCreature("GHOUL",[4009.1378],0) // Ghoul
+		CreateCreature("GHOUL",[4009.1378],0) // Ghoul
+		CreateCreature("GHOUL",[4009.1378],0) // Ghoul
+		CreateCreature("GHOUL",[4009.1378],0) // Ghoul
+		CreateCreature("GHOUL",[2424.1683],0) // Ghoul
+		CreateCreature("GHOUL",[2424.1683],0) // Ghoul
+		CreateCreature("GHOUL",[2424.1683],0) // Ghoul
+		CreateCreature("GHOUL",[2424.1683],0) // Ghoul
+		CreateCreature("GHOUL",[2424.1683],0) // Ghoul
+		CreateCreature("GHAST",[1603.1647],3) // Ghast
+		CreateCreature("GHAST",[1603.1647],3) // Ghast
+		CreateCreature("GHAST",[1603.1647],3) // Ghast
+		CreateCreature("GHAST",[1030.3126],4) // Ghast
+		CreateCreature("GHAST",[1030.3126],4) // Ghast
+		CreateCreature("GHAST",[1030.3126],4) // Ghast
+		CreateCreature("GHAST",[3348.3643],3) // Ghast
+		CreateCreature("GHAST",[3348.3643],3) // Ghast
+		CreateCreature("GHAST",[3348.3643],3) // Ghast
+		CreateCreature("SKELLORD",[1835.2275],6) // Skeleton Lord
+		CreateCreature("SKELLORD",[1830.2295],3) // Skeleton Lord
+		CreateCreature("SKELLORD",[1855.2275],10) // Skeleton Lord
+		CreateCreature("SKELLORD",[1850.2295],13) // Skeleton Lord
+		Continue()
+END
+
+IF
+//	OnCreation()
+	Global("BansheeMap2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Weather(RAIN)
+		SetGlobal("BansheeMap2","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("PhantomSpawn","GLOBAL",0)
+	Global("LichDead","GLOBAL",0)
+	Global("LichSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSPHANT1",[3100.440],0) // Phantom
+		CreateCreature("DSPHANT3",[3028.440],0) // Phantom
+		CreateCreature("DSPHANT4",[3075.504],0) // Phantom
+		CreateCreature("DSPHANT5",[3110.504],0) // Phantom
+		CreateCreature("DSPHANT6",[3115.520],0) // Phantom
+		SetGlobal("PhantomSpawn","GLOBAL",1)
+		SetGlobal("Lich1","DSC002",0)
+		SetGlobal("Lich2","DSC002",0)
+		SetGlobal("Lich3","DSC002",0)
+END
+
+IF
+	PartyHasItem("DSAMUL02") // Ferium's Necklace
+	Global("BansheeDead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BansheeDead","GLOBAL",1)
+END
+
+IF
+	Global("BansheeDead","GLOBAL",1)
+	Global("PhantomSpawn","DSC002",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		CreateCreature("DSPHANT2",[3957.437],5) // Phantom
+		SetGlobal("PhantomSpawn","DSC002",1)
+END
+
+IF
+	Global("BansheeDead","GLOBAL",1)
+	Global("PhantomSpawn","DSC002",2)
+	Global("LichSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		CreateCreature("DSLICH",[1348.799],14) // The Dark One
+		SetGlobal("LichSpawn","GLOBAL",1)
+END
+
+IF
+	Global("LichResurect","GLOBAL",0)
+	Global("LichDoorDead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC003",FALSE)
+		SetGlobal("LichDoor","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("LichResurect","GLOBAL",2)
+	Global("LichDoor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("TranC003",TRUE)
+		SetGlobal("LichDoor","GLOBAL",2)
+END
+
+IF
+	Global("Lich1","DSC002",0)
+	!PartyHasItem("DSMISC09") // Phylactery of Koroval Na'Krugen
+	Dead("DSLICH") // The Dark One
+THEN
+	RESPONSE #100
+		CreateCreature("DSLICH1",[1348.815],14) // The Dark One
+		SetGlobal("LichResurect","GLOBAL",1)
+		SetGlobal("Lich1","DSC002",1)
+END
+
+IF
+	Global("Lich1","DSC002",1)
+	Global("Lich2","DSC002",0)
+	Global("LichDead","GLOBAL",0)
+	!PartyHasItem("DSMISC09") // Phylactery of Koroval Na'Krugen
+	Dead("DSLICH1") // The Dark One
+THEN
+	RESPONSE #100
+		CreateCreature("DSLICH2",[1378.799],14) // The Dark One
+		SetGlobal("Lich2","DSC002",1)
+END
+
+IF
+	Global("Lich1","DSC002",1)
+	Global("Lich2","DSC002",1)
+	Global("Lich3","DSC002",0)
+	Global("LichDead","GLOBAL",0)
+	!PartyHasItem("DSMISC09") // Phylactery of Koroval Na'Krugen
+	Dead("DSLICH2") // The Dark One
+THEN
+	RESPONSE #100
+		CreateCreature("DSLICH3",[1348.799],0) // The Dark One
+		SetGlobal("Lich3","DSC002",1)
+END
+
+IF
+	Dead("DSLICH1") // The Dark One
+	Global("Lich1","DSC002",1)
+	Global("Lich2","DSC002",0)
+	Global("LichDead","GLOBAL",0)
+	PartyHasItem("DSMISC09") // Phylactery of Koroval Na'Krugen
+THEN
+	RESPONSE #100
+		AddexperienceParty(19500)
+		SetGlobal("LichDead","GLOBAL",1)
+		GiveItemCreate("DSMISC08",Player1,6,0,0) // Magic Jar
+END
+
+IF
+	Dead("DSLICH2") // The Dark One
+	Global("Lich2","DSC002",1)
+	Global("Lich3","DSC002",0)
+	Global("LichDead","GLOBAL",0)
+	PartyHasItem("DSMISC09") // Phylactery of Koroval Na'Krugen
+THEN
+	RESPONSE #100
+		AddexperienceParty(19500)
+		SetGlobal("LichDead","GLOBAL",1)
+		GiveItemCreate("DSMISC08",Player1,6,0,0) // Magic Jar
+END
+
+IF
+	Global("LichDead","GLOBAL",0)
+	Dead("DSLICH3") // The Dark One
+THEN
+	RESPONSE #100
+		AddexperienceParty(19500)
+		SetGlobal("LichDead","GLOBAL",1)
+		SetGlobal("LichTired","GLOBAL",1)
+		GiveItemCreate("DSMISC08",Player1,6,0,0) // Magic Jar
+END

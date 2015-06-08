@@ -1,0 +1,3553 @@
+// Dark Side of the Sword Coast for EET
+// Original creator of DSotSC: CuChoinneach
+// BG:EE version by Solaufein
+// BGT version by SirBillyBob, updated by erebusant (up to version 215) and Turambar (v216)
+// EET version by K4thos
+
+BACKUP ~DSotSC/backup~
+AUTHOR ~~
+VERSION ~v3.0~
+README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
+AUTO_TRA ~DSotSC/language/%s/D~ //%~
+
+LANGUAGE
+	~English~
+	~english~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/english/setup.tra~
+LANGUAGE
+	~Castilian (translation updated by Lisandro)~
+	~spanish~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/spanish/setup.tra~
+LANGUAGE
+	~Deutsch (translation Leonard Watson & Jastey)~
+	~deutsch~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/deutsch/setup.tra~
+LANGUAGE
+	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net) & Turambar)~
+	~italian~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/italian/setup.tra~
+LANGUAGE
+	~Polish (translation Black Dragon & Promilus)~
+	~polish~
+	~DSotSC/language/polish/prompts.tra~
+	~DSotSC/language/polish/setup.tra~
+LANGUAGE
+	~Russian (translation aVoddle, Alex, Badgert & aerie.ru & prowler)~
+	~russian~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/russian/setup.tra~
+
+BEGIN ~Dark Side of the Sword Coast (DSotSC)~
+REQUIRE_PREDICATE GAME_IS ~eet~ ~This mod is for Baldur's Gate: Enhanced Edition Trilogy (EET) only~
+FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
+FORBID_COMPONENT ~setup-infinityanimations.tp2~ ~0~ ~This mod should be installed BEFORE Infinity Animations - core~
+FORBID_COMPONENT ~generalized_biffing.tp2~ ~0~ ~This mod should be installed BEFORE Generalized Biffing~
+
+/////                                                  \\\\\
+///// pre-install preparations                         \\\\\
+/////                                                  \\\\\
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+	INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
+	OUTER_SPRINT ~platform~ ~eet~
+	OUTER_SPRINT ~res~ ~ee~
+	OUTER_SPRINT door_Nashkel ~DOOR4804~ //used in AR3700.baf and megacut.baf
+END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
+	INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
+	OUTER_SPRINT ~platform~ ~bgt~
+	OUTER_SPRINT ~res~ ~normal~
+	OUTER_SPRINT door_Nashkel ~DOOR3704~
+END
+
+ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+	COPY - ~weidu.conf~ ~weidu.conf~
+		READ_2DA_ENTRY 0 2 3 "lang_dir"
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+		"deutsch" => "CP1252"
+		"english" => "CP1252"
+		"french" => "CP1252"
+		"italian" => "CP1252"
+		"polish" => "CP1250"
+		"russian" => "CP1251"
+		"spanish" => "CP1252"
+	END
+	ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
+	ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
+	LAF ~HANDLE_CHARSETS~
+		INT_VAR
+		infer_charsets = 1
+		STR_VAR
+		tra_path = "DSotSC/language"
+		charset_table = charsetsTable
+		reload_array = charsetsReloadArray
+		noconvert_array = charsetsNoConvertArray
+	END
+	LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-EE.tra~
+END
+
+/////                                                  \\\\\
+///// install journal strings                          \\\\\
+/////                                                  \\\\\
+
+ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+
+END
+
+/////                                                  \\\\\
+///// install 2DA                                      \\\\\
+/////                                                  \\\\\
+
+// Install new 2da files
+
+COPY ~DSotSC/base/2da/chptxt-9.2DA~ ~override~
+	REPLACE ~99990~ @2305
+	REPLACE ~99991~ @2306
+
+// Modify existing 2da files
+
+APPEND ~mastarea.2da~
+~DSC001  value
+DSC002  value
+DSC003  value
+DSC004  value
+DSC005  value
+DSC006  value
+DSC007  value
+DSC009  value
+DSC010  value
+DSC011  value
+DSC012  value
+DSC013  value
+DSC014  value
+DSC015  value
+DSC016  value
+DSC017  value
+DSC018  value
+DSC019  value
+DSC020  value
+DSC021  value
+DSC023  value
+DSC024  value
+DSC025  value
+DSC026  value
+DSC027  value
+DSC028  value
+DSC029  value
+DSC030  value
+DSC031  value
+DSC032  value
+DSC033  value
+DSC034  value
+DSC035  value
+DSC036  value~
+UNLESS ~DSC001~
+
+APPEND ~interdia.2da~
+~CUCHOINNEACH  BCUCHOI   NONE
+CONCHOBHAIR   BCONCHO   NONE
+FERTHGIL      BFERTHG   NONE
+SKEEZER       BSKEEZE   NONE
+BARDO         BBARDO    NONE
+KEIRIA        BKEIRIA   NONE
+JETLAYA       BJETLA    NONE
+BUB           BBUB      NONE
+THORFINN      BTHORF    NONE~
+UNLESS ~CUCHOINNEACH~
+COPY_EXISTING ~interdia.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
+
+APPEND ~pdialog.2da~
+~JETLAYA      JETLAP             JETLAJ            ***            ***                ***                ***                 ***
+CUCHOINNEACH CUCHOINP           CUCHOINJ          ***            ***                ***                ***                 ***
+CONCHOBHAIR  CONCHOP            CONCHOJ           ***            ***                ***                ***                 ***
+FERTHGIL     FERTHP             FERTHJ            ***            ***                ***                ***                 ***
+SKEEZER      SKEEZP             SKEEZJ            ***            ***                ***                ***                 ***
+DSBARDO      BARDOP             BARDOJ            ***            ***                ***                ***                 ***
+DSBUB        BUBP               BUBJ              ***            ***                ***                ***                 ***
+KEIRIA       KEIRIP             KEIRIJ            ***            ***                ***                ***                 ***
+THORFINN     THORFP             THORFJ            ***            ***                ***                ***                 ***~
+UNLESS ~JETLAYA~
+COPY_EXISTING ~pdialog.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
+
+INCLUDE ~DSotSC/lib/tooltip.tpa~
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSAXE06~ tooltips = ~15527 15529~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSCLUB01~ tooltips = ~15527 15529~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSBELT01~ tooltips = ~12080~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSDAGG01~ tooltips = ~15529 15527~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSSWD02~ tooltips = ~@1339 12119~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSTEARS~ tooltips = ~@1330 12099~ END
+
+/////                                                  \\\\\
+///// install spells                                   \\\\\
+/////                                                  \\\\\
+
+COPY ~DSotSC/base/spl/nostring~ ~override~
+
+COPY ~DSotSC/base/spl/SPINDS1.SPL~ ~override~
+	SAY NAME1 @1
+
+COPY ~DSotSC/base/spl/SPINDS2.SPL~ ~override~
+
+COPY ~DSotSC/base/spl/SPINDS3.SPL~ ~override~
+	SAY NAME1 @2
+
+COPY ~DSotSC/base/spl/SPPR145.spl~ ~override~
+	SAY NAME1 @3
+	SAY UNIDENTIFIED_DESC @4
+
+COPY ~DSotSC/base/spl/SPPR146.spl~ ~override~
+	SAY NAME1 @5
+	SAY UNIDENTIFIED_DESC @6
+
+COPY ~DSotSC/base/spl/SPPR147.spl~ ~override~
+	SAY NAME1 @7
+	SAY UNIDENTIFIED_DESC @8
+
+COPY ~DSotSC/base/spl/SPPR245.spl~ ~override~
+	SAY NAME1 @9
+	SAY UNIDENTIFIED_DESC @10
+
+COPY ~DSotSC/base/spl/SPPR246.spl~ ~override~
+	SAY NAME1 @12
+	SAY UNIDENTIFIED_DESC @13
+
+COPY ~DSotSC/base/spl/SPPR247.spl~ ~override~
+	SAY NAME1 @14
+	SAY UNIDENTIFIED_DESC @15
+
+COPY ~DSotSC/base/spl/SPPR345.spl~ ~override~
+	SAY NAME1 @17
+	SAY UNIDENTIFIED_DESC @18
+
+COPY ~DSotSC/base/spl/SPPR346.spl~ ~override~
+	SAY NAME1 @19
+	SAY UNIDENTIFIED_DESC @20
+
+COPY ~DSotSC/base/spl/SPPR347.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @21
+
+COPY ~DSotSC/base/spl/SPPR445.spl~ ~override~
+	SAY NAME1 @22
+	SAY UNIDENTIFIED_DESC @23
+
+COPY ~DSotSC/base/spl/SPPR446.spl~ ~override~
+	SAY NAME1 @24
+	SAY UNIDENTIFIED_DESC @25
+
+COPY ~DSotSC/base/spl/SPPR545.spl~ ~override~
+	SAY NAME1 @26
+	SAY UNIDENTIFIED_DESC @27
+
+COPY ~DSotSC/base/spl/SPPR546.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @28
+
+COPY ~DSotSC/base/spl/SPPR547.spl~ ~override~
+	SAY NAME1 @29
+	SAY UNIDENTIFIED_DESC @30
+
+COPY ~DSotSC/base/spl/SPPR548.spl~ ~override~
+	SAY NAME1 @31
+	SAY UNIDENTIFIED_DESC @32
+
+COPY ~DSotSC/base/spl/SPPR645.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @33
+
+COPY ~DSotSC/base/spl/SPPR646.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @34
+
+COPY ~DSotSC/base/spl/SPPR647.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @35
+
+COPY ~DSotSC/base/spl/SPPR648.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @36
+
+COPY ~DSotSC/base/spl/SPPR649.spl~ ~override~
+	SAY NAME1 @37
+	SAY UNIDENTIFIED_DESC @38
+
+COPY ~DSotSC/base/spl/SPPR650.spl~ ~override~
+	SAY NAME1 @39
+	SAY UNIDENTIFIED_DESC @40
+
+COPY ~DSotSC/base/spl/SPPR738.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @41
+
+COPY ~DSotSC/base/spl/SPPR739.spl~ ~override~
+	SAY NAME1 @43
+	SAY UNIDENTIFIED_DESC @44
+
+COPY ~DSotSC/base/spl/SPPR740.spl~ ~override~
+	SAY NAME1 @45
+	SAY UNIDENTIFIED_DESC @46
+
+COPY ~DSotSC/base/spl/sppr755.spl~ ~override~
+	SAY NAME1 @47
+	SAY UNIDENTIFIED_DESC @48
+
+COPY ~DSotSC/base/spl/SPPR756.spl~ ~override~
+	SAY NAME1 @49
+	SAY UNIDENTIFIED_DESC @50
+
+COPY ~DSotSC/base/spl/SPPR757.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @51
+
+COPY ~DSotSC/base/spl/DSSPWI11.SPL~ ~override~
+	SAY NAME1 @52
+	SAY UNIDENTIFIED_DESC @53
+
+COPY ~DSotSC/base/spl/DSSPWI21.SPL~ ~override~
+	SAY NAME1 @54
+	SAY UNIDENTIFIED_DESC @55
+
+COPY ~DSotSC/base/spl/DSSPWI22.SPL~ ~override~
+	SAY NAME1 @56
+	SAY UNIDENTIFIED_DESC @57
+
+COPY ~DSotSC/base/spl/DSSPWI23.SPL~ ~override~
+	SAY NAME1 @58
+	SAY UNIDENTIFIED_DESC @59
+
+COPY ~DSotSC/base/spl/DSSPWI31.SPL~ ~override~
+	SAY NAME1 @60
+	SAY UNIDENTIFIED_DESC @61
+
+COPY ~DSotSC/base/spl/DSSPWI32.SPL~ ~override~
+	SAY NAME1 @62
+	SAY UNIDENTIFIED_DESC @63
+
+COPY ~DSotSC/base/spl/DSSPWI34.spl~ ~override~
+	SAY UNIDENTIFIED_DESC @64
+
+COPY ~DSotSC/base/spl/DSSPWI41.SPL~ ~override~
+	SAY NAME1 @65
+	SAY UNIDENTIFIED_DESC @66
+
+COPY ~DSotSC/base/spl/DSSPWI42.SPL~ ~override~
+	SAY NAME1 @67
+	SAY UNIDENTIFIED_DESC @68
+
+COPY ~DSotSC/base/spl/DSSPWI51.SPL~ ~override~
+	SAY NAME1 @69
+	SAY UNIDENTIFIED_DESC @70
+
+COPY ~DSotSC/base/spl/DSSPWI61.SPL~ ~override~
+	SAY NAME1 @71
+	SAY UNIDENTIFIED_DESC @72
+
+COPY ~DSotSC/base/spl/DSSPWI62.SPL~ ~override~
+	SAY NAME1 @73
+	SAY UNIDENTIFIED_DESC @74
+
+COPY ~DSotSC/base/spl/DSSPWI71.SPL~ ~override~
+	SAY NAME1 @77
+	SAY UNIDENTIFIED_DESC @78
+
+COPY ~DSotSC/base/spl/DSSPWI72.SPL~ ~override~
+	SAY NAME1 @79
+	SAY UNIDENTIFIED_DESC @80
+
+COPY ~DSotSC/base/spl/DSSPWI73.SPL~ ~override~
+	SAY NAME1 @81
+	SAY UNIDENTIFIED_DESC @82
+
+COPY ~DSotSC/base/spl/DSSPWI74.SPL~ ~override~
+	SAY NAME1 @83
+	SAY UNIDENTIFIED_DESC @84
+
+COPY ~DSotSC/base/spl/DSSPWI81.SPL~ ~override~
+	SAY NAME1 @85
+	SAY UNIDENTIFIED_DESC @86
+
+COPY ~DSotSC/base/spl/DSSPWI82.SPL~ ~override~
+	SAY NAME1 @87
+	SAY UNIDENTIFIED_DESC @88
+
+COPY ~DSotSC/base/spl/DSSPWI83.SPL~ ~override~
+	SAY NAME1 @89
+	SAY UNIDENTIFIED_DESC @90
+
+COPY ~DSotSC/base/spl/DSSPWI84.SPL~ ~override~
+	SAY NAME1 @49
+	SAY UNIDENTIFIED_DESC @91
+
+COPY ~DSotSC/base/spl/DSSPWI85.SPL~ ~override~
+	SAY NAME1 @92
+	SAY UNIDENTIFIED_DESC @93
+
+COPY ~DSotSC/base/spl/DSSPWI91.SPL~ ~override~
+	SAY NAME1 @94
+	SAY UNIDENTIFIED_DESC @95
+
+COPY ~DSotSC/base/spl/DSSPWI92.SPL~ ~override~
+	SAY NAME1 @96
+	SAY UNIDENTIFIED_DESC @97
+
+COPY ~DSotSC/base/spl/DSSPWI93.SPL~ ~override~
+	SAY NAME1 @98
+	SAY UNIDENTIFIED_DESC @99
+
+/////                                                  \\\\\
+///// install items                                    \\\\\
+/////                                                  \\\\\
+
+// Crowns, helm, etc.
+
+COPY ~DSotSC/base/itm/DSCDRUID.itm~ ~override~
+	SAY NAME1 @1000
+	SAY NAME2 @1001
+	SAY UNIDENTIFIED_DESC @1002
+	SAY DESC @1003
+
+COPY ~DSotSC/base/itm/DSCROWN1.itm~ ~override~
+	SAY NAME1 @1000
+	SAY NAME2 @1004
+	SAY UNIDENTIFIED_DESC @1002
+	SAY DESC @1005
+
+COPY ~DSotSC/base/itm/DSHAT01.itm~ ~override~
+	SAY NAME1 @1006
+	SAY NAME2 @1007
+	SAY UNIDENTIFIED_DESC @1008
+	SAY DESC @1009
+
+COPY ~DSotSC/base/itm/DSTDRUID.itm~ ~override~
+	SAY NAME1 @1010
+	SAY NAME2 @1011
+	SAY UNIDENTIFIED_DESC @1012
+	SAY DESC @1013
+
+COPY ~DSotSC/base/itm/DSFEHELM.itm~ ~override~
+	SAY NAME2 @1015
+	SAY DESC @1017
+
+COPY ~DSotSC/base/itm/DSEBHELM.itm~ ~override~
+	SAY NAME2 @1018
+	SAY DESC @1019
+
+COPY ~DSotSC/base/itm/DSCOHELM.itm~ ~override~
+	SAY NAME2 @1020
+	SAY DESC @1021
+
+COPY ~DSotSC/base/itm/DSCRYHLM.itm~ ~override~
+	SAY NAME2 @1022
+	SAY DESC @1023
+
+COPY ~DSotSC/base/itm/DSSKHELM.itm~ ~override~
+	SAY NAME2 @1024
+	SAY DESC @1025
+
+COPY ~DSotSC/base/itm/DSHELM01.itm~ ~override~
+	SAY NAME2 @1026
+	SAY DESC @1027
+
+COPY ~DSotSC/base/itm/dshelm02.itm~ ~override~
+	SAY NAME2 @1028
+	SAY DESC @1029
+
+// Armor
+
+COPY ~DSotSC/base/itm/DSTHRARM.itm~ ~override~
+	SAY NAME2 @1030
+	SAY DESC @1032
+
+COPY ~DSotSC/base/itm/DSWRKARM.itm~ ~override~
+	SAY NAME2 @1033
+	SAY DESC @1034
+
+COPY ~DSotSC/base/itm/DSFEARM.itm~ ~override~
+	SAY NAME2 @1036
+	SAY DESC @1038
+
+COPY ~DSotSC/base/itm/DSCOARM.itm~ ~override~
+	SAY NAME2 @1039
+	SAY DESC @1040
+
+COPY ~DSotSC/base/itm/DSCRYARM.itm~ ~override~
+	SAY NAME2 @1041
+	SAY DESC @1042
+
+COPY ~DSotSC/base/itm/DSEBPLAT.itm~ ~override~
+	SAY NAME2 @1044
+	SAY DESC @1046
+
+COPY ~DSotSC/base/itm/DSCHAN01.itm~ ~override~
+
+COPY ~DSotSC/base/itm/DSCHAN02.itm~ ~override~
+	SAY NAME2 @1052
+	SAY DESC @1054
+
+COPY ~DSotSC/base/itm/DSCHAN03.itm~ ~override~
+	SAY NAME2 @1055
+	SAY DESC @1056
+
+COPY ~DSotSC/base/itm/DSCHAN04.itm~ ~override~
+	SAY NAME2 @1057
+	SAY DESC @1058
+
+COPY ~DSotSC/base/itm/DSJEARM.itm~ ~override~
+	SAY NAME2 @1059
+	SAY DESC @1060
+
+COPY ~DSotSC/base/itm/DSKORIM.itm~ ~override~
+	SAY NAME2 @1061
+	SAY DESC @1062
+
+COPY ~DSotSC/base/itm/DSCUARM.itm~ ~override~
+	SAY NAME2 @1063
+	SAY DESC @1064
+
+COPY ~DSotSC/base/itm/DSKEARM.itm~ ~override~
+	SAY NAME2 @1065
+	SAY DESC @1066
+
+COPY ~DSotSC/base/itm/DSLEAT01.itm~ ~override~
+	SAY NAME1 @1067
+	SAY NAME2 @1068
+	SAY UNIDENTIFIED_DESC @1069
+	SAY DESC @1070
+
+COPY ~DSotSC/base/itm/dsleat02.itm~ ~override~
+	SAY NAME2 @1047
+	SAY DESC @1048
+
+COPY ~DSotSC/base/itm/DSSKROBE.itm~ ~override~
+	SAY NAME2 @1072
+	SAY DESC @1074
+
+COPY ~DSotSC/base/itm/DSROBESO.itm~ ~override~
+	SAY NAME2 @1075
+	SAY DESC @1076
+
+COPY ~DSotSC/base/itm/DSROBE02.itm~ ~override~
+	SAY NAME2 @1077
+	SAY DESC @1078
+
+COPY ~DSotSC/base/itm/DSROBE03.itm~ ~override~
+	SAY NAME2 @1079
+	SAY DESC @1080
+
+COPY ~DSotSC/base/itm/DSROBE04.itm~ ~override~
+	SAY NAME2 @1081
+	SAY DESC @1082
+
+COPY ~DSotSC/base/itm/DSROBE05.itm~ ~override~
+	SAY NAME2 @1083
+	SAY DESC @1084
+
+COPY ~DSotSC/base/itm/DSROBE06.itm~ ~override~
+	SAY NAME2 @1085
+	SAY DESC @1086
+
+COPY ~DSotSC/base/itm/DSROBE07.itm~ ~override~
+	SAY NAME2 @1087
+	SAY DESC @1088
+
+COPY ~DSotSC/base/itm/DSROBE08.itm~ ~override~
+	SAY NAME2 @1089
+	SAY DESC @1090
+
+// Belts
+
+COPY ~DSotSC/base/itm/DSBELT01.itm~ ~override~
+	SAY NAME2 @1092
+	SAY DESC @1094
+
+COPY ~DSotSC/base/itm/DSCLCK01.itm~ ~override~
+	SAY NAME2 @1096
+	SAY DESC @1098
+
+COPY ~DSotSC/base/itm/DSCLCK02.itm~ ~override~
+	SAY NAME2 @1099
+	SAY DESC @1100
+
+COPY ~DSotSC/base/itm/DSCLCK03.itm~ ~override~
+	SAY NAME2 @1101
+	SAY DESC @1102
+
+COPY ~DSotSC/base/itm/DSCLCK04.itm~ ~override~
+	SAY NAME2 @1103
+	SAY DESC @1104
+
+// Bracers, Gauntlets, Gloves
+
+COPY ~DSotSC/base/itm/DSDRGSKN.itm~ ~override~
+	SAY NAME2 @1106
+	SAY DESC @1108
+
+COPY ~DSotSC/base/itm/DSBRACDX.itm~ ~override~
+	SAY NAME2 @1110
+	SAY DESC @1112
+
+COPY ~DSotSC/base/itm/DSBRAC01.itm~ ~override~
+	SAY NAME2 @1113
+	SAY DESC @1114
+
+COPY ~DSotSC/base/itm/DSBRAC02.itm~ ~override~
+	SAY NAME2 @1115
+	SAY DESC @1116
+
+COPY ~DSotSC/base/itm/DSBRAC03.itm~ ~override~
+	SAY NAME2 @1117
+	SAY DESC @1118
+
+COPY ~DSotSC/base/itm/DSBRAC04.itm~ ~override~
+	SAY NAME2 @1119
+	SAY DESC @1120
+
+// Rings
+
+COPY ~DSotSC/base/itm/DSZRNG03.itm~ ~override~
+	SAY DESC @1124
+
+COPY ~DSotSC/base/itm/DSRNG01.itm~ ~override~
+	SAY NAME2 @1125
+	SAY DESC @1126
+
+COPY ~DSotSC/base/itm/DSRNG02.itm~ ~override~
+	SAY NAME2 @1127
+	SAY DESC @1128
+
+COPY ~DSotSC/base/itm/DSRNG03.itm~ ~override~
+	SAY NAME2 @1129
+	SAY DESC @1130
+
+COPY ~DSotSC/base/itm/DSRNG04.itm~ ~override~
+	SAY NAME2 @1129
+	SAY DESC @1131
+
+COPY ~DSotSC/base/itm/DSRNG05.itm~ ~override~
+	SAY NAME2 @1133
+	SAY DESC @1135
+
+COPY ~DSotSC/base/itm/DSRNG06.itm~ ~override~
+	SAY NAME2 @1136
+	SAY DESC @1137
+
+COPY ~DSotSC/base/itm/DSRNG07.itm~ ~override~
+	SAY NAME2 @1138
+	SAY DESC @1139
+
+COPY ~DSotSC/base/itm/DSRNG08.itm~ ~override~
+	SAY NAME2 @1140
+	SAY DESC @1141
+
+COPY ~DSotSC/base/itm/DSBARDR.itm~ ~override~
+	SAY NAME2 @1142
+	SAY DESC @1143
+
+COPY ~DSotSC/base/itm/DSRNG103.itm~ ~override~
+	SAY NAME2 @1144
+	SAY DESC @1145
+
+COPY ~DSotSC/base/itm/DSRNGFSH.itm~ ~override~
+	SAY NAME2 @1146
+	SAY DESC @1147
+
+COPY ~DSotSC/base/itm/DSRNGJET.itm~ ~override~
+	SAY NAME1 @1148
+	SAY NAME2 @1148
+	SAY UNIDENTIFIED_DESC @1149
+	SAY DESC @1149
+
+// Misc, books, scrolls, etc
+
+COPY ~DSotSC/base/itm/DSMISC01.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @1151
+	SAY DESC @1151
+
+COPY ~DSotSC/base/itm/DSMISC02.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @1152
+	SAY DESC @1152
+
+COPY ~DSotSC/base/itm/DSMISC03.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @1153
+	SAY DESC @1153
+
+COPY ~DSotSC/base/itm/DSMISC04.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @1154
+	SAY DESC @1154
+
+COPY ~DSotSC/base/itm/DSMISC05.itm~ ~override~
+	SAY NAME1 @1155
+	SAY NAME2 @1155
+	SAY UNIDENTIFIED_DESC @1156
+	SAY DESC @1156
+
+COPY ~DSotSC/base/itm/DSMISC07.itm~ ~override~
+	SAY NAME1 @1157
+	SAY NAME2 @1157
+	SAY UNIDENTIFIED_DESC @1157
+	SAY DESC @1157
+
+COPY ~DSotSC/base/itm/DSMISC08.itm~ ~override~
+	SAY NAME1 @1158
+	SAY NAME2 @1158
+	SAY UNIDENTIFIED_DESC @1159
+	SAY DESC @1159
+
+COPY ~DSotSC/base/itm/DSMISC09.itm~ ~override~
+	SAY NAME1 @1160
+	SAY NAME2 @1160
+	SAY UNIDENTIFIED_DESC @1161
+	SAY DESC @1161
+
+COPY ~DSotSC/base/itm/DSMISC10.itm~ ~override~
+	SAY NAME1 @1162
+	SAY NAME2 @1162
+	SAY UNIDENTIFIED_DESC @1163
+	SAY DESC @1163
+
+COPY ~DSotSC/base/itm/DSMISC11.itm~ ~override~
+	SAY NAME1 @1164
+	SAY NAME2 @1165
+	SAY UNIDENTIFIED_DESC @1166
+	SAY DESC @1167
+
+COPY ~DSotSC/base/itm/DSHORN01.itm~ ~override~
+	SAY NAME2 @1169
+	SAY UNIDENTIFIED_DESC @1170
+	SAY DESC @1171
+
+COPY ~DSotSC/base/itm/DSBAG01.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @1173
+	SAY DESC @1173
+
+COPY ~DSotSC/base/itm/DSLUTE01.itm~ ~override~
+	SAY NAME1 @1174
+	SAY NAME2 @1175
+	SAY UNIDENTIFIED_DESC @1176
+	SAY DESC @1177
+
+COPY ~DSotSC/base/itm/SCRLDS01.itm~ ~override~
+
+COPY ~DSotSC/base/itm/SCRLDS11.itm~ ~override~
+	SAY NAME1 @52
+	SAY NAME2 @52
+	SAY UNIDENTIFIED_DESC @53
+	SAY DESC @53
+
+COPY ~DSotSC/base/itm/SCRLDS21.itm~ ~override~
+	SAY NAME1 @54
+	SAY NAME2 @54
+	SAY UNIDENTIFIED_DESC @55
+	SAY DESC @55
+
+COPY ~DSotSC/base/itm/SCRLDS22.itm~ ~override~
+	SAY NAME1 @56
+	SAY NAME2 @56
+	SAY UNIDENTIFIED_DESC @57
+	SAY DESC @57
+
+COPY ~DSotSC/base/itm/SCRLDS23.itm~ ~override~
+	SAY NAME1 @58
+	SAY NAME2 @58
+	SAY UNIDENTIFIED_DESC @59
+	SAY DESC @59
+
+COPY ~DSotSC/base/itm/SCRLDS31.itm~ ~override~
+	SAY NAME1 @60
+	SAY NAME2 @60
+	SAY UNIDENTIFIED_DESC @61
+	SAY DESC @61
+
+COPY ~DSotSC/base/itm/SCRLDS32.itm~ ~override~
+	SAY NAME1 @62
+	SAY NAME2 @62
+	SAY UNIDENTIFIED_DESC @63
+	SAY DESC @63
+
+COPY ~DSotSC/base/itm/SCRLDS34.ITM~ ~override~
+	SAY UNIDENTIFIED_DESC @64
+	SAY DESC @64
+
+COPY ~DSotSC/base/itm/SCRLDS41.itm~ ~override~
+	SAY NAME1 @65
+	SAY NAME2 @65
+	SAY UNIDENTIFIED_DESC @66
+	SAY DESC @66
+
+COPY ~DSotSC/base/itm/SCRLDS42.itm~ ~override~
+	SAY NAME1 @67
+	SAY NAME2 @67
+	SAY UNIDENTIFIED_DESC @68
+	SAY DESC @68
+
+COPY ~DSotSC/base/itm/SCRLDS51.itm~ ~override~
+	SAY NAME1 @69
+	SAY NAME2 @69
+	SAY UNIDENTIFIED_DESC @70
+	SAY DESC @70
+
+COPY ~DSotSC/base/itm/SCRLDS61.itm~ ~override~
+	SAY NAME1 @71
+	SAY NAME2 @71
+	SAY UNIDENTIFIED_DESC @72
+	SAY DESC @72
+
+COPY ~DSotSC/base/itm/SCRLDS62.itm~ ~override~
+	SAY NAME1 @73
+	SAY NAME2 @73
+	SAY UNIDENTIFIED_DESC @74
+	SAY DESC @74
+
+COPY ~DSotSC/base/itm/SCRLDS71.itm~ ~override~
+	SAY NAME1 @77
+	SAY NAME2 @77
+	SAY UNIDENTIFIED_DESC @78
+	SAY DESC @78
+
+COPY ~DSotSC/base/itm/SCRLDS72.itm~ ~override~
+	SAY NAME1 @79
+	SAY NAME2 @79
+	SAY UNIDENTIFIED_DESC @80
+	SAY DESC @80
+
+COPY ~DSotSC/base/itm/SCRLDS73.itm~ ~override~
+	SAY NAME1 @81
+	SAY NAME2 @81
+	SAY UNIDENTIFIED_DESC @82
+	SAY DESC @82
+
+COPY ~DSotSC/base/itm/SCRLDS74.itm~ ~override~
+	SAY NAME1 @83
+	SAY NAME2 @83
+	SAY UNIDENTIFIED_DESC @84
+	SAY DESC @84
+
+COPY ~DSotSC/base/itm/scrlds75.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @51
+	SAY DESC @51
+
+COPY ~DSotSC/base/itm/scrlds76.itm~ ~override~
+	SAY NAME1 @47
+	SAY NAME2 @47
+	SAY UNIDENTIFIED_DESC @48
+	SAY DESC @48
+
+COPY ~DSotSC/base/itm/scrlds77.itm~ ~override~
+	SAY NAME1 @49
+	SAY NAME2 @49
+	SAY UNIDENTIFIED_DESC @50
+	SAY DESC @50
+
+COPY ~DSotSC/base/itm/SCRLDS81.itm~ ~override~
+	SAY NAME2 @85
+	SAY DESC @86
+
+COPY ~DSotSC/base/itm/SCRLDS82.itm~ ~override~
+	SAY NAME2 @87
+	SAY DESC @88
+
+COPY ~DSotSC/base/itm/SCRLDS83.itm~ ~override~
+	SAY NAME2 @89
+	SAY DESC @90
+
+COPY ~DSotSC/base/itm/SCRLDS84.itm~ ~override~
+	SAY NAME2 @49
+	SAY DESC @91
+
+COPY ~DSotSC/base/itm/SCRLDS85.itm~ ~override~
+	SAY NAME2 @92
+	SAY DESC @93
+
+COPY ~DSotSC/base/itm/SCRLDS91.itm~ ~override~
+	SAY NAME2 @94
+	SAY DESC @95
+
+COPY ~DSotSC/base/itm/SCRLDS92.itm~ ~override~
+	SAY NAME2 @96
+	SAY DESC @97
+
+COPY ~DSotSC/base/itm/SCRLDS93.itm~ ~override~
+	SAY NAME2 @98
+	SAY DESC @99
+
+COPY ~DSotSC/base/itm/DSBOOK01.itm~ ~override~
+	SAY NAME2 @1239
+	SAY DESC @1241
+	SAY 0x10e @124100
+
+COPY ~DSotSC/base/itm/DSBOOK.itm~ ~override~
+	SAY NAME1 @1242
+	SAY NAME2 @1242
+	SAY UNIDENTIFIED_DESC @1243
+	SAY DESC @1243
+
+COPY ~DSotSC/base/itm/DSPOTN01.itm~ ~override~
+	SAY NAME1 @1244
+	SAY NAME2 @1244
+	SAY UNIDENTIFIED_DESC @1245
+	SAY DESC @1245
+
+// Amulets, Necklaces
+
+COPY ~DSotSC/base/itm/DSAMUL01.itm~ ~override~
+	SAY NAME2 @1247
+	SAY DESC @1249
+
+COPY ~DSotSC/base/itm/DSAMUL02.itm~ ~override~
+	SAY NAME2 @1251
+	SAY DESC @1253
+
+COPY ~DSotSC/base/itm/DSAMUL03.itm~ ~override~
+	SAY NAME2 @1254
+	SAY DESC @1255
+
+COPY ~DSotSC/base/itm/DSAMUL04.itm~ ~override~
+	SAY DESC @1256
+
+COPY ~DSotSC/base/itm/DSAMUL06.itm~ ~override~
+	SAY NAME2 @1257
+	SAY DESC @1258
+
+COPY ~DSotSC/base/itm/DSAMUL07.itm~ ~override~
+	SAY NAME2 @1259
+	SAY DESC @1260
+
+COPY ~DSotSC/base/itm/DSAMUL08.itm~ ~override~
+	SAY NAME2 @1261
+	SAY DESC @1262
+
+COPY ~DSotSC/base/itm/DSAMUL09.itm~ ~override~
+	SAY NAME2 @1263
+	SAY DESC @1263
+
+COPY ~DSotSC/base/itm/DSAMUL10.itm~ ~override~
+	SAY NAME2 @1264
+	SAY DESC @1265
+
+COPY ~DSotSC/base/itm/DSAMUL11.itm~ ~override~
+	SAY NAME2 @1266
+	SAY DESC @1267
+
+COPY ~DSotSC/base/itm/DSAMUL12.itm~ ~override~
+	SAY NAME2 @1268
+	SAY DESC @1269
+
+// Arrows, Bolts, Bullets, Darts, etc
+
+COPY ~DSotSC/base/itm/DSARROW1.itm~ ~override~
+	SAY NAME2 @1271
+	SAY DESC @1273
+
+COPY ~DSotSC/base/itm/DSARROW2.itm~ ~override~
+	SAY NAME2 @1275
+	SAY DESC @1277
+
+COPY ~DSotSC/base/itm/AROW50.itm~ ~override~
+	SAY NAME2 @1278
+	SAY DESC @1279
+
+COPY ~DSotSC/base/itm/DSBOLT01.itm~ ~override~
+	SAY NAME2 @1281
+	SAY DESC @1283
+
+COPY ~DSotSC/base/itm/DSBULL01.itm~ ~override~
+	SAY NAME2 @1285
+	SAY DESC @1287
+
+COPY ~DSotSC/base/itm/DSBULL02.itm~ ~override~
+	SAY NAME2 @1288
+	SAY DESC @1289
+
+COPY ~DSotSC/base/itm/DSMETEOR.itm~ ~override~
+	SAY NAME1 @69
+	SAY NAME2 @69
+	SAY UNIDENTIFIED_DESC @69
+	SAY DESC @69
+
+// Boots
+
+COPY ~DSotSC/base/itm/DSBOOT01.itm~ ~override~
+	SAY NAME2 @1292
+	SAY DESC @1294
+
+COPY ~DSotSC/base/itm/DSBOOT02.itm~ ~override~
+	SAY NAME2 @1295
+	SAY DESC @1296
+
+// Cloaks
+
+COPY ~DSotSC/base/itm/DSCLCK23.itm~ ~override~
+	SAY NAME2 @20440
+	SAY DESC @20441
+
+// Shields
+
+//COPY ~DSotSC/base/itm/DSSHLD01.itm~ ~override~
+//	SAY NAME1 @1318
+//	SAY NAME2 @1319
+//	SAY UNIDENTIFIED_DESC @1320
+//	SAY DESC @1321
+
+COPY ~DSotSC/base/itm/DSSHLD02.itm~ ~override~
+	SAY DESC @1300
+
+COPY ~DSotSC/base/itm/DSCUSHLD.itm~ ~override~
+	SAY NAME2 @1302
+	SAY DESC @1304
+
+COPY ~DSotSC/base/itm/DSJESHLD.itm~ ~override~
+	SAY NAME2 @1305
+	SAY DESC @1306
+
+COPY ~DSotSC/base/itm/DSSHLD51.itm~ ~override~
+	SAY NAME2 @1307
+	SAY DESC @1308
+
+COPY ~DSotSC/base/itm/DSSHLD52.itm~ ~override~
+	SAY DESC @1312
+
+COPY ~DSotSC/base/itm/DSSHLD53.itm~ ~override~
+	SAY NAME2 @1313
+	SAY DESC @1314
+
+COPY ~DSotSC/base/itm/DSSHLD54.itm~ ~override~
+	SAY NAME2 @1315
+	SAY DESC @1317
+
+// Weapons
+
+COPY ~DSotSC/base/itm/DSKATAN1.itm~ ~override~
+	SAY NAME2 @1323
+	SAY DESC @1325
+
+COPY ~DSotSC/base/itm/DSKATAN2.itm~ ~override~
+	SAY NAME2 @1326
+	SAY DESC @1328
+
+COPY ~DSotSC/base/itm/DSTEARS.itm~ ~override~
+	SAY NAME2 @1330
+	SAY DESC @1332
+
+COPY ~DSotSC/base/itm/DSCOSWD.itm~ ~override~
+	SAY NAME2 @1334
+	SAY DESC @1336
+
+COPY ~DSotSC/base/itm/DSSWD01.itm~ ~override~
+	SAY NAME2 @1337
+	SAY DESC @1338
+
+COPY ~DSotSC/base/itm/DSSWD02.itm~ ~override~
+	SAY NAME2 @1339
+	SAY DESC @1340
+
+COPY ~DSotSC/base/itm/DSSWD03.itm~ ~override~
+	SAY NAME1 @1341
+	SAY NAME2 @1342
+	SAY UNIDENTIFIED_DESC @1343
+	SAY DESC @1344
+
+COPY ~DSotSC/base/itm/DSSWD04.itm~ ~override~
+	SAY NAME1 @1341
+	SAY NAME2 @1345
+	SAY UNIDENTIFIED_DESC @1343
+	SAY DESC @1346
+
+COPY ~DSotSC/base/itm/DSSWD05.itm~ ~override~
+	SAY NAME1 @1341
+	SAY NAME2 @1347
+	SAY UNIDENTIFIED_DESC @1343
+	SAY DESC @1348
+
+COPY ~DSotSC/base/itm/DSSWD06.itm~ ~override~
+	SAY NAME1 @1341
+	SAY NAME2 @1349
+	SAY UNIDENTIFIED_DESC @1343
+	SAY DESC @1350
+
+COPY ~DSotSC/base/itm/DSSWD07.itm~ ~override~
+	SAY NAME2 @1352
+	SAY DESC @1354
+
+COPY ~DSotSC/base/itm/DSSWD08.itm~ ~override~
+	SAY NAME2 @1356
+	SAY DESC @1358
+
+COPY ~DSotSC/base/itm/DSSWD09.itm~ ~override~
+	SAY NAME2 @1359
+	SAY DESC @1360
+
+COPY ~DSotSC/base/itm/dsswd10.itm~ ~override~
+	SAY NAME2 @1361
+	SAY DESC @1362
+
+COPY ~DSotSC/base/itm/DSCUSWD.itm~ ~override~
+	SAY NAME2 @1363
+	SAY DESC @1364
+
+COPY ~DSotSC/base/itm/DSNEMSTF.itm~ ~override~
+	SAY NAME2 @1366
+	SAY DESC @1368
+
+COPY ~DSotSC/base/itm/DSVFLAIL.itm~ ~override~
+	SAY NAME2 @1370
+	SAY DESC @1372
+
+COPY ~DSotSC/base/itm/DSFLAIL1.itm~ ~override~
+	SAY NAME2 @1373
+	SAY DESC @1374
+
+COPY ~DSotSC/base/itm/DSFEAXE.itm~ ~override~
+	SAY NAME2 @1376
+	SAY DESC @1378
+
+COPY ~DSotSC/base/itm/DSAXE01.itm~ ~override~
+	SAY NAME2 @1379
+	SAY DESC @1381
+
+COPY ~DSotSC/base/itm/DSAXE02.itm~ ~override~
+	SAY NAME2 @1382
+	SAY DESC @1383
+
+COPY ~DSotSC/base/itm/DSAXE03.itm~ ~override~
+	SAY NAME1 @1384
+	SAY NAME2 @1385
+	SAY UNIDENTIFIED_DESC @1386
+	SAY DESC @1387
+
+COPY ~DSotSC/base/itm/DSAXE04.itm~ ~override~
+	SAY NAME2 @1388
+	SAY DESC @1389
+
+COPY ~DSotSC/base/itm/DSAXE05.itm~ ~override~
+	SAY NAME1 @1384
+	SAY NAME2 @1390
+	SAY UNIDENTIFIED_DESC @1386
+	SAY DESC @1391
+
+COPY ~DSotSC/base/itm/DSAXE06.itm~ ~override~
+	SAY NAME2 @1393
+	SAY DESC @1395
+
+COPY ~DSotSC/base/itm/DSSTAF01.itm~ ~override~
+	SAY NAME2 @1396
+	SAY DESC @1398
+
+COPY ~DSotSC/base/itm/DSSTAF02.itm~ ~override~
+	SAY NAME2 @1399
+	SAY DESC @1400
+
+COPY ~DSotSC/base/itm/DSSTAF03.itm~ ~override~
+	SAY NAME2 @1401
+	SAY DESC @1402
+
+COPY ~DSotSC/base/itm/DSWRLSTF.itm~ ~override~
+	SAY NAME2 @1403
+	SAY DESC @1404
+
+COPY ~DSotSC/base/itm/DSSTAF06.itm~ ~override~
+	SAY NAME2 @1407
+	SAY DESC @1408
+
+COPY ~DSotSC/base/itm/DSSTAF07.itm~ ~override~
+	SAY NAME2 @1409
+	SAY DESC @1410
+
+COPY ~DSotSC/base/itm/DSSKSTAF.itm~ ~override~
+	SAY NAME2 @1411
+	SAY DESC @1412
+
+COPY ~DSotSC/base/itm/DSHAMM01.itm~ ~override~
+	SAY NAME2 @1414
+	SAY DESC @1416
+
+COPY ~DSotSC/base/itm/DSHAMM02.itm~ ~override~
+	SAY NAME2 @1417
+	SAY DESC @1418
+
+COPY ~DSotSC/base/itm/DSSPERF.itm~ ~override~
+	SAY NAME2 @1420
+	SAY DESC @1422
+
+COPY ~DSotSC/base/itm/DSSPERD.itm~ ~override~
+	SAY NAME2 @1423
+	SAY DESC @1424
+
+COPY ~DSotSC/base/itm/DSMACE01.itm~ ~override~
+	SAY NAME2 @1426
+	SAY DESC @1428
+
+COPY ~DSotSC/base/itm/DSMACE02.itm~ ~override~
+	SAY NAME2 @1429
+	SAY DESC @1430
+
+COPY ~DSotSC/base/itm/DSMACE03.itm~ ~override~
+	SAY NAME2 @1431
+	SAY DESC @1432
+
+COPY ~DSotSC/base/itm/DSMACE04.itm~ ~override~
+	SAY NAME2 @1433
+	SAY DESC @1434
+
+COPY ~DSotSC/base/itm/DSDAGG01.itm~ ~override~
+	SAY NAME2 @1436
+	SAY DESC @1438
+
+COPY ~DSotSC/base/itm/DSDAGG03.itm~ ~override~
+	SAY NAME2 @1439
+	SAY DESC @1440
+
+COPY ~DSotSC/base/itm/DSDAGG02.itm~ ~override~
+	SAY NAME2 @1441
+	SAY DESC @1442
+
+COPY ~DSotSC/base/itm/DSDAGG04.itm~ ~override~
+	SAY NAME2 @1443
+	SAY DESC @1444
+
+COPY ~DSotSC/base/itm/DSKEXBOW.itm~ ~override~
+	SAY NAME2 @1446
+	SAY DESC @1448
+
+COPY ~DSotSC/base/itm/DSXBOW01.itm~ ~override~
+	SAY NAME2 @1449
+	SAY DESC @1450
+
+COPY ~DSotSC/base/itm/DSGBBOW.itm~ ~override~
+	SAY NAME2 @1452
+	SAY DESC @1454
+
+COPY ~DSotSC/base/itm/DSBOW01.itm~ ~override~
+	SAY NAME2 @1456
+	SAY DESC @1458
+
+COPY ~DSotSC/base/itm/DSBOW02.itm~ ~override~
+	SAY NAME2 @1459
+	SAY DESC @1460
+
+COPY ~DSotSC/base/itm/DSWAND01.itm~ ~override~
+	SAY NAME2 @1462
+	SAY DESC @1464
+
+COPY ~DSotSC/base/itm/DSWAND02.itm~ ~override~
+	SAY NAME2 @1465
+	SAY DESC @1466
+
+COPY ~DSotSC/base/itm/DSWAND03.itm~ ~override~
+	SAY NAME2 @1467
+	SAY DESC @1468
+
+COPY ~DSotSC/base/itm/DSCLUB01.itm~ ~override~
+	SAY NAME2 @1470
+	SAY DESC @1472
+
+COPY ~DSotSC/base/itm/DSCLUB02.itm~ ~override~
+	SAY NAME2 @1473
+	SAY UNIDENTIFIED_DESC @1474
+	SAY DESC @1475
+
+COPY ~DSotSC/base/itm/miel.itm~ ~override~
+	SAY NAME1 @1476
+	SAY NAME2 @1476
+
+// Items needed by creatures
+
+COPY ~DSotSC/base/itm/nostring~ ~override~
+
+/////                                                  \\\\\
+///// install stores                                   \\\\\
+/////                                                  \\\\\
+
+//Install new stores
+
+COPY ~DSotSC/base/sto/DSTRUNGL.STO~ ~override~
+	SAY 0x0c @1477
+
+COPY ~DSotSC/base/sto/DSBAG01.STO~ ~override~
+
+//Modify existing stores
+
+COPY_EXISTING ~FRIEND.STO~ ~override~
+	ADD_STORE_ITEM ~DSLEAT01~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~LEAT05~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~XBOW05~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~HIGHHEDG.STO~ ~override~
+	ADD_STORE_ITEM ~DSROBE07~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSROBESO~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSZRNG03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SCRL1J~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRL7G~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLA5~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS11~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS21~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS22~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS23~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS31~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS32~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS41~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS42~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~INN3304.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+
+COPY_EXISTING ~INN3351.STO~ ~override~
+	ADD_STORE_ITEM ~XBOW02~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~STO0703.STO~ ~override~
+	ADD_STORE_ITEM ~DSBOLT01~ #10 #0 #0 ~IDENTIFIED~ #10
+	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSWAND01~ #10 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~QUIVER05~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SCRL8P~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRL9J~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS34~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS51~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS71~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLDS93~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~WAND09~ #20 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~WAND13~ #20 #0 #0 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~STO4803.STO~ ~override~
+	ADD_STORE_ITEM ~BOW04~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~STO4909.STO~ ~override~
+	ADD_STORE_ITEM ~AROW05~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
+
+COPY_EXISTING ~STOBLACK.STO~ ~override~
+	ADD_STORE_ITEM ~SPER02~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~STOSILEN.STO~ ~override~
+	ADD_STORE_ITEM ~DSHAT01~ #0 #0 #0 ~IDENTIFIED~ #2
+	PATCH_IF FILE_EXISTS_IN_GAME ~HELMSUN.itm~ BEGIN
+		ADD_STORE_ITEM ~HELMSUN~ #0 #0 #0 ~IDENTIFIED~ #1
+	END
+
+COPY_EXISTING ~TAERUM.STO~ ~override~
+	ADD_STORE_ITEM ~AROW10~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~AX1H05~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~HELM06~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #4
+
+COPY_EXISTING ~TEM0131.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSCHAN02~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~TEM0132.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~TEM2304.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~TEM2601.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~TEM3402.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #9
+	ADD_STORE_ITEM ~DSBOW02~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN04~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSRNG103~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~TEM4802.STO~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
+
+/////                                                  \\\\\
+///// install creatures                                \\\\\
+/////                                                  \\\\\
+
+//Install new creatures
+
+COPY ~DSotSC/base/cre/DSARCHDR.cre~ ~override~
+	SAY NAME1 @2000
+	SAY NAME2 @2000
+
+COPY ~DSotSC/base/cre/DSBANSHE.cre~ ~override~
+	SAY NAME1 @2001
+	SAY NAME2 @2001
+
+COPY ~DSotSC/base/cre/DSBARDO.cre~ ~override~
+	SAY NAME1 @2002
+	SAY NAME2 @2002
+	SAY 0xa4  @20301 //INITIAL_MEETING
+	SAY 0xa8  @20302 //MORALE
+	SAY 0xac  @20304 //HAPPY
+	SAY 0xb0  @20305 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20306 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20307 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20308 //LEADER
+	SAY 0xc0  @20309 //TIRED
+	SAY 0xc4  @20310 //BORED
+	SAY 0xc8  @20303 //BATTLE_CRY1
+	SAY 0xcc  @20345 //BATTLE_CRY2
+	SAY 0xd0  @20346 //BATTLE_CRY3
+	SAY 0xd4  @20347 //BATTLE_CRY4
+	SAY 0xd8  @20348 //BATTLE_CRY5
+	SAY 0xec  @20338 //DAMAGE
+	SAY 0xf0  @20339 //DYING
+	SAY 0xf4  @20311 //HURT
+	SAY 0xf8  @20312 //AREA_FOREST
+	SAY 0xfc  @20313 //AREA_CITY
+	SAY 0x100 @20314 //AREA_DUNGEON
+	SAY 0x104 @20315 //AREA_DAY
+	SAY 0x108 @20316 //AREA_NIGHT
+	SAY 0x10c @20317 //SELECT_COMMON1
+	SAY 0x110 @20318 //SELECT_COMMON2
+	SAY 0x114 @20319 //SELECT_COMMON3
+	SAY 0x118 @20355 //SELECT_COMMON4
+	SAY 0x11c @20356 //SELECT_COMMON5
+	SAY 0x120 @20357 //SELECT_COMMON6
+	SAY 0x124 @20320 //SELECT_ACTION1
+	SAY 0x128 @20321 //SELECT_ACTION2
+	SAY 0x12c @20325 //SELECT_ACTION3
+	SAY 0x154 @20327 //INSULT1
+	SAY 0x158 @20328 //INSULT2
+	SAY 0x15c @20323 //INSULT3
+	SAY 0x160 @20329 //COMPLIMENT1
+	SAY 0x164 @20330 //COMPLIMENT2
+	SAY 0x16c @20331 //SPECIAL1
+	SAY 0x170 @20332 //SPECIAL2
+	SAY 0x174 @20322 //SPECIAL3
+	SAY 0x178 @20333 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20334 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20335 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x184 @20336 //RESPONSE_TO_COMPLIMENT2
+	SAY 0x188 @20337 //RESPONSE_TO_COMPLIMENT3
+	SAY 0x18c @20340 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20341 //RESPONSE_TO_INSULT2
+	SAY 0x194 @20342 //RESPONSE_TO_INSULT3
+	SAY 0x1a0 @20324 //SELECT_RARE1
+	SAY 0x1a4 @20326 //SELECT_RARE2
+	SAY 0x1a8 @20349 //CRITICAL_HIT
+	SAY 0x1ac @20343 //CRITICAL_MISS
+	SAY 0x1b0 @20350 //TARGET_IMMUNE
+	SAY 0x1b4 @20351 //INVENTORY_FULL
+	SAY 0x1b8 @20352 //PICKED_POCKET
+	SAY 0x1bc @20353 //HIDDEN_IN_SHADOWS
+	SAY 0x1c0 @20344 //SPELL_DISRUPTED
+	SAY 0x1c4 @20354 //SET_A_TRAP
+	SAY 0x1cc @20358 //BIO
+
+COPY ~DSotSC/base/cre/DSBLANE.cre~ ~override~
+	SAY NAME1 @2003
+	SAY NAME2 @2003
+
+COPY ~DSotSC/base/cre/DSBUB.cre~ ~override~
+	~DSotSC/base/cre/DSBUB6.cre~ ~override~
+	SAY NAME1 @2004
+	SAY NAME2 @2004
+	SAY 0xa4  @20601 //INITIAL_MEETING
+	SAY 0xa8  @20602 //MORALE
+	SAY 0xac  @20604 //HAPPY
+	SAY 0xb0  @20605 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20606 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20607 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20608 //LEADER
+	SAY 0xc0  @20609 //TIRED
+	SAY 0xc4  @20610 //BORED
+	SAY 0xc8  @20603 //BATTLE_CRY1
+	SAY 0xec  @20638 //DAMAGE
+	SAY 0xf0  @20639 //DYING
+	SAY 0xf4  @20611 //HURT
+	SAY 0xf8  @20612 //AREA_FOREST
+	SAY 0xfc  @20613 //AREA_CITY
+	SAY 0x100 @20614 //AREA_DUNGEON
+	SAY 0x104 @20615 //AREA_DAY
+	SAY 0x108 @20616 //AREA_NIGHT
+	SAY 0x10c @20617 //SELECT_COMMON1
+	SAY 0x110 @20618 //SELECT_COMMON2
+	SAY 0x114 @20619 //SELECT_COMMON3
+	SAY 0x124 @20620 //SELECT_ACTION1
+	SAY 0x128 @20621 //SELECT_ACTION2
+	SAY 0x12c @20622 //SELECT_ACTION3
+	SAY 0x154 @20625 //INSULT1
+	SAY 0x158 @20626 //INSULT2
+	SAY 0x15c @20627 //INSULT3
+	SAY 0x160 @20628 //COMPLIMENT1
+	SAY 0x164 @20629 //COMPLIMENT2
+	SAY 0x168 @20630 //COMPLIMENT3
+	SAY 0x16c @20631 //SPECIAL1
+	SAY 0x170 @20632 //SPECIAL2
+	SAY 0x174 @20624 //SPECIAL3
+	SAY 0x178 @20633 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20634 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20635 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x184 @20636 //RESPONSE_TO_COMPLIMENT2
+	SAY 0x188 @20637 //RESPONSE_TO_COMPLIMENT3
+	SAY 0x18c @20640 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20641 //RESPONSE_TO_INSULT2
+	SAY 0x194 @20642 //RESPONSE_TO_INSULT3
+	SAY 0x1a0 @20623 //SELECT_RARE1
+	SAY 0x1ac @20643 //CRITICAL_MISS
+	SAY 0x1a8 @20644 //CRITICAL_HIT
+	SAY 0x1cc @20645 //BIO
+
+COPY ~DSotSC/base/cre/DSCLARS.cre~ ~override~
+	SAY NAME1 @2005
+	SAY NAME2 @2005
+	SAY 0xa4 @2006
+	SAY 0xec @2007
+	PATCH_IF (GAME_IS ~eet~) BEGIN
+		REPLACE_CRE_ITEM ~RNDTRE3_~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+		//WRITE_ASCII 0x40c "RNDTRE3_" #8
+	END
+
+COPY ~DSotSC/base/cre/DSCONCH5.cre~ ~override~
+	~DSotSC/base/cre/DSCONCH7.cre~ ~override~
+	SAY NAME1 @2008
+	SAY NAME2 @2008
+	SAY 0xa4  @20101 //INITIAL_MEETING
+	SAY 0xa8  @20102 //MORALE
+	SAY 0xac  @20104 //HAPPY
+	SAY 0xb0  @20105 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20106 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20107 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20104 //LEADER
+	SAY 0xc0  @20109 //TIRED
+	SAY 0xc4  @20110 //BORED
+	SAY 0xc8  @20103 //BATTLE_CRY1
+	SAY 0xcc  @20125 //BATTLE_CRY2
+	SAY 0xec  @20138 //DAMAGE
+	SAY 0xf0  @20139 //DYING
+	SAY 0xf4  @20111 //HURT
+	SAY 0xfc  @20113 //AREA_CITY
+	SAY 0x100 @20114 //AREA_DUNGEON
+	SAY 0x10c @20117 //SELECT_COMMON1
+	SAY 0x110 @20118 //SELECT_COMMON2
+	SAY 0x114 @20119 //SELECT_COMMON3
+	SAY 0x124 @20120 //SELECT_ACTION1
+	SAY 0x128 @20121 //SELECT_ACTION2
+	SAY 0x12c @20122 //SELECT_ACTION3
+	SAY 0x154 @20127 //INSULT1
+	SAY 0x158 @20128 //INSULT2
+	SAY 0x15c @20131 //INSULT3
+	SAY 0x160 @20135 //COMPLIMENT1
+	SAY 0x164 @20137 //COMPLIMENT2
+	SAY 0x16c @20136 //SPECIAL1
+	SAY 0x170 @20129 //SPECIAL2
+	SAY 0x174 @20130 //SPECIAL3
+	SAY 0x178 @20140 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20141 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20124 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x18c @20132 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20133 //RESPONSE_TO_INSULT2
+	SAY 0x1a0 @20123 //SELECT_RARE1
+	SAY 0x1a4 @20126 //SELECT_RARE2
+	SAY 0x1cc @2046 //BIO
+
+COPY ~DSotSC/base/cre/DSCOOSHE.cre~ ~override~
+	SAY NAME1 @2047
+	SAY NAME2 @2047
+
+COPY ~DSotSC/base/cre/DSCUCH5.cre~ ~override~
+	~DSotSC/base/cre/DSCUCH7.cre~ ~override~
+	SAY NAME1 @2048
+	SAY NAME2 @2048
+	SAY 0xa4  @20201 //INITIAL_MEETING
+	SAY 0xa8  @20202 //MORALE
+	SAY 0xac  @20204 //HAPPY
+	SAY 0xb0  @20205 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20206 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20207 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20208 //LEADER
+	SAY 0xc0  @20209 //TIRED
+	SAY 0xc4  @20210 //BORED
+	SAY 0xc8  @20203 //BATTLE_CRY1
+	SAY 0xec  @20239 //DAMAGE
+	SAY 0xf0  @20211 //DYING
+	SAY 0xf4  @20238 //HURT
+	SAY 0xf8  @20212 //AREA_FOREST
+	SAY 0xfc  @20213 //AREA_CITY
+	SAY 0x100 @20214 //AREA_DUNGEON
+	SAY 0x104 @20215 //AREA_DAY
+	SAY 0x108 @20216 //AREA_NIGHT
+	SAY 0x10c @20217 //SELECT_COMMON1
+	SAY 0x110 @20218 //SELECT_COMMON2
+	SAY 0x114 @20219 //SELECT_COMMON3
+	SAY 0x124 @20220 //SELECT_ACTION1
+	SAY 0x128 @20221 //SELECT_ACTION2
+	SAY 0x12c @20222 //SELECT_ACTION3
+	SAY 0x154 @20224 //INSULT1
+	SAY 0x16c @20234 //SPECIAL1
+	SAY 0x18c @20225 //RESPONSE_TO_INSULT1
+	SAY 0x1a0 @20223 //SELECT_RARE1
+	SAY 0x1a4 @20226 //SELECT_RARE2
+	SAY 0x1cc @2077 //BIO
+
+/*COPY ~DSotSC/base/cre/DSDANCER.CRE~ ~override~
+	SAY NAME1 @2078
+	SAY NAME2 @2078*/
+
+COPY ~DSotSC/base/cre/DSDEAZLE.cre~ ~override~
+	SAY NAME1 @2079
+	SAY NAME2 @2079
+
+COPY ~DSotSC/base/cre/DSDROW01.cre~ ~override~
+	SAY NAME1 @2080
+	SAY NAME2 @2080
+
+COPY ~DSotSC/base/cre/DSDROW02.cre~ ~override~
+	SAY NAME1 @2081
+	SAY NAME2 @2081
+
+COPY ~DSotSC/base/cre/DSDROW03.cre~ ~override~
+	SAY NAME1 @2082
+	SAY NAME2 @2082
+
+COPY ~DSotSC/base/cre/DSDROW04.cre~ ~override~
+	SAY NAME1 @2083
+	SAY NAME2 @2083
+
+COPY ~DSotSC/base/cre/DSDUEGM1.cre~ ~override~
+	SAY NAME1 @2084
+	SAY NAME2 @2084
+
+COPY ~DSotSC/base/cre/DSDUEGMA.cre~ ~override~
+	SAY NAME1 @2085
+	SAY NAME2 @2085
+
+COPY ~DSotSC/base/cre/DSDUEGSK.cre~ ~override~
+	SAY NAME1 @2086
+	SAY NAME2 @2086
+
+COPY ~DSotSC/base/cre/DSDUERG1.cre~ ~override~
+	SAY NAME1 @2087
+	SAY NAME2 @2087
+
+COPY ~DSotSC/base/cre/DSDUERG2.cre~ ~override~
+	SAY NAME1 @2088
+	SAY NAME2 @2088
+
+COPY ~DSotSC/base/cre/DSDUERG3.cre~ ~override~
+	SAY NAME1 @2089
+	SAY NAME2 @2089
+
+COPY ~DSotSC/base/cre/DSDUERGA.cre~ ~override~
+	SAY NAME1 @2090
+	SAY NAME2 @2090
+
+COPY ~DSotSC/base/cre/DSFERTH.cre~ ~override~
+	SAY NAME1 @2091
+	SAY NAME2 @2091
+	SAY 0xa4 @20801 //INITIAL_MEETING
+	SAY 0xa8 @20802 //MORALE
+	SAY 0xac @20804 //HAPPY
+	SAY 0xb0 @20805 //UNHAPPY_ANNOYED
+	SAY 0xb4 @20806 //UNHAPPY_SERIOUS
+	SAY 0xb8 @20807 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc @20808 //LEADER
+	SAY 0xc0 @20809 //TIRED
+	SAY 0xc4 @20810 //BORED
+	SAY 0xc8 @20803 //BATTLE_CRY1
+	SAY 0xec @20838 //DAMAGE
+	SAY 0xf0 @20811 //DYING
+	SAY 0xf4 @20839 //HURT
+	SAY 0xf8 @20812 //AREA_FOREST
+	SAY 0xfc @20813 //AREA_CITY
+	SAY 0x100 @20814 //AREA_DUNGEON
+	SAY 0x104 @20815 //AREA_DAY
+	SAY 0x108 @20816 //AREA_NIGHT
+	SAY 0x10c @20817 //SELECT_COMMON1
+	SAY 0x110 @20818 //SELECT_COMMON2
+	SAY 0x114 @20819 //SELECT_COMMON3
+	SAY 0x124 @20820 //SELECT_ACTION1
+	SAY 0x128 @20821 //SELECT_ACTION2
+	SAY 0x12c @20822 //SELECT_ACTION3
+	SAY 0x154 @20837 //INSULT1
+	SAY 0x158 @20826 //INSULT2
+	SAY 0x15c @20829 //INSULT3
+	SAY 0x160 @20835 //COMPLIMENT1
+	SAY 0x164 @20830 //COMPLIMENT2
+	SAY 0x168 @20831 //COMPLIMENT3
+	SAY 0x16c @20836 //SPECIAL1
+	SAY 0x170 @20833 //SPECIAL2
+	SAY 0x174 @20824 //SPECIAL3
+	SAY 0x178 @20840 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20841 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20834 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x18c @20832 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20827 //RESPONSE_TO_INSULT2
+	SAY 0x194 @20828 //RESPONSE_TO_INSULT3
+	SAY 0x1a0 @20825 //SELECT_RARE1
+	SAY 0x1a4 @20823 //SELECT_RARE2
+	SAY 0x1cc @2133 //BIO
+
+COPY ~DSotSC/base/cre/DSFEYDO.cre~ ~override~
+	SAY NAME1 @2134
+	SAY NAME2 @2134
+
+COPY ~DSotSC/base/cre/DSFORDRG.cre~ ~override~
+	SAY NAME1 @2135
+	SAY NAME2 @2135
+	SAY 0xb8 ~~ [BAZDR306]
+	SAY 0xc8 ~~ [BAZDR302]
+	SAY 0xcc @2138
+	SAY 0xec ~~ [BAZDR304]
+	SAY 0xf0 ~~ [BAZDR305]
+	SAY 0x10c ~~ [BAZDR301]
+
+COPY ~DSotSC/base/cre/DSFRDRGB.cre~ ~override~
+	SAY NAME1 @2142
+	SAY NAME2 @2142
+
+COPY ~DSotSC/base/cre/DSGILIAN.cre~ ~override~
+	SAY NAME1 @2143
+	SAY NAME2 @2143
+
+COPY ~DSotSC/base/cre/DSGNOLLC.cre~ ~override~
+	SAY NAME1 @2144
+	SAY NAME2 @2144
+	SAY 0xc8 ~~ [GNOLL03]
+	SAY 0xcc @2146
+	SAY 0xec ~~ [GNOLL08]
+	SAY 0xf0 ~~ [GNOLL09]
+	SAY 0x10c ~~ [GNOLL01]
+	SAY 0x110 ~~ [GNOLL02]
+
+COPY ~DSotSC/base/cre/DSGOBCHF.cre~ ~override~
+	SAY NAME1 @2151
+	SAY NAME2 @2151
+
+COPY ~DSotSC/base/cre/DSGRUNK.cre~ ~override~
+	SAY NAME1 @2152
+	SAY NAME2 @2152
+
+COPY ~DSotSC/base/cre/DSGUARD.cre~ ~override~
+
+COPY ~DSotSC/base/cre/DSHALF01.cre~ ~override~
+	SAY NAME1 @2153
+	SAY NAME2 @2153
+	SAY 0xa4 @2154
+	SAY 0xec ~~ [GANDL03]
+	SAY 0xf0 ~~ [GANDL04]
+	SAY 0x10c @2157
+
+COPY ~DSotSC/base/cre/DSHALF02.cre~ ~override~
+	SAY NAME1 @2158
+	SAY NAME2 @2158
+
+COPY ~DSotSC/base/cre/DSHALF03.cre~ ~override~
+	SAY NAME1 @2158
+	SAY NAME2 @2158
+
+COPY ~DSotSC/base/cre/DSHALF04.cre~ ~override~
+	SAY NAME1 @2159
+	SAY NAME2 @2159
+
+COPY ~DSotSC/base/cre/DSHALF05.cre~ ~override~
+	SAY NAME1 @2159
+	SAY NAME2 @2159
+
+COPY ~DSotSC/base/cre/DSHALFD2.cre~ ~override~
+	SAY NAME1 @2158
+	SAY NAME2 @2158
+
+COPY ~DSotSC/base/cre/DSHALFDD.cre~ ~override~
+	SAY NAME1 @2158
+	SAY NAME2 @2158
+
+COPY ~DSotSC/base/cre/DSJABB.cre~ ~override~
+	SAY NAME1 @2160
+	SAY NAME2 @2160
+
+COPY ~DSotSC/base/cre/DSJAREN.cre~ ~override~
+	SAY NAME1 @2161
+	SAY NAME2 @2161
+
+COPY ~DSotSC/base/cre/DSJEREMY.cre~ ~override~
+	SAY NAME1 @2162
+	SAY NAME2 @2162
+
+COPY ~DSotSC/base/cre/DSJETLAY.cre~ ~override~
+	~DSotSC/base/cre/DSJETLA9.cre~ ~override~
+	SAY NAME1 @2163
+	SAY NAME2 @2163
+	SAY 0xa4  @20401 //INITIAL_MEETING
+	SAY 0xa8  @20402 //MORALE
+	SAY 0xac  @20404 //HAPPY
+	SAY 0xb0  @20405 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20406 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20407 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20408 //LEADER
+	SAY 0xc0  @20409 //TIRED
+	SAY 0xc4  @20410 //BORED
+	SAY 0xc8  @20403 //BATTLE_CRY1
+	SAY 0xec  @20426 //DAMAGE
+	SAY 0xf0  @20439 //DYING
+	SAY 0xf4  @20411 //HURT
+	SAY 0xf8  @20412 //AREA_FOREST
+	SAY 0xfc  @20413 //AREA_CITY
+	SAY 0x100 @20414 //AREA_DUNGEON
+	SAY 0x108 @20415 //AREA_NIGHT
+	SAY 0x10c @20417 //SELECT_COMMON1
+	SAY 0x110 @20418 //SELECT_COMMON2
+	SAY 0x114 @20419 //SELECT_COMMON3
+	SAY 0x124 @20420 //SELECT_ACTION1
+	SAY 0x128 @20416 //SELECT_ACTION2
+	SAY 0x12c @20424 //SELECT_ACTION3
+	SAY 0x130 @20431 //SELECT_ACTION4
+	SAY 0x154 @20422 //INSULT1
+	SAY 0x158 @20435 //INSULT2
+	SAY 0x15c @20427 //INSULT3
+	SAY 0x160 @20436 //COMPLIMENT1
+	SAY 0x164 @20442 //COMPLIMENT2
+	SAY 0x168 @20404 //COMPLIMENT3
+	SAY 0x16c @20430 //SPECIAL1
+	SAY 0x170 @20434 //SPECIAL2
+	SAY 0x174 @20432 //SPECIAL3
+	SAY 0x178 @20438 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20423 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20442 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x18c @20425 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20433 //RESPONSE_TO_INSULT2
+	SAY 0x194 @20428 //RESPONSE_TO_INSULT3
+	SAY 0x1a0 @20421 //SELECT_RARE1
+	SAY 0x1a4 @20429 //SELECT_RARE2
+	SAY 0x1cc @2202 //BIO
+	ADD_CRE_ITEM ~DSCLCK23~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
+
+COPY ~DSotSC/base/cre/DSJULES.cre~ ~override~
+	SAY NAME1 @2203
+	SAY NAME2 @2203
+
+COPY ~DSotSC/base/cre/DSKALANN.cre~ ~override~
+	SAY NAME1 @2204
+	SAY NAME2 @2204
+
+COPY ~DSotSC/base/cre/DSKATERI.cre~ ~override~
+	SAY NAME1 @2205
+	SAY NAME2 @2205
+
+COPY ~DSotSC/base/cre/DSKEIRI5.cre~ ~override~
+	~DSotSC/base/cre/DSKEIRI7.cre~ ~override~
+	SAY NAME1 @2206
+	SAY NAME2 @2206
+	SAY 0xa4 @20701 //INITIAL_MEETING
+	SAY 0xa8 @20702 //MORALE
+	SAY 0xac @20704 //HAPPY
+	SAY 0xb0 @20705 //UNHAPPY_ANNOYED
+	SAY 0xb4 @20706 //UNHAPPY_SERIOUS
+	SAY 0xb8 @20707 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc @20708 //LEADER
+	SAY 0xc0 @20709 //TIRED
+	SAY 0xc4 @20710 //BORED
+	SAY 0xc8 @20703 //BATTLE_CRY1
+	SAY 0xec @20729 //DAMAGE
+	SAY 0xf0 @20739 //DYING
+	SAY 0xf4 @20711 //HURT
+	SAY 0xf8 @20712 //AREA_FOREST
+	SAY 0xfc @20713 //AREA_CITY
+	SAY 0x100 @20714 //AREA_DUNGEON
+	SAY 0x104 @20713 //AREA_DAY
+	SAY 0x108 @20716 //AREA_NIGHT
+	SAY 0x10c @20717 //SELECT_COMMON1
+	SAY 0x110 @20718 //SELECT_COMMON2
+	SAY 0x114 @20719 //SELECT_COMMON3
+	SAY 0x124 @20720 //SELECT_ACTION1
+	SAY 0x128 @20721 //SELECT_ACTION2
+	SAY 0x12c @20722 //SELECT_ACTION3
+	SAY 0x154 @20727 //INSULT1
+	SAY 0x158 @20723 //INSULT2
+	SAY 0x160 @20726 //COMPLIMENT1
+	SAY 0x164 @20724 //COMPLIMENT2
+	SAY 0x168 @20737 //COMPLIMENT3
+	SAY 0x16c @20735 //SPECIAL1
+	SAY 0x170 @20725 //SPECIAL2
+	SAY 0x178 @20740 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @20741 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @20736 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x184 @20730 //RESPONSE_TO_COMPLIMENT2
+	SAY 0x188 @20731 //RESPONSE_TO_COMPLIMENT3
+	SAY 0x18c @20732 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20733 //RESPONSE_TO_INSULT2
+	SAY 0x1ac @20738 //CRITICAL_MISS
+	SAY 0x1cc @2245 //BIO
+
+COPY ~DSotSC/base/cre/DSKENB.cre~ ~override~
+	SAY NAME1 @2246
+	SAY NAME2 @2246
+
+COPY ~DSotSC/base/cre/DSLENNAN.cre~ ~override~
+	SAY NAME1 @2247
+	SAY NAME2 @2247
+
+COPY ~DSotSC/base/cre/DSLICH.cre~ ~override~
+	SAY NAME1 @2248
+	SAY NAME2 @2248
+	SAY 0xa4 @20901
+	SAY 0x100 @20902
+
+COPY ~DSotSC/base/cre/DSLICH1.cre~ ~override~
+	SAY NAME1 @2248
+	SAY NAME2 @2248
+	SAY 0x100 @20902
+
+COPY ~DSotSC/base/cre/DSLICH2.cre~ ~override~
+	SAY NAME1 @2248
+	SAY NAME2 @2248
+	SAY 0x100 @20902
+
+COPY ~DSotSC/base/cre/DSLICH3.cre~ ~override~
+	SAY NAME1 @2248
+	SAY NAME2 @2248
+	SAY 0x100 @20902
+
+COPY ~DSotSC/base/cre/DSMAID.cre~ ~override~
+	SAY NAME1 @2251
+	SAY NAME2 @2251
+
+COPY ~DSotSC/base/cre/DSMEGAN.cre~ ~override~
+	SAY NAME1 @2252
+	SAY NAME2 @2252
+
+COPY ~DSotSC/base/cre/DSMOPPY.cre~ ~override~
+	SAY NAME1 @2253
+	SAY NAME2 @2253
+
+COPY ~DSotSC/base/cre/DSMORTUS.cre~ ~override~
+	SAY NAME1 @2254
+	SAY NAME2 @2254
+
+COPY ~DSotSC/base/cre/DSNORBY.cre~ ~override~
+	SAY NAME1 @2255
+	SAY NAME2 @2255
+
+COPY ~DSotSC/base/cre/DSORC01.cre~ ~override~
+	SAY NAME1 @2256
+	SAY NAME2 @2256
+
+COPY ~DSotSC/base/cre/DSOTHO.cre~ ~override~
+	SAY NAME1 @2257
+	SAY NAME2 @2257
+
+COPY ~DSotSC/base/cre/DSPHANT1.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSPHANT2.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSPHANT3.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSPHANT4.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSPHANT5.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSPHANT6.cre~ ~override~
+	SAY NAME1 @2258
+	SAY NAME2 @2258
+
+COPY ~DSotSC/base/cre/DSROACH.cre~ ~override~
+	SAY NAME1 @2259
+	SAY NAME2 @2259
+
+COPY ~DSotSC/base/cre/DSSHAR.cre~ ~override~
+	SAY NAME1 @2260
+	SAY NAME2 @2260
+
+COPY ~DSotSC/base/cre/DSSKEEZ.cre~ ~override~
+	~DSotSC/base/cre/DSSKEEZ6.cre~ ~override~
+	SAY NAME1 @2261
+	SAY NAME2 @2261
+	SAY 0xa4  @20501 //INITIAL_MEETING
+	SAY 0xa8  @20540 //MORALE
+	SAY 0xac  @20541 //HAPPY
+	SAY 0xb0  @20522 //UNHAPPY_ANNOYED
+	SAY 0xb4  @20519 //UNHAPPY_SERIOUS
+	SAY 0xb8  @20521 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @20508 //LEADER
+	SAY 0xc0  @20509 //TIRED
+	SAY 0xc4  @20510 //BORED
+	SAY 0xc8  @20503 //BATTLE_CRY1
+	SAY 0xec  @20538 //DAMAGE
+	SAY 0xf0  @20511 //DYING
+	SAY 0xf4  @20539 //HURT
+	SAY 0xf8  @20512 //AREA_FOREST
+	SAY 0xfc  @20513 //AREA_CITY
+	SAY 0x100 @20514 //AREA_DUNGEON
+	SAY 0x104 @20515 //AREA_DAY
+	SAY 0x108 @20516 //AREA_NIGHT
+	SAY 0x10c @20517 //SELECT_COMMON1
+	SAY 0x110 @20518 //SELECT_COMMON2
+	SAY 0x114 @20526 //SELECT_COMMON3
+	SAY 0x124 @20520 //SELECT_ACTION1
+	SAY 0x128 @20521 //SELECT_ACTION2
+	SAY 0x12c @20522 //SELECT_ACTION3
+	SAY 0x154 @20513 //INSULT1
+	SAY 0x158 @20523 //INSULT2
+	SAY 0x160 @20525 //COMPLIMENT1
+	SAY 0x164 @20541 //COMPLIMENT2
+	SAY 0x16c @20515 //SPECIAL1
+	SAY 0x170 @20523 //SPECIAL2
+	SAY 0x178 @20540 //REACT_TO_DIE_GENERAL
+	SAY 0x180 @20518 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x18c @20519 //RESPONSE_TO_INSULT1
+	SAY 0x190 @20524 //RESPONSE_TO_INSULT2
+	SAY 0x1cc @2286 //BIO
+
+COPY ~DSotSC/base/cre/DSSPEC.cre~ ~override~
+	SAY NAME1 @2287
+	SAY NAME2 @2287
+
+COPY ~DSotSC/base/cre/DSTHOMIC.cre~ ~override~
+	SAY NAME1 @2288
+	SAY NAME2 @2288
+
+COPY ~DSotSC/base/cre/dsthorf2.cre~ ~override~
+	~DSotSC/base/cre/dsthorf4.cre~ ~override~
+	~DSotSC/base/cre/dsthorf6.cre~ ~override~
+	SAY NAME1 @2249
+	SAY NAME2 @2249
+	SAY 0xa4  @21001 //INITIAL_MEETING
+	SAY 0xa8  @21002 //MORALE
+	SAY 0xac  @21004 //HAPPY
+	SAY 0xb0  @21005 //UNHAPPY_ANNOYED
+	SAY 0xb4  @21006 //UNHAPPY_SERIOUS
+	SAY 0xb8  @21007 //UNHAPPY_BREAKING_POINT
+	SAY 0xbc  @21008 //LEADER
+	SAY 0xc0  @21009 //TIRED
+	SAY 0xc4  @21010 //BORED
+	SAY 0xc8  @21003 //BATTLE_CRY1
+	SAY 0xcc  @21012 //BATTLE_CRY2
+	SAY 0xd0  @21013 //BATTLE_CRY3
+	SAY 0xd4  @21024 //BATTLE_CRY4
+	SAY 0xec  @21038 //DAMAGE
+	SAY 0xf0  @21039 //DYING
+	SAY 0xf4  @21011 //HURT
+	SAY 0xf8  @21014 //AREA_FOREST
+	SAY 0xfc  @21015 //AREA_CITY
+	SAY 0x100 @21016 //AREA_DUNGEON
+	SAY 0x104 @21017 //AREA_DAY
+	SAY 0x108 @21018 //AREA_NIGHT
+	SAY 0x10c @21019 //SELECT_COMMON1
+	SAY 0x110 @21020 //SELECT_COMMON2
+	SAY 0x114 @21021 //SELECT_COMMON3
+	SAY 0x124 @21022 //SELECT_ACTION1
+	SAY 0x128 @21023 //SELECT_ACTION2
+	SAY 0x12c @21025 //SELECT_ACTION3
+	SAY 0x154 @21030 //INSULT1
+	SAY 0x158 @21031 //INSULT2
+	SAY 0x15c @21032 //INSULT3
+	SAY 0x160 @21027 //COMPLIMENT1
+	SAY 0x164 @21028 //COMPLIMENT2
+	SAY 0x168 @21029 //COMPLIMENT3
+	SAY 0x16c @21033 //SPECIAL1
+	SAY 0x170 @21034 //SPECIAL2
+	SAY 0x174 @21035 //SPECIAL3
+	SAY 0x178 @21036 //REACT_TO_DIE_GENERAL
+	SAY 0x17c @21037 //REACT_TO_DIE_SPECIFIC
+	SAY 0x180 @21040 //RESPONSE_TO_COMPLIMENT1
+	SAY 0x184 @21041 //RESPONSE_TO_COMPLIMENT2
+	SAY 0x188 @21042 //RESPONSE_TO_COMPLIMENT3
+	SAY 0x18c @21043 //RESPONSE_TO_INSULT1
+	SAY 0x190 @21044 //RESPONSE_TO_INSULT2
+	SAY 0x194 @21045 //RESPONSE_TO_INSULT3
+	SAY 0x1a0 @21046 //SELECT_RARE1
+	SAY 0x1a4 @21047 //SELECT_RARE2
+	SAY 0x1cc @21050 //BIO
+
+COPY ~DSotSC/base/cre/DSTORQUI.cre~ ~override~
+	SAY NAME1 @2289
+	SAY NAME2 @2289
+
+COPY ~DSotSC/base/cre/DSTRUNGL.cre~ ~override~
+	SAY NAME1 @2290
+	SAY NAME2 @2290
+
+COPY ~DSotSC/base/cre/DSVAMPF1.cre~ ~override~
+	SAY NAME1 @2291
+	SAY NAME2 @2291
+
+COPY ~DSotSC/base/cre/DSVAMPF2.cre~ ~override~
+	SAY NAME1 @2291
+	SAY NAME2 @2291
+
+COPY ~DSotSC/base/cre/DSVAMPM.cre~ ~override~
+	SAY NAME1 @2292
+	SAY NAME2 @2292
+
+COPY ~DSotSC/base/cre/DSWELF1.cre~ ~override~
+	SAY NAME1 @2293
+	SAY NAME2 @2293
+
+COPY ~DSotSC/base/cre/DSWELF1E.cre~ ~override~
+	SAY NAME1 @2294
+	SAY NAME2 @2294
+
+COPY ~DSotSC/base/cre/DSWELF2.cre~ ~override~
+	SAY NAME1 @2293
+	SAY NAME2 @2293
+
+COPY ~DSotSC/base/cre/DSWELF2E.cre~ ~override~
+	SAY NAME1 @2294
+	SAY NAME2 @2294
+
+COPY ~DSotSC/base/cre/DSWOLF1.cre~ ~override~
+	SAY NAME1 @2295
+	SAY NAME2 @2295
+
+COPY ~DSotSC/base/cre/XVART02.CRE~ ~override~
+	SAY 0xc8 #5133
+	SAY 0xcc #5134
+	SAY 0xdc #5491
+	SAY 0xe0 #5492
+	SAY 0xec #5494
+	SAY 0xf0 #5495
+	SAY 0x10c #5002
+	SAY 0x110 #5004
+
+COPY ~DSotSC/base/cre/XVART03.CRE~ ~override~
+	SAY 0xc8 #5133
+	SAY 0xcc #5134
+	SAY 0xdc #5491
+	SAY 0xe0 #5492
+	SAY 0xec #5494
+	SAY 0xf0 #5495
+	SAY 0x10c #5002
+	SAY 0x110 #5004
+
+COPY ~DSotSC/base/cre/xvartpre.cre~ ~override~
+	SAY NAME1 @2164
+	SAY NAME2 @2164
+	SAY 0xc8 #5133
+	SAY 0xcc #5134
+	SAY 0xdc #5491
+	SAY 0xe0 #5492
+	SAY 0xec #5494
+	SAY 0xf0 #5495
+	SAY 0x10c #5002
+	SAY 0x110 #5004
+
+COPY ~DSotSC/base/cre/XVART_D.CRE~ ~override~
+	SAY 0xc8 #5133
+	SAY 0xcc #5134
+	SAY 0xdc #5491
+	SAY 0xe0 #5492
+	SAY 0xec #5494
+	SAY 0xf0 #5495
+	SAY 0x10c #5002
+	SAY 0x110 #5004
+
+COPY ~DSotSC/base/cre/DSZOMBLO.cre~ ~override~
+
+COPY ~DSotSC/base/cre/SKELLORD.cre~ ~override~
+	SAY NAME1 @2296
+	SAY NAME2 @2296
+
+COPY ~DSotSC/base/cre/KOBLDGD.cre~ ~override~
+	SAY NAME1 @2297
+	SAY NAME2 @2297
+
+COPY ~DSotSC/base/cre/GNOLL02.CRE~ ~override~
+	~DSotSC/base/cre/GNOLL03.CRE~ ~override~
+	~DSotSC/base/cre/GNOLL3.CRE~ ~override~
+	PATCH_IF (GAME_IS ~eet~) BEGIN
+		REPLACE_CRE_ITEM ~RNDTRE4_~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+		//WRITE_ASCII 0x3f8 "RNDTRE4_" #8
+	END
+
+COPY ~DSotSC/base/cre/SKELET02.CRE~ ~override~
+COPY ~DSotSC/base/cre/KOBOLD02.CRE~ ~override~
+COPY ~DSotSC/base/cre/KOBOLD11.CRE~ ~override~
+
+// Modify existing creatures
+
+COPY_EXISTING ~AMARAN.cre~ ~override~
+	WRITE_SHORT 0x14 ~4500~ //XP
+	WRITE_SHORT 0x24 ~85~
+	WRITE_SHORT 0x26 ~85~
+	WRITE_SHORT 0x52 ~13~
+	WRITE_SHORT 0x234 ~14~
+	WRITE_ASCII 0x250 ~druid12a~ #8
+	WRITE_ASCII 0x280 ~AMARAN~ #32
+	REPLACE_CRE_ITEM ~DSCDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSDRGSKN~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSZRNG03~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+	ADD_CRE_ITEM ~DSWRLSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~ANDRIS.cre~ ~override~
+	WRITE_SHORT 0x14 ~6500~ //XP
+	WRITE_SHORT 0x24 ~55~ //HP
+	WRITE_SHORT 0x26 ~55~
+	WRITE_SHORT 0x52 ~15~
+	WRITE_SHORT 0x234 ~15~ //first class level
+	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~MAGEBRAC~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSSTAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+	ADD_CRE_ITEM ~SCRLDS91~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+	ADD_CRE_ITEM ~SCRLDS31~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+
+COPY_EXISTING ~ARLIN.cre~ ~override~
+	WRITE_SHORT 0x14 ~1800~ //XP
+	WRITE_SHORT 0x24 ~27~ //HP
+	WRITE_SHORT 0x26 ~27~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~STAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+	ADD_CRE_ITEM ~SCRLDS91~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+	ADD_CRE_ITEM ~SCRLDS31~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+
+COPY_EXISTING ~BOR.cre~ ~override~
+	REPLACE_CRE_ITEM ~HELM01~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAXE01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~BRUNOS.cre~ ~override~
+	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSSHLD54~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	REPLACE_CRE_ITEM ~DSBOOT02~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSKATAN1~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~COKSMTH.cre~ ~override~
+	WRITE_SHORT 0x24 ~61~ //HP
+	WRITE_SHORT 0x26 ~61~ //max HP
+	WRITE_SHORT 0x71 ~2~ //Spear Prof
+	WRITE_SHORT 0x74 ~2~ //Axe Prof
+	WRITE_SHORT 0x234 ~9~ //first class level
+	REPLACE_CRE_ITEM ~LEAT09~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAXE05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~CORSONE.cre~ ~override~
+	REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~DENAK.cre~ ~override~
+	WRITE_SHORT 0x14 ~3750~ //XP
+	WRITE_SHORT 0x24 ~35~ //HP
+	WRITE_SHORT 0x26 ~35~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8 //Portrait
+	WRITE_ASCII 0x3c ~None~ #8 //Portrait
+	WRITE_SHORT 0x52 ~17~ //THAC0
+	WRITE_BYTE 0x54 ~11~ //ST vs Death
+	WRITE_BYTE 0x55 ~7~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~3~ //ST vs Spell
+	WRITE_SHORT 0x234 ~11~ //first class level
+	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~STAF07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~DRAKAR.cre~ ~override~
+	WRITE_SHORT 0x14 ~2200~ //XP
+	WRITE_SHORT 0x24 ~52~ //HP
+	WRITE_SHORT 0x26 ~52~ //max HP
+	WRITE_SHORT 0x52 ~13~ //THAC0
+	WRITE_BYTE 0x54 ~9~ //ST vs Death
+	WRITE_BYTE 0x55 ~10~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	REPLACE_CRE_ITEM ~DSEBHELM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSEBPLAT~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSSHLD51~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+	ADD_CRE_ITEM ~POTN14~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM2~
+
+COPY_EXISTING ~DRASUS.cre~ ~override~
+	WRITE_SHORT 0x14 ~1700~ //XP
+	WRITE_SHORT 0x24 ~86~ //HP
+	WRITE_SHORT 0x26 ~86~ //max HP
+	WRITE_SHORT 0x52 ~10~ //THAC0
+	WRITE_BYTE 0x54 ~7~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~8~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSSHLD53~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+	ADD_CRE_ITEM ~DSVFLAIL~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~GALDOR.cre~ ~override~
+	WRITE_SHORT 0x14 ~12000~ //XP
+	WRITE_SHORT 0x24 ~112~ //HP
+	WRITE_SHORT 0x26 ~112~ //max HP
+	WRITE_SHORT 0x52 ~6~ //THAC0
+	WRITE_BYTE 0x54 ~9~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~6~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~5~ //ST vs Spell
+	WRITE_SHORT 0x234 ~18~
+	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~IZEFIA.cre~ ~override~
+	WRITE_SHORT 0x14 ~2000~ //XP
+	WRITE_SHORT 0x24 ~68~ //HP
+	WRITE_SHORT 0x26 ~68~ //max HP
+	WRITE_SHORT 0x52 ~11~ //THAC0
+	WRITE_BYTE 0x54 ~6~ //ST vs Death
+	WRITE_BYTE 0x55 ~10~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~12~ //ST vs Breath
+	WRITE_BYTE 0x58 ~11~ //ST vs Spell
+	WRITE_SHORT 0x234 ~10~
+	WRITE_ASCII 0x250 ~DRUID14T~ #8
+	WRITE_ASCII 0x280 ~IZEFIA~ #32
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSAMUL01~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~KAHRK.cre~ ~override~
+	WRITE_ASCII 0x34 ~None~ #8 //Portrait
+	WRITE_ASCII 0x3c ~None~ #8 //Portrait
+	ADD_CRE_ITEM ~SCRL8Q~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+
+COPY_EXISTING ~KESTOR.cre~ ~override~
+	WRITE_SHORT 0x14 ~2300~ //XP
+	WRITE_SHORT 0x24 ~56~ //HP
+	WRITE_SHORT 0x26 ~56~ //max HP
+	WRITE_SHORT 0x234 ~12~ //first class level
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+
+COPY_EXISTING ~KRYSTI.cre~ ~override~
+	WRITE_SHORT 0x14 ~4750~ //XP
+	WRITE_SHORT 0x24 ~63~ //HP
+	WRITE_SHORT 0x26 ~63~ //max HP
+	WRITE_SHORT 0x52 ~12~ //THAC0
+	WRITE_SHORT 0x234 ~16~ //first class level
+	ADD_CRE_ITEM ~DSDAGG01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSBULL01~ #10 #0 #0 ~UNSTEALABLE~ ~QUIVER3~
+	ADD_CRE_ITEM ~SCRLA5~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+
+COPY_EXISTING ~LAUREL.cre~ ~override~
+	WRITE_ASCII 0x280 ~LAUREL~ #32 //death variable
+
+COPY_EXISTING ~LASALA.cre~ ~override~
+	WRITE_SHORT 0x14 ~1350~ //XP
+	WRITE_SHORT 0x24 ~27~ //HP
+	WRITE_SHORT 0x26 ~27~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8
+	WRITE_ASCII 0x3c ~None~ #8
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~13~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~11~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+
+COPY_EXISTING ~LASKAL.cre~ ~override~
+	WRITE_SHORT 0x14 ~2650~ //XP
+	WRITE_SHORT 0x24 ~71~ //HP
+	WRITE_SHORT 0x26 ~71~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~11~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~12~
+	WRITE_ASCII 0x258 ~DRUID14T~ #8
+	REPLACE_CRE_ITEM ~DSTDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSSTAF01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSSWD02~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~MOLKAR.cre~ ~override~
+	WRITE_SHORT 0x14 ~1900~ //XP
+	WRITE_SHORT 0x24 ~70~ //HP
+	WRITE_SHORT 0x26 ~70~ //max HP
+	WRITE_SHORT 0x52 ~13~ //THAC0
+	WRITE_BYTE 0x54 ~8~ //ST vs Death
+	WRITE_BYTE 0x55 ~10~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~11~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+	ADD_CRE_ITEM ~DSSWD03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~MORVIN.cre~ ~override~
+	WRITE_SHORT 0x14 ~1250~ //XP
+	WRITE_SHORT 0x24 ~78~ //HP
+	WRITE_SHORT 0x26 ~78~ //max HP
+	WRITE_BYTE 0x54 ~7~ //ST vs Death
+	WRITE_BYTE 0x55 ~11~ //ST vs Wands
+	WRITE_BYTE 0x56 ~10~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~12~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+	REPLACE_CRE_ITEM ~DSCRYHLM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSCRYARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSAXE03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~MULAHE.cre~ ~override~
+	WRITE_SHORT 0x14 ~750~ //XP
+	WRITE_SHORT 0x24 ~41~ //HP
+	WRITE_SHORT 0x26 ~41~ //max HP
+	REPLACE_CRE_ITEM ~CHAN04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRAC04~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~BLUN05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~OGRECO.cre~ ~override~
+	WRITE_ASCII 0x280 ~OGRECO~ #32
+
+COPY_EXISTING ~OSMADI.cre~ ~override~
+	WRITE_SHORT 0x14 ~2500~ //XP
+	WRITE_SHORT 0x24 ~59~ //HP
+	WRITE_SHORT 0x26 ~59~ //max HP
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~11~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~11~
+	WRITE_ASCII 0x258 ~DRUID14T~ #8
+	REPLACE_CRE_ITEM ~LEAT15~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSBRAC02~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSCLUB01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~RAGEFA.cre~ ~override~
+	WRITE_SHORT 0x14 ~4000~ //XP
+	WRITE_SHORT 0x24 ~42~ //HP
+	WRITE_SHORT 0x26 ~42~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	WRITE_SHORT 0x234 ~14~
+	REPLACE_CRE_ITEM ~DSROBE04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAMUL10~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~SCRL9N~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~RIELTA.cre~ ~override~
+	WRITE_SHORT 0x14 ~1200~ //XP
+	WRITE_SHORT 0x24 ~66~ //HP
+	WRITE_SHORT 0x26 ~66~ //max HP
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	WRITE_SHORT 0x234 ~16~
+	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRAC01~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSRNG06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
+	ADD_CRE_ITEM ~DSAMUL07~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSDAGG03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~SEMAJ.cre~ ~override~
+	WRITE_SHORT 0x14 ~1000~ //XP
+	WRITE_SHORT 0x24 ~62~ //HP
+	WRITE_SHORT 0x26 ~62~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8
+	WRITE_ASCII 0x3c ~None~ #8
+	WRITE_SHORT 0x52 ~13~ //THAC0
+	WRITE_BYTE 0x54 ~3~ //ST vs Death
+	WRITE_BYTE 0x55 ~1~ //ST vs Wands
+	WRITE_BYTE 0x56 ~1~ //ST vs Poly
+	WRITE_BYTE 0x57 ~2~ //ST vs Breath
+	WRITE_BYTE 0x58 ~4~ //ST vs Spell
+	WRITE_SHORT 0x234 ~14~
+	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSNEMSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~SLYTHE.cre~ ~override~
+	WRITE_SHORT 0x14 ~6000~ //XP
+	WRITE_SHORT 0x24 ~115~ //HP
+	WRITE_SHORT 0x26 ~115~ //max HP
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~6~ //ST vs Wands
+	WRITE_BYTE 0x56 ~6~ //ST vs Poly
+	WRITE_BYTE 0x57 ~5~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	REMOVE_CRE_ITEM ~SHLD08~ ~LEAT04~ ~SW1H10~ ~XBOW04~
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSAMUL06~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSSWD01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSXBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
+	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
+	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
+
+COPY_EXISTING ~TAKIYAH.cre~ ~override~
+	WRITE_SHORT 0x14 ~1000~ //XP
+	WRITE_SHORT 0x24 ~68~ //HP
+	WRITE_SHORT 0x26 ~68~ //max HP
+	WRITE_SHORT 0x234 ~10~
+	WRITE_ASCII 0x280 ~TAKIYAH~ #32
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~VAX.cre~ ~override~
+	REPLACE_CRE_ITEM ~DSAXE02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~ZAL.cre~  ~override~
+	ADD_CRE_ITEM ~DSSPERD~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON4~
+
+COPY_EXISTING ~ZEELA.cre~ ~override~
+	PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+		REMOVE_CRE_ITEM ~BLUN02~
+		REMOVE_CRE_ITEM ~BRAC02~
+		REMOVE_CRE_ITEM ~SHLD03~
+		REMOVE_CRE_ITEM ~PLAT01~
+		REMOVE_CRE_ITEM ~CHAN04~
+		REPLACE_CRE_ITEM ~PLAT04~	#0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+		ADD_CRE_ITEM ~DSSTAF06~	#0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
+		ADD_CRE_ITEM ~POTN52~	#3 #0 #0 ~UNSTEALABLE~ ~QITEM2~
+		REPLACE_CRE_ITEM ~BRAC03~	#0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	END
+BUT_ONLY
+
+/////                                                  \\\\\
+///// install areas (ARE, WED)                         \\\\\
+/////                                                  \\\\\
+
+// Install new areas
+
+COPY ~DSotSC/base/wed~ ~override~
+
+COPY ~DSotSC/base/are/%platform%/nostring~ ~override~
+
+COPY ~DSotSC/base/are/%platform%/DSC010.are~ ~override~
+	SAY 0x1f4c @2302
+
+// Modify existing areas
+
+// %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020
+COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
+	WRITE_ASCII 0x94 ~%NorthNashkelRoad%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x60  "spawns_offset"
+	READ_LONG  0x64  "spawns_num"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_SHORT 0x76  "items_num"
+	READ_LONG  0x78  "items_offset"
+	READ_LONG  0x7c  "vert_offset"
+	READ_SHORT 0x80  "vert_num"
+	READ_SHORT 0x82  "amb_num"
+	READ_LONG  0x84  "amb_offset"
+	READ_LONG  0x88  "vars_offset"
+	READ_LONG  0x8c  "vars_num"
+	READ_LONG  0xa0  "expbmp_offset"
+	READ_LONG  0xa4  "doors_num"
+	READ_LONG  0xa8  "doors_offset"
+	READ_LONG  0xac  "anim_num"
+	READ_LONG  0xb0  "anim_offset"
+	READ_LONG  0xb4  "tiled_num"
+	READ_LONG  0xb8  "tiled_offset"
+	READ_LONG  0xbc  "songs_offset"
+	READ_LONG  0xc0  "rest_spawns_offset"
+	READ_LONG  0xc4  "automap_offset"
+	READ_LONG  0xc8  "automap_num"
+
+	//adding new trigger
+	SET offset = ("%infotrig_offset%"+0xc4*"%infotrig_num%")
+	INSERT_BYTES offset 0xc4
+	WRITE_ASCII offset ~Tranc020~
+	WRITE_SHORT (offset+0x20) 2 //travel trigger
+	WRITE_SHORT (offset+0x22) 3018 //bounding box
+	WRITE_SHORT (offset+0x24) 640 //bounding box
+	WRITE_SHORT (offset+0x26) 3101 //bounding box
+	WRITE_SHORT (offset+0x28) 721 //bounding box
+	WRITE_SHORT (offset+0x2a) 4 //vertices number
+	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
+	WRITE_LONG  (offset+0x34) 34 //cursor
+	WRITE_ASCII (offset+0x38) ~DSC020~ //destination area
+	WRITE_ASCII (offset+0x40) ~EXIT3200~ //destination area's entrance name
+	WRITE_LONG  (offset+0x60) 0x00000004 //flags - party required
+	WRITE_SHORT (offset+0x70) 3054 //Trap location X
+	WRITE_SHORT (offset+0x72) 687 //Trap location Y
+	SET "infotrig_num"="%infotrig_num%"+1
+	WRITE_SHORT 0x5a  "%infotrig_num%"
+
+	SET "info_ext"=0xc4
+	PATCH_IF ("%actors_offset%">="%infotrig_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%infotrig_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%entrances_offset%">="%infotrig_offset%") BEGIN
+		"entrances_offset"="%entrances_offset%"+"%info_ext%"
+		WRITE_LONG  0x68  "%entrances_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%infotrig_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%infotrig_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%infotrig_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%infotrig_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%infotrig_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%infotrig_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%infotrig_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%infotrig_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%infotrig_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%infotrig_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%infotrig_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%infotrig_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+
+	//adding 4 new vertices for triggers
+	SET offset = ("%vert_offset%"+0x04*"%vert_num%")
+	INSERT_BYTES offset (0x04*4)
+	WRITE_SHORT  offset      3018
+	WRITE_SHORT  (offset+2)  721
+	WRITE_SHORT  (offset+4)  3101
+	WRITE_SHORT  (offset+6)  721
+	WRITE_SHORT  (offset+8)  3101
+	WRITE_SHORT  (offset+10) 640
+	WRITE_SHORT  (offset+12) 3018
+	WRITE_SHORT  (offset+14) 640
+	SET "vert_num"="%vert_num%"+4
+	WRITE_SHORT 0x80  "%vert_num%"
+
+	SET "info_ext"=0x04*4
+	PATCH_IF ("%actors_offset%">="%vert_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%vert_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%entrances_offset%">="%vert_offset%") BEGIN
+		"entrances_offset"="%entrances_offset%"+"%info_ext%"
+		WRITE_LONG  0x68  "%entrances_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%vert_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%vert_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%vert_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%vert_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%vert_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%vert_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%vert_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%vert_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%vert_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%vert_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%vert_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%vert_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+
+	//adding 1 new entrance
+	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
+	INSERT_BYTES offset 0x68
+	WRITE_ASCII  offset ~Exitc020~
+	WRITE_SHORT  (offset+0x20)  3071 //X
+	WRITE_SHORT  (offset+0x22)  771 //Y
+	WRITE_LONG   (offset+0x24)  "15" // facing
+	SET "entrances_num"="%entrances_num%"+1
+	WRITE_LONG 0x6c  "%entrances_num%"
+
+	SET "info_ext"=0x68
+	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+BUT_ONLY //********************************************************  ~%NorthNashkelRoad%.are~
+
+// %GibberlingMountains%.ARE gets new travel region and new entrance for DSC006
+COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
+	WRITE_ASCII 0x94 ~%GibberlingMountains%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x60  "spawns_offset"
+	READ_LONG  0x64  "spawns_num"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_SHORT 0x76  "items_num"
+	READ_LONG  0x78  "items_offset"
+	READ_LONG  0x7c  "vert_offset"
+	READ_SHORT 0x80  "vert_num"
+	READ_SHORT 0x82  "amb_num"
+	READ_LONG  0x84  "amb_offset"
+	READ_LONG  0x88  "vars_offset"
+	READ_LONG  0x8c  "vars_num"
+	READ_LONG  0xa0  "expbmp_offset"
+	READ_LONG  0xa4  "doors_num"
+	READ_LONG  0xa8  "doors_offset"
+	READ_LONG  0xac  "anim_num"
+	READ_LONG  0xb0  "anim_offset"
+	READ_LONG  0xb4  "tiled_num"
+	READ_LONG  0xb8  "tiled_offset"
+	READ_LONG  0xbc  "songs_offset"
+	READ_LONG  0xc0  "rest_spawns_offset"
+	READ_LONG  0xc4  "automap_offset"
+	READ_LONG  0xc8  "automap_num"
+
+	//adding new trigger
+	SET offset = ("%infotrig_offset%"+0xc4*"%infotrig_num%")
+	INSERT_BYTES offset 0xc4
+	WRITE_ASCII offset ~Tranc006~
+	WRITE_SHORT (offset+0x20) 2 //travel trigger
+	WRITE_SHORT (offset+0x22) 3803 //bounding box
+	WRITE_SHORT (offset+0x24) 547 //bounding box
+	WRITE_SHORT (offset+0x26) 3895 //bounding box
+	WRITE_SHORT (offset+0x28) 669 //bounding box
+	WRITE_SHORT (offset+0x2a) 9 //vertices number
+	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
+	WRITE_LONG  (offset+0x34) 28 //cursor
+	WRITE_ASCII (offset+0x38) ~DSC006~ //destination area
+	WRITE_ASCII (offset+0x40) ~EXIT4600~ //destination area's entrance name
+	WRITE_LONG  (offset+0x60) 0x000000000 //flags - none
+	WRITE_SHORT (offset+0x70) 3839 //Trap location X
+	WRITE_SHORT (offset+0x72) 622 //Trap location Y
+	SET "infotrig_num"="%infotrig_num%"+1
+	WRITE_SHORT 0x5a  "%infotrig_num%"
+
+	SET "info_ext"=0xc4
+	PATCH_IF ("%actors_offset%">="%infotrig_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%infotrig_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%entrances_offset%">="%infotrig_offset%") BEGIN
+		"entrances_offset"="%entrances_offset%"+"%info_ext%"
+		WRITE_LONG  0x68  "%entrances_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%infotrig_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%infotrig_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%infotrig_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%infotrig_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%infotrig_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%infotrig_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%infotrig_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%infotrig_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%infotrig_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%infotrig_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%infotrig_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%infotrig_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+
+	//adding 9 new vertices for triggers
+	SET offset = ("%vert_offset%"+0x04*"%vert_num%")
+	INSERT_BYTES offset (0x04*9)
+	WRITE_SHORT  offset      3840
+	WRITE_SHORT  (offset+2)  669
+	WRITE_SHORT  (offset+4)  3895
+	WRITE_SHORT  (offset+6)  609
+	WRITE_SHORT  (offset+8)  3868
+	WRITE_SHORT  (offset+10) 571
+	WRITE_SHORT  (offset+12) 3840
+	WRITE_SHORT  (offset+14) 547
+	WRITE_SHORT  (offset+16) 3822
+	WRITE_SHORT  (offset+18) 548
+	WRITE_SHORT  (offset+20) 3804
+	WRITE_SHORT  (offset+22) 558
+	WRITE_SHORT  (offset+24) 3803
+	WRITE_SHORT  (offset+26) 593
+	WRITE_SHORT  (offset+28) 3815
+	WRITE_SHORT  (offset+30) 623
+	WRITE_SHORT  (offset+32) 3823
+	WRITE_SHORT  (offset+34) 639
+	SET "vert_num"="%vert_num%"+9
+	WRITE_SHORT 0x80  "%vert_num%"
+
+	SET "info_ext"=0x04*9
+	PATCH_IF ("%actors_offset%">="%vert_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%vert_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%entrances_offset%">="%vert_offset%") BEGIN
+		"entrances_offset"="%entrances_offset%"+"%info_ext%"
+		WRITE_LONG  0x68  "%entrances_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%vert_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%vert_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%vert_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%vert_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%vert_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%vert_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%vert_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%vert_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%vert_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%vert_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%vert_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%vert_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+
+	//adding 2 new entrance
+	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
+	INSERT_BYTES offset 0x68
+	WRITE_ASCII  offset ~Exitc006~
+	WRITE_SHORT  (offset+0x20)  3923 //X
+	WRITE_SHORT  (offset+0x22)  680 //Y
+	WRITE_LONG   (offset+0x24)  "14" // facing
+	INSERT_BYTES offset 0x68
+	WRITE_ASCII  offset ~Exitc010~
+	WRITE_SHORT  (offset+0x20)  5018 //X
+	WRITE_SHORT  (offset+0x22)  1283 //Y
+	WRITE_LONG   (offset+0x24)  "4" // facing
+	SET "entrances_num"="%entrances_num%"+2
+	WRITE_LONG 0x6c  "%entrances_num%"
+
+	SET "info_ext"=0x68*2
+	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+BUT_ONLY //********************************************************  ~%GibberlingMountains%.are~
+
+// %BanditCamp_GnollCave%.ARE gets new entrance from DSC037
+COPY_EXISTING ~%BanditCamp_GnollCave%.ARE~ ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x60  "spawns_offset"
+	READ_LONG  0x64  "spawns_num"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_SHORT 0x76  "items_num"
+	READ_LONG  0x78  "items_offset"
+	READ_LONG  0x7c  "vert_offset"
+	READ_SHORT 0x80  "vert_num"
+	READ_SHORT 0x82  "amb_num"
+	READ_LONG  0x84  "amb_offset"
+	READ_LONG  0x88  "vars_offset"
+	READ_LONG  0x8c  "vars_num"
+	READ_LONG  0xa0  "expbmp_offset"
+	READ_LONG  0xa4  "doors_num"
+	READ_LONG  0xa8  "doors_offset"
+	READ_LONG  0xac  "anim_num"
+	READ_LONG  0xb0  "anim_offset"
+	READ_LONG  0xb4  "tiled_num"
+	READ_LONG  0xb8  "tiled_offset"
+	READ_LONG  0xbc  "songs_offset"
+	READ_LONG  0xc0  "rest_spawns_offset"
+	READ_LONG  0xc4  "automap_offset"
+	READ_LONG  0xc8  "automap_num"
+
+	//adding 1 new entrance
+	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
+	INSERT_BYTES offset 0x68
+	WRITE_ASCII  offset ~Exitc037~
+	WRITE_SHORT  (offset+0x20)  991 //X
+	WRITE_SHORT  (offset+0x22)  370 //Y
+	WRITE_LONG   (offset+0x24)  "4" // facing
+	SET "entrances_num"="%entrances_num%"+1
+	WRITE_LONG 0x6c  "%entrances_num%"
+
+	SET "info_ext"=0x68
+	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+BUT_ONLY //********************************************************  ~%BanditCamp_GnollCave%.are~
+
+// %Peldvale%.ARE gets new entrance from DSC001
+COPY_EXISTING ~%Peldvale%.ARE~ ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x60  "spawns_offset"
+	READ_LONG  0x64  "spawns_num"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_SHORT 0x76  "items_num"
+	READ_LONG  0x78  "items_offset"
+	READ_LONG  0x7c  "vert_offset"
+	READ_SHORT 0x80  "vert_num"
+	READ_SHORT 0x82  "amb_num"
+	READ_LONG  0x84  "amb_offset"
+	READ_LONG  0x88  "vars_offset"
+	READ_LONG  0x8c  "vars_num"
+	READ_LONG  0xa0  "expbmp_offset"
+	READ_LONG  0xa4  "doors_num"
+	READ_LONG  0xa8  "doors_offset"
+	READ_LONG  0xac  "anim_num"
+	READ_LONG  0xb0  "anim_offset"
+	READ_LONG  0xb4  "tiled_num"
+	READ_LONG  0xb8  "tiled_offset"
+	READ_LONG  0xbc  "songs_offset"
+	READ_LONG  0xc0  "rest_spawns_offset"
+	READ_LONG  0xc4  "automap_offset"
+	READ_LONG  0xc8  "automap_num"
+
+	//adding 1 new entrance
+	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
+	INSERT_BYTES offset 0x68
+	WRITE_ASCII  offset ~Exitc001~
+	WRITE_SHORT  (offset+0x20)  4702 //X
+	WRITE_SHORT  (offset+0x22)  873 //Y
+	WRITE_LONG   (offset+0x24)  "3" // facing
+	SET "entrances_num"="%entrances_num%"+1
+	WRITE_LONG 0x6c  "%entrances_num%"
+
+	SET "info_ext"=0x68
+	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
+		"actors_offset"="%actors_offset%"+"%info_ext%"
+		WRITE_LONG  0x54 "%actors_offset%"
+	END
+	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
+		"spawns_offset"="%spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0x60  "%spawns_offset%"
+	END
+	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
+		"vert_offset"="%vert_offset%"+"%info_ext%"
+		WRITE_LONG  0x7c  "%vert_offset%"
+	END
+	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
+		"cont_offset"="%cont_offset%"+"%info_ext%"
+		WRITE_LONG  0x70  "%cont_offset%"
+	END
+	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
+		"items_offset"="%items_offset%"+"%info_ext%"
+		WRITE_LONG  0x78  "%items_offset%"
+	END
+	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
+		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
+		WRITE_LONG  0x5c  "%infotrig_offset%"
+	END
+	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
+		"amb_offset"="%amb_offset%"+"%info_ext%"
+		WRITE_LONG  0x84  "%amb_offset%"
+	END
+	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
+		"vars_offset"="%vars_offset%"+"%info_ext%"
+		WRITE_LONG  0x88  "%vars_offset%"
+	END
+	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
+		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
+		WRITE_LONG  0xa0  "%expbmp_offset%"
+	END
+	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
+		"doors_offset"="%doors_offset%"+"%info_ext%"
+		WRITE_LONG  0xa8  "%doors_offset%"
+	END
+	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
+		"anim_offset"="%anim_offset%"+"%info_ext%"
+		WRITE_LONG  0xb0  "%anim_offset%"
+	END
+	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
+		"tiled_offset"="%tiled_offset%"+"%info_ext%"
+		WRITE_LONG  0xb8  "%tiled_offset%"
+	END
+	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
+		"songs_offset"="%songs_offset%"+"%info_ext%"
+		WRITE_LONG  0xbc  "%songs_offset%"
+	END
+	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
+		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
+		WRITE_LONG  0xc0  "%rest_spawns_offset%"
+	END
+	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
+		"automap_offset"="%automap_offset%"+"%info_ext%"
+		WRITE_LONG  0xc4  "%automap_offset%"
+	END
+BUT_ONLY //********************************************************  ~%Peldvale%.are~
+
+/////                                                  \\\\\
+///// install scripts                                  \\\\\
+/////                                                  \\\\\
+
+// Install new scripts
+
+COMPILE ~DSotSC/base/baf~ EVALUATE_BUFFER USING ~DSotSC/language/%LANGUAGE%/baf.tra~
+
+//Modify existing scripts
+
+EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/AR3200.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%FirewineBridge%.are~ ~override/%FirewineBridge%.are~
+	WRITE_ASCII 0x94 ~%FirewineBridge%~ #8
+BUT_ONLY
+EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/AR3400.BAF~ EVALUATE_BUFFER
+
+/*COPY_EXISTING ~%BearRiver%.are~ ~override~
+	WRITE_ASCII 0x94 ~%BearRiver%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%BearRiver_BCS%.bcs~ ~DSotSC/modify/bcs/AR3499.BAF~ EVALUATE_BUFFER*/
+
+EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/AR3497.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/AR3498.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~DSotSC/modify/bcs/AR3700.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Nashkel_Inn%.are~ ~override/%Nashkel_Inn%.are~
+	WRITE_ASCII 0x94 ~%Nashkel_Inn%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Nashkel_Inn_BCS%.bcs~ ~DSotSC/modify/bcs/AR3701.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Nashkel_ManorHouse_L1%.are~ ~override/%Nashkel_ManorHouse_L1%.are~
+	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L1%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Nashkel_ManorHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR3704.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Nashkel_ManorHouse_L2%.are~ ~override/%Nashkel_ManorHouse_L2%.are~
+	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L2%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Nashkel_ManorHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR3705.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%NashkelCarnival_BCS%.BCS~ ~DSotSC/modify/bcs/AR3800.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%NashkelMines_L3%.are~ ~override/%NashkelMines_L3%.are~
+	WRITE_ASCII 0x94 ~%NashkelMines_L3%~ #8
+BUT_ONLY
+EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/AR4403.BAF~ EVALUATE_BUFFER
+
+EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/AR4405.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%GibberlingMountains_BCS%.bcs~ ~DSotSC/modify/bcs/AR4600.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Candlekeep_Catacombs_L1%.are~ ~override/%Candlekeep_Catacombs_L1%.are~
+	WRITE_ASCII 0x94 ~%Candlekeep_Catacombs_L1%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Candlekeep_Catacombs_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6515.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/AR6600.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~DSotSC/modify/bcs/AR6700.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Beregost_ThunderhammerSmithy%.are~ ~override/%Beregost_ThunderhammerSmithy%.are~
+	WRITE_ASCII 0x94 ~%Beregost_ThunderhammerSmithy%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~DSotSC/modify/bcs/AR6701.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%Beregost_JovialJuggler_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6704.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%Beregost_BurningWizard_L1%.are~ ~override/%Beregost_BurningWizard_L1%.are~
+	WRITE_ASCII 0x94 ~%Beregost_BurningWizard_L1%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6707.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%Beregost_RedSheaf_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6757.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%FriendlyArmInn_BCS%.bcs~ ~DSotSC/modify/bcs/AR6800.BAF~ EVALUATE_BUFFER
+ REPLACE ~999999~ @2304
+
+EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.bcs~ ~DSotSC/modify/bcs/AR7211.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR7407.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR7408.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_BCS%.bcs~ ~DSotSC/modify/bcs/AR8400.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR8401.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR8402.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~DSotSC/modify/bcs/AR8600.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_L3_BCS%.bcs~ ~DSotSC/modify/bcs/AR8602.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~DSotSC/modify/bcs/AR8603.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_Barracks_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR8605.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~DSotSC/modify/bcs/AR8900.BAF~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%ShipwrecksCoast%.are~ ~override/%ShipwrecksCoast%.are~
+	WRITE_ASCII 0x94 ~%ShipwrecksCoast%~ #8
+BUT_ONLY
+EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~DSotSC/modify/bcs/AR9200.BAF~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%Temple_SongoftheMorning_BCS%.bcs~ ~DSotSC/modify/bcs/AR9302.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~DSotSC/modify/bcs/AR9501.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%RedCanyons_BCS%.bcs~ ~DSotSC/modify/bcs/AR9600.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%SouthBeregostRoad_BCS%.BCS~ ~DSotSC/modify/bcs/AR9700.BAF~ EVALUATE_BUFFER
+
+//drow item disintegration
+EXTEND_TOP ~%BanditCamp_BCS%.bcs~ ~DSotSC/modify/bcs/AR8700.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/AR8700.BAF~ EVALUATE_BUFFER //entrance to UD
+
+/////                                                  \\\\\
+///// install dialogues                                \\\\\
+/////                                                  \\\\\
+
+//Install new dialogues
+COMPILE ~DSotSC/base/d~ EVALUATE_BUFFER
+
+//Modify existing dialogues
+COMPILE ~DSotSC/modify/dlg~ EVALUATE_BUFFER
+
+/////                                                  \\\\\
+///// install images (BAM, BMP, MOS)                   \\\\\
+/////                                                  \\\\\
+
+ACTION_IF (GAME_IS ~eet~) BEGIN
+	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/BG5500sr.bmp~
+		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/BG2400sr.bmp~
+END
+
+COPY ~DSotSC/base/bam~ ~override~
+	~DSotSC/base/bmp~ ~override~
+	~DSotSC/base/mos/%res%~ ~override~
+	~DSotSC/base/portraits/%res%~ ~override~
+	~DSotSC/base/portraits/L~ ~override~
+
+/////                                                  \\\\\
+///// extract tilsets & audio                          \\\\\
+/////                                                  \\\\\
+
+LAF HANDLE_TILESETS
+	STR_VAR
+    tiz_path = ~DSotSC/base/tiz~
+	tisunpack_path = ~DSotSC/bin~
+END
+
+LAF HANDLE_AUDIO
+	STR_VAR
+    audio_path = ~DSotSC/base/ogg~
+    oggdec_path = ~DSotSC/bin/win32~
+    sox_path = ~DSotSC/bin/osx~
+END
+
+/////                                                  \\\\\
+///// Worldmap                                         \\\\\
+/////                                                  \\\\\
+
+PRINT ~Updating Worldmap....~
+
+//BP-BGT Worldmap
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
+	COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
+		APPEND_FILE ~DSotSC/Worldmap/areas.tbl~
+	COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
+		APPEND_FILE ~DSotSC/Worldmap/%platform%/links.tbl~
+	COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
+	COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
+		APPEND_FILE ~tmp_worldmap.tra~
+END ELSE BEGIN
+	MKDIR ~Worldmap~
+	COPY ~DSotSC/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+	COPY ~DSotSC/Worldmap/%platform%/links.tbl~ ~Worldmap/map_mods_links.tbl~
+	COPY ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+END
+
+//add areas to EET Worldmap, BGT one is too small to have them, but both platforms are compatible with BP-BGT Worldmap
+ACTION_IF (GAME_IS ~eet~) BEGIN
+
+	INCLUDE ~DSotSC/lib/wmp_macros.tpa~
+
+	COPY_EXISTING - ~worldmap.wmp~ ~override~
+		LPF ~dump_wmp~
+		STR_VAR
+			output_areas = "DSotSC/Worldmap/eet_areas.tbl"
+			output_links = "DSotSC/Worldmap/eet_links.tbl"
+			output_strings = "DSotSC/Worldmap/eet_worldmap.tra"
+		END
+
+	COPY ~DSotSC/Worldmap/eet_areas.tbl~ ~DSotSC/Worldmap~
+		APPEND_FILE ~DSotSC/Worldmap/areas.tbl~
+		REPLACE_TEXTUALLY ~^\(.*DSC001.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 956     362\2~
+		REPLACE_TEXTUALLY ~^\(.*DSC002.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 1056    350\2~
+		REPLACE_TEXTUALLY ~^\(.*DSC004.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 975     285\2~
+		REPLACE_TEXTUALLY ~^\(.*DSC010.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 1040    780 \2~
+		LPF fix_table END
+		LPM read_area_array_from_2da
+
+	COPY ~DSotSC/Worldmap/eet_links.tbl~ ~DSotSC/Worldmap~
+		APPEND_FILE ~DSotSC/Worldmap/%platform%/links.tbl~
+		LPF fix_table END
+		LPM read_link_array_from_2da
+
+	COPY ~DSotSC/Worldmap/eet_worldmap.tra~ ~DSotSC/Worldmap~
+		APPEND_FILE ~DSotSC/language/%LANGUAGE%/worldmap.tra~
+		LPF fix_table END
+		LPM read_trans_array_from_2da
+
+	LAM merge_in_translations
+
+	INCLUDE ~DSotSC/lib/build_worldmap.tpa~
+
+END
+
+/////                                                  \\\\\
+///// Biffing                                          \\\\\
+/////                                                  \\\\\
+
+ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Nn]~ = 1) BEGIN //disable biffing if "n" character is detected as –args argument
+
+	PRINT ~Biffing files....~
+
+	MKDIR ~DSotSC/biff~
+
+	ACTION_BASH_FOR ~DSotSC/base/tiz~ ~^.*$~ BEGIN
+		MOVE ~override/%BASH_FOR_RES%.tis~ ~DSotSC/biff~
+	END
+	ACTION_BASH_FOR ~DSotSC/base/ogg~ ~^.*$~ BEGIN
+		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
+	END
+	ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%res%~ ~portraits/%res%~ ~portraits/L~ ~wed~ BEGIN
+		ACTION_BASH_FOR ~DSotSC/base/%dir%~ ~^.*$~ BEGIN
+			MOVE ~override/%BASH_FOR_FILE%~ ~DSotSC/biff~
+		END
+	END
+
+	MAKE_BIFF ~DSotSC~ BEGIN ~DSotSC/biff~ ~^.*$~ END
+
+END

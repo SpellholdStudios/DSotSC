@@ -1,0 +1,105 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+  AreaCheck("DSC016")
+THEN
+  RESPONSE #100
+    Dialog([PC])
+END
+
+IF
+  Exists(NearestEnemyOf(Myself))
+  Global("ClairisVamp","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    ForceSpellPoint([249.1037],DRYAD_TELEPORT)
+    SetGlobal("ClairisVamp","GLOBAL",1)
+    EscapeArea()
+END
+
+IF
+  AreaCheck("DSC017")
+  Global("ClairisSpawns","DSC017",0)
+THEN
+  RESPONSE #100
+    Enemy()
+    CreateCreature("BODFGT01",[-1.-1],0)
+    CreateCreature("VAMFLF01",[-1.-1],0)
+    CreateCreature("BODFGT01",[-1.-1],0)
+    SetGlobal("ClairisSpawns","DSC017",1)
+END
+
+IF
+  See([PC])
+  AreaCheck("DSC017")
+THEN
+  RESPONSE #100
+    ForceSpellPoint([1030.1530],DRYAD_TELEPORT)
+    EscapeArea()
+END
+
+IF
+  See([PC])
+  GlobalLT("ClairisVamp","GLOBAL",3)
+  AreaCheck("DSC018")
+THEN
+  RESPONSE #20
+    Enemy()
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    Wait(2)
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    Wait(2)
+    SetGlobal("ClairisVamp","GLOBAL",3)
+  RESPONSE #80
+    Enemy()
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    AttackReevaluate(LastAttackerOf(Myself),10)
+    Wait(2)
+    SetGlobal("ClairisVamp","GLOBAL",3)
+END
+
+IF
+  See([PC])
+  Global("ClairisVamp","GLOBAL",3)
+THEN
+  RESPONSE #30
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    Wait(2)
+    SetGlobal("ClairisVamp","GLOBAL",4)
+  RESPONSE #70
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    AttackReevaluate(LastAttackerOf(Myself),10)
+    Wait(2)
+    SetGlobal("ClairisVamp","GLOBAL",4)
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,RED_HOLY_MIGHT)
+    Wait(2)
+    ReallyForceSpell(Myself,RED_SWIRL)
+    SmallWait(5)
+    ReallyForceSpell(Myself,MUSHROOM_FIRE)
+    DestroySelf()
+END
+
+IF
+  See([PC])
+  Global("ClairisVamp","GLOBAL",4)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    AttackReevaluate(LastAttackerOf(Myself),10)
+    Wait(2)
+END
+

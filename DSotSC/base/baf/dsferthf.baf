@@ -1,0 +1,45 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("FerthgDuergr","GLOBAL",1)
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    SetGlobal("HelpFerthg","GLOBAL",1)
+END
+
+IF
+  Help([ANYONE])
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(LastHelp(Myself)))
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  MoraleLT(Myself,6)
+THEN
+  RESPONSE #100
+    AttackOneRound(LastAttackerOf(Myself))
+    RunAwayFrom(LastAttackerOf(Myself),150)
+END
+
+IF
+  See([PC])
+THEN
+  RESPONSE #100
+    Attack("FERTHGIL")
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Help()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+

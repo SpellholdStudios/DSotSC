@@ -1,0 +1,10 @@
+IF
+	Global("DSitems","%NBaldursGate_DucalPalace_Cellar%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 1",CreateItem("SW1H23",0,0,0)) // Scimitar +2, Rashad's Talon
+		SetGlobal("DSitems","%NBaldursGate_DucalPalace_Cellar%",1)
+		Continue()
+END
+
+

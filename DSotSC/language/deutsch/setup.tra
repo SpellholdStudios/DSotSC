@@ -1,0 +1,3454 @@
+////////
+//Spells
+////////
+
+@1    = ~Schattenwolf~
+@2    = ~Schüler des Lichts~
+@3    = ~Leichte Wunden verursachen~
+@4    = ~Leichte Wunden verursachen (Nekromantie)
+
+Grad: 1
+Reichweite: Berührung
+Wirkungsdauer: Sofort
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch ist das Gegenteil von "Leichte Wunden heilen". Das berührte Wesen verliert 1W8 Trefferpunkte, welche aber durch normale Heilung wiederhergestellt werden können.~
+@5    = ~Feuerbolzen~
+@6    = ~Feuerbolzen (Anrufung)
+
+Grad: 1
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 4
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Speziell
+
+Der Anwender beschwört magisches Feuer und formt daraus ein kleines Projektil, welches auf das Ziel zufliegt und 1W3 Schadenspunkte durch Feuer verursacht. Gelingt ein Rettungswurf gegen Zauber gegen -2 nicht, so erleidet das Zielwesen weitere 1W3 Schadenspunkte.~
+@7    = ~Rüstung schmelzen~
+@8    = ~Rüstung schmelzen (Hervorrufung)
+
+Grad: 1
+Reichweite: Sichtweite
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 4
+Wirkungsbereich: 1 Wesen
+Rettungswurf: 1/2
+
+Mit diesem Spruch kann der Anwender die Verteidigung seines Gegners senken. Das Ziel verliert 8 Punkte von seiner Rüstungsklasse, 4 bei erfolgreichem Rettungswurf gegen Zauber.~
+@9    = ~Mittelschwere Wunden heilen~
+@10   = ~Mittelschwere Wunden heilen (Nekromantie)
+
+Grad: 2
+Reichweite: Berührung
+Wirkungsdauer: Sofort
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Priester für diesen Zauber einem Wesen seine Hände auflegt, heilt er bei dem Wesen 12 erlittene Schadenspunkte. Der Spruch wirkt nicht bei Untoten oder extraplanaren Kreaturen.~
+@12   = ~Funken~
+@13   = ~Funken (Hervorrufung)
+
+Grad: 2
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: 1/2
+
+Der Anwender sammelt die elektrische Energie um sich herum und entlädt sie auf dem Zielwesen, was sich mit 4W6 elektrischem Schaden bemerkbar macht. Ein erfolgreicher Rettungswurf gegen Zauber mindert den Schaden um die Hälfte.~
+@14   = ~Schutzschild~
+@15   = ~Schutzschild (Hervorrufung)
+
+Grad: 2
+Reichweite: 0
+Wirkungsdauer: 2 Phasen
+Zeitaufwand: 2
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauberspruch erschafft eine unsichtbare Schutzwand vor dem Anwender. Dadurch wird seine Rüstungsklasse gegen alle Waffen auf 3 gesetzt.~
+@17   = ~Schmerz~
+@18   = ~Schmerz (Verzauberung/Bezauberung)
+
+Grad: 3
+Reichweite: Sichtweite
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 4
+Wirkungsbereich: 5 m Radius
+Rettungswurf: Nein
+
+Dieser Spruch verursacht unerträgliche Schmerzen bei den Zielwesen. Er verursacht zwar keinen Schaden, aber schafft das Ziel keinen Rettungswurf gegen Zauber, erleidet es für eine Phase einen Malus von -2 auf Geschicklichkeit und -4 auf alle Angriffswürfe. Kreaturen, die von Natur aus keinen Schmerz empfinden können, wie beispielsweise Untote, werden durch den Spruch nicht beeinflusst.~
+@19   = ~Rüstung der Finsternis~
+@20   = ~Rüstung der Finsternis (Beschwörung)
+
+Grad: 3
+Reichweite: Berührung
+Wirkungsdauer: 1 Runde/Stufe (max. 1 Phase)
+Zeitaufwand: 6
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Die dunkle Göttin Shar verlieh ihren Klerikern die Fähigkeit, einen mystischen dunklen Schleier um ein Zielwesen zu legen. Während das Ziel in diesen Schleier eingehüllt ist, verbessert sich seine Rüstungsklasse um 2 und Rettungswürfe gegen Zauber erfolgen mit einem +2 Bonus. Das Zielwesen erhält außerdem Infravision und ist vor Blindheit geschützt. Aufgrund der bösen Natur des Zaubers erleidet der Anwender 3 Schadenspunkte, wenn er den Zauber wirkt.~
+@21   = ~Steinhaut (Veränderung)
+
+Grad: 3
+Reichweite: 0
+Wirkungsdauer: 12 Stunden
+Zeitaufwand: 4
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Durch diesen Zauberspruch verwandelt sich der Anwender in eine Art lebende Statue. Seine Haut wird so hart wie Stein und ist durch normale Waffen nur sehr schwer zu beschädigen. Die Rüstungsklasse wird während der Wirkungsdauer auf 0 gesetzt und alle Rettungswürfe werden mit einem Bonus von +2 ausgeführt. Da die Haut nicht so flexibel wie normale Haut ist, erhält der Anwender einen Malus von -3 auf seine Geschicklichkeit.~
+@22   = ~Gift schleudern~
+@23   = ~Gift schleudern (Herbeirufung/Beschwörung)
+
+Grad: 4
+Reichweite: 5 m
+Wirkungsdauer: 8 Runden
+Zeitaufwand: 4
+Wirkungsbereich: 1 Wesen
+Rettungswurf: 1/2
+
+Der Anwender beschwört magisches Gift und schleudert es auf ein Wesen, das einen Schaden von 4 Punkten pro Runde bis zu einem Gesamtschaden von 32 Punkten erleidet. Der Schaden kann durch einen erfolgreichen Rettungswurf gegen Tot halbiert werden.~
+@24   = ~Mielikkis Klinge~
+@25   = ~Mielikkis Klinge (Hervorrufung)
+
+Grad: 4
+Reichweite: Selbst
+Wirkungsdauer: 6 Runden + 1 Runde/Stufe
+(maximal 12 Runden)
+Zeitaufwand: 4
+Wirkungsbereich: 1m Langschwert
+Rettungswurf: Nein
+
+Dieser Spruch ruft eine magische Waffe hervor, die symbolisch für die Göttin Mielikki steht: ein 90 cm langer Säbel aus einer kalten blauen Flamme. Die Klinge zählt als magische Waffe +4 und übt 1W8 Schaden aus. Außerdem muss jedem getroffenen Wesen ein Rettungswurf gelingen, oder es erhält zusätzlich noch 1W6 Kälteschaden. Die Klinge verleiht dem Träger für die Wirkungsdauer außerdem Resistenz gegen Feuer.~
+@26   = ~Klingen~
+@27   = ~Klingen (Veränderung)
+
+Grad: 5
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 6
+Wirkungsbereich: 1 Wesen
+Rettungswurf: 1/2
+
+Der Druide beschwört einen Schwarm kleiner scharfer Klingen herauf, die sich gegen das Zielwesen richten und ihm 4W8 Schaden zufügen. Der Schaden kann durch einen erfolgreichen Rettungswurf halbiert werden.~
+@28   = ~Selunes Segen (Bannzauber)
+
+Grad: 5
+Reichweite: 0
+Wirkungsdauer: 2 Phasen
+Zeitaufwand: 7
+Wirkungsbereich: 1,5 m Radius
+Rettungswurf: Nein
+
+Dieser Zauber ruft die Macht der Göttin Selune herbei, die den Priester vor körperlichem oder magischem Schaden schützt. Der Anwender ist von einem schimmernden Feld umgeben, welches seine Rüstungsklasse um 4 Punkte verbessert. Außerdem schützt es ihn vor sämtlichen Zaubern des 1. bis 4. Grades. Ähnlich wie beim Spruch "Kugel der Unverwundbarkeit" kann sich der Magier frei bewegen.~
+@29   = ~Untote rufen~
+@30   = ~Untote rufen (Nekromantie)
+
+Grad: 5
+Reichweite: 10 m
+Wirkungsdauer: 5 Phasen
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: Nein
+
+Nach dem Aussprechen dieses Zaubers erscheinen 3 bis 6 Ghule und 0 bis 2 Düsterschrecken als Hilfe. Die Kreaturen können einfache Kommandos verstehen und verschwinden nach 8 Stunden, wenn sie nicht vorher vernichtet oder gebannt werden.~
+@31   = ~Pflanzen-Transport~
+@32   = ~Pflanzen-Transport (Veränderung)
+
+Grad: 5
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 1
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Durch Aussprechen dieses Zaubers kann sich der Anwender mit Hilfe einer lebenden Pflanze von einem Ort zum Anderen bewegen und so augenblicklich an einer anderen Stelle auftauchen.~
+@33   = ~Monster festhalten (Verzauberung/Bezauberung)
+
+Grad: 6
+Reichweite: Sichtweite
+Wirkungsdauer: 1 Runde/Stufe
+Zeitaufwand: 5
+Wirkungsbereich: Würfel mit 16 m Seitenlänge
+Rettungswurf: Nein
+
+Dieser Zauber hält 1W4 Wesen für mindestens neun Runden an einer Stelle fest. Den Opfern steht ein Rettungswurf -2 gegen Zauber zu, um den Auswirkungen zu entgehen. Alle Feinde, die sich innerhalb von 15 m Entfernung um das Ziel aufhalten, werden ebenfalls festgehalten. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. Die festgehaltenen Wesen können sich weder bewegen noch sprechen. Sie bekommen durchaus mit, was rund um sie geschieht, und sie können alle Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Der Zustand eines festgehaltenen Wesens kann sich aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
+@34   = ~Tensers Umwandlung (Veränderung)
+
+Grad: 6
+Reichweite: 0
+Wirkungsdauer: 1 Runde/Stufe
+Zeitaufwand: 6
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Tensers Umwandlung sorgt für einen Anblick, der jedes Wesen, das den Zauber noch nie in Aktion gesehen hat, in Erstaunen versetzt. Der Anwender durchläuft nämlich eine erstaunliche Umwandlung. Seine Größe und Stärke nehmen heroische Ausmaße an, wodurch er zu einer richtigen Kampfmaschine wird. Die Trefferpunkte erhöhen sich um 20 und die Rüstungsklasse verbessert sich um -4 bis zu einem Maximum von -10. Alle Angriffe werden mit dem ETW0 eines Kriegers der gleichen Stufe ausgeführt. Außerdem erhält der Anwender +2 auf Trefferwürfe. Diese Auswirkungen halten an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+@35   = ~Fleisch zu Stein (Veränderung)
+
+Grad: 6
+Reichweite: Sichtweite
+Wirkungsdauer: Permanent
+Zeitaufwand: 6
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Das Ziel dieses Zaubers muss einen erfolgreichen Rettungswurf gegen Versteinerung durchführen oder es wird versteinert. Es werden auch alle Besitztümer des Zielwesens versteinert und können danach nicht mehr entfernt werden. Falls ein derartig versteinertes Wesen angegriffen wird, zersplittert es in kleine Einzelteile und kann nie mehr zum Leben erweckt werden. Die einzige Möglichkeit, ein versteinertes Wesen wieder ins Leben zurück zu holen, besteht darin, die umgekehrte Version dieses Zaubers einzusetzen.~
+@36   = ~Stein zu Fleisch (Veränderung)
+
+Grad: 6
+Reichweite: Berührung
+Wirkungsdauer: Permanent
+Zeitaufwand: 6
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Zauber stellt die umgekehrte Version von "Fleisch zu Stein" dar und verwandelt ein versteinertes Wesen zurück in seine normale Gestalt. Alle Besitztümer des Wesens werden ebenfalls zurück verwandelt. Die Verwandlung geschieht augenblicklich. Es ist weder ein Rettungswurf, noch ein Wurf auf körperlichen Schock erforderlich.~
+@37   = ~Ranken~
+@38   = ~Ranken (Veränderung)
+
+Grad: 6
+Reichweite: Sichtweite
+Wirkungsdauer: 3 Runden
+Zeitaufwand: 7
+Wirkungsbereich: 4,5 x 4,5 m
+Rettungswurf: Speziell
+
+Der Anwender ruft die Kräfte der Erde an, welche dann Ranken wachsen lassen, die alle Wesen im Wirkungsbereich ergreifen und für 3 Runden würgen. Jedes betroffene Wesen wird verlangsamt und erleidet 4W5 Schaden. Ein Rettungswurf gegen -2 verhindert, dass der Schaden nach einer Runde erneut zugefügt wird.~
+@39   = ~Leben stehlen~
+@40   = ~Leben stehlen (Nekromantie)
+
+Grad: 6
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 9
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Anwender betet für göttlichen Segen und versucht, dem Zielwesen die Lebensenergie zu entziehen. Das Zielwesen erleidet 6W5 Schadenspunkte, die Hälfte bei erfolgreichem Rettungswurf. Der Anwender absorbiert die Lebensenergie und erhält so bis zu 27 Trefferpunkte zurück.~
+@41   = ~Verwirrung (Verzauberung/Bezauberung)
+
+Grad: 7
+Reichweite: Sichtweite
+Wirkungsdauer: 5 Runden + 1 Runde/6 Stufen
+Zeitaufwand: 4
+Wirkungsbereich: bis zu 20 x 20 m
+Rettungswurf: Speziell
+
+Dieser Zauber führt bei einem oder mehreren Wesen im Wirkungsbereich zu Verwirrung. Sie werden unschlüssig und können nicht mehr effektiv agieren. Alle Wesen im Wirkungsbereich erhalten einen Rettungswurf -2 gegen Zauber, um den Auswirkungen des Zaubers zu entgehen. Ein verwirrtes Wesen, das angegriffen wird, sieht in dem Angreifer einen Feind und handelt gemäß seinen Instinkten, um sich zu verteidigen.~
+@43   = ~Schutzaura~
+@44   = ~Schutzaura (Herbeirufung/Beschwörung)
+
+Grad: 7
+Reichweite: Gruppe
+Wirkungsdauer: 10 Phasen
+Zeitaufwand: 7
+Wirkungsbereich: 10 m Radius
+Rettungswurf: Nein
+
+Der Beschwörer bittet bei seinem Gott um Hilfe für seine Kameraden. Während die Schutzaura wirkt, erhalten alle Gruppenmitglieder eine Basis-Rüstungsklasse von 1.~
+@45   = ~Dunkles Ritual~
+@46   = ~Dunkles Ritual (Veränderung)
+
+Grad: 9
+Reichweite: Berührung
+Wirkungsdauer: 15 Runden
+Zeitaufwand: 7
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch sorgt für den Schutz durch dunkle Mächte. Der Anwender erhält zusätzlich 12 Trefferpunkte und seine Rüstungsklasse verbessert sich um 4 Punkte. Aufgrund der bösen Natur des Zaubers reduziert sich die Stärke um 1 (nur für die Wirkungsdauer).~
+@47   = ~Sirenen beschwören~
+@48   = ~Sirenen beschwören (Herbeirufung/Beschwörung)
+
+Grad: 9
+Reichweite: Sichtweite
+Wirkungsdauer: 2 Phasen
+Zeitaufwand: 9
+Wirkungsbereich: Speziell
+Rettungswurf: Nein
+
+Nachdem dieser Zauber ausgesprochen wurde erscheinen 4 Sirenen aus der himmlischen Sphäre, um dem Anwender zu dienen. Sie werden alle Gegner, die sich in Sichtweite befinden, angreifen und versuchen zu töten.~
+@49   = ~Donnerbolzen~
+@50   = ~Donnerbolzen (Hervorrufung)
+
+Grad: 7
+Reichweite: 50 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: 1/2
+
+In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
+@51   = ~Selunes Fluch (Hervorrufung)
+
+Grad: 7
+Reichweite: Sichtweite
+Wirkungsdauer: Sofort
+Zeitaufwand: 9
+Wirkungsbereich: 20 m Radius
+Rettungswurf: 1/2
+
+Dieser mächtige Spruch lässt den Zorn der Göttin Selune über alle Feinde im Wirkungsbereich kommen. Es entsteht eine Explosion bestehend aus kalten blauen Flammen, welche dem Gegner 6W10 Schadenspunkte zufügen. Ein gescheiterter Rettungswurf resultiert in dem Ergebnis, dass der Gegner die volle Wucht der Detonation abbekommt, während ein erfolgreicher Rettungswurf den Schaden um die Hälfte reduziert.~
+@52   = ~Luftorb~
+@53   = ~Luftorb (Veränderung)
+
+Grad: 1
+Reichweite: 13 m
+Wirkungsdauer: 4 Runden
+Zeitaufwand: 2
+Wirkungsbereich: Speziell
+Rettungswurf: Gegen Zauber
+
+Mit diesem Spruch kann der Magier ein Zielwesen für begrenzte Zeit in eine Rauchwolke verwandeln. Dem Ziel steht ein Rettungswurf gegen Zauber zu, um der Auswirkung zu entgehen.~
+@54   = ~Donnerschlag~
+@55   = ~Donnerschlag (Herbeirufung/Beschwörung)
+
+Grad: 2
+Reichweite: Berührung
+Wirkungsdauer: 10 Runden
+Zeitaufwand: 1
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber ist ein wenig effektiver als der Schockgriff des 1. Grades. Wenn der Anwender eine erfolgreiche Nahkampfattacke ausführt, wird das Opfer für 1 Runde betäubt und erleidet zusätzlich 2W6 Schadenspunkte.~
+@56   = ~Eisbolzen~
+@57   = ~Eisbolzen (Hervorrufung)
+
+Grad: 2
+Reichweite: 10 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Nach dem Ausspruch dieses Zaubers stößt eine Eiskugel aus den Händen des Magiers hervor und fliegt auf das Ziel zu. Dieser Eisbolzen verursacht 2W10 Schadenspunkte und erlaubt keine Rettungswürfe. Allerdings kann der Schaden durch Resistenz gegen Kälte oder Magie vermindert werden.~
+@58   = ~Kleine Kugel der Dunkelheit~
+@59   = ~Kleine Kugel der Dunkelheit (Veränderung)
+
+Grad: 2
+Reichweite: 10 m
+Wirkungsdauer: 1 Runde
+Zeitaufwand: 2s
+Wirkungsbereich: 5 m Radius
+Rettungswurf: Nein
+
+Dieser Spruch verursacht totale, undurchdringliche Dunkelheit im Wirkungsbereich, in der selbst Infravision nutzlos ist. Weder normale noch magische Lichter funktionieren. Die Wirkung kann nur durch einen "Licht"-Spruch aufgehoben werden.~
+@60   = ~Froststrahl~
+@61   = ~Froststrahl (Hervorrufung)
+
+Grad: 3
+Reichweite: 20 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 3
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Speziell
+
+Durch diesen Spruch ruft der Anwender einen 60 cm breiten und 20 m langen Froststrahl hervor, der aus seinen Händen schießt. Der Strahl verursacht 5W6 Schadenspunkte und ist so kalt, dass dem Zielwesen ein Rettungswurf gegen Zauber gelingen muss, oder es wird unfähig mit voller Kapazität weiterzukämpfen. Resistenz gegen Kälte oder Magie kann dem Effekt entgegen wirken.~
+@62   = ~Vereinte Armee~
+@63   = ~Vereinte Armee (Illusion/Hirngespinst)
+
+Grad: 3
+Reichweite: Berührung
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit diesem Zauberspruch kann der Anwender die Stärke einer Armee in einer Person vereinen. Stärke, Konstitution und Geschicklichkeit des Empfängers werden um jeweils 2 Punkte erhöht.~
+@64   = ~Gespensterform (Veränderung, Illusion)
+
+Grad: 3
+Reichweite: 0
+Wirkungsdauer: 1 Runden
+Zeitaufwand: 1
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Durch diesen Zauber verliert der Magier mitsamt seiner Ausrüstung jede feste Konsistenz. Er kann nur durch magische oder besondere Angriffe getroffen werden, einschließlich durch Waffen mit +1 oder besser, sowie Wesen, die in der Lage sind Geschöpfe zu verletzen, die sonst nur von magischen Waffen getroffen werden können. Der Magier erlangt ferner eine magische Widerstandskraft von 25%. Während er sich in Gespensterform befindet, kann er keine weiteren Zauber aussprechen.~
+@65   = ~Ettins Heilung~
+@66   = ~Ettins Heilung (Nekromantie)
+
+Grad: 4
+Reichweite: Anwender
+Wirkungsdauer: 10 Runden
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: Nein
+
+Ettin, ein Mönch aus der Zeit der Antiker, war ein erfahrener Kräuterkenner. Er fand viele neue Wege in der Heilung des humanoiden Körpers. Ettins Heilung erlaubt es dem Anwender 1 Trefferpunkt pro Runde zu regenerieren.~
+@67   = ~Ajandurahs Eisscherben~
+@68   = ~Ajandurahs Eisscherben (Hervorrufung)
+Grad: 4
+Reichweite: Sichtweite
+Wirkungsdauer: 1 Runde
+Zeitaufwand: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch zaubert Scherben aus Eis, die zielsicher auf das Ziel zufliegen und ihm Kälteschaden in der Größenordnung von drei treffenden Pfeile zufügt.~
+@69   = ~Melfs explosive Meteoriten~
+@70   = ~Melfs explosive Meteoriten (Hervorrufung)
+
+Grad: 5
+Reichweite: Nur Anwender
+Wirkungsdauer: 1 Min
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: 1/2
+
+Dieser Spruch ähnelt dem Zauber "Melfs magische Meteoriten" des 3. Grades, mit dem Unterschied, dass die Geschosse eine heftigere Explosion verursachen. Alle Kreaturen im Wirkungsbereich erleiden einen Schaden von 2W6 Punkten. Ein erfolgreicher Rettungswurf kann die schlimmsten Auswirkungen verhindern, indem der Schaden um die Hälfte reduziert wird.~
+@71   = ~Geas "Magische Bindung"~
+@72   = ~Geas (Verzauberung/Bezauberung)
+Grad: 6
+Wirkungsbereich: 1 Wesen
+Reichweite: Sichtweise
+Wirkungsdauer: Permanent
+Zeitaufwand: 5
+Rettungswurf: Gegen Zauber
+
+Dieser Spruch wirkt auf jedes betroffene Wese. Es gibt einen Rettungswurf gegen Zauber, um den Effekt des Spruches ohne Anpassung der Weisheit zu überstehen. Misslingt der Rettungswurf erkennt das Opfer den Sprecher des Spruches als seinen Herrn an. Dieser kann dem Opfer Befehle erteilen und die bezauberte Person wird diese so schnell wie möglich ausführen.~@73   = ~Antimagische Schutzhülle~
+@74   = ~Antimagische Schutzhülle (Bannzauber)
+
+Grad: 6
+Reichweite: Anwender
+Wirkungsdauer: 2 Runden
+Zeitaufwand: 2
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Nach dem Ausspruch dieses Zaubers wird der Anwender von einer schimmernden Barriere umgeben. Diese Barriere ist für jegliche Magie und Zaubersprüche undurchdringlich, wodurch der Anwender vor allen Zaubern geschützt ist. Zusätzlich verhindert die Barriere das Aussprechen von Zaubern im Inneren und bannt alle magischen Auswirkungen, die auf dem Anwender liegen. Odemwaffen, Blick- oder Sprachattacken und ähnliche Spezialangriffe können die Barriere ebenfalls nicht durchdringen. Die Barriere kann auch durch "Magie bannen" nicht entfernt werden.~
+@77   = ~Sphäre der Dissipation~
+@78   = ~Sphäre der Dissipation (Bannzauber)
+Grad: 7
+Reichweite: 0
+Wirkungsdauer: 180 Sekunden
+Zeitaufwand: 4
+Wirkungsbereich: Selbst
+Rettungswurf: Nein
+
+Otiluke amüsierte sich an der Tatsache, dass viele Magier seinen robusten Sphärenzauber benutzten, obwohl dieser Spruch lediglich durch einen Fehler beim Testen eines anderen Spruches entstand. Es ist ein mächtiger Spruch für den umherwandernden Erzmagier, der Spruch erzeugt eine Sphäre aus Energie um den Magier, die die Energie von den Angreifern absorbiert. Nur die mächtigsten Sprüche oder besten magischen Waffen können hoffen, den Schild zu durchdringen. Deshalb ist es sehr nützlich, diesen Spruch bei Wanderungen durch die Ebenen von Toril zu verwenden.~
+@79   = ~Massenbezauberung~
+@80   = ~Massenbezauberung (Verzauberung/Bezauberung)
+
+Grad: 7
+Reichweite: Sichtweite
+Wirkungsdauer: 5 Runden
+Zeitaufwand: 2
+Wirkungsbereich: 20 m Radius
+Rettungswurf: Nein
+
+Dieser Zauberspruch wirkt auf alle Wesen im Wirkungsbereich um den vom Anwender gewählten Punkt. Es sind alle humanoiden Wesen für 30 Sekunden betroffen. Humanoide Wesen umfassen Menschen, Dryaden, Zwerge, Elfen, Erdwichte, Gnome, Goblins, Halbelfen, Hobgoblins und so weiter, allerdings keine größeren Kreaturen wie zum Beispiel Oger. Jedem Wesen muss ein Rettungswurf gegen Zauber gelingen, um dem Effekt zu entgehen.~
+@81   = ~Feuersturm~
+@82   = ~Feuersturm (Hervorrufung)
+
+Grad: 7
+Reichweite: 25 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 4
+Wirkungsbereich: Großflächig
+Rettungswurf: Nein
+
+Für den durchschnittlichen Erzmagier ist der normale Feuerball einfach nicht genug. Dieser Zauber aus der Zeit von Nesseril füllt diese Lücke. Der Anwender muss sehr fähig sein, und selbst dann ist der Zauber noch labil. Die Auswirkungen sind trotzdem sehr zerstörerisch. Jedes Wesen, dass den Flammen dieses Zaubers ausgesetzt ist, erleidet 6W6 Schadenspunkte durch Feuer und weitere 2W6 SP, wenn ihm ein Rettungswurf misslingt.~
+@83   = ~Vestcakes schwebender Fluch~
+@84   = ~Vestcakes schwebender Fluch (Hervorrufung)
+
+Grad: 7
+Reichweite: 50 m
+Wirkungsdauer: 30s
+Zeitaufwand: 5
+
+Dieser mächtige Fluch lässt eine Wolke aus kochendem Gas entstehen, die sich auf dem Schlachtfeld ausbreitet. In ihrem Innern kann man kleine Blitze hin und her springen sehen. Die Wolke ist so stark mit Elektrizität geladen, dass jedes Wesen von den Blitzen getroffen wird und sehr hohen Schaden erleidet.~
+@85   = ~Höllenfeuer~
+@86   = ~Höllenfeuer (Hervorrufung)
+
+Grad: 8
+Reichweite: 16 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 3
+Wirkungsbereich: 10 m Radius
+Rettungswurf: 1/2
+
+Dieser Zauberspruch ist das Werk eines verrückt gewordenen Erzmagiers, auch bekannt als Erz-Astronomer, der während der Zeit von Nesseril lebte. Dieser verrückte Magier war süchtig nach Feuer und erschuf diesen Zauber, um seine Sucht zu befriedigen. Er starb durch ihn kurz nach seiner Fertigstellung.
+Fast alle modernen Feuersprüche sind in diesem "Cocktail" enthalten, wodurch er fähig ist, so ziemlich jedes Wesen zu Asche zu verbrennen. Wie auch immer, es ist ein unberechenbarer Zauberspruch, somit ist es sicherer ihn aus großer Entfernung auszusprechen.~
+@87   = ~Wahnsinn~
+@88   = ~Wahnsinn (Verzauberung/Bezauberung)
+Grad: 8
+Reichweite: 16 m
+Wirkungsdauer: Permanent
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch verursacht, dass der Wille des Magiers in den Verstand des Zieles eindringt und diesen komplett zerstört. Dabei wird das Opfer komplett wahnsinnig, aber immer noch gefährlich. Die Dauer ist permanent und das Opfer geht benommen oder konfus umher oder stürzt sich wie verrückt mit dem nächst besten in den Kampf. Es gibt nur eine 50% Chance, dass der Spruch funktioniert.~
+@89   = ~Miasma~
+@90   = ~Miasma (Hervorrufung)
+Grad: 8
+Reichweite: 100 m
+Wirkungsdauer: 30 Sekunden
+Zeitaufwand: 4
+Wirkungsbereich: 40 m breite, 20 m hohe, 20 m tiefe Wolke
+Rettungswurf: Verschiedene
+
+Dieser mächtige Spruch erzeugt eine säurehaltige Wolke mit tödlichen Dampf, der alles um sich herum einhüllt. Die Säurehaltigkeit des Dampfes vergrößert sich im Laufe der Dauer des Spruches, so dass sich alle 5 Sekunden der Schaden bis zu einem Maximum von 7W6 erhöht. Jeder der sich in der Wolke befindet, selbst diese, die sie verlassen haben, sind mit Säure bedeckt und sind genauso von dem Effekt betroffen, als ob sie noch in der Wolke stehen würden. Der Effekt kann, wenn man schnell genug ist, auch aufgehoben werden. Der durch die Säsure verursachte Schaden ist relative leicht zu verhindern, aber die Wolke hat einen noch schlimmeren Effekt. Befindet sich eine Person in dieser Wolke, so besteht eine 25% Chance, dass sich die Person aufgrund der ätzenden Natur der Wolke in einen Pfuhl von Schleim verwandelt. (Kein Rettungswurf)~
+@91   = ~Donnerbolzen (Hervorrufung)
+
+Grad: 8
+Reichweite: 50 m
+Wirkungsdauer: Sofort
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: Nein
+
+In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
+@92   = ~Varashars Lebensentzug~
+@93   = ~Varashars Lebensentzug (Nekromantie)
+
+Grad: 8
+Reichweite: 10 m
+Wirkungsdauer: Speziell
+Zeitaufwand: 1
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Den Gerüchten nach nutzte der Magierkönig Varashar diesen Zauber, um sein Leben während seiner 120-jährigen Herrschaft mehrfach zu verlängern. Das Opfer des Zaubers erleidet 5W4 Schadenspunkte, während der Anwender zusätzliche 25% seiner Trefferpunkte erhält. Solche Trefferpunkte, die über das Maximum des Anwenders hinausgehen, gehen nach 4 Runden verloren.~
+@94   = ~Funke des Todes~
+@95   = ~Funke des Todes (Nekromantie)
+Grad: 9
+Reichweite: 16 m
+Wirkungsdauer:  Sofort
+Zeitaufwand: 8
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Indem er diesen Spruch spricht, verursacht der Magier enormen, aber auch in hohem Grade variablen Schaden an einem einzelnen Ziel.~
+@96   = ~Azuths Rune der negativen Beschaffenheit~
+@97   = ~Azuths Rune der negativen Beschaffenheit (Hervorrufung)
+Grad: 9
+Wirkungsbereich: 1 Wesen
+Reichweite: 33 m
+Zeitaufwand: 7
+
+Bevor der vielleicht mächtigste Magier alle Zeiten als Gottheit sich neben Mystra gesellte, kreierte er diesen Spruch. Ein verheerend mächtiger Spruch, welcher seinen Namen als göttlicher Todesspruch verdient und in keiner der Ebenen übertroffen wird. Der Erzmagier streckt seine Arme nach vorne und beschwört die große Macht des Seins, die das Universum zusammenhält. Riesige Bolzen Energie schwirren vor ihm und als er den Spruch loslässt, kräuselt sich ein Bolzen reinster Energie vom Himmel herab und zerstört das Ziel.
+
+Es gibt keien Rettungswurf und der Spruch durchdringt jeden magischen Schutz.~
+@98   = ~Heilung~
+@99   = ~Heilung (Erkenntnis)
+Grad: 9
+Reichweite: 10 m
+Wirkungsdauer: Permanent
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch entfernt Gift und stellt alle Lebenspunkte des betroffenen Wesens wieder her. Es gibt keinen Rettungswurf, so dass keinerlei magischer Schutz den Effekt des Heilens stoppen wird.~
+
+////////////////////
+//Crowns, helm, etc.
+////////////////////
+
+@1000 = ~Krone~
+@1001 = ~Krone der Erzdruiden~
+@1002 = ~Kronen dienen nicht nur zur Zierde, einige bieten dem Träger auch ein wenig Schutz.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Kämpfern
+ Dieben~
+@1003 = ~Diese Krone befand sich vor über 13 Generationen im Besitz des Führers der "Druiden des Schwarzen Waldes". Nach der Invasion der Orks zerfiel diese Verbindung jedoch, und seither wechselt die Krone sehr häufig ihren Besitzer.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Ein zusätzlicher Zauber des 1. bis 3. Grades
+ Kann Tiere bezaubern
+Reichweite: 12 m
+Wirkungsdauer: 10 Phasen
+Wirkungsbereich: 1 Tier
+Rettungswurf: Ja (Zauberstäbe)
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Druiden~
+@1004 = ~Krone der Shar'DuKha~
+@1005 = ~Krone der Shar'DuKha "Helm des Zauberers"
+
+Diese Krone gehörte den Elementaren Templern, bekannt als Shar'DuKha. Hergestellt für Anwender der Zauberkünste bietet sie jenen Schutz, den Zauberer aufgrund ihrer Klasse normalerweise aufgeben müssen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Rettungswurf-Bonus: +1
+Besonderheit:
+ Widersteht verschiedenen geistigen Angriffen
+ Elektrizitätsresistenz: +20%
+ Kälteresistenz: +20%
+ Feuerresistenz: +20%
+ Säureresistenz: +20%
+ Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Magiern~
+@1006 = ~Filzhut~
+@1007 = ~Spitzbubenhut~
+@1008 = ~Solch ein Filzhut ist bei Barden sehr beleibt, da er neben seinem dekorativen Zweck auch etwas Schutz bietet. In seltenen Fällen wird ein ähnlicher Hut mit magischen Eigenschaften entdeckt.
+
+Kann nur verwendet werden von:
+ Barden
+ Dieben~
+@1009 = ~Dieser Filzhut besitzt magische Eigenschaften. Trotz seines schwachen Aussehens im Vergleich zu normaler Kleidung oder anderen Filzhüten ist er stark genug, um einem ordentlichen Schlag zu widerstehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Schutz vor Furcht
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Barden
+ Dieben~
+@1010 = ~Tiara~
+@1011 = ~Tiara von Chanah'Rea~
+@1012 = ~Diese Art einer dekorativen Tiara besteht aus Perlen oder Metall. Normalerweise sind diese Kopfbedeckungen zusätzlich mit Juwelen oder anderen wertvollen Gegenständen verziert und werden von Magiern getragen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: Keine
+Gewicht: 2~
+@1013 = ~Während eine Tiara meistens rein dekorative Zwecke erfüllt, ist diese mit magischen Kräften von den Priestern von Chanah'Rea ausgestattet. Man nimmt an, dass der Stein auf der Vorderseite von Steinhecke stammt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rettungswurf-Bonus: +1
+Besonderheit:
+ Widersteht verschiedenen geistigen Angriffen
+ Elektrizitätsresistenz: +20%
+ Kälteresistenz: +20%
+ Feuerresistenz: +20%
+ Säureresistenz: +20%
+ Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Druiden~
+@1015 = ~Ferthgils Helm~
+@1017 = ~Dies ist der Helm von Ferthgil Trolltöter, dem Sohn von Breachin Trolltöter. Der Helm wurde Ferthgil vom Steinherd Clan nach dem Tod seines Vaters übergeben. Gulmoth Steinherd, Ferthgils Mentor, legte den Segen von Clanngedin auf den Helm. Damit wollte er Ferthgil beim Bündeln seiner Gedanken helfen, besonders im Kampf sollte ihm dies von großem Nutzen sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Schützt vor allen Formen von Verzauberung, Panik und Festhalten
+ Magieresistenz: 50 %
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Ferthgil Trolltöter~
+@1018 = ~Ebener Helm~
+@1019 = ~Ein solcher Helm gehörte zur Standardausrüstung der Soldaten der Ebenen Hand. Der Helm erlaubte es den Mitgliedern der Hand, ihren Pflichten ohne externe Störungen nachzugehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Träger ist immun gegen Bezauberung
+Gewicht: 4
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben
+ Mönchen
+ Kensai~
+@1020 = ~Conchobhairs Helm des Mutes~
+@1021 = ~Dieser Helm wurde so verzaubert, dass er etwas Schutz gegen mentale Attacken und Furcht bietet. Er erhöht außerdem die Moral des Trägers.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Schützt vor Furcht und verschiedenen geistigen Angriffen
+
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben
+ Mönchen
+ Kensai~
+@1022 = ~Kristallhelm~
+@1023 = ~Dieser Helm wurde aus magischen Kristallen hergestellt, welche in einer längst vergessenen Zwergenmine gefördert wurden. Die Kristalle haben eine natürliche Resistenz gegen Feuer und Kälte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Kälteresistenz: +20%
+ Feuerresistenz: +20%
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben
+ Mönchen
+ Kensai~
+@1024 = ~Skeezer Lumpkins Zwergen-Kriegshelm~
+@1025 = ~Skeezer bekam diesen Helm von seinem guten Freund Gothmog Steinherd geschenkt. Die beiden wurden Freunde, nachdem Skeezer eines Nachts Gothmogs Leben rettete. Gothmog geriet in einen Hinterhalt der Duergar, die sich in jener mondlosen Nacht auf Beutesuche gemacht hatten. Als Skeezer dies sah, schlug er mit seinem Stab auf den Boden, wodurch sich der Himmel plötzlich erhellte. Die Duergar, die sich in der Dunkelheit sicherer fühlen, ergriffen daraufhin die Flucht. Seitdem sind Gothmog und Skeezer die besten Freunde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Steigert die Moral des Trägers
+Besonderheit:
+ Schützt vor kritischen Treffern
+ Schützt vor Panikattacken
+ Intelligenz-Bonus: +2
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Skeezer Lumpkin VI~
+@1026 = ~Helm der Heiligen Wache~
+@1027 = ~Dieser dekorative Helm sieht eher wie ein Vorzeigestück als wie ein Schutzhelm aus. Verzaubert durch die Hohepriester der Sukien verleiht er dem Träger die Kraft, jeglicher Art der Bezauberung oder Verführung zu widerstehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Widersteht verschiedenen geistigen Angriffen
+ Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nur verwendet werden von:
+Paladinen~
+
+@1028 = ~Thorfinns Helm~
+@1029 = ~Thorfinns Helm verleiht Immunität gegen alle natürlichen und magischen Formen von Furcht.
+
+EIGENSCHAFTEN:
+
+Schützt den Träger vor:
+- Furcht
+- kritischen Treffern
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben~
+
+//////////
+//Armor
+//////////
+
+@1030 = ~Dornenrüstung~
+@1032 = ~Nach einer genaueren Untersuchung entdeckt Ihr, dass die Rüstung überhaupt nicht aus Leder gemacht wurde, vielmehr durch kompliziertes Verweben eines Dornenbusches. Sie ist ein Geschenk einer Nymphe an einen Druiden, als Zeichen ihres Dankes und ihrer Bewunderung für den endlosen Schutz des Waldes.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Rettungswurf-Bonus: +1
+Gewicht: 4
+
+Kann nur verwendet werden von:
+ Druiden~
+@1033 = ~Sturmwolke~
+@1034 = ~Krakens Verderben
+
+Dieses Lederwams wurde aus den Überresten eines Drachen gefertigt, der vom Blitz erschlagen wurde. Zuletzt wurde es von dem Zauberer Shrethu Reogher getragen. Man kann nur hoffen, dass er tot ist, denn würde er noch leben, wäre er bestimmt auf der Suche danach.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Rettungswurf-Bonus: +3
+Resistenz gegen Elektrizität
+Gewicht: 4
+
+Kann nur verwendet werden von:
+ Druiden~
+@1036 = ~Ferthgils zwergischer Mithril-Plattenpanzer~
+@1038 = ~Dieser Plattenpanzer wurde von Ferthgil Trolltöter aus soliden Mithril-Platten gefertigt. Sein Lehrer war Otho Getreuhammer, Führer des Getreuhammer Clans und Vater von Tearlac Getreuhammer, Ferthgils bestem Freund. Ferthgil konnte seine Fähigkeiten als Schmied unter Beweis stellen, aber trotzdem zieht er das Kämpfen der Schmiedekunst vor. Diese Rüstung ist vergleichbar mit einem magischen Plattenpanzer und gibt 5 Bonuspunkte auf die Rüstungsklasse. Allerdings wurde keine Magie bei ihrer Fertigung angewendet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Gewicht: 30
+Mindeststärke: 14
+
+Kann nur verwendet werden von:
+ Zwergen
+ Gnomen~
+@1039 = ~Conchobhairs gesegneter Plattenpanzer~
+@1040 = ~Dieser Plattenpanzer wurde gesegnet, damit er extra Schutz beim Kampf gegen riesige Gegner und Monster bietet. Conchobhair findet diese Rüstung ideal für seinen Beruf als Drachenjäger, da sie ihm guten Schutz bietet und seine Bewegungsfreiheit nicht unnötig einschränkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Gewicht: 50
+
+Kann nur verwendet werden von:
+Paladinen~
+@1041 = ~Kristallpanzer~
+@1042 = ~Dieser Plattenpanzer wurde aus magischen Kristallen hergestellt, welche in einer längst vergessenen Zwergenmine gefördert wurden. Die Kristalle haben eine natürliche Resistenz gegen Feuer und Kälte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Besonderheit:
+ Kälteresistenz: +20%
+ Feuerresistenz: +20%
+Gewicht: 20
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Bogenschützen
+ Pirschern
+ Tiermeister
+ Kensai
+ Gestaltwandler~
+@1044 = ~Ebener Prunkharnisch~
+@1046 = ~Prunkharnisch +1: Ebene Rüstung
+
+Lord Scrakin, Oberster General der Ebenen Hand, trug diese Rüstung fast 50 Jahre lang. Gerüchte besagen, dass er während dieser Zeit in einer Burg irgendwo in den Weltbeständig-Bergen lebte. Wie seine Rüstung ohne ihn in andere Länder gelangen konnte ist nicht bekannt, sicher ist nur, dass die Trennung der beiden nicht sehr angenehm gewesen sein muss.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 35
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben~
+
+@1047 = ~Thorfinns Lederharnisch~
+@1048 = ~Dies ist der persönliche Lederharnisch von Thorfinn Hauskluniff. Die besondere Machart der Rüstung aus ineinander greifenden Lederplatten macht sie viel leichter als eine normale Lederrüstung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 6
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Thorfinn Hauskluniff~
+
+@1052 = ~Rüstung der Kreuzritter~
+@1054 = ~Dieser Schienenpanzer ist die bevorzugte Rüstung eines Kreuzritters, besser bekannt als Paladin. Oft als religiöse Fanatiker bezeichnet, kämpfen diese Ritter mit großem Vertrauen in die Gesetze, die sie verteidigen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Rettungswurf-Bonus: +2
+Resistenzbonus: +25%
+Gewicht: 20
+Mindeststärke: 8
+
+Kann nur verwendet werden von:
+ Paladinen
+ Klerikern (rechtschaffen gut)~
+@1055 = ~Kettenhemd +2 "Gesegnetes Kettenhemd"~
+@1056 = ~Dieses Kettenhemd wird normalerweise von Priestern getragen, die für ihren Glauben kämpfen. Der Träger wird mit dem Zauber "Stärkung" gesegnet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Bogenschützen
+ Pirschern
+ Kensai
+ Tiermeister
+ Gestaltwandler~
+@1057 = ~Heilige Rüstung der Sukien~
+@1058 = ~Die heilige Rüstung der Sukien wurde von der Heiligen Wache des Sukien-Tempels getragen und verfügt über große Magie. Prahlend, dass sie niemals in einer Schlacht geschlagen wurden, und von einer standhaften Besessenheit, glaubte die Heilige Wache daran, dass die Rüstung ein Geschenk des Himmels sei. Mit ihrem stolzen Wappenschild auf der Brust wirkt sie genauso dreist und kühn, wie es ihre Träger einst waren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Schützt vor Gift
+Gewicht: 18
+Mindeststärke: 11
+
+Kann nur verwendet werden von:
+ Paladinen~
+@1059 = ~Jet'layas Kettenhemd~
+@1060 = ~Das persönliche Kettenhemd von Jet'laya. Ihr Zwillingsbruder Rennar schmiedete es für sie. Aufgrund der ungewöhnlichen Farbe könnte man meinen, es handle sich um ein Kettenhemd der Elfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 15
+
+Kann nur verwendet werden von:
+ Jet'laya~
+@1061 = ~Schienenpanzer +4 - Korims Haut~
+@1062 = ~Dieser Schienenpanzer wurde in den Feuern von Nesseril durch die Hand von Korim gefertigt. Der Panzer hat eine einzigartige grüne Farbe und ist sehr leicht. Korim war sehr erfahren in den Künsten der Magie und der Natur. Nach einem wilden Kampf, in dem er schwer verwundet wurde, beschloss er, dass er eine Rüstung mit besserem Schutz braucht. Außerdem wollte er nicht auf seine speziellen Talente verzichten. Mit einem mächtigen Erkenntniszauber fand er ein starkes und leichtes Metall, dass seine Fähigkeiten nicht einschränken würde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Besonderheit:
+ Regeneration: 1 Trefferpunkt alle 2 Runden
+ Hindert nicht beim Zaubern
+Gewicht: 7
+
+Kann nur verwendet werden von:
+Mönchen
+Kensai~
+@1063 = ~CúChoinneachs Lederrüstung +4~
+@1064 = ~Diese Rüstung hat CúChoinneach während seiner Tage als Waldläufer selbst hergestellt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Im Schatten verstecken: +15%
+Gewicht: 8
+
+Kann nur verwendet werden von:
+ CúChoinneach~
+@1065 = ~Keirias Bardenrüstung +1~
+@1066 = ~Keiria war stets darauf bedacht, die Verbindung zu ihren elfischen Verwandten aufrecht zu erhalten. So konnte sie in den Besitz einiger magischer Gegenstände der Elfen kommen. Diese elfische Lederrüstung gewährt einen Bonus auf die Rüstungsklasse und schränkt das Zauberwirken nicht ein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 6
+Gewicht: 15
+
+Kann nur verwendet werden von:
+ Keiria Silbersaite~
+@1067 = ~Gnomarbeiter Rüstung~
+@1068 = ~Gnomarbeiter Rüstung +2~
+@1069 = ~Die Rüstung der Gnomarbeiter ist eine Variation der qualitativ hochwertigen Lederrüstung der Gnome. Solche Rüstungen sind mit dutzenden kleinen Werkzeughaltern und Beuteln bestückt, welche typischerweise mit den seltsamsten Dingen wie Münzen, Nägeln, Werkzeugen, kleinen Waffen und anderen Sachen gefüllt sind. Aus diesem Grund bietet die Rüstung der Gnomarbeiter den selben Schutz wie ein beschlagenes Lederwams.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25
+Mindeststärke: 10
+
+Kann nur verwendet werden von:
+ Dieben~
+@1070 = ~Diese Lederrüstung wurde von einem Meister der Gnomarbeiter erschaffen und so verzaubert, dass sie besseren Schutz gegen unvorhersehbare Unfälle bietet. Die Werkzeuge, die sich an der Rüstung befinden, könnten auch sehr hilfreich beim Öffnen von Schlössern sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 8
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Dieben~
+@1072 = ~Skeezer Lumpkins Zauberrobe~
+@1073 = ~Seit den Tagen von Nesseril haben Magier gelernt, alltägliche Objekte, die sie umgeben, mit den verschiedensten magischen Eigenschaften zu versehen. Einer der beliebtesten Gegenstände für die Anwendung von Zaubern ist die gemeine Robe. Sie ist leicht, erschwinglich und behält ihre Verzauberung gut bei, wodurch sie zur idealen Ausrüstung für einen Magier wird. Aufgrund ihres magischen Erbes dürfen jedoch nur Magier diese Roben tragen.~
+@1074 = ~Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlichen Angriffs, während sie gleichzeitig den Magiewiderstand sowie die Rettungswürfe des Trägers erhöht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Rettungswurf-Bonus: +1
+Magieresistenz: +5%
+Gewicht: 6
+
+Kann nur verwendet werden von:
+ Skeezer Lumpkin VI~
+@1075 = ~Robe des Magiers~
+@1076 = ~Diese Zauberrobe wurde für moderne Magier geschaffen, die ihre Ausbildung beendet haben und die Welt erkunden möchten. Durch ihre Rüstungsklasse und die extra Zaubersprüche ist der Magier besser für die Reise gerüstet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 8
+Zauber: +1 (Grad 1 und 2)
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Magiern
+ Barden~
+@1077 = ~Robe der Hexenmeister~
+@1078 = ~Diese mächtige Robe bietet ihrem Träger nicht nur Schutz vor körperlichen Angriffen, sondern erhöht auch seine magische Widerstandsfähigkeit und gibt einen Bonus auf seine Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit böser Gesinnung getragen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -2
+Rettungswurf-Bonus: +3
+Magieresistenz: 25%
+Gewicht: 6
+
+Kann nur verwendet werden von:
+ bösen Magiern~
+@1079 = ~Robe von Dh'arlo'me~
+@1080 = ~Diese mächtige Zauberrobe bietet Schutz vor allen Formen des physischen Angriffs, während sie außerdem die magische Resistenz erhöht. Die Robe kann nur durch den Zauber "Fluch brechen" wieder entfernt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Besonderheit:
+ Immunität gegen Zauber des 1., 2. und 3. Grades
+ Intelligenz: auf 19 gesetzt
+ Weisheit: auf 19 gesetzt
+ Magieresistenz: +50%
+ +4 auf Zauber des 1. bis 3. Grad
+ Träger kann schneller zaubern
+ Immunität gegen alle nicht-magischen Waffen
+Gewicht: 6
+
+Kann von allen verwendet werden.~
+@1081 = ~Drakelors Robe~
+@1082 = ~Diese Robe war ursprünglich ein Geschenk des bekannten Zauberers Drakelor an einen Freund, der auf eine lange und gefährliche Reise gehen musste. Unglücklicherweise wurde die Robe gestohlen, als sich der Freund in einem Gasthaus von der Reise erholte. Der Dieb, der zwar den Wert, aber nicht den Ursprung seiner Beute erkannte, wandte sich an den ihm bekannten Magier. Drakelor sah seine Robe und dachte sich schon, was geschehen sein musste. Das Schicksal des Diebes muss wohl nicht weiter erläutert werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Rettungswurf-Bonus: +2
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Magiern~
+@1083 = ~Drow Zauberumhang~
+@1084 = ~Hochstufige Drow tragen oft einen Zauberumhang, welcher eine 75%-ige Chance bietet, unentdeckt im Schatten zu verbleiben. Der Umhang wird aus einem speziellen, mit Adamantit verwebten Material gemacht, bietet Resistenz gegen Feuer und +6 auf Rettungswürfe gegen Feuer. Diese Umhänge können nur von Elfen getragen werden.
+
+Da das Adamantit sehr empfindlich auf Sonnenlicht reagiert, setzt bei Tageslicht unwiderruflich der Zerfall ein. Der Umhang verrottet innerhalb von 2 bis 12 Tagen und wird somit nutzlos.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Besonderheit:
+ Intelligenz-Bonus: +2
+ Rettungswurf gegen Odemwaffen: +6
+ Kann sich einen Extrazauber pro Grad bis zum 9. Grad einprägen
+ Feueresistenz: +75%
+ Unauffindbarkeit
+
+Gewicht: 1
+
+Kann nur verwendet werden von:
+ Magiern~
+@1085 = ~Robe des Abyss~
+@1086 = ~Ein wirklich niederträchtiges Artefakt, das dem Abyss entstammt. Die Robe bietet Schutz vor körperlichen Angriffen und erhöht gleichzeitig die magische Resistenz des Trägers sowie seine Rettungswürfe. Aufgrund ihrer Herkunft kann sie nur von Magiern mit böser Gesinnung getragen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -5
+Rettungswurf-Bonus: +5
+Konstitutions-Malus: -30%
+Magieresistenz: 25%
+Bonus-Zauber:
+ +3 (Grad 1 bis 5)
+ +1 (Grad 6 bis 8)
+Träger benötigt keinen Schlaf
+Gewicht: 6
+
+Kann nur verwendet werden von:
+ bösen Magiern~
+@1087 = ~Robe der Hohen Templer~
+@1088 = ~Diese mächtige Robe bietet ihrem Träger nicht nur Schutz vor körperlichen Angriffen, sondern erhöht auch seine magische Widerstandsfähigkeit und gibt einen Bonus auf seine Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit guter Gesinnung getragen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -2
+Rettungswurf-Bonus: +3
+Magieresistenz: 25%
+Gewicht: 6
+
+Kann nur verwendet werden von:
+ guten Magiern~
+@1089 = ~Robe der Zauberkunst~
+@1090 = ~Diese mächtige Robe bietet ihrem Träger nicht nur Schutz vor körperlichen Angriffen, sondern erhöht auch seine magische Widerstandsfähigkeit und gibt einen Bonus auf seine Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit neutraler Gesinnung getragen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -2
+Rettungswurf-Bonus: +3
+Magieresistenz: 25%
+Gewicht: 6
+
+Kann nur verwendet werden von:
+ neutralen Magiern~
+
+////////
+// Belts
+////////
+
+@1092 = ~Heiliger Gürtel der Geschwindigkeit~
+@1094 = ~Heiliger Gürtel der Geschwindigkeit
+Kunstvolle und heilige Markierungen heben den Gürtel der Heiligen Wache der Sukien hervor. Lange ist es schon bekannt, dass sie mit großen Eifer kämpfen und man glaubte, dass die Fähigkeit in der Natur der Wesen lag. Wie schlau war es von den Wachen, dieses Geheimnis so lange zu bewahren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus:  -3 gegen Stichwaffen und Geschosswaffen
+Bonus: Hast
+Gewicht:  2
+Kann nur verwendet werden von:
+ Paladinen~
+@1096 = ~Morridins Umhang~
+@1098 = ~Dieser Umhang war einst der Besitz des berühmten Barden Morridin. Obwohl der Umhang nur so vor eingewebtem Gold trotzt, ist er "... nur ein einfacher Umhang, der mäßigen Schutz vor den Elementen bietet", so Morridin. Der Umhang und viele andere Dinge, die Morridin gehörten, wurden für lange Zeit zum Thema vieler Diskussionen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Charisma-Bonus: +1
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Barden~
+@1099 = ~Umhang des Verblassens~
+@1100 = ~Dieser Umhang wurde von dem mittlerweile wahnsinnigen Zaubererfürsten Noober Harpell geschaffen. Begeistert von den Elfenroben, die er auf seinen Reisen gesehen hatte, erschuf er diesen Umhang als eine einfache Kopie. Während er getragen wird verblasst der Träger und verschwindet fast komplett, wodurch er einige Vorteile in Bewegung und Kampf erhält.
+
+Auf der Innenseite wurde folgendes eingenäht: "Eigentum von Noober, Sohn von Noober".
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger verblasst zu 75%
+Gewicht: 3
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1101 = ~Umhang des Waldes~
+@1102 = ~Nachdem dieser Umhang aus dem Tempel von Erreth-Akbe gestohlen wurde, fand ihn der Erzdruide Yarrow auf seinem Rachefeldzug gegen diejenigen, die den Tempel einst zerstörten. Gerüchten zufolge gab er den Umhang an seinen Sohn Shephesh weiter.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -2
+Besonderheit:
+ List wird erhöht
+ Unauffindbarkeit
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Waldläufern~
+@1103 = ~Schutzumhang +3~
+@1104 = ~Mystras Robe
+
+Von diesen Roben wird behauptet, dass sie nur an wenige auserwählte Priester der Mystra vergeben werden. Da manche dieser Priester sehr früh gestorben sind, konnten einige Roben außerhalb dieser religiösen Organisation einen Besitzer finden. Der Träger erhält Boni auf körperliche und magische Angriffe sowie Schutz vor Untoten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+Rettungswurf-Bonus: +2
+Schützt vor Untoten
+Gewicht: 3
+Kann nicht verwendet werden von:
+ Magierkiller~
+
+/////////////////////////////
+// Bracers, Gauntlets, Gloves
+/////////////////////////////
+
+@1106 = ~Armschützer aus Drachenhaut~
+@1108 = ~Diese Armschützer wurden aus Drachenhaut gefertigt. Ähnliche Gegenstände werden von Druiden in besonderen Situationen hergestellt, wie zum Beispiel beim Tod eines alten Drachen, was hier der Fall war.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 2
+
+Können nicht verwendet werden von:
+Magierkiller
+Kensai~
+@1109 = ~Handschuhe~
+@1110 = ~Geschicklichkeitshandschuhe~
+@1111 = ~Hierbei handelt es sich um den zur Rüstung gehörenden Handschutz, der entweder aus Leder, Metallplättchen oder einem Kettengeflecht besteht. Zu jeder Art von Rüstung sollte es die entsprechenden Handschuhe geben. Magische Handschuhe sind meistens feiner, leichter und angenehmer zu tragen als die normale Ausführung.~
+@1112 = ~Die Kämpferhände
+
+Dieses Paar Handschuhe wurde wahrscheinlich in Kara-Tur entworfen und sollte Meistern der Kampfeskunst als Hilfsmittel dienen. Legenden besagen, dass diese Meister aus dem Fernen Osten die Handschuhe auf ihren Reisen mit sich führten, aber nähere Einzelheiten sind nur bruchstückhaft überliefert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Geschicklichkeits-Bonus: +2
+Gewicht: 2
+
+Können nicht verwendet werden von:
+Magierkiller~
+@1113 = ~Otrad Atwah: "Armschützer der Magie"~
+@1114 = ~Handschuhe der Weisen aus dem Morgenland
+
+Sogar der mächtigste Magier kann sich manchmal unvorbereitet in einer Schlacht wieder finden und muss dann ohne Magie seine Gegner überwältigen. Genau für solche Momente gedacht, gab Sharga diese Handschuhe in Auftrag. Sie helfen einem Meister der Zauberkunst ein klein wenig, wenn ein Schwertkampf unausweichlich ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Besonderheit:
+ Erhöht Angriffswert
+ Erhöht Rettungswürfe
+ Magiewiderstand: +25%
+Gewicht: 2
+
+Können nur verwendet werden von:
+ Magiern (einklassig)~
+@1115 = ~Geschenk des Waldes~
+@1116 = ~Viele Jahre kämpften Druiden und Waldläufer für den Wald, um ihn vor dem immer weiter voranschreitenden Eingriff der Zivilisation in die Natur zu schützen. Aus diesem Grund beschlossen die Waldbewohner, die Helden, die sich so fanatisch für sie einsetzten, mit Armschützern auszustatten, welche ihnen besseren Schutz bieten sollten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Besonderheit:
+ Erhöht Angriffswert
+ Resistenz gegen Versteinerung
+Gewicht: 2
+
+Können nur verwendet werden von:
+ Druiden
+ Waldläufern~
+@1117 = ~Armreif der Magier~
+@1118 = ~Der exakte Herkunftsort dieses Armreifs ist unbekannt. Im Laufe der Geschichte sind eine Menge Gerüchte über den Fundort oder die Herkunft entstanden. Die Verzauberung, die auf dem Armreif liegt, ist für das Alter solcher Artefakte ungewöhnlich stark.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -2
+Erhöht Zaubergeschwindigkeit
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Barden
+ Magiern~
+@1119 = ~Handschuhe des Treuen Kriegers~
+@1120 = ~Im Laufe der Zeit wurde es zu einer bekannten Tatsache, dass manche Gottheiten ihre Anhänger mit Geschenken in Form von magischen Gegenständen segnen. Obgleich der genaue Ursprung dieser Handschuhe unbekannt ist wird angenommen, dass es sich hierbei um ein solches Geschenk handeln muss.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Schadensbonus: +3
+Gewicht: 1
+
+Kann nur verwendet werden von:
+ Klerikern~
+
+////////
+// Rings
+////////
+
+@1124 = ~Der Ring wurde dem berühmten Jäger und Plünderer der Riffe, der nur unter dem Namen Edventar bekannt war, von einer Gruppe Meereselfen überreicht, die schon lange mit ihm befreundet waren. Er hatte geholfen, die "Piratenkönigin" Yenandra von Dambrath zu vertreiben und so das Überleben der Elfen zu sichern. Yenandra wurde jedoch keineswegs endgültig besiegt und wird noch immer an jeder Küste gefürchtet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt allerdings nicht für "Hast". Dieser Ring wurde auch so verzaubert, dass der zusätzliche Effekt der Siebenmeilenstiefel erhalten bleibt.~
+@1125 = ~Ring der Ahnen~
+@1126 = ~Dieser Ring wurde von einem Volk erschaffen, dass unter den Gelehrten als "Antiker" bekannt ist. Es existieren nur noch wenige Relikte aus dieser Zeit, und selbst die Nachfahren der Antiker wissen sehr wenig darüber.
+
+EIGENSCAFTEN:
+
+Fügt ein Zauber- und ein Priesterspruch pro Stufe zwischen der Stuf 1 und 4 hinzu.
+
+Kann verwendet werden:
+ Magiern/Priestern (nur mehrklassig)~
+@1127 = ~Lehrlingsring~
+@1128 = ~Ähnliche Ringe werden häufig an Zauberlehrlinge vergeben, die außergewöhnliche Fähigkeiten, Fachwissen oder besondere Verdienste vorweisen können.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Zusätzlich zwei Zauber 1. Grades, einen 2. Grades und einen 3. Grades.
+
+Kann nur verwendet werden von:
+ Magiern
+Barden~
+@1129 = ~Priesterring von Ghaunadaur~
+@1130 = ~Dieser Ring kann nur von Priestern der Stufe 5 oder höher verwendet werden. Er gewährt seinem Träger Immunität gegen Gift und Säure.
+
+Kann nur verwendet werden von:
+ Klerikern
+ Druiden
+ Paladinen
+ Waldläufern~
+@1131 = ~Dieser Ring kann nur von Priestern der Stufe 5 oder höher verwendet werden. Er gewährt seinem Träger Immunität gegen Gift.
+
+Kann nur verwendet werden von:
+ Klerikern
+ Druiden
+ Paladinen
+ Waldläufern~
+@1133 = ~Mopaps Glücksrunen-Schlüsselstein~
+@1135 = ~Es gehen Gerüchte von einem zirpenden Eichhörnchen um, das einen Glücksrunen-Schlüsselstein besitzen soll. Wie auch immer, niemand konnte diese Gerüchte bis jetzt bestätigen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Glücks-Bonus: +1
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1136 = ~Mystischer Ring~
+@1137 = ~Der genaue Herkunftsort dieses Ringes ist unbekannt. Es wird jedoch geglaubt, dass er einem alten Magier gehörte, der in einem kleinen Dorf lebte und dort als der "Weise Mann" auftrat, bis er gestorben ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Zusätzlich ein Zauber 2. Grades, einen 3. Grades und einen 4. Grades.
+
+Kann nur verwendet werden von:
+ Magiern
+ Barden~
+@1138 = ~Der unfehlbare Geschoss-Reflektor~
+@1139 = ~Dieser Ring generiert ein unsichtbares Feld um seinen Träger, welches Geschosse ablenkt. Selbst ein perfekt gezielter Schuss wird den Träger des Ringes verfehlen oder das Geschoss stoppt im Flug und fällt auf den Boden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schutz vor nicht-magischen Geschossen
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1140 = ~Ring des Reisenden~
+@1141 = ~Dies ist der persönliche Ring des berühmten Barden Morridin. Es fehlt allerdings ein Stein. Nachdem Morridin gefragt wurde, wieso der Stein fehlt, sagte er einfach: "Er fiel heraus, als ich umherreiste." Dadurch wurde dieser Ring als der Ring des Reisenden bekannt. Da Morridin nie darüber sprach, ob und wie der Ring verzaubert wurde, sind seine wahren Eigenschaften unbekannt.
+
+Kann nur verwendet werden von:
+ Barden~
+@1142 = ~Bardenring~
+@1143 = ~Dieser Ring gehörte einst dem berühmten Barden Morridin. Der Magierkönig Varashar ließ ihn für Morridin anfertigen, nachdem dieser einen sieben Jahre dauernden Wettstreit für Heldensänger gewann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Zusätzlich ein Zauber 1. Grades, einen 3. Grades und einen 5. Grades.
+
+Kann nur verwendet werden von:
+ Barden~
+@1144 = ~Siegelring der Sukien~
+@1145 = ~Durch die Magie der Hohepriester des Sukien-Tempels aufgewertet, werden solche Ringe von allen getragen, die den Tempel vor dem Bösen beschützen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Rettungswurf-Bonus: +2
+Schutz vor Versteinerung
+
+Kann nur verwendet werden von:
+ Paladinen~
+@1146 = ~Ring des Feuerschildes~
+@1147 = ~Charviraks Leuchten
+
+Seit Anbeginn der Zeit haben Magier die Elemente in ihrer Umgebung zum Angriff und zur Verteidigung verwendet. Dieser Ring ist das Handwerk des großen Zauberers Charvirak von Cormyr. Es wird behauptet, dass er die Essenz eines Feuergolems in dem Ring eingeschlossen hat.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -4
+Besonderheit:
+ Schutz gegen nicht magische Waffen
+ Immunität gegen Feuer
+
+Kann nur verwendet werden von:
+ Druiden~
+@1148 = ~Jet'layas Ring~
+@1149 = ~Dieser hübsche Ring gehörte einst Jet'layas Mutter.~
+
+////////////////////////////
+// Misc, books, scrolls, etc
+////////////////////////////
+
+@1151 = ~Davaeorn,
+
+meine Quellen haben mir berichtet, dass sich eine kleine Gruppe von Söldnern, die vielleicht sogar Mitglieder bei den Harfnern sind, in der Nähe des Freundlichen Arms befinden. Ich habe schon Tarnesh ausgesandt, aber noch keine Antwort erhalten. Ich schlage vor, dass Ihr Drasus und Genthore sofort zum Freundlichen Arm schickt. Und berichtet Tazok von der Situation.
+
+Rieltar~
+@1152 = ~Mein Freund Otho,
+
+hier sind die tapferen Abenteurer, von denen ich Euch erzählt habe. Ich würde es Euch hoch anrechnen, wenn Ihr ihnen einen Streitkolben von höchster Qualität aus dem besten Eisen schmieden könntet. Sie haben eine große Tat für mich vollbracht und sich selbst als würdig erwiesen. Die Waffe wird in naher Zukunft eine wichtige Rolle für sie spielen.
+
+Euer Freund,
+Lennan~
+@1153 = ~Fürst Daerthmac,
+
+ich widme Euch meinen Körper, meine Seele und meinen Geist, um Euch zu dienen und Euch zu lieben, so wie ich es nie zuvor getan habe.
+
+Euer in alle Ewigkeit treue,
+Clairis~
+@1154 = ~Meine Freunde,
+
+Eure Taten waren von Tapferkeit und Ehre erfüllt. Es ist allein Euch zu verdanken, dass wir Lord Daerthmac aufhalten konnten. Ich bedauere es sehr, dass so viele ihr Leben lassen mussten. Ich hätte Euch nie in einen Kampf verwickeln sollen, der nur der meinige war. Ich muss Euch nun verlassen, denn das ist meine Art zu leben. Sollte ich jemals wieder mit einer Gruppe Abenteurer reisen, dann hoffe ich, dass diese genauso mutig und ehrbar ist wie Ihr.
+
+Lebt wohl,
+CúChoinneach agus Madadh n'Sgàil~
+@1155 = ~Brief an Thomic~
+@1156 = ~Thomic,
+
+Du hast schon wieder die Einkaufsliste zu Hause liegen lassen. Vergiss die Sachen nicht, wenn Du auf dem Heimweg bist:
+
+- Brot
+- Milch
+- Hühnchen
+
+Achte bitte darauf, dass die Waren frisch sind. Hast Du Deinen Regenmantel dabei? Es sieht doch sehr nach Regen aus.
+
+Bitte beeil Dich, und versuch mal, nicht an jeder Bar auf dem Weg halt zu machen!
+
+Katerin~
+@1157 = ~Berrto Ghaskill~
+@1158 = ~Seelenbehälter~
+@1159 = ~Dieses Gefäß enthält wie fünf andere die Lebensessenz von einem der früheren Begleiter des Magiers, der zu einer Leiche wurde und nun als der "Finstere" bekannt ist.
+
+Bringt die Seelenbehälter zu den Phantomen, um ihnen ihren Frieden wiederzugeben.~
+@1160 = ~Seelenbehälter von Koroval Na'Krugen~
+@1161 = ~Dieses Gefäß enthält die Lebensessenz des Finsteren, ehemals als Koroval Na'Krugen bekannt. Durch ein teuflisches Ritual konnte er sich selbst in eine Leiche, einen sehr mächtigen Untoten, verwandeln. Eine Leiche verbringt ihre gesamte Existenz damit, weitere mächtige Zaubersprüche zu suchen, die sie in einer sterblichen Hülle nicht aussprechen könnte. Dies ist auch der Grund, warum ein Magier eine solch schreckliche Form der Existenz wählen würde.
+
+Um einee Leiche zerstören zu können muss man den Behälter besitzen, in dem sich seine Lebensessenz befindet. Dies wird sie daran hindern, sich selbst wiederzubeleben.~
+@1162 = ~Antike Reliquie des Lathander~
+@1163 = ~Dies ist die Reliquie, nach der Ihr gesucht habt.~
+@1164 = ~Antiker Kelch~
+@1165 = ~Heiliger Kelch~
+@1166 = ~Dieser Kelch scheint sehr alt zu sein.~
+@1167 = ~Ein Gerücht besagt, dass jeder, der aus diesem Kelch trinkt, wahrhaftig gesegnet sein wird. Die Gravuren darauf lauten: "Jene, die im Licht wandeln, werden gesegnet sein."
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Verleiht die natürliche Fähigkeit "Jünger des Lichts"
+
+Kann nur verwendet werden von:
+ Paladinen
+ Priestern (Guter Gesinnung)~
+@1168 = ~Horn~
+@1169 = ~Kampfschrei~
+@1170 = ~Dieses ungewöhnliche Horn ist mit roten Streifen und Runen-Schnitzereien versehen.~
+@1171 = ~Als Neshum Serret seine Kampftruppen gegen die Orks anführte, war an seiner Seite auch ein junger Barde. Er schenkte ihm ein magisches Horn, welches große Macht besaß. Mit diesem Horn stieß der junge Barde vor jedem Kampf einen Kampfschrei aus, dessen seltsamer Klang den gegnerischen Orks die Angst in die Herzen trieb.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Löst Furcht bei Feinden aus, wenn ihnen ein Rettungswurf gegen Zauberstäbe misslingt.
+Reichweite: 33 m
+Wirkungsdauer: 20 Runden
+Wirkungsbereich: 6 m Radius
+
+Kann nur verwendet werden von:
+ Barden~
+@1173 = ~Der nimmervolle Beutel kann, wie sein Name schon sagt, unbegrenzt viele Sachen erfassen. Dieser spezielle Beutel erfasst jedoch nur kleine Gegenstände wie Juwelen, Schriftrollen, Bolzen, Kugeln, etc. Größere Gegenstände wie Stäbe, Schwerter, Rüstungen, Schilde und Helme passen nicht hinein.~
+
+@1174 = ~Harfe~
+@1175 = ~Lied der Nyriaden~
+@1176 = ~Diese auf den ersten Blick gewöhnliche Harfe hat goldene Saiten, die auf einen dunkel gebeizten Holzrahmen gespannt sind. Der Rahmen wirkt ordentlich verarbeitet und weist Schnitzereien auf, die später vergoldet wurden, so dass sie auf dem dunklen Holz besser zu erkennen sind.~
+@1177 = ~Die Herkunft dieser Harfe bleibt ein Geheimnis. Ihr Hersteller, wer auch immer das war, hat dem geflügelten Wort "Musik bezaubert..." ein höheres Niveau verliehen. Die Melodie der Harfe ist tatsächlich in der Lage das zuhörende Wesen zu bezaubern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: "Schreckenszauber"
+Reichweite: 33 m
+Wirkungsbereich: 1 Wesen
+
+Kann nur verwendet werden von:
+ Barden~
+
+@1239 = ~Grun'lerthkins Leitfaden der Zauberkunst~
+@1240 = ~Nach den geheimnisvollen Symbolen auf der Vorderseite zu urteilen muss dieses Buch mit magischen Eigenschaften versehen sein. Nach einigen kläglichen Versuchen es zu identifizieren oder zu lesen bleibt seine wahre Natur im Ungewissen.~
+@1241 = ~Dieser in feinem Leder eingeschlagene Leitfaden enthält die magischen Runen und Aufzeichnungen des großen Magiers Grun'lerthkin, welcher ein Einwohner von Myth Drannor während der Blütezeit war. Als Ihr das magische Gekritzel lest, beginnt Ihr immer klüger zu werden und irgendwie fühlt Ihr, dass Ihr die Fähigkeiten eines Magiers mit doppelter Erfahrung bekommen habt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verdoppelt Eure Erfahrungspunkte!
+
+Kann nur verwendet werden von:
+ Magiern~
+@124100 = ~Erfahrungspunkte verdoppelt~
+@1242 = ~Die Geschichte der Dunklen Seite~
+@1243 = ~Die Geschichte der Dunklen Seite
+
+Vor langer Zeit lief der weise Magier Roach zufällig dem jungen Elfen CúChoinneach über den Weg. Roach sah in ihm den wahren Geist des Abenteuers und fragte ihn, ob er mit auf eine lange Reise gehen würde. Diese Reise führte sie schließlich zu den Geheimnissen, die an der Schwertküste verborgen liegen. Roach wusste, dass es hier viel mehr gab, als das bloße Auge erkennen konnte. Durch die Führung und den Mut von Roach begann CúChoinneach die vielen dunklen Geschichten aufzudecken, die unter der Oberfläche der idyllischen Landschaft um den Küstenweg schlummerten. Er verbrachte viele schlaflose Nächte, in denen er nach neuen Zaubersprüchen suchte. Manchmal war er erfolgreich, zu seiner Überraschung, aber meistens musste er entmutigende Niederlagen hinnehmen. Außerdem musste er mit der Tatsache klarkommen, dass viele behaupteten, die dunkle Seite würde nicht existieren oder sollte besser von einem fähigeren Abenteurer aufgedeckt werden. Aber CúChoinneach schenkte ihnen keine Beachtung und setzte seine Suche 
+fort.
+
+Während seiner Reise traf CúChoinneach auf eine Menge einzigartiger Individuen, die auf ihre Weise etwas zu den Entdeckungen von Roach und CúChoinneach beigetragen haben. Unter diesen vielen bunten Einwohnern der Schwertküste war ein Mann, der nur als Ken der Bäcker bekannt ist. Er hält sich oft im Windigen Schwindler in Beregost auf, normalerweise gleich nach einem Gewinn von Team Baldurs Tor. Ken, wie er von manchen genannt wird, glaubt ebenfalls an die vielen Geheimnisse, die an der Schwertküste versteckt liegen. Er begann mit seiner Gruppe von "Hexern" mit der Suche nach diesen Geheimnissen. Diese "Hexer" bestanden aus Zauberern, Illusionisten und Vertretern von jeder anderen Zauberschule.
+
+Einer dieser Hexer wurde einfach nur Banelord genannt. Er konnte CúChoinneach einige besondere Zaubersprüche beibringen, aber schon nach kurzer Zeit musste er ihn wieder verlassen. Es gibt viele Gerüchte über die plötzliche Trennung von CúChoinneach, von denen aber keines bestätigt werden konnte. Die Liste setzt sich im Laufe der Reise weiter fort...
+
+NACHSPANN:
+
+Originalkonzept von Roach; Entwicklung der Geschichten von CúChoinneach und Roach; Gebiete und Kreaturen von CúChoinneach; das Darkside-Logo erschuf WoRm;
+Gegenstände wurden von so vielen Hexern erschaffen, dass die Liste zu lang würde... (CúChoinneach möchte dennoch niemanden auslassen: Auf der TeamBG-Website gibt es Links zu den TeamBG-Partnerseiten, wo die Schöpfer der einzelnen Gegenstände ausfindig gemacht werden können.)
+Sounds von Jet'laya, Keiria Silbersaite und Conchobhair Starkklinge wurden editiert von Grog; NPC Jet'laya wurde erschaffen von Grog; alle anderen NPC's wurden erschaffen von CúChoinneach; Stimme und Bio von Ferthgil Trolltöter von Gothmog des Steinherd Clans; Original-Icons für manche Gegenstände von WoRm; Website und Veröffentlichung durch Ken Baker; deutsche Übersetzung durch MK, Beowulf, Maggy und Tau-Rah
+
+Dieses Projekt wäre ohne Ken Baker und das Team Baldurs Tor niemals möglich gewesen. TeamBG erlaubte die Zusammenkunft der verschiedensten Ideen und spendete die Zutaten, um eine erfolgreiche Suppe zu kochen!
+
+Abschließend noch ein schneller Dank an Gustov Montessie, welcher mit seinen Editoren und anderen Programmen die Entwicklung von so manchen Gegenständen und Zaubersprüchen erst ermöglicht hat. Und danke an alle TeamBG-Partner.
+
+Mein letzter Dank geht an Dich! Den Abenteurer, der diesen Text liest und dem es möglich war, sie in einem Bücherschrank irgendwo in der dunklen Seite der Schwertküste zu finden. Und nun raus da und einige Köpfe einschlagen, ihr "gierigen Kobolde"!
+
+CúChoinneach~
+@1244 = ~Heiliges Wasser~
+@1245 = ~Das Wasser in dieser Flasche wurde gesegnet und verursacht bei untoten Kreaturen 1W8 Schadenspunkte, so als wäre es Säure.~
+
+/////////////////////
+// Amulets, Necklaces
+/////////////////////
+
+@1247 = ~Herz des Waldes~
+@1249 = ~Die Schnitzereien auf diesem Amulett sprechen vom Leben und von der Kraft der Mutter-Göttin. Das Runenzeichen in der Mitte entpuppt sich als das Zeichen von Erreth-Akbe, dem gewaltigen Druidentempel im Norden. Trotz des Alters wirkt und glänzt es wie neu - seine Macht muss in seiner Unverwüstbarkeit liegen. Nach einer genaueren Untersuchung bemerkt Ihr aber leichte Spuren der Abnutzung. Vielleicht verliert es seine Macht, wenn der Göttin nicht gehuldigt wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: "Schutz vor Säure"
+
+Kann nur verwendet werden von:
+ Neutralen Wesen~
+@1251 = ~Feriums Halskette~
+@1253 = ~Diese Halskette erhielt Ferium von ihrem Auserwählten, Ken'lan. Die Gravur auf der Rückseite lautet: "Meine Liebe für Dich, bis der Mond verblasst".
+
+Jet'laya hat angemerkt, dass Ihr die Kette zu Lennan im Windigen Schwindler in Beregost bringen solltet.~
+@1254 = ~Heiliges Mondamulett von Sehanin Mondbogen~
+@1255 = ~Dies ist das heilige Amulett der Anhänger von Sehanin Mondbogen. Ein Mondriegel in der Form eines kleinen, flachen Steines (ca. 8 cm im Durchmesser) schmückt eine Halskette aus Mithril.
+
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Verdoppelt alle Priestersprüche 1., 2. und 3. Grades
+ +1 auf alle Rettungswürfe
+
+Kann verwendet werden von:
+ Priestern
+ Druiden
+ Waldläufern
+ Paladinen
+ (Nicht-böse) ~
+@1256 = ~Die wahre Natur dieses Amuletts bleibt Euch verborgen, doch Ihr könnt spüren, dass es sehr mächtig sein muss.~
+@1257 = ~Amulett der Segoy~
+@1258 = ~Dieses Amulett trägt das Erkennungszeichen der Segoy, einer unbarmherzigen Bande von Mördern. Das Böse scheint sich aus seinem Innern zu ergießen, während Ihr es in der Hand haltet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+"Schutz vor Feuer"
+
+Kann nur verwendet werden von:
+ bösen Wesen~
+@1259 = ~Blausteinkette der Geschicklichkeit~
+@1260 = ~Ihr habt in der Tat großes Glück. Diese magische Blausteinkette steigert Eure Geschicklichkeit wie kaum ein anderer Gegenstand! Lasst sie nur nicht in die falschen Hände fallen...
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Geschicklichkeits-Bonus: +3
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1261 = ~Amulett des Glaubens~
+@1262 = ~Es gibt eine Menge vergleichbare Gegenstände in den Reichen. Die meisten haben eher einen symbolischen als praktischen Nutzen, im Allgemeinen um den Glauben des Trägers zu verdeutlichen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -1
+Rettungswurf gegen Tod: +1
+Besonderheit: +1 Priesterzauber 1. Grades
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1263 = ~Jules antike Perlenkette~
+@1264 = ~Amulett des Lehrlings~
+@1265 = ~Diese Amulette sind oft Geschenke für Lehrlinge, die ihre Ausbildung als Magier beendet haben oder noch beenden werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Zusätzlich ein Zauber 1. Grades, zwei 2. Grades und zwei 3. Grades.
+Gewicht: 1
+
+Kann nur verwendet werden von:
+ Magier
+ Barde~
+@1266 = ~Amulett der Unauffindbarkeit~
+@1267 = ~Eine Änderung zum Amulett der Überprüfung gegen Auffindbarkeit und Lokalisierung. Dieses spezielle Amulett ist besonders bei Spionen, Dieben und Mördern begehrt, genauso viel wie das Amulett, nach dem es kopiert wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verleiht dem Träger Unauffindbarkeit.
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@1268 = ~Amulett der weiten Voraussicht~
+@1269 = ~Amulett der weiten Voraussicht
+Ist bekannt für die Fähigkeit die Sicht des Trägers zu erweitern. Das Amulett ist bei den Führern von Armeen sehr begehrt, da sie Dinge erkennen können, die Kilometer weit entfernt sind und somit auf Strategien der Gegner reagieren können. Seine Herkunft und Geschichte ist gänzlich unbekannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ermöglicht dem Benutzer eine erweiterte Sicht (Hellseherei)
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+
+/////////////////////////////////////
+// Arrows, Bolts, Bullets, Darts, etc
+/////////////////////////////////////
+
+@1271 = ~Pfeile der Drachentötung~
+@1273 = ~Dieser Pfeil ist verdreht und schwarz. Man sieht ihm fast an, dass er das Böse ausstrahlt, so als wäre er von einer höheren Macht besessen. Er wurde hergestellt um ein bestimmtes Wesen, und nur dieses eine Wesen, zu töten. Der unglückliche Auserwählte ist in diesem Fall der Drache. Der Pfeil tötet jeden kleinen Drachen oder kleinen Lindwurm sofort und verursacht extra Schaden bei einem großen Drachen oder großen Lindwurm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Tötet kleine Drachen und Lindwürmer sofort. Es besteht eine 10%-ige Chance, dass alle Drachen sofort sterben.
+
+Schaden: 1W6
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Besonderheit: Tötet kleine Drachen und Wyvern bei Kontakt
+Schadensbonus: +3 gegen Drachen
+ETW0-Bonus: -3 gegen Drachen
+Gewicht: 0
+Schusswaffe: Bogen~
+@1275 = ~Deth Stik~
+@1277 = ~Diese Pfeile sind nicht von besonderer Qualität und wurden auch nicht sehr fein verarbeitet. Sie wurden in einem tödlichen Gift getränkt und sind somit nicht nur für das Opfer, sondern auch für den Bogenschützen sehr gefährlich.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Schadensbonus: +6 (Gift)
+(Hälfte bei Rettungswurf)
+Wahrscheinlichkeit sich zu verletzen: 15%
+(4 Schadenspunkte durch Gift)
+Gewicht: 0
+Schusswaffe: Bogen~
+@1278 = ~Pfeil des Angriffs~
+@1279 = ~Dieser Pfeil ist hellblau mit einem leuchtenden goldenen Ende. Er strahlt vor Magie und ist leichter und kleiner als normale Pfeile. Es wird gemunkelt, dass die heilige Wache der Sukien mit Bögen ausgerüstet ist, die diese Pfeile erzeugen können.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2, + 2W3 magischer Schaden
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Gewicht: 0
+Schusswaffe: Bogen~
+@1281 = ~Bolzen des Zauberbruchs +1~
+@1283 = ~Der Bolzen des Zauberbruchs entfernt die magische Verzauberung, die seine Opfer umgibt. Dieser spezielle Bolzen wurde außerdem magisch verbessert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +1
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+ETW0-Bonus: -1
+Bannt Magie des Ziels
+Gewicht: 0
+Schusswaffe: Armbrust~
+@1285 = ~Kugel der Detonation~
+@1287 = ~Diese Kugel übt eine besonders schwächende Wirkung auf ihre Opfer aus, denn unmittelbar nach dem Auftreffen explodiert sie in einem riesigen Ball aus Feuer und Splittern, dessen Wirkung sich keiner im Umkreis entziehen kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +1
+Schadensart: mit Hiebwaffe zertrümmern (Fernkampf)
+Schadensbonus: 6W6 durch Explosion
+(Hälfte bei Rettungswurf gegen Zauber)
+Gewicht: 0
+Schusswaffe: Schleuder~
+@1288 = ~Heilige Kugeln~
+@1289 = ~Im Innern dieser Kugel fließen nicht nur magische Ströme, die dafür sorgen, dass die Kugel etwas stabiler und leichter auf den Gegner zufliegt. Sie wurde auch in heiligem Wasser getränkt, weshalb sie bei untoten Kreaturen mehr Schaden verursacht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +2
+Schadensart: mit Hiebwaffe zertrümmern (Fernkampf)
+Schadensbonus: 2W3 gegen Untote
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Schleuder~
+
+////////
+// Boots
+////////
+
+@1292 = ~Stiefel des Waldes~
+@1294 = ~Die Stiefel des Waldes waren eines der vielen Geschenke, die an die Hüter des Waldes vergeben wurden. Sie versehen den Träger mit zusätzlichen Fähigkeiten wie höhere Geschwindigkeit, List und Handlungsfreiheit.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Können nur verwendet werden von:
+ Waldläufern
+ Druiden
+ (nur Einzelklasse)~
+@1295 = ~Stiefel des Mutes~
+@1296 = ~Donnertritt
+
+Diese Stiefel wurden magisch so verändert, dass sie ihren Träger vor Angriffen durch stumpfe Waffen schützen. Sie pflanzen den Fuß des Trägers förmlich in die Erde und geben ihm damit die Möglichkeit, dem Angriff zu widerstehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -5 gegen stumpfe Waffen
+Gewicht: 18
+
+Können nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Magierkiller~
+
+//////////
+// Shields
+//////////
+
+@1300 = ~Dieser Schild wurde von Zwergenhand gefertigt und von einem gewissen Pellan von Tyr in Auftrag gegeben. Pellan war ein hitzköpfiger Paladin, der für seinen unglaublichen Mut und seinen völligen Mangel an gesundem Menschenverstand bekannt war. Er hörte davon, dass ein Roter Drache das Land verwüstete und sattelte natürlich sofort sein Pferd, um gegen ihn in die Schlacht zu reiten. Der Paladin und seine Rüstung mundeten dem Drachen recht vorzüglich, doch der Schild lag ihm ziemlich schwer im Magen. Er würgte ihn daher wieder aus und lagerte ihn in seinem Schatzhort. Dort verblieb er viele Jahre, bis Pellans Sohn ihn wiederbeschaffen konnte. Er war ein kluger Krieger, der wusste, wann es besser war zu schleichen statt zu kämpfen.
+Der Schild ist nicht nur von vorzüglicher Fertigkeit, sondern durch den Einsatz von Magie auch besonders leicht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+(-4 gegen Fernkampfwaffen)
+Gewicht: 10
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@1302 = ~CúChoinneachs Schild +3 "Der Mond"~
+@1304 = ~CúChoinneach fertigte diesen Schild, nachdem er den Krummsäbel "Mairial" von Sehanin Mondbogen erhalten hatte. Der Schild besteht aus dem härtesten Holz und ist mit Mithril verziert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -4
+(kein Schutz vor Geschosswaffen)
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ CúChoinneach~
+@1305 = ~Jet'layas Schild~
+@1306 = ~Dies ist der persönliche Schild von Jet'laya. Das Holz, aus dem der Schild besteht, wurde in einem heiligen Wald geschlagen, und das Metall zur Verstärkung wurde in heiligem Wasser geschmiedet. Die bloße Präsenz dieses Schildes lässt alle Untoten, außer die stärksten, vor Angst die Flucht ergreifen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+(kein Schutz vor Geschosswaffen)
+ETW0-Bonus -2 gegen Untote
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Jet'laya~
+@1307 = ~Kleiner Schild +2 "Sonnenschild"~
+@1308 = ~Dieser kleine Schild fühlt sich warm an, so als würde ein Feuer in seinem Inneren brennen. Seine Herkunft bleibt nicht das einzige Geheimnis, dass er verbirgt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+Besonderheit: Erhöhte Kälteresistenz und Feuerresistenz
+Gewicht: 3
+Mindeststärke: 4
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@1312 = ~Der mittlere Schild wird auf die selbe Weise getragen wie der kleine Schild, ist jedoch so schwer, dass mit der Schildhand keine anderen Aktionen ausgeführt werden können. Mittlere Schilde bestehen für gewöhnlich aus Metall und haben einen Durchmesser von 90 bis 120 cm. Es gibt sie in zahlreichen Formen; von rund über quadratisch bis zur Form der gespreizten Drachenflügel. Ein typischer mittlerer Schild ist dreieckig, wobei eine Spitze nach unten zeigt. Dieser spezielle Schild bietet dank magischer Energie besseren Schutz als gewöhnliche Schilde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+Gewicht: 6
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@1313 = ~Mittlerer Schild +2 "Herz des Drachen"~
+@1314 = ~Ein relativ unbekannter Ritter, den man Neshum nannte, war nicht gerade einer der intelligentesten Abenteurer. Als er durch den Norden zog, geriet er in eine Schlacht, in der ein paar Krieger einen Drachen bekämpften. Neshum fand, dass die Schlacht unfair sei und griff zu den Waffen, um den Drachen zu beschützen. Neshums Hilfe wendete das Blatt und die Krieger erlitten eine Niederlage. Benderesk, der Drache, schenkte Neshum einen Schild als Dank für die unerwartete Hilfe. Der Schild sollte dem Träger die Stärke eines Drachenherzens verleihen. Benderesk erhielt sein Geschenk ein paar Jahre später zurück, als Neshum sich von dem Dorf, aus dem die Krieger stammten, anheuern lies, um den lästigen Drachen zu töten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+Erhöhte Trefferpunkte
+Magieresistenz: +5%
+Gewicht: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@1315 = ~Kelubs Langschild gegen Geschosse~
+@1317 = ~Langschild +2, +7 gegen Geschosswaffen: "Die Wand"
+
+In den ersten Tagen der Schlacht von Selidor wurde Kelubs Armee von einem Meer an Pfeilen, die den Himmel verdunkelten, geschlagen. Kelub gab bei seinem bestem Schmied einen Schild in Auftrag, welcher seine Armee besser vor derart heftigen Angriffen schützen sollte. Der Schmied arbeitete fieberhaft daran und produzierte dutzende dieser Schilde. Sie wirkten großartig gegen die Pfeile, als jedoch seine Truppen auf die Gegner trafen, waren sie viel zu erschöpft, um zu kämpfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -3
+(-7 gegen Geschosswaffen)
+Gewicht: 20
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+
+//////////
+// Weapons
+//////////
+
+@1323 = ~Katana +2 "Masamune"~
+@1325 = ~Diese Waffe wurde von dem berüchtigten Katana-Schmied Masamune erschaffen. Wie jede seiner Waffen ist auch dieses Katana ein "Meisterstück" seiner Klasse.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W5 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Rüstungsklasse-Bonus: -1
+Geschicklichkeits-Bonus: +1
+Gewicht: 8
+Geschwindigkeitsfaktor: 2
+Mindeststärke: 6
+Fertigkeit: Katana
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Tiermeistern~
+@1326 = ~Katana +3, "Muramasa"~
+@1328 = ~Dieses Katana ist eine exzellente Waffe. Manche sagen es sei "verflucht", andere wiederum meinen, das Schwert habe einen eigenen Verstand. Wenn es Blut schmeckt, dann kann der Anwender rasend werden, wobei er vom Schwert kontrolliert wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W5 +3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -3
+Besonderheit: Wahrscheinlichkeit von 40% für den Träger, rasend zu werden.
+Gewicht: 10
+Geschwindigkeitsfaktor: 3
+Mindeststärke: 10
+Fertigkeit: Katana
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Tiermeistern~
+@1330 = ~Krummsäbel +3, "Yarrows Tränen"~
+@1332 = ~Kurz nachdem der Tempel von Erreth-Akbe zerstört worden war, kehrte der Erzdruide Yarrow zurück und sah die Ruinen, die einst seine Heimat waren. Der mächtige Druide flehte die Götter für Rache an - dann weinte er, und seine Tränen fielen auf sein Schwert. Die Tränen übertrugen die Macht seines Kummers und seinen Wunsch nach Rache auf den Krummsäbel, der dadurch eine mächtige Waffe wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -3
+Rüstungsklasse-Bonus: -2
+Besonderheit:
+ Betäubt das Ziel bis zum Rettungswurf gegen Zauber
+ "Personen oder Säugetiere bezaubern" 3 mal pro Tag
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Mindeststärke: 8
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Druiden~
+@1334 = ~Conchobhairs Drachentöter~
+@1336 = ~Conchobhairs Schwert wurde durch starke Verzauberungen und Segen in seinen Eigenschaften soweit verbessert, dass es für die Zerstörung der in den Reichen gefürchteten Drachen wie geschaffen ist.
+
+Es wird nicht empfohlen, dieses Schwert jemand anderem zu geben oder ohne Conchobhairs Zustimmung zu verwenden. Ihr wurdet gewarnt!
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +4
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Schadensbonus: +3 gegen Drachen
+Rüstungsklasse-Bonus: -1
+Rettungswurf gegen Odemwaffen: +2
+Besonderheit:
+ Es besteht eine geringe Chance, einen Drachen sofort zu töten.
+ Gewährt Schutzaura
+ Feuerresistenz: +50%
+ Säureresistenz: +50%
+Gewicht: 15
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Großes Schwert
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Conchobhair~
+@1337 = ~Krummsäbel +2~
+@1338 = ~Der gezackte Blitz
+
+Die Mithril-Klinge dieses Säbels ist gezackt, wodurch sie an einen leicht gebogenen Blitz erinnert. Der Säbel wurde vor langer Zeit in Calimshan von einem religiösen Kult angefertigt, der einen Donnergott anbetete. Benutzt wurde der Säbel von heiligen Kriegern, die spezielle Missionen zu erfüllen hatten.
+Man kann die Elektrizität sehen, die den Säbel in Form von kleinen Blitzen an den Zacken der Klinge verlässt. Elektrische Energie, die sich auf den Anwender richtet, wird von dem Säbel absorbiert. Seine Magie erlaubt dem Anwender außerdem, in einem Kampf zuerst zuzuschlagen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+
+Besonderheit:
+ Elektrizitätsresistenz: +40%
+ Verursacht 1W4 Blitzschaden
+Gewicht: 4
+Geschwindigkeitsfaktor: n/a
+Mindeststärke: 8
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Tiermeistern~
+@1339 = ~Thorn - Schwert des Grünen Meisters~
+@1340 = ~In den verlorenen Tagen von Nesseril verfolgte der Nekromant J'K'Voorkan das Ziel, eine Herrschaft von Untoten aufbauen. Die Attacken der Untoten drohten das Reich zu verschlingen, bis der Oberpriester der Druiden, L'Orax, die Götter um Hilfe anflehte. Diese ließen am Baum des Lebens einen einzelnen Dorn wachsen, welchen L'Orax an sich nahm. In einem langen, zermürbenden Ritual bestehend aus Fasten, Beten, Meditation und Zaubersprüchen, schuf der Große Zirkel daraus dieses Schwert.
+Thorn wurde einem der Führer der Streitkräfte des Lichtes und des Lebens übergegeben - S'Mokye, von seinen Truppen auch "Der Bär" genannt. Er wurde der erste Waldläufer und schließlich der erste "Grüne Meister". Das Schwert wurde an jeden neuen Meister nach seiner Ernennung übergeben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+
+Besonderheit:
+ Schadensbonus gegen Untote
+ ETW0-Bonus gegen Untote
+ Anwender kann "Verstricken" bewirken
+ Immunität gegen Gift
+Gewicht: 9
+Geschwindigkeitsfaktor: 6
+Mindeststärke: 14
+Fertigkeit: Großes Schwert
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Waldläufern~
+@1341 = ~Entersäbel~
+@1342 = ~Entersäbel +2 "O-Toknes Reißzahn"~
+@1343 = ~Die lange, gekrümmte, einschneidige Klinge ist charakteristisch für den Entersäbel und ähnelt dem Krummsäbel, jedoch liegen die Ursprünge der beiden Waffen in verschiedenen Teilen Faerûns. Der Entersäbel ist wegen seiner leichteren Struktur die erste Wahl für Diebe und Räuber.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3W3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Klerikern
+ Druiden
+ Paladinen
+ Magiern
+ Tiermeistern~
+@1344 = ~Die Form dieses Säbel ähnelt dem Reißzahn eines Drachen. Er scheint den Weg zum Gegner von ganz alleine zu finden, und seine Magie verleiht dem Träger eine höhere Angriffsrate.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3D3 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Erhöhte Angriffsrate
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Klerikern
+ Druiden
+ Paladinen
+ Magiern
+ Tiermeistern~
+@1345 = ~Entersäbel +2 "Die Fackel"~
+@1346 = ~Dieser rostige Entersäbel fühlt sich kalt an. Die Inschrift auf seinem Griff lautet einfach nur "Fackel". Seine Aussehen hat so manchen Abenteurer fälschlich glauben lassen, der Säbel sei alt und unbrauchbar. Diejenigen, die etwas neugieriger waren und ihn trotzdem mitnahmen, wurden angenehm überrascht. Ihr erkennt, dass der Säbel nichts taugt, solange er nicht geschwungen wird - dann jedoch macht er seinem Namen alle Ehre.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3W3 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Schadensbonus: 2W3 (Feuer)
+ETW0-Bonus: -2
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Klerikern
+ Druiden
+ Paladinen
+ Magiern
+ Tiermeistern~
+@1347 = ~Entersäbel +3 "Geisterklinge"~
+@1348 = ~Sobald ein Kämpfer dieses Schwert schwingt kann man schwache Bilder sehen, die der Klinge folgen. Diese geisterhaften Bilder können dem Gegner anscheinend nachträglich noch Schaden zufügen. Das Schwert gehörte ursprünglich einem seltsamen und faulen Kerl namens Bordger, der laut Gerüchten vor seinem Diebesleben ein magisches Training absolvierte. Wenn man sich die Verzauberung seines Schwertes ansieht, dann wäre es wohl besser für ihn gewesen, wenn er bei der Zauberkunst geblieben wäre.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3W3 +3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Schadensbonus: 2W3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -3
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Klerikern
+ Druiden
+ Paladinen
+ Magiern
+ Tiermeistern~
+@1349 = ~Entersäbel +2 "Funkenschlag"~
+@1350 = ~Seinen Namen erhielt dieser Säbel aufgrund der elektrischen Energie, die beim Schlagen als Funken zu sehen ist. Der Herkunftsort des Säbels ist unbekannt, aber Geschichten über ein seltsames Land finden sich in den Erzählungen, die den Säbel begleiten. Der erste Besitzer war ein Pirat, der im Hafen überfallen und getötet wurde. Sein Name bleibt wie das Schwert ein großes Mysterium.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3W3 +3
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Schadensbonus: 2W3 (elektrisch)
+ETW0-Bonus: -2
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Klerikern
+ Druiden
+ Paladinen
+ Magiern~
+@1352 = ~Schwert des Betrügers~
+@1354 = ~Denat "der Betrüger" war einst ein beliebter Barde. Er erzählte nicht nur Geschichten von Helden, sondern auch von seinen eigenen Abenteuern. Er behauptete, dass er der beste Schwertkämpfer in den Reichen sei. Am Ende seiner Geschichten duellierte er sich immer mit dem besten Schwertkämpfer und gewann. Sein Fall kam, als er versehentlich ein normales Schwert statt seines verzauberten benutzte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +1
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -5
+Geschicklichkeits-Bonus: +2
+Rüstungsklasse-Bonus: -3
+Angriffe/Runde: +1
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Mindeststärke: 6
+Fertigkeit: Großes Schwert
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Barden~
+@1356 = ~Schwert des Meisters~
+@1358 = ~Dies ist das goldene Schwert, welches das höchst dekorierte Mitglied im "Orden des Strahlendsten Herzen", der Anhänger von Helm, erhält.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Stärkung wirkt auf den Träger
+Gewicht: 12
+Geschwindigkeitsfaktor: 5
+Mindeststärke: 12
+Fertigkeit: Großes Schwert
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Paladinen~
+@1359 = ~Ruin des Bösen~
+@1360 = ~Dieses Schwert ist ein Mythos in der Elfen-Provinz von Hyilia. Es wird erzählt, dass damit der böse Zauberer Ganondorf verbannt werden konnte. Legenden zufolge brachte das Schwert das Tri-Force zurück zu den Mächten des Guten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +1
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -1
+Gewicht: 7
+Geschwindigkeitsfaktor: 10
+Mindeststärke: 11
+Fertigkeit: Großes Schwert
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Tiermeistern~
+@1361 = ~Zweihänder +2~
+@1362 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 15
+Initiativefaktor: 10
+Fertigkeit: Zweihänder-Schwert
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@1363 = ~Mairial "Der Todesjäger"~
+@1364 = ~Dies ist der persönliche Krummsäbel von CúChoinneach. Er wurde es purem Mithril gefertigt, welches der Sage nach aus dem Licht des Vollmondes entstanden ist. Das Schwert war ein Geschenk von Sehanin Mondbogen, der Elfengöttin der Mystik, Träume, Reisen, Sterne, des Mondes, des Himmels und des Todes. Sie erschien ihm in einem Traum, nachdem seine Angebetete, Fia'nna, von einer Armee Untoter unter der Führung eines Vampirs umgebracht wurde. Sehanin erzählte ihm, dass er der Auserwählte sei, der die Untoten jagen und zur Strecke bringen sollte. Als er erwachte lag dieser Krummsäbel neben ihm auf dem Bett, darauf Sehanins Symbol, der Halbmond. Sie gab ihm dieses Schwert als Erinnerung an ihre Unterstützung. Die Macht des Schwertes ist unbekannt, selbst CúChoinneach kennt sie nicht genau.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +4
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -4
+
+Besonderheit: Vorteile gegen Untote, die genauen Fähigkeiten sind unbekannt.
+Gewicht: 4
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ CúChoinneach~
+@1366 = ~Nemmerles Rache~
+@1368 = ~In einem klassischen Kampf zwischen Gut und Böse erkannte der dunkle Erzmagier Nemmerle, dass er unausweichlich geschlagen war, und so verzauberte er seinen Stab und teleportierte ihn direkt zu seinem Lehrling. Erst zum Schluss erkannte er, was nötig war, um den Kampf zu gewinnen. Da er es selbst nicht vollbringen konnte wollte er wenigstens in seiner Niederlage einen kleinen Sieg erringen. Sein Feind Gensher verzauberte seine Roben so, dass sie jeglichen Angriffen durch stumpfe Waffen widerstehen konnten. Nemmerle wusste, dass die Schlacht in einem Nahkampf enden würde, den er nicht überleben konnte.
+Der Stab strahlt eine schwache, dunkle Aura aus Magie ab. Nach Identifizierung nimmt er die Werte einer Hellebarde an, wodurch er wie ein Speer zu handhaben ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W6 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Stumpfe Waffe
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Mönche
+ bösen Wesen~
+@1370 = ~Chaos-Flegel~
+@1372 = ~Der Chaos-Flegel ist die Essenz des Abyss, aus der eine Waffe geformt wurde. Seine Verzauberungen und sein Schöpfer sind unbekannt. Es wird spekuliert, dass die Seelen von Vampiren in der Waffe ruhen und die Lebensenergie des Opfers vor den Augen des Trägers aussaugen. Der Flegel hält sich außerdem am Träger fest, so dass er nur durch "Fluch brechen" wieder entfernt werden kann. Es wird zudem geglaubt, dass seine vampirischen Mächte auf den Träger übergehen und ihn beherrschen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+Gewicht: 7
+Geschwindigkeitsfaktor: 3
+Mindeststärke: 13
+Fertigkeit: Flegel/Morgenstern
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeister
+
+Kann nur verwendet werden von:
+ bösen Wesen~
+@1373 = ~Gerechtigkeit~
+@1374 = ~Diese Waffe wurde an Hohepriester zur Zeit der Antiker vergeben und ist für einen Paladin oder Kleriker eine der mächtigsten Waffen im Kampf gegen das Böse. "Gerechtigkeit" sieht für die meisten wie ein gewöhnlicher Flegel aus, aber wenn er von jemandem mit reinem Herzen geführt wird, beginnt er ein goldenes Licht auszustrahlen. Es wird geglaubt, dass der Träger des Flegels von den Göttern gesegnet ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +4
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -4
+Rettungswurf-Bonus: +1
+Schaden: +4
+Gewicht: 12
+Geschwindigkeitsfaktor: 7
+Mindeststärke: 13
+Fertigkeit: Flegel/Morgenstern
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Paladinen
+ Klerikern (rechtschaffen gut)~
+@1376 = ~Ferthgils Streitaxt +3~
+@1378 = ~Diese Streitaxt war der Besitz von Ferthgils Vater, Breachin Trolltöter. Es ist alles, was Ferthgil von seinem Vater geblieben ist, nachdem dieser im Wolkengipfel-Gebirge von Verbeegs getötet wurde. Ferthgil zieht diese Waffe allen anderen Waffen vor.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (+3 gegen Riesen, +2 gegen alle Monster)
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -3 (-3 gegen Riesen, -2 gegen alle Monster)
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Axt
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Ferthgil Trolltöter~
+@1379 = ~Streitaxt +2 "Der Erzürner"~
+@1381 = ~Die Geschichte dieser Waffe ist unbekannt, jedoch sieht man auf den ersten Blick, dass die ausgezeichnet verarbeitete Axt von Zwergenhand geschaffen wurde. Die Waffe scheint Euch zu rufen und zu verlangen, dass Ihr in den Kampf zieht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +2
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Gewicht: 7
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1382 = ~Minotauren-Axt~
+@1383 = ~Diese Streitäxte sind mit mächtigen Verzauberungen der Magier des Minotaurus versehen. Sie sind sehr leicht, obwohl sie eigentlich sehr schwer sein müssten, und sie dringen durch Metall wie durch normale Kleidung.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Angriff pro Runde: +1
+Gewicht: 5
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@1384 = ~Stangenaxt~
+@1385 = ~Zwergische Stangenaxt +2 "Schreiender Tod"~
+@1386 = ~Wie die Hellebarde ist die Stangenaxt einen Anti-Reiter-Waffe. Sie hat jedoch keinen Dorn am oberen Ende, wie es bei einer Axt üblich ist. Eine Stangenaxt ist riesig und verursacht eine Menge Schaden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 20
+Geschwindigkeitsfaktor: 12
+Mindeststärke: 13
+Fertigkeit: Axt
+Waffentyp: beidhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+
+@1387 = ~Die Geschichte dieser Axt reicht bis zu den Clankriegen zurück. Sie wurde von Thordar aus dem Tal für seinen Sohn Kelvin gefertigt. Kelvin war nie ein großer Krieger, weshalb die Axt seine Schwäche im Kampf durch ihre magische Kraft ausgleichen sollte. Ihren Namen erhielt die Axt in der Schlacht des Falls der Lindwürmer, wo Kelvin sie zum ersten Mal führte. Jedes Mal wenn er einen Gegner niederstreckte, wollte Kelvin vor Unglauben schreien, daher der Name "Schreiender Tod".
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+Schadensbonus: 1W6
+(Hälfte bei Rettungswurf gegen Tod)
+ETW0-Bonus: -2
+Geschicklichkeits-Bonus: +1
+Rüstungsklasse-Bonus: -1
+Erhöhte Angriffsrate
+Gewicht: 20
+Geschwindigkeitsfaktor: 10
+Fertigkeit: Axt
+Waffentyp: beidhändig
+Mindeststärke: 15
+
+Kann nur verwendet werden von:
+ Zwergenkämpfern oder Zwergendieb~
+@1388 = ~Streitaxt +3 "Schädelspalter"~
+@1389 = ~Während des Kampfes am Totenkopfpass, zauberten die Nekromanten so viele Zombies herbei, wie nur möglich. Dabei wurden auch die gefallenen Kämpfer, die auf dem Schlachtfeld lagen, verzaubert. Falrey Malistone, der Hohe Priester des Clans, sammelte alle Magier und Priester um sich und verzauberten die Axt des mächtigsten Kämpfers mit der Eigenschaft, dass gegen Untote sich der Schaden erhöht. Durch eine grausamen Laune des Schicksals wurde Farley auf dem Schlachtfeld erschlagen und wurde unter der Kontrolle der Nekromanten von seiner Axt erneut erschlagen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (+5 gegen Untote)
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0: -3 (-5 gegen Untote)
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Type: 2-händig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Druiden
+ Priestern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1390 = ~Stangenaxt +2 "Kilther"~
+@1391 = ~Kilther war einst der General der "Silbernen Ritter". Als sie von einer riesigen Ork-Kavallerie angegriffen wurden, wollten die Ritter zu Pferd gegen die Angreifer kämpfen. Kilther allerdings befahl seinen Männern die Orks zu Fuß anzugreifen, ausgerüstet mit Bogen, Hellebarde oder Stangenaxt. Als der Kampf begann erkannten die Orks, dass sie keine Chance hatten, aber da war es schon zu spät. Die Pfeile regneten auf die Orks herab und die Äxte brachten sie schließlich zu Fall. Unter den Orks gab es Verluste zu Tausenden, während die Silbernen Ritter nur 19 Opfer zu beklagen hatten, unter ihnen auch Kilther.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 +2
+
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -2
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Waffentyp: beidhändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1393 = ~Zwergen-Wurfaxt +2~
+@1395 = ~Diese Wurfaxt ist nicht nur fein ausbalanciert, sie wurde auch mit beträchtlicher Magie versehen. Das Ergebnis ist eine Wurfaxt, die nicht nur sehr genau ist, sondern auch viel mehr Schaden anrichtet als eine nicht-magische Waffe ähnlichen Typs. Nach dem Wurf kehrt sie zum Werfer zurück.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Klinge/Stich)
+Schadensbonus: 2W6 (Feuer)
+Besonderheit: Kehrt in die Hand des Werfers zurück
+ETW0-Bonus: -2
+Angriffe/Runde: +1
+Gewicht: 3
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 4
+
+Kann nur verwendet werden von:
+ Gnom-/Zwergenkämpfern~
+@1396 = ~Stab des Lebens~
+@1398 = ~Durch diesen weiß-goldenen Stab pulsiert große Macht. Die Legende erzählt, dass er zu Beginn der Zeit geformt wurde, von dem ersten Sonnenstrahl, der auf reines Wasser fiel. Der Stab bietet wenige Extras für den Angriff, dafür aber umso mächtigere Schutzzauber.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Schützt vor Magie des 1. Grades und kann Heilungstränke erschaffen.
+
+Schaden: 2W2 +2
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+Erzeugt Tränke der Heilung und Gegengifte
+Schützt vor Zaubersprüchen des 1. Grades
+Rüstungsklasse-Bonus: -2
+Gewicht: 3
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ guten Magiern~
+@1399 = ~Stab der Antiker~
+@1400 = ~Dieser Stab wurde von einem Volk erschaffen, dass unter den Gelehrten als "Antiker" bekannt ist. Es existieren nur noch wenige Relikte aus dieser Zeit, und selbst die Nachfahren der Antiker wissen sehr wenig darüber.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +3
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -3
+Rüstungsklasse-Bonus: -1
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Magiern
+ Klerikern~
+@1401 = ~Ethric~
+@1402 = ~Dieser Stab verleiht Schutz vor nicht-magischen Waffen. Es handelt sich um eine sehr mächtige Waffe mit bösartigen Verzauberungen. Weitere Eigenschaften sind unbekannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 +1
+
+Schadensart: mit Stichwaffe durchbohren
+ETW0-Bonus: -1
+Gewicht: 5
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ bösen Magiern~
+@1403 = ~Chitiruhkha - Druidenstab +4~
+@1404 = ~Dieser Stab gehörte den Chanah'Rea und wurde durch einen Blitz erschaffen, der in den Baum der Macht einschlug. Chitiruhkha birgt somit die Macht der Blitze in sich.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+
+Schadensart: mit Hiebwaffe zertrümmern
+Schadensbonus: 3W4 +1 (elektrisch)
+ETW0-Bonus: -4
+Rüstungsklasse-Bonus: -2
+"Blitze schleudern" 3 mal pro Tag
+Schaden: 6W6 (elektrisch)
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Druiden~
+@1407 = ~Kampfstab +2 "Estaroils Knochenbrecher"~
+@1408 = ~Während die meisten Magier von kleiner und dünner Statur sind, war Estaroil klein und dünn im Vergleich zu einem Magier. Seine Meisterin, die Erzmagierin Heleth Otrad, befürchtete das Versagen ihres Schützlings im Kampf, und so erschuf sie diesen Stab. Heleth bezauberte ihn so, dass man damit auf einen Schlag Knochen zerbrechen konnte, wodurch der zerbrechliche Estaroil eine Chance bekam. Estaroil wuchs zu einem stattlichen und mächtigen Magier heran, weshalb er schließlich das Geschenk seiner Meisterin nicht mehr benötigte und wegwarf.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+Ziel wird verlangsamt Rettungswurf gegen Zauber
+Gewicht: 4
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nicht verwendet werden von:
+ Mönchen~
+@1409 = ~Stab der Natur "Beschützer der Natur"~
+@1410 = ~Dieser Stab wurde von den Führern des Stammes der Erzdruiden von Kazgard viele Jahrhunderte lang verwendet. Es wird gemunkelt, dass der Stab von der Kraft der Natur selbst erschaffen wurde und deshalb grün leuchtet. Der Stab verleiht große Macht, was die mächtigen Führer der Druiden von Kazgard bewiesen haben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W3 +2
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+
+Besonderheit:
+ Trefferpunkte: +15 (Max)
+ Sagenkunde-Bonus: +20
+ +3 Priestersprüche 1. Grades
+Gewicht: 2
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Druiden~
+@1411 = ~Skeezers Stab der Unberechenbarkeit~
+@1412 = ~Skeezer erschuf diesen Stab als Unterstützung für seine Reisen. Während der Herstellung wurde er gestört und verlor die Kontrolle über die Verzauberung, die er gerade aussprechen wollte. Das hatte zur Folge, dass der Stab sehr unterschiedlich auf alles reagiert, was man mit ihm machen möchte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+Gewicht: 4
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Kampfstab
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ zauberkundigen Gnomen~
+@1414 = ~Tearlacs Kriegshammer "Gigantenfäller"~
+@1416 = ~Dieser Kriegshammer ist die persönliche Waffe von Tearlac Getreuhammer, dem Sohn von Otho Getreuhammer. Er fertigte den Hammer nach mehreren Jahren Ausbildung bei seinem Vater. Einige behaupten, dass Otho einer der besten Schmiede sei, ja vielleicht sogar der beste Schmied der Schwertküste. Dieser Kriegshammer beweist, dass Tearlac viel von seinem Vater gelernt hat. Er hat den Hammer außerdem mit dekorativen Runen versehen, die stolz seine Herkunft beschreiben. Der Hammer besteht aus einer Mithril-Legierung mit Rondellen, die den Griff schützen und verstärken. Der Schaft besteht aus sehr starkem Eichenholz und ist etwa 50 cm lang.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (+3 gegen riesige Humanoide)
+ETW0-Bonus: -1(-3 gegen riesige Humanoide)
+
+Schadensart: mit Hiebwaffe zertrümmern
+Gewicht: 8
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Kriegshammer
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1417 = ~Hammer der Megatonne~
+@1418 = ~Es wird angenommen, dass diese Waffe von Schmieden des einstigen Myth Drannor. Man glaubt auch, dass der Hammer von einem extrem mächtigen Priester für den Kampf gegen das Böse verzaubert wurde. Der Hammer ist überraschend leicht zu schwingen, trotz seines immensen Gewichtes.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 3W6 +1
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0: -4
+Gewicht: 44
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Stumpfe Waffe
+Waffentyp: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+ Magiern
+ Kämpfern
+ Dieben
+ Barden
+ Charakteren böser Gesinnung~
+@1420 = ~Feuerlanze~
+@1422 = ~Die Spitze dieses Speeres brennt auf magische Weise, wodurch er im Kampf zu einer noch tödlicheren Waffe wird. Seine Herkunft bleibt ein Geheimnis.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2
+
+Schadensart: mit Stichwaffe durchbohren
+Schadensbonus: 1W6 (Feuer)
+ETW0-Bonus: -2
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Speer
+Waffentyp: beidhändig
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1423 = ~Speer +3: "Drachenzepter"~
+@1424 = ~Der Speer bekam diesen Namen aufgrund der Gravuren, die ihn verzieren. Seine exakter Ursprung ist unbekannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+
+Schadensart: mit Stichwaffe durchbohren
+ETW0-Bonus: -3
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Speer
+Waffentyp: beidhändig
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1426 = ~Othos Streitkolben +1~
+@1428 = ~Otho Getreuhammer hat diesen fein verarbeiteten Streitkolben für Euch gefertigt. Er liegt gut in der Hand und sieht sehr edel aus, was dem hochwertigen Eisen zu verdanken ist, dass Taerom Donnerhammer für "Spezialfälle" aufbewahrt hat.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -1
+Gewicht: 8
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1429 = ~Othos Streitkolben +1/ Verzaubert (+4 gegen Untote)~
+@1430 = ~Der weise Elminster hat einen mächtigen Zauber über den Streitkolben gelegt, den Otho für Euch gefertigt hat. Auffällig ist, dass der Streitkolben nun mit einem blauen Licht aus seinem Innern leuchtet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (+2 gegen Untote)
+
+ETW0-Bonus: -1 Bonus (-2 gegen Untote)
+
+Schadensart: mit Hiebwaffe zertrümmern
+Gewicht: 8
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönche
+ Tiermeistern~
+@1431 = ~Streitkolben der Zerstörung - Gesegnet~
+@1432 = ~Nachdem der Morgenfürst Jarent dem Streitkolben den Segen von Lathander gegeben hat, scheint es, als ob die Waffe nun lebt und atmet. Ihr könnt die Kraft in Euren Händen spüren. Der Streitkolben scheint Euch zu rufen... begierig, alle Untoten zu vernichten!
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (+2 gegen Untote)
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -2
+Zerstört die meisten Untoten sofort
+Gewicht: 8
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Streitkolben
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ bösen Wesen
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@1433 = ~Streitkolben der Reue +3~
+@1434 = ~Dieser Streitkolben wurde von einem Fanatiker namens Parias erschaffen, der damit die "Ungläubigen" bekehren wollte. Er war so besessen von seinem Plan, dass er seine Familie tötete, nur weil sie sich nicht bekehren lassen wollte. Nachdem er seine schreckliche Tat realisierte und bitter bereute, vergrub er den Streitkolben und beichtete seine Sünden. Parias verhungerte auf dem Grab seiner Frau. Der Streitkolben wurde später wieder ausgegraben und erhielt seinen Namen aufgrund seiner traurigen Geschichte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +4
+
+Schadensart: mit Hiebwaffe zertrümmern
+Besonderheit: Bonusschaden gegen Untote
+ETW0-Bonus: -3
+Gewicht: 7
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Streitkolben
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+ Jet'laya~
+@1436 = ~Dolch +3: "Schlangenzunge"~
+@1438 = ~Schlangenzunge
+
+Dieser Dolch wurde von einem verrückten, zauberkundigen Dieb erschaffen, der ihn aber nur kurze Zeit benutzte. Die genauen Umstände seines Todes sind unbekannt, jedenfalls tauchte der Dolch kurze Zeit später in den Händen eines bekannten Meuchelmörders wieder auf.
+Die rabenschwarze Klinge ist in der Mitte gespalten und endet in zwei rasiermesserscharfen Spitzen. Der Dolch sondert ein Gift ab, welches aus jedem kleinen Kratzer große Wunden macht. Der Anwender sollte also vorsichtig sein und sich nicht aus Versehen selbst damit verletzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (+8 bei Gift, Hälfte bei Rettungswurf)
+
+Schadensart: mit Stichwaffe durchbohren (Handgemenge oder Fernkampf)
+
+ETW0-Bonus: -3
+Chance sich zu schneiden: 5%
+(4 Schadenspunkte, kein Rettungswurf)
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Tiermeistern~
+@1439 = ~Drow Adamantit-Dolch +3~
+@1440 = ~Die meisten Drow tragen Dolche, die aus einer Adamantit-Legierung gefertigt wurden. Diese Dolche gewähren Schadensboni von +1 bis +3 ohne magisch zu sein. Dieser Dolch ist mit einem wirksamen Schlafgift beschichtet.
+
+Da das Adamantit sehr empfindlich auf Sonnenlicht reagiert, setzt bei Tageslicht unwiderruflich der Zerfall ein. Der Dolch verrottet innerhalb von 2 bis 12 Tagen und wird somit nutzlos.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +3
+
+Schadensart: mit Stichwaffe durchbohren
+ETW0-Bonus: -3
+Besonderheit:
+ Das Opfer wird für 30 Sek. bewusstlos
+ Gift: 30 Schadenspunkte in 15 Sekunden bis ein erfolgreicher Rettungswurf -4 gelingt
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ Nicht-Klerikern
+ Böser Gesinnung~
+@1441 = ~D'Raavhen's Zahn~
+@1442 = ~Vampirdolch von Lorik D'Raavhen
+
+Der bloße Anblick dieser dunklen Klinge jagt Euch einen kalten Schauer über den Rücken. In seinem Innern pulsiert das pure Böse. Seine schwarze Klinge wurde aus dem geheimnisvollen Material des Abyss gefertigt und verleiht der Waffe sowie dem Träger ein finsteres Aussehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +4
+
+Schadensart: mit Stichwaffe durchbohren
+ETW0-Bonus: -4
+Speziell: vampirisch
+Gewicht: 1
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann verwendet werden von:
+ Nicht-Klerikern
+ Böser Gesinnung~
+@1443 = ~Dolch "Nome Stikkah"~
+@1444 = ~Kobolde benutzen zwar normalerweise keine Giftdolche, aber sie haben die Mittel dafür. Obwohl diese Waffe nicht sehr fein verarbeitet wurde, sollte man ihre Tödlichkeit nicht unterschätzen. Tatsache ist, dass sie für den Anwender genauso tödlich sein kann wie für das Opfer.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4
+
+Schadensart: mit Stichwaffe durchbohren
+Schadensbonus: +6 (Gift, Hälfte bei Rettungswurf)
+Chance sich zu verletzten: 15%
+(4 Schadenspunkte, kein Rettungswurf)
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Tiermeistern~
+@1446 = ~Keirias Schnellschussarmbrust~
+@1448 = ~Diese leichte Armbrust hat nicht mehr Eigenschaften als eine normale Schnellschussarmbrust. Der einzige Unterschied liegt in der Farbe, da Keiria immer modisch auftreten will, selbst auf dem Schlachtfeld.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1
+
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+
+ETW0-Bonus: -1
+Schadensbonus: +1
+Besonderheit: ein zusätzlicher Angriff pro Runde
+Gewicht: 5
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Armbrust
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Keiria Silbersaite~
+@1449 = ~Schattenarmbrust~
+@1450 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Diese spezielle Armbrust wird wie die Schattenrüstung gerne von Dieben genutzt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1
+
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+
+ETW0-Bonus: -1
+Schadensbonus: +1
+Gewicht: 6
+Geschwindigkeitsfaktor: 2
+Mindeststärke: 8
+Fertigkeit: Geschosswaffe
+Waffentyp: beidhändig
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen
+ Kensai
+ Rittern~
+@1452 = ~Elfenbogen "Goblins Verderben"~
+@1454 = ~Dieser Bogen wurde von Elfen geschaffen, die ihre Wälder besser gegen Überfälle durch Goblins und Hobgoblins schützen wollten. Allerdings besitzt er keine magischen Eigenschaften gegen diese Kreaturen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schadensbonus: +2
+Gewicht: 2
+Geschwindigkeitsfaktor: 3
+Mindeststärke: 3
+Fertigkeit: Bogen
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ guten Elfen~
+@1456 = ~Langbogen der Kraft +3 "Vibration des Todes"~
+@1458 = ~Der Langbogen der Kraft ist eine Handarbeit der Waldelfen für Corbus Denox, den Prinzen der Schneebarbaren. Der Bogen spendet und erhöht Stärke, Schaden und Genauigkeit. Das leise Brummen nach dem Schuss führte zu seinem Namen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Schadensbonus: +3
+Stärke-Bonus: +1
+Gewicht: 2
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Kensai
+ Rittern~
+@1459 = ~Heiliger Bogen der Sukien "Sägender Zahn"~
+@1460 = ~Dieser Bogen wird vermutlich wegen seiner Erscheinung so genannt, denn an seiner Außenseite befinden sich Zähne wie Widerhaken. Er wurde bisher nur im Tempel der Sukien gesehen, als Waffe der Heiligen Wächter. Runenschnitzereien zeigen einen Befehl, der einen 5er-Block Angriffspfeile erschafft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schadenbonus: +3
+Erschafft Pfeile des Angriffs
+Gewicht: 2
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Paladinen~
+@1462 = ~Ettins Zauberstab~
+@1464 = ~Ettin war ein Mönch aus der Zeit der Antiker. Neben seinen priesterlichen Pflichten war er ein sehr erfahrener Kräuterkenner. Er entdeckte drei magische Kräuter, die bei Kombination den Anwender für kurze Zeit paralysieren konnten. Ettins Wissen wurde von einem Magier nutzbar gemacht, als dieser einen Weg fand, die Kräuter mit magischen Feldern zu sichern und in diesen Stab zu transferieren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Das Ziel wird betäubt
+Chance das Ziel zu vergiften: 30%
+Reichweite: 33 m
+Wirkungsdauer: 10 Runden
+Wirkungsbereich: 1 Wesen
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden~
+@1465 = ~Saphirstab~
+@1466 = ~Der Stab wurde von dem Magierkönig Varashar während einer Audienz oder am Gerichtshof getragen. Er benutzte ihn angeblich auch um Strafen zu vollstrecken. Laut Überlieferungen sagte er dabei: "Die Menge deiner Schuld bestimmt die Menge deines Leides."
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4
+Besonderheit: Chance auf zusätzlichen Schaden in den folgenden 3 Runden.
+
+Kann nur verwendet werden von:
+ Barden
+ Magiern~
+@1467 = ~Stab des Kettenblitzes~
+@1468 = ~Wenn er aktiviert wird, stößt der Stab eine Kugel aus elektrischer Energie aus, die sich auf den Zielpunkt zubewegt. Am Ziel angekommen entlädt sich die Kugel in einem Bereich von 10 m Radius um den Zielpunkt, wo sie jedem Wesen 6W6 +6 Schadenspunkte zufügt. Der Schaden kann mit einem Rettungswurf gegen Zauberstäbe halbiert werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+"Kettenblitz"
+Schaden: 6W6 +6 (elektrisch)
+Reichweite: 33 m
+Wirkungsbereich: 10 m Radius
+Rettungswurf: 1/2
+
+Kann nur verwendet werden von:
+ Barden
+ Magiern~
+@1470 = ~Elgenons Dornenkeule - "Der Zweig der vielen Dornen"~
+@1472 = ~Diese ungewöhnliche Keule wurde von Nymphen für die Bewahrer des Waldes hergestellt. Sie ist so verzaubert, dass ihre Dornen nach Gebrauch nachwachsen. Zuerst war sie ein Geschenk an den Druiden Elgenon, Beschützer des Baums der Weisheit. Nach dessen Tod wurde sie an die Druiden weitergegeben, die besondere Verdienste beim Schutz des Waldes vorzuweisen hatten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +1
+
+Schadensart: mit Hiebwaffe zertrümmern
+Giftschaden: 2 pro Runde, bis zu 30 Schaden
+ETW0-Bonus: -1
+Gewicht: 4
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Stumpfe Waffe
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ Druiden~
+@1473 = ~Kieferknochen eines Esels~
+@1474 = ~Dies scheint nur ein Kieferknochen eines Tieres zu sein, vielleicht von einem Esel oder Maultier. Schrammen deuten darauf hin, dass er als Keule verwendet wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+
+Schadensart: mit Hiebwaffe zertrümmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Mindeststärke: 3
+Fertigkeit: Keule
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Magiern~
+@1475 = ~Mit diesem Kieferknochen eines Esels hat Samson, Kämpfer und Priester der Nazerite, an einem Tag 600 Phillistiner erschlagen. Eine beeindruckende Waffe mit eher bescheidener Herkunft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+
+Schadensart: mit Hiebwaffe zertrümmern
+ETW0-Bonus: -3
+Rettungswurf-Bonus: +1
+"Verschwimmen"
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Magiern~
+@1476 = ~Mielikkis Klinge~
+@1477 = ~Trungles Zubehör~
+
+////////////////
+//Areas and Rest
+////////////////
+
+@2000 = ~Der Erzdruide~
+@2001 = ~Banshee~
+@2002 = ~Bardo Furfoot~
+@2003 = ~Priester Blane~
+@2004 = ~Bub Snikt~
+@2005 = ~Clairis~
+@2006 = ~Hilf mir!~ [GLANM04]
+@2007 = ~[GLANMARIE 3]~ [GLANM03]
+@2008 = ~Conchobhair Starkklinge~
+
+@2046 = ~Conchobhair stammt ursprünglich aus Tiefwasser. Er ist der Jüngste von vier Söhnen der sehr einflussreichen Familie Starkklinge aus Tiefwasser. Als der jüngste Sohn sah er nur sehr geringe Chancen für sich, die Familie weiterzuführen, und so zog er aus, um sein eigenes Leben zu leben, bis er sein 20. Lebensjahr vollendet hatte. Er begann sein Training als Paladin und lebte einige Jahre nach dessen Tugenden. Mit der Zeit jedoch fühlte sich Conchobhair zu eingeschränkt in seinen Aufgaben und strebte nach ruhmvollen Abenteuern. Auf einem seiner langen Fußmärsche von Tiefwasser nach Baldurs Tor traf er auf einen Krieger namens Fergus Ravenskill. Fergus war ein sehr erfahrener Krieger, der die meiste Zeit seiner 56 Jahre auf dem Schlachtfeld verbracht hatte. Conchobhair zog einige Monate mit Ravenskill durch die Lande, und seine Erzählungen über große Schlachten beeindruckten ihn. Es dauerte auch nicht lange, bis Fergus ihm von seinem Zusammentreffen mit einem blauen Drachen erzählte, was Conchobhair zu 
+einem Lebenswandel bewegte. Er bat Fergus ihn zu trainieren und ihm alles zu erzählen, was er über Drachen weiß. Er verbrachte 6 Jahre mit dem Training auf seinem Weg zu einem großen Drachenjäger. Er erhielt sogar Aufträge als Söldner im Dienste sehr großer Städte. Ein verhängnisvoller Tag jedoch brachte Fergus und Conchobhair Auge in Auge mit einem rotem Drachen. Es war ein Drache, dem Fergus schon einmal vor etwa 20 Jahren begegnete. Damals wurde der Drache von Fergus auf einem Auge geblendet. Es war klar, dass der Drache nur Rache wollte, und die Möglichkeit hatte er jetzt bekommen. Fergus starb im Kampf, Conchobhair konnte jedoch mit leichten Verletzungen und Verbrennungen entkommen. An diesem Tag schwor er sich, jeden Drachen zu töten, der die Reiche bedroht und den Drachen zu finden, der seinen Mentor umgebracht hatte.~
+@2047 = ~Cooshee~
+@2048 = ~CúChoinneach~
+
+@2077 = ~Ihr wisst sehr wenig über CúChoinneach und seinen Schattenwolf. Ihr wisst weder woher er kommt, noch wohin er geht. Er spricht nicht viel und stellt noch weniger Fragen. Ihr bemerkt, dass er eine für einen Elfen ungewöhnlich dunkle Seite hat. Er hat die normale Freude am Leben, die allen Elfen gemein ist, verloren, und scheint sich nur noch auf eine Sache zu konzentrieren: Die Zerstörung von Lord Daerthmac!~
+//@2078 = ~Khal Abbil~
+@2079 = ~Deazle~
+@2080 = ~Drow Waffenmeister~
+@2081 = ~Drow Magier~
+@2082 = ~Drow Krieger~
+@2083 = ~Drow Elite~
+@2084 = ~Duergar Kämpfer~
+@2085 = ~Duergar Magier~
+@2086 = ~Duergar Totenbeschwörer~
+@2087 = ~Duergar Dieb~
+@2088 = ~Duergar Wache~
+@2089 = ~Duergar Priester~
+@2090 = ~Duergar Mienenarbeiter~
+@2091 = ~Ferthgil Trolltöter~
+
+@2133 = ~FERTHGIL TROLLTÖTER
+
+Ferthgil wurde von Goldzwergen in den Wolkengipfel-Gebirgen aufgezogen. Sein Vater Breachin Trolltöter war ein Wanderschmied, der sein Handwerk in den kleinen Dörfern entlang der Schwertküste verkaufte. Breachin fand ein unglückliches Ende, als er seinen Sohn gegen einen Spähtrupp Verbeegs verteidigte. Der junge Ferthgil wanderte ganz alleine mehrere Tage mit der Axt seines Vaters umher.
+Zu dieser Zeit fand ihn der Priester Gulmoth Steinherd, Anhänger des Clanngedin Silberbart.
+Gulmoth sah die Wut und die Frustration in Ferthgil, aber er sah auch die gute Gesinnung, die der Bursche hatte. Gulmoth trainierte den Jungen in der Burg von Steinherd, ein Himmel für alle Zwerge im Süden der Schwertküste. Hier lernte Ferthgil seine Wut zu bündeln und in den Dienst des Kriegsgottes zu stellen.
+
+Doch Ferthgil hatte von seinem Vater den Wunsch geerbt, die Welt sehen zu wollen. Er konnte nicht lange in der Burg von Steinherd bleiben und machte sich eines Tages auf, die Welt zu erkunden.
+
+Ferthgil hatte keine Clan, kein Heim, und er war mittellos. Auf dem Weg nach Velen im Süden traf er Tearlac Getreuhammer vom Getreuhammer Clan.
+Tearlac und Ferthgil wurden feste Freunde, und Ferthgil begann mit der Zeit zu merken, dass er irgendwo hingehörte. Obwohl es nicht offiziell war, wurde er als Mitglied des Getreuhammer Clans angesehen.
+Auf den ersten Blick sieht Ferthgil wie ein normaler, insbesondere mürrischer Zwerg aus, aber durch sein Training bei Gulmoth hat er gelernt, wie er seine Wut gegen die Feinde von Clanggedin bündeln kann. Ferthgil wird so zu einem mächtigen Kämpfer, und seine Kampfschreie sind dafür bekannt, dass sie die Ohren von Clangeddin selbst in seiner Burg in Arcadia erreichen.~
+@2134 = ~Fey'doch~
+@2135 = ~Walddrache~
+
+@2138 = ~Verbrennt und sterbt, kümmerliche Dummköpfe!~ [BAZDR303]
+
+@2142 = ~Baby Walddrache~
+@2143 = ~Gillian Ghastkill~
+@2144 = ~Gnoll-Häuptling~
+
+@2146 = ~Stirb Abschaum !~ [GNOLL04]
+
+@2151 = ~Goblin-Anführer~
+@2152 = ~Grog~
+@2153 = ~Gandolar Glücksfuß~
+@2154 = ~Willkommen, Reisender. Gandolar Glücksfuß, stets zu Diensten.~ [GANDL01]
+
+
+@2157 = ~Gullykin ist unser Stolz und unsere Freude. Benimm Dich anständig.~ [GANDL02]
+@2158 = ~Halbling-Kämpfer~
+@2159 = ~Halbling-Dieb~
+@2160 = ~Jabress Xaendrassa Auvryndar~
+@2161 = ~Morgenfürst Jarent des Lathander~
+@2162 = ~Jeremy~
+@2163 = ~Jet'laya~
+@2164 = ~Xvart Schamane~
+@2165 = ~An der erfrischenden Luft und im "Oberflächen"-Licht der Außenwelt lösen sich die Drowgegenstände auf, die sich in Eurem Besitz befinden, und fallen als Staub zu Boden~
+
+@2202 = ~Jet'layas "Onkel", ein Adliger, machte sich eines Tages auf, um das Abenteuer zu suchen. Auf seinen Reisen wurde ihm das Leben von Jet'layas Vater, Torvin, gerettet. Nachdem sie einige Zeit miteinander gereist waren und dabei gute Freunde wurden, kehrten ihr Vater und ihr "Onkel" nach Cormanthor zurück. In der Stadt angekommen stellte Lennan Torvin seinem Vater, einem reichen und mächtigen Adligen, vor. Von Torvin beeindruckt und dankbar für die Rettung seines Sohnes kämpfte er darum, dass Torvin in der Stadt anerkannt wurde. Er siegte. Torvin verliebte sich in Jet'layas Mutter, eine der Heilerinnen von Cormanthor. Ihre Beziehung wurde jedoch von den meisten Bürgern nicht gerne gesehen, und so waren die beiden gezwungen in der Nähe des Waldes zu leben.
+
+Als Jet"laya und ihr Zwillingsbruder sechs Jahre alt waren, wurde Cormanthor von einer Gruppe Untoter unter der Führung von einem jungen, dreisten Vampir angegriffen. Sie, ihr Bruder und ihre ältere Schwester wurden in Sicherheit gebracht, während die Elfen die Stadt verteidigten. Alle Angreifer wurden getötet, außer dem Anführer, der es schaffte zu entkommen, und von dem man bis heute nichts mehr gehört hat. Aber auch die Elfen hatten Verluste zu beklagen, unter ihnen Jet'layas Eltern. Ihre ältere Schwester war verwundet und erholte sich nie vollständig von ihrer Verletzung. Sie litt viele Jahre. Der Tod ihrer Eltern, den sie mit ansehen musste, war eine ständige Quelle von Albträumen für Jet"laya. Sie schwor Rache für den Tod ihrer Eltern gegenüber allen Untoten. Trotz der besten Bemühungen ihres "Onkels" und ihres Bruders, dem der Verlust der Eltern weniger auszumachen schien, war sie nicht von ihrem Weg abzubringen. Sie verlies die anderen, sobald das von ihr so genannte Training beendet war.~
+@2203 = ~Jules~
+@2204 = ~Kalannar~
+@2205 = ~Katerin~
+@2206 = ~Keiria Silbersaite~
+
+@2245 = ~Keiria Silbersaite kommt aus einer musikalischen Familie. Ihre Eltern waren lange Zeit Mitglieder bei den Harfnern. Keiria hat ihr Aussehen und ihr Leben sehr stark von ihren Eltern und den Harfnern beeinflussen lassen. Aus ihr wurde eine sehr talentierte Sängerin und Schauspielerin. Sie hat in Aufführungen von Silbrigmond bis Athkatla gespielt. Neben ihrer bezaubernden Persönlichkeit, halbelfischen Schönheit und ihren fließenden roten Locken ist sie jedoch auch eine fähige Kämpferin und kann in einem Kampf auf sich aufpassen. Außerdem zieht sie das Leben als Abenteurerin dem Leben auf der Bühne vor. Sie sagt, sie würde sich lebendiger fühlen, wenn sie Abenteuern und Gefahren ausgesetzt ist.~
+@2246 = ~Ken der Bäcker~
+@2247 = ~Lennan~
+@2248 = ~Der Finstere~
+@2249 = ~Thorfinn Hauskluniff~
+
+
+@2251 = ~Koch~
+@2252 = ~Megan~
+@2253 = ~Mopap, das zirpende Eichhörnchen~
+@2254 = ~Mortius~
+@2255 = ~Fürst Norby Boozluck~
+@2256 = ~Ork~
+@2257 = ~Otho Getreuhammer~
+@2258 = ~Phantom~
+@2259 = ~Atr'Jkslad'Roa'CH~
+@2260 = ~Shar Nadal~
+@2261 = ~Skeezer Lumpkin VI~
+
+@2286 = ~Skeezer Lumpkin VI. stammt aus der Gnom-Siedlung bei Krynn, unterhalb von Mount Nevermind. In den letzten 75 Jahren lebte er jedoch in Athkatla in Amn. Er verbrachte sein ganzes Leben damit, die perfekte Kombination aus Technologie und Magie zu finden. Er dachte, er könnte damit den ultimativen Kesselflicker erschaffen. Bis jetzt hat er es aber nicht geschafft. Er hat sich immer vor einem normalen Gnomdasein gescheut und nach einem größeren Verständnis für die Magie gesucht. Seine Kreationen hatten aber nur beschränkten Erfolg. Eine seiner Schöpfungen war der "Automatische (Systematische) Artikulierte Mop und Aufladbare Besen-betriebene Torten und Blechdosen-Flieger und Ei-Werfer". Damit konnten Eier zum Fliegen mit hoher Geschwindigkeit gebracht werden, sonst hatte es keinen wirklichen Zweck. Einer seiner größten Wünsche ist es, eines der fliegenden Schiffe zu sehen. Er hat schon viele Geschichten über diese Flugschiffe gehört und wünscht sich nichts lieber, als eines der Flugschiffe von Baldurs 
+Tor zu bestaunen.~
+@2287 = ~Spec~
+@2288 = ~Thomic~
+@2289 = ~Torquil~
+@2290 = ~Trungle~
+@2291 = ~Frischer Vampir~
+@2292 = ~Fürst Daerthmac~
+@2293 = ~Waldelf-Krieger~
+@2294 = ~Waldelf-Elite~
+@2295 = ~Madadh n'Sgàil~
+@2296 = ~Skelett-Fürst~
+@2297 = ~Kobold-Wache~
+//@2300 = ~Scharfzahnwald~
+//@2301 = ~Ausgang~
+@2302 = ~Burg von Daerthmac~
+@2304 = ~Als ob die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet'laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet?... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit 
+gestoßen worden zu sein. Was wird Euch und Euren Begleitern auf der langen Reise noch alles begegnen? Ihr befürchtet, dass Ihr die Antwort schon sehr bald erhalten werdet... wenn Ihr eintaucht in die "Dunkle Seite der Schwertküste".~
+@2305 = ~Die Dunkle Seite der Schwertküste~
+@2306 = ~Als wenn die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet"laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet? ... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit 
+gestoßen worden zu sein. Was wird Euch und Euren Begleitern auf der langen Reise noch alles begegnen? Ihr befürchtet, dass Ihr die Antwort schon sehr bald erhalten werdet... wenn Ihr eintaucht in die "Dunkle Seite der Schwertküste".~ [dsotsc]
+
+@3000 = ~Erhöhe die Möglichkeit des Stapelns der neuen Gegenstände (Waffen, Tränke und Ringe/Amulette)~
+
+//Kreaturen Sounds
+@20101 = ~Hallo, und Euer Name war...~ [CONCHO01]
+@20102 = ~Ich hau' ab, solang' ich noch meinen Kopf auf den Schultern trage.~ [CONCHO02]
+@20103 = ~Dein Gesicht BETTELT geradezu nach einem Tritt!~ [CONCHO03]
+@20104 = ~Diese Reise gestaltet sich besser als ich dachte.~ [CONCHO04]
+@20105 = ~Einmal, nur ein einziges Mal möchte ich mit normalen Leuten reisen.~ [CONCHO05]
+@20106 = ~Ich bin beides: glücklich und absolut unzufrieden... ohne den ersten Teil.~ [CONCHO06]
+@20107 = ~Es tut bestimmt nicht weh, ab und zu nett zu sein, oder?~ [CONCHO07]
+@20109 = ~(Gähn) - Ich sollte ruhen.~ [CONCHO09]
+@20110 = ~Kommt schon, schwingen wir das Tanzbein!~ [CONCHO10]
+@20111 = ~Aaagh!~ [CONCHO11]
+@20113 = ~An Orten wie diesem wimmelt es vor Meuchelmördern!~ [CONCHO13]
+@20114 = ~An diesem Ort habe ich ein ganz mieses Gefühl...~ [CONCHO14]
+@20117 = ~Was!~ [CONCHO17]
+@20118 = ~Lass den Quatsch, ja?~ [CONCHO18]
+@20119 = ~Knutsch doch "ne Bärenfalle.~ [CONCHO19]
+@20120 = ~Abgemacht.~ [CONCHO20]
+@20121 = ~(Pfeifen)~ [CONCHO21]
+@20122 = ~Damit rennt Ihr bei mir offene Türen ein.~ [CONCHO22]
+@20123 = ~Glaube führt mich nicht in Versuchung.~ [CONCHO23]
+@20124 = ~(Seufz) - Wunder gibt es immer wieder.~ [CONCHO24]
+@20125 = ~Erstick doch dran, du hirnloser Affe!~ [CONCHO25]
+@20126 = ~(Seufz) - Bist du immer so unfreundlich?~ [CONCHO26]
+@20127 = ~Was für ein plappernder Schwachkopf!!!~ [CONCHO27]
+@20128 = ~Wisst Ihr, Ihr wärt um einiges charmanter, wenn Ihr Eure Klappe halten würdet.~ [CONCHO28]
+@20129 = ~Habt Ihr Eiswasser in Euren Adern?~ [CONCHO29]
+@20130 = ~Schlampe!~ [CONCHO30]
+@20131 = ~Selbst 50 Schluck Branntwein würden Euch nicht besser aussehen lassen.~ [CONCHO31]
+@20132 = ~Oh, Eure Kommentare nerven mich wie, äh... nervende Sachen eben.~ [CONCHO32]
+@20133 = ~Eure Worte sind wie Peitschenhiebe auf meine nackten Schultern.~ [CONCHO33]
+@20134 = ~Hmm, ich würde sagen, ich... Hey, Moment mal!~ [CONCHO34]
+@20135 = ~Och, habt Ihr Euch etwa weh getan, als Ihr vom Himmel gefallen seid?~ [CONCHO35]
+@20136 = ~Sie hat eine Persönlichkeit wie ein Stück Stacheldraht.~ [CONCHO36]
+@20137 = ~Ihr habt Recht.~ [CONCHO37]
+@20138 = ~Verdammt!~ [CONCHO38]
+@20139 = ~Arghhhhh!~ [CONCHO39]
+@20140 = ~Hm, ich kann mir schlimmere Todesarten vorstellen.~ [CONCHO40]
+@20141 = ~Nun ja, *seufz* soviel also zum ewigen Leben, wie?~ [CONCHO41]
+
+
+@20201 = ~Seid gegrüßt, Fremde. Wusstet Ihr, dass das Reisen in der Wildnis ein guter Weg ist, um sein Leben zu verlieren?~ [CUCH01]
+@20202 = ~Ach, kommt alleine klar.~ [CUCH02]
+@20203 = ~Tod euch allen!~ [CUCH03]
+@20204 = ~Das war eine sehr ehrenhafte Tat. Euch zu kennen erfüllt mich mit Stolz.~ [CUCH04]
+@20205 = ~Hey! Macht so weiter und Ihr werdet Bekanntschaft mit meiner Klinge schließen.~ [CUCH05]
+@20206 = ~Es ist definitiv nicht weise, wenn Ihr diesen Elf so herumstoßt.~ [CUCH06]
+@20207 = ~Eure bösen Taten enden hier und jetzt!~ [CUCH07]
+@20208 = ~Jawohl. Seid einfach nur aufmerksam, während Madadh n'Sgàil und ich Euren Platz einnehmen.~ [CUCH08]
+@20209 = ~Denkt Ihr nicht auch, dass es an der Zeit ist, sich auszuruhen?~ [CUCH09]
+@20210 = ~Ich kann mir eine Menge besserer Dinge vorstellen, die ich tun könnte, als hier herumzustehen und auf jemanden wie Euch zu warten.~ [CUCH10]
+@20211 = ~Huagh... ugh...~ [CUCH11]
+@20212 = ~Ah, es gibt keinen Ort auf Faerûn, wo ich mich mehr zu Hause fühle, als im Wald.~ [CUCH12]
+@20213 = ~Städte haben auch ihre Vorzüge... wenn sie so weit wie möglich von da entfernt liegen, wo ich bin.~ [CUCH13]
+@20214 = ~Vergesst nicht: Wir sind vom Bösen umgeben.~ [CUCH14]
+@20215 = ~Nun werdet nicht unachtsam, nur weil es Tag ist. Das Böse schleicht weiterhin umher.~ [CUCH15]
+@20216 = ~Vergesst nicht: Wir sind vom Bösen umgeben.~ [CUCH16]
+@20217 = ~Ja, was kann ich für Euch tun?~ [CUCH17]
+@20218 = ~Ich bin hier.~ [CUCH18]
+@20219 = ~Sprecht Euch aus, was liegt Euch auf dem Herzen?~ [CUCH19]
+@20220 = ~Wenn das alles ist, was Ihr wollt.~ [CUCH20]
+@20221 = ~Tretet zur Seite und lasst mich meine Arbeit machen.~ [CUCH21]
+@20222 = ~Ist das wirklich alles?~ [CUCH22]
+@20223 = ~Wenn Ihr diesen Finger behalten wollt, dann solltet Ihr ihn besser bei Euch lassen.~ [CUCH23]
+@20224 = ~Ihr erinnert mich an einen Zwerg, den ich kannte. Der benahm sich auch so eigenwillig.~ [CUCH24]
+@20225 = ~Ihr scheint nicht zuzuhören. Macht so weiter und ich werde Euch Eure Hand mit meiner Schulter abreißen!~ [CUCH25]
+@20226 = ~Die Arbeit an dieser Erweiterung - Nacht für Nacht - hat mich vielleicht etwas angespannt werden lassen.~ [CUCH26]
+@20234 = ~Ah, Madadh n'Sgàil. Du bist in der Tat ein zuverlässiger Begleiter.~ [CUCH34]
+@20238 = ~Ah! Niemand verletzt CúChoinneach und lebt lang genug, um davon zu erzählen!~ [CUCH38]
+@20239 = ~Agh!~ [CUCH39]
+
+@20301 = ~Hey Ihr, wartet mal kurz, ja?~ [DS#BAR01]
+@20302 = ~Das ist zu viel für mich! Ich verschwinde...~ [DS#BAR02]
+@20303 = ~Ich hab' genug Pfeile für alle!~ [DS#BAR03]
+@20304 = ~Mit Euch ist das Abenteuerleben aufregender, als ich es je für möglich gehalten hätte!~ [DS#BAR04]
+@20305 = ~Von Eurer Gesellschaft hab" ich mir irgendwie mehr versprochen.~ [DS#BAR05]
+@20306 = ~Ich denke, ich sollte nach Hause zurückkehren. Das hier gefällt mir überhaupt nicht.~ [DS#BAR06]
+@20307 = ~Ich verschwinde! Macht's gut...~ [DS#BAR07]
+@20308 = ~Meint Ihr wirklich, dass ich das hinkriegen werde?~ [DS#BAR08]
+@20309 = ~Also ich - (gähn) - könnte jetzt ein Nickerchen vertragen.~ [DS#BAR09]
+@20310 = ~Warum trödeln wir? Auf ins Abenteuer...~ [DS#BAR10]
+@20311 = ~Dallillia, hilf mir!~ [DS#BAR11]
+@20312 = ~Im Wald lauern überall gefährliche Tiere. Wir müssen wachsam sein.~ [DS#BAR12]
+@20313 = ~Gullykin ist nichts im Vergleich zu dieser Stadt!~ [DS#BAR13]
+@20314 = ~Das hier erinnert mich irgendwie an Opas Keller... bis auf die Monster natürlich.~ [DS#BAR14]
+@20315 = ~(Pfeifen)~ [DS#BAR15]
+@20316 = ~Habt Ihr das gehört? Da ist doch was...~ [DS#BAR16]
+@20317 = ~Ja?~ [DS#BAR17]
+@20318 = ~Ähem?~ [DS#BAR18]
+@20319 = ~Ich schon wieder?~ [DS#BAR19]
+@20320 = ~Okidoki.~ [DS#BAR20]
+@20321 = ~Is' kein Ding.~ [DS#BAR21]
+@20322 = ~Für etwas Abwechslung tu" ich alles.~ [DS#BAR22]
+@20323 = ~Jetzt is' aber gut, ja?~ [DS#BAR23]
+@20324 = ~Ja ja, mit den Kleinen kann man's ja machen.~ [DS#BAR24]
+@20325 = ~Ähm... (räusper)... was is'?~ [DS#BAR25]
+@20326 = ~Wenn ich jetzt in Gullykin wär', würd' ich mich auf die Faule Haut legen.~ [DS#BAR26]
+@20327 = ~Kannst Du nicht woanders herumstehen?~ //[DSBAR27]
+@20328 = ~Hör' auf damit, okay?~ //[DSBAR28]
+@20329 = ~Wow. Kannst Du mir das beibringen?~ //[DSBAR29]
+@20330 = ~So was hab' ich ja noch nie gesehen!~ //[DSBAR30]
+@20331 = ~Eine ordentliche Pfeife könnte ich jetzt gut gebrauchen.~ //[DSBAR31]
+@20332 = ~Hab' ich euch schon erzählt wie ich damals Gandolars Weingut überfallen habe? Hehe...~ //[DSBAR32]
+@20333 = ~Oh nein!~ //[DSBAR33]
+@20334 = ~Wurde auch Zeit. Oh, hab' ich das laut gesagt?~ //[DSBAR34]
+@20335 = ~Schön von Dir, so was zu sagen.~ //[DSBAR35]
+@20336 = ~Hey, danke. Du bist auch in Ordnung.~ //[DSBAR36]
+@20337 = ~Oh, danke.~ //[DSBAR37]
+@20338 = ~Aua!~ [DS#BAR38]
+@20339 = ~Arghhhhh...~ [DS#BAR39]
+@20340 = ~Hast Du was gesagt?~ //[DSBAR40]
+@20341 = ~Ich tue jetzt mal so, als hätte ich das nicht gehört.~ //[DSBAR41]
+@20342 = ~Bla bla bla. Wie auch immer...~ //[DSBAR42]
+@20343 = ~Ich muss besser zielen.~ //[DSBAR43]
+@20344 = ~Hmm.~ //[DSBAR44]
+@20345 = ~Ein Abenteuer!~ //[DSBAR45]
+@20346 = ~Los, auf sie!~ //[DSBAR46]
+@20347 = ~Das wird ein Spaß!~ //[DSBAR47]
+@20348 = ~Ich geb' Euch Rückendeckung!~ //[DSBAR48]
+@20349 = ~Übung macht den Meister!~ //[DSBAR49]
+@20350 = ~Damit kann ich sie nicht treffen.~ //[DSBAR50]
+@20351 = ~Äh... vielleicht sollte ich vorher erstmal was ablegen, hm?~ //[DSBAR51]
+@20352 = ~Das bringt uns ein paar Münzen.~ //[DSBAR52]
+@20353 = ~Sie werden mich nie finden!~ //[DSBAR53]
+@20354 = ~Überraschung!~ //[DSBAR54]
+@20355 = ~Hm?~ //[DSBAR55]
+@20356 = ~Yupp.~ //[DSBAR56]
+@20357 = ~Kann ich Euch helfen?~ //[DSBAR57]
+@20358 = ~BARDO FURFOOT, ein Halbling aus dem verschlafenen Gullykin, war ein sehr unruhiges Kind. Obwohl er Gullykin liebt, war er nie wirklich glücklich mit dem gemütlichen Leben dort. Sein größter Wunsch war es, genauso spannende Abenteuer zu erleben, wie sie in Büchern beschrieben sind oder von Abenteurern erzählt werden, die durch das Dorf reisen. Die Bewohner von Gullykin fanden ihn immer tagträumend vor. Ein Abenteurer zu werden war sein sehnlichster Wunsch.
+Eines Tages wurde in dem sonst friedlichen Dorf ein Tumult entfacht, als die Bewohner von einem Drachen hörten, der sich in Richtung des Dorfes bewegte. Gandolar Glücksfuß organisierte eine Gruppe, die den Drachen bekämpfen sollte, bevor er das Dorf erreichen würde. Bardo schloss sich der Gruppe an, in der Hoffnung, endlich mal ein richtiges Abenteuer zu erleben.~
+
+@20401 = ~Ja, was wollt Ihr?~ [JETLA01]
+@20402 = ~Ich bin für Rückzug, solange ich noch in einem Stück bin.~ [JETLA02]
+@20403 = ~Ich werd' euch aufspießen!~ [JETLA03]
+@20404 = ~Wenn Ihr mich braucht, ich bin hier... und langweile mich.~ [JETLA04]
+@20405 = ~Ich frage mich, warum ich mir Eure Gesellschaft überhaupt antue.~ [JETLA05]
+@20406 = ~Hört mal, Ihr geht eindeutig zu weit!~ [JETLA06]
+@20407 = ~Ach, ich will nichts mehr damit zu tun haben!~ [JETLA07]
+@20408 = ~Und was erwartet Ihr von mir als Anführer?~ [JETLA07]
+@20409 = ~Ich bin müde.~ [JETLA09]
+@20410 = ~Wenn Ihr mich braucht, ich bin hier... und langweile mich.~ [JETLA10]
+@20411 = ~Oh, bitte lasst mich hier nicht sterben...~ [JETLA11]
+@20412 = ~Verdammt!!~ [JETLA12]
+@20413 = ~Am besten Ihr vertraut niemandem hier, verstanden?!~ [JETLA13]
+@20414 = ~Also gut... wir tun, was zu tun ist, und dann verschwinden wir von hier, ja?~ [JETLA14]
+@20415 = ~Habt Ihr jemals das Gefühl gehabt, beobachtet zu werden? ... Ihr werdet es.~ [JETLA15]
+@20416 = ~Habt Ihr jemals das Gefühl gehabt, beobachtet zu werden? ... Das werdet Ihr.~ [JETLA16]
+@20417 = ~Och, was jetzt?~ [JETLA17]
+@20418 = ~Ja, was wollt Ihr?~ [JETLA18]
+@20419 = ~Würdet Ihr damit aufhören?!~ [JETLA19]
+@20420 = ~Warum nicht.~ [JETLA20]
+@20421 = ~Ach, ich hoffe ein Hund pisst in Euren Schlafsack.~ [JETLA21]
+@20422 = ~An Eurer Stelle würde ich mich darauf vorbereiten, meine Zähne aufzusammeln!~ [JETLA22]
+@20423 = ~Ahh, welch süßes Leiden!~ [JETLA23]
+@20424 = ~Verschwinde!~ [JETLA24]
+@20425 = ~Wieso geht Ihr nicht und spielt mit den Straßenkötern?~ [JETLA25]
+@20426 = ~Wieso geht Ihr nicht und spielt mit den Straßenkötern?~ [JETLA26]
+@20427 = ~Ich habe verschiedene Namen für Euch... aber keiner davon steht für Höflichkeit.~ [JETLA27]
+@20428 = ~Die letzten Momente Eures Lebens gelten einer Speerspitze. Ja... und das wäre sogar das Netteste, was Ihr von mir erwarten könntet.~ [JETLA28]
+@20429 = ~Ich hab' genug von Euch! Macht doch was Ihr wollt!~ [JETLA29]
+@20430 = ~Bleibt fern von mir! Am besten Ihr bleibt von uns allen fern!~ [JETLA30]
+@20431 = ~Ich habe Euch nichts zu sagen.~ [JETLA31]
+@20432 = ~Eure Zunge wird Euch irgendwann mal die Nase brechen!~ [JETLA32]
+@20433 = ~Wie schafft Ihr es überhaupt zu atmen, wenn Ihr die ganze Zeit nur am Reden seid?~ [JETLA33]
+@20434 = ~Wenn Ihr Eure Augen nicht von mir lasst, sollte ich sie vielleicht an mich nehmen.~ [JETLA34]
+@20435 = ~Wenn Ihr gehen wollt, nur zu.~ [JETLA35]
+@20436 = ~Vielleicht wollt Ihr Euch ja alleine durchschlagen?~ [JETLA36]
+@20438 = ~Verdammt!!~ [JETLA38]
+@20439 = ~Verdammt... kalt erwischt...~ [JETLA39]
+@20440 = ~Jet'layas Umhang~
+@20441 = ~Jet'layas Mutter bekam diesen himmelblauen Umhang, als sie in den Diensten der Elfengöttin Aerdrie Faenya stand. Von den Priesterinnen der Dame der Luft und des Windes gesegnet, bietet dieser Umhang Schutz vor den Elementen. Auch wenn es aus der Ferne wie ein einfaches Blau aussieht, fördert ein genauerer Blick ein kunstvolles Muster von ineinandergreifenden, mit dem Stoff verwobenen Federn zutage.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Elektrizitätsresistenz: +10%
+Gewicht: 3
+Kann nur verwendet werden von:
+ Jet'laya~
+@20442 = ~Seid Ihr in Ordnung?~ [JETLA40]
+
+
+@20501 = ~Hier komme ich.~ [SKEZR01]
+@20503 = ~Ich bin der Vorbote deines Untergangs!~ [SKEZR03]
+@20508 = ~Ich sollte das tun.~ [SKEZR08]
+@20509 = ~Ich bin müde.~ [SKEZR09]
+@20510 = ~(Gelangweilt)~ [SKEZR10]
+@20511 = ~Arghhhh...~ [SKEZR11]
+@20512 = ~(seltsame Geräusche)~ [SKEZR12]
+@20513 = ~Wer stinkt hier so? Ich mag keine stinkenden Leute.~ [SKEZR13]
+@20514 = ~Hier drinnen gefällt's mir.~ [SKEZR14]
+@20515 = ~Ich habe schon wieder keinen Tabak mehr...~ [SKEZR15]
+@20516 = ~Der Mond ist großartig anzusehen, nicht wahr?~ [SKEZR16]
+@20517 = ~Ja?~ [SKEZR17]
+@20518 = ~Ich höre.~ [SKEZR18]
+@20519 = ~Wieso ich denn immer?~ [SKEZR19]
+@20520 = ~Bin schon auf dem Weg.~ [SKEZR20]
+@20521 = ~Hier, hier komme ich.~ [SKEZR21]
+@20522 = ~Wat!~ [SKEZR22]
+@20523 = ~Ughh...~ [SKEZR23]
+@20524 = ~Grrrrr...~ [SKEZR24]
+@20525 = ~Arrr...~ [SKEZR25]
+@20526 = ~Ja! Was?~ [SKEZR26]
+@20538 = ~Aua!~ [SKEZR38]
+@20539 = ~Oh, ich fühle mich nicht gut!~ [SKEZR39]
+@20540 = ~Oh, siehst du das? ... Neeiiin!~ [SKEZR40]
+@20541 = ~Mmm-hm-mmm...~ [SKEZR27]
+
+@20601 = ~Psst! Leise!~ //[BUB01]
+@20602 = ~Ich verschwinde erstmal für 'nen Moment.~ //[BUB02]
+@20603 = ~Ich würde jetzt gerne mit dem Gelaber aufhören und gleich zum Töten kommen.~ [GENMT07]
+@20604 = ~Hey, das läuft ja besser als ich dachte!~ //[BUB04]
+@20605 = ~Warum hab' ich mich nur so einem Haufen Schweinehirten wie Euch angeschlossen?~ //[BUB05]
+@20606 = ~Wenn's so weiter geht, werd' ich allein weitermachen.~ //[BUB06]
+@20607 = ~Das war's, ich verschwinde! Hätte mich sowieso nur auf mich selbst verlassen sollen.~ //[BUB07]
+@20608 = ~In Ordnung, aber bleibt hinter mir, so dass sie Euch nicht schon meilenweit entfernt hören.~ //[BUB08]
+@20609 = ~*gähn*~ [BUB09]
+@20610 = ~Habt Ihr nich' gesagt, wir würden verdammt viel kämpfen?~ //[BUB10]
+@20611 = ~*keuch* Lang halt ich's nich' mehr durch.~ //[BUB11]
+@20612 = ~Pfeile bereithalten, Leute. Hier gibt's bestimmt was zu jagen.~ //[BUB12]
+@20613 = ~Leute aus der Stadt waren mir schon immer egal. Sind doch eh alles nur geldgierige Deppen.~ //[BUB13]
+@20614 = ~Könnt Ihr jetzt mal ruhig sein und zumindest einmal die Augen aufhalten? Da wartet Arbeit auf uns.~ //[BUB14]
+@20615 = ~Ist'n guter Platz für 'nen Hinterhalt hier. Bleibt wachsam!~ //[BUB15]
+@20616 = ~Jetzt wo's dunkel ist, könnten Euch die Oger für einen der ihren halten. Zumindest stinkt Ihr genauso schlimm.~ //[BUB16]
+@20617 = ~Ja, Kumpel?~ //[BUB17]
+@20618 = ~Was?~ //[BUB18]
+@20619 = ~Hört auf damit!~ //[BUB19]
+@20620 = ~Genau!~ //[BUB20]
+@20621 = ~Schön!~ //[BUB21]
+@20622 = ~Na gut!~ //[BUB22]
+@20623 = ~Jepp, okay!~ //[BUB23]
+@20624 = ~Ziemlich viel los hier.~ //[BUB24]
+@20625 = ~Oh, 'tschuldigung, hehe. Hab' Euch für 'ne Sekunde mit 'nem Oger verwechselt.~ //[BUB25]
+@20626 = ~Netter Duft den Ihr da verströmt. Riecht wie das Sumpfwasser aus der Nähe meiner Heimat.~ //[BUB26]
+@20627 = ~Pah. Ich bin besser als Euer ganzer Haufen hier zusammen.~ //[BUB27]
+@20628 = ~Nich' schlecht. Wirklich, nich' schlecht.~ //[BUB28]
+@20629 = ~Haltet Euch an mich, Kindchen. Vielleicht lernt Ihr ja sogar was dabei.~ //[BUB29]
+@20630 = ~Ihr seid gut! Schätze, Ihr könntet in einer Sitzung vier volle Eimer Milch aus 'ner Kuh melken.~ //[BUB30]
+@20631 = ~Hätt' nie gedacht, dass ich mal zum Zirkus komme.~ //[BUB31]
+@20632 = ~Hey, Schätzchen. Wie wär's mit ein paar kleinen Zärtlichkeiten?~ //[BUB32]
+@20633 = ~Ahh, Dummkopf - habt Ihr das nich' kommen sehen?~ //[BUB33]
+@20634 = ~Oh nein! Das werd' ich nich' vergessen...~ //[BUB34]
+@20635 = ~Donnerwetter! Mit Eurer Zunge könnte Ihr ja jeder Hure Konkurrenz machen!~ //[BUB35]
+@20636 = ~Ah, is' doch nich' nötig, bin doch nur 'n einfacher Bauer!~ //[BUB36]
+@20637 = ~Hehe, hehe hehe. Jetz' bringt Ihr mich aber zum Lachen.~ //[BUB37]
+@20638 = ~Augh!~ [BUB38]
+@20639 = ~Arrrugh!~ [BUB39]
+@20640 = ~Schnauze, ja? Schlimm genug, dass ich Eure Visage und Euren Gestank ertragen muss.~ //[BUB40]
+@20641 = ~Sehr lustig, haha. Wird wohl nicht mehr so lustig sein, wenn Ihr "zufällig" über einen Grünschleim stolpert.~ //[BUB41]
+@20642 = ~Wie war das?~ //[BUB42]
+@20643 = ~Verdammmt noch mal, daneben!~ //[BUB43]
+@20644 = ~Erwischt!~ //[BUB44]
+@20645 = ~BUB SNIKT wurde in Dolchfurt geboren, einem Dorf, das auf dem Handelsweg zwischen Baldurs Tor und Tiefwasser liegt. Er wuchs auf dem Land als siebter Sohn eines Bauern auf, von dem er die ländliche Lebensart lernte, während ihm seine Brüder das Jagen beibrachten. Es dauerte nicht lange, bis Bub einen scharfen Blick entwickelte, und seine Fähigkeiten mit dem Bogen waren schon bald so gut, wie die der Bogenschützen der Burgwache. Die Jahre gingen dahin und es passierte nicht viel. Gelegentlich verteidigte er mit seinen Brüdern und der lokalen Miliz das umliegende Farmland gegen plündernde Echsenmenschen aus dem Sumpf, doch die meiste Zeit blieb das Leben auf dem Land unverändert.
+Eines Tages, nur wenige Tage nach dem Feiertag der Hochernte, sollten sich die Dinge grundlegend ändern. Bub war gerade auf dem Markt in Dolchfurt, um ein paar Waren vom Bauernhof zu verkaufen, als man die Männer zu den Waffen rief. Eine Ogerbande hatte sich durch den Nebelwald herangepirscht und griff nun die Bauernhöfe an, wobei sie die Bauern abschlachteten und sich an der Ernte vergriffen. Bub sorgte sich um seine Familie und ritt sofort in vollem Gallopp nach Hause. Als er ankam, waren seine Brüder bereits in einen heftigen Kampf mit einigen Ogern verwickelt. Die Größe der Oger jagte Bub einen Schauer über den Rücken. Zu diesem Zeitpunkt erinnerte er sich an den Talisman, den sein Vater ihm vor Jahren gegeben hatte, eine Kette mit dem Symbol von Tempus. Was dann passierte, kann Bub sicht nicht wirklich erklären. Als er sich seinen Brüdern anschloss, um ihnen im Kampf beizstehen, war es, als wäre er mit der Kraft und Schnelligkeit von zehn Männern gesegnet. Keiner der Oger konnte es mit ihm aufnehmen. 
+Seine Pfeile trafen sicher ihr Ziel, und jeder Schlag mit seinem Schwert stieß auf so gut wie keinen Widerstand. Innerhalb einer Stunde waren alle Oger tot, und seine Brüder konnten nur staunen. Kurze Zeit nach diesem Vorfall änderte sich Bubs Einstellung. Sein Interesse am Leben auf dem Lande schwand und er beschloss, sich dem Abenteurerleben zu widmen. Er reiste erst nach Baldurs Tor, wo er nur kurz als Söldner arbeitete, und dann weiter nach Beregost, wo er im Dienste der Bewohner die umliegenden Lande durchstreift, um Oger und andere ungewollte Gäste aufzuspüren und zu beseitigen.~
+
+@20701 = ~Guten Tag, Reisende. Wie kann ich Euch helfen?~ //[KEIRI01]
+@20702 = ~Ich stimme zu.~ //[KEIRI02]
+@20703 = ~Jetzt wird's ernst!~ //[KEIRI03]
+@20704 = ~Ich bin mit unserem Fortschritt sehr zufrieden.~ //[KEIRI04]
+@20705 = ~Ich kann Eure Vorgehensweise nicht billigen.~ //[KEIRI05]
+@20706 = ~Ich kann nicht mehr lange mit Euch reisen.~ //[KEIRI06]
+@20707 = ~Es gibt nichts, was Ihr sagen oder tun könntet, um das Geschehene rückgängig zu machen. Ich gehe.~ //[KEIRI07]
+@20708 = ~Solange ich geduldet werde, nehme ich an?~ //[KEIRI08]
+@20709 = ~Ich sollte mich bald ausruhen.~ //[KEIRI09]
+@20710 = ~Sind alle bereit weiterzugehen?~ //[KEIRI10]
+@20711 = ~Hört mir zu, ich habe nicht viel Zeit!~ //[KEIRI11]
+@20712 = ~Diese Bäume sind wirklich faszinierend.~ //[KEIRI12]
+@20713 = ~Die Luft hier ist durchaus... atemberaubend.~ //[KEIRI13]
+@20714 = ~Ich fürchte, dass uns dieser Ort nicht so einfach wieder gehen lassen wird.~ //[KEIRI14]
+@20716 = ~Es ist schwierig, bei Nacht die Schatten von der Dunkelheit zu unterscheiden.~ //[KEIRI16]
+@20717 = ~Ich bin bereit!~ //[KEIRI17]
+@20718 = ~Worum geht es?~ //[KEIRI18]
+@20719 = ~Es ist schön, mal wieder unterwegs zu sein.~ //[KEIRI19]
+@20720 = ~Ich werde vorsichtig sein.~ //[KEIRI20]
+@20721 = ~Wie war das?~ //[KEIRI21]
+@20722 = ~Warum auch nicht.~ //[KEIRI22]
+@20723 = ~Man kann von jeder Schicht der Gesellschaft viel lernen.~ //[KEIRI23]
+@20724 = ~Ich denke, es wird Zeit, dass Ihr Euch um Eure Sachen kümmert.~ //[KEIRI24]
+@20725 = ~Meinen Weg bestimme ich selbst. Ich lasse mich nicht drängen.~ //[KEIRI25]
+@20726 = ~Vielleicht sollte ich meine Meinung über Euch überdenken.~ //[KEIRI26]
+@20727 = ~Hm... einfache Geister, einfache Freuden.~ //[KEIRI27]
+@20729 = ~Uff... *keuch*~ [KEIRI29]
+@20730 = ~Ich muss doch bitten, nehmt Euch zurück.~ //[KEIRI30]
+@20731 = ~Passt auf Eure Hände auf.~ //[KEIRI31]
+@20732 = ~Der Groll, den man mir entgegen bringt, macht mich richtig munter.~ //[KEIRI32]
+@20733 = ~Ich versuch mich hier zu konzentrieren.~ //[KEIRI33]
+@20735 = ~Dieser Ort ist nichts für die Lebenden.~ //[KEIRI35]
+@20736 = ~Aber natürlich, darum seid Ihr auch so "süß".~ //[KEIRI36]
+@20737 = ~Macht so weiter und Ihr werdet schon noch sehen, was Ihr davon habt.~ //[KEIRI36]
+@20738 = ~Sieht so aus, als wär ich aus der Übung.~ //[KEIRI38]
+@20739 = ~Unh!~ [KEIRI39]
+@20740 = ~Möget Ihr in Frieden ruhen.~ //[KEIRI40]
+@20741 = ~Ich hoffe, Euer Herz findet nun Trost.~ //[KEIRI41]
+
+
+@20801 = ~Meine Axt ist schon ganz unruhig... Gebt mir etwas zum Töten.~ //[FERTHG01]
+@20802 = ~Ich verschwinde von hier!~ //[FERTHG02]
+@20803 = ~Für Clangeddin!~ //[FERTHG03]
+@20804 = ~Bei Morridins Hammer, das war ein guter Kampf, harhar!~ //[FERTHG04]
+@20805 = ~Halt's Maul, bevor ich es zerschlage!~ //[FERTHG05]
+@20806 = ~Ich werde nicht mehr lange für solche "Elfenfreunde" wie Euch kämpfen.~ //[FERTHG06]
+@20807 = ~Meine Axt wird nicht mehr für solche wie Euch geschwungen werden.~ //[FERTHG07]
+@20808 = ~Gut! So langsam nehmt Ihr Vernunft an.~ //[FERTHG08]
+@20809 = ~Ich brauch bald mal 'ne Mütze voll Schlaf.~ //[FERTHG09]
+@20810 = ~Meine Axt ist schon ganz unruhig... Gebt mir etwas zum Töten.~ //[FERTHG10]
+@20811 = ~Ich fürchte den Tod nicht... Lasst mich gehen und an Clangeddins Seite Platz nehmen.~ //[FERTHG11]
+@20812 = ~Ich hasse den Wald... ist nur voll von diesen scheiß Elfen!~ //[FERTHG12]
+@20813 = ~Das beste, was so 'ne Stadt zu bieten hat, ist das billige "Vieh". Hahaha! Komm zu Papa!~ //[FERTHG13]
+@20814 = ~Mit 'ner Spitzhacke in der Hand würd ich mich hier glatt wie zu Hause fühlen. Haha!~ //[FERTHG14]
+@20815 = ~Ich erkenne das Tageslicht immer daran, dass es wie wild in meinem Kopf hämmert.~ //[FERTHG15]
+@20816 = ~Das beste an der Dunkelheit ist, dass ich eure Visagen nicht ertragen muss!~ //[FERTHG16]
+@20817 = ~Ja?~ //[FERTHG17]
+@20818 = ~Was?!~ //[FERTHG18]
+@20819 = ~Wen wollt Ihr tot sehen?~ //[FERTHG19]
+@20820 = ~Fein!~ [FERTHG20]
+@20821 = ~Macht ruhig Gebrauch von Zwergenmuskeln, wenn Ihr müsst.~ //[FERTHG21]
+@20822 = ~Seh ich etwa wie ein Esel aus?~ //[FERTHG22]
+@20823 = ~Hat Euch Eure Mutter nicht beigebracht, dass es ziemlich unklug ist, einen Zwerg zu ärgern?~ //[FERTHG23]
+@20824 = ~Imoen, habt Ihr schonmal daran gedacht, einen Zwerg zu heiraten?~ //[FERTHG24]
+@20825 = ~Niemand berührt meine Axt!!~ //[FERTHG25]
+@20826 = ~Ich glaub's nicht. Ihr seid etwa so nützlich wie ein Haufen Elfen in einem Verbeeg-Lager.~ //[FERTHG26]
+@20827 = ~Wenigstens riecht mein Atem nicht so, als käme er aus dem Arsch eines Ogers.~ //[FERTHG27]
+@20828 = ~Nochmal sowas, und Ihr bekommt meine Axt zu spüren!~ //[FERTHG28]
+@20829 = ~Euer furchtbarer Atem ist schon schlimm genug, jetzt langweilt mich nicht noch mit Eurem Gejammer!~ //[FERTHG29]
+@20830 = ~Clangeddin lächelt... und wie! Ihr kämpft wie ein Dämon.~ //[FERTHG30]
+@20831 = ~Ich habe noch nie gesehen, wie eine Klinge so geführt wird.~ //[FERTHG31]
+@20832 = ~Wenn ich Euch noch einmal sehe, bekommt Ihr eine Axt in die Kehle.~ //[FERTHG32]
+@20833 = ~Was denkt Ihr eigentlich, was Ihr da tut?!~ //[FERTHG33]
+@20834 = ~So gut wie Ihr kämpft, könntet Ihr fast ein Zwerg sein.~ //[FERTHG34]
+@20835 = ~Das einzige, was schlimmer ist als ein Elf... sind zwei Elfen, harhar!~ //[FERTHG35]
+@20836 = ~Ich kämpfe, um den Tod meines Vaters zu rächen. Ihr kämpft nur für all das Gold, und aus meiner Sicht macht Euch das böse.~ //[FERTHG36]
+@20837 = ~Ich weiß Weggefährten wie Euch zu schätzen.~ //[FERTHG37]
+@20838 = ~Aurgh!~ [FERTHG38]
+@20839 = ~Kleriker! Hierher, bevor ich sterbe!~ //[FERTHG39]
+@20840 = ~Bei Clangeddin! Ich werde unsere Gefallenen rächen, bis die Flüsse voll von Blut sind!~ //[FERTHG40]
+@20841 = ~Neiiiiiin!!~ //[FERTHG41]
+
+@20901 = ~Wer traut sich stören mich?!~ [LICH1]
+@20902 = ~Du stirbst!!~ [LICH2]
+
+@21001 = ~Grüße! Seid gegrüßt!~ //[THORF01]
+@21002 = ~Rückzug!~ //[THORF02]
+@21003 = ~Keine Gnade für sie.~ //[THORF03]
+@21004 = ~Die Skalden werden in ihren Liedern von unseren guten Taten berichten.~ //[THORF04]
+@21005 = ~Ich bin nicht besonders wählerisch, was meine Begleiter angeht, aber das hier geht selbst an meine Grenzen.~ //[THORF05]
+@21006 = ~Hört mir zu: wenn das so weiter geht, werden sich unsere Wege wohl trennen müssen.~ //[THORF06]
+@21007 = ~Genug! Ich verschwinde. Seid froh, daß ich Euch nicht noch ein Schwert durch den Schlund stoße.~ //[THORF07]
+@21008 = ~Recht so. Mir nach ins Blutvergießen!~ //[THORF08]
+@21009 = ~Wir müssen in ein Schänke. Vorzugsweise in eine mit prallen Mädels.~ //[THORF09]
+@21010 = ~Laßt uns weitergehen. Mit herumstehen erntet man keinen Ruhm.~ //[THORF10]
+@21011 = ~Um meine Wunden kümmere ich mich, wenn ich tot bin.~ //[THORF11]
+@21012 = ~Ha ha ha ha! Auf sie!~ //[THORF12]
+@21013 = ~Laßt das Gemetzel beginnen.~ //[THORF13]
+@21014 = ~Wenn wir Glück haben, gibt's in diesen Wäldern sicher was zu töten.~ //[THORF14]
+@21015 = ~Riecht ihr das? Der Geruch von Bier liegt in der Luft.~ //[THORF15]
+@21016 = ~Da sind wir wohl in eine Drachenhöhle gestolpert! Nun, man darf ja mal kurz träumen, oder?~ //[THORF16]
+@21017 = ~Laßt uns diesen Ort plündern und die Weiber verschleppen. Haha!~ //[THORF17]
+@21018 = ~In der Nacht... am Tag... das Töten kennt da keinen Unterschied.~ //[THORF18]
+@21019 = ~Hmm?~ [THORF19]
+@21020 = ~Ja?~ //[THORF20]
+@21021 = ~Bin bereit.~ //[THORF21]
+@21022 = ~Mein Schwert für Euch.~ //[THORF22]
+@21023 = ~Ich folge Eurem Befehl.~ //[THORF23]
+@21024 = ~Ah ha!~ //[THORF24]
+@21025 = ~Mit Leichtigkeit.~ //[THORF25]
+@21026 = ~Wird gemacht.~ //[THORF26]
+@21027 = ~Ihr verteidigt euch mit Mut und Geschick.~ //[THORF27]
+@21028 = ~Ich wünschte, ich hätte ein Schiff voll mit Kämpfern wie Euch!~ //[THORF28]
+@21029 = ~Ich würde Euch meine Tochter anbieten, wenn ich eine hätte.~ //[THORF29]
+@21030 = ~Ihr müsst eine ziemlich häßliche Mutter gehabt haben. Hat sie's mit einem Walroß getrieben?~ //[THORF30]
+@21031 = ~Ich wußte nicht, dass wir mit Abfall auf zwei Beinen reisen.~ //[THORF31]
+@21032 = ~Geh nach Hause, Du Hund, und frag deinen Besitzer, ob er Dir ein Bad geben kann.~ //[THORF32]
+@21033 = ~Frauen haben manchmal ziemlich komische Ideen.~ //[THORF33]
+@21034 = ~Hinter einer schönen Erscheinung steckt oft ein verdorbener Geist.~ //[THORF34]
+@21035 = ~Das Pech verfolgt uns. Es liegt in der Luft.~ //[THORF35]
+@21036 = ~Keine lebende Kreatur hätte das überlebt. Es war ein tapferer Tod.~ //[THORF36]
+@21037 = ~Überlasst den Leichnam den Raben. Wir sind ohne ihn besser dran.~ //[THORF37]
+@21038 = ~Grrr!~ [THORF38]
+@21039 = ~Huau-unh-ungh!~ [THORF39]
+@21040 = ~Ihr ehrt mich! Die nächste Runde geht auf mich.~ //[THORF40]
+@21041 = ~Ich verneige mich vor Euch. Solche Worte hört man nicht oft in dieser Gruppe.~ //[THORF41]
+@21042 = ~Möge Tempus Euch wohlgesonnen sein.~ //[THORF42]
+@21043 = ~Ich werde nicht zulassen, daß Eure böse Zunge mich in einen Kampf verwickelt... noch nicht.~ //[THORF43]
+@21044 = ~Ich verfluche Euch: Ihr werdet leiden, noch bevor das alles vorbei ist.~ //[THORF44]
+@21045 = ~Ich würde Euren Schädel spalten, wenn Ihr nicht so ein schrecklicher Feigling wärt.~ //[THORF45]
+@21046 = ~Ha ha ha ha ha!~ [THORF46]
+@21047 = ~La-la-la-la la-la-la.~ [THORF47]
+@21050 = ~Wenn er nach seiner Vergangenheit gefragt wird, erklärt THORFINN HAUSKLUNIFF, dass er keine leichte Kindheit hatte. Er wurde auf der Insel Ruathym geboren und sogleich von Auriel-Priestern im Namen ihres Gottes geopfert, indem sie das Baby auf einem Floß auf dem Meer ohne Spuren aussetzten. Das Wetter war ruhig, und so trieb das Floß aufgrund starker Strömungen gen Süden zur Westseite der Mondschein-Inseln. Das Floß trieb mehrere Tage dahin, bis es die Gestade der Insel Moray erreichte. Es wurde an einen felsigen Strand gespült, wo Thorfinn schließlich von nordländischen Fischern gefunden und aufgenommen wurde.
+Thorfinn wuchs in den folgenden Jahren bei den Fischern auf. Er arbeitete als Bootsmann und lernte alles über das Meer. Es dauerte nicht lange, bis er sich für die Kriegsmarine zu interessieren begann. Mit sechzehn Jahren gestattete ihm seine Familie, sich der Marine anzuschließen. Bis zu seinem zwanzigsten Lebensjahr verbesserte er seine Seefahrerqualitäten und begann, den Schwertkampf zu trainieren. Er wurde auch im Kampf mit der Axt unterrichtet, doch seine Stärke erlaubte es ihm, große Schwerter mit Leichtigkeit zu schwingen, eine Fähigkeit, die bei den plündernden Piraten und Dieben auf den Mondseen nicht umsonst war. Der Zweihänder wurde zu seiner Lieblingswaffe.
+Weitere fünf Jahre später beschloss er, die Marine zu verlassen und auf eigene Faust zu reisen. Er verdingte sich als Söldner im Dienste von Händlern, die die Handelswege bereisten und Schutz benötigten. Letztendlich führten ihn seine Reisen nach Baldurs Tor an der Schwertküste.~

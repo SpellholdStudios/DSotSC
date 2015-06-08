@@ -1,0 +1,72 @@
+IF
+	Global("MoppySpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSMOPPY",[1654.1054],0)
+		ActionOverride("Container 7",CreateItem("DSCLCK02",0,0,0))
+		SetGlobal("MoppySpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("FindRelic","GLOBAL",1)
+	Global("DeazleSpawn","GLOBAL",0)
+	!Exists("DSDeazle")
+	!Dead("DSDeazle")
+THEN
+	RESPONSE #100
+		CreateCreature("DSDEAZLE",[1194.619],0)
+		SetGlobal("DeazleSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("DragonDead","GLOBAL",1)
+	Global("JeremySpawn","GLOBAL",1)
+	!Exists("DSJeremy")
+	!Dead("DSJeremy")
+THEN
+	RESPONSE #100
+		CreateCreature("DSJEREMY",[1194.619],0)
+		SetGlobal("JeremySpawn","GLOBAL",2)
+		Continue()
+END
+
+IF
+	Global("DragonDead","GLOBAL",1)
+	Global("MeganSpawn","GLOBAL",0)
+	!Exists("DSMegan")
+	!Dead("DSMegan")
+THEN
+	RESPONSE #100
+		Unlock("%door_Nashkel%")
+		CreateCreature("DSMEGAN",[4246.1970],0)
+		SetGlobal("MeganSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("TalkedGillian","GLOBAL",1)
+	Global("JulesSpawn","GLOBAL",0)
+	!Exists("DSJules")
+	!Dead("DSJules")
+THEN
+	RESPONSE #100
+		CreateCreature("DSJULES",[702.230],0)
+		SetGlobal("JulesSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("TalkedGillian","GLOBAL",2)
+	Global("KaterinSpawn","GLOBAL",0)
+	!Exists("DSKaterin")
+	!Dead("DSKaterin")
+THEN
+	RESPONSE #100
+		CreateCreature("DSKATERI",[4673.703],0)
+		SetGlobal("KaterinSpawn","GLOBAL",1)
+		Continue()
+END
+
+

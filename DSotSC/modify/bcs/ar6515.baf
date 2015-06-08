@@ -1,0 +1,11 @@
+IF
+	Global("DSitems","%Candlekeep_Catacombs_L1%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 2",CreateItem("DSMISC11",0,0,0))
+		ActionOverride("Container 2",CreateItem("SCRLDS73",0,0,0))
+		SetGlobal("DSitems","%Candlekeep_Catacombs_L1%",1)
+		Continue()
+END
+
+

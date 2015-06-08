@@ -1,0 +1,74 @@
+IF
+//	OnCreation()
+	Global("BansheeMap3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Weather(RAIN)
+		SetGlobal("BansheeMap3","GLOBAL",1)
+		Continue()
+END
+
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","DSC004",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		SetGlobal("DS_MoreStooges","DSC004",1)
+		CreateCreature("GHASTF01",[3107.2694],0) // Fell Ghast
+		CreateCreature("GHOUL",[3107.2694],0) // Ghoul
+		CreateCreature("GHASTF01",[3107.2694],0) // Fell Ghast
+		CreateCreature("WRAITH01",[3107.2694],0) // Wraith
+		CreateCreature("GHOUL",[3107.2694],0) // Ghoul
+		CreateCreature("GHOUL",[2173.833],0) // Ghoul
+		CreateCreature("GHOUL",[2173.833],0) // Ghoul
+		CreateCreature("WRAITH01",[2173.833],0) // Wraith
+		CreateCreature("GHASTF01",[2173.833],0) // Fell Ghast
+		CreateCreature("GHOUL",[2173.833],0) // Ghoul
+		CreateCreature("GHAST",[4312.2694],3) // Ghast
+		CreateCreature("WRAITH01",[4312.2694],3) // Wraith
+		CreateCreature("GHAST",[4312.2694],3) // Ghast
+		CreateCreature("GHASTF01",[4503.2826],4) // Fell Ghast
+		CreateCreature("WRAITH01",[4503.2826],4) // Wraith
+		CreateCreature("GHAST",[4503.2826],4) // Ghast
+		CreateCreature("GHAST",[2147.1277],3) // Ghast
+		CreateCreature("WRAITH01",[2147.1277],3) // Wraith
+		CreateCreature("GHASTF01",[2147.1277],3) // Fell Ghast
+		CreateCreature("GHAST",[2184.1651],0) // Ghast
+		CreateCreature("WRAITH01",[2184.1651],0) // Wraith
+		CreateCreature("GHAST",[2184.1651],0) // Ghast
+		Continue()
+END
+
+IF
+	!Exists("DSBANSHE")
+	!Dead("DSBANSHE") // Banshee
+	Global("CreateBanshee","GLOBAL",0)
+	!TimeOfDay(DAY)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBANSHE",[1171.1197],0) // Banshee
+		SetGlobal("CreateBanshee","GLOBAL",1)
+END
+
+IF
+	!Exists("DSBANSHE")
+	!Dead("DSBANSHE") // Banshee
+	GlobalTimerExpired("BansheeKeenTime","GLOBAL")
+	Global("CreateBanshee","GLOBAL",1)
+	!TimeOfDay(DAY)
+	Global("BansheeFear","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBANSHE",[2031.2106],0) // Banshee
+		SetGlobal("CreateBanshee","GLOBAL",2)
+		SetGlobal("BansheeKeen","GLOBAL",0)
+		SetGlobal("BansheeFear","GLOBAL",9)
+END
+
+IF
+	Dead("DSBANSHE") // Banshee
+THEN
+	RESPONSE #100
+		SetGlobal("BansheeDead","GLOBAL",1)
+END

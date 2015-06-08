@@ -1,0 +1,25 @@
+IF
+  Exists("BUB")
+  !Dead("BUB")
+THEN
+  RESPONSE #100
+    ActionOverride("BUB",DestroySelf())
+END
+
+IF
+  Global("BP_BG1NPC9700","GLOBAL",0)
+  LevelLT(Player1,6)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_BG1NPC9700","GLOBAL",1)
+    CreateCreature("DSBUB",[1364.1748],0)
+END
+
+IF
+  Global("BP_BG1NPC9700","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_BG1NPC9700","GLOBAL",1)
+    CreateCreature("DSBUB6",[1364.1748],0)
+END

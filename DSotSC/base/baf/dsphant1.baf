@@ -1,0 +1,19 @@
+IF
+  Global("LichDead","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    AttackOneRound("DSPhant3")
+    RunAwayFrom("DSPhant3",30)
+    Continue()
+END
+
+IF
+  Global("LichDead","GLOBAL",1)
+  Global("Phantm1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    MoveToPoint([2398.637])
+    SetGlobal("Phantm1","GLOBAL",1)
+END
+

@@ -1,0 +1,51 @@
+IF
+	Global("DSClassChange","%CloakwoodDruids%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("IZEFIA",ChangeClass(Myself,DRUID))
+		ActionOverride("LASKAL",ChangeClass(Myself,DRUID))
+		ActionOverride("TAKIYAH",ChangeClass(Myself,DRUID))
+		SetGlobal("DSClassChange","%CloakwoodDruids%",1)
+END
+
+IF
+	Allegiance("LASKAL",ENEMY)
+	Allegiance("IZEFIA",NEUTRAL)
+	Global("DSDruidsAttack","%CloakwoodDruids%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("IZEFIA",Shout(ASSIST))
+		ActionOverride("IZEFIA",Enemy())
+		ActionOverride("IZEFIA",MoveToObject(Player1))
+		SetGlobal("DSDruidsAttack","%CloakwoodDruids%",1)
+END
+
+IF
+	Allegiance("LASKAL",ENEMY)
+	Allegiance("TAKIYAH",NEUTRAL)
+	GlobalLT("DSDruidsAttack","%CloakwoodDruids%",2)
+THEN
+	RESPONSE #100
+		ActionOverride("TAKIYAH",Shout(ASSIST))
+		ActionOverride("TAKIYAH",Enemy())
+		ActionOverride("TAKIYAH",MoveToObject(Player1))
+		SetGlobal("DSDruidsAttack","%CloakwoodDruids%",2)
+END
+
+IF
+	OR(2)
+		Allegiance("TAKIYAH",ENEMY)
+		Allegiance("IZEFIA",ENEMY)
+	GlobalLT("DSDruidsAttack","%CloakwoodDruids%",3)
+THEN
+	RESPONSE #100
+		ActionOverride("IZEFIA",Shout(ASSIST))
+		ActionOverride("IZEFIA",Enemy())
+		ActionOverride("IZEFIA",MoveToObject(Player1))
+		ActionOverride("TAKIYAH",Shout(ASSIST))
+		ActionOverride("TAKIYAH",Enemy())
+		ActionOverride("TAKIYAH",MoveToObject(Player1))
+		SetGlobal("DSDruidsAttack","%CloakwoodDruids%",3)
+END
+
+

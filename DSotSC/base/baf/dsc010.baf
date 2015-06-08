@@ -1,0 +1,35 @@
+/* IF
+	OnCreation()
+	Global("VampSearch","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DayNight(MIDNIGHT)
+		Continue()
+END */
+
+IF
+	Global("VampSearch","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DayNight(MIDNIGHT)
+		Weather(RAIN)
+		SetGlobal("VampSearch","GLOBAL",1)
+		Continue()
+END
+
+IF
+	PartyHasItem("DSMISC07") // Berrto Ghaskill
+THEN
+	RESPONSE #100
+		SetGlobal("VampirDead","GLOBAL",1)
+		SetGlobal("CuChoinneachLeaves","GLOBAL",1)
+		Continue()
+END
+
+IF
+	!InParty("CuChoinneach")
+THEN
+	RESPONSE #100
+		SetGlobal("CuChoinneachLeaves","GLOBAL",2)
+		Continue()
+END

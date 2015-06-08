@@ -1,0 +1,8 @@
+IF
+  See([PC])
+THEN
+  RESPONSE #100
+    Wait(5)
+    EscapeArea()
+END
+

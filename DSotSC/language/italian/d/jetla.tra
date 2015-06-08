@@ -1,0 +1,20 @@
+@1    = ~State bene? Sembrate un po' preoccupati... o forse vi siete persi? Da quel che vedo sembrate essere una sorta di avventurieri. Sareste interessati ad aiutarmi con un piccolo lavoretto? Oh scusate... che fine hanno fatto le mie buone maniere? Il mio nome è Jet'laya da Cormanthor.~ [JETLA40]
+@2    = ~Piacere, il mio nome è <CHARNAME> e questi sono i miei compagni di viaggio. Puoi dirci di più riguardo le tue necessità?~
+@3    = ~Scusa, ma non possiamo... Voglio dire non possiamo essere seccati con cose del genere adesso.~
+@4    = ~Ehi, cosa vuoi? Voglio dire... eh... scusa.  Non volevo essere così scortese sono solo molto stressata e la mia famiglia sta ancora peggio. Oh, che fine hanno fatto le mie buone maniere? Il mio nome è Jet'laya da Cormanthor.~ [JETLA18]
+@5    = ~Oh, che c'è ora? Chiedo scusa se sono stata così scortese ma oggi non ho avuto tempo per conversazioni oziose.~ [JETLA17]
+@6    = ~Dai! Su! Magari... sono stata un pò scortese con voi. Ma bisogna fare attenzione a parlare solo in luoghi adatti se non ci si vuole ritrovare col naso rotto.~
+@7    = ~Bene, vedi... sto cercando mia sorella che è scomparsa da circa un anno e mezzo, e voglio ritrovarla. Ho paura di quello che può esserle successo. Lei è impazzita da quando il suo innamorato l'ha lasciata per un'altra ragazza. Era in un terribile stato e fuggì verso la foresta tra qui e Cormanthor ad est. L'ho localizzata nei pressi di una zona boscosa ad est di Peldvale, tra qui e Ulgoth's Beard a nord. Vi sarò davvero molto grata per ogni aiuto che potreste darmi.~
+@8    = ~Sembra una ricerca onorevole e saremmo felici di aiutarti in questo momento di bisogno.~
+@9    = ~Sembra un'onorevole ricerca ma purtroppo, in questo momento, non posso dare il mio aiuto.~
+@10   = ~Molto bene allora, dovremo dirigerci ad est. Mio zio sta aspettando notizie al Giocoliere Giocoso a Beregost. Una volta trovata mia sorella, Ferium, dovremo andare da lui.~
+@11   = ~Abbiamo deciso di aiutare una giovane elfa chierica di nome Jet'Laya a trovare la sorella scomparsa. Ci ha detto che pensa che sua sorella Ferium sia nella zona boscosa ad est di Peldvale. Ha detto che suo zio sta aspettando notizie di Ferium al Giocoliere Giocoso a Beregost.~
+@12   = ~Capisco. Buona giornata a voi e buon viaggio.~
+@13   = ~Oh, che c'è ora? Oh siete ancora voi. Quindi avete deciso di aiutarmi dopo tutto.~ [JETLA17]
+@14   = ~Scusa, ma non possiamo aiutarti ora.~
+@15   = ~Può essere. Per favore puoi dirci di più riguardo a cosa ti turba?~
+@16   = ~Volete fermarvi?! Tutto quello che posso dirvi è che dovreste aiutarmi a ritrovare mia sorella. Ho la sensazione che gli sia successo qualcosa di terribile!~ [JETLA19]
+@17   = ~Ach, spero che un cane da caccia vi cosparga di strame il sacco a pelo. Devo trovare mia sorella e se non volete aiutarmi allora ci andrò da sola.~ [JETLA21]
+@18   = ~Vuoi fermarti?! Ne ho abbastanza di te. Avrei dovuto saperlo che non dovevo unirmi a te dal primo dannato momento.~ [JETLA19]
+@19   = ~Ah bene, anche le cose più belle vanno via. La tua compagnia è stata piacevole finchè è durata. Forse ci incontreremo di nuovo.~
+

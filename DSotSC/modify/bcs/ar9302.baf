@@ -1,0 +1,10 @@
+IF
+	Global("Jarent2Spawn","%Temple_SongoftheMorning%",0)
+	Global("RelicReturned","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("DSJAREN",[251.481],0)
+		SetGlobal("Jarent2Spawn","%Temple_SongoftheMorning%",1)
+END
+
+

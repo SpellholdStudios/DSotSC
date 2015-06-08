@@ -1,0 +1,98 @@
+IF
+  Global("Jabbress","GLOBAL",0)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+    SmallWait(5)
+    ForceSpellPoint([1253.783],WIZARD_DIMENSION_DOOR)
+    Wait(3)
+    ForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    SmallWait(5)
+    ForceSpell(Myself,CLERIC_PROTECTION_FROM_FIRE)
+    Wait(2)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+    SetGlobal("Jabbress","GLOBAL",1)
+END
+
+IF
+  Global("Jabbress","GLOBAL",1)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_ANIMATE_DEAD)
+    SetGlobal("Jabbress","GLOBAL",2)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("Jabbress","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+    Wait(2)
+    ForceSpell(SecondNearestEnemyOf(Myself),CLERIC_SILENCE_15_FOOT)
+    SetGlobal("Jabbress","GLOBAL",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Jabbress","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ForceSpell(LeaderOf(NearestEnemyOf(Myself)),CLERIC_CHAOTIC_COMMANDS)
+    Wait(2)
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_RIGID_THINKING)
+    SetGlobal("Jabbress","GLOBAL",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Jabbress","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),CLERIC_SLAY_LIVING)
+    SetGlobal("Jabbress","GLOBAL",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Jabbress","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_SPELL_IMMUNITY_CONJURATION)
+    SetGlobal("Jabbress","GLOBAL",6)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Jabbress","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),CLERIC_COMMAND)
+    SetGlobal("Jabbress","GLOBAL",7)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HPPercentLT(Myself,75)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_HEAL)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Jabbress","GLOBAL",7)
+THEN
+  RESPONSE #75
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+    Continue()
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE)
+    Continue()
+END
+

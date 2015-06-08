@@ -1,0 +1,10 @@
+IF
+	Global("DSitems","%Peldvale%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 3",CreateItem("SCRL7F",0,0,0)) // Globe of Invulnerability
+		SetGlobal("DSitems","%Peldvale%",1)
+		Continue()
+END
+
+

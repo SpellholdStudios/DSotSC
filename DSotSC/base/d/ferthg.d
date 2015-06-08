@@ -1,0 +1,79 @@
+BEGIN ~FERTHG~
+
+IF WEIGHT #1 ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @4
+  IF ~~ THEN DO ~SetGlobal("FerthgilFight","GLOBAL",1)
+SetGlobal("HelpFerthg","GLOBAL",1)
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 3
+  IF ~~ THEN REPLY @7 GOTO 1
+  IF ~~ THEN REPLY @8 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @9
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @10
+  IF ~~ THEN DO ~LeaveParty()~ EXIT
+END
+
+IF WEIGHT #2 ~Global("HelpFerthg","GLOBAL",0)
+GlobalGT("FerthgDuergr","GLOBAL",5)
+~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN DO ~SetGlobal("FerthgDuergr","GLOBAL",1)
+EscapeArea()
+~ EXIT
+END
+
+IF WEIGHT #3 ~Global("HelpFerthg","GLOBAL",1)
+GlobalGT("FerthgDuergr","GLOBAL",5)
+~ THEN BEGIN 6
+  SAY @12 
+  IF ~~ THEN REPLY @13 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @10
+  IF ~~ THEN REPLY @7 DO ~JoinParty()
+~ JOURNAL @16 EXIT
+  IF ~~ THEN REPLY @17 DO ~EscapeArea()
+~ EXIT
+END
+
+IF WEIGHT #0 ~Global("NEG","GLOBAL",1)
+~ THEN BEGIN 9
+  SAY @18
+  IF ~~ THEN REPLY @7 GOTO 11
+  IF ~~ THEN REPLY @17 GOTO 4
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @19
+  IF ~~ THEN REPLY @7 GOTO 11
+  IF ~~ THEN REPLY @17 GOTO 4
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @20
+  IF ~~ THEN DO ~JoinParty()
+~ EXIT
+END

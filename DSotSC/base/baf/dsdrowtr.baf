@@ -1,0 +1,42 @@
+IF
+  Entered([ANYONE])
+  Global("DrowCount","GLOBAL",0)
+THEN
+  RESPONSE #40
+    StartTimer(0,1)
+END
+
+IF
+  !Global("DrowCount","GLOBAL",2)
+  TimerExpired(0)
+  NumCreatureLT("DROW",5)
+THEN
+  RESPONSE #50
+    Wait(5)
+    CreateCreature("DSDrow03",[1321.373],0)
+    CreateCreature("DSDrow04",[1330.420],0)
+    CreateCreature("DSDrow03",[1362.451],0)
+    CreateCreature("DSDrow03",[1425.463],0)
+    CreateCreature("DSDrow03",[1541.403],0)
+    CreateCreature("DSDrow02",[1428.358],0)
+    IncrementGlobal("DrowCount","GLOBAL",1)
+    StartTimer(0,30)
+  RESPONSE #20
+    Wait(2)
+    CreateCreature("DSDrow04",[717.488],0)
+    CreateCreature("DSDrow03",[937.474],0)
+    CreateCreature("DSDrow02",[844.470],0)
+    CreateCreature("DSDrow03",[956.508],0)
+    CreateCreature("DSDrow03",[601.563],0)
+    IncrementGlobal("DrowCount","GLOBAL",1)
+    StartTimer(0,30)
+  RESPONSE #30
+    Wait(10)
+    CreateCreature("DSDrow03",[1487.354],0)
+    CreateCreature("DSDrow04",[1440.320],0)
+    CreateCreature("DSDrow03",[1460.340],0)
+    CreateCreature("DSDrow04",[1450.360],0)
+    IncrementGlobal("DrowCount","GLOBAL",1)
+    StartTimer(0,30)
+END
+

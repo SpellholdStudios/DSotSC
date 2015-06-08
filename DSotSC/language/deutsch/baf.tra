@@ -1,0 +1,8 @@
+//DSCOFF1.baf; DSCOFF2.baf
+@0    = ~Der Vampir kehrt bei einer Niederlage in seinen Sarg zurück. Falls ihr einen hölzernen Pflock habt, könnt ihr versuchen, den Vampir zu töten.~
+@1    = ~Ihr spießt den Pflock in das verdorbene Herz des Vampirs. Diese Kreatur wird sich an dem Blut anderer niemals wieder ergötzen.~
+@2    = ~Der Vampir ist endgültig tot und der Sarg stinkt nach Aas. Ihr habt keine weitere Verwendung dafür.~
+@3    = ~Ihr seid zu weit entfernt, um dies zu benutzen.~
+
+//DSDUEGWA.BAF
+@10    = ~Alarm! Eindringlinge!~

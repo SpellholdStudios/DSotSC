@@ -1,0 +1,3444 @@
+////////
+//Incantesimi
+////////
+
+@1    = ~Lupo d'Ombra~
+@2    = ~Seguace della Luce~
+@3    = ~Causa Ferite Leggere~
+@4    = ~Causa Ferite Leggere (Negromanzia)
+Livello: 1
+Sfera: Guarigione
+Raggio d'azione: Tocco
+Durata: Istantanea
+Tempo di Lancio: 5
+Area di Effetto: 1 creatura
+Tiro Salvezza: Neg
+
+E' l'opposto dell'incantesimo Cura Ferite Leggere. Le creatura toccate perdono 1-8 punti ferita a meno che non venga effettuato un tiro salvezza contro gli incantesimi. Le ferite provocate possono essere curate normalmente.~
+@5    = ~Dardo di Fuoco~
+@6    = ~Dardo di Fuoco (Invocazione)
+Livello: 1
+Sfera: Fuoco Elementale
+Raggio di Azione: Campo visivo
+Durata: Istantanea
+Tempo di Lancio: 4
+Area d'effetto: 1 creatura
+Tiro Salvezza: Speciale
+
+Il lanciatore convoca del fuoco e lo plasma in un piccolo proiettile che va dritto al bersaglio causando 1D3 danno da fuoco. La creatura colpita deve effettuare un tiro salvezza contro incantesimi a -2 o subire un ulteriore 1D3 di danno da fuoco.~
+@7    = ~Sciogliere Armature~
+@8    = ~Sciogliere Armature (Alterazione)
+Livello: 1
+Sfera: Combattimento
+Raggio di Azione: Campo visivo
+Durata: 1 turno
+Tempo di Lancio: 4
+Area d'effetto: 1 creatura
+Tiro Salvezza: 1/2
+
+Mentre lancia questo incantesimo il sacerdote può causare la trasformazione di alcuni materiali fisici. Corazze o oggetti metallici inizieranno a fondersi. Le creature colpite da questo incantesimo ricevono una perdita di 8 punti nella Classe Armatura. Tiro salvezza contro incantesimi per 1/2.~
+@9    = ~Cura Ferite Moderate~
+@10   = ~Cura Ferite Moderate (Negromanzia)
+Livello: 2
+Sfera: Guarigione
+Raggio di Azione: Tocco
+Durata: Istantanea
+Tempo di Lancio: 5
+Area d'effetto: 1 creatura
+Tiro Salvezza: Nessuno
+
+Quando lancia questo incantesimo e posa le sue mani sopra una creatura, il sacerdote gli guarisce 12 Punti ferita. Questo incantesimo non ha effetto sui non morti e sulle creature extraplanari.~
+@12   = ~Scintille~
+@13   = ~Scintille (Invocazione)
+Livello: 2
+Sfera: Combattimento, Tempo meteorologico
+Raggio di Azione: Campo visivo
+Durata: Istantanea
+Tempo di Lancio: 5
+Area d'effetto: 1 creatura
+Tiro Salvezza: 1/2
+
+Il druido raccoglie dell'elettricità dall'aria intorno a lui e poi la circonda intorno al bersaglio causandogli 4D6 di danno da elettricità, tiro salvezza contro incantesimi a metà.~
+@14   = ~Protezione Minore~
+@15   = ~Protezione Minore (Invocazione)
+Livello: 2
+Sfera: Protezione
+Raggio di Azione: Se stesso
+Durata: 2 turni
+Tempo di Lancio: 2
+Area d'effetto: Chi lo lancia
+Tiro Salvezza: Nessuno
+
+Quando questo incantesimo viene lanciato, si forma una barriera invisibile di fronte al lanciatore. Porta la Classe Armatura base del lanciatore a 3.~
+@17   = ~Dolore~
+@18   = ~Dolore (Incantamento/Charme)
+Livello: 3
+Sfera: Charme
+Raggio di Azione: Raggio visivo del lanciatore
+Durata: 1 turno
+Tempo di Lancio: 4
+Area d'effetto: nel raggio di 4,5 metri
+Tiro Salvezza: Neg
+
+Questo incantesimo causa atroci dolori in tutte le creature nemiche all'interno dell'area d'effetto. L'incantesimo non dà danni, ma coloro che falliscono un tiro salvezza contro incantesimi a -2 subiranno un -2 alla destrezza ed un -2 a tutti i tiri per colpire per un turno. Le creature che normalmente non possono sentire dolore (come i non morti) non sono influenzate da questo incantesimo.~
+@19   = ~Armatura dell'Oscurità~
+@20   = ~Armatura dell'Oscurità (Evocazione)
+Livello: 3
+Sfera: Protezione, Sole
+Raggio di Azione: Tocco
+Durata: 1 round/Livello (1 turno massimo)
+Tempo di Lancio: 6
+Area d'effetto: 1 creatura
+Tiro Salvezza: Nessuno
+
+La Dea della notte Shar concede ai chierici il potere di creare un manto di oscurità mistica che avvolge il bersaglio dell'incantesimo. Finchè si è racchiusi in questo manto la Classe Armatura del bersaglio migliora di 2 e con un tiro salvezza contro incantesimi arriva ad un +2 bonus. Il bersaglio acquista anche l'infravisione ed è immune alla cecità. Vista la natura malvagia di questo incantesimo, il lanciatore perderà 3 punti ferita quando lancerà l'incantesimo.~
+@21   = ~Pelle di Pietra (Alterazione)
+Livello: 3
+Raggio di Azione: 0
+Durata: 12 ore
+Tempo di Lancio: 1
+Area d'effetto: Chi lo lancia
+Tiro Salvezza: Nessuno
+
+Quando un druido lancia questo potente incantesimo su se stesso, una pelle esterna di pietra sorge dal terreno, ricoprendolo completamente. Questa pelle, naturalmente, è magica, e non ostacola assolutamente il druido. L'effetto è di proteggere il druido da attacchi fisici come armi da mischia e proiettili. Per ogni 2 livelli del lanciatore si guadagna una pelle aggiuntiva ad ogni lancio: per esempio un druido di 10° livello riceve 5 pelli, mentre un druido di 20° livello ne riceve 10. Per ogni pelle che il druido possiede, l'incantesimo ferma 1 attacco: quindi un druido del 10° livello è protetto dai primi 5 attacchi contro di lui, ma il sesto lo colpisce normalmente. Le pelli rimangono sul druido fino a quando egli viene colpito da un incantesimo di dissipa magia, o tutte le pelli vengono rimosse a causa di attacchi fisici, o la durata dell'incantesimo ha termine. E' importante notare che questo non protegge il druido da attacchi magici quali la palla di fuoco, tuttavia lo protegge da attacchi magici fisici 
+come il missile magico.~
+@22   = ~Spruzzo di Veleno~
+@23   = ~Spruzzo di Veleno (Negromanzia) Livello: 4
+Sfera: Vegetale
+Raggio di Azione: 4,5 metri
+Durata: 8 round
+Tempo di Lancio: 4
+Area d'effetto: 1 creatura
+Tiro Salvezza: 1/2
+
+Il Druido attrae il veleno dall'area circostante e la spruzza sulla creatura ricoprendocela interamente. Lo spruzzo fa 4 punti di danno per round fino ad un totale di 32, il danno può essere dimezzato con un Salva contro Morte andato a buon fine.~
+@24   = ~Lama di Mielikki~
+@25   = ~Lama di Mielikki (Invocazione)
+Livello: 4
+Sfera: Combattimento, Natura
+Raggio di Azione: Se stesso
+Durata: 6 round + 1 round/Livello (12 round massimo)
+Tempo di Lancio: 4
+Area d'effetto: 1 metro di lama lunga
+Tiro Salvezza: Nessuno
+
+Questo incantesimo evoca un'arma magica in onore del Dio Mielikki - una grande scimitarra che arde di un freddo fuoco blu. La lama è simile ad un'arma magica +4 che dà 1-8 punti di danno, ed ogni creatura colpita deve effettuare un Tiro Salvezza o subire un ulteriore 1-6 danno da freddo provocato dalle fiamme che ardono di freddo. La lama di Mielikki garantisce al druido anche una resistenza al fuoco per tutta la durata dell'incantesimo.~
+@26   = ~Lame~
+@27   = ~Lame (Alterazione)
+Livello: 5
+Sfera: Combattimento
+Raggio di Azione: Campo visivo
+Durata: Istantanea
+Tempo di Lancio: 6
+Area d'effetto: 1 creatura
+Tiro Salvezza: 1/2
+
+Il Druido evoca a sè uno sciame di piccole lame taglienti che vengono lanciate sulla creatura oggetto del bersaglio tagliandola e causando 4D8 di danno, che si riduce di metà con un tiro salvezza andato a buon fine.~
+@28   = ~Benedizione di Selune (Scongiurazione)
+Livello: 5
+Sfera: Protezione
+Raggio di Azione: 0
+Durata: 2 turni
+Tempo di Lancio: 7
+Area d'effetto: una sfera del raggio di 1,5 metri
+Tiro Salvezza: Nessuno
+
+Questo incantesimo invoca il potere della Dea Selune per proteggere il sacerdote da danni fisici o magici. Il lanciatore viene circondato da un campo luccicante che migliora la sua Classe Armatura di 4 punti e previene anche gli effetti delle magia dal 1° al 4° livello. Come con la magia Globo di Invulnerabilità del mago, gli altri tipi di incantesimi possono essere lanciati e passare fuori dell'area d'effetto senza penalità.~
+@29   = ~Evocare Non Morti~
+@30   = ~Evocare Non Morti (Negromanzia)
+Livello: 5
+Sfera: Negromanzia, Attrazione
+Raggio di Azione: 9 metri
+Durata: 5 turni
+Tempo di Lancio: 5
+Area d'effetto: Speciale
+Tiro Salvezza: Nessuno
+
+Appena lanciato l'incantesimo 3 o 6 ghoul e da 0 a 2 ghast risorgeranno per servire il lanciatore dell'incantesimo. Le creature possono comprendere solo semplici comandi e rimarranno per 5 turni a meno che non vengano distrutti o scacciati.~
+@31   = ~Spostarsi attraverso le Piante~
+@32   = ~Spostarsi attraverso le Piante (Alterazione)
+Livello: 5
+Sfera: Pianta
+Raggio di Azione: Campo visivo del lanciatore
+Durata: Istantanea
+Tempo di Lancio: 1
+Area d'effetto: Solo il lanciatore
+Tiro Salvezza: Nessuno
+
+Per mezzo di questo incantesimo il lanciatore può spostarsi dentro una pianta vivente, apparendo da una pianta all'altra ma che sia all'interno del suo raggio di azione.~
+@33   = ~Bloccamostri (Incantamento/Charme)
+Livello: 6
+Sfera: Charme, Ordine
+Raggio di Azione: Campo visivo del lanciatore
+Durata: 1 round/Livello
+Tempo di Lancio: 5
+Area d'effetto: 18 metri cubi
+Tiro Salvezza: Neg
+
+Questo incantesimo blocca le creature 1d4 di qualsiasi tipo e le rende rigide e immobili per nove o più round, a meno che non si lanci una protezione dagli incantesimi con una penalità di -2. L'effetto si concentra sulla vittima selezionata dal lanciatore, ma sono influenzati anche i nemici che si trovano in un raggio di 1,5 m dal bersaglio. Coloro che manderanno a segno i tiri-salvezza non subiranno l'effetto dell'incantesimo. Le creature non morte non possono essere bloccate. Le creature bloccate non possono muoversi o parlare, ma si rendono conto degli eventi che si svolgono attorno a loro e possono avvalersi di funzioni che non richiedono di muoversi o di parlare. Essere bloccati non impedisce un peggioramento delle proprie condizioni in seguito a ferite, malattie o veleni.~
+@34   = ~Trasformazione di Tenser (Alterazione/Invocazione)
+Livello: 6
+Sfera: Protezione
+Raggio di Azione: 0
+Durata: 1 round/Livello
+Tempo di Lancio: 6
+Area d'effetto: Solo il lanciatore
+Tiro Salvezza: Nessuno
+
+Il lanciatore di questo incantesimo subisce una sorprendente trasformazione, aumentando le sue proporzioni e la sua forza diventando una vera macchina da guerra. I Punti Ferita del sacerdote raddoppiano e la sua Classe Armatura migliora di 4 punti. Tutti gli attacchi avvengono come se fossero effettuati da un guerriero di pari livello equivalente a quello del sacerdote. Ogni attacco ha un bonus di +2 ed ogni successivo tiro per colpire infligge 2 punti addizionali di danno. Tutti i bonus saranno persi quando l'incantesimo sarà dissolto.
+Nota: Questo incantesimo non dà al lanciatore alcun attacco extra.~
+@35   = ~Carne in Pietra (Alterazione)
+Livello: 6
+Sfera: Elemento Terra
+Raggio di Azione: Campo visivo del Lanciatore
+Durata: Permanente
+Tempo di Lancio: 6
+Area d'effetto: 1 creatura
+Tiro Salvezza: Neg
+
+Il bersaglio di questo incantesimo deve effettuare un Tiro Salvezza contro Pietrificazione o essere mutato in pietra. Nello stesso modo, tutto ciò che possiede la persona sarà pietrificato e trasformato in modo perenne a meno che non si lanci sul bersaglio l'incantesimo Pietra in Carne. Ogni colpo successivo su una creatura pietrificata la manderà in frantumi, uccidendola irrevocabilmente.~
+@36   = ~Pietra in Carne (Alterazione)
+Livello: 6
+Sfera: Elemento Terra
+Raggio di Azione: Tocco
+Durata: Permanente
+Tempo di Lancio: 6
+Area d'effetto: 1 creatura
+Tiro Salvezza: Nessuno
+
+Usando questo incantesimo il lanciatore può restituire ad una creatura pietrificata il proprio corpo purché il corpo pietrificato della creatura sia ancora intatto. Il destinatario sarà fisicamente esausto per essere rimasto simile ad una statua per un po' di tempo ed avrà solo 1 punto ferita subito dopo la sua ritrasformazione. Incantesimi di cura o del riposo faranno recuperare la salute perduta.~
+@37   = ~Piante rampicanti Soffocanti~
+@38   = ~Piante rampicanti Soffocanti (Alterazione)
+Livello: 6
+Sfera: Pianta
+Raggio di Azione: Campo visivo
+Durata: 3 round
+Tempo di Lancio: 7
+Area d'effetto: 18 metri quadrati Tiro Salvezza: Speciale
+
+Il Druido evoca a sé i poteri della terra per formare una pianta rampicante che afferra tutte le creature all'interno dell'area del bersaglio stritolandole per 3 round. Ogni creatura presa dalla pianta sarà rallentata ed avrà 4D5 di danno quando la pianta la aggredirà e dovrà effettuare un Tiro Salvezza a -2 o avranno lo stesso danno il round successivo.~
+@39   = ~Sottrarre Forza Vitale~
+@40   = ~Sottrarre Forza Vitale (Negromanzia)
+Livello: 6
+Sfera: Negromanzia, Guarigione
+Raggio di Azione: Campo visivo
+Durata: Istantanea
+Tempo di Lancio: 9
+Area d'effetto: 1 creatura
+Tiro Salvezza: Neg
+
+Il lanciatore prega per un aiuto divino e prova a sottrarre molta forza vitale dalla creatura bersaglio dell'incantesimo la quale subisce 6D5 punti di danno, dimezzati con un tiro salvezza. Il lanciatore di conseguenza assorbe la forza vitale fino a 27 punti.~
+@41   = ~Confusione (Incantamento/Charme)
+Livello: 7
+Sfera: Charme, Ordine
+Raggio di Azione: Campo visivo del lanciatore
+Durata: 5 round + 1 round/6
+Tempo di Lancio: 4
+Area d'effetto: Fino a 18 metri cubi
+Tiro Salvezza: Speciale
+
+Questo incantesimo causa confusione in una o più creature all'interno dell'area d'effetto, creando indecisione ed incapacità ad eseguire azioni efficaci. Tutte le creature all'interno dell'area d'effetto possono effettuare un Tiro Salvezza contro incantesimi con una penalità di - 2. Se va a buon fine il tiro salvezza l'incantesimo non ha effetto sul bersaglio. L'incantesimo dura per due round più un round per ogni livello del lanciatore. Se il bersaglio fallisce il Tiro Salvezza andrà in berserk, rimarrà confuso o vagherà senza meta per la durata dell'incantesimo.
+Le creature erranti si allontanano il più possibile dal lanciatore, muovendosi nel modo che più gli si confà (i personaggi camminano, i pesci nuotano, i pipistrelli volano, ecc.). Le creature confuse che vengono attaccate percepiscono l'attaccante come un nemico e reagiscono in base ai propri istinti.~
+@43   = ~Aura di Protezione~
+@44   = ~Aura di Protezione (Evocazione/Attrazione)
+Livello: 7
+Sfera: Protezione
+Raggio di Azione: Componenti del Gruppo
+Durata: 10 turni
+Tempo di Lancio: 7
+Area d'effetto: 9 metri di raggio
+Tiro Salvezza: Nessuno
+
+Il lanciatore invoca il favore del suo Dio sui suoi compagni. Finché l'Aura di Protezione è efficace tutti i componenti del gruppo hanno la Classe Armatura di base a 1.~
+@45   = ~Rituale Oscuro~
+@46   = ~Rituale Oscuro (Alterazione)
+Livello: 9
+Sfera: Protezione
+Raggio di Azione: Tocco
+Durata: 15 round
+Tempo di Lancio: 7
+Area d'effetto: 1 creatura
+Tiro Salvezza: Nessuno
+
+L'incantesimo fornisce la protezione delle divinità oscure. Questo incantesimo malvagio fornisce 12 Punti ferita e la Classe Armatura abbassata di 4. In conseguenza della natura malvagia dell'incantesimo si avrà la forza ridotta di 1 per tutta la durata dell'incantesimo.~
+@47   = ~Evocare Sirene~
+@48   = ~Evocare Sirene (Evocazione/Attrazione)
+Livello: 9
+Sfera: Attrazione
+Raggio di Azione: Campo visivo del lanciatore
+Durata: 2 turni
+Tempo di Lancio: 9
+Area d'effetto: Speciale
+Tiro Salvezza: Nessuno
+
+Una volta lanciato, quattro Sirene verranno dal Piano Etereo per servire il Druido con i loro più aggressivi comportamenti. Non si fermeranno davanti a nulla e distruggeranno tutti gli avversari che potranno.~
+@49   = ~Dardo Tuonante~
+@50   = ~Dardo Tuonante (Invocazione)
+Livello: 7
+Sfera: Combattimento
+Raggio di Azione: 45 metri
+Durata: Istantanea
+Tempo di Lancio: 5 Area d'effetto: Speciale
+Tiro Salvezza: 1/2
+
+Questo incantesimo è simile all'incantesimo Fulmine di Livello 3 del mago ma ogni creatura colpita dal dardo subisce 12d4 di danno elettrico ridotto a metà con un tiro salvezza andato a buon fine.~
+@51   = ~Maledizione di Selune (Invocazione)
+Livello: 7
+Sfera: Charme, Combattimento
+Raggio di Azione: Campo visivo del lanciatore
+Durata: Istantanea
+Tempo di Lancio: 9
+Area d'effetto: 6 metri di raggio
+Tiro Salvezza: 1/2
+
+Questa potente magia invoca la furia di Selune sui nemici del chierico. L'incantesimo crea un'esplosione di freddo dalle fiamme blue che causa 6d10 di danno a tutte le creature all'interno dell'area d'effetto. Un Tiro Salvezza fallito causa nelle vittime il danno del pieno effetto dell'esplosione, laddove invece il tiro salvezza non fallisce si avrà solo la metà del danno.~
+
+@52   = ~Globo d'Aria~
+@53   = ~Globo d'Aria (Alterazione)
+Livello: 1
+Raggio di Azione: 12 metri
+Durata: 4 Round
+Tempo di Lancio: 2
+Area d'effetto: Speciale
+Tiro Salvezza: Tiro salvezza contro Incantesimo
+
+Questo incantesimo permette al mago di mandare il bersaglio dentro una folata di fumo per un limitato periodo di tempo.~
+
+@54   = ~Schiaffo Tonante~
+@55   = ~Schiaffo Tonante (Evocazione/Attrazione)
+Livello: 2
+Raggio di Azione: 0
+Durata: 10 Round
+Tempo di Lancio: 1
+Area d'effetto: Il lanciatore
+Tiro Salvezza: Nessuno
+
+Quando il lanciatore ha completato questo incantesimo, una luce verde circonda la sua mano. Quando al mago riesce un'attacco da mischia contro una creatura, la creatura è Stordita per 10 round e subisce danno.~
+@56   = ~Dardo di Ghiaccio~
+@57   = ~Dardo di Ghiaccio (Invocazione)
+Livello:  2
+Raggio di Azione: 9 metri
+Durata:  Istantanea
+Tempo di Lancio:  2
+Area d'effetto:  Una creatura
+Tiro Salvezza:  Nessuno
+
+Una volta lanciato questo incantesimo una palla di ghiaccio gelida parte dalle mani del lanciatore e va veloce ed infallibile verso un bersaglio. Il Dardo di Ghiaccio dà 2d10 di danno senza Tiro Salvezza, tuttavia la magia o la resistenza al freddo può annullare i suoi effetti.~
+@58   = ~Globo minore dell'Oscurità~
+@59   = ~Globo minore dell'Oscurità (Alterazione)
+Livello:  2
+Raggio di Azione: 9 metri
+Durata: 1 turno
+Area d'effetto: 4,5 metri di raggio
+Tempo di Lancio: 2 secondi
+Tiro Salvezza: Nessuno
+
+Questo incantesimo causa una totale ed impenetrabile oscurità nell'area d'effetto. L'infravisione è inutile. Né la normale luce e né la luce magica hanno effetto a meno che non si usi un incantesimo di "luce" o "luce costante". Nel primo caso, l'incantesimo Globo dell'Oscurità viene annullato dall'incantesimo di "luce", e viceversa.~
+@60   = ~Raggio di Gelo~
+@61   = ~Raggio di Gelo (Invocazione)
+Livello: 3
+Raggio di Azione:  18 metri
+Durata:  Istantanea
+Tempo di Lancio:  3
+Area d'effetto:  1 creatura
+Tiro Salvezza:  Speciale
+
+Una volta lanciato questo incantesimo un getto di incredibile freddo gelido di 0,5 metri per 18 metri parte dalle mani del lanciatore. Il Raggio infligge 5d6 punti di danno ed è così gelido che la creatura oggetto del bersaglio deve effettuare un Tiro contro Incantesimo o essere incapace di muoversi o combattere nelle sue piene capacità fino a quando non si scrolla via il gelo. La resistenza al freddo o alla magia possono annullare questi effetti.~
+@62   = ~Esercito di una persona~
+@63   = ~Esercito di una persona (Illusione/Allucinazione)
+Livello: 3
+Raggio di Azione: 0
+Durata: 1 Turno
+Tempo di Lancio: 5
+Area d'effetto: Se stesso
+Tiro Salvezza: Neg.
+
+Questo incantesimo dà al lanciatore le sembianze di un esercito creato da lui, sono molti ma in realtà è uno solo.~
+@64   = ~Forma di Spettro (Alterazione, Illusione)
+Livello: 3
+Raggio di Azione: 0
+Durata: 1 turno
+Tempo di Lancio: 1
+Area d'effetto: Il lanciatore
+Tiro Salvezza: Nessuno
+
+Quando questo incantesimo viene lanciato, il mago e tutto il suo equipaggiamento diventano incorporei. Il lanciatore è soggetto solo alla magia, ad attacchi speciali, incluse armi +1 o superiori, o altrimenti da creature che sono capaci di colpirli solo con armi magiche. Il mago guadagna anche un 25% di resistenza alla magia. Finché il lanciatore ha la forma di spettro non può lanciare incantesimi.~
+@65   = ~Guarigione di Ettin~
+@66   = ~Guarigione di Ettin (Negromanzia)
+Livello: 4
+Raggio di Azione: Lanciatore
+Durata:  10 round
+Tempo di Lancio: 7
+Area d'effetto:  Speciale
+Tiro Salvezza: Nessuno
+
+Ettin, un monaco che ha vissuto durante il Tempo degli Antichi, fu anche un abile erborista che trovò molte vie per guarire il corpo.~
+@67   = ~Frammento Ghiacciato di Ajandurah~
+@68   = ~Frammento Ghiacciato di Ajandurah (Evocazione/Attrazione)
+Livello: 4
+Raggio di Azione: Campo visivo del lanciatore
+Durata: 1 round
+Tempo di Lancio: 2
+Area d'effetto: Una Creatura
+Tiro Salvezza: Nessuno
+
+Questo incantesimo evoca un frammento di ghiaccio magico ardente che vola infallibilmente sul bersaglio infliggendogli danno da freddo come se fossero 3 frecce incantate.~
+@69   = ~Meteore Esplosive di Melf~
+@70   = ~Meteore Esplosive di Melf (Invocazione)
+Livello: 5
+Raggio di Azione:  Solo il lanciatore
+Durata:  1 minuto
+Tempo di Lancio:  5
+Area d'effetto:  Speciale
+Tiro Salvezza:  Speciale
+
+Questo incantesimo è paragonabile all'incantesimo di terzo livello del mago Piccole Meteore di Melf, eccetto che i missili creati esplodono violentemente nell'impatto. Tutte le creature nel raggio di 6 metri dal punto dell'impatto saranno colpite dai frammenti ardenti subendo 2-12 punti di danno. Un Tiro Salvezza andato a buon fine permetterà alla creatura colpita di evitare effetti peggiori, riducendo il danno della metà.~
+@71   = ~Costrizione~
+@72   = ~Costrizione (Incantamento/Charme)
+Livello: 6
+Sfera: Creatura
+Raggio di Azione: Campo visivo del lanciatore
+Durata: Permanente
+Tempo di Lancio: 5
+Area d'effetto: 1 singolo bersaglio
+Tiro Salvezza: Tiro salvezza contro Incantesimi
+
+Questo incantesimo avrà effetto sopra una singola creatura. Gli obiettivi sono tutte le creature umanoidi conosciute sulla faccia della terra. La persona riceve un Tiro Salvezza contro Incantesimi evitando l'effetto senza variamenti di saggezza. Se il Tiro Salvezza fallisce, il bersaglio considera il lanciatore come il suo nuovo padrone. Il lanciatore potrà dare al bersaglio ordini, e la persona charmata lo porterà con sé fuori dal pericolo il più velocemente possibile.~
+@73   = ~Corazza Anti-Magia~
+@74   = ~Corazza Anti-Magia (Scongiurazione)
+Livello: 6
+Raggio di Azione: Solo il lanciatore
+Durata:  2 turni
+Tempo di Lancio:  2
+Area d'effetto:  Solo il lanciatore
+Tiro Salvezza:  Nessuno
+
+Con questo incantesimo, il lanciatore viene circondato da una barriera luccicante che si muove con lui. L'area all'interno della barriera è totalmente impenetrabile a tutto il magico e a tutti gli effetti di incantesimi magici, in questo modo si impedirà il passaggio di ogni tipo di incantesimo, sia esso dannoso o che dia beneficio. Allo stesso modo la barriera ostacola ogni tipo di lancio di incantesimi all'interno dei suoi confini e i magici effetti dell'incantesimo eventualmente lanciato dal mago andranno immediatamente dispersi cioè saranno nulli. Neanche soffio, sguardi fissi, attacchi vocali, e attacchi simili dalle forme speciali possono penetrare la barriera. Neppure l'incantesimo Dissolvi Magie riesce a rimuovere la barriera.~
+@77   = ~Sfera di Dispersione~
+@78   = ~Sfera di Dispersione di Energia (Scongiurazione)
+Livello: 7
+Raggio di Azione: 0
+Durata:180 secondi
+Tempo di Lancio: 4
+Area d'effetto: Se stesso
+Tiro Salvezza: Nessuno
+
+Otiluke trae gran divertimento dal fatto che molti maghi usano il suo incantesimo della Sfera elastica quando infatti per lui era solo un test errato poiché in realtà voleva creare questa sua Sfera di dispersione di energia. Per agevolare tutti gli Arcimaghi avventurieri ha creato una potente Sfera di energia intorno al lanciatore che assorbe l'energia di tutti gli attacchi fatti contro il lanciatore rendendoli inoffensivi. Solo il più potente degli incantesimi o delle armi magiche potrebbero sperare di forare questa barriera che è molto utile per vagare nei piani o quando si cammina per qualche strada interna di Toril.~
+@79   = ~Charme di Massa~
+@80   = ~Charme di Massa (Incantamento/Charme)
+Livello: 7
+Raggio di Azione: Campo visivo del lanciatore
+Durata: 5 round
+Tempo di Lancio: 2
+Area d'effetto: Sfera di raggio 6 metri
+Tiro Salvezza: Nessuno
+
+L'incantesimo ha effetto su tutte le persone all'interno di un'area di 6 metri da dove viene lanciato. Tutte le creature umanoidi saranno charmate per 30 secondi. Le creature umanoidi comprendono: umani, driadi, nani, elfi, folletti, gnomi, goblin, mezzelfi, hobgoblin ecc. ma non include creature più grandi come ad esempio gli orchi. Tutte le creature eseguono un Tiro Salvezza contro incantesimi per annullarne gli effetti.~
+@81   = ~Tempesta di Fuoco~
+@82   = ~Tempesta di Fuoco (Invocazione)
+Livello: 7
+Raggio di Azione: 80
+Durata: Istantaneo
+Tempo di Lancio: 4
+Area d'effetto: Ampia
+Tiro Salvezza: Nessuno
+
+Per un Arcimago medio una Palla di fuoco non è sufficiente. Questo incantesimo dal tempo di Nethril riempie questo vuoto. Si richiede molta esperienza per lanciarlo in quanto risulta anche leggermente instabile. Gli effetti tuttavia sono veramente devastanti. All'inizio l'incantesimo potrebbe sembrare come una semplice palla di fuoco tuttavia le successive e multiple esplosioni, più o meno potenti, trasformano il campo di battaglia in una tempesta di fuoco.~
+@83   = ~Maledizione Errante di Vestcakes~
+@84   = ~Maledizione Errante di Vestcakes (Invocazione)
+Livello: 7
+Bersaglio: L'area
+Durata: 30 Secondi
+Tempo di Lancio: 5
+Raggio di Azione: 45 metri
+
+Questa potente maledizione crea una nube di gas bollente che si espande intorno al campo di battaglia. La nuvola si espande con vigore e piccoli dardi luminosi vengono lanciati da ogni parte. La nube è talmente caricata di energia che ogni creatura prigioniera nella nuvola subirà continui danni in quanto l'energia viene scaricata sulla creatura stessa che si trova all'interno della nube fino alla fine della sua durata.~
+@85   = ~Combustione Infernale di Enigma~
+@86   = ~Combustione Infernale di Enigma (Invocazione)
+Livello: 8
+Raggio di Azione: 15 metri
+Durata: Istantanea
+Tempo di Lancio: 3
+Area d'effetto: 9 metri di raggio
+Tiro Salvezza: 1/2
+
+La Combustione Infernale di Enigma è stata una creazione dello stesso potente ma folle Arcimago, meglio conosciuto come Arciastronomo, al tempo di Nethril. Questo mago aveva una passione per il fuoco e creò questo incantesimo per fornirsi di tutto ciò di cui aveva bisogno (é risaputo che questo mago è morto subito dopo aver portato a termine l'incantesimo probabilmente a seguito dei suoi effetti). Quasi tutti i moderni incantesimi di fuoco sono inclusi in questo incantesimo e come tale questa magia è in grado di incenerire molti e nobili avventurieri. Tuttavia, essendo un incantesimo imprevedibile, è considerato il primo esempio di magia che deve essere lanciata da lontano.~
+@87   = ~Follia~
+@88   = ~Follia (Incantamento/Charme)
+Livello: 8
+Raggio di Azione: 15 metri
+Durata: Permanente
+Tempo di Lancio: 5
+Area d'effetto: Bersaglio Singolo
+Tiro Salvezza: Nessuno
+
+Questo incantesimo fa in modo che il Mago entri nella mente del suo bersaglio distruggendola completamente lasciando poi la sua vittima completamente folle ma ancora pericolosa. L'effetto è permanente e la vittima camminerà stordita o confusa oppure correrà impazzita verso la battaglia contro chiunque gli sarà vicino. Il procedimento di questo incantesimo è molto complicato quindi ci sarà solo il 50 per cento di possibilità che l'incantesimo funzioni.~
+@89   = ~Nube acida dannosa~
+@90   = ~Nube acida dannosa (Invocazione)
+Livello: 8
+Raggio di Azione: 91 metri
+Durata: 30 secondi
+Tempo di Lancio: 4
+Area d'effetto: 12 metri di larghezza, 6 metri di altezza, 6 metri di profondità della nube
+Tiro Salvezza: Vari
+
+Questo potente incantesimo invoca una nuvola acida dai vapori mortali. L'acidità dei vapori si estende anche quando è terminata la durata dell'incantesimo così il danno fatto ogni 5 secondi aumenta fino ad un massimo di 7d6. Chiunque venga intrappolato nei vapori e poi ne esce rimane comunque ricoperto di acido e continua a subire gli effetti come se fosse ancora all'interno della nube tossica. Questo effetto tuttavia può essere disperso se si è sufficientemente rapidi. Dal danno da acido è normalmente piuttosto facile salvarsi mentre la nube provoca un danno maggiore. Se una persona rimane intrappolata nei vapori c'è un 25% di possibilità che sarà ridotta in una pozza di melma, ciò è dovuto alla natura corrosiva dei vapori acidi (senza Tiro Salvezza).~
+@91   = ~Dardo Tuonante (Invocazione)
+Livello: 8
+Raggio di Azione: 137 metri
+Durata: Istantanea
+Tempo di Lancio: 5
+Area d'effetto: Speciale
+Tiro Salvezza: Nessuno
+
+In alcuni circoli di Arcimaghi lanciare l'incantesimo Fulmine è considerato piuttosto patetico e chi lo fa viene considerato un mago scarso. Perciò è stato sviluppato il Dardo Tuonante. Sebbene si considera che il fulmine ha dei buoni risultati, il dardo è tuttavia di qualità superiore ed è in grado di fare una gran quantità di danni a chiunque ne venga colpito, incluso il lanciatore! Il dardo rimbalzerà intorno finché non svaniranno tutti i suoi poteri. Ci sono solo poche persone che possono resistere agli effetti di questo incantesimo.~
+@92   = ~Risucchio di Vita di Varashar~
+@93   = ~Risucchio di Vita di Varashar (Negromanzia)
+Livello:  8
+Raggio di Azione:  9 metri
+Durata:  Speciale
+Tempo di Lancio:   1
+Area d'effetto:  Bersaglio Singolo
+Tiro Salvezza:  Nessuno
+
+Il Re Varashar, un mago, secondo quanto si dice, ha usato questo incantesimo per allungarsi la vita tante volte durante i suoi 120 anni di regno.~
+@94   = ~Arco della Morte~
+@95   = ~Arco della Morte (Negromanzia)
+Livello: 9
+Raggio di Azione:  15 metri
+Durata:  Istantanea
+Tempo di Lancio: 8
+Area d'effetto: 1 creatura
+Tiro Salvezza: Nessuno
+
+Lanciando questo incantesimo, il mago provoca un forte, ma variabile, danno ad un singolo bersaglio.~
+@96   = ~Runa della Totale Negatività di Azuth~
+@97   = ~Runa della Totale Negatività di Azuth (Invocazione)
+Livello: 9
+Bersaglio: Un Bersaglio
+Area d'effetto: Una Creatura
+Raggio di Azione: 30,5 metri
+Tempo di Lancio: 7
+
+E' probabile che, prima che fosse diventato il più grande mago di tutti i tempi, Azuth, il consorte della dea Mystra, creò questo incantesimo. Un devastante e potente incantesimo il quale può essere considerato più precisamente un incantesimo di distruzione divina per i suoi immensi poteri su tutti i piani. L'Arcimago (che deve avere un grande potere ed una notevole esperienza) distende la sua mano e richiama a sé molti poteri che comprendono l'intero universo. Enormi dardi di energia girano davanti ad esso e come il mago lancia l'incantesimo dei dardi di energia pura ondeggiano in alto andando poi a colpire e distruggere il bersaglio dell'incantesimo.
+
+Questo incantesimo supera la resistenza magica e non ha tiri salvezza.~
+@98   = ~Guarigione da veleno~
+@99   = ~Guarigione da veleno (Divinazione)
+Livello: 9
+Raggio di Azione: 9 metri
+Durata: Permanente
+Area d'effetto: 1 singolo bersaglio
+Tiro Salvezza: Nessuno
+
+Quando è lanciato, questo incantesimo guarisce dall'avvelenamento e restituirà tutti i Punti ferita al bersaglio. Non c'é Tiro Salvezza perciò la difesa magica e la protezione non fermeranno gli effetti dell'incantesimo.~
+
+///////////
+//Oggetti
+///////////
+
+@1000 = ~Corona~
+@1001 = ~Corona dell'Arcidruido~
+@1002 = ~Le Corone non sono fatte solo per un fattore estetico, ma qualcuna di esse offre anche protezione alla testa.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Speciale:  Protegge contro colpi critici
+Peso: 2
+
+Non utilizzabile da:
+ Guerriero
+ Ladro~
+
+@1003 = ~Questa corona apparteneva al Leader dei "Druidi della Foresta Nera" da più di 13 generazioni. Tuttavia, da quando un'invasione di orchi annientò questa comunità druidica, questa corona ha cambiato spesso proprietario.
+
+STATISTICHE:
+
+Speciale:
+  Protezione contro colpo critico
+  1 incantesimo extra dal livello 1 a 3
+  Charma Animale a meno che non sia protetto dalle bacchette
+Raggio di Azione:  12 metri
+Area:  1 animale
+Durata:  10 turni
+Peso: 2
+
+Utilizzabile solo da:
+ Druido~
+
+@1004 = ~Corona di Shar'DuKha~
+@1005 = ~Corona di Shar'DuKha 'L'Elmo dello Stregone'
+Questa corona proviene da Shar'DuKha, il Tempio Elementale. Creato per chi pratica l'arte della magia, offre loro quella protezione che di solito non hanno quando sono immersi nello studio della loro arte magica.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  +1
+Speciale:
+  Resiste agli attacchi mentali
+  +1 Tiri Salvezza
+  +20% di protezione contro Fuoco, Acido, Freddo ed Elettricità
+  Protegge contro colpi critici
+
+Peso: 2
+
+Utilizzabile solo da:
+ Mago (Singolo, Duale, o Multiclasse)~
+
+@1006 = ~Cappello~
+@1007 = ~Il Cappello del Vagabondo~
+@1008 = ~Il cappello di feltro è molto amato dai bardi, benché diano dei piccoli fastidi di protezione sono talora decorativi. In rare occasioni alcuni sono incantati con qualche magia.
+
+Utilizzabile solo da:
+ Bardo
+ Ladro~
+
+@1009 = ~Questo cappello è stato incantato, benché a prima vista sembri fragile come tutti i cappelli di feltro, in realtà possiede la capacità di resistenza ai colpi critici.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Protezione dagli effetti della Paura
+
+Peso: 2
+
+Utilizzabile solo da:
+ Bardo
+ Ladro~
+
+@1010 = ~Diadema~
+@1011 = ~Diadema di Chanah'Rea~
+@1012 = ~Questo tipo di diadema decorativo, fatto di perline o metallo, è stato creato per essere indossato sul capo. Di solito sono decorati con gioielli o altri oggetti preziosi e di solito sono usati da coloro che praticano arti magiche.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Peso: 2~
+
+@1013 = ~La maggior parte dei diademi sono oggetti ornamentali, alcuni sono incantati dagli Alti Sacerdoti di Chanah'Rea. Si crede che la pietra che orna la parte frontale del diadema provenga proprio da Stone Hedge.
+
+STATISTICHE:
+
+Speciale:
+  Resiste agli attacchi mentali
+  +1 Tiro Salvezza
+  +20% di resistenza all'Acido, Freddo, Fuoco e Elettricità
+  Protegge Contro i Colpi Critici
+
+Peso: 2
+
+Utilizzabile solo da:
+ Druido~
+
+@1015 = ~Elmo di Ferthgil~
+@1017 = ~Questo è l'elmo usato da Ferthgil Trollslayer, figlio di Breachin Trollslayer. Questo elmo è stato dato a Ferthgil dal clan di Stoneheath durante la sua permanenza con loro dopo la morte di suo padre. Gulmoth Stonehearth, il mentore di Ferthgil posò la benedizione di Clanngedin sull'elmo, per aiutare Ferthgil a proteggere tutti i suoi pensieri, se ne avesse avuto veramente bisogno, soprattutto in battaglia.
+STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Protegge da tutte le forme di charme, panico e blocco
+  +50% di resistenza alla Magia
+
+Peso: 2
+
+Utilizzabile solo da:
+ Ferthgil Trollslayer~
+
+@1018 = ~Elmo di Ebano~
+@1019 = ~Fa parte dell'equipaggiamento standard dato ai soldati del culto della Mano d'Ebano. L'Elmo permette ai cultisti della Mano d'Ebano di eseguire i loro doveri senza interferenze esterne.
+
+STATISTICHE:
+
+Classe Armatura Bonus: nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Chi lo indossa è immune allo Charme
+
+Peso: 4
+
+Non utilizzabile da:
+ Mago
+ Bardo
+ Ladro  Monaco
+ Kensai~
+
+@1020 = ~Elmo di Coraggio di Conchobhair Strongblade~
+@1021 = ~Questo Elmo è stato incantato per fornire qualche protezione contro la paura e gli attacchi mentali. Aiuta sempre chi lo indossa ad avere coraggio.
+
+ STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Protegge dalla Paura e dagli Attacchi Mentali
+
+Peso: 2
+
+Non utilizzabile da:
+ Mago
+ Bardo
+ Ladro
+ Monaco
+ Kensai~
+
+@1022 = ~Elmo di Cristallo~
+@1023 = ~Creato con i magici cristalli di una Miniera Nanica ora abbandonata. I cristalli hanno una naturale protezione al caldo ed al freddo.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  +1
+Speciale:
+  Protegge Contro i Colpi Critici
+  +20% di resistenza al Fuoco
+  +20% di resistenza al Freddo
+
+Peso: 2
+ Non utilizzabile da:
+ Mago
+ Bardo
+ Ladro
+ Monaco
+ Kensai~
+@1024 = ~L'Elmo di Guerra 'Nano' di Skeezer Lumpkin~
+@1025 = ~Skeezer ha avuto questo elmo dal suo grande amico, Gothmog Stonehearth, un nano skald del clan di Stonehearth. Skeezer e Gothmog sono diventati grandi amici dopo che, una notte, Skeezer salvò la vita a Gothmog. Gothmog fu vittima di un'imboscata da parte di una pattuglia di duergar, che era salita in superficie in una notte buia e senza luna andando in cerca di qualcuno per saccheggiarlo. Quando Skeezer lo vide, colpì il suolo col suo bastone, facendo diventare il cielo tanto luminoso come se ci fosse la luce di mezzogiorno. Ciò naturalmente fece scappare via i duergar. Da quel giorno, Gothmog e Skeezer divennero molto amici. C'è da dire che Gothmog è interessato molto alle abilità magiche dei suoi amici Gnomi, e probabilmente in segreto ha sperimentato qualche piccolo incantesimo, sapendo benissimo che il suo clan disapproverebbe questo tipo di attività.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  Nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Protegge contro ogni forma di panico e risolleva il morale
+  Bonus Intelligenza +2
+
+Peso: 2
+
+Utilizzabile solo da:
+ Skeezer Lumpkin VI~
+
+@1026 = ~Elmo della Guardia Sacra~
+@1027 = ~Questo elmo ornamentale ha una linea decisa ed è più di un semplice elmo di protezione; guardandolo superficialmente ci si può ingannare. Questo elmo è stato infatti incantato dagli alti sacerdoti di Sukien, e fornisce, a chi lo indossa, forza alla mente resistendo a tutte le forme di tentazioni.
+
+STATISTICHE:
+
+Classe Armatura Bonus: Nessuno
+Speciale:
+  Protegge Contro i Colpi Critici
+  Protegge Contro gli Attacchi Mentali
+
+Peso: 2
+
+Utilizzabile solo da:
+  Paladino~
+
+@1028 = ~Elmo di Thorfinn~
+@1029 = ~Quest'elmo garantisce l'immunità a tutte le forme di paura e di panico, sia che siano di origine naturale che di origine magica.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: Nessuno
+Abilità durante l'uso:
+ Protegge contro colpi critici
+ Protegge dalla Paura
+Peso: 2
+Non utilizzabile da:
+ Mago
+ Bardo
+ Ladro~
+
+@1030 = ~Armatura di Spine~
+@1032 = ~Dopo un rigoroso controllo, si nota che questa armatura non è assolutamente fatta di cuoio, ma da un intricato intreccio di piante rampicanti e rami di cespuglio. L'armatura è un dono delle ninfe ai druidi, come simbolo di ammirazione per i loro infiniti sforzi nel proteggere le foreste.
+
+STATISTICHE:
+
+Classe Armatura:  3
+Tiro Salvezza:  +1 bonus
+Peso:  4
+
+Utilizzabile solo da:
+ Druido (singolo, duale, e multiclasse)~
+@1033 = ~Nuvola Temporalesca 'La Sventura di Kraken'~
+@1034 = ~Questa armatura è stata modellata dai resti carbonizzati di un drago abbattuto da un fulmine. L'ultima volta fu indossata da Shrethu Reogher, uno stregone. Si spera che sia morto, perché se gli fosse stata strappata mentre era ancora in vita è sicuro che la riverrà a cercare.
+
+STATISTICHE:
+
+Classe Armatura:  0
+Tiro Salvezza:  +3 bonus
+Speciale: Resistenza all'Elettricità
+Peso:  4 Richiede: 6 alla Forza
+
+Utilizzabile solo da:
+ Druido~
+
+@1036 = ~Corazza da Battaglia di Piastre di Mithril del Nano Ferthgil~
+@1038 = ~Questa corazza di piastre, costituita da forti piastre di mithril, è stata forgiata da Fergil Trollslayer sotto la tutela di Otho Truehammer, mastro fabbro, leader del Clan Truehammer e padre del suo migliore amico Tearlac Truehammer. Ferthgil si è dimostrato veramente un grande fabbro, tuttavia preferisce il campo di battaglia alla fucina. Questa corazza ha le stesse capacità di una normale corazza di piastre incantata dando un bonus +5 alla Classe Armatura. Tuttavia, nessuna magia o incantesimo è stato utilizzato nella creazione di questa corazza.
+
+STATISTICHE:
+ Classe Armatura: -2
+
+Peso: 30
+Richiede: 14 alla Forza
+
+Utilizzabile solo da:
+ Nani e Gnomi~
+@1039 = ~Corazza di Piastre Benedetta di Conchobhair Strongblade~
+@1040 = ~Questa corazza di piastre è stata benedetta fornendo un extra protezione durante il combattimento contro molti nemici e mostri. Conchobhair ha scoperto che è perfetta per la strada che ha deciso di intraprendere ossia quella di Uccisore di Draghi, dandogli una buona protezione e fornendogli un certo grado di libertà nei movimenti.
+STATISTICHE:
+
+Classe Armatura: -2
+Peso: 50
+
+Utilizzabile da:
+ Conchobhair~
+
+@1041 = ~Corazza di Piastre di Cristallo~
+@1042 = ~Creato con i magici cristalli di una Miniera Nanica ora abbandonata. I cristalli hanno una naturale protezione al caldo e al freddo.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Speciale:
+  +20% di resistenza al Fuoco
+  +20% di resistenza al Freddo
+
+Peso: 20
+Richiede: 11 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Arciere
+ Infiltrato
+ Barbaro
+ Addestratore di Animali
+ Kensai  Mutaforma~
+
+@1044 = ~Armatura di Piastre Completa +1:  'Armatura d'Ebano'~
+@1046 = ~Lord Scrakin, Sommo Capo della Mano d'Ebano, portò questa armatura per quasi 50 anni. Si dice che in questo periodo abitasse in un castello nei pressi delle Montagne Ripide. Non si sa come la sua armatura sia arrivata in altre terre senza di lui, anche se la separazione dai due fu sicuramente insolita.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 35
+Richiede: 14 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro~
+
+@1047 = ~Armatura di Pelle di Thorfinn~
+@1048 = ~Questa è l'armatura personale di Thorfinn Hauskluniff. La sua speciale struttura di pelle intrecciata la rende più leggera di una semplice armatura di pelle.
+
+STATISTICHE:
+
+Classe Armatura: 6
+Peso: 3
+Utilizzabile solo da:
+ Thorfinn Hauskluniff~
+
+@1052 = ~L'Armatura del Crociato~
+@1054 = ~La Corazza a Strisce è l'armatura preferita dai guerrieri crociati, conosciuti anche col nome di Paladini. Spesso sono zelanti religiosi, dei guerrieri che combattono energicamente e con grande fede, credendo nella legge che difendono ardentemente.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Speciale:
+  +2 a tutti i Tiri Salvezza
+  +25% a tutte le resistenze
+
+Peso: 20
+Richiede: 8 alla Forza
+
+Utilizzabile solo da:
+ Paladino  Chierico (Solo Legale Buono)~
+
+@1055 = ~Corazza di Maglia +2 'Corazza di Maglia Benedetta'~
+@1056 = ~Questa Corazza di Maglia +2 è spesso indossata da sacerdoti che sono ricercati per la loro fede. Quando indossata, il sacerdote è benedetto dall'incantesimo Aiuto.
+
+STATISTICHE:
+
+Classe Armatura: 3
+
+Peso: 10
+Richiede: 7 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Arciere
+ Infiltrato
+ Kensai
+ Addestratore di Animali
+ Mutaforma~
+
+@1057 = ~La Sacra Armatura di Sukien~
+@1058 = ~La Sacra Armatura di Sukien, è indossata dalla Sacra Guardia del Tempio di Sukien. Questa maglia è magica e non ha mai subito sconfitte in battaglia. Chi appartiene alla Sacra Guardia è un fanatico devoto con una grande volontà di vincere. Questa Armatura è creduta da molti essere un dono dei cieli ed è marchiata con il suo stemma orgogliosamente mostrato sul petto apparendo sgargiante e spavalda come chi la indossa.
+
+STATISTICHE:
+
+Classe Armatura: -1
+Speciale: Protezione dal Veleno
+Peso: 18
+Richiede: 11 alla Forza
+
+Utilizzabile solo da:
+ Paladino~
+
+@1059 = ~Cotta di Maglia di Jet'laya~
+@1060 = ~Questa è la Cotta di Maglia personale di Jet'laya. E' stata forgiata per lei da suo fratello gemello, Rennar. Malgrado la strana colorazione, sembra essere una normale cotta di maglia da elfo.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 15
+
+Utilizzabile solo da:
+  Jet'laya~
+
+@1061 = ~Corazza a Striscie +4 - Il guscio di Korim~
+@1062 = ~Forgiata dal mago/ranger Korim di Netheril, questa corazza a strisce di color verde è impregnata con forti incantesimi. Lo strano metallo (una miscela di rame ed uranio) è luminoso e flessibile, ed è anche molto impermeabile ai colpi di ogni tipo. La Corazza ha permesso a Korim di usare appieno le sue abilità. Inoltre, lo strano metallo ha dimostrato di avere uno straordinario effetto secondario - guarisce chi lo indossa.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Speciale:
+  Rigenera 1 Punto Ferita ogni 2 round
+  Quando indossata il Mago può usare le sue Abilità
+
+Peso: 7
+
+Non utilizzabile da
+ Monaco
+ Kensai~
+
+@1063 = ~La Corazza personale di Cuoio +4 di CúChoinneach~
+@1064 = ~CúChoinneach si è fatto da solo e per sé questa corazza durante i suoi giorni da ranger.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Speciale:  +15% a Nascondersi nelle Ombre
+
+Peso: 8
+
+Utilizzabile solo da:
+ CúChoinneach~
+
+@1065 = ~Corazza +1 di Cuoio Borchiato della Barda Keiria Silverstring~
+@1066 = ~Keiria ha mantenuto dei legami con il suo popolo elfo e come risultato ha ottenuto alcuni oggetti incantati dagli elfi da parte della sua famiglia. Uno di questi oggetti è questa corazza di cuoio. La Corazza gli fornisce +1 di protezione e gli permette, anche se indossata, di lanciare i suoi incantesimi.
+STATISTICHE:
+
+Classe Armatura: 6
+Peso: 15
+
+Utilizzabile solo da:
+ Keiria Silverstring~
+
+@1067 = ~Corazza di Cuoio Artigianele Gnomica~
+@1068 = ~Corazza di Cuoio Artigianale Gnomica +2~
+@1069 = ~La Corazza di Cuoio Artigianale Gnomica è una variante della Corazza di Cuoio di Alta Qualità Gnomica. La Corazza di Cuoio Artigianale Gnomica è ornata con dozzine di minuscoli utensili, contenitori e sacchetti, la corazza è riempita con le più bizzarre collezioni di pietre, chiodi, munizioni, armi, aggeggi vari e roba appuntita. Per questo motivo, una corazza di cuoio artigianale Gnomica fornisce una protezione identica ad una corazza di cuoio borchiata.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25
+Richiede: 10 alla Forza
+
+Utilizzabile solo da:
+ Ladro~
+
+@1070 = ~Questo tipo di armatura fu creata da un maestro artigiano Gnomo ed incantata per offrire una migliore protezione contro gli incidenti imprevisti. Gli utensili e l'equipaggiamento depositati nell'armatura riescono a far scassinare facilmente le serrature.
+
+STATISTICHE:
+
+Classe Armatura: 5
+Peso: 8
+Richiede: 6 alla Forza
+
+Utilizzabile solo da:
+ Ladro~
+
+@1072 = ~Abito del Mago di Skeezer Lumpkin~
+@1074 = ~Questo potente Abito del Mago offre protezione da tutte le forme di attacco fisico aumentando allo stesso tempo la propria resistenza magica e i Tiri Salvezza.
+
+STATISTICHE:
+
+Classe Armatura:  5
+Resistenza alla Magia: +5%
+Tiro Salvezza:  +1 bonus
+Peso:  6
+
+Utilizzabile solo da:
+ Skeezer Lumpkin VI~
+
+@1075 = ~Abito dello Stregone~
+@1076 = ~Questo Abito del Mago è stato creato per i maghi superiori che hanno finito il tempo del loro apprendistato e se ne vanno. La sua Classe Armatura e gli incantesimi bonus dell'abito danno al mago un migliore equipaggiamento per affrontare dei viaggi.
+
+STATISTICHE:
+
+Classe Armatura:  8
+Speciale:  1 Incantesimo Bonus al Livello 1 e al Livello 2
+
+Peso:  3
+
+Utilizzabile solo da:
+ Mago (singolo, duale, e multiclasse]
+ Bardo~
+
+@1077 = ~Abito del Grande Stregone~
+@1078 = ~Questo potente Abito del Mago offre protezione da tutte le forme di attacco fisico aumentando allo stesso tempo la propria resistenza magica e i Tiri Salvezza. Data la natura del suo incantesimo, questo abito può essere indossato solo dai maghi di allineamento malvagio.
+
+STATISTICHE:
+
+Classe Armatura:  +2 Bonus
+Resistenza alla Magia: +25%
+Tiro Salvezza:  +3 bonus
+Peso:  6
+
+Utilizzabile solo da:
+  Mago (singolo, duale, e multiclasse)
+  Personaggi con allineamento malvagio~
+
+@1079 = ~Abito di Dh'arlo'me~
+@1080 = ~Questo potente Abito del Mago offre protezione da tutte le forme di attacco fisico aumentando allo stesso tempo la propria resistenza magica. Data la natura del suo incantesimo, può essere rimosso solo con Scaccia Maledizione.
+
+STATISTICHE:
+
+Classe Armatura:  3
+Resistenza alla Magia: +50%
+Speciale:
+  Immune agli incantesimi di 1°, 2° e 3° Livello
+  +4 agli incantesimi di 1°, 2° e 3° Livello
+  Imposta l'Intelligenza e la Saggezza a 19
+  Aumenta la velocità di lancio dell'incantesimo
+  Immune a tutte le armi non magiche
+Peso:  6
+
+Utilizzabile da:
+ Tutti~
+
+@1081 = ~Abito di Drakelor~
+@1082 = ~Questo abito è stato originariamente un regalo del famoso mago Drakelor ad un amico, che doveva affrontare un lungo e pericoloso viaggio. Sfortunatamente, l'abito fu rubato quando questo amico si fermò a riposare in una locanda dopo una faticosa camminata. Il ladro, che conosceva bene il valore dell'abito, ma non le sue origini, organizzò un incontro con Drakelor, il più potente mago che lui conosceva. Drakelor, tuttavia, riconobbe il suo lavoro ed immediatamente capì cosa era successo. Il destino del ladro non ha bisogno di ulteriori descrizioni.
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+Tiro Salvezza: +2 bonus
+Peso: 3
+
+Utilizzabile solo da:
+ Maghi (Singoli, Duali, e Multiclasse)~
+
+@1083 = ~Abito del Mago Drow~
+@1084 = ~I maghi drow di alto livello indossano un abito che fornisce il 75% di probabilità di rimanere non individuato nelle ombre. Il materiale usato per questi abiti non si taglia con facilità ed è resistente al fuoco donando all'abito un bonus +6 al Tiro Salvezza contro il Fuoco. Questi abiti possono essere indossati solo da questo tipo di elfi. Data la natura della stoffa drow l'abito, se esposto alla luce del sole, inizierà a decomporsi in modo irreversibile. Tra i due ed i dodici giorni, perderà tutte le sue proprietà protettive e marcirà, diventando totalmente privo di utilità.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Speciale:
+  Aumenta l'Intelligenza di 2
+  Memorizza un incantesimo extra per Livello fino al Livello 9
+  +6 Salva contro Soffio
+  +75% di resistenza al Fuoco
+  Anti-Individuazione
+
+Peso: 1
+
+Utilizzabile solo da:
+ Mago (Singolo, Duale, e Multiclasse)~
+
+@1085 = ~Abito dell'Abisso~
+@1086 = ~Un abito veramente ripugnante. Lavorato con la stessa materia con cui è stato costruito l'Abisso, questo potente abito offre protezione da tutte le forme di attacco fisico e nello stesso tempo incrementa la resistenza alla magia e il Tiro Salvezza. Data la natura della sua origine, questo abito può solo essere indossato da maghi di allineamento malvagio.
+
+STATISTICHE:
+
+Classe Armatura:  +5 Bonus
+Resistenza alla Magia: +25%
+Tiro Salvezza:  +5 bonus
+Incantesimi Bonus: +3(Lv 1-5)
+                   +1(Lv 6-8)
+Costituzione: -30%  Speciale: Chi lo indossa non ha mai bisogno di dormire
+
+Peso:  6
+
+Utilizzabile solo da:
+  Mago (singolo, duale, e multiclasse)
+  Personaggi con allineamento malvagio~
+
+@1087 = ~Abito dell'Alto Templare~
+@1088 = ~Questo potente abito da Mago offre protezione da tutte le forme di attacco fisico e al tempo stesso incrementa la resistenza alla magia e il Tiro Salvezza. Data la natura del suo incantesimo, questo abito può essere indossato solamente da maghi di allineamento buono.
+STATISTICHE:
+
+Classe Armatura:  +2 Bonus
+Resistenza alla Magia: +25%
+Tiro Salvezza:  +3 bonus
+Peso:  6
+
+Utilizzabile solo da:
+ Mago (singolo, duale e multiclasse)
+ Personaggi con allineamento buono~
+
+@1089 = ~Abito della Stregoneria~
+@1090 = ~Questo potente abito da Mago offre protezione da tutte le forme di attacco fisico e nello stesso incrementa la resistenza alla magia e il Tiro Salvezza. Data la natura del suo incantesimo, questo abito può essere indossato solamente da maghi di allineamento neutrale.
+
+STATISTICHE:
+
+Classe Armatura: +2 Bonus
+Resistenza alla Magia: +25%
+Tiro Salvezza: +3 bonus
+Peso: 6
+ Utilizzabile solo da:
+ Mago (singolo, duale, e multiclasse)
+ Personaggi con allineamento Neutrale~
+
+@1092 = ~Cintura Sacra della Velocità~
+@1094 = ~Riccamente ornata e sacra questa cintura porta il segno della Sacra Guardia di Sukien. E' molto famosa per avere l'abilità di attaccare con grande fervore e si è sempre creduto che fosse una naturale abilità che proveniva dall'interno della cintura stessa. La bravura della guardia ha permesso che il segreto della abilità della cintura sia rimasto nascosto per così molto tempo.
+
+STATISTICHE:
+
+Classe Armatura Bonus:
+  +3 contro armi perforanti e armi da lancio
+Speciale: Velocità
+
+Peso:  2
+
+Utilizzabile solo da:
+ Paladino~
+
+@1096 = ~Il Mantello di Morridin~
+@1098 = ~Questo mantello una volta apparteneva al famoso bardo Morridin. Di questo mantello, malgrado sia intrecciato abbondantemente d'oro al suo interno, Morridin diceva che era solo "...un semplice mantello che offriva una modesta protezione dagli elementi". Il mantello, insieme a molti altri oggetti personali di Morridin sono divenuti argomento di discussione per molti.
+
+STATISTICHE:
+
+Classe Armatura:  +1 bonus
+Speciale:  +1 al carisma
+Peso:  3
+
+Utilizzabile solo da:
+ Bardo~
+
+@1099 = ~Mantello Sbiadito~
+@1100 = ~Questo mantello fu creato dal Signore degli Stregoni Noober Harpell prima di divenire folle. Amante dei mantelli elfici che vide durante i suoi viaggi, ne riprodusse una copia simile. Quando indossato, fa sbiadire il possessore quasi completamente, permettendogli di spostarsi pressocché impunemente. Nel mantello c'è cucito 'Proprietà di Noober, figlio di Noober'
+STATISTICHE:
+
+Speciale:
+  Fa sbiadire chi lo indossa del 75% (simile all'invisibilità)
+
+Peso:  3
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@1101 = ~Mantello del Bosco~
+@1102 = ~Rubato dal tempio di Erreth-Akbe, il mantello fu recuperato dall'Arcidruido Yarrow mentre cercava di vendicarsi contro chi deturpò il suo tempio. Si dice che il mantello fu donato a suo figlio Shephesh come regalo.
+
+STATISTICHE:
+
+Classe Armatura: +2
+
+Speciale:
+  Aumenta la Segretezza
+  Anti-Individuazione
+
+Peso:  3
+
+Utilizzabile solo da:
+ Ranger~
+
+@1103 = ~Mantello di Protezione +3~
+@1104 = ~Mantello di Protezione +3:  'Il Mantello di Mystra'
+Si dice che questi mantelli sono donati solo a pochi eletti di Mystra, i più meritevoli sacerdoti. Forse è dovuto a qualche sacerdote 'prematuramente' morto, ma alcuni mantelli sono stati visti al di fuori di queste organizzazioni religiose. Il mantello dà a chi lo indossa non solo bonus ad attacchi fisici e magici ma lo protegge anche dagli attacchi dei Non Morti.
+ STATISTICHE:
+
+Classe Armatura:  +3 bonus
+Tiro Salvezza: +2 bonus
+Speciale: Protezione dai Non Morti
+
+Peso:  3
+
+Non utilizzabile da
+ Ammazzastregoni~
+
+@1106 = ~Bracciali di Pelle di Drago~
+@1108 = ~Questi bracciali sono rivestiti di pelle di drago. Sono simili agli oggetti creati dai druidi artigiani in rare occasioni come ad esempio la morte di un vecchio drago o di un cucciolo di drago.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 2
+
+Non utilizzabile da:
+ Ammazzastregoni
+ Kensai~
+
+@1110 = ~Guanti della Destrezza~
+@1112 = ~Guanti della Destrezza: 'Le Mani Litigiose'
+Questo paio di guanti sono stati probabilmente creati in Kara-Tur con l'aiuto dei maestri delle arti marziali. Le leggende parlano di questi maestri partiti dal Lontano Est che portavano questi oggetti con loro durante i loro viaggi, benché i dettagli rimangano comunque vaghi.
+
+STATISTICHE:
+
+Speciale:  +2 Bonus alla Destrezza
+
+Peso: 2
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@1113 = ~Otrad Atwah: 'Guanti dei Maghi'~
+@1114 = ~Persino il più potente dei saggi può talvolta trovarsi impreparato durante una battaglia e senza magia per sconfiggere un avversario. E' proprio per questi eventi che Sharga ha commissionato questi guanti. Essi forniscono una generica protezione alla magia con un piccolo aiuto extra quando il combattimento degenera in una lotta diretta.
+
+STATISTICHE:
+
+Classe Armatura: 0
+
+Speciale:
+  Aumenta gli Attacchi
+  Aumenta i Tiri Salvezza
+  Resistenza alla Magia +25%
+
+Peso: 2
+
+Utilizzabile solo da:
+ Mago (Solo di Classe singola)~
+
+@1115 = ~Dono del Bosco~
+@1116 = ~Ovunque i druidi ed i rangers si battono per proteggere il selvaggio da ogni intromissione della civiltà. Occasionalmente gli abitanti del selvaggio concedono agli zelanti protettori dei boschi i loro aiuti per assisterli nei loro sforzi di protezione dell'ambiente.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Speciale:
+  Aumenta gli Attacchi
+  Aumenta la resistenza alla Pietrificazione
+
+Peso: 2
+
+Utilizzabile solo da:
+ Druidi
+ Rangers~
+
+@1117 = ~Bracciali del Mago~
+@1118 = ~L'origine esatta di questi bracciali è sconosciuta. Ovunque ci sono numerose storie e dicerie sulla loro corretta locazione e le sue origini. Si discute ancora fortemente sul quando siano stati creati e sugli incantesimi piazzati sopra questi bracciali, diversamente da molti artefatti di epoca simile.
+
+STATISTICHE:
+
+Classe Armatura Bonus: +2
+Speciale:
+  Aumenta il tempo di lancio degli incantesimi
+ Peso:  2
+
+Utilizzabile solo da:
+ Mago
+ Bardo~
+
+@1119 = ~Guanti del Guerriero Fedele~
+@1120 = ~Molte divinità sono conosciute ovunque per concedere dei vantaggi ai loro seguaci con degli oggetti benedetti. Questo deve essere sicuramente uno di quei casi, anche se l'esatta origine di questi guanti è sconosciuta.
+
+STATISTICHE:
+
+THAC0:  +3 bonus
+Danno:  +3 bonus
+Peso: 1
+
+Utilizzabile solo da:
+ Chierico (singolo e multiclasse)~
+
+@1124 = ~Questo anello è stato dato al predone costiero e cacciatore conosciuto come Edventar da un gruppo di elfi acquatici suoi vecchi amici. Il suo aiuto nel respingere la "Regina dei Pirati" Yenandra di Dambrath è stato fondamentale per la loro sopravvivenza, anche se Yenandra continua ad essere temuta su ogni altra costa.
+
+STATISTICHE:
+
+Il portatore è immune ad ogni cosa, di natura magica o meno, che influenzi in qualsiasi modo la mobilità, sebbene può, tuttavia, essere affrettato. Questo anello è stato incantato in modo tale che gli effetti benefici, come ad esempio quelli ricevuti dagli stivali di velocità, funzionano finché si indossa l'anello.~
+
+@1125 = ~Anello degli Antichi~
+@1126 = ~Creato da una razza sconosciuta chiamata gli Antichi. Molte delle abilità, degli usi e dei cimeli che rimangono di quella razza antica sono sconosciuti persino ai discendenti diretti degli Antichi.
+
+STATISTICHE:
+
+Aggiunge un incantesimo da mago ed uno da chierico per Livello per i Livelli tra 1 e 4
+
+Utilizzabile solo da:
+ Chierico-Mago (solo multiclasse)~
+
+@1127 = ~Anello dell'Apprendista~
+@1128 = ~Simili anelli sono spesso dati agli apprendisti che dimostrano un eccezionale talento o sono meritevoli.
+
+STATISTICHE:
+
+Speciale:  aggiunge due incantesimi al 1° livello, uno al 2°, ed uno al 3°
+
+Utilizzabile da:
+ Mago
+ Bardo~
+
+@1129 = ~Anello del Sacerdote Ghaunadaur~
+@1130 = ~Un anello speciale per qualsiasi sacerdote. Concede l'immunità al veleno.
+
+Utilizzabile da:
+ Chierico
+ Druido
+ Paladino
+ Ranger~
+
+@1131 = ~Una versione migliorata dell'Anello del Sacerdote Ghaunadaur. Quest'anello fornisce l'immunità al veleno e all'acido.
+
+Utilizzabile da:
+ Chierico
+ Druido
+ Paladino
+ Ranger~
+
+@1133 = ~Runa Pietra Sigillo Fortunata di Mopap~
+@1135 = ~Molte dicerie della Costa della Spada parlano di uno scoiattolo cinguettante che aveva una Pietra Sigillo Fortunata. Tuttavia, nessuno è stato in grado di confermare queste voci.
+
+STATISTICHE:
+  +1 alla Fortuna
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1136 = ~L'Anello Mistico~
+@1137 = ~Le esatte origini di questo anello sono sconosciute, tuttavia, si crede che sia stato di proprietà di un grande mago che visse in un piccolo villaggio comportandosi come 'uomo saggio' prima di morire.
+
+STATISTICHE:
+
+Incantesimi:  aggiunge un incantesimo al 2°, 3°, e 4° Livello
+
+Utilizzabile da:
+ Mago
+ Bardo~
+
+@1138 = ~'L'Infallibile Deviatore di Proiettili'~
+@1139 = ~Questo anello crea un campo di forza invisibile intorno a chi lo possiede che devia i proiettili. Persino un proiettile puntato perfettamente devierà e mancherà colui che indossa l'anello oppure si fermerà in volo e cadrà a terra.
+
+STATISTICHE:
+
+Speciale: Dà al possessore la protezione completa dalle armi da lancio non magiche.
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1140 = ~L'Anello del Viaggiatore~
+@1141 = ~Questo è stato l'anello personale del famoso bardo Morridin. E' mancante di una pietra. Quando gli si chiedeva in che modo l'anello perse la pietra, Morridin rispondeva semplicemente, "Cadde durante i miei viaggi."  Il suo anello divenne rapidamente conosciuto col nome di anello del viaggiatore. Poiché Morridin non ha mai detto cosa faceva esattamente questo anello, l'esatta natura degli incantesimi posti su di esso sono sconosciuti.
+
+STATISTICHE:
+
+Sconosciute
+
+Utilizzabile da:
+ Solo dal Bardo~
+
+@1142 = ~L'Anello del Bardo~
+@1143 = ~Le esatte origini di questo anello sono sconosciute, molti credono che fu creato circa 200 anni fa. E' incastonato con una singola pietra di un materiale sconosciuto che irradia una leggerà luminosità. Benché l'anello sia freddo al tocco, questo senso di gelo è insolitamente confortante.
+
+STATISTICHE:
+
+ Memorizza 1 Incantesimo Aggiuntivo di 1° Livello
+ Memorizza 1 Incantesimo Aggiuntivo di 3° Livello
+ Memorizza 1 Incantesimo Aggiuntivo di 5° Livello
+
+Utilizzabile solo da:
+ Bardi~
+
+@1144 = ~Anello col Sigillo di Sukien~
+@1145 = ~Incantato con la magia dell'Alto Sacerdote del Tempio di Sukien, questo anello ce l'hanno tutti coloro  che proteggono il Tempio dalla malvagità.
+
+STATISTICHE:
+
+Classe Armatura:+1 bonus
+Tiri Salvezza:  +2 bonus
+Speciale: Protezione dalla Pietrificazione
+
+Utilizzabile solo da:
+ Paladino~
+
+@1146 = ~Anello di Protezione dal Fuoco~
+@1147 = ~Anello di Protezione dal Fuoco, "Il Bagliore di Charvirak"
+E' dall'alba dei tempi che gli Stregoni usano gli elementi per aiutarsi sia negli attacchi che nella difesa. Questo anello è lavorato a mano da un grande stregone: Charvirak di Cormyr. Lui dice che ha rubato l'essenza da un golem di fuoco e l'ha intrappolata all'interno dell'anello.
+
+STATISTICHE:
+
+Classe Armatura Bonus +4
+Speciale:
+  Resistenza alle Armi Non Magiche
+  Dà Immunità al Fuoco
+
+Utilizzabile solo da:
+ Druido~
+
+@1148 = ~Anello di Jet'laya~
+@1149 = ~Questo anello apparteneva alla madre di Jet'laya.~
+
+@1151 = ~Davaeorn,
+Le mie fonti mi hanno detto che una piccola banda di mercenari, alcuni dei quali possono essere membri degli Arpisti, sono nell'area della Locanda di Braccio Amico. Ho inviato Tarnesh per investigare e fermare chiunque essi siano, ma non l'ho visto tornare. Ti consiglio di inviare immediatamente Drasus e Genthore alla Locanda di Braccio Amico. Avvisa Tazok della situazione.
+
+Reiltar~
+@1152 = ~Otho amico mio,
+
+Ci sono degli intrepidi avventurieri a cui ho parlato di te. Apprezzerei molto se tu volessi creare per loro una mazza di eccellente qualità e forza. Loro mi hanno reso un grande servizio ed hanno dimostrato grande valore. L'Arma sarà molto importante per il loro prossimo futuro.
+
+Il tuo amico,
+ Lennan~
+@1153 = ~Lord Daerthmac,
+
+Consacro il mio corpo, la mia anima e la mia mente al vostro servizio e vi amo come non ho mai amato nessuno.  Vostra per l'eternità,
+ Clairis~
+@1154 = ~Amici,
+Siete stati valorosi e onorevoli. Con il vostro aiuto abbiamo fermato Lord Daerthmac che stava diffondendo terrore ovunque. Mi dispiace che molti di voi abbiano perso le loro vite. Non avrei mai dovuto mettervi in pericolo con una guerra che era solo mia. Ora vi lascio perché questo è il mio modo di vivere. Tuttavia, se avrò di nuovo altre avventure con un gruppo, speriamo che siano valorosi ed onorevoli come voi.
+
+Vi saluto,
+ CúChoinneach e Madadh n'Sgàil~
+@1155 = ~Lettera a Thomic~
+@1156 = ~Thomic,
+Hai lasciato ancora a casa la lista della spesa. Non dimenticarti di portare questa merce con te quando tornerai a casa.
+
+Pane
+Latte
+Pollo
+
+Assicurati che siano buoni. Inoltre hai portato la tua tunica da pioggia? Potrebbe piovere.
+
+Torna in fretta e cerca di non fermarti ad ogni locanda che c'è lungo la strada.
+
+Katerin~
+@1157 = ~Berrto Ghaskill~
+@1158 = ~Magic Jar~
+@1159 = ~Questa fiala è una delle sei che contengono le anime degli ormai ex compagni e amici del mago trasformato in lich, conosciuto come l'Essere Oscuro.
+
+Restituisci queste fiale ai fantasmi per liberarli.~
+@1160 = ~Filatterio di Koroval Na'Krugen~
+@1161 = ~Questo è un vaso che contiene la forza vitale dell'Essere Oscuro, in passato conosciuto come Koroval Na'Krugen. Attraverso un malvagio rituale, è stato in grado di trasformarsi in una potentissima creatura Non Morta meglio conosciuta col nome di Lich. Un Lich passa la sua intera esistenza cercando potentissime magie che non era in grado di ottenere rimanendo nella sua forma mortale. Questa è, di solito, la ragione per cui un mago sceglie di prendere questa orrida forma.
+
+Per distruggere il Lich conosciuto come l'Essere Oscuro, devi essere in possesso di questo Filatterio che gli impedirà di resuscitare.~
+
+@1162 = ~Antica Reliquia di Lathander~
+@1163 = ~Questa è la reliquia che cerchi.~
+@1164 = ~Calice Antico~
+@1165 = ~Calice Sacro~
+@1166 = ~Questo Calice sembra essere piuttosto antico.~
+@1167 = ~Si dice che chi beve da questo sacro calice ottenga una grande benedizione. L'incisione sul calice dice: "Quelli che berranno nella Luce otterranno una grande benedizione".
+
+Speciale:
+  Concede l'abilità innata 'Seguace della Luce'
+
+Utilizzabile da:
+ Paladino
+ Chierico (Solo di allineamento Buono)~
+
+@1169 = ~Grido di Battaglia~
+@1170 = ~Questo raffinato corno è fatto a mano e decorato con strisce rosse e intagli runici.~
+@1171 = ~Quando Neshum Serret era alla guida della sua armata contro gli orchi portò con sé un giovane bardo che gli fece un regalo, un corno incantato dai grandi poteri. All'inizio di ogni battaglia il bardo era solito suonare il Grido di Battaglia. Lo strano e minaccioso suono del corno causava paura nei cuori di molti nemici.
+
+STATISTICHE:
+
+Speciale: Costringe i nemici a scappare in preda alla paura, a meno che non gli riesca un Tiro Salvezza contro Incantesimi.
+Raggio di Azione:  30 metri
+Area:  6 metri di raggio
+Durata:  15 round
+
+Utilizzabile solo da:
+ Bardo~
+
+@1173 = ~Come per le altre borse magiche, questa a prima vista sembra essere una semplice sacca di tela di circa 60 cm per 120 cm. La borsa conservante si apre invece su uno spazio extradimensionale, ed il suo interno è molto più grande dell'esterno. A prescindere da cosa ci sia stato messo dentro, la borsa pesa sempre allo stesso modo~
+
+@1174 = ~Liuto~
+@1175 = ~La Melodia di Nyriad~
+@1176 = ~Questo raffinato Liuto è fatto a mano, i suoi fili sono d'argento e la struttura è in legno intarsiata d'oro. La lavorazione è di rara bellezza, perfetta e quasi inumana. Il Liuto è tanto perfetto che, infatti, perfino delle dita inesperte suonandolo e muovendo i suoi fili sembrano accordare lo strumento e sensibilizzare i cuori di chi ascolta. Stranamente, non sembra esserci un modo visibile per accordare il liuto, come se non fosse necessario. Una sensazione di timore riverente inizia a insinuarsi in te guardando la complessità di questo bellissimo strumento.~
+@1177 = ~Le origini di questo liuto sono sconosciute, il suo creatore tuttavia sembra si sia ispirato ad un vecchio proverbio che dice "La Musica ha fascino...". Quando è suonato da un esperto musicista questo strumento produce un suono che può lasciare chi lo ascolta totalmente incantato.
+
+STATISTICHE:
+
+Speciale: Charme Distruttivo
+Raggio di Azione: 30 metri
+Area:  1 creatura
+
+Utilizzabile solo da:
+ Bardo~
+
+@1239 = ~Il Volume del Grande Mago Grun'lerthkin~
+@1241 = ~Questo volume è rilegato con una magnifica copertina di cuoio, e contiene i magici scritti e gli appunti del grande mago Grun'lerthkin. Grun'lerthkin, all'apice della sua fama, risiedeva nella città di Myth Drannor. Appena finisci di leggere gli scritti e gli appunti magici diventi più sapiente ed hai come la sensazione di avere le capacità di un mago che ha il doppio della tua esperienza.
+
+STATISTICHE:
+
+Una volta letto raddoppia i punti esperienza
+Speciale: Una volta letto il libro scompare
+Uso:  Piazzare negli slot degli oggetti rapidi
+
+Utilizzabile da:
+ Mago (Solo di Classe Singola)~
+@124100 = ~Raddoppiati i punti esperienza~
+
+@1242 = ~Storia del Lato Oscuro~
+@1243 = ~Storia del Lato Oscuro
+
+ Molto tempo fa un saggio mago di nome Roach incontrò il giovane elfo CúChoinneach. Roach vide in questo giovane elfo il vero spirito dell'avventura e gli chiese se voleva viaggiare con lui. Questi viaggi riguardavano i segreti e i misteri della Costa della Spada. Roach sapeva che c'erano molte cose da poter scoprire. Sotto la guida e l'incoraggiamento di Roach, CúChoinneach iniziò a scoprire molte storie oscure che erano rimaste ancora segrete sotto l'apparenza di normali racconti che riguardavano la Costa della Spada. Passò molte notti insonni provando a lanciare le giuste Stregonerie affinché gli rivelassero altri misteri. A volte aveva successo, con suo grande stupore. Altre volte, però i suoi fallimenti erano deprimenti e scoraggianti. Aveva a che fare anche con il fatto che molti sostenevano che il Lato Oscuro non esistesse, o se esisteva, era meglio lasciarlo ad avventurieri più esperti. Ma CúChoinneach non ci badò e continuò le sue ricerche.
+ Durante il suo viaggio, CúChoinneach incontrò una serie di individui unici che, a loro modo, contribuirono alle scoperte di Roach e CúChoinneach. Tra questi pittoreschi abitanti della Costa della Spada ci fu un uomo conosciuto semplicemente come Ken il Fornaio, anche se non era un Fornaio, ma nessuno sapeva chi gli aveva dato questo nome. Si può incontrare spesso al Giocoliere Giocoso a Beregost, di solito proprio dopo una grande vittoria del Team Baldur's Gate. Ken, come qualcuno lo chiama, credeva che molti misteri giacessero ancora nascosti lungo la Costa della Spada e il suo team di "Stregoni" partì per iniziare la ricerca di questi misteri. Tra questi stregoni c'erano incantatori, illusionisti, e la rappresentativa di ogni altra scuola di magia.
+
+ Uno di questi individui dal semplice nome di Banelord, fu in grado di mostrare a CúChoinneach qualcuno dei concetti più importanti sulla Stregoneria, ma dopo poco tempo Banelord svanì dalla scena. Sulla rapida partenza di Banelord abbondano i pettegolezzi, ma nessuno sa con certezza il vero motivo della sua partenza.
+ La lista continuò a crescere come i viaggi continuarono...
+
+Riconoscimenti:
+Idea originale di Roach.
+Sviluppo della Storia di CúChoinneach e Roach.
+Aree e Creature Disegnate e Stregate da CúChoinneach.
+Logo Darkside creato da WoRm.
+Gli oggetti sono stati creati da molti Stregoni per cui una lista completa sarebbe molto numerosa... (CúChoinneach non vorrebbe lasciarne fuori nessuno. Ma se vai sul sito del TeamBG potrai visitare i siti partner del TeamBG e trovare il creatore del tuo oggetto preferito).
+I suoni per Jet'Laya, Keiria Silverstring e Conchobhair Strongblade, sono stati editati da Grog.
+L'NPC Jet'Laya è stata creata da Grog. Tutti gli altri NPC sono stati creati da CúChoinneach.
+La Voce e la Biografia per Ferthgil Trollslayer sono stati forniti da Gothmog del Clan Stonehearth.
+Le immagini di qualche oggetto sono state create da WoRm Website e Publicity di Ken Baker.
+
+Niente di tutto questo sarebbe stato possibile senza Ken Baker e il TeamBG. Il TeamBG ha permesso di riunire tutte le idee ed ha fornito gli ingredienti necessari per fare successo!
+Infine un rapido ringraziamento a Gustov Montessie che è stato il maggior contributore di editor ed altri programmi che hanno reso possibile creare oggetti ed incantesimi. Ed un grazie a tutti i TeamBG Partner.
+
+Ringraziamenti speciali alla Black Isle Studios, Bioware Corp., Interplay Productions, e tutte le persone che sono state coinvolte nella creazione di Baldur's Gate e Tales of the Sword Coast. Senza dubbio il più grande CRPG mai creato, e senza il quale non sarebbe stato possibile la creazione di DSotSC.
+Il mio ultimo ringraziamento va a te! L'avventuriero che sta leggendo questo ed è stato capace di ritrovarlo in uno scaffale da qualche parte nel Lato Oscuro della Costa della Spada. Ora esci e fai saltare qualche testa di "Avidi Goblin!"
+
+CúChoinneach~
+
+@1244 = ~Acquasanta Benedetta~
+@1245 = ~L'acqua in questa boccetta è stata benedetta è quando la lanci su una creatura Non Morta farà 1d8 equivalente ad un danno da acido.~
+@1247 = ~Cuore del Bosco~
+
+@1249 = ~Gli intagli scritti nell'amuleto parlano della vita e dei poteri della dea madre. C'è impresso un inconfondibile segno runico, il simbolo di Erreth-Akbe, il grande tempio del nord dei druidi. Sebbene sia chiaramente antico il talismano ancora brilla come se fosse nuovo, i suoi poteri devono trovarsi all'interno. Una volta finito di osservarlo si può notare qualche piccolo segno di guerra; probabilmente i suoi poteri non sono così eterni.
+
+STATISTICHE:
+
+Speciale:  Dà Protezione dall'Acido
+
+Utilizzabile solo da:
+ Personaggi di Allineamento Neutrale~
+
+@1251 = ~Collana di Ferium~
+@1253 = ~Questa collana è stata donata a Ferium dal suo amato, Ken'lan. L'iscrizione sul retro dice "Per te amore mio fino a quando la luna finisce di scolorire."
+
+Jet'Laya ha suggerito di portarla a Lennan, lo zio di Ferium, che sta aspettando al Giocoliere Giocoso a Beregost.~
+
+@1254 = ~Amuleto Sacro di Sehanin Moonbow~
+@1255 = ~Questo è l'Amuleto Sacro dei seguaci di Sehanin Moonbow. E' formato da una collana di mithril e da un raggio di luna di cristallo, tipo ciondolo, dalla forma di un disco piatto, (circa 7,62 centimetri di diametro) da indossare intorno al collo.
+
+STATISTICHE:
+
+Speciale:
+  Raddoppia tutti gli incantesimi del Sacerdote del 1°, 2° e 3° Livello
+  +1 a tutti i tiri salvezza
+
+Utilizzabile da:
+ Chierico
+ Druido
+ Ranger
+ Paladino
+ Personaggi di Allineamento Non malvagio~
+
+@1256 = ~La vera natura di questo amuleto è sconosciuta. Sembra avere grandi poteri.~
+
+@1257 = ~Amuleto marchiato dei Segoy~
+@1258 = ~Questo amuleto rivela il marchio del simbolo dei Segoy, una spietata banda di assassini. La malvagità sembra quasi sprigionare dall'amuleto come se la tenessi nelle tue mani. Questo oggetto è incantato con la magia che gli fornisce uno charme protettivo, sebbene hai la sensazione che i poteri di questo amuleto abbiano comunque un limite.
+
+STATISTICHE:
+
+Speciale:  Dà protezone dal Fuoco
+ Utilizzabile solo da:
+ Personaggi di Allineamento Malvagio~
+
+@1259 = ~Collana di Solfato di Rame della Destrezza~
+@1260 = ~Sei veramente un avventuriero molto fortunato. Questa Collana di Solfato di Rame incrementa la tua Destrezza e ti dà un +3 di bonus al THAC0! Non farla cadere in mani sbagliate.....
+ Speciale:
+  +3 di Bonus alla Destrezza e +3 al THAC0 finché è indossata
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1261 = ~Amuleto della Fede~
+@1262 = ~Sparsi per i reami ci sono molti oggetti simili, ma lo scopo di questi amuleti è più simbolico che pratico. Più comunemente questi oggetti sono usati per rivelare la fede per certe divinità.
+
+STATISTICHE:
+
+Classe Armatura Bonus:  1
+Tiro salvezza contro Morte: +1 Speciale: +1 all'incantesimo di 1° Livello dei sacerdoti
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1263 = ~Antica Collana di Perle di Jules~ @1264 = ~Amuleto del Sapiente~
+@1265 = ~Simili regali sono spesso conferiti subito dopo che un apprendista ha terminato, oppure sta per terminare, il suo apprendistato con un mago.
+
+STATISTICHE:
+
+Incantesimi:  aggiunge un incantesimo di 1° Livello e due di 2° e 3° Livello
+
+Utilizzabile da:
+ Mago
+ Bardo~
+
+@1266 = ~Amuleto della Non-Individuazione~
+@1267 = ~Una variante dell'amuleto di resistenza contro l'individuazione. I luoghi dove sono collocati questi particolari amuleti sono molto ricercati, specialmente dalle spie, dai ladri e dagli assassini, come anche gli amuleti come questo, che è stato riprodotto successivamente all'amuleto di resistenza contro l'individuazione.
+
+STATISTICHE:
+
+Garantisce la Non-Individuazione a chi lo indossa
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1268 = ~Amuleto della Visione Distante~
+@1269 = ~L'Amuleto della Visione Distante è conosciuto per le sue abilità di accrescere la capacità visiva di chi lo indossa, l'Amuleto della Visione Distante è molto ricercato dai capi dei grandi eserciti poiché ha la capacità di vedere cose lontane miglia e miglia potendo così rispondere alle eventuali strategie nemiche. Le sue origini e la sua recente storia sono sconosciute.
+
+STATISTICHE:
+
+Speciale:
+  Fornisce a chi lo usa della vista migliorata (Chiaroveggenza)
+
+Non utilizzabile da:
+  Ammazzastregoni~
+
+@1271 = ~Freccia che trafigge il Drago~
+@1273 = ~Questa freccia è contorta e nera, sembra che emani malvagità come se fosse posseduta da qualcosa di più grande. E' stata creata specificatamente per trafiggere una potente armatura fatta di scaglie ed uccidere solo una creatura e solo una. In questo caso si tratta delle scaglie del temuto drago. Questa freccia ucciderà tutti i draghi minori o viverne, ai draghi maggiori dà un danno extra con possibilità di ucciderli e si ha, inoltre, una grande possibilità di uccidere quello che minaccia gli elfi della foresta, ovvero il Drago della Foresta.
+
+STATISTICHE:
+
+Danno:  1D6
+Tipo di danno: proiettile (perforante)
+
+Speciale:
+  Uccide i Draghi Minori e le Viverne subito dopo il contatto
+  +3 Danno/+3 Per Colpire tutti i Draghi
+  10% di possibilità di uccidere tutti i Draghi
+
+Peso: 0
+Competenza: Arco~
+
+@1275 = ~Frecce 'Puntura mortale'~
+@1277 = ~Queste frecce non sono di una qualità eccezionale ed infatti la loro struttura è un po' grezza. Tuttavia sono state bagnate con un veleno mortale che rende queste frecce particolarmente pericolose sia per il bersaglio che per il possessore.
+
+STATISTICHE:
+
+15% di possibilità che il possessore si possa pungere ed avere un danno da veleno di 4
+
+Danno:  1D6 (+6 da veleno, tiro salvezza per dimezzare i danni)
+Tipo di danno:  proiettile (perforante)
+Peso:  0
+Competenza: Arco~
+
+@1278 = ~Freccia Colpente~
+
+@1279 = ~Questa freccia è lucente e blu con una luminosità dorata sulla punta. E' piena di magia ed è luminosa e piccola come le frecce normali. E' la freccia preferita della Guardia Sacra del Sukien, che si dice posseggano un arco che le può creare.
+
+STATISTICHE:
+
+Danno:  1D6 + 2, +2D3 danno magico
+Tipo di danno: proiettile (perforante)
+Peso: 0
+Competenza: Arco~
+
+@1281 = ~Dardo +1 di Dissoluzione~
+@1283 = ~I quadrelli o i dardi sono le munizioni lanciate dalle balestre le quali non badano alle dimensioni dell'arma. Tuttavia questo dardo è stato imbevuto con una piccola quantità di proprietà magica che ne accresce il rendimento in battaglia, come se il dardo fosse guidato dal suo stesso bersaglio.
+STATISTICHE:
+
+Danno: 1D8 + 1
+THAC0:  +1
+Speciale: Dissolvi Magie
+Tipo di danno: proiettile (perforante)
+Competenza: Balestra~
+
+@1285 = ~Proiettile di Detonazione~
+@1287 = ~Questo proiettile ha un particolare effetto debilitante sulle sue vittime. Subito dopo l'impatto esplode in un'enorme palla di fuoco ed i suoi frammenti si cospargono per tutta l'area.
+ STATISTICHE:
+
+Danno:  1D4 + 1
+Speciale:
+  6D6 di esplosione subito dopo l'impatto (metà danni se si è protetti da salva contro incantesimi)
+Tipo di danno: proiettile (perforante)
+Competenza: Fionda~
+
+@1288 = ~Proiettile di Acqua Benedetta~
+@1289 = ~Questo proiettile è pieno di energia magica in modo da essere un pò più bilanciato e luminoso quando si appresta a colpire l'avversario, inoltre è anche bagnato nell'acqua benedetta, così da dare un danno extra alle creature non morte.
+
+STATISTICHE:
+
+Danno: 1D4 + 2
+THAC0:  +1
+Speciale:
+  2D3 alle creature non morte
+Tipo di danno: proiettile (perforante)
+Competenza: Fionda~
+
+@1292 = ~Stivali della Foresta~
+@1294 = ~E' uno dei regali più classici donati ai protettori delle foreste, questi stivali forniscono al possessore una maggiore velocità, di muoversi silenziosamente ed una certa abilità di schivare le trappole.
+
+STATISTICHE:
+
+Utilizzabile solo da:
+ Druido (Solo Classe Singola)
+ Ranger (Solo Classe Singola)~
+
+@1295 = ~Stivali del Coraggio~
+@1296 = ~Stivali del Coraggio:  'Piedi Tonanti'
+La magia di questi stivali è stata specificatamente disegnata al fine di aiutare il possessore a resistere agli attacchi contundenti. Questi stivali rendono il possessore stabile sul terreno dandogli la capacità di resistere ai colpi.
+
+STATISTICHE:
+
+Classe Armatura bonus:  +5 contro armi contundenti
+Peso: 18
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Ammazzastregoni~
+
+@1300 = ~ Questo scudo fu commissionato ad alcuni tra i più abili fabbri nani da Pellan di Tyr, un paladino famoso per un indiscutibile coraggio e una totale mancanza di buon senso. Avendo saputo che un drago rosso si aggirava nella campagna, Pellan montò sul suo cavallo e si precipitò per combatterlo. Il drago digerì benissimo sia Pellan che la sua corazza, mentre lo scudo gli provocò crampi fortissimi allo stomaco. Con un colpo di tosse riuscì a espellerlo, ma finì in mezzo alla sua pila di monete d'oro. Lì rimase nascosto per molti anni, finché il figlio di Pellan, un paladino piuttosto sveglio, lo ritrovò.
+La maestria con cui è costruito è esaltata da un incantesimo permanente di leggerezza, che rende lo scudo molto facile da indossare.
+
+STATISTICHE:
+
+Classe Armatura Bonus: 3
+Speciale:  +1 contro le Armi da Lancio
+Peso: 10
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1302 = ~Scudo Piccolo +3 di CúChoinneach 'La Luna'~
+@1304 = ~CúChoinneach ha costruito questo scudo per se stesso dopo aver ricevuto la scimitarra 'Mairail' da Sehanin Moonbow. Questo scudo è costituito da mithril e dal duro legno della foresta.
+
+STATISTICHE:
+
+Classe Armatura Bonus: +4
+Speciale: Nessuna protezione per l'arma da Lancio
+
+Peso: 3
+
+Utilizzabile solo da:
+ CúChoinneach~
+
+@1305 = ~Scudo Piccolo +2~
+@1306 = ~Questo è lo scudo personale di Jet'laya. Il legno che costituisce lo scudo è stato preso da un albero della foresta sacra ed il metallo usato durante la creazione di questo scudo è stato forgiato nell'acqua benedetta. In questo modo la presenza di questo scudo porterà quasi tutte le creature Non Morte ad indietreggiare dal suo possessore.
+
+STATISTICHE:
+
+Classe Armatura Bonus: +3
+Speciale:
+  Nessuna Protezione per l'arma da Lancio
+  THAC0 +2 Bonus contro i Non Morti
+
+Peso: 3
+
+Utilizzabile solo da:
+ Jet'laya~
+
+@1307 = ~Scudo Piccolo +2 'Scudo del Sole'~
+@1308 = ~Questo scudo è caldo al tocco come se un grande fuoco ardesse al suo interno. Le origini di questo scudo non si conoscono e molti dei suoi segreti rimangono sconosciuti.
+
+STATISTICHE:
+
+Classe Armatura Bonus: 3
+Speciale:
+  Aumenta la resistenza al Freddo
+  Diminuisce la resistenza al Fuoco
+
+Peso: 3
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1312 = ~Uno scudo medio si porta come uno scudo piccolo, tuttavia, al contrario di quanto avviene con lo scudo piccolo, il suo peso non consente al personaggio di utilizzare la mano che lo sostiene per nessun altro scopo. Gli scudi medi sono in genere fatti di metallo, il loro diametro va da 90 a 120 cm e possono avere qualsiasi forma, dalla rotonda alla quadrata, a quella delle ali spiegate di un drago. Un tipico scudo medievale ricorda un triangolo con uno dei vertici rivolto verso il basso.
+
+STATISTICHE:
+
+Classe Armatura Bonus: 3
+Peso: 6
+Richiede: 12 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1313 = ~Scudo Medio +2 'Cuore del Drago'~
+@1314 = ~Un Cavaliere relativamente sconosciuto, Neshum non fu mai svelto di mente. Quando viaggiava attraverso il nord si imbatté in una battaglia tra diversi guerrieri ed un drago. Neshum decise che la battaglia non era equa e si armò in difesa del drago. L'aiuto di Neshum diede la svolta ed i guerrieri furono sconfitti. Benderesk, il drago, ripagò l'aiuto del cavaliere donandogli uno scudo al quale conferì la forza del cuore di un drago. Benderesk si riprese il suo regalo qualche anno dopo quando Neshum fu assunto da qualche villaggio come guerriero con lo scopo di liberare gli abitanti dal fastidioso drago.
+
+STATISTICHE:
+
+Classe Armatura Bonus: 3
+Speciale:
+  Aumenta i Punti ferita
+  Resistenza alla Magia: +5%
+
+Peso: 6
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1315 = ~Scudo Grande +2, +7 contro i Proiettili~
+@1317 = ~Scudo Grande +2, +7 contro i Proiettili: 'Il Muro'
+Durante i primi giorni della battaglia di Selidor, l'esercito di Kelub fu tempestato da un mare di frecce che annerì i cieli. Kelub ordinò ai suoi abili fabbri di creare uno scudo tale che il suo esercito avrebbe dovuto essere protetto dall'assalto dei nemici attraverso una fila di scudi. I fabbri lavorarono duramente e produssero una dozzina di questi scudi. Gli scudi funzionarono splendidamente contro le frecce ma quando le truppe furono di fronte ai loro nemici per combattere erano eccessivamente esauste.
+
+STATISTICHE:
+
+Classe Armatura: +3 bonus, +7 contro le Armi da Lancio
+Peso: 20
+Richiede: 13 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1323 = ~Katana +2 'Masamune'~
+@1325 = ~Questa katana fu forgiata da Masamune, il famoso creatore di katane. Appena finì questa katana intuì subito che aveva creato un "Capolavoro", il Re di tutte le Lame.
+
+STATISTICHE:
+
+Danno: 2D5 + 2
+THAC0:  +2 bonus
+Speciale:
+  +1 Classe Armatura bonus
+  +1 alla Destrezza
+Tipo di danno: Tagliente
+Peso:  8
+Tipo di Competenza:  Katana
+Fattore Velocità:  2
+Tipo:  ad una mano
+Richiede: 6 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Addestratore di Animali~
+
+@1326 = ~Katana +3,  'Muramasa'~
+@1328 = ~Questa è un'eccellente katana. Tuttavia, qualcuno dice che sia "maledetta", altri pensano che questa spada abbia una mente propria, senza dubbio ci si annida una oscura mente avida. Quando questa spada viene a contatto con il sangue, il possessore ha la possibilità di cadere in uno stato di berserker, come se fosse completamente controllato dalla sua spada.
+
+STATISTICHE:
+
+Danno: 2D5 + 3
+THAC0:  +3 bonus
+Speciale:   40% di possibilità che il possessore cada in uno stato di berserk subito dopo un colpo andato a segno
+Tipo di danno:  Tagliente
+Peso:  10
+Tipo di Competenza:  Katana
+Fattore Velocità:  3
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Addestratore di Animali~
+
+@1330 = ~Scimitarra +3, 'Le Lacrime di Yarrow'~
+@1332 = ~Questa Scimitarra si creò dopo la caduta del tempio di Erreth-Akbe. L'Arcidruido Yarrow, di ritorno da un'escursione scoprì che il suo tempio era stato saccheggiato durante la sua assenza. Il potente druido si voleva vendicare ed implorò gli Dei, poi pianse; e le sue lacrime, cadendo sulla sua scimitarra, conferirono alla lama, insieme al suo dolore ed il suo desiderio di vendetta, diversi poteri.
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0:  +3 bonus
+Classe Armatura: +2 Bonus
+Speciale:
+  Lancia Charmare Persona o Mammiferi 3 volte al giorno   Stordisce il bersaglio a meno che non sia protetto da Incantesimo
+Tipo di danno:  tagliente
+Peso: 3
+Fattore Velocità: 2
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 8 alla Forza
+
+Utilizzabile solo da:
+ Druido~
+
+@1334 = ~L'Ammazzadraghi di Conchobhair~
+@1336 = ~In questa spada è instillato un poderoso incantesimo e chiunque cerca di vedere quale sia la vera natura di questa spada non ci riesce poiché la spada stessa è protetta da una fortissima magia. Le sue origini e la sua storia sono sconosciute. E' la spada che 'sceglie' il suo proprietario, in questo modo la spada impedirà che altre persone non gradite possano maneggiarla. Tutti quelli che cercheranno di controllare l'arma saranno sottomessi da lei o peggio.
+
+STATISTICHE:
+ Danno: 1D10 + 4 (+3 contro Tutti i Draghi)
+THAC0:  +4 (+3 contro Tutti i Draghi)
+Speciale:
+  CA Bonus +1
+  Si ha una piccola possibilità di uccidere qualsiasi drago al contatto
+  50% di Resistenza al Fuoco e all'Acido
+  Fornisce un'Aura di Protezione
+  +2 Bonus ai tiri salvezza contro Soffio
+Tipo di danno:  tagliente
+Peso: 15
+Fattore Velocità: 6
+Tipo di Competenza: Spada a due mani
+Tipo:  a due mani
+Richiede: 14 alla Forza
+
+Utilizzabile solo da:
+ Conchobhair~
+
+@1337 = ~Scimitarra +2: 'Il Fulmine Seghettato'~
+@1338 = ~La lama mithril di questa scimitarra è seghettata in modo tale che sembra un fulmine leggermente curvato. La scimitarra fu creata a Calimshan moltissimo tempo fa da un gruppo di seguaci che adoravano un dio del tuono. Fu usata da molti sacri guerrieri di questo gruppo, per risolvere delle missioni sacre. Dell'elettricità scorre attraverso la lama e piccole onde di energia causano un fremito di piccoli fulmini lungo i suoi angoli seghettati. La scimitarra è talmente piena di energia che un po' sarà diretta anche al suo possessore ma sarà assorbita dalla scimitarra stessa. La magia della scimitarra permette anche, al suo possessore, di colpire per primo in qualsiasi situazione durante un combattimento.
+
+STATISTICHE:
+
+Danno:  1D8 + 2
+THAC0:  +2 bonus Speciale:
+  Garantisce il 40% di resistenza all'elettricità
+  Fa +1d4 di danno da Fulmine
+Tipo di danno: Tagliente
+Peso:  4
+Tipo di Competenza:  Scimitarra/Wakizashi/Ninja-To
+Fattore Velocità:  n/a
+Tipo:  ad una mano
+Richiede: 8 alla Forza
+
+Non utilizzabile da:
+ Mago
+ Chierico
+ Addestratore di Animali~
+
+@1339 = ~La Spina - La Spada del 'Campione Vigoroso'~
+@1340 = ~Durante gli ultimi giorni di Netheril, il negromante J'K'Voorkan cercò di generare un regno di Non Morti. Durante l'assalto i Non Morti minacciavano di distruggere i Reami, finché il Druido Gerofante, L'Orax, chiamò in aiuto gli dei che indussero l'Albero della Vita a produrre una singolare spina, che L'Orax prese dopo una prova faticosa. Durante questa prova faticosa L'Orax rimase a digiuno, in preghiera, in meditazione, lanciando incantesimi, e dal Grande Circolo si creò così La Spina. Questa Spina fu offerta ad uno dei più grandi capi delle forze di Luce e Vita - S'Mokye, detto "L'Orso" dai suoi uomini per la sua grande resistenza alla morte. Diventò il più importante Ranger, ed il primo dei Campioni Vigorosi. La spina passò di Campione in Campione. Il potere di questa Spina è che può chiamare molte piante della terra in suo aiuto e di conseguenza anche del suo possessore.
+
+STATISTICHE:
+
+Danno:  1D10 + 2
+THAC0:   +2 bonus
+Speciale:   Danno bonus e THAC0 contro i Non Morti
+  Il possessore può lanciare "Intralciare" a piacimento   Immunità al Veleno
+Tipo di danno:  Tagliente
+Peso:  9
+Tipo di Competenza:  Spada a due mani
+Fattore Velocità:  6
+Tipo:  a due mani
+Richiede: 14 alla Forza
+
+Utilizzabile da:
+ Ranger~
+
+@1341 = ~Sciabola~
+@1342 = ~Sciabola +2: 'Il Dente di O-Tokne'~
+@1343 = ~La lunga, ricurva e singolare lama affilata è caratteristica comune sia della sciabola che della scimitarra, anche se le loro origini appartengono a zone diverse di Faerun. La sciabola, a causa della sua struttura luminosa, è scelta da molti ladri e briganti.
+
+STATISTICHE:
+
+Danno:  3D3
+Tipo di danno:  tagliente
+Peso: 4
+Fattore Velocità: 5
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Paladino
+ Addestratore di Animali~
+
+@1344 = ~Modellato da un dente di un drago, questa sciabola sembra quasi guidare il suo possessore al bersaglio. La sua grazia, inoltre, dà nuova energia al possessore permettendogli di attaccare più di frequente.
+
+STATISTICHE:
+
+Danno:  3D3 + 2
+THAC0:  +2 bonus
+Speciale: Aumenta gli Attacchi
+Tipo di danno:  tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Paladino
+ Addestratore di Animali~
+
+@1345 = ~Sciabola +2 'La Bruciante'~
+@1346 = ~Increspata e rossa questa sciabola è fredda al tocco; l'intaglio runico dice solo 'La Bruciante'. Il suo aspetto ha causato a molti avventurieri l'errore di considerarla come logorata, vecchia, o inutile. Gli avventurieri più curiosi che l'hanno tenuta a lungo sono rimasti sempre piacevolmente sorpresi. Questa sciabola Bruciante non si scalda finché non viene agitata ma, una volta in movimento, quando si dirige verso il bersaglio, diventa molto potente.
+STATISTICHE:
+
+Danno:  3D3 + 2, +2D3 Danno da Fuoco
+THAC0:  +2 bonus
+Tipo di danno:  tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Paladino
+ Addestratore di Animali~
+
+@1347 = ~Sciabola +3  'La Lama Fantasma'~
+@1348 = ~Ogni volta che gli spadaccini ruotano le loro lame possono vedere delle  leggere scie che seguono i movimenti della lama. Questa lama non è differente, ma rispetto alle altre lame sembra che queste scie spettrali possano anche tagliare. Questa sciabola è stata originariamente posseduta da un uomo sfacciato e pigro chiamato Bordger che, si dice, si intendeva di magia prima di diventare un ladro. Se fosse rimasto un mago l'incantesimo di queste lame gli sarebbe stato più utile.
+
+STATISTICHE:
+
+Danno:  3D3 + 3, +2D3 Danno Tagliente
+THAC0:  +3 bonus
+Tipo di danno:  tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago  Paladino
+ Addestratore di Animali~
+
+@1349 = ~Sciabola +2 'La Scintillante'~
+@1350 = ~L'energia elettrica fa scintillare questa sciabola, quindi è facile capire da dove deriva il suo nome. Le sue origini sono sconosciute, ma la storia di una strana terra accompagna sempre ogni racconto su questa lama. Il primo possessore che si conosca è stato un pirata appena tornato al suo porto che fu derubato e ucciso. Il nome del pirata rimane un mistero come anche questa spada...
+
+STATISTICHE:
+
+Danno:  3D3 + 3, +2D3 di Danno Elettrico
+THAC0:  +2 bonus
+Tipo di danno:  tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Paladino~
+
+@1352 = ~La Lama dell'Ingannatore~
+@1354 = ~Denat "L'Ingannatore" era un famosissimo bardo. Non raccontava solo storie di eroi, ma anche le sue avventure, affermava sempre di essere il miglior spadaccino dei reami. Alla fine dei suoi racconti voleva sfidare il miglior spadaccino fra i suoi ascoltatori e vinceva sempre. La sua rovina venne quando, erroneamente, usò una normale spada invece di questa.
+
+STATISTICHE:
+
+Danno: 1D8 + 1 THAC0:  +5 bonus Speciale:
+   Bonus alla Destrezza +2
+   CA bonus +3
+   1 attacco extra per round
+Tipo di danno:  tagliente
+Peso: 4
+Fattore Velocità: 2
+Tipo di Competenza: Spada Lunga
+Tipo:  ad una mano
+Richiede: 6 alla Forza
+
+Utilizzabile solo da:
+ Bardo~
+
+@1356 = ~Spada del Campione~
+@1358 = ~Questa è la spada d'oro data da Helm ai più elevati membri del 'Nobilissimo Ordine del Cuore Radioso'.
+
+STATISTICHE:
+
+Danno: 2D4 + 2
+THAC0:  +2
+Speciale:  il possessore è sotto l'effetto dell'incantesimo "Aiuto"
+Tipo di danno:  tagliente
+Peso: 12
+Fattore Velocità: 5
+Tipo di Competenza: Spada Bastarda
+Tipo:  ad una mano
+Richiede: 12 alla Forza
+
+Utilizzabile da:
+ Paladino~
+
+@1359 = ~Spada della Rovina della Malvagità~
+@1360 = ~Una mitica spada della provincia elfica di Hyilia, questa spada è famosa per aver sconfitto il malvagio stregone Ganondorf. La leggenda narra che questa è la spada che ha portato il ritorno delle tre forze sotto l'influenza del bene.
+
+STATISTICHE:
+
+Danno: 1D10 + 1
+THAC0:  +1
+Tipo di danno:  tagliente
+Peso: 7
+Fattore Velocità: 10
+Tipo di Competenza: Spada Lunga
+Tipo:  ad una mano
+Richiede: 11 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Addestratore di Animali~
+
+@1361 = ~Spada a due mani +2~
+@1362 = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D10 + 2
+Tipo di danno: tagliente
+Peso: 15
+Fattore velocità: 10
+Tipo di competenza: Spada a due mani
+Tipo: a due mani
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+
+@1363 = ~Mairial 'Il Cacciatore di Non Morti'~
+@1364 = ~Questa è la scimitarra personale di CúChoinneach. E' composta di puro mithril ed è stata toccata dal chiarore della luna piena, gli è stata donata da Sehanin Moonbow, la dea elfica del mistico, dei sogni, della morte, dei viaggi, della supremazia, della luna, delle stelle e dei cieli. La dea gli apparve in un sogno poco tempo dopo che la sua preferita, Fia'nna, fu uccisa da un esercito di Non Morti, con a capo un vampiro. Sehanin disse a CúChoinneach che avrebbe voluto che lui fosse il cacciatore, e che era stato scelto dalla dea per scacciare i più malvagi Non Morti dai reami. Quando si svegliò dal sogno si trovò al suo fianco questa scimitarra. Il simbolo di Sehanin è la luna crescente. Sehanin gli donò la lama come un segno e per ricordargli il sostegno della dea. I poteri di questa scimitarra sono sconosciuti perfino a CúChoinneach. I suoi poteri completi non si conoscono.
+
+STATISTICHE:
+
+Danno: 1D8 + 4
+THAC0:  +4
+Speciale:
+  Poteri Speciali contro i Non Morti
+Tipo di danno:  tagliente
+Peso: 4
+Fattore Velocità: 3
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+
+Utilizzabile solo da:
+  CúChoinneach~
+
+@1366 = ~La Vendetta di Nemmerle~
+@1368 = ~In una classica battaglia di buoni contro cattivi l'Arcimago Nemmerle resosi conto che la sconfitta era inevitabile radunò tutto ciò che rimaneva dei sui oscuri poteri magici per incantare il suo bastone e teletrasportarlo al suo apprendista principiante. Solo alla fine si rese conto di cosa era necessario per vincere, ma gli mancarono le forze. Si rese conto, però, che anche nella sconfitta si poteva ottenere qualche piccola vittoria. Il suo nemico Gensher incantò i propri abiti per resistere a qualsiasi colpo da schiacciamento e li assortì equamente di magia. Sapeva che la battaglia sarebbe terminata in un combattimento corpo a corpo e superò con l'astuzia il saggio malvagio. Il bastone emana una debolissima aura di alterazione. Subito dopo essere stato identificato, il bastone prende gli attributi di un'alabarda, consentendo così di fare danni da  taglio.
+
+STATISTICHE:
+
+Danno: 2D6 + 2
+THAC0:  +2 bonus
+Peso: 4
+Fattore Velocità: 2
+Tipo di danno:  Tagliente
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Non utilizzabile da:
+ Monaco
+ Personaggi di Allineamento Buono o Neutrale~
+
+@1370 = ~Mazzafrusto del Caos~
+@1372 = ~Il Mazzafrusto del Caos è stato creato da un pezzo di sostanza dell'Abisso che è stata plasmata in un'arma. Le magie di cui è composta e le sue origini sono sconosciute. Si dice che anime di vampiri sono state permeate nel materiale dell'arma e che l'oggetto consumi la forza vitale dell'avversario prima che il possessore dell'arma possa guardare negli occhi il suo avversario. Quest'arma si attacca al suo nuovo proprietario e può essere rimossa solo con Scaccia Maledizione. Si dice che anche il proprietario arderà di quell'energia vampirica di cui è impregnata l'arma!
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THAC0:  +2
+Tipo di danno:  schiacciamento
+Peso: 7
+Fattore Velocità: 3
+Tipo di Competenza: Mazzafrusto/Morning Star
+Tipo:  ad una mano
+Richiede: 13 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali
+
+Utilizzabile solo da:
+ Personaggi di Allineamento Malvagio~
+
+@1373 = ~La Giustizia~
+@1374 = ~Data agli Alti Sacerdoti durante il tempo degli Antichi, la Giustizia è stata l'arma dei più potenti chierici o paladini nei combattimenti contro il male. La Giustizia è più o meno come un normale mazzafrusto, ma quando è in possesso di "un puro di cuore" l'intera arma risplende di luce aurea. Si crede che chi è in possesso di quest'arma sia stato benedetto dagli dei.
+
+STATISTICHE:
+
+Danno: 2d4 + 4
+THAC0:  +4
+Speciale:
+  +4 Punti Ferita Bonus
+  1 Bonus a tutti i Tiri Salvezza
+
+Tipo di danno: Schiacciamento
+Peso: 12
+Fattore Velocità: 7
+Tipo di Competenza: Mazzafrusto/Morning Star
+Tipo: ad una mano
+Richiede: 13 alla Forza
+
+Utilizzabile da:
+ Paladino
+ Chierico Legale Buono~
+
+@1376 = ~Ascia da Battaglia +3 di Ferthgil Trollslayer~
+@1378 = ~Questa ascia da battaglia gli fu donata dal padre di Ferthgil, Breachin Trollslayer. Breachin perse la vita mentre Ferthgil, ancora giovane, lo stava proteggendo da una pattuglia di verbeeg. Ferthgil da allora ha usato solo questa ascia da battaglia in combattimento e si rifiuta di usare ogni altra arma portando così l'onore di suo padre in ogni campo di battaglia.
+
+STATISTICHE:
+
+Danno: 1D8 + 3 (+3 contro i Giganti, +2 contro tutti i Mostri)
+THAC0:  +3 bonus (+3 contro i Giganti, +2 contro tutti i Mostri)
+Tipo di danno:  tagliente
+Peso: 5
+Fattore Velocità: 5
+Tipo di Competenza: Ascia Tipo:  ad una mano
+
+Utilizzabile solo da:
+ Ferthgil Trollslayer~
+
+@1379 = ~Ascia da Battaglia +2 'La Collera'~
+@1381 = ~La storia di questa ascia è sconosciuta, ma se gli si dà uno sguardo si capisce subito che è un'arma di qualità eccellente creata dalle mani di un nano. L'arma sembra come chiamarti per essere maneggiata e per caricare in battaglia.
+
+STATISTICHE:
+
+Danno: 1D8 + 2
+THAC0:  +2 bonus
+Tipo di danno:  tagliente
+Peso: 7
+Fattore Velocità: 6
+Tipo di Competenza: Ascia
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1382 = ~Ascia del Minotauro~
+@1383 = ~Queste asce sono potentemente incantate dai maghi Minotauri con un metodo conosciuto solo da loro. Queste armi sono leggere dove dovrebbero essere pesanti e tagliano il metallo così facilmente come se tagliassero un pezzo di stoffa.
+
+STATISTICHE:
+
+Danno: 2D4 + 2
+THAC0:  +2 bonus
+Speciale: +1 attacco per round
+Tipo di danno:  tagliente
+Peso: 5
+Fattore Velocità: 2
+Tipo di Competenza: Ascia
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico  Mago
+ Ladro ~
+
+@1384 = ~Il Palo-Ascia~
+@1385 = ~Ascia di Guerra Nanica +2 'La Morte Urlante'~
+@1386 = ~Come l'Alabarda, il palo-ascia è un'arma creata per combattere contro i nemici a cavallo. Tuttavia, il palo-ascia non ha la punta. Sul campo di battaglia possono fare un grande danno.
+
+STATISTICHE:
+
+Danno: 1D12
+Tipo di danno:  tagliente
+Peso: 20
+Fattore Velocità: 12
+Tipo di Competenza: Ascia
+Tipo:  a due mani
+Richiede: 13 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1387 = ~Questa ascia, che risale alle guerre dei clan, è stata creata da Thordar della Valle per suo figlio Kelvin per usarla in battaglia. Kelvin non fu mai un grande guerriero e l'ascia fu creata per aiutarlo nella sua debolezza. Il nome deriva dalla battaglia della Caduta delle Viverne, la prima volta che Kelvin la usò in battaglia. Ogni volta che colpiva un avversario, Kelvin urlava incredulo, da qui il nome 'La Morte Urlante'.
+
+STATISTICHE:
+
+Danno: 1D8 + 2
+THAC0:  +2 bonus
+Speciale:
+  1D6 di Danno dovuto a seguito del colpo dato con un movimento rotatorio del braccio (Tiro salvezza contro morte per dimezzare i danni)   Destrezza +1 bonus
+  Incrementa gli Attacchi
+  Armatura +1 bonus
+Tipo di danno:  tagliente
+Peso: 20
+Fattore Velocità: 10
+Tipo di Competenza: Ascia
+Tipo:  a due mani
+Richiede: 15 alla Forza
+
+Utilizzabile solo da:
+ Nani (Guerriero o Guerriero-Ladro)~
+
+@1388 = ~Ascia da Battaglia +3 'Il Frammento del Teschio'~
+@1389 = ~Durante la battaglia del Passo del Teschio, i necromanti fecero uscire alla luce tutti gli zombi che riuscirono a trovare e presero anche il controllo di tutti i guerrieri caduti sul campo di battaglia. Farley Malistone, l'alto sacerdote del clan, si adoperò usando tutta la magia e la preghiera di cui poteva fare appello ed incantò l'ascia dei più religiosi guerrieri del clan con la possibilità di fare grandi danni contro i Non Morti. Per un crudele gioco del destino Farley fu ucciso sul campo di battaglia e, preso sotto il controllo dei negromanti, fu ucciso con la stessa ascia che aveva creato.
+
+STATISTICHE:
+
+Danno: 1D8 + 3 (+5 contro i Non Morti)
+THAC0:  +3 bonus (+5 contro i Non Morti)
+Tipo di danno:  tagliente
+Peso: 5
+Fattore Velocità: 5
+Tipo di Competenza: Ascia
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1390 = ~Il Palo-Ascia +2  'Kilther'~
+@1391 = ~Kilther fu il generale dei "Cavalieri d'Argento". Quando furono presi sotto il controllo di un'immensa cavalleria di Orchi, tutti i cavalieri volevano cavalcare contro gli orchi. Ma Kilther glielo proibì. Forzò i suoi uomini ad agire a piedi, equipaggiati con l'arco, l'alabarda o il palo-ascia. Kilther scelse questa particolare stratagemma. Quando il combattimento iniziò, i pali-asce contennero l'avanzata degli orchi. Una pioggia di frecce furono lanciate e le asce indussero gli orchi a fermarsi. Mille Orchi persero la vita mentre i Cavalieri d'Argento ebbero una perdita di soli diciannove uomini, compreso Kilther.
+
+STATISTICHE:
+
+Danno:  1D12 + 2
+THAC0:  +2 bonus
+Tipo di danno:  tagliente
+Peso: 10
+Fattore Velocità: 9
+Tipo di Competenza: Ascia
+Tipo:  a due mani
+Richiede: 12 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago   Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1393 = ~L'Accetta Nanica +2 'La Fornace'~
+@1395 = ~Questa accetta non è stata solo bilanciata per essere usata come un'arma da lancio ma è stata anche oggetto di un importante incantamento magico. Come risultato, causa un danno maggiore e più accurato di ogni arma non magica dello stesso tipo.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THAC0:  +2
+Tipo di danno(da mischia): tagliente
+Tipo di danno(da lancio): proiettile (perforante)
+Speciale:
+ Ritorna nelle mani di colui che la usa una volta lanciata e dà un extra attacco per round
+ 2D6 di Danno da Fuoco
+Peso: 3
+Fattore Velocità: 6
+Tipo di Competenza: Ascia
+Tipo: ad una mano
+Richiede: 4 alla Forza
+
+Utilizzabile solo da:
+ Nani o Gnomi
+ Guerrieri~
+
+@1396 = ~Il Bastone della Vita~
+@1398 = ~Bianco e dorato, pulsante di grandi poteri questo bastone è stato creato all'alba dei tempi dal primo raggio di sole e brilla come se fosse un bastone fatto di acqua pura. Questo bastone offre poco all'offesa, ma difende molto bene il suo possessore con potenti protezioni.
+
+STATISTICHE:
+
+Danno:  2D2 + 2  THAC0:  +2
+Classe Armatura: +2 Bonus
+Speciale:
+  Crea Pozioni di Guarigione e Antidoti
+  Protegge dagli incantesimi di 1° Livello
+Tipo di danno:  schiacciamento
+Peso: 3
+Fattore Velocità: 6
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Utilizzabile solo da:
+ Mago (singolo, duale, e multiclasse)
+ Personaggi con Allineamento Buono~
+
+@1399 = ~Bastone degli Antichi~
+@1400 = ~Questo bastone è stato creato da una razza chiamata gli Antichi, che vissero molti secoli fa. Poche reliquie di quei tempi sono sopravvissute fino ad oggi e persino i discendenti degli Antichi conoscono poco circa i manufatti dei loro avi.
+
+STATISTICHE:
+
+Danno: 2d4 + 3
+THAC0:  +3
+Speciale: +1 CA
+Peso: 3
+Fattore Velocità: 1
+Tipo di danno: schiacciamento
+Tipo di Competenza: Bastone
+Tipo: a due mani
+
+Utilizzabile da:
+ Mago
+ Chierico~
+
+@1401 = ~Ethric~
+@1402 = ~Questo bastone garantisce l'immunità alle armi non magiche. Questo è un potente bastone che ha potentissimi incantamenti malvagi. Tutte le sue proprietà sono sconosciute.
+
+STATISTICHE:
+
+Danno:  2D8 + 1
+THAC0:  +1
+Speciale:
+  Immunità alle Armi Non Magiche
+Tipo di danno:  perforante
+Peso: 5
+Fattore Velocità: 8
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Utilizzabile solo da:
+ Mago (singolo, duale, e multiclasse)
+ Personaggi con allineamento malvagio~
+
+@1403 = ~Chitiruhkha - Il Bastone dello Stregone +4~
+@1404 = ~Questo bastone è del Chanah'Rea, forgiato con l'aiuto dei fulmini dell'albero del potere, posseduti da Chitiruhkha.
+
+STATISTICHE:
+
+Danno: 1D8 + 3, in più 6D6 di Danno Elettrico (dimezza il danno se si è protetti dalle bacchette) THAC0:  +3
+Speciale:
+  CA Bonus +2
+  lancia "Fulmine" 3 volte al giorno
+Tipo di danno:  schiacciamento
+Peso: 3
+Fattore Velocità: 2
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Utilizzabile solo da:
+ Druidi~
+
+@1407 = ~Bastone Ferrato +2  'Frantumatore di Ossa'~
+@1408 = ~Mentre la maggior parte dei maghi sono piccoli di statura, Estaroil era magro perfino in confronto ad un mago. Allora il suo maestro, l'Arcimago Heleth Otrad, temeva che il suo studente non sarebbe mai sopravvissuto a nessun tipo di combattimento e creò per lui questo bastone. Heleth lo incantò dandogli l'abilità di mandare in frantumi le ossa all'impatto col bastone, rallentando i nemici e dando al fragile Estaroil qualche possibilità di vittoria. Nel corso del tempo Estaroil stava diventando non solo un potente mago, ma cresceva anche di statura ed alla fine scartò il dono fattogli dal suo maestro. Da allora Estaroil non è stato più visto.
+
+STATISTICHE:
+
+Danno: 1D6 + 2 THAC0:  +2
+Speciale: Il bersaglio è rallentato a meno che non si protetto da incantesimo
+Tipo di danno:  schiacciamento
+Peso: 4
+Fattore Velocità: 3
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Non utilizzabile da:
+ Monaco~
+
+@1409 = ~Bastone della Natura~
+@1410 = ~Bastone della Natura: 'Il Protettore della Natura'
+Questo bastone è stato usato da una tribù di Druidi per molti secoli. Passato di guida in guida nella tribù di Arcidruidi nella regione di Kazgard. Si dice che questo bastone è stato forgiato direttamente dalla Natura. Brilla di verde e ciò dimostra che questo bastone abbia realmente i poteri della natura. Questo bastone è molto potente ed anche i passati proprietari di questo bastone sono state persone molto potenti.
+
+STATISTICHE:
+
+Danno: 2D3 + 2
+THAC0:  +2 bonus
+Speciale:
+  +15 Punti Ferita massimi
+  Conoscenza +20 di bonus
+  +3 al 1° Livello di incantesimi del Sacerdote
+Peso: 2
+Fattore Velocità: 2
+Tipo di danno:  schiacciamento
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Utilizzabile da:
+ Solo il Druido~
+
+@1411 = ~Il Bastone dell'Imprevedibilità di Skeezer~
+@1412 = ~Skeezer creò questo bastone per aiutarsi nei suoi viaggi. Durante il processo di creazione, però, si distrasse e perse il ricordo degli incantamenti che piazzò sul bastone. Il risultato è che questo bastone ha molti effetti casuali su ogni cosa su cui Skeezer lo usa.
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THAC0:  +2
+Speciale: Sconosciuto
+Tipo di danno:  schiacciamento
+Peso: 4
+Fattore Velocità: 1
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+
+Utilizzabile solo da:
+ Gnomo che usa la magia~
+
+@1414 = ~Martello da Guerra di Tearlac Truehammer 'L'Abbattitore di Giganti'~
+@1416 = ~Questo è il martello da guerra personale di Tearlac Truehammer, figlio di Otho Truehammer. Si è forgiato questo martello da solo dopo molti anni di addestramento sotto l'occhio attento di suo padre. Molti considerano Otho, uno dei più eccellenti, se non il più eccellente, fabbro della Costa della Spada e la qualità dell'arma mostra che Tearlac è secondo solo a suo padre. Tearlac ha scolpito delle rune decorative sull'impugnatura che mostrano con orgoglio il suo retaggio. Questo martello da guerra è fatto di mithril, con degli oggetti tondi che servono a proteggere e rinforzare l'impugnatura. Questi oggetti tondi sono piccoli dischi di metallo, spesso plasmati in disegni decorativi. L'impugnatura è fatta di quercia molto resistente ed è lunga circa 45 centimetri.
+
+STATISTICHE:
+
+Danno: 1D4 + 2 (+3 contro umanoidi giganti)
+THAC0:  +1 Bonus (+3 contro umanoidi giganti)
+Tipo di danno:  schiacciamento
+Peso: 8
+Fattore Velocità: 2
+Tipo di Competenza: Martello da Guerra
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1417 = ~Martello Pesante~
+@1418 = ~Si crede che quest'arma fu creata dal fabbro degli Antichi Myth Drannor. Si crede anche che fu incantata da sacerdoti estremamente potenti per combattere contro il male. Questo martello è sorprendentemente facile da maneggiare malgrado il suo enorme peso.
+
+STATISTICHE:
+
+Danno: 3d6 + 1
+THAC0:  +4
+Tipo di danno: Schiacciamento
+Peso: 44
+Fattore Velocità: 2
+Tipo di Competenza: Armi Contundenti
+Tipo: ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da
+ Mago
+ Combattenti
+ Ladro
+ Bardo
+ Personaggi con allineamento malvagio~
+
+@1420 = ~Lancia di Fuoco~
+@1422 = ~La punta di questa lancia arde magicamente e fa di questa lancia un'arma mortale in combattimento.
+
+STATISTICHE:
+
+Danno: 1D6 + 2, +1d6 di danno da fuoco
+THAC0:  +2
+Tipo di danno:  perforante
+Peso: 3
+Fattore Velocità: 3
+Tipo di Competenza: Lancia
+Tipo:  a due mani
+
+Non utilizzabile da:
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1423 = ~Lancia +3: 'Lo Scettro del Drago'~
+@1424 = ~Chiamata così perché l'asta della lancia è abbellita con dei disegni di draghi. Le sue esatte origini rimangono sconosciute.
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THAC0:  +3 bonus
+Tipo di danno:  perforante
+Peso: 5
+Fattore Velocità: 5
+Tipo di Competenza: Lancia
+Tipo:  a due mani
+
+Non utilizzabile da:
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1426 = ~Mazza +1 di Otho Truehammer~
+@1428 = ~Otho ha creato questa eccellente mazza per te. La mazza è un diretto discendente della semplice clava, non essendo nient'altro che un manico di legno con la testa di ferro montata all'estremità. In questo caso la testa è piramidale ed è fatta di Ferro, con un'impugnatura di quercia luccicante. Anche quando c'è carenza di ferro ogni fabbro ne conserva sempre una piccola quantità per le occasioni "speciali".
+
+STATISTICHE:
+
+Danno: 1D6 + 2
+THAC0:  +1
+Tipo di danno:  schiacciamento
+Peso: 8
+Fattore Velocità: 6
+Tipo di Competenza: Mazza
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro  Monaco
+ Addestratore di Animali~
+
+@1429 = ~Mazza +1 di Otho Truehammer potenziata~
+@1430 = ~Elminster il Saggio ha piazzato un potentissimo incantesimo su questa mazza, che Otho ha creato per te, dandogli speciali poteri per sconfiggere la creature malvagie Non Morte. Ora puoi notare che la mazza risplende di una luce interiore blu.
+
+STATISTICHE:
+
+Danno: 1D6 + 2, +2 contro i Non Morti
+THAC0:  +1, +2 contro i Non Morti Tipo di danno:  schiacciamento
+Peso: 8
+Fattore Velocità: 6
+Tipo di Competenza: Mazza
+Tipo:  ad una mano
+Richiede: 10 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@1431 = ~Mazza della Distruzione - La Benedetta~
+@1432 = ~Dopo che il Sacerdote del Signore del Mattino Jarent ha dato a questa mazza la benedizione di Lathander hai la sensazione che abbia preso a respirare ed a vivere. E' come se l'arma aumenti di potere nelle tue mani mentre la maneggi. Sembra come se ti chiamasse... desiderosa di andare a caccia di Non Morti!
+
+STATISTICHE:
+
+Danno:  1D6 + 2, +2 contro i Non Morti
+THAC0:  +2
+Speciale:
+  Distruggerà molti Non Morti al contatto
+Tipo di danno:  schiacciamento
+Peso: 8
+Fattore Velocità: 6
+Tipo di Competenza: Mazza
+Tipo:  ad una mano
+
+Non utilizzabile da:
+ Qualsiasi personaggio di allineamento malvagio
+ Druido
+ Mago
+ Ladro
+ Monaco  Addestratore di Animali~
+
+@1433 = ~Mazza del Pentimento~
+@1434 = ~Questa mazza fu creata da un fanatico di nome Parias. Con lei progettò di "portare agli infedeli la luce della fede". Tuttavia, fu così tanto zelante nella sua missione, che uccise sua moglie e la sua famiglia perché non "agivano nella luce della fede". Dopo aver realizzato cosa aveva fatto, sotterrò la mazza, confessò il suo peccato, e morì di fame piangendo sulla tomba di sua moglie. Successivamente la mazza fu poi ritrovata e chiamata la Mazza del Pentimento in seguito alle afflizioni dolorose di Parias dovute appunto alle sue colpe.
+
+STATISTICHE:
+
+Danno: 1D6 + 4
+THAC0:  +3
+Speciale:
+  Danno Bonus contro i Non Morti
+  Attacco Extra
+Tipo di danno:  schiacciamento
+Peso: 7
+Fattore Velocità: 6
+Tipo di Competenza: Mazza
+Tipo:  ad una mano
+
+Utilizzabile solo da:
+ Jet'laya~
+
+@1436 = ~Pugnale +3: 'Puntura di Vipera'~
+@1438 = ~Creato da un folle mago ladro, quest'arma fu usata ma brevemente dal suo creatore. Le esatte circostanze della sua morte sono sconosciute, ma il pugnale comparve molto tempo dopo nelle mani di un noto assassino. Questa lama nera a forma di becco è spaccata nel mezzo e termina in due rasoi appuntiti. In aggiunta, la lama secerne un veleno verdastro che infligge dolorose ferite su chiunque come se fossero dei graffi. Naturalmente, il possessore non è immune da questo veleno e deve, anzi, fare attenzione a non ferirsi come occasionalmente è successo.
+
+STATISTICHE:
+
+Danno (mischia): 1d4 + 3 (più 8 danni da veleno, tiro salvezza per dimezzare i danni) Danno (missile): 1d4 + 3 (più 8 danni da veleno, tiro salvezza per dimezzare i danni)
+THAC0:  +3 bonus
+Speciale:
+  5% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza)   Ritorna quando lanciato
+Tipo di danno:  perforante
+Peso: 2
+Fattore Velocità: 0
+Tipo di Competenza: Pugnale
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Non utilizzabile da:
+ Chierico
+ Addestratore di Animali~
+
+@1439 = ~Pugnale +3 di Adamantite Drow~
+@1440 = ~Molti drow portano pugnali di adamantite. Questi pugnali possono avere da un +1 ad un +3 di bonus. Questo pugnale in particolare è ricoperto con un potente veleno. L'adamantite per natura, se esposta alla luce del sole, inizia a marcire fra i 2 ed i 12 giorni perdendo tutte le sue proprietà protettive decomponendosi e diventando così inservibile.
+
+STATISTICHE:
+
+Danno: 1d4 + 3
+THAC0:  +3 bonus
+Speciale:
+  30 danni da veleno ogni 15 secondi a meno che non riesca un tiro salvezza contro veleno con un -4 di penalità
+  Rende la vittima inconsapevole per 30 secondi
+
+Peso: 1
+Fattore Velocità: 2
+Tipo di Competenza: Pugnale
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Utilizzabile da:
+ Non dal Chierico
+ Personaggi con allineamento malvagio~
+
+@1441 = ~Dente di D'Raavhen~
+@1442 = ~Il pugnale Vampirico di Lorik D'Raavhen. Quando identifichi questa oscura lama ti colpisce un senso di paura che va al di là della sua semplice descrizione. In esso pulsa un aura di pura malvagità, il tuo primo pensiero è quello di correre finché il tuo corpo non crollerà sfinito. La sua lama affumicata è stata apparentemente forgiata dall'arcana materia dell'Abisso, donando all'arma un aspetto così oscuro da far presagire chi sia il suo padrone.
+
+STATISTICHE:
+
+Danno: 1D4 + 4
+THAC0:  +4 bonus
+Speciale: Vampirica
+Peso: 1
+Fattore Velocità: 0
+Tipo di Competenza: Pugnale
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Utilizzabile da:
+ Non dal Chierico
+ Personaggi con allineamento malvagio~
+
+@1443 = ~Pugnale "Nome Stikkah"~
+@1444 = ~Benché i koboldi normalmente non posseggano pugnali avvelenati, è evidente che gli è stato dato modo di crearseli. La rozzezza della costruzione di quest'arma, tuttavia, non riduce la sua micidialità. Infatti può essere tanto mortale alla vittima quanto al suo possessore.
+
+STATISTICHE:
+
+Danno:  1D4 (+6 da veleno, tiro salvezza per dimezzare i danni)
+Speciale:
+  15% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza)
+Tipo di danno:  Perforante
+Peso: 2
+Fattore Velocità: 0
+Tipo di Competenza: Pugnale
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Non utilizzabile da:
+ Chierico
+ Addestratore di Animali~
+
+@1446 = ~Balestra della Velocità di Keiria Silverstring~
+@1448 = ~Questa balestra leggera non ha molte abilità in più rispetto ad una normale Balestra della Velocità. La sola differenza sta nel suo colore. Infatti Keiria si sforza sempre di essere alla moda, perfino sul campo di battaglia.
+
+STATISTICHE:
+
+Danno: +1 (da proiettile)
+THAC0:  +1 bonus
+Speciale: 1 attacco extra per round Peso: 5
+Fattore Velocità: 3
+Tipo di Competenza: Balestra
+Tipo:  a due mani
+
+Utilizzabile solo da:
+ Keiria Silverstring~
+
+@1449 = ~Balestra dell'Ombra~
+@1450 = ~Una balestra è un arco montato a croce su un'asta di legno o di metallo e su un'impugnatura chiamata calcio. L'arco di solito è fatto in pioppo o in tasso. La balestra spara un dardo (solitamente chiamato quadrello). Questa balestra in particolare è usata dai ladri dei reami. Soprattutto a Calimport, città di intrighi! Bisogna fare molta attenzione alla micidialità di queste balestre.
+
+STATISTICHE:
+
+Danno: +1 (da proiettile)
+THAC0:  +1 bonus
+Peso: 6
+Fattore Velocità: 2
+Tipo di Competenza: Balestra
+Tipo:  a due mani
+Richiede: 8 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Monaco
+ Kensai
+ Cavaliere~
+
+@1452 = ~Arco Elfico, la sventura dei Goblin~
+@1454 = ~Questo arco è stato creato dagli elfi per difendere le loro foreste dai goblin e dagli hobgoblin, tuttavia non è fornito di abilità speciali contro i goblin o gli hobgoblin.
+
+STATISTICHE:
+
+Danno: +2
+THAC0:  +2
+Peso: 2
+Fattore Velocità: 3
+Tipo di Competenza: Arco Corto
+Tipo:  a due mani
+Richiede: 3 alla Forza
+
+Non utilizzabile da:
+ Chiunque eccetto gli Elfi
+ Personaggi con allineamento Malvagio o Caotico~
+
+@1456 = ~Arco corto della Forza +3 'Il Ronzio della Morte'~
+@1458 = ~Creato dagli elfi della foresta per il Principe Barbaro della Neve, Corbus Denox, questo arco fornisce un aumento della forza, del danno e della precisione. L'origine del suo nome è dovuto ad un piccolo ronzio che riecheggia quando parte il colpo.
+
+STATISTICHE:
+
+Danno: +3
+THAC0:  +3
+Speciale: +1 alla Forza
+Peso: 2
+Fattore Velocità: 5
+Tipo di Competenza: Arco Lungo
+Tipo:  a due mani
+Richiede: 6 alla Forza
+
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Kensai
+ Cavaliere~
+
+@1459 = ~Arco Sacro di Sukien 'Il Dente Tegliente'~
+@1460 = ~Il Dente tagliente, probabilmente il suo nome è dovuto al suo aspetto, dall'aspetto dentato simile a punte uncinate lungo il suo tratto esterno. Di solito si può trovare solo nel tempio di Sukien, questa è l'arma della Guardia Sacra. Le rune intagliate all'interno indicano una parola di comando che quando attivata crea un blocco di 5 Frecce da Combattimento.
+
+STATISTICHE:
+
+Danno: +3
+THAC0:  +2 Speciale: Crea Frecce da Combattimento
+Peso: 2
+Fattore Velocità: 5
+Tipo di Competenza: Arco Lungo
+Tipo:  a due mani
+Richiede: 6 alla Forza
+
+Utilizzabile solo da:
+ Paladino~
+
+@1462 = ~La Bacchetta di Ettin~
+@1464 = ~Ettin era un monaco ai tempi degli Antichi. Oltre ai suoi doveri sacerdotali si dilettava con le erbe e fu anche un abile erborista. Scoprì tre erbe magiche che se combinate insieme avevano un effetto paralizzante per un breve periodo di tempo. C'é anche una piccola possibilità di essere avvelenato quando si usano queste erbe. Le conoscenze di Ettin furono scoperte più tardi da un mago che trovò un modo per lanciare queste erbe ricoprendole con delle sfere magiche.
+
+STATISTICHE:
+
+Effetto:  Stordisce il Bersaglio
+Speciale:  30% di possibilità di avvelenare il bersaglio
+Raggio di Azione:  30 metri
+Area:  1 creatura
+Durata:  10 round
+
+Utilizzabile da:
+ Bardo
+ Mago~
+
+@1465 = ~Bacchetta color Zaffiro~
+@1466 = ~Usata dal Mago Re Varashar quando doveva giudicare le persone, o era in tribunale. Usava la bacchetta come una forma di castigo dopo la sentenza. Secondo molti racconti disse "Più sei colpevole e più soffrirai".
+
+STATISTICHE:
+
+Danno:  2d4
+Speciale:  Possibilità di danno aggiuntivo per i successivi 3 round.
+
+Utilizzabile da:
+ Bardo
+ Mago~
+
+@1467 = ~Bacchetta della Catena di Fulmini~
+@1468 = ~Quando attivata, la bacchetta scaglierà una palla di energia elettrica che si scaglierà davanti all'area del bersaglio. Quando la palla raggiunge il bersaglio esploderà in un'area di 18 metri causando 6D6 +6 di danno elettrico a tutte le creature che si trovano all'interno dell'area, si dimezza il danno con un tiro salvezza riuscito contro la bacchetta.
+
+STATISTICHE:
+
+Speciale:  Palla di Energia Elettrica Danno:  6D6 + 6
+Raggio di Azione: 30 metri
+Area:  18 metri
+
+Utilizzabile da:
+ Bardo
+ Mago~
+
+@1470 = ~Il Rovo di Elgenon - 'Il Ramo di Molte Spine'~
+@1472 = ~Creato dalle ninfe per custodire il bosco questo ramo arbusto di rovo è incantato con delle spine che ricrescono dopo l'uso. Originariamente donato ad Elgenon il Saggio, protettore dell'Albero della Saggezza, è passato poi a quei druidi che hanno dimostrato il loro valore come protettori della foresta.
+
+STATISTICHE:
+
+Danno: 1D8 + 1
+THAC0:  +1
+Tipo di danno:  schiacciamento (mischia), perforante (proiettile)
+Danno da Veleno: 2 punti per round, fino ad un totale di 30 danni
+Peso: 4
+Fattore Velocità: 1
+Tipo di Competenza: Clava
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Utilizzabile solo da:
+ Druido (Singolo, Duale, e Multiclasse)~
+
+@1473 = ~Mandibola di Asino~
+@1474 = ~Apparentemente sembra essere una semplice mandibola di un animale, probabilmente di un asino o di un mulo. Nei momenti critici può essere usata come una primitiva clava...
+
+STATISTICHE:
+
+Danno:  1D6
+Tipo di danno:  schiacciamento
+Peso: 3
+Fattore Velocità: 4
+Tipo di Competenza: Clava
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Non utilizzabile da:
+ Mago~
+
+@1475 = ~Questa è la mascella di un asino che il guerriero/chierico Samson di Nazerite ha usato uccidendo 600 persone non credenti in un solo giorno. Un'arma formidabile di umili origini.
+
+STATISTICHE:
+
+Danno: 1D6 + 3 THAC0:  +3
+Speciale:
+  +1 a tutti i tiri Salvezza
+   Subito dopo aver preso l'arma il personaggio è offuscato come per l'incantesimo di 2° livello del mago
+Tipo di danno:  schiacciamento
+Peso: 3
+Fattore Velocità: 2
+Tipo di Competenza: Clava
+Tipo:  ad una mano
+Richiede: 3 alla Forza
+
+Non utilizzabile da:
+ Mago~
+
+@1476 = ~La Lama di Mielikki~
+@1477 = ~Rifornimenti di Trungle~
+
+////////////////
+//Areas and Rest
+////////////////
+@2000 = ~L'Arcidruido~
+@2001 = ~Banshee~
+@2002 = ~Bardo Furfoot~
+@2003 = ~Sacerdote dell'Alba Blane~
+@2004 = ~Bub Snikt~
+@2005 = ~Clairis~
+@2006 = ~Aiutami!~ [GLANM04]
+@2007 = ~[GLANMARIE 3]~ [GLANM03]
+@2008 = ~Conchobhair Strongblade~
+
+@2046 = ~Conchobhair è originario di Waterdeep. E' il più giovane di quattro fratelli dell'autorevole famiglia Strongblade a Waterdeep. Essendo il più piccolo, tuttavia, ereditò poco dei molti beni della famiglia, così partì con l'intenzione di vivere da solo fino ai vent'anni. Iniziò come paladino e facendo, per pochi anni, la vita virtuosa del paladino. Tuttavia, alla fine si sentì troppo limitato nella disciplina tipica del paladino e desiderò qualcosa che gli desse più gloria. In uno dei suoi viaggi da Waterdeep a Baldur's Gate, incontrò un guerriero di nome Fergus Ravenskill. Fergus era un coraggiosissimo guerriero che aveva passato la maggior parte dei suoi cinquantasei anni di età sui campi di battaglia. Conchobhair viaggiò alcuni mesi con Ravenskill e i suoi racconti di grandi battaglie lo affascinarono molto. Tuttavia, dal momento in cui Fergus gli parlò del suo incontro con un terribile drago, Conchobhair decise di cambiare vita. Chiese a Fergus di addestrarlo e di insegnargli ogni cosa che sapeva. 
+Passò sei anni addestrandosi con Fergus diventando così un esperto guerriero e lavorò persino come mercenario, presso qualche grande città della zona. Ma, un fatidico giorno, Fergus e Conchobhair si trovarono faccia a faccia con un Drago Rosso. Era un drago che Fergus aveva già incontrato una ventina di anni prima, e che Fergus aveva ferito accecandolo da un occhio. Il drago cercava la sua rivincita ed ora gli si presentava l'opportunità di vendicarsi. Fergus rimase ucciso nell'attacco, a causa di dolorose e multiple ferite da scottatura provocate dalle fiamme del drago e Conchobhair invece riuscì a fuggire subendo qualche piccola scottatura e alcune ferite lievi. Da quel giorno Conchobhair giurò di distruggere ogni drago che potesse minacciare i reami e di trovare il drago che uccise il suo amico e mentore.~
+@2047 = ~Cooshee~
+@2048 = ~CúChoinneach~
+
+@2077 = ~Sai molto poco delle vita di CúChoinneach e del suo lupo ombra. Non sai da dove viene e dove sta andando. Parla molto poco e non fa domande. Puoi notare che in lui alberga un lato oscuro. Ha perso tutta la voglia di vivere che ha la maggior parte degli elfi e sembra concentrato per ottenere una cosa sola. La distruzione di Lord Daerthmac!~
+//@2078 = ~Khal Abbil~
+@2079 = ~Deazle~
+@2080 = ~Maestro d'armi Drow~
+@2081 = ~Mago Drow~
+@2082 = ~Guerriero Drow~
+@2083 = ~Drow d'Elite~
+@2084 = ~Guerriero Duergar~
+@2085 = ~Mago Duergar~
+@2086 = ~Stregone Scheletrico Duergar~
+@2087 = ~Ladro Duergar~
+@2088 = ~Guardia Duergar~
+@2089 = ~Sacerdote Duergar~
+@2090 = ~Minatore Duergar~
+@2091 = ~Ferthgil Trollslayer~
+
+@2133 = ~FERTHGIL TROLLSLAYER
+
+Ferthgil è stato accolto dai nani dorati nelle Montagne dei Picchi delle Nuvole, suo padre Breachin Trollslayer era un fabbro vagabondo, che commerciava con i numerosi piccoli villaggi della Costa della Spada. Tuttavia uno sfortunato giorno, Breachin si imbattè e difese suo figlio da una pattuglia di Verbeeg nelle Montagne dei Picchi delle Nuvole ma perse la vita, ed il giovane Ferthgil (appena adolescente) vagò, solo ed indifeso per molti giorni portando con sé solo l'ascia di suo padre.
+ Fu allora che conobbe un certo Gulmoth Stonehearth un Seguace (sacerdote) di Clanggedin Silverbeard. Gulmoth vide in Ferthgil ira e frustrazione, ma vide anche nel giovinetto nobili potenzialità. Gulmoth addestrò il giovane a Stonehearth un luogo a sud della Costa della Spada, e qui Ferthgil imparò a scaricare la sua ira al servizio del Dio della Guerra.
+
+Tuttavia Ferthgil, aveva ereditato da suo padre il desiderio di girare il mondo, e non riusciva a rimanere a lungo nello stesso luogo, così una mattina Ferthgil lasciò il rifugio e l'isolamento di Stonehearth e andò per la sua strada.
+ Ferthgil era senza clan, senza casa, e soprattutto senza soldi, ma sulla via di Velen a Sud si incontrò con qualcuno che divenne a lungo suo compagno, Tearlac Truehammer, del Clan Truehammer nel Nord. Fra Tearlac e Ferthgil iniziò una solida amicizia e ben presto, Ferthgil, cominciò a sentirsi parte dello stesso clan di Tearlac. Anche se non ufficialmente, iniziò a considerarsi come appartenente al clan Truehammer. Quando incontri per la prima volta Ferthgil, potrebbe sembrarti, a prima vista, un nano particolarmente irascibile, ma attraverso gli insegnamenti di Gulmoth, ha imparato a scaricare la sua ira contro i nemici di Clanggedin. Per quelli che non lo conoscono, la trasformazione è sbalorditiva, Ferthgil diventa un possente avversario, ed i suoi gridi di battaglia arrivano anche agli orecchi dello stesso Clanngedin nella sua fortezza in Arcadia...~
+@2134 = ~Fey'doch~
+@2135 = ~Drago della Foresta~
+
+@2138 = ~Bruciate e morite, piccoli sciocchi!~ [BAZDR303]
+
+@2142 = ~Giovane drago della Foresta~ @2143 = ~Gillian Ghastkill~
+@2144 = ~Capo Gnoll~
+
+@2146 = ~Muori feccia !~ [GNOLL04]
+
+@2151 = ~Capo Goblin~
+@2152 = ~Grog~
+@2153 = ~Gandolar Luckyfoot~
+@2154 = ~Benvenuto, viaggiatore. Gandolar Luckyfoot, a tua disposizione.~ [GANDL01]
+
+
+@2157 = ~Gullykin è il nostro vanto e la nostra gioia. Trattatela bene.~ [GANDL02]
+@2158 = ~Guerriero Halfling~
+@2159 = ~Ladro Halfling~
+@2160 = ~Jabress Xaendrassa Auvryndar~
+@2161 = ~Sacerdote del Signore del Mattino Jarent di Lathander~
+@2162 = ~Jeremy~
+@2163 = ~Jet'laya~
+@2164 = ~Sciamano Xvart~
+@2165 = ~Appena la pura aria e la luce esterna del "mondo superficiale" raggiungono gli oggetti Drow che trasporti, essi cadono come polvere per terra intorno a te.~
+
+@2202 = ~Lo "zio" di Jet'laya era di nobili origini ed andava in giro per il mondo cercando avventure. Durante i suoi viaggi incontrò il futuro padre di Jet'laya, Torvin, che gli salvò la vita. Dopo aver viaggiato insieme per qualche tempo ed essendo diventati amici, suo padre e suo "zio" ritornarono a Cormanthor. Una volta in città, Lennan (Le*non) presentò Torvin a suo padre, un facoltoso e potente nobile. Il padre rimase favorevolmente colpito da Torvin anche perché aveva salvato la vita di suo figlio e lottò affinché Torvin fosse accettato in città. Vinse. Torvin rapidamente iniziò a piacere a molti, e si innamorò della madre di Jet'laya, che era una guaritrice (un medico) di Cormanthor. Il loro matrimonio non fu ben visto da molti componenti della società, ed i futuri genitori di Jet'laya furono costretti a vivere ai margini della foresta.
+
+  Quando Jet'laya e suo fratello gemello avevano sei anni, Cormanthor fu attaccata da un gruppo di Non Morti, guidati da un giovane ed impertinente Vampiro. Lei, suo fratello e la sorella maggiore, furono nascosti, mentre gli elfi difendevano la città. L'intero gruppo di assalitori fu ucciso eccetto il loro capo, lui riuscì a fuggire e da allora non si seppe più nulla di lui. Tuttavia, anche gli elfi ebbero delle perdite, inclusi i genitori di Jet'laya. Sua sorella maggiore fu trovata, attaccata e ferita e da allora non fu mai capace di guarire completamente. Soffrì per molti anni. Vedere i suoi genitori uccisi fu causa di continui incubi per Jet'laya, e per questo giurò di vendicarli uccidendo tutti i Non Morti. Nonostante i diversi sforzi di suo zio e del suo gemello, che sembrava ormai essersi ripreso dalla morte dei genitori, lei continuò nel suo desiderio di vendetta ed andò via non appena il suo addestramento, così lo chiamava lei, non fu completato.~
+@2203 = ~Jules~
+@2204 = ~Kalannar~
+@2205 = ~Katerin~
+@2206 = ~Keiria Silverstring~
+
+@2245 = ~Keiria Silverstring viene da una famiglia di abili musicisti. Sia suo padre che sua madre sono da lunga data membri degli Arpisti, e Keiria ha appreso molto, come modo di vedere le cose e come stile di vita, dai suoi genitori e dalla loro associazione con gli Arpisti. Keiria è una cantante ed un'attrice di talento. Si è esibita da Silverymoon ad Athakla. Tuttavia, oltre alla sua affascinante personalità, è una mezz'elfa molto bella con i suoi fluenti riccioli rossi. Inoltre è anche un'esperta combattente e può competere in qualsiasi battaglia. Preferisce tuttavia la vita avventurosa rispetto ad una vita di esibizioni su di un palco. Lei dice di essere capace di sopravvivere all'esperienza dell'avventura e del pericolo.~
+@2246 = ~Ken the Baker~
+@2247 = ~Lennan~
+@2248 = ~L'Essere Oscuro~
+@2249 = ~Thorfinn Hauskluniff~
+
+
+@2251 = ~Cuoco~
+@2252 = ~Megan~
+@2253 = ~Mopap lo Scoiattolo Cinguettante~
+@2254 = ~Mortius~
+@2255 = ~Lord Norby Boozluck~
+@2256 = ~Orco~
+@2257 = ~Otho Truehammer~
+@2258 = ~Fantasma~
+@2259 = ~Atr'Jkslad'Roa'CH~
+@2260 = ~Shar Nadal~
+@2261 = ~Skeezer Lumpkin VI~
+
+@2286 = ~Skeezer Lumpkin VI viene dalla colonia di gnomi di Krynn, sotto il Monte Nevermind. Tuttavia, gli ultimi 75 anni li ha vissuti ad Athakla nell'Amn. Ha passato la vita intera provando a scoprire la perfetta combinazione tra tecnologia e magia. Ha la sensazione che questo potrebbe essere l'ultimo tassello della natura. Fino ad ora ancora non ci è riuscito. Si è dissociato dalla normale vita di uno gnomo per cercare di comprendere la grande magia. Fino ad ora le sue creazioni hanno avuto un limitato successo. Una delle sue prime creazioni che fece quando era ancora ragazzo era chiamata "L'Automatica (Sistematica) Scopa Articolata a Frange Guidata da una Torta di Latta che Lancia le Uova" (o abbreviato ASSAFGTLLU). Voleva far volare le uova ad alta velocità. Le uova dovevano essere portate al seguito sennò l'invenzione suddetta non aveva senso. Uno dei più grandi desideri di Skeezer è di vedere in tutta Faerun le bellissime Navi Volanti. Ha già sentito molti racconti di simili navi e non desidera altro 
+che vedere queste Navi Volanti a Baldur's Gate.~
+@2287 = ~Spec~
+@2288 = ~Thomic~
+@2289 = ~Torquil~
+@2290 = ~Trungle~
+@2291 = ~Vampiro Principiante~
+@2292 = ~Lord Daerthmac~
+@2293 = ~Elfo della Foresta Guerriero~
+@2294 = ~Elfo della Foresta d'Elite~
+@2295 = ~Madadh n'Sgàil~
+@2296 = ~Scheletro Lord~
+@2297 = ~Guardia Coboldo~
+
+//@2300 = ~Bosco dei Denti Aguzzi~
+//@2301 = ~Uscita~
+@2302 = ~Fortezza di Daerthmac~
+
+@2304 = ~Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa 
+incontrerete ancora tu e i tuoi compagni durante i vostri viaggi. Hai paura che la risposta arriverà presto, appena passerai nel "Lato Oscuro della Costa della Spada".~
+@2305 = ~Il Lato Oscuro della Costa della Spada~
+@2306 = ~Il Lato Oscuro della Costa della Spada
+
+Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa 
+incontrerete ancora tu e i tuoi compagni durante i vostri viaggi. Hai paura che la risposta arriverà presto, appena passerai nel "Lato Oscuro della Costa della Spada".~ [DSOTSC]
+
+//Suoni Creatura
+@20101 = ~Salve. E qual'era il vostro nome, eh...?~ [CONCHO01]
+@20102 = ~Me ne vado finché la mia testa è ancora attaccata alle spalle.~ [CONCHO02]
+@20103 = ~La tua faccia sta *chiedendo* di essere presa a calci.~ [CONCHO03]
+@20104 = ~Questo viaggio si sta dimostrando migliore di quello che pensavo.~ [CONCHO04]
+@20105 = ~Una volta, almeno una volta, mi piacerebbe viaggiare con delle persone normali!~ [CONCHO05]
+@20106 = ~Mi sento felice e completamente miserabile... senza la parte felice.~ [CONCHO06]
+@20107 = ~Non sarebbe una cosa negativa essere gentili di tanto in tanto, ok?~ [CONCHO07]
+@20109 = ~*yawn* Ho bisogno di riposare.~ [CONCHO09]
+@20110 = ~Oh andiamo, muoviamo un po' le gambe.~ [CONCHO10]
+@20111 = ~Aaagh!~ [CONCHO11]
+@20113 = ~Questo posto è pieno di assassini.~ [CONCHO13]
+@20114 = ~Questo luogo mi da una brutta sensazione...~ [CONCHO14]
+@20117 = ~Va a baciare una trappola per orsi invece di darmi simili comandi.~ [CONCHO17]
+@20118 = ~Cosa?~ [CONCHO18]
+@20119 = ~La vuoi smettere?~ [CONCHO19]
+@20120 = ~Fatto.~ [CONCHO20]
+@20121 = ~*fischietta*~ [CONCHO21]
+@20122 = ~Ah, vuoi perdere tempo inutilmente, vedo!~ [CONCHO22]
+@20123 = ~Il destino non *mi* dovrebbe tentare.~ [CONCHO23]
+@20124 = ~*sigh* Cesseranno mai i miracoli?~ [CONCHO24]
+@20125 = ~Strozzati con un osso, stupida scimmia!~ [CONCHO25]
+@20126 = ~*sigh* Sei sempre così poco amichevole?~ [CONCHO26]
+@20127 = ~Ciarlatano idiota!~ [CONCHO27]
+@20128 = ~Sai, saresti molto più affascinante se non aprissi bocca.~ [CONCHO28]
+@20129 = ~Scorre dell'acqua ghiacciata nelle tue vene?~ [CONCHO29]
+@20130 = ~Straccione.~ [CONCHO30]
+@20131 = ~Neanche cinquanta bicchieri di brandy ti renderebbero migliore.~ [CONCHO31]
+@20132 = ~Ohi! I vostri commenti mi feriscono, come... eh, uh... come cose che feriscono...~ [CONCHO32]
+@20133 = ~Le vostre parole sono come frustate sulle mie nude spalle.~ [CONCHO33]
+@20134 = ~Hmm, dirò... Ehi, aspetta un minuto!~ [CONCHO34] //RESPONSE_TO_INSULT3
+@20135 = ~Aww... ti sei ferito quando sei caduto dal cielo?~ [CONCHO35]
+@20136 = ~Ha la personalità di un pezzo di legno tagliato.~ [CONCHO36]
+@20137 = ~Hai ragione.~ [CONCHO37]
+@20138 = ~Dannazione!~ [CONCHO38]
+@20139 = ~Ugh!~ [CONCHO39]
+@20140 = ~Hmm, posso pensare di farlo nel modo peggiore.~ [CONCHO40]
+@20141 = ~Beh, *sospiro* a quanto pare non si vive per sempre, eh?~ [CONCHO41] //REACT_TO_DIE_SPECIFIC
+
+
+@20201 = ~Ehi, straniero. Non sai che vagare nelle terre selvagge è molto pericoloso e ci si può far male?~ [CUCH01]
+@20202 = ~Ach! Vai per conto tuo.~ [CUCH02]
+@20203 = ~Morte a voi!~ [CUCH03]
+@20204 = ~E' stata un'azione molto onorevole. Mi sento orgoglioso di conposcerti.~ [CUCH04]
+@20205 = ~Continua così e saluterai la mia spada.~ [CUCH05]
+@20206 = ~Questo è decisamente il *non* modo in cui amo comportarmi.~ [CUCH06]
+@20207 = ~I tuoi metodi malvagi termineranno ora!~ [CUCH07]
+@20208 = ~Pensa solo a tornare qui e Madadh n'Sgàil ed io ti porteremo in salvo.~ [CUCH08]
+@20209 = ~Non pensi che sia il momento di fermarci e riposarci?~ [CUCH09]
+@20210 = ~Penso di avere cose più importanti che rimanere qui ad aspettare i tuoi comodi.~ [CUCH10]
+@20211 = ~Huagh... ugh...~ [CUCH11]
+@20212 = ~Ah! Non c'é altro posto in Faerûn in cui mi senta a casa come in una foresta.~ [CUCH12]
+@20213 = ~Le Città hanno il loro posto. Che sia il più possibile lontano da me.~ [CUCH13]
+@20214 = ~Ricordati. Ovunque c'é malvagità.~ [CUCH14]
+@20215 = ~Non allentiamo le nostre difese solo perché è giorno. La malvagità è sempre in agguato.~ [CUCH15]
+@20216 = ~Ricordati. Ovunque c'é malvagità.~ [CUCH16]
+@20217 = ~Ehi. Cosa ti serve?~ [CUCH17]
+@20218 = ~Sono qui.~ [CUCH18]
+@20219 = ~Di pure quello che pensi. Di cosa hai bisogno?~ [CUCH19]
+@20220 = ~Se questo è tutto quello che vuoi lo farò.~ [CUCH20]
+@20221 = ~Rimani dietro, lasciami fare il mio lavoro.~ [CUCH21]
+@20222 = ~Questo è tutto quello che vuoi?~ [CUCH22]
+@20223 = ~Se vuoi conservarti il dito, ti suggerisco di fartelo da te.~ [CUCH23]
+@20224 = ~Mi ricordi un nano che conosco. E neanche lui sembra molto normale.~ [CUCH24]
+@20225 = ~A quanto pare non mi stai ascoltando. Continua così e ti ritroverai una manica senza braccio, perché te lo taglierò io.~ [CUCH25]
+@20226 = ~Lavorando su questo miglioramento molte notti di seguito, mi ha reso un po' nervoso.~ [CUCH26]
+@20234 = ~Ehi, Madadh n'Sgàil. Sei davvero un compagno fidato.~ [CUCH34]
+@20238 = ~Ach! Nessuno colpisce CúChoinneach e sopravvive per raccontarlo.~ [CUCH38]
+@20239 = ~Agh!~ [CUCH39]
+
+
+@20301 = ~Ehi tu, aspetta un minuto, vuoi?~ [BARDO01]
+@20302 = ~Questo è troppo per me! Me ne vado...~ [BARDO02]
+@20303 = ~Ho abbastanza frecce per tutti!~ [BARDO03]
+@20304 = ~Con te, la vita di un avventuriero è più emozionante di quella che mai avessi potuto immaginare!~ [BARDO04]
+@20305 = ~In qualche modo mi aspettavo di più dal tuo gruppo.~ [BARDO05]
+@20306 = ~Penso che dovrei andarmene a casa. Le cose qui non mi piacciono affatto.~ [BARDO06]
+@20307 = ~Me ne vado! Abbi cura di te...~ [BARDO07]
+@20308 = ~Vuoi dire che devo farlo davvero?~ [BARDO08]
+@20309 = ~Ora dovrei *sbadiglio* stendermi per un sonnellino.~ [BARDO09]
+@20310 = ~Perché stiamo qui fermi? Avanti, andiamo all'avventura...~ [BARDO10]
+@20311 = ~Dallillia, aiutami!~ [BARDO11]
+@20312 = ~Animali pericolosi giacciono in attesa ovunque nella foresta. Dobbiamo stare attenti.~ [BARDO12]
+@20313 = ~Gullykin non è niente paragonata a questa città!~ [BARDO13]
+@20314 = ~Questo posto mi ricorda la cantina di mio nonno... eccetto per i mostri, naturalmente.~ [BARDO14]
+@20315 = ~*fischietta*~ [BARDO15]
+@20316 = ~Hai sentito? C'è qualcosa qui...~ [BARDO16]
+@20317 = ~Si?~ [BARDO17]
+@20318 = ~Ehm?~ [BARDO18]
+@20319 = ~Ancora io?~ [BARDO19]
+@20320 = ~Ok-ok.~ [BARDO20]
+@20321 = ~Nessun problema.~ [BARDO21]
+@20322 = ~Mi piacerebbe fare qualcosa per cambiare.~ [BARDO22]
+@20323 = ~E' abbastanza, ok?~ [BARDO23]
+@20324 = ~Si si, usa pure le persone piccole per farlo.~ [BARDO24]
+@20325 = ~Ehm... *ehm*... cosa c'é?~ [BARDO25]
+@20326 = ~Se fossi rimasto a Gullykin, a quest'ora mi starei girando i pollici.~ [BARDO26]
+@20327 = ~Non puoi andare da qualche altra parte?~ [BARDO27]
+@20328 = ~Ah, dacci un taglio, va bene?~ [BARDO28]
+@20329 = ~Questo è piuttosto sorprendente. Pensi che potresti insegnarmelo?~ [BARDO29]
+@20330 = ~Non ho mai visto niente di simile!~ [BARDO30]
+@20331 = ~Potrei accendermi una buona pipa ora.~ [BARDO31]
+@20332 = ~Ti ho mai raccontateo dei tempi in cui facevo irruzione nella cantina dei vini di Gandolar? Heh heh...~ [BARDO32]
+@20333 = ~Oh no!~ [BARDO33]
+@20334 = ~Era ora. L'ho detto ad alta voce?~ [BARDO34]
+@20335 = ~E' bello sentirti dire così.~ [BARDO35]
+@20336 = ~Ehi, grazie. Non sei del tutto cattivo.~ [BARDO36]
+@20337 = ~Accidenti.~ [BARDO37]
+@20338 = ~Ahi!~ [BARDO38]
+@20339 = ~Arghhhhh...~ [BARDO39]
+@20340 = ~Hai detto qualcosa?~ [BARDO40]
+@20341 = ~Sto facendo finta di non aver sentito.~ [BARDO41]
+@20342 = ~Bla bla bla. In qualsiasi modo...~ [BARDO42]
+@20343 = ~Devo fare un pò più di pratica sulla mira.~ [BARDO43]
+@20344 = ~Hm.~ [BARDO44]
+@20345 = ~Un'avventura!~ [BARDO45]
+@20346 = ~Prendiamoli!~ [BARDO46]
+@20347 = ~Sarà un bene!~ [BARDO47]
+@20348 = ~Ti coprirò le spalle.~ [BARDO48]
+@20349 = ~La pratica dà buoni risultati!~ [BARDO49]
+@20350 = ~Non posso ferirlo con questo.~ [BARDO50]
+@20351 = ~Eh... che ne dici di alleggerirmi un po' il bagaglio prima di ripartire, eh?~ [BARDO51]
+@20352 = ~Varrà qualche moneta.~ [BARDO52]
+@20353 = ~Non mi troveranno mai!~ [BARDO53]
+@20354 = ~Sorpresa!~ [BARDO54]
+@20355 = ~Uh huh?~ [BARDO55]
+@20356 = ~D'accordo.~ [BARDO56]
+@20357 = ~Posso... aiutarti?~ [BARDO57]
+@20358 = ~Quando gli domandi del suo passato, BARDO FURFOOT ti riferisce che viene dal tranquillo villaggio di Gullykin. Da ragazzino era sempre irrequieto. Sebbene lui amasse Gullykin, non era felice di viverci. Il suo più grande desiderio era di vivere emozionanti avventure come quelle che leggeva sui libri o quelle che sentiva da quegli avventurieri che passavano per Gullykin. Gli abitanti di Gullykin lo vedevano sempre sognare ad occhi aperti invece di svolgere i suoi doveri giornalieri. Per lui l'avventura era tutto. Un giorno vide, il suo villaggio in preda ad una tremenda agitazione poiché si era sparsa la voce della presenza di un Drago della Foresta in prossimità di Gullykin. Gandolar Luckyfoot organizzò una squadra per cercare di fermare il drago prima che potesse avvicinarsi pericolosamente al villaggio. Bardo ovviamente partecipò e si unì alla squadra, ansioso di poter finalmente far parte di una vera avventura.~
+
+
+@20401 = ~Si? Cosa vuoi?~ [JETLA01]
+@20402 = ~Me ne vado, finché sono ancora tutta intera.~ [JETLA02]
+@20403 = ~Ti sistemerò per le feste!~ [JETLA03]
+@20404 = ~Se hai bisogno di me, sarò da questa parte.~ [JETLA04]
+@20405 = ~*sigh* Non capisco perché mi sono messa con un simile gruppo.~ [JETLA05]
+@20406 = ~Stai andando troppo oltre.~ [JETLA06]
+@20407 = ~Ach. Non voglio più che accadano questa cose, mai più.~ [JETLA07]
+@20408 = ~E cosa vorresti da un capo?~ [JETLA08]
+@20409 = ~*sigh*~ [JETLA09]
+@20410 = ~Se avrai bisogno di me, starò da questa parte... annoiata.~ [JETLA10]
+@20411 = ~Oh per favore non lasciarmi morire qui!~ [JETLA11]
+@20412 = ~Hai mai la sensazione di essere osservato? ~ [JETLA12]
+@20413 = ~Non ti fidare di nessuno qui, capito?~ [JETLA13]
+@20414 = ~D'accordo. Facciamo il lavoro e poi usciamo fuori da qui.~ [JETLA14]
+@20415 = ~Hai mai la sensazione di essere osservato? Forse lo siamo davvero.~ [JETLA15]
+@20416 = ~D'accordo.~ [JETLA16]
+@20417 = ~Och, cosa c'é ora?~ [JETLA17]
+@20418 = ~Si?~ [JETLA18]
+@20419 = ~Vuoi fermarti?!~ [JETLA19]
+@20420 = ~Perché no.~ [JETLA20]
+@20421 = ~Ach. Spero che un cane da caccia vi cosparga di strame il sacco a pelo.~ [JETLA21]
+@20422 = ~Oh, al posto tuo, mi preparerei a raccogliere i miei denti da terra.~ [JETLA22]
+@20423 = ~Oh, dolce sofferenza!~ [JETLA23]
+@20424 = ~Sparisci!~ [JETLA24]
+@20425 = ~Perché non vai ad accoppiarti con uno qualche cane randagio?~ [JETLA25]
+@20426 = ~Ach.~ [JETLA26]
+@20427 = ~Ho diversi nomi per te... nessuno dei quali contiene la parola gentile compagnia.~ [JETLA27]
+@20428 = ~Vedremo come sorriderai uno di questi giorni, quando ti metterò il tuo bel faccino sulla punta di una picca. E questo sarà la più piccola delle tue preoccupazioni visto quello che ti farò dopo.~ [JETLA28]
+@20429 = ~Ne ho abbastanza di te. Per quello che mi interessa puoi anche bruciare all'inferno!~ [JETLA29]
+@20430 = ~Stai lontano da me. Anzi, forse dovresti stare lontano da tutti noi.~ [JETLA30]
+@20431 = ~Non ho niente da dirti.~ [JETLA31]
+@20432 = ~Questa tua lingua ti farà rompere il naso prima o poi!~ [JETLA32]
+@20433 = ~Come fai a prendere fiato quando parli così tanto?~ [JETLA33]
+@20434 = ~Se non terrai gli occhi aperti, lo faranno loro.~ [JETLA34]
+@20435 = ~Se vuoi lasciare, fallo pure.~ [JETLA35]
+@20436 = ~Forse vorresti poterti picchiare da solo.~ [JETLA36]
+@20438 = ~Dannazione!~ [JETLA38]
+@20439 = ~Dannazione... mi ha fatto un graffio!~ [JETLA39]
+@20440 = ~Mantello di Jet'laya~
+@20441 = ~La madre di Jet'laya ricevette questo mantello azzurro quando era al servizio della dea degli elfi Aerdrie Faenya. Benedetto dalle sacerdotesse della Signora dell'Aria e del Vento, questo mantello dona protezione dagli elementi. Benché sembri, in lontananza, avere solo un colore blu intenso, da un esame più approfondito risultano esserci dei disegni ornati sul suo tessuto.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 1
+Abilità durante l'uso: Resistenza all'Elettricità +10%
+Peso: 3
+Utilizzabile solo da:
+ Jet'laya~
+
+@20442 = ~Stai bene?~ [JETLA40]
+
+
+@20501 = ~Si, cosa c'é?~ [SKEZR01]
+@20503 = ~Io sono il messaggero del tuo destino!~ [SKEZR03]
+@20508 = ~Lo farò!~ [SKEZR08]
+@20509 = ~Sono stanco.~ [SKEZR09]
+@20510 = ~*sbadiglia*~ [SKEZR10]
+@20511 = ~Arghhh... uragh...~ [SKEZR11]
+@20512 = ~Hrrmmm... urmmm... arm... hmm... hmm.~ [SKEZR12]
+@20513 = ~L'odore! Non mi piace l'odore...~ [SKEZR13]
+@20514 = ~Questo è un bel posto, vero?~ [SKEZR14]
+@20515 = ~Mmm-hm-hmm, ancora una volta sono rimasto a corto di tabacco.~ [SKEZR15]
+@20516 = ~Mmm-hm-mmm... una serata abbastanza tranquilla, vero?~ [SKEZR16]
+@20517 = ~Si?~ [SKEZR17]
+@20518 = ~Ho sentito!~ [SKEZR18]
+@20519 = ~Perché mi fai questo? Huh.~ [SKEZR19]
+@20520 = ~Ci sto andando!~ [SKEZR20]
+@20521 = ~Ecco! Ecco, vado!~ [SKEZR21]
+@20522 = ~Egh!~ [SKEZR22]
+@20523 = ~Unnghh... ngeergh...~ [SKEZR23]
+@20524 = ~Unrrggghhh...~ [SKEZR24]
+@20525 = ~Mmheerrgghh...~ [SKEZR25]
+@20526 = ~Gnah! Cosa?!~ [SKEZR26]
+@20538 = ~Urghh...~ [SKEZR38]
+@20539 = ~Urgh... Non mi sento affatto bene!~ [SKEZR39]
+@20540 = ~Oi? Lo vedi? Noooo...~ [SKEZR40]
+@20541 = ~Mmm-hm-mmm...~ [SKEZR27]
+
+
+@20601 = ~Shhh! Stai basso e silenzioso!~ [BUB01]
+@20602 = ~Me ne andrò via per ora.~ [BUB02]
+@20603 = ~Preferirei saltare le chiacchere ed andare subito ad uccidere.~ [BUB03]
+@20604 = ~Heh, è meglio di quello che pensavo!~ [BUB04]
+@20605 = ~Oh perché mi sono unito ad un gruppo di caproni come voi?~ [BUB05]
+@20606 = ~Continua così ed io me ne andrò da solo.~ [BUB06]
+@20607 = ~Ok, me ne vado! Mi arrangerò da solo.~ [BUB07]
+@20608 = ~Ok, basta che rimani dietro di me così non potranno sentirci.~ [BUB08]
+@20609 = ~*sbadiglia*~ [BUB09]
+@20610 = ~Sbaglio o avevi detto che ci sarebbero stati grosse quantità di combattimenti?~ [BUB10]
+@20611 = ~*gasp* Non voglio rimanere molto tempo qui.~ [BUB11]
+@20612 = ~Tienete pronte le vostre frecce, compagni. Ne dovranno essere scoccate diverse qui.~ [BUB12]
+@20613 = ~Non mi è mai importato nulla della gente di città. Sono tutti ladri o simili.~ [BUB13]
+@20614 = ~Ora silenzio e teniamo gli occhi ben aperti, ok? C'è un lavoro pericoloso da svolgere.~ [BUB14]
+@20615 = ~E' un buon posto per un'imboscata qui. Non abbassiamo la guardia.~ [BUB15]
+@20616 = ~Ora che è buio, gli orchi potrebbero confonderti per uno della loro razza, visto che l'odore è simile.~ [BUB16]
+@20617 = ~Si compagno?~ [BUB17]
+@20618 = ~Cosa c'é?~ [BUB18]
+@20619 = ~Smettila, ragazzo.~ [BUB19]
+@20620 = ~D'accordo.~ [BUB20]
+@20621 = ~Bene.~ [BUB21]
+@20622 = ~Mi sembra giusto.~ [BUB22]
+@20623 = ~Si, ok.~ [BUB23]
+@20624 = ~Non vedo molta più azione di quando ero alla fattoria.~ [BUB24]
+@20625 = ~Eh, mi dispiace, compagno. Per un secondo ho pensato che qui ci fosse un orco.~ [BUB25]
+@20626 = ~C'é un odore gradevole qui. Simile all'odore che c'è nella Palude delle Lucertole.~ [BUB26]
+@20627 = ~Puah. Ho più capacità io che la maggior parte di voi messi insieme.~ [BUB27]
+@20628 = ~Hmm, non male. Non male dopo tutto.~ [BUB28]
+@20629 = ~Resta con me, ragazzo. Forse puoi insegnarmi qualcosa dopo tutto.~ [BUB29]
+@20630 = ~Bene! Scommetto che potresti fare quattro secchielli di latte mungendo una mucca in una sola seduta.~ [BUB30]
+@20631 = ~Non avrei mai pensato che mi sarei unito ad un circo.~ [BUB31]
+@20632 = ~Ciao, tesoro. Vuoi un pò di pacche sulle spalle ed un po' di solletico coccoloso?~ [BUB32]
+@20633 = ~Ah, dove hai il cervello - non lo hai visto che arrivava?~ [BUB33]
+@20634 = ~Oh no! Non dimenticherò...~ [BUB34]
+@20635 = ~Caspita! Usi la tua lingua come quella di una prostituta!~ [BUB35]
+@20636 = ~Ah, non ne ho bisogno, sono solo un contadino!~ [BUB36]
+@20637 = ~Eh, heh heh heh. Ora mi stai facendo ridere.~ [BUB37]
+@20638 = ~Augh!~ [BUB38]
+@20639 = ~Arrrugh!~ [BUB39]
+@20640 = ~Silenzio, d'accordo? E' già abbastanza il dover sopportare il tuo cattivo odore.~ [BUB40]
+@20641 = ~Molto divertente. Ma non sarà altrettanto divertente quando inciamperai "accidentalmente" in una fanghiglia verde.~ [BUB41]
+@20642 = ~Cosa è stato?~ [BUB42]
+@20643 = ~Per tutti gli inferni, l'ho mancato!~ [BUB43]
+@20644 = ~Preso!~ [BUB44]
+@20645 = ~Se gli domandi del suo passato, BUB SNIKT ti dice che è nato a Daggerford, una città situata sulla Via del Commercio tra Baldur's Gate e Waterdeep. Settimo figlio di un contadino, Bub crebbe nella fattoria e divenne il figlio favorito di suo padre. Durante la sua gioventù, da suo padre imparò i segreti della vita campestre, e dai suoi fratelli imparò l'abilità della caccia. Ben presto ci si accorse delle notevoli capacità di Bub, visto che usava l'arco tanto bene almeno quanto un arciere del castello. Ogni anno la vita campestre passava sempre uguale. Occasionalmente, lui con i suoi fratelli e la locale Milizia si trovavano a difendere le fattorie di Daggerford dai tentativi di saccheggio dalle Lucertole provenienti dalla Palude delle Lucertole, ma la maggior parte del tempo passava monotono. Un giorno però ci fu un fatto particolare che cambiò le cose. Bub fece la sua regolare visita a Daggerford per vendere i prodotti della fattoria al mercato della città, quando ci fu una chiamata alle armi. Un 
+gruppo di orchi erano passati attraverso la Foresta Velata provenienti dall'Alta Brughiera ed avevano attaccato le fattorie locali che avevano trovato lungo la loro marcia, uccidendo i contadini e depredando tutto il cibo che potevano prendere. La fattoria di Bub si trovava proprio da quelle parti e, preoccupato per la vita dei suoi familiari, Bub lasciò la carovana dove c'era la merce che avrebbe dovuto vendere in città e, cavalcando al galoppo, si trovò alle porte della sua fattoria in brevissimo tempo. Quando arrivò nella sua fattoria, i suoi fratelli erano nel pieno del combattimento con diversi orchi, la grandezza dei quali impressionò notevolmente Bub. E' in quel momento che si ricordò dell'Amuleto che gli aveva donato suo padre quando era bambino. Il simbolo di Tempus infatti era appeso al suo collo. Bub non ricorda molto bene quello che successe quel giorno, ma quando si unì ai fratelli in battaglia, fu come se fosse stato benedetto e sembrava avere la velocità e la forza di dieci uomini. Nessun orco 
+sopravvisse. Ogni sua freccia andava a segno ed ogni movimento della sua spada non trovava resistenza. Nello spazio di un'ora tutti gli orchi furono uccisi, ed i suoi fratelli poterono solo assistere sbalorditi. Poco dopo il combattimento, Bub cambiò. Perse tutti gli interessi per la vita rurale e campestre e decise di intraprendere la vita da avventuriero. Prima si diresse verso Baldur's Gate poi a Beregost dove mise la sua persona al servizio e nella protezione dei locai contadini dagli orchi e da ogni altro pericolo.~
+
+@20701 = ~Ben incontrato, viaggiatore. Come posso aiutarti?~ [KEIRI01]
+@20702 = ~D'accordo.~ [KEIRI02]
+@20703 = ~L'ora della ricreazione è finita.~ [KEIRI03]
+@20704 = ~Mi fa piacere che progrediamo.~ [KEIRI04]
+@20705 = ~Non approvo i tuoi metodi.~ [KEIRI05]
+@20706 = ~Non posso più viaggiare con te.~ [KEIRI06]
+@20707 = ~Non c'é niente che tu possa dire o fare che possa far cambiare quello che è accaduto. Me ne vado.~ [KEIRI07]
+@20708 = ~Finchè mi è concesso presumo di poterlo fare.~ [KEIRI08]
+@20709 = ~Dovrei riposare urgentemente.~ [KEIRI09]
+@20710 = ~Siamo pronti a partire?~ [KEIRI10]
+@20711 = ~Ascoltami... non ho molto tempo.~ [KEIRI11]
+@20712 = ~Questi alberi sono incantevoli.~ [KEIRI12]
+@20713 = ~L'aria è molto... tonificante qui.~ [KEIRI13]
+@20714 = ~Ho paura che adesso che siamo entrati, non sarà facile uscire da questo posto.~ [KEIRI14]
+@20716 = ~E' difficile separare le ombre dall'oscurità qui.~ [KEIRI16]
+@20717 = ~Preparati.~  [KEIRI17]
+@20718 = ~Che c'é?~ [KEIRI18]
+@20719 = ~E' bello essere ancora in viaggio.~ [KEIRI19]
+@20720 = ~Starò attenta.~ [KEIRI20]
+@20721 = ~Che cosa era?~ [KEIRI21]
+@20722 = ~Molto bene, allora.~ [KEIRI22]
+@20723 = ~C'é molto da imparare da tutte le parti della società.~ [KEIRI23]
+@20724 = ~Io... penso che sia tempo che "tu" ti faccia un bagno nel lago~ [KEIRI24]
+@20725 = ~La strada che ho deciso di percorrere l'ho decisa io liberamente, non è una punizione.~ [KEIRI25]
+@20726 = ~Forse dovrei valutare la sfera delle tue capacità...~ [KEIRI26]
+@20727 = ~Hmph. Menti semplici, piaceri semplici.~ [KEIRI27]
+@20729 = ~Oof... *gasp*~ //[KEIRI29]
+@20730 = ~Per favore, signore! Abbia cura di se.~ [KEIRI30]
+@20731 = ~Tenga le mani a posto, signore.~ [KEIRI31]
+@20732 = ~Il risentimento diretto verso di me mi fa sentire alquanto vivace.~ [KEIRI32]
+@20733 = ~Sto provando a concentrarmi.~ [KEIRI33]
+@20735 = ~Questo non è un posto idoneo per viverci.~ [KEIRI35]
+@20736 = ~Naturalmente! Questo è perché sei molto acuto!~ [KEIRI36]
+@20737 = ~Prendilo su e sarai ricompensato.~ [KEIRI37]
+@20738 = ~Sembra che io sia un po' fuori esercizio.~ [KEIRI38]
+@20739 = ~Unh!~ [KEIRI39]
+@20740 = ~Puoi riposare in pace.~ [KEIRI40]
+@20741 = ~Spero che ora il tuo cuore trovi conforto.~ [KEIRI41]
+
+
+@20801 = ~La mia ascia sta fremendo nelle mie mani. Dammi qualcuno da uccidere.~ [FERTHG01]
+@20802 = ~Me ne vado.~ [FERTHG02]
+@20803 = ~Per Clangeddin!~ [FERTHG03]
+@20804 = ~Per il martello di Moradin, è stata una bella battaglia. Ha har!~ [FERTHG04]
+@20805 = ~Chiudi il becco o ti taglio la lingua!~ [FERTHG05]
+@20806 = ~Non combatterò per l'amore degli elfi come fai tu!~ [FERTHG06]
+@20807 = ~La mia ascia non lavorerà per quelli come te.~ [FERTHG07]
+@20808 = ~Bene. Finalmente sei venuto alla ragione.~ [FERTHG08]
+@20809 = ~Ho bisogno di dormire, possibilmente subito.~ [FERTHG09]
+@20810 = ~La mia ascia sta fremendo nelle mie mani. Dammi qualcuno da uccidere.~ [FERTHG10]
+@20811 = ~Io non temo la morte. Mi siederò accanto a Clangeddin.~ [FERTHG11]
+@20812 = ~Odio la foresta. E' piena di quei dannati elfi.~ [FERTHG12]
+@20813 = ~Le cose migliori delle città, ragazzi, sono tutti quei gingilli a basso costo. Ha ha har! Venite da papà.~ [FERTHG13]
+@20814 = ~Sono sicuro che un po' della nostra gente considererebbero questo sotterraneo un po' come quello del mio vecchio clan. Ha har!~ [FERTHG14]
+@20815 = ~La luce del giorno procura intense vibrazioni alla mia testa.~ [FERTHG15]
+@20816 = ~La cosa migliore della notte è che non posso vedere le vostre facce.~ [FERTHG16]
+@20817 = ~Si?~ [FERTHG17]
+@20818 = ~Cosa c'é?~ [FERTHG18]
+@20819 = ~Chi è che vuole morire?~ [FERTHG19]
+@20820 = ~Bene.~ [FERTHG20]
+@20821 = ~Sicuro, usa pure i muscoli del nano se devi.~ [FERTHG21]
+@20822 = ~Ti sembro un mulo forse?~ [FERTHG22]
+@20823 = ~Tua madre non ti ha detto che non è saggio spingere un nano così lontano!~ [FERTHG23]
+@20824 = ~Imoen, hai mai pensato di sposarti un nano?~ [FERTHG24]
+@20825 = ~Nessuno tocca la mia ascia.~ [FERTHG25]
+@20826 = ~Non posso crederci. Sei tanto utile quanto un branco di elfi nella tana di un verbeeg.~ [FERTHG26]
+@20827 = ~Almeno il mio fiato non puzza come il sedere di un orco.~ [FERTHG27]
+@20828 = ~Ancora una volta e sentirai il pungolare della mia ascia.~ [FERTHG28]
+@20829 = ~Già il tuo alito è cattivo abbastanza. Ora mi stai anche annoiando con le tue chiacchiere.~ [FERTHG29]
+@20830 = ~Clangeddin ti sorride, ragazzo. Combatti come un demonio.~ [FERTHG30]
+@20831 = ~Non ho mai visto una lama maneggiate in quel modo, ragazzo.~ [FERTHG31]
+@20832 = ~Dillo di nuovo, e ti ficcherò un'ascia nella tua gola.~ [FERTHG32]
+@20833 = ~Cosa pensi di fare, ragazzo?~ [FERTHG33]
+@20834 = ~Sei simile ad un nano, per quanto combatti bene.~ [FERTHG34]
+@20835 = ~La sola cosa che è peggio di un elfo... sono due elfi. Ha har!~ [FERTHG35]
+@20836 = ~Combatto per vendicare la morte di mio padre. Tu combatti per amore dell'oro. E secondo me, questo fa di te una persona malvagia.~ [FERTHG36]
+@20837 = ~Credo che ci sia gente peggiore che potrebbe viaggiare con noi.~ [FERTHG37]
+@20838 = ~Aurgh!~ [FERTHG38]
+@20839 = ~Un chierico! Da questa parte, prima che io muoia!~ [FERTHG39]
+@20840 = ~Per Clangeddin, vendicherò il nostro compagno a costo di riempire di sangue tutti i fiumi!~ [FERTHG40]
+@20841 = ~Nooooo!~ [FERTHG41]
+
+@20901 = ~Chi osa disturbarmi?!~ [LICH1]
+@20902 = ~Morirai!!~ [LICH2]
+
+@21001 = ~Salve e ben incontrato!~ [THORF01]
+@21002 = ~Ritirata!~ [THORF02]
+@21003 = ~Non mostrare pietà per nessuno di loro.~ [THORF03]
+@21004 = ~I bardi canteranno le nostre buone azioni.~ [THORF04]
+@21005 = ~Non ho niente in particolare contro questo gruppo, ma sto raggiungendo il limite.~ [THORF05]
+@21006 = ~Ascoltami: se continuerai così ci divideremo sicuramente in breve tempo.~ [THORF06]
+@21007 = ~Ne ho abbastanza! Prendo la mia strada e me ne vado. Sei fortunato che non ti metto la mia lama nella gola.~ [THORF07]
+@21008 = ~E' il momento. Seguimi nel massacro!~ [THORF08]
+@21009 = ~Dobbiamo trovare una taverna. Preferibilmente una con delle servotte paffute.~ [THORF09]
+@21010 = ~Andiamo dai. Non c'è gloria nella pigrizia.~ [THORF10]
+@21011 = ~Mi curerò le ferite quando sarò morto.~ [THORF11]
+@21012 = ~Ha ha ha ha! In guardia!~ [THORF12]
+@21013 = ~Lascia che il massacro inizi.~ [THORF13]
+@21014 = ~Con un po' di fortuna, ci sarà qualcosa da uccidere in queste foreste.~ [THORF14]
+@21015 = ~Lo senti questo odore? Ci deve essere della birra qui da qualche parte.~ [THORF15]
+@21016 = ~Siamo entrati nella tana di un drago! Beh, una persona non può sognare?~ [THORF16]
+@21017 = ~Saccheggiamo questo posto e portiamoci a casa le loro donne. Ha ha!~ [THORF17]
+@21018 = ~Di notte... di giorno... ogni momento è buono per morire.~ [THORF18]
+@21019 = ~Hmm?~ [THORF19]
+@21020 = ~Si?~ [THORF20]
+@21021 = ~Sono pronto.~ [THORF21]
+@21022 = ~La mia spada è la tua.~ [THORF22]
+@21023 = ~Ascolto i tuoi ordini.~ [THORF23]
+@21024 = ~Ah ha!~ [THORF24]
+@21025 = ~Con facilità.~ [THORF25]
+@21026 = ~Sarà fatto.~ [THORF26]
+@21027 = ~Ti difendo con abilità e coraggio.~ [THORF27]
+@21028 = ~Vorrei avere avuto una nave piena di combattenti simili a te!~ [THORF28]
+@21029 = ~Ti offrirei in sposa mia figlia se ne avessi una.~ [THORF29]
+@21030 = ~Devi aver avuto una madre disgustosa. Ti ha fatto con un tricheco?~ [THORF30]
+@21031 = ~Non sapevo di viaggiare con uno che si rifiuta di camminare con due gambe.~ [THORF31]
+@21032 = ~Vattene a casa, cane, e cerca di farti un bagno.~ [THORF32]
+@21033 = ~A volte le donne hanno delle strane idee che passano nella loro testa.~ [THORF33]
+@21034 = ~Dietro un bell'aspetto spesso si nascondono menti folli.~ [THORF34]
+@21035 = ~La sfortuna ci perseguita. Si può sentire nell'aria.~ [THORF35]
+@21036 = ~Nessuna creatura poteva sopravvivere fino a quel punto. Era una persona valorosa.~ [THORF36]
+@21037 = ~Lascia che il cadavere se lo mangino i corvi. Stiamo meglio senza di lui.~ [THORF37]
+@21038 = ~Grrr!~ [THORF38]
+@21039 = ~Huau-unh-ungh!~ [THORF39]
+@21040 = ~Mi fai onore! Ti offrirò da bere alla prossima taverna.~ [THORF40]
+@21041 = ~Mi fate onore. Simili parole non si sentono spesso in questo gruppo.~ [THORF41]
+@21042 = ~Possa Tempus favorirti.~ [THORF42]
+@21043 = ~Non lascerò che la tua lingua maliziosa mi punzecchi durante il combattimento... sia ben chiaro.~ [THORF43]
+@21044 = ~Ti lascio questa maledizione: soffrirai molto prima che tutto ciò avrà fine.~ [THORF44]
+@21045 = ~Ti spaccherei la testa se non fossi un codardo.~ [THORF45]
+@21046 = ~Ha ha ha ha ha!~ [THORF46]
+@21047 = ~La-la-la-la la-la-la.~ [THORF47]
+@21050 = ~Quando gli domandi del suo passato, THORFINN HAUSKLUNIFF ti spiega che la sua infanzia non è iniziata sotto una buona stella. Nato nell'Isola di Ruathym, fu ben presto offerto in sacrificio ad Auriel. I sacerdoti di Auriel misero Thorfinn su una zattera quando era solo un bambino, e lo spedirono, abbandonandolo, nel Mare senza Tracce. In quel momento le acque erano calme ma le correnti trascinarono la zattera a sud in direzione del lato ovest delle Isole Moonshae. Fu trascinato per diversi giorni finché la zattera raggiunse le coste dell'Isola di Moray. Thorfinn fu trovato esausto appoggiato ad una roccia sulle spiagge dell'Isola e soccorso da alcuni pescatori che lo accettarono nelle loro terre e da cui fu poi allevato. All'inizio, lavorò come marinaio e pescatore con la barca della sua famiglia adottiva, imparando praticamente tutto sulla vita marina. Iniziò ad avere interessi per la marina militare e quando raggiunse sedici anni, chiese alla sua famiglia adottiva il permesso di arruolarsi. 
+Durante la sua adolescenza, perfezionò le sue già grandi capacità di esperto navigatore ed imparò l'arte della scherma. Divenne abile nell'uso dell'ascia, e capace di maneggiare le spade grandi con una facilità ed un'abilità ancora non perduta tra i pirati ed i ladri delle Isole Moonshae. La spada a due mani divenne la sua arma preferita. Dopo cinque anni, Thorfinn decise di lasciare la marina e di viaggiare. Successivamente lavorò come mercenario assunto dai mercanti a cui serviva protezione per viaggiare per le strade con le loro carovane. Alla fine, i viaggi di Thorfinn lo condussero sulla Costa della Spada e poi nella città di Baldur's Gate.~
+
+
+

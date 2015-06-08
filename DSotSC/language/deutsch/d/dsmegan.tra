@@ -1,0 +1,11 @@
+@1   = ~Seid Ihr <CHARNAME>?~
+@2   = ~Ja, das bin ich, und wer seid Ihr?~
+@3   = ~Nein, von dem hab' ich noch nie gehört.~ ~Nein, von der hab' ich noch nie gehört.~
+@4   = ~Ich bin Megan Ghastkill, die Tochter des Bürgermeisters. Meine Mutter würde gerne mit Euch sprechen. Sie wartet im Haus meines Vaters auf Euch.~
+@5   = ~Wisst Ihr vielleicht, warum sie mit mir sprechen will?~
+@6   = ~Ich habe wichtigere Dinge zu erledigen, als gelangweilten Adligen von meinen ruhmreichen Taten zu erzählen!~
+@7   = ~Mein kleiner Bruder wurde entführt. Ihr seid vermutlich der einzige, der helfen kann.~ ~Mein kleiner Bruder wurde entführt. Ihr seid vermutlich die einzige, die helfen kann.~
+@8   = ~Ich helfe gerne.~
+@9   = ~Ihr seid kein richtiger Held! Ein wahrer Held würde Leuten in Not helfen.~ ~Ihr seid keine richtige Heldin! Wahre Helden würden Leuten in Not helfen.~
+@10  = ~Oh, ich dachte gleich, dass Ihr zu schäbig ausseht für den heldenhaften <CHARNAME>. Wenn Ihr zufällig ein paar Helden seht, könntet Ihr diese dann bitte zu meiner Mutter schicken? Sie ist die Frau des Bürgermeisters und wir wohnen im Herrenhaus.~ ~Oh, ich dachte gleich, dass Ihr zu schäbig ausseht für die heldenhafte <CHARNAME>. Wenn Ihr zufällig ein paar Helden seht, könntet Ihr diese dann bitte zu meiner Mutter schicken? Sie ist die Frau des Bürgermeisters und wir wohnen im Herrenhaus.~
+@11  = ~Hallo!~ [AERIEC3]

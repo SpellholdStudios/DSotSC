@@ -1,0 +1,19 @@
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+    Wait(1)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),20)
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(GroupOf(Myself)))
+    Wait(1)
+    Continue()
+END
+

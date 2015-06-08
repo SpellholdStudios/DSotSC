@@ -1,0 +1,14 @@
+IF
+	Global("ARCHDR","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSARCHDR",[638.729],0)
+		CreateCreature("BEARBR",[690.789],0) // Brown Bear
+		CreateCreature("BEARCA",[687.744],0) // Cave Bear
+		CreateCreature("BEARBL",[621.648],0) // Black Bear
+		CreateCreature("BEARCA",[551.688],0) // Cave Bear
+		CreateCreature("BEARBR",[697.614],0) // Brown Bear
+		SetGlobal("ARCHDR","GLOBAL",1)
+END
+
+

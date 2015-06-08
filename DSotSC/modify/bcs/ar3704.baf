@@ -1,0 +1,12 @@
+IF
+	Global("TalkedToMegan","GLOBAL",1)
+	Global("GillianSpawn","GLOBAL",0)
+	!Exists("DSGilian")
+	!Dead("DSGilian")
+THEN
+	RESPONSE #100
+		CreateCreature("DSGILIAN",[698.416],0)
+		SetGlobal("GillianSpawn","GLOBAL",1)
+END
+
+

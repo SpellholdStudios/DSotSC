@@ -1,0 +1,8 @@
+BEGIN ~CONCHOP~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("%KICKED_OUT%","LOCALS",0)
+JoinParty()~ EXIT
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("%KICKED_OUT%","LOCALS",1)~ EXIT
+END

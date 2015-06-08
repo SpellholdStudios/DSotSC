@@ -1,0 +1,2753 @@
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_B",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+    CreateCreature("XVARTPRE",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+    CreateCreature("XVART03",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+    CreateCreature("XVART03",[3525.1722],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",1)
+    CreateCreature("XVART_A",[3525.1722],4)
+    CreateCreature("XVART_B",[3525.1722],4)
+    CreateCreature("XVART_C",[3525.1722],4)
+    CreateCreature("XVART01",[3525.1722],4)
+    CreateCreature("XVART02",[3525.1722],4)
+    CreateCreature("XVART03",[3525.1722],4)
+    CreateCreature("XVARTPRE",[3525.1722],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_B",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+    CreateCreature("XVARTPRE",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+    CreateCreature("XVART03",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",1)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+    CreateCreature("XVART03",[3541.1414],0)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",2)
+    CreateCreature("XVART_A",[3541.1414],0)
+    CreateCreature("XVART_B",[3541.1414],0)
+    CreateCreature("XVART_C",[3541.1414],0)
+    CreateCreature("XVART01",[3541.1414],0)
+    CreateCreature("XVART02",[3541.1414],0)
+    CreateCreature("XVART03",[3541.1414],0)
+    CreateCreature("XVARTPRE",[3541.1414],0)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_B",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVARTPRE",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVART03",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",2)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVART03",[2592.1935],12)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVART03",[2592.1935],12)
+    CreateCreature("XVARTPRE",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_B",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+    CreateCreature("XVARTPRE",[3072.1920],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+    CreateCreature("XVART03",[3072.1920],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+    CreateCreature("XVART03",[3072.1920],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",3)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",4)
+    CreateCreature("XVART_A",[3072.1920],4)
+    CreateCreature("XVART_B",[3072.1920],4)
+    CreateCreature("XVART_C",[3072.1920],4)
+    CreateCreature("XVART01",[3072.1920],4)
+    CreateCreature("XVART02",[3072.1920],4)
+    CreateCreature("XVART03",[3072.1920],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVART03",[2592.1935],12)
+    CreateCreature("XVARTPRE",[2592.1935],12)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_B",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+    CreateCreature("XVARTPRE",[3331.1877],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+    CreateCreature("XVART03",[3331.1877],4)
+END
+
+IF
+  Global("BP_SpawnStooges","%XvartVillage%",4)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",5)
+    CreateCreature("XVART_A",[3331.1877],4)
+    CreateCreature("XVART_B",[3331.1877],4)
+    CreateCreature("XVART_C",[3331.1877],4)
+    CreateCreature("XVART01",[3331.1877],4)
+    CreateCreature("XVART02",[3331.1877],4)
+    CreateCreature("XVART03",[3331.1877],4)
+  RESPONSE #20
+    SetGlobal("BP_SpawnStooges","%XvartVillage%",3)
+    CreateCreature("XVART_A",[2592.1935],12)
+    CreateCreature("XVART_B",[2592.1935],12)
+    CreateCreature("XVART_C",[2592.1935],12)
+    CreateCreature("XVART01",[2592.1935],12)
+    CreateCreature("XVART02",[2592.1935],12)
+    CreateCreature("XVART03",[2592.1935],12)
+    CreateCreature("XVARTPRE",[2592.1935],12)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVART_A",[2144.1832],12)
+    CreateCreature("XVARTPRE",[2144.1832],12)
+    CreateCreature("XVART_D",[2144.1832],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",1)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVARTPRE",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVARTPRE",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVARTPRE",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVARTPRE",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVART_A",[2585.1662],12)
+    CreateCreature("XVARTPRE",[2585.1662],12)
+    CreateCreature("XVART_D",[2585.1662],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",2)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #40
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #30
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+  RESPONSE #20
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVART_A",[2971.1831],12)
+    CreateCreature("XVARTPRE",[2971.1831],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",3)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVARTPRE",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVART_A",[3000.1984],0)
+    CreateCreature("XVARTPRE",[3000.1984],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",4)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVARTPRE",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVARTPRE",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVARTPRE",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVARTPRE",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVART_A",[3234.1766],0)
+    CreateCreature("XVARTPRE",[3234.1766],0)
+    CreateCreature("XVART_D",[3234.1766],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",5)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVARTPRE",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVARTPRE",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVARTPRE",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVARTPRE",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVART_A",[3199.1906],0)
+    CreateCreature("XVARTPRE",[3199.1906],0)
+    CreateCreature("XVART_D",[3199.1906],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",6)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #40
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    CreateCreature("XVART_A",[3649.1744],0)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",7)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("BEARCA",[4161.1076],4)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #100
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("XVARTPRE",[2926.1828],12)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    CreateCreature("BEARCA",[4161.1076],4)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",8)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVARTPRE",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVARTPRE",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVARTPRE",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVART_A",[3170.1022],8)
+    CreateCreature("XVARTPRE",[3170.1022],8)
+    CreateCreature("XVART_D",[3170.1022],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",9)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVARTPRE",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyLT(3)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVARTPRE",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyLT(3)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(2)
+  LevelPartyLT(5)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVARTPRE",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+  NumInPartyGT(2)
+  LevelPartyGT(4)
+THEN
+  RESPONSE #50
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #40
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #30
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVARTPRE",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+  RESPONSE #20
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVART_A",[3863.1200],8)
+    CreateCreature("XVARTPRE",[3863.1200],8)
+    CreateCreature("XVART_D",[3863.1200],8)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",10)
+END
+
+IF
+  Global("BP_MoreStooges","%XvartVillage%",10)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Wait(3)
+    SetGlobal("BP_MoreStooges","%XvartVillage%",11)
+    SetGlobal("BP_VillagePeople","GLOBAL",1)
+END
+

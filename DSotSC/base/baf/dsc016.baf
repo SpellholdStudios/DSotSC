@@ -1,0 +1,42 @@
+IF
+  Global("VampSpawn","DSC016",0)
+THEN
+  RESPONSE #100
+    ActionOverride("VAMPFLF1",Polymorph(MAGE_FEMALE_HUMAN))
+    ActionOverride("VAMPFLF2",Polymorph(MAGE_FEMALE_HUMAN))
+    ActionOverride("LORDVAMP",Polymorph(MAGE_MALE_HUMAN))
+    ActionOverride("CLAIRIS",Polymorph(MAGE_FEMALE_ELF))
+    SetGlobal("VampSpawn","DSC016",1)
+    SetGlobal("DSCuchClairs","GLOBAL",1)
+END
+
+IF
+  Global("DSClairisCut","DSC016",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SmallWait(2)
+    FadeToColor([30.0],0)
+    Wait(2)
+    ActionOverride(Player1,JumpToPoint([3567.1484]))
+    ActionOverride(Player1,Face(5))
+    ActionOverride(Player2,JumpToPoint([3583.1502]))
+    ActionOverride(Player2,Face(5))
+    ActionOverride(Player3,JumpToPoint([3540.1525]))
+    ActionOverride(Player3,Face(5))
+    ActionOverride(Player4,JumpToPoint([3540.1575]))
+    ActionOverride(Player4,Face(5))
+    ActionOverride(Player5,JumpToPoint([3540.1600]))
+    ActionOverride(Player5,Face(5))
+    ActionOverride(Player6,JumpToPoint([3540.1660]))
+    ActionOverride(Player6,Face(5))
+    ActionOverride("Clairis",JumpToPoint([3609.1416]))
+    ActionOverride("Clairis",Face(2))
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    MoveViewPoint([3560.1520],INSTANT)
+    FadeFromColor([30.0],0)
+    SetGlobal("DSClairisCut","DSC016",2)
+    SetGlobal("DSCuchClairs","GLOBAL",0)
+END
+

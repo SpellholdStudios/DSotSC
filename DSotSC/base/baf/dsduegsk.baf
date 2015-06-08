@@ -1,0 +1,18 @@
+IF
+  See([PC])
+  Global("DSduegskel","GLOBAL",0)
+  Range([PC],20)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("DSduegskel","GLOBAL",1)
+  Delay(18)
+  !See([PC])
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_ANIMATE_DEAD)
+END
+

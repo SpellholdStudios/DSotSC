@@ -1,0 +1,16 @@
+IF
+	Global("DSitems","%CloakwoodMines_L4%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 1",CreateItem("POTN55",0,0,0)) // Potion of Superior Healing
+		ActionOverride("Container 11",CreateItem("SCRLA5",0,0,0)) // Melf's Minute Meteor
+		ActionOverride("Container 11",CreateItem("SCRL7F",0,0,0)) // Globe of Invulnerability
+		ActionOverride("Container 12",CreateItem("SCRLDS62",0,0,0))
+		ActionOverride("Container 4",CreateItem("SCRLDS22",0,0,0))
+		ActionOverride("Container 7",CreateItem("SCRLDS11",0,0,0))
+		ActionOverride("Container 7",CreateItem("SCRLDS21",0,0,0))
+		SetGlobal("DSitems","%CloakwoodMines_L4%",1)
+		Continue()
+END
+
+

@@ -1,0 +1,141 @@
+IF
+  Global("Lich","GLOBAL",0)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    ForceSpellPoint([2516.678],WIZARD_DIMENSION_DOOR)
+    Wait(1)
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_FIRE_STORM)
+    SmallWait(5)
+    SetGlobal("Lich","GLOBAL",1)
+END
+
+IF
+  Global("Lich","GLOBAL",1)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    PlaySound("Ghost5")
+    ForceSpell(NearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR3)
+    SmallWait(5)
+    ForceSpell(SecondNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR2)
+    SmallWait(5)
+    ForceSpell(ThirdNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR)
+    SmallWait(5)
+    ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+    SmallWait(5)
+    ForceSpell(Myself,CLERIC_FIRE_STORM)
+    SetGlobal("Lich","GLOBAL",2)
+END
+
+IF
+  Global("Lich","GLOBAL",2)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    PlaySound("Lich2")
+    ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
+    SmallWait(5)
+    ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_HORROR)
+    SmallWait(5)
+    ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_POWER_WORD_SLEEP)
+    SmallWait(5)
+    SetGlobal("Lich","GLOBAL",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_HOLD_PERSON)
+  RESPONSE #100
+    PlaySound("Ghost1")
+    Wait(1)
+    ForceSpell(SecondNearestEnemyOf(Myself(Myself)),WIZARD_SLOW)
+    SetGlobal("Lich","GLOBAL",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),WIZARD_PRISMATIC_SPRAY)
+    SetGlobal("Lich","GLOBAL",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_EMOTION_HOPELESSNESS)
+    SetGlobal("Lich","GLOBAL",6)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",6)
+THEN
+  RESPONSE #100
+    PlaySound("Ghost3")
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_DEATH_SPELL)
+    SmallWait(5)
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),SPIDER_SUMMON)
+    SetGlobal("Lich","GLOBAL",7)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",7)
+THEN
+  RESPONSE #100
+    ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),WIZARD_SUMMON_FIEND)
+    SetGlobal("Lich","GLOBAL",8)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HPPercentLT(Myself(Myself),50)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_MAGIC_RESISTANCE)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalGT("Lich","GLOBAL",7)
+  GlobalLT("Lich","GLOBAL",10)
+THEN
+  RESPONSE #25
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    IncrementGlobal("Lich","GLOBAL",1)
+  RESPONSE #25
+    PlaySound("Ghost5")
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_SEEDS)
+    IncrementGlobal("Lich","GLOBAL",1)
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CIRCLE_OF_PROTECTION)
+    IncrementGlobal("Lich","GLOBAL",1)
+  RESPONSE #25
+    PlaySound("Ghost2")
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_MAGIC_RESISTANCE)
+    IncrementGlobal("Lich","GLOBAL",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Lich","GLOBAL",10)
+THEN
+  RESPONSE #75
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    Continue()
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CIRCLE_OF_PROTECTION)
+    Continue()
+END
+

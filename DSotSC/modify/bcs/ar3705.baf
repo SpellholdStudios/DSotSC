@@ -1,0 +1,10 @@
+IF
+	Global("TalkedToMegan","GLOBAL",1)
+	Global("MeganSpawn","%Nashkel_ManorHouse_L1%",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSMEGAN",[263.294],2)
+		SetGlobal("MeganSpawn","%Nashkel_ManorHouse_L1%",1)
+END
+
+

@@ -1,0 +1,114 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+  AreaCheck("DSC016")
+THEN
+  RESPONSE #100
+    StartDialogue("dsvampm",[PC])
+END
+
+IF
+  See([PC])
+  Global("LordDaerthmac1","GLOBAL",0)
+  NumberOfTimesTalkedTo(1)
+  AreaCheck("DSC016")
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    ForceSpellPoint([249.1037],DRYAD_TELEPORT)
+    SetGlobal("LordDaerthmac1","GLOBAL",1)
+    EscapeArea()
+END
+
+IF
+  See([PC])
+  AreaCheck("DSC017")
+THEN
+  RESPONSE #100
+    Enemy()
+    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ForceSpellPoint([1811.1904],DRYAD_TELEPORT)
+    SetGlobal("LordDaerthmac1","GLOBAL",2)
+    EscapeArea()
+END
+
+IF
+  See([PC])
+  GlobalLT("LordDaerthmac1","GLOBAL",3)
+  AreaCheck("DSC018")
+THEN
+  RESPONSE #100
+    Enemy()
+    ForceSpell(Myself,WIZARD_HASTE)
+    ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    Wait(1)
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    Wait(1)
+    ForceSpell(SecondNearestEnemyOf(Myself),FEAR)
+    SetGlobal("LordDaerthmac1","GLOBAL",3)
+END
+
+IF
+  Global("LordDaerthmac1","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    AttackReevaluate(LastAttackerOf(Myself),10)
+    Wait(2)
+    SetGlobal("LordDaerthmac1","GLOBAL",4)
+END
+
+IF
+  Global("LordDaerthmac1","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    Wait(1)
+    ForceSpell(Myself,WIZARD_HASTE)
+    ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    Wait(60)
+    SetGlobal("LordDaerthmac1","GLOBAL",5)
+END
+
+IF
+  Global("LordDaerthmac1","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    Wait(1)
+    ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
+    Wait(1)
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself))
+    ForceSpell(NearestEnemyOf(Myself),FEAR)
+    AttackReevaluate(LastAttackerOf(Myself),10)
+    SetGlobal("LordDaerthmac1","GLOBAL",6)
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("VampLordDead","GLOBAL",1)
+    ReallyForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ReallyForceSpell(Myself,RED_HOLY_MIGHT)
+    Wait(2)
+    ReallyForceSpell(Myself,RED_SWIRL)
+    SmallWait(5)
+    ReallyForceSpell(Myself,MUSHROOM_FIRE)
+    DestroySelf()
+END
+
+IF
+  Global("LordDaerthmac1","GLOBAL",6)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+

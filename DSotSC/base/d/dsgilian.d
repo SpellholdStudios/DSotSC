@@ -1,0 +1,126 @@
+BEGIN ~DSGILIAN~
+
+IF ~NumberOfTimesTalkedTo(0)
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 1
+  IF ~~ THEN REPLY @4 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 2
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9
+  IF ~~ THEN REPLY @6 GOTO 2
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @10
+  IF ~~ THEN REPLY @6 GOTO 2
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 6
+  IF ~~ THEN REPLY @13 GOTO 5
+  IF ~~ THEN REPLY @14 GOTO 6
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @15
+  IF ~~ THEN REPLY @12 GOTO 6
+  IF ~~ THEN REPLY @13 GOTO 5
+  IF ~~ THEN REPLY @14 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 9
+  IF ~~ THEN REPLY @22 GOTO 10
+  IF ~~ THEN REPLY @23 GOTO 10
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("TalkedGillian","GLOBAL",1)
+~ JOURNAL @25 EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 11
+  IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillia","GLOBAL",1)
+SetGlobal("GilliaPay","GLOBAL",1)
+~ JOURNAL @25 EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @29
+  IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillian","GLOBAL",1)
+SetGlobal("GilliaPay","GLOBAL",1)
+~ JOURNAL @25 EXIT
+  IF ~~ THEN REPLY @30 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @31
+  IF ~~ THEN DO ~SetGlobal("TalkedGillian","GLOBAL",1)
+SetGlobal("GilliaPay","GLOBAL",2)
+~ JOURNAL @25 EXIT
+END
+
+IF ~!PartyHasItem("DSMISC07")
+~ THEN BEGIN 13
+  SAY @32
+  IF ~~ THEN REPLY @33 GOTO 6
+END
+
+IF ~PartyHasItem("DSMISC07")
+~ THEN BEGIN 14
+  SAY @34
+  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+ReputationInc(2)
+EscapeArea()
+~ JOURNAL @35 EXIT
+END
+
+IF ~PartyHasItem("DSMISC07")
+Global("GilliaPay","GLOBAL",1)
+~ THEN BEGIN 15
+  SAY @34
+  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+GivePartyGold(1000)
+EscapeArea()
+~ JOURNAL @35 EXIT
+END
+
+IF ~PartyHasItem("DSMISC07")
+Global("GilliaPay","GLOBAL",2)
+~ THEN BEGIN 16
+  SAY @34
+  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+GivePartyGold(5000)
+ReputationInc(-2)
+EscapeArea()
+~ JOURNAL @35 EXIT
+END

@@ -1,0 +1,10 @@
+IF
+	Global("KaterinSpawn","GLOBAL",1)
+	Global("ThomicSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHOMIC",[653.310],0)
+		SetGlobal("ThomicSpawn","GLOBAL",1)
+END
+
+

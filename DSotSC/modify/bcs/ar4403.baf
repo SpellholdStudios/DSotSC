@@ -1,0 +1,19 @@
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","%NashkelMines_L3%",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		SetGlobal("DS_MoreStooges","%NashkelMines_L3%",1)
+		CreateCreature("KOBCOMM",[3387.1189],8) // Kobold Commando
+		CreateCreature("KOBCOMM",[3469.1171],8) // Kobold Commando
+		CreateCreature("KOBCOMM",[2839.2576],4) // Kobold Commando
+		CreateCreature("KOBCOMM",[3048.2605],4) // Kobold Commando
+		CreateCreature("KOBCOMM",[3145.2708],3) // Kobold Commando
+		CreateCreature("KOBCOMM",[3203.2628],0) // Kobold Commando
+		CreateCreature("GHAST",[326.2558],12) // Ghast
+		CreateCreature("KOBCOMM",[587.1986],12) // Kobold Commando
+		Continue()
+END
+
+

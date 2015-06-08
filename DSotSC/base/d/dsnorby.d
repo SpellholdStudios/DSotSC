@@ -1,0 +1,6 @@
+BEGIN ~DSNORBY~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~EscapeArea()~ JOURNAL @2 EXIT
+END

@@ -1,0 +1,9 @@
+IF
+  GlobalGT("CHAPTER","GLOBAL",%tutu_chapter_3%)
+  Global("Otho2Spawn","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("Otho2Spawn","GLOBAL",2)
+    DestroySelf()
+END
+

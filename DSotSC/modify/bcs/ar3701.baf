@@ -1,0 +1,47 @@
+IF
+	Global("FindRelic","GLOBAL",1)
+	Global("JeremySpawn","GLOBAL",0)
+	Global("DragonDead","GLOBAL",0)
+	!Exists("DSJeremy")
+	!Dead("DSJeremy")
+THEN
+	RESPONSE #100
+		CreateCreature("DSJEREMY",[406.414],0)
+		SetGlobal("JeremySpawn","GLOBAL",1)
+END
+
+IF
+	Global("BP_BG1NPC3701","GLOBAL",0)
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("ConchoSpawn","%Nashkel_Inn%",0)
+	LevelLT(Player1,6)
+THEN
+	RESPONSE #100
+		SetGlobal("ConchoSpawn","%Nashkel_Inn%",1)
+		SetGlobal("BP_BG1NPC3701","GLOBAL",1)
+		CreateCreature("DSConch5",[741.304],0)
+END
+
+IF
+	Global("BP_BG1NPC3701","GLOBAL",0)
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("DSConchoSpawn","%Nashkel_Inn%",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		SetGlobal("DSConchoSpawn","%Nashkel_Inn%",1)
+		SetGlobal("BP_BG1NPC3701","GLOBAL",1)
+		CreateCreature("DSConch7",[741.304],0)
+END
+
+IF
+	Global("DragonDead","GLOBAL",1)
+	Global("DSConchoSpawn","%Nashkel_Inn%",1)
+	Exists("Conchobhair")
+	!InParty("Conchobhair")
+THEN
+	RESPONSE #100
+		ActionOverride("Conchobhair",EscapeAreaDestroy(15))
+END
+
+

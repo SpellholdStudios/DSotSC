@@ -1,0 +1,50 @@
+IF
+  Opened([ANYONE])
+  RandomNum(5,1)
+THEN
+  RESPONSE #100
+    Wait(15)
+    DisplayString(LastTrigger(Myself),102922)
+    ForceSpellPoint([120.98],JELLY_SPLIT)
+END
+
+IF
+  Opened([ANYONE])
+  RandomNum(5,2)
+THEN
+  RESPONSE #100
+    Wait(15)
+    DisplayString(LastTrigger(Myself),102922)
+    ForceSpell(LastTrigger(Myself),SUMMON_SKELETON_WARRIOR)
+END
+
+IF
+  Opened([ANYONE])
+  RandomNum(5,3)
+THEN
+  RESPONSE #100
+    Wait(15)
+    DisplayString(LastTrigger(Myself),102922)
+    ForceSpell(LastTrigger(Myself),TRAP_ARROW_BITING)
+END
+
+IF
+  Opened([ANYONE])
+  RandomNum(5,4)
+THEN
+  RESPONSE #100
+    Wait(15)
+    DisplayString(LastTrigger(Myself),102922)
+    ForceSpell(LastTrigger(Myself),TRAP_HOLD_PERSON)
+END
+
+IF
+  Opened([ANYONE])
+  RandomNum(5,5)
+THEN
+  RESPONSE #100
+    Wait(15)
+    DisplayString(LastTrigger(Myself),102922)
+    ForceSpell(LastTrigger(Myself),TRAP_CONFUSION)
+END
+

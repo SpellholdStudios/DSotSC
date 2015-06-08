@@ -1,0 +1,31 @@
+IF
+  Range(NearestEnemyOf(Myself),50)
+  !Range(NearestEnemyOf(Myself),5)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    Attack(NearestEnemyOf(Myself))
+    Continue()
+END
+
+IF
+  Range(NearestEnemyOf(Myself),15)
+  !Range(NearestEnemyOf(Myself),5)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+    Wait(5)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+    Wait(1)
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),10)
+    Continue()
+END
+

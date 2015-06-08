@@ -1,0 +1,31 @@
+IF
+//	OnCreation()
+	Global("DS_MoreStooges","%FirewineBridge%",0)
+	!Difficulty(EASIEST)
+THEN
+	RESPONSE #100
+		SetGlobal("DS_MoreStooges","%FirewineBridge%",1)
+		CreateCreature("TROLL01",[1776.119],0) // Troll
+		CreateCreature("TROLL01",[1788.146],0) // Troll
+		CreateCreature("HOBELITE",[1819.176],12) // Hobgoblin Elite
+		CreateCreature("HOBELITE",[1888.100],12) // Hobgoblin Elite
+		CreateCreature("TROLL01",[4313.2216],4) // Troll
+		CreateCreature("TROLL01",[4343.2236],4) // Troll
+		CreateCreature("HOBELITE",[4411.2291],4) // Hobgoblin Elite
+		CreateCreature("TROLL01",[4731.1357],3) // Troll
+		CreateCreature("TROLL01",[4775.1348],0) // Troll
+		CreateCreature("TROLL01",[4836.1335],0) // Troll
+		CreateCreature("HOBELITE",[1923.145],0) // Hobgoblin Elite
+		CreateCreature("HOBELITE",[1962.246],0) // Hobgoblin Elite
+		CreateCreature("HOBELITE",[1948.346],0) // Hobgoblin Elite
+		CreateCreature("HOBELITE",[1592.42],12) // Hobgoblin Elite
+		CreateCreature("TROLL01",[700.3391],0) // Troll
+		CreateCreature("TROLL01",[768.3418],9) // Troll
+		CreateCreature("TROLL01",[855.3458],5) // Troll
+		CreateCreature("TROLL01",[1692.1668],12) // Troll
+		CreateCreature("TROLL01",[1757.1705],4) // Troll
+		CreateCreature("TROLL01",[1497.1718],0) // Troll
+		Continue()
+END
+
+

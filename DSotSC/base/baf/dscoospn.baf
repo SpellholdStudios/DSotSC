@@ -1,0 +1,8 @@
+IF
+  RandomNum(3,1)
+THEN
+  RESPONSE #100
+    CreateCreature("DSCOOSHE",[-1.-1],0)  // COOSHEE
+    ChangeAIScript("Shout",OVERRIDE)
+END
+

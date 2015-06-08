@@ -1,0 +1,10 @@
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+	Global("OthoSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("DSOTHO",[493.279],0)
+		SetGlobal("OthoSpawn","GLOBAL",1)
+END
+
+

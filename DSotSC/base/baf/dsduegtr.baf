@@ -1,0 +1,43 @@
+IF
+  Entered([ANYONE])
+  Global("FerthgilCountStart","GLOBAL",0)
+THEN
+  RESPONSE #60
+    SetGlobal("FerthgilCountStart","GLOBAL",1)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg1",[-1.-1],0)
+    CreateCreature("DSDuerg3",[-1.-1],0)
+    CreateCreature("DSDuerg1",[-1.-1],0)
+    CreateCreature("DSDuerg3",[-1.-1],0)
+    Wait(30)
+    IncrementGlobal("FerthgDuergr","GLOBAL",1)
+  RESPONSE #40
+    SetGlobal("FerthgilCountStart","GLOBAL",1)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    Wait(50)
+    IncrementGlobal("FerthgDuergr","GLOBAL",1)
+END
+
+IF
+  GlobalLT("FerthgDuergr","GLOBAL",6)
+THEN
+  RESPONSE #60
+    CreateCreature("DSDuerg1",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg3",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    Wait(30)
+    IncrementGlobal("FerthgDuergr","GLOBAL",1)
+  RESPONSE #40
+    CreateCreature("DSDuerg1",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg2",[-1.-1],0)
+    CreateCreature("DSDuerg3",[-1.-1],0)
+    Wait(50)
+    IncrementGlobal("FerthgDuergr","GLOBAL",1)
+END
+

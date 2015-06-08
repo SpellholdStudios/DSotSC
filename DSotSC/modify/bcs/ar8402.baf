@@ -1,0 +1,9 @@
+IF
+	Global("DSAmaranChange","%CloakwoodDruids_Treehouse_L2%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("AMARAN",ChangeClass(Myself,DRUID))
+		SetGlobal("DSAmaranChange","%CloakwoodDruids_Treehouse_L2%",1)
+END
+
+

@@ -1,0 +1,11 @@
+IF
+	Global("DSitems","%CloakwoodDruids_Treehouse_L1%",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Container 1",CreateItem("DSCLCK03",0,0,0))
+		ActionOverride("Container 2",CreateItem("SCRLDS41",0,0,0))
+		SetGlobal("DSitems","%CloakwoodDruids_Treehouse_L1%",1)
+		Continue()
+END
+
+

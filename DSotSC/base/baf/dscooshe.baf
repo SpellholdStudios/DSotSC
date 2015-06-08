@@ -1,0 +1,63 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Continue()
+END
+
+IF
+  Global("Feydoch","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself(Myself),NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON0,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON2,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+    Continue()
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON0,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+  RESPONSE #100
+    SelectWeaponAbility(SLOT_WEAPON2,0)
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+    Continue()
+END
+
+IF
+  Allegiance(Myself(Myself),NEUTRAL)
+THEN
+  RESPONSE #100
+    RandomWalk()
+    Continue()
+END
+

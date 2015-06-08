@@ -1,0 +1,17 @@
+IF
+  Global("DSduegalert","GLOBAL",0)
+  See([PC])
+  Range([PC],20)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("DSduegalert","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@10)
+    SetGlobal("DSduegalert","GLOBAL",2)
+END
+

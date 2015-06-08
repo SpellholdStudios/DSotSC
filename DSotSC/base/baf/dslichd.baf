@@ -1,0 +1,43 @@
+IF
+  Die()
+  Global("Lich2","DSC002",0)
+  !PartyHasItem("DSMISC09")  // ~Phylactery of Koroval Na'Krugen~
+THEN
+  RESPONSE #100
+    CreateCreature("DSLICH1",[-2.-2],0)
+    SetGlobal("LichResurect","GLOBAL",1)
+    SetGlobal("Lich2","DSC002",1)
+END
+
+IF
+  Die()
+  Global("Lich2","DSC002",1)
+  !PartyHasItem("DSMISC09")  // ~Phylactery of Koroval Na'Krugen~
+THEN
+  RESPONSE #100
+    CreateCreature("DSLICH2",[-2.-2],0)
+    SetGlobal("Lich3","DSC002",1)
+END
+
+IF
+  Die()
+  Global("Lich3","DSC002",1)
+  !PartyHasItem("DSMISC09")  // ~Phylactery of Koroval Na'Krugen~
+THEN
+  RESPONSE #100
+    CreateCreature("DSLICH3",[-2.-2],0)
+    SetGlobal("Lich1","DSC002",0)
+    SetGlobal("Lich2","DSC002",0)
+    SetGlobal("Lich3","DSC002",0)
+END
+
+IF
+  Die()
+  PartyHasItem("DSMISC09")  // ~Phylactery of Koroval Na'Krugen~
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,RED_SWIRL)
+    AddexperienceParty(9500)
+    SetGlobal("LichDead","GLOBAL",1)
+END
+
