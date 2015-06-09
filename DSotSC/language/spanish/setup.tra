@@ -100,14 +100,14 @@ Tiempo de lanzamiento: 6
 Tirada de salvación: No
 
 La diosa de la noche Shar otorga a los clérigos el poder de llamar a un sudario de oscuridad mística que envuelve al objetivo del conjuro. Mientas está encerrado, la clase de armadura se mejora en 2 y los tiros de salvación contra conjuros tienen un bonificador +2. El objetivo también gana infravisión y no le afecta la ceguera. Debido a la naturaleza maligna del conjuro el lanzador recibe 3 puntos de golpe de daño cuando se lanza el conjuro.~
-@21 = ~Piel de piedra (Alteración) 
+@21 = ~Piel de piedra (Alteración)~
 
 Nivel: 3
 Alcance: 0
 Duración: 12 horas
 Tiempo de lanzamiento: 1
 Área de efecto: El lanzador
-Tirada de salvación: No 
+Tirada de salvación: No~
 
 Cuando un druida lanza este poderoso conjuro sobre sí, una piel externa de piedra se levantará del suelo cubriéndolo por completo. Esta piel es mágica y protegerá al druida sin igual. El efecto trata de proteger al druida de ataques físicos como armas y proyectiles. Por cada 2 niveles del lanzador se gana una piel adicional, por ejemplo, en nivel 10 el druida recibirá 5 pieles mientras que uno a nivel 20 recibirá 10. Por cada piel que tenga el druida el conjuro parará un ataque, así un druida de nivel 10 se protegerá de 5 ataques, y el sexto le afectará normalmente. Las pieles se quedarán en el druida hasta que le afecte Disipar magia, se desvanezcan por ataques físicos, o la duración del conjuro termine. Es importante notar que el druida no estará protegido de ningún ataque mágico como bola de fuego, aunque le protegerá de ataques mágicos físicos como Misil mágico.~
 @22 = ~Aerosol venenoso~
@@ -339,80 +339,80 @@ Este conjuro permite al mago volver al objetivo en un montón de humo durante un 
 @55 = ~Bofetada atronadora (Conjuración/Convocatoria)
 
 Nivel: 2
-Alcance: 0 
+Alcance: 0~
 Duración: 10 asaltos
-Tiempo de lanzamiento: 1 
-Área de efecto: El lanzador 
-Tirada de salvación: No 
+Tiempo de lanzamiento: 1~
+Área de efecto: El lanzador~
+Tirada de salvación: No~
 
 Cuando el lanzador termina este conjuro, un brillo verde rodea su mano. Cuando el hechicero haga un ataque exitoso contra una criatura, se quedará aturdida durante 10 asaltos y recibirá daño.~
 @56 = ~Rayo helado~
-@57 = ~Rayo helado (Evocación) 
+@57 = ~Rayo helado (Evocación)~
 
-Nivel: 2 
+Nivel: 2~
 Alcance: 9 metros
-Duración: Instantáneo 
-Tiempo de lanzamiento: 2 
-Área de efecto: Una criatura 
-Tirada de salvación: No 
+Duración: Instantáneo~
+Tiempo de lanzamiento: 2~
+Área de efecto: Una criatura~
+Tirada de salvación: No~
 
 Sacando este conjuro, una bola congelante de hielo impacta desde las manos del lanzador y rompe sin errar en el objetivo. El Rayo helado hace un daño de 2d10 y no permite tiros de salvación, aunque resistencia mágica o al frío puede negar sus efectos.~
 @58 = ~Globo menor de oscuridad~
-@59 = ~Globo menor de oscuridad (Alteración) 
+@59 = ~Globo menor de oscuridad (Alteración)~
 
 Nivel: 2
 Alcance: 9 metros
 Duración: 1 turno
 Área de efecto: Radio de 5 metros
 Tiempo de lanzamiento: 2 segundos
-Tirada de salvación: No 
+Tirada de salvación: No~
 
 Este conjuro causa una oscuridad total e impenetrable en el área de efecto. La infravisión es inútil. Ninguna luz normal o mágica funciona excepto usar el conjuro de "luz" o "luz continua". Formalmente, el Globo de oscuridad se niega por el de "luz", y viceversa.~
 @60 = ~Rayo de frío~
-@61 = ~Rayo de frío (Evocación) 
+@61 = ~Rayo de frío (Evocación)~
 
-Nivel: 3 
+Nivel: 3~
 Alcance: 20 metros
-Duración: Instantáneo 
-Tiempo de lanzamiento: 3 
+Duración: Instantáneo~
+Tiempo de lanzamiento: 3~
 Área de efecto: 1 criatura
-Tirada de salvación: Especial 
+Tirada de salvación: Especial~
 
 Lanzando este hechizo un surtidor de 1 metro a 18 metros de increíble hielo frío sale de las manos del lanzador. El Rayo inflige 5d6 de daño y es tan frío que la criatura objetivo debe salvarse contra conjuros o no podrá moverse o luchar por completo hasta que no se calme. Resistencia al frío o mágica pueden negar estos efectos~
 @62 = ~Ejército de uno~
-@63 = ~Ejército de uno (Ilusión/Fantasma) 
+@63 = ~Ejército de uno (Ilusión/Fantasma)~
 
-Nivel: 3 
-Alcance: 0 
-Duración: 1 turno 
-Tiempo de lanzamiento: 5 
-Área de efecto: El lanzador 
-Tirada de salvación: Niega efecto. 
+Nivel: 3~
+Alcance: 0~
+Duración: 1 turno~
+Tiempo de lanzamiento: 5~
+Área de efecto: El lanzador~
+Tirada de salvación: Niega efecto.~
 
 Este hechizo provoca que el lanzador parezca un ejército él solo, muchos pero sólo uno.~
-@64 = ~Forma fantasma (Alteración, Ilusión) 
+@64 = ~Forma fantasma (Alteración, Ilusión)~
 
 Nivel: 3
-Alcance: 0 
+Alcance: 0~
 Duración: 1 turno
-Tiempo de lanzamiento: 1 
+Tiempo de lanzamiento: 1~
 Área de efecto: El lanzador
-Tirada de salvación: No 
+Tirada de salvación: No~
 
 Cuando se lanza este conjuro, el mago y todas sus posesiones se vuelven insustanciales. El lanzador de conjuros sólo es vulnerable a ataques mágicos o especiales, incluidos los de aquellas armas con +1 o superior, o a los ataques de otras criaturas igualmente vulnerables sólo a las armas mágicas. El mago también adquiere un 25% más de resistencia a la magia. Mientras se está en forma fantasma, no se pueden lanzar conjuros.~
 @65 = ~Curación de Ettin~
-@66 = ~Curación de Ettin (Nigromancia) 
+@66 = ~Curación de Ettin (Nigromancia)~
 
-Nivel: 4 
-Alcance: El lanzador 
-Duración: 10 asaltos 
-Tiempo de lanzamiento: 7 
-Área de efecto: Especial 
-Tirada de salvación: No 
+Nivel: 4~
+Alcance: El lanzador~
+Duración: 10 asaltos~
+Tiempo de lanzamiento: 7~
+Área de efecto: Especial~
+Tirada de salvación: No~
 
 Ettin, un monje que vivió en la Era de los Antiguos, fue un iniciado en botánica y encontró muchas maneras de sanar el cuerpo.~
 @67 = ~Fragmento de Hielo de Ajandurah~
-@68 = ~Fragmento de Hielo de Ajandurah (Conjuración/Convocatoria) 
+@68 = ~Fragmento de Hielo de Ajandurah (Conjuración/Convocatoria)~
 
 Nivel: 4
 Alcance: Alcance visual del lanzador
@@ -435,38 +435,38 @@ Tirada de salvación: Especial
 Esta evocación es parecida al hechizo de mago de tercer nivel Meteoritos de Melf, excepto por que esta vez los meteoritos explotan violentamente al impactar. Todas las criaturas a 6 metros del punto de impacto serán alcanzados por una lluvia de metralla ardiente que les infligirá 2-12 puntos de daño. Una tirada de salvación con éxito da a la criatura una posibilidad de esquivar la mayor parte de la metralla, reduciendo los daños a la mitad.~
 
 @71 = ~Geas~
-@72 = ~Geas (Encantamiento/Hechizo) 
+@72 = ~Geas (Encantamiento/Hechizo)~
 
-Nivel: 6 
-Esfera: Criatura 
+Nivel: 6~
+Esfera: Criatura~
 Alcance: Alcance visual del lanzador
-Duración: Permanente 
-Tiempo de lanzamiento: 5 
+Duración: Permanente~
+Tiempo de lanzamiento: 5~
 Área de efecto: 1 único objetivo
 Tirada de salvación: Salvación contra conjuros
 
 El hechizo afectará a cualquier criatura contra la que se lance, pero sólo a una. Los blancos posibles incluyen todas las criaturas conocidas sobre la tierra. La persona recibe una tirada de salvación contra hechizos para evitar el efecto, pero sin el ajuste por sabiduría. Si la tirada de salvación falla, el blanco considera al lanzador su nuevo amo. El lanzador puede dar órdenes al blanco, y la criatura encantada las llevará a cabo tan rápidamente como le sea posible.~
 @73 = ~Caparazón antimagia~
-@74 = ~Caparazón antimagia (Abjuración) 
+@74 = ~Caparazón antimagia (Abjuración)~
 
-Nivel: 6 
-Alcance: El lanzador solo 
-Duración: 2 turnos 
-Tiempo de lanzamiento: 2 
-Área de efecto: El lanzador solo 
-Tirada de salvación: No 
+Nivel: 6~
+Alcance: El lanzador solo~
+Duración: 2 turnos~
+Tiempo de lanzamiento: 2~
+Área de efecto: El lanzador solo~
+Tirada de salvación: No~
 
 Por medio de este hechizo el lanzador se rodea con una brillante barrera que se mueve con él. El área dentro de esta barrera es totalmente infranqueable a todos los efectos mágicos, impidiendo así el paso de cualquier hechizo ya sea dañino o beneficioso. Asimismo previene de cualquier conjuro dentro de sus confines, y cualquier magia que afecte al hechicero dentro de la barrera es inmediatamente disipada. Armas de aliento, mirada, voz o ataques similares tampoco pueden penetrar la barrera. Un Disipar magia tampoco elimina el hechizo.~
 
 @77 = ~Esfera de disipación~
-@78 = ~Esfera disipadora de energía (Abjuración) 
+@78 = ~Esfera disipadora de energía (Abjuración)~
 
-Nivel: 7 
-Alcance: 0 
-Duración: 180 segundos 
-Tiempo de lanzamiento: 4 
-Área de efecto: El lanzador 
-Tirada de salvación: No 
+Nivel: 7~
+Alcance: 0~
+Duración: 180 segundos~
+Tiempo de lanzamiento: 4~
+Área de efecto: El lanzador~
+Tirada de salvación: No~
 
 De Otiluke procede la gran diversión que muchos magos disfrutan con su conjuro Esfera Resilente, cuando en realidad este conjuro sólo es un intento fallido de su Esfera disipadora de energía. Este es un poderoso conjuro para el archimago aventurero, el cual crea una poderosa esfera de energía alrededor de él que absorbe los ataques mágicos dirigidos contra él. Sólo los conjuros más terribles o las armas mágicas más poderosas de Toril pueden atravesar la esfera protectora.~
 @79 = ~Encanto masivo	~
@@ -481,9 +481,9 @@ Tirada de salvación: No
 
 Este hechizo afecta a cualquier persona en el área de 20 metros de donde es lanzado. El término persona se refiere a cualquiera de los humanoides que serán hechizadas por 30 segundos. Entre las criaturas humanoides se incluyen: humanos, dríadas, enanos, elfos, duendes, gnomos, trasgos, semielfos, grandes trasgos, y demás... pero no incluye criaturas mayores que el tamaño humano como por ejemplo un ogro. Todas las criaturas realizan una tirada de salvación contra conjuros para evitar sus efectos.~
 @81 = ~Tormenta de fuego~
-@82 = ~Tormenta de fuego (Invocación) 
+@82 = ~Tormenta de fuego (Invocación)~
 
-Nivel: 7 
+Nivel: 7~
 Alcance: 60 metros
 Duración: Inmediata
 Tiempo de lanzamiento: 4
@@ -513,57 +513,57 @@ Tirada de salvación: 1/2
 
 El Enigma de combustión infernal fue la creación de un poderoso, aunque demente, Archimago, mejor conocido como El Archiastrólogo en tiempos de Netheril. Este mago tenía preferencia por el fuego, e hizo este hechizo acorde con su pirómano gusto (Parece ser que murió poco después de probar los efectos del conjuro). Casi todos los hechizos de fuego están incluidos dentro de este combinado de conjuros, y parece ser que es capaz de incinerar a más de un noble aventurero despistado. El efecto del conjuro es imprevisible, por lo que se puede deducir que este es uno de los conjuros que debe ser proyectado lejos del incauto lanzador.~
 @87 = ~Demencia~
-@88 = ~Demencia (Encantamiento/Hechizo) 
+@88 = ~Demencia (Encantamiento/Hechizo)~
 
-Nivel: 8 
-Alcance: 15 metros 
-Duración: Permanente 
-Tiempo de lanzamiento: 5 
-Área de efecto: Objetivo único 
-Tirada de salvación: No 
+Nivel: 8~
+Alcance: 15 metros~
+Duración: Permanente~
+Tiempo de lanzamiento: 5~
+Área de efecto: Objetivo único~
+Tirada de salvación: No~
 
 El lanzador del conjuro se introduce en la mente del objetivo y destruye totalmente su intelecto, dejándola completamente demente pero, sin embargo, no destruye su capacidad ofensiva. El efecto es permanente y la víctima se verá confundida y descentrada hasta el punto de atacar a cualquier criatura que se encuentre en las cercanías de la batalla. Hay un 50% de posibilidad de que el conjuro sea ejecutado correctamente.~
 @89 = ~Miasma~
 @90 = ~Miasma (Evocación)
 
-Nivel: 8 
+Nivel: 8~
 Alcance: 80 metros
-Duración: 30 segundos 
-Tiempo de lanzamiento: 4 
+Duración: 30 segundos~
+Tiempo de lanzamiento: 4~
 Área de efecto: 32 m. ancho, 16 m. alto, 16 m. profundo
-Tirada de salvación: Varias 
+Tirada de salvación: Varias~
 
 Este poderoso conjuro invoca una nube de vapores ácidos y mortales que envuelve a todas las criaturas que se encuentren en su interior. La acidez de los vapores se incrementa progresivamente hasta llegar a un máximo de 7D6. Cualquiera que se encuentre en la zona de efecto se verá impregnado con los ácidos vapores, y no se librará de ellos, ni aun saliendo del área de efecto. Este efecto puede evitarse si se consigue salir rápidamente de su efecto. El daño ácido es bastante fácil de evitar, sin embargo la nube produce otros efectos. Si una criatura es afectada por la nube hay un 25% de posibilidad de que se convierta en un charco de limo debido a la naturaleza corrosiva de los vapores (Sin tirada de salvación).~
-@91 = ~Rayo de trueno (Evocación) 
+@91 = ~Rayo de trueno (Evocación)~
 
 Nivel: 8
 Alcance: 120 metros
-Duración: Instantáneo 
+Duración: Instantáneo~
 Tiempo de lanzamiento: 5
-Área de efecto: Especial 
+Área de efecto: Especial~
 Tirada de salvación: No
 
 En algunos círculos de Archimagos, el conjuro de Rayo relampagueante es considerado un hechizo patético y de escaso poder -sólo adecuado para magos débiles-. Por esto último se ha creado Rayo de trueno. Este conjuro creará un Rayo relampagueante que, en lugar de dirigirse en línea recta hacia su objetivo, se dirigirá hacia su objetivo y rebotará en él, dirigiéndose acto seguido, hacia la criatura más cercana -amiga o enemiga-, y así sucesivamente hasta expirar su potencial. Pocos seres podrán resistir el terrible impacto del conjuro.~
 @92 = ~Drenaje de Vida de Varashar~
-@93 = ~Drenaje de Vida de Varashar (Nigromancia) 
+@93 = ~Drenaje de Vida de Varashar (Nigromancia)~
 
-Nivel: 8 
+Nivel: 8~
 Alcance: 10 metros
-Duración: Especial 
-Tiempo de lanzamiento: 1 
-Área de efecto: Objetivo único 
-Tirada de salvación: No 
+Duración: Especial~
+Tiempo de lanzamiento: 1~
+Área de efecto: Objetivo único~
+Tirada de salvación: No~
 
 El Rey mago Varashar, según un rumor, usó este hechizo repetidas veces durante su reinado de 120 años para alargar su vida.~
 @94 = ~Arco de muerte~
-@95 = ~Arco de muerte (Nigromancia) 
+@95 = ~Arco de muerte (Nigromancia)~
 
-Nivel: 9 
+Nivel: 9~
 Alcance: 20 metros
-Duración: Inmediata 
-Tiempo de lanzamiento: 8 
-Área de efecto: 1 criatura 
-Tirada de salvación: No 
+Duración: Inmediata~
+Tiempo de lanzamiento: 8~
+Área de efecto: 1 criatura~
+Tirada de salvación: No~
 
 Lanzando este hechizo, el mago causa un daño masivo, pero muy variable, a un único objetivo.~
 @96 = ~Runa de Azuth de negatividad profunda~
@@ -573,7 +573,7 @@ Nivel: 9
 Alcance: Un objetivo
 Área de efecto: Una criatura
 Alcance: 30 metros
-Tiempo de lanzamiento: 7 
+Tiempo de lanzamiento: 7~
 
 Antes de que el mago más grande de todos los tiempos se reuniera con su dios, creó este poderoso conjuro. Este es un conjuro verdaderamente devastador, que provoca una muerte segura. Su poder es devastador en todos los planos conocidos. El Archimago (se necesita una gran habilidad y un gran poder para conjurarlo) que lo lanza extiende su mano e invoca a los mismos poderes de la realidad y del sustento del Universo. Grandes descargas de energía, en forma de puras ondas de energía, bajan del cielo y destruyen al blanco del conjuro.
 
@@ -597,7 +597,7 @@ Cuando se lanza, este conjuro elimina el veneno y restaurará todos los puntos de
 @1001 = ~Corona del Archidruida~
 @1002 = ~Las Coronas no existen sólo para decorar, alguna de ella también ofrecen protección.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Bonificador de clase de armadura: Ninguno
 Especial: Protege contra golpes críticos
@@ -611,7 +611,7 @@ No lo puede usar:
 
 CARACTERÍSTICAS:
 
-Especial: 
+Especial:~
  Protección contra golpes críticos
  1 hechizo extra de nivel 1 a 3
  Encantar animales excepto si salvación contra varitas
@@ -643,7 +643,7 @@ Utilizable sólo por:
 
 @1006 = ~Sombrero~
 @1007 = ~Sombrero del Explorador~
-@1008 = ~El sombrero de fieltro es el favorito de los bardos, aunque ofrecen poca protección y más bien son decorativos a veces. Raras veces se descubre uno que está encantado con magia. 
+@1008 = ~El sombrero de fieltro es el favorito de los bardos, aunque ofrecen poca protección y más bien son decorativos a veces. Raras veces se descubre uno que está encantado con magia.~
 
 Utilizable sólo por:
  Bardo
@@ -651,10 +651,10 @@ Utilizable sólo por:
 
 @1009 = ~Este sombrero ha sido encantado, y aunque parece tan frágil como las típicas ropas o gorras de fieltro, tiene la resistencia de parar un buen golpe.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Bonificador de clase de armadura: Ninguno 
-Especial: 
+Bonificador de clase de armadura: Ninguno~
+Especial:~
  Protege contra golpes críticos
  Protección de efectos de Miedo
 
@@ -666,7 +666,7 @@ Utilizable sólo por:
 
 @1010 = ~Tiara~
 @1011 = ~Tiara de Chanah'Rea~
-@1012 = ~Esta clase de tiaras decorativas echas de cuentas o metales, se llevan en la cabeza. Generalmente están adornadas con joyas u otras piedras preciosas y son del gusto de los brujos. 
+@1012 = ~Esta clase de tiaras decorativas echas de cuentas o metales, se llevan en la cabeza. Generalmente están adornadas con joyas u otras piedras preciosas y son del gusto de los brujos.~
 
 CARACTERÍSTICAS:
 
@@ -677,7 +677,7 @@ Peso: 2~
 
 CARACTERÍSTICAS:
 
-Especial: 
+Especial:~
  Resiste ciertos ataques mentales
  Tiradas de salvación +1
  +20% de protección contra Fuego, Ácido, Frío y Electricidad
@@ -691,7 +691,7 @@ Utilizable sólo por:
 @1015 = ~Yelmo de Ferthgil~
 @1017 = ~Este es el yelmo que usaba Ferthgil Matatrolls, el hijo de Breachin Matatrolls. El clan Piedradelbrezal se lo entregó durante su estancia en él tras la muerte de su padre. El mentor de Ferthgil, Gulmoth Piedradelbrezal lanzó la bendición de Clangeddin sobre él para ayudarle a canalizar de forma clara sus pensamientos, especialmente en el fragor de la batalla.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Bonificador de clase de armadura: Ninguno
 Especial:
@@ -765,9 +765,9 @@ No lo puede usar:
 @1024 = ~Casco de Batalla 'Enano' de Skeezer Lumpkin~
 @1025 = ~Este yelmo es un regalo a Skeezer de un buen amigo suyo: Gothmog Suelodepiedra, un enano del clan Suelodepiedra. Skeezer y Gothmog se hicieron buenos amigos después de que el primero le salvara la vida al segundo. Gothmog había sido sorprendido por una patrulla duérgar, que había salido a la superficie una noche sin luna en busca de víctimas. Skeezer, que pasaba por allí, golpeo su vara contra el suelo provocando que el cielo se iluminara como si fuese mediodía, lo que por supuesto hizo huir a los duérgar. La amistad que surgió de este encuentro resultó tan profunda que hasta consiguió que Gothmog se interesase por la magia gnómica de Skeezer y que en secreto hasta practicase algún que otro hechizo, ya que por supuesto era consciente de que a su clan no le gustarían nada esas actividades si se enterasen.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Bonificador de clase de armadura: Ninguno 
+Bonificador de clase de armadura: Ninguno~
 Especial:
  Protege contra golpes críticos
  Protege contra todas las formas de pánico y aumenta la moral
@@ -837,9 +837,9 @@ Utilizable sólo por:
 @1036 = ~Armadura Enana de Batalla de Mithril de Ferthgil~
 @1038 = ~Esta armadura de placas, hecha de una aleación de mithril, es obra de Ferthgil Matatrolls bajo la tutela de Otho Martillofiel, maestro herrero, líder del clan Martillofiel y padre de su mejor amigo, Tearlac Martillofiel. Esta armadura demuestra que es un fantástico herrero, aunque prefiera el fuego de la batalla al de la forja. La calidad de esta armadura la convierte en equivalente a una que haya sido encantada para proporcionar una bonificación de +5 a la clase de armadura, a pesar de que no se utilizó ningún hechizo durante su creación.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Clase de armadura: -2 
+Clase de armadura: -2~
 
 Peso: 30
 Requisito: 14 Fuerza
@@ -864,7 +864,7 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Clase de armadura: 1
-Especial: 
+Especial:~
  +20% Resistencia al fuego
  +20% Resistencia al frío
 
@@ -972,12 +972,12 @@ Utilizable sólo por:
  Jet'laya~
 
 @1061 = ~Armadura laminada +4, La Piel de Korim~
-@1062 = ~Forjada en los fuegos de Netheril por la mano de Korim, esta cota de láminas tiene un peculiar color verde para una armadura de este tipo, y es extremadamente ligera. Korim fue un auténtico portento en las artes mágicas y en los senderos de la naturaleza. Tras una fiera batalla en la que resultó herido, decidió que necesitaba una mayor protección que aún le permitiera usar sus talentos especiales. También, el extraño material tiene un efecto colateral - cura al portador. 
+@1062 = ~Forjada en los fuegos de Netheril por la mano de Korim, esta cota de láminas tiene un peculiar color verde para una armadura de este tipo, y es extremadamente ligera. Korim fue un auténtico portento en las artes mágicas y en los senderos de la naturaleza. Tras una fiera batalla en la que resultó herido, decidió que necesitaba una mayor protección que aún le permitiera usar sus talentos especiales. También, el extraño material tiene un efecto colateral - cura al portador.~
 
 CARACTERÍSTICAS:
 
 Clase de armadura: 0
-Especial: 
+Especial:~
  Regeneración 1 punto cada 2 asaltos
  Ninguna penalización a las habilidades de mago
 
@@ -1005,8 +1005,8 @@ Utilizable sólo por:
 
 CARACTERÍSTICAS:
 
-Clase de armadura: 6 
-Peso: 15 
+Clase de armadura: 6~
+Peso: 15~
 
 Utilizable sólo por:
  Keiria Hilodeplata~
@@ -1038,12 +1038,12 @@ Utilizable sólo por:
 @1072 = ~Túnica de mago de Skeezer Lumpkin~
 @1074 = ~Esta poderosa túnica de mago protege contra toda forma de ataque físico al mismo tiempo que incrementa la resistencia mágica y tiradas de salvación.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Clase de armadura: 5 
+Clase de armadura: 5~
 Resistencia mágica: +5%
 Tiradas de salvación: Bonificador +1
-Peso: 6 
+Peso: 6~
 
 Utilizable sólo por:
  Skeezer Lumpkin VI~
@@ -1083,7 +1083,7 @@ CARACTERÍSTICAS:
 
 Clase de armadura: 3
 Resistencia mágica: +50%
-Especial: 
+Especial:~
  Inmune a conjuros de nivel 1 a 3
  +4 a conjuros de nivel 1 a 3
  Inteligencia y Sabiduría a 19
@@ -1102,27 +1102,27 @@ CARACTERÍSTICAS:
 
 Clase de armadura: Bonificador +1
 Tiradas de salvación: Bonificador +2
-Peso: 3 
+Peso: 3~
 
 Utilizable sólo por:
  Mago (Solo, dual y multiclase)~
 
 @1083 = ~Túnica de Mago Drow~
-@1084 = ~Los magos elfos oscuros de alto nivel llevan una ropa que otorga un 75% de posibilidades de no ser detectados en las sombras. El material usado para hacer estas túnicas no se corta fácilmente y resiste el fuego; dando un bonificador +6 a las tiradas de salvación contra fuego. Estas túnicas sólo las pueden llevar los de constitución élfica. A causa de la naturaleza de la ropa elfa oscura, expuesta a la luz del sol, empieza un deterioro irreversible. Entre 2 y 12 días, perderá todas sus propiedades de protección, siendo totalmente inútil. 
+@1084 = ~Los magos elfos oscuros de alto nivel llevan una ropa que otorga un 75% de posibilidades de no ser detectados en las sombras. El material usado para hacer estas túnicas no se corta fácilmente y resiste el fuego; dando un bonificador +6 a las tiradas de salvación contra fuego. Estas túnicas sólo las pueden llevar los de constitución élfica. A causa de la naturaleza de la ropa elfa oscura, expuesta a la luz del sol, empieza un deterioro irreversible. Entre 2 y 12 días, perderá todas sus propiedades de protección, siendo totalmente inútil.~
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Clase de armadura: 3 
-Especial: 
+Clase de armadura: 3~
+Especial:~
  Aumenta la Inteligencia en 2
  Memoriza un conjuro extra por nivel hasta nivel 9
  +6 a la salvación contra armas de aliento
  +75% a la resistencia al fuego
  No detectable
 
-Peso: 1 
+Peso: 1~
 
-Utilizable sólo por: 
+Utilizable sólo por:~
  Mago (Solo, dual y multiclase)~
 
 @1085 = ~Túnica del Abismo~
@@ -1133,8 +1133,8 @@ CARACTERÍSTICAS:
 Clase de armadura: Bonificador +5
 Resistencia mágica: +25%
 Tirada de salvación: Bonificador +5
-Bonificador conjuros: +3(Nv 1-5) / +1(Nv 6-8) 
-Constitución: -30% 
+Bonificador conjuros: +3(Nv 1-5) / +1(Nv 6-8)~
+Constitución: -30%~
 Especial: No se necesita dormir
 
 Peso: 6
@@ -1151,10 +1151,10 @@ CARACTERÍSTICAS:
 Clase de armadura: Bonificador +2
 Resistencia mágica: +25%
 Tirada de salvación: Bonificador +3
-Peso: 6 
+Peso: 6~
 
 Utilizable sólo por:
- Mago (Solo, dual y multiclase) 
+ Mago (Solo, dual y multiclase)~
  Personajes alineados con el bien~
 
 @1089 = ~Túnica de la Brujería~
@@ -1176,7 +1176,7 @@ Utilizable sólo por:
 
 CARACTERÍSTICAS:
 
-Bonificador de clase de armadura: 
+Bonificador de clase de armadura:~
  +3 contra penetración y armas proyectiles
 Especial: Apresurar
 
@@ -1188,7 +1188,7 @@ Utilizable sólo por:
 @1096 = ~Manto de Morridin~
 @1098 = ~Este manto perteneció en su momento al famoso Morridin. A pesar de las filigranas de oro que lo adornan, Morridin solía decir de él que: "... no es más que un simple manto para guarecerme de los elementos". Éste manto, al igual que muchos otros objetos personales suyos, se ha convertido en un objeto de debate en muchos círculos.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Clase de armadura: Bonificador +1
 Especial: +1 Carisma
@@ -1198,11 +1198,11 @@ Utilizable sólo por:
  Bardo~
 
 @1099 = ~Manto Atenuante~
-@1100 = ~Este manto fue creado por el loco Lord Hechicero Noober Harpell. Fundado de los mantos élficos que vio en sus viajes, hizo de este una réplica similar. Cuando se lleva, el portador se oculta completamente a la vista, permitiendo moverse con toda impunidad. Dentro del manto se puede leer 'Propiedad de Noober, hijo de Noober' 
+@1100 = ~Este manto fue creado por el loco Lord Hechicero Noober Harpell. Fundado de los mantos élficos que vio en sus viajes, hizo de este una réplica similar. Cuando se lleva, el portador se oculta completamente a la vista, permitiendo moverse con toda impunidad. Dentro del manto se puede leer 'Propiedad de Noober, hijo de Noober'~
 
 CARACTERÍSTICAS:
 
-Especial: 
+Especial:~
  Oculta al portador 75% (similar a la invisibilidad)
 
 Peso: 3
@@ -1217,7 +1217,7 @@ CARACTERÍSTICAS:
 
 Clase de armadura: +2
 
-Especial: 
+Especial:~
  Sigilo aumentado
  No detectable
 
@@ -1289,7 +1289,7 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Clase de armadura: 2
-Especial: 
+Especial:~
  Ataques aumentados
  Resistencia a petrificación aumentada
 
@@ -1305,7 +1305,7 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Bonificador de clase de armadura: +2
-Especial: 
+Especial:~
  Velocidad de lanzamiento de conjuro aumentada
 
 Peso: 2
@@ -1317,7 +1317,7 @@ Utilizable sólo por:
 @1119 = ~Guantes del Guerrero Fiel~
 @1120 = ~A través del tiempo, se sabe que muchas deidades han otorgado bonificaciones a sus seguidores en forma de objetos benditos. Aunque el origen exacto de esos guantes es desconocido seguramente pasa lo mismo con estos.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 THAC0: Bonificador +3
 Daño: Bonificador +3
@@ -1345,11 +1345,11 @@ Utilizable sólo por:
 @1127 = ~Anillo del Aprendiz~
 @1128 = ~Anillos como este son, a menudo, regalados a aprendices que poseen una habilidad excepcional o algún tipo de mérito.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Especial: añade dos conjuros de Nv. 1, uno de Nv. 2 y uno de Nv. 3
 
-Utilizable sólo por: 
+Utilizable sólo por:~
  Mago
  Bardo~
 
@@ -1357,9 +1357,9 @@ Utilizable sólo por:
 @1130 = ~Un anillo especial para cualquier sacerdote. Otorga inmunidad a veneno.
 
 Utilizable sólo por:
- Clérigo 
- Druida 
- Paladín 
+ Clérigo~
+ Druida~
+ Paladín~
  Explorador~
 
 @1131 = ~Una versión mejorada del Anillo de Sacerdote de Ghaunadaur. Este provee de inmunidad al veneno y al ácido.
@@ -1387,14 +1387,14 @@ CARACTERÍSTICAS:
 
 Conjuros: añade uno de Nivel 2, 3 y 4
 
-Utilizable sólo por: 
+Utilizable sólo por:~
  Mago
  Bardo~
 
 @1138 = ~'El Desviador Constante de Misiles'~
 @1139 = ~Este anillo crea un campo invisible de fuerza alrededor del portador que desvía misiles. Incluso un misil cargado perfectamente se desviará o parará en medio del aire cayéndose al suelo.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Especial: Da al portador protección completa a misiles no mágicos.
 
@@ -1404,7 +1404,7 @@ No lo puede usar:
 @1140 = ~Anillo del Viajero~
 @1141 = ~Este anillo perteneció al famoso bardo Morridin, le falta una de sus gemas. Cuando se le preguntaba a Morridin por este hecho, él contestaba que: " se le cayó mientras viajaba". Por ello se le dio el nombre de "el anillo del viajero". Debido a que Morridin nunca le dijo a nadie que es lo que hacía, la naturaleza de sus encantamientos sigue siendo un misterio.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Desconocido
 
@@ -1444,7 +1444,7 @@ Desde el amanecer de los tiempos, los magos han usado los elementos a su alreded
 CARACTERÍSTICAS:
 
 Bonificador Clase de Armadura +4
-Especial: 
+Especial:~
  Resistencia a Armas no mágicas
  Inmunidad a fuego
 
@@ -1455,7 +1455,7 @@ Utilizable sólo por:
 @1149 = ~Este anillo perteneció a la madre de Jet'laya.~
 
 @1151 = ~Davaeorn,
-Mis fuentes me han dicho que una pequeña banda de mercenarios, algunos de los cuales pueden ser miembros de los Harperos, se encuentra en el área de la Posada del Brazo Amigo. Envié a Tarnesh a investigar y a detener a los sospechosos, pero no he vuelto a tener noticias de él. Sugiero que enviéis a Drasus y a Genthore inmediatamente a la Posada del Brazo Amigo. Notificad a Tazok de la situación. 
+Mis fuentes me han dicho que una pequeña banda de mercenarios, algunos de los cuales pueden ser miembros de los Harperos, se encuentra en el área de la Posada del Brazo Amigo. Envié a Tarnesh a investigar y a detener a los sospechosos, pero no he vuelto a tener noticias de él. Sugiero que enviéis a Drasus y a Genthore inmediatamente a la Posada del Brazo Amigo. Notificad a Tazok de la situación.~
 
 Reiltar~
 @1152 = ~Otho, amigo mío,
@@ -1470,27 +1470,27 @@ Dedico mi cuerpo, alma y mente a serviros y amaros como nunca antes he hecho.
 
 Vuestra por la eternidad,
  Clairis~
-@1154 = ~Amigos, 
+@1154 = ~Amigos,~
 Habéis actuado con valor y honor. Con vuestra ayuda, hemos impedido que Lord Daerthmac siguiese extendiendo el terror. Os dejo ahora porque tal es mi modo de vida. Sin embargo, si vuelvo a partir en aventuras con otro grupo, espero que sean tan valientes y honorables como vosotros.
 
-Os saludo, 
+Os saludo,~
  CúChoinneach agus Madadh n'Sgàil~
 @1155 = ~Carta a Thomic~
-@1156 = ~Thomic, 
-Dejasteis la lista de la compra, de nuevo, en casa. No olvidéis traer los siguientes productos cuando volváis a casa. 
+@1156 = ~Thomic,~
+Dejasteis la lista de la compra, de nuevo, en casa. No olvidéis traer los siguientes productos cuando volváis a casa.~
 
-Pan 
-Leche 
-Pollo 
+Pan~
+Leche~
+Pollo~
 
-Aseguraos de que todo ello es fresco. ¿Habéis cogido vuestra capa para la lluvia? Parece ser que está nublado. 
+Aseguraos de que todo ello es fresco. ¿Habéis cogido vuestra capa para la lluvia? Parece ser que está nublado.~
 
-Daos prisa e intentad no deteneros en cada barra que encontréis por el camino. 
+Daos prisa e intentad no deteneros en cada barra que encontréis por el camino.~
 
 Katerin~
 @1157 = ~Berrto Ghaskill~
 @1158 = ~Tarro Mágico~
-@1159 = ~Este frasco es uno de los seis que contiene la esencia de la vida de los compañeros y una vez amigos del mago que se volvió liche, conocido como el Oscuro. 
+@1159 = ~Este frasco es uno de los seis que contiene la esencia de la vida de los compañeros y una vez amigos del mago que se volvió liche, conocido como el Oscuro.~
 
 Devolved estos frascos a los fantasmas para darles su libertad.~
 @1160 = ~Esencia Vital de Koroval Na'Krugen~
@@ -1502,9 +1502,9 @@ Para destruir al Liche conocido como el Oscuro, debéis poseer esta vasija. Esto 
 @1164 = ~Copa Antigua~
 @1165 = ~Copa Sagrada~
 @1166 = ~Esta copa parece verdaderamente antigua.~
-@1167 = ~Se dice que aquéllos que beben de esta sagrada copa son verdaderamente bendecidos. El grabado de la copa dice: "Aquellos que caminan por la Luz son ciertamente benditos" 
+@1167 = ~Se dice que aquéllos que beben de esta sagrada copa son verdaderamente bendecidos. El grabado de la copa dice: "Aquellos que caminan por la Luz son ciertamente benditos"~
 
-Especial: 
+Especial:~
  Concede la habilidad innata: 'Discípulo de la Luz'
 
 Utilizable sólo por:
@@ -1532,7 +1532,7 @@ Utilizable sólo por:
 @1176 = ~Este delicado laúd tiene cuerdas plateadas incrustadas en un decorado cuerpo incrustado con oro. La manufactura es exquisita y perfecta, casi inhumana, tanto que incluso unas manos inexpertas recorriendo sus cuerdas al azar producen unas encantadoras melodías. Observar este instrumento provoca un escalofrío reverencial.~
 @1177 = ~El origen de este laúd es desconocido, su creador sin embargo llevó eso de que "la música tiene un encanto..." a un nuevo nivel. Cuando es usado por un músico de calidad el instrumento produce un sonido que puede dejar a la audiencia totalmente embelesada.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Especial: Hechizo horrendo
 Alcance: 30 metros
@@ -1545,7 +1545,7 @@ Utilizable sólo por:
 @1239 = ~Tomo de los Grandes Magos de Grun'lerthkin~
 @1241 = ~Bajo su fina cubierta de cuero, este tomo guarda las notas y runas mágicas del gran mago Grun'lerthkin, que vivió en Myth Drannor durante su época más gloriosa. A medida que leéis sus notas mágicas y explicaciones os volvéis más sabio y de alguna forma sentís que poseéis las habilidades de un mago con el doble de experiencia de la que teníais.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Dobla los puntos de experiencia del lector
 Especial: El libro se consume una vez utilizado
@@ -1571,7 +1571,7 @@ Concepto original: Roach
 Desarrollo de la historia: CúChoinneach y Roach
 Áreas y criaturas creadas y hechizadas por: CúChoinneach
 Logotipo del Lado Oscuro: WoRm
-Los objetos han sido creados por un gran número de hechizadores, y es imposible enumerarlos a todos en este manuscrito... 
+Los objetos han sido creados por un gran número de hechizadores, y es imposible enumerarlos a todos en este manuscrito...~
 Los sonidos de Jet'Laya, Keiria Hilodeplata y Conchobhair Fuertefilo han revisados por Grog.
 NPC Jet'Laya fue creada por Grog.
 Los demás NPC's han sido creados por CúChoinneach
@@ -1583,9 +1583,9 @@ Nada de esto habría sido posible si no hubiera sido por Ken el Panadero y la cre
 
 Finalmente un rápido agradecimiento a Gustov Montessie, que ha contribuido con sus editores y otros programas que han hecho posible la creación de artículos y hechizos. Y gracias a todos los compañeros del Equipo Puerta de Baldur (TEAMBG)
 
-Agradecimientos especiales a Black Isle Studios, Bioware Corp., Interplay Productions, y todos los individuos envueltos en la creación de Baldur's Gate y Tales of the Sword Coast. Sin duda el CRPG más grande nunca construido, y sin los que no hubiera creado DSotSC. 
+Agradecimientos especiales a Black Isle Studios, Bioware Corp., Interplay Productions, y todos los individuos envueltos en la creación de Baldur's Gate y Tales of the Sword Coast. Sin duda el CRPG más grande nunca construido, y sin los que no hubiera creado DSotSC.~
 
-¡Mi último agradecimiento es para vos! Aventurero que leéis esto y lo encontrasteis en alguna parte de algún estante para libros del Lado Oscuro de la Costa de la Espada. Ahora sal ahí fuera e id a cortar las cabezas de "¡los Trasgos!" 
+¡Mi último agradecimiento es para vos! Aventurero que leéis esto y lo encontrasteis en alguna parte de algún estante para libros del Lado Oscuro de la Costa de la Espada. Ahora sal ahí fuera e id a cortar las cabezas de "¡los Trasgos!"~
 
 CúChoinneach~
 
@@ -1596,7 +1596,7 @@ CúChoinneach~
 
 @1249 = ~Los grabados en el amuleto hablan sobre la vida y el poder de la Diosa Madre. Tiene una runa inconfundible, el símbolo de Erreth-Akbe, el más grande de los templos druídicos del norte. A pesar de poder apreciarse claramente su antigüedad, sus encantamientos aún relucen como recién imbuidos, su poder debe residir en ese resplandor. Tras una observación más precisa, pueden apreciarse ciertos principios de desvanecimiento, quizás su poder no es tan eterno como el de la diosa a la que venera.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Especial: Protección contra el ácido
 
@@ -1613,7 +1613,7 @@ Jet'Laya ha sugerido llevarlo a Lennan, su tío, que está esperando en el Malabar
 
 CARACTERÍSTICAS:
 
-Especial: 
+Especial:~
  Duplica todos los hechizos de nivel 1-3 de sacerdote
  +1 en todas las salvaciones
 
@@ -1639,9 +1639,9 @@ Utilizable sólo por:
 @1259 = ~Collar de Destreza Piedrazul~
 @1260 = ~De hecho sois un aventurero muy afortunado. Este Collar de Piedrazul aumenta vuestra Destreza y ¡os da un bonificador THAC0 +3! Solamente no dejéis que caiga en malas manos...
 
-Especial: 
+Especial:~
  +3 Destreza y THAC0 +3 mientras se lleva
- 
+~
 No lo puede usar:
  Asesino de magos~
 
@@ -1659,20 +1659,20 @@ No lo puede usar:
 
 @1263 = ~Collar Antiguo de Perlas de Jules~
 @1264 = ~Amuleto del Erudito~
-@1265 = ~Regalos parecidos son frecuentemente otorgados a los aprendices de mago que han terminado sus enseñanzas. 
+@1265 = ~Regalos parecidos son frecuentemente otorgados a los aprendices de mago que han terminado sus enseñanzas.~
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Conjuros: añade uno de Nv. 1, dos de Nv. 2 y 3
 
-Utilizable sólo por: 
+Utilizable sólo por:~
  Mago
  Bardo~
 
 @1266 = ~Amuleto de No Detección~
 @1267 = ~Este objeto es una variante del Amuleto de prevención de detección y localización, y es muy apreciado, especialmente por parte de espías, ladrones y asesinos, casi tanto como el amuleto original.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Proporciona No Detección a su usuario
 
@@ -1680,11 +1680,11 @@ No lo puede usar:
  Asesino de magos~
 
 @1268 = ~Amuleto de Gran Providencia~
-@1269 = ~Amuleto de Gran Providencia Conocido por su habilidad de incrementar la visión del portador, el Amuleto de Gran Providencia es muy buscado por líderes de grandes armadas puesto que son capaces de ver al ejercito enemigo desde millas de distancia y así reaccionar a las estrategias enemigas. Su origen e historia recientes son desconocidos. 
+@1269 = ~Amuleto de Gran Providencia Conocido por su habilidad de incrementar la visión del portador, el Amuleto de Gran Providencia es muy buscado por líderes de grandes armadas puesto que son capaces de ver al ejercito enemigo desde millas de distancia y así reaccionar a las estrategias enemigas. Su origen e historia recientes son desconocidos.~
 
 CARACTERÍSTICAS:
 
-Especial: 
+Especial:~
  Provee al usuario de visión mejorada (Clarividencia)
 
 No lo puede usar:
@@ -1695,10 +1695,10 @@ No lo puede usar:
 
 CARACTERÍSTICAS:
 
-Daño: 1d6 
-Tipo de daño: proyectil (perforación) 
+Daño: 1d6~
+Tipo de daño: proyectil (perforación)~
 
-Especial: 
+Especial:~
  Mata dragones y dracos menores al contacto
  +3 Daño/+3 Golpe a todos los Dragones
  10% de posibilidades de matar a todos los Dragones
@@ -1732,7 +1732,7 @@ Lanzada desde: Arco~
 @1281 = ~Virote de disipación +1~
 @1283 = ~Los Virotes son la munición disparada por ballestas a pesar del tamaño del arma. Aunque este virote ha sido imbuido con una pequeña cantidad de propiedades mágicas que aumentan su rendimiento en vuelo, como si el virote fuera guiado al objetivo.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d8+1
 THAC0: +1
@@ -1746,7 +1746,7 @@ Lanzada desde: Ballesta~
 CARACTERÍSTICAS:
 
 Daño: 1d4+1
-Especial: 
+Especial:~
  6d6 explosión al impactar (salvación contra conjuros la mitad)
 Tipo de daño: proyectil (perforación)
 Lanzada desde: Honda~
@@ -1756,9 +1756,9 @@ Lanzada desde: Honda~
 
 CARACTERÍSTICAS:
 
-Daño: 1d4+2 
+Daño: 1d4+2~
 THAC0: +1
-Especial: 
+Especial:~
  2d3 a criaturas no muertas
 Tipo de daño: proyectil (perforación)
 Lanzada desde: Honda~
@@ -1776,31 +1776,31 @@ Utilizable sólo por:
 @1296 = ~Botas del valor, 'Pie tronante'
 La magia de estas botas ha sido diseñada de tal forma que ayuda al que las lleva a resistir ataques aplastantes, se agarran fuertemente al suelo permitiendo que se resista el golpe.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Bonificador de clase de armadura: +5 contra armas aplastantes
 Peso: 18
 
-No lo puede usar: 
+No lo puede usar:~
  Bardo
- Druida 
- Mago 
+ Druida~
+ Mago~
  Ladrón
  Asesino de magos~
 
 @1300 = ~Este escudo de manufactura enana fue encargado por Pellan de Tyr, un imprudente paladín conocido por su incuestionable valor y una total falta de sentido común. Tras escuchar que un dragón rojo estaba asolando la campiña, Pellan montó en su caballo y cabalgó hacia la batalla. Lo que ocurrió es que Pellan y su armadura fueron digeridos fácilmente, pero el escudo produjo al dragón graves problemas de estómago. Fue regurgitado con posterioridad y permaneció entre el tesoro durante años, hasta que fue recuperado por el hijo de Pellan, un guerrero que sabía cuándo moverse en silencio.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Bonificador de clase de armadura: 3
 Especial: +1 contra armas de proyectiles
 Peso: 10
 Requisito: 10 Fuerza
 
-No lo puede usar: 
- Bardo 
- Druida 
- Mago 
+No lo puede usar:~
+ Bardo~
+ Druida~
+ Mago~
  Ladrón
  Monje
  Kensái~
@@ -1808,7 +1808,7 @@ No lo puede usar:
 @1302 = ~Escudo Pequeño +3 de CúChoinneach 'La Luna'~
 @1304 = ~CúChoinneach creó este escudo después de recibir la cimitarra 'Mairail' de Sehanin Arcolunar. Está hecho de mithril y las más duras maderas del bosque.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Bonificador de clase de armadura: +4
 Especial: Sin protección contra armas de proyectiles
@@ -1824,7 +1824,7 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Bonificador de clase de armadura: +3
-Especial: 
+Especial:~
  Sin protección contra armas de proyectiles
  THAC0 +2 bonificación contra no muertos
 
@@ -1839,7 +1839,7 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Bonificador de clase de armadura: 3
-Especial: 
+Especial:~
  Resistencia al Frío aumentada
  Resistencia al Fuego disminuida
 
@@ -1848,12 +1848,12 @@ Peso: 3
 No lo puede usar:
  Bardo
  Druida
- Mago 
+ Mago~
  Ladrón
  Monje
  Kensái~
 
-@1312 = ~El escudo mediano se lleva del mismo modo que el pequeño, aunque su peso impide que se puedan llevar otras armas además del escudo. Suele estar hecho de metal, tiene un diámetro de 90 a 120 centímetros y puede tener diferentes formas, desde redondos a cuadrados, pasando por la forma de las alas extendidas de un dragón. Uno de los escudos medievales más habituales tiene la forma de un triángulo con uno de sus ángulos hacia abajo. 
+@1312 = ~El escudo mediano se lleva del mismo modo que el pequeño, aunque su peso impide que se puedan llevar otras armas además del escudo. Suele estar hecho de metal, tiene un diámetro de 90 a 120 centímetros y puede tener diferentes formas, desde redondos a cuadrados, pasando por la forma de las alas extendidas de un dragón. Uno de los escudos medievales más habituales tiene la forma de un triángulo con uno de sus ángulos hacia abajo.~
 
 CARACTERÍSTICAS:
 
@@ -1914,13 +1914,13 @@ CARACTERÍSTICAS:
 
 Daño: 2d5+2
 THAC0: Bonificador +2
-Especial: 
+Especial:~
  +1 Bonificador Clase de Armadura
  +1 Destreza
-Tipo de daño: Cuchillada 
-Peso: 8 
-Talento marcial: Katana 
-Factor de velocidad: 2 
+Tipo de daño: Cuchillada~
+Peso: 8~
+Talento marcial: Katana~
+Factor de velocidad: 2~
 Tipo: a una mano
 Requisito: 6 Fuerza
 
@@ -1970,7 +1970,7 @@ Talento marcial: Cimitarra/Wakizashi/Ninja-To
 Tipo: a una mano
 Requisito: 8 Fuerza
 
-Utilizable sólo por: 
+Utilizable sólo por:~
  Druida~
 
 @1334 = ~La Matadragones de Conchobhair~
@@ -2043,13 +2043,13 @@ Utilizable sólo por:
 @1342 = ~Sable +2, 'Colmillo de O-Tokne'~
 @1343 = ~El característico filo único, largo y curvo de tanto sables como cimitarras a pesar de resultar tan familiar, tiene su origen en zonas bastante lejanas de Faerûn. El sable, por su ligereza suele ser el arma favorita de ladrones y salteadores.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Daño: 3d3 
-Tipo de daño: Cuchillada 
-Peso: 4 
-Factor de velocidad: 5 
-Talento marcial: Cimitarra/Wakizashi/Ninja-To 
+Daño: 3d3~
+Tipo de daño: Cuchillada~
+Peso: 4~
+Factor de velocidad: 5~
+Talento marcial: Cimitarra/Wakizashi/Ninja-To~
 Tipo: a una mano
 Requisito: 10 Fuerza
 
@@ -2188,28 +2188,28 @@ Utilizable sólo por:
  Paladín~
 
 @1359 = ~Espada Plaga del Mal~
-@1360 = ~Una espada mítica en la habitada provincia élfica de Hyilia, se decía que esta espada había derrotado al mago malvado Ganondorf. Las leyendas dicen que la espada trajo a las tres-fuerzas de regreso a los poderes del bien. 
+@1360 = ~Una espada mítica en la habitada provincia élfica de Hyilia, se decía que esta espada había derrotado al mago malvado Ganondorf. Las leyendas dicen que la espada trajo a las tres-fuerzas de regreso a los poderes del bien.~
 
 CARACTERÍSTICAS:
 
 Daño: 1d10+1
 THAC0: +1
-Tipo de daño: Cuchillada 
-Peso: 7 
-Factor de velocidad: 10 
+Tipo de daño: Cuchillada~
+Peso: 7~
+Factor de velocidad: 10~
 Talento marcial: Espada larga
 Tipo: a una mano
 Requisito: 11 Fuerza
 
-No lo puede usar: 
- Druida 
- Clérigo 
- Mago 
+No lo puede usar:~
+ Druida~
+ Clérigo~
+ Mago~
  Ladrón
  Señor de las bestias~
 
 @1361 = ~Espada a dos puños +2~
-@1362 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica. 
+@1362 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.~
 
 CARACTERÍSTICAS:
 
@@ -2247,14 +2247,14 @@ Utilizable sólo por:
 @1366 = ~La Venganza de Nemmerle~
 @1368 = ~En la clásica batalla entre el bien y el mal el Archimago Nemmerle vio que su derrota era inevitable y reunió toda la magia oscura que le quedaba para encantar este bastón y teletransportarlo a su novato aprendiz. Solamente al final se dio cuenta de lo que era necesario para acabar vivo el día, y careciendo de la fuerza para llevarlo a cabo por él mismo, vio que incluso de la derrota él podría conseguir una pequeña victoria. Su enemigo, Gensher, había encantado sus túnicas para aguantar cualquier golpe por aplastamiento, ya que incluso en disputas de 2 oponentes equivalentes en conocimientos de magia, él sabía que la batalla acabaría en un combate cuerpo a cuerpo y habría tomado ventaja su oponente. El bastón desprende un débil aura de alteración mágica. Tras pronunciar la palabra de mando, el bastón toma los atributos de una Alabarda, lo cual permite blandirlo permitiendo causar daño por corte.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 2d6+2
 THAC0: Bonificador +2
 Peso: 4
 Factor de velocidad: 2
-Tipo de daño: Cuchillada 
-Talento marcial: Bastón 
+Tipo de daño: Cuchillada~
+Talento marcial: Bastón~
 Tipo: a dos manos
 
 No lo puede usar:
@@ -2303,8 +2303,8 @@ Talento marcial: Mayal/Lucero del alba
 Tipo: a una mano
 Requisito: 13 Fuerza
 
-Utilizable sólo por: 
- Paladín 
+Utilizable sólo por:~
+ Paladín~
  Clérigo (Legal bueno)~
 
 @1376 = ~Hacha de Batalla +3 de Ferthgil Matatrolls~
@@ -2326,14 +2326,14 @@ Utilizable sólo por:
 @1379 = ~Hacha de Batalla +2 'Enfurecedora'~
 @1381 = ~La historia de esta arma es desconocida, pero uno la mira y es fácil decir que es una hacha de calidad creada por manos de enanos. El arma parece que os llama a llevarla y a arremeter contra la batalla.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d8+2
 THAC0: Bonificador +2
 Tipo de daño: Cuchillada
-Peso: 7 
-Factor de velocidad: 6 
-Talento marcial: Hacha 
+Peso: 7~
+Factor de velocidad: 6~
+Talento marcial: Hacha~
 Tipo: a una mano
 Requisito: 10 Fuerza
 
@@ -2424,31 +2424,31 @@ Tipo: a una mano
 Requisito: 10 Fuerza
 
 No lo puede usar:
- Druida 
- Clérigo 
- Mago 
+ Druida~
+ Clérigo~
+ Mago~
  Ladrón
  Monje
  Señor de las bestias~
- 
+~
 @1390 = ~Hacha enastada +2, 'Kilther'~
 @1391 = ~Kilther era el general de los "Caballeros plateados". Cuando sus tierras fueron invadidas por un gran destacamento de caballería orca, sus caballeros se dispusieron a montar en sus caballos para enfrentarse a ellos. Kilther se lo impidió, les ordenó que luchasen a pie, armados con arcos, alabardas o hachas largas siendo una de estas últimas la que eligió para él. Cuando se inició el combate, las hachas largas contuvieron el avance del enemigo, sobre el que empezó a caer una lluvia de flechas. Miles de orcos murieron mientras que los "Caballeros plateados" tan sólo perdieron a 19 hombres, incluyendo al mismo Kilther.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d12+2
 THAC0: Bonificador +2
-Tipo de daño: Cuchillada 
-Peso: 10 
+Tipo de daño: Cuchillada~
+Peso: 10~
 Factor de velocidad: 9
-Talento marcial: Hacha 
-Tipo: a dos manos 
+Talento marcial: Hacha~
+Tipo: a dos manos~
 Requisito: 12 Fuerza
 
-No lo puede usar: 
- Druida 
- Clérigo 
- Mago 
+No lo puede usar:~
+ Druida~
+ Clérigo~
+ Mago~
  Ladrón
  Monje
  Señor de las bestias~
@@ -2478,19 +2478,19 @@ Utilizable sólo por:
 @1396 = ~Bastón de Vida~
 @1398 = ~Blanco y dorado, palpitante de poder, este bastón se formó al principio de los tiempos con el primer rayo de sol cuando atravesaba la más pura de las aguas. Tiene poco valor ofensivo, pero protege a su dueño con poderosas defensas.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
-Daño: 2d2+2 
-THAC0: +2 
+Daño: 2d2+2~
+THAC0: +2~
 Clase de armadura: Bonificador +2
-Especial: 
+Especial:~
  Crea pociones de curación y antídotos
  Protección de hechizos de nivel 1
-Tipo de daño: Aplastamiento 
-Peso: 3 
+Tipo de daño: Aplastamiento~
+Peso: 3~
 Factor de velocidad: 6
-Talento marcial: Bastón 
-Tipo: a dos manos 
+Talento marcial: Bastón~
+Tipo: a dos manos~
 
 Utilizable sólo por:
  Mago (Solo, dual y multiclase)
@@ -2499,16 +2499,16 @@ Utilizable sólo por:
 @1399 = ~Bastón de los Antiguos~
 @1400 = ~Este bastón fue creado por una raza llamada Los Antiguos, que vivieron hace varios siglos. Hoy en día quedan pocas reliquias de esos tiempos, e incluso sus descendientes saben pocas cosas respecto a tales artefactos.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 2d4+3
 THAC0: +3
 Especial: Bonificación CA +1
-Peso: 3 
-Factor de velocidad: 1 
+Peso: 3~
+Factor de velocidad: 1~
 Tipo de daño: Aplastamiento
 Talento marcial: Bastón
-Tipo: a dos manos 
+Tipo: a dos manos~
 
 Utilizable sólo por:
  Mago
@@ -2517,7 +2517,7 @@ Utilizable sólo por:
 @1401 = ~Ethric~
 @1402 = ~Este bastón proporciona inmunidad contra armas no mágicas. Es una poderosa arma que se ha sido sometida a un poderoso y oscuro encantamiento. Se desconoce la totalidad de sus propiedades.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 2d8+1
 THAC0: +1
@@ -2525,9 +2525,9 @@ Especial:
  Inmunidad a armas no mágicas
 Tipo de daño: perforación
 Peso: 5
-Factor de velocidad: 8 
+Factor de velocidad: 8~
 Talento marcial: Bastón
-Tipo: a dos manos 
+Tipo: a dos manos~
 
 Utilizable sólo por:
  Mago (Solo, dual y multiclase)
@@ -2558,13 +2558,13 @@ Utilizable sólo por:
 CARACTERÍSTICAS:
 
 Daño: 1d6+2
-THAC0: +2 
+THAC0: +2~
 Especial: El objetivo se ralentiza (si no hay salvación contra conjuros)
-Tipo de daño: Aplastamiento 
-Peso: 4 
-Factor de velocidad: 3 
-Talento marcial: Bastón 
-Tipo: a dos manos 
+Tipo de daño: Aplastamiento~
+Peso: 4~
+Factor de velocidad: 3~
+Talento marcial: Bastón~
+Tipo: a dos manos~
 
 No lo puede usar:
  Monje~
@@ -2573,7 +2573,7 @@ No lo puede usar:
 @1410 = ~Bastón de la Naturaleza: 'Protector de la Naturaleza'
 Este bastón ha sido usado por una tribu de druidas desde hace varios siglos. Fue transmitido de líder a líder de la tribu de los Archidruidas en la tierra de Kazgard. Se dice que este bastón fue forjado por la misma Madre Naturaleza y tiene un brillo de color verde para mostrar que este bastón proviene verdaderamente del poder de la naturaleza. Este bastón es muy poderoso, de hecho, los antiguos dueños del bastón fueron gente muy poderosa.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 2d3+2
 THAC0: Bonificador +2
@@ -2581,11 +2581,11 @@ Especial:
  +15 a los puntos de golpe
  +20 Sabiduría
  +3 conjuros de sacerdote de Nivel 1
-Peso: 2 
-Factor de velocidad: 2 
-Tipo de daño: Aplastamiento 
-Talento marcial: Bastón 
-Tipo: a dos manos 
+Peso: 2~
+Factor de velocidad: 2~
+Tipo de daño: Aplastamiento~
+Talento marcial: Bastón~
+Tipo: a dos manos~
 
 Utilizable sólo por:
  Druida (Solo)~
@@ -2598,11 +2598,11 @@ CARACTERÍSTICAS:
 Daño: 1d6+3
 THAC0: +2
 Especial: Desconocido
-Tipo de daño: Aplastamiento 
-Peso: 4 
-Factor de velocidad: 1 
-Talento marcial: Bastón 
-Tipo: a dos manos 
+Tipo de daño: Aplastamiento~
+Peso: 4~
+Factor de velocidad: 1~
+Talento marcial: Bastón~
+Tipo: a dos manos~
 
 Utilizable sólo por:
  Gnomo usuario de magia~
@@ -2652,25 +2652,25 @@ No lo puede usar:
 @1420 = ~Lanza de Fuego~
 @1422 = ~La punta de esta lanza arde mágicamente, lo cual hace que sea especialmente mortífera en combate.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d6+2, +1d6 de daño de fuego
 THAC0: +2
 Tipo de daño: perforación
 Peso: 3
-Factor de velocidad: 3 
-Talento marcial: Lanza 
-Tipo: a dos manos 
+Factor de velocidad: 3~
+Talento marcial: Lanza~
+Tipo: a dos manos~
 
-No lo puede usar: 
- Clérigo 
+No lo puede usar:~
+ Clérigo~
  Mago
  Ladrón
  Monje
  Señor de las bestias~
 
 @1423 = ~Lanza +3: 'El Cetro del Dragón'~
-@1424 = ~Llamado así por los adornos tallados de dragones de la base de la lanza. Sus orígenes exactos son totalmente desconocidos. 
+@1424 = ~Llamado así por los adornos tallados de dragones de la base de la lanza. Sus orígenes exactos son totalmente desconocidos.~
 
 CARACTERÍSTICAS:
 
@@ -2738,7 +2738,7 @@ CARACTERÍSTICAS:
 
 Daño: 1d6+2, +2 contra no muertos
 THAC0: +2
-Especial: 
+Especial:~
  Destruirá muchos no muertos al contacto
 Tipo de daño: Aplastamiento
 Peso: 8
@@ -2757,11 +2757,11 @@ No lo puede usar:
 @1433 = ~Maza de Contrición~
 @1434 = ~Esta maza fue realizada artesanalmente por un fanático religioso llamado Parias. Con la ayuda de esta arma planeó convertir a los no creyentes a la luz de su fe. Sin embargo su fanatismo le llevó tan lejos que mató a su mujer y a su familia por no "caminar en la luz", cuando se dio cuenta de lo que había hecho enterró la maza, confesó sus pecados y se dejo morir de hambre lamentándose en la tumba de su esposa. La maza fue encontrada más tarde y entonces recibió el nombre de maza de contrición.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d6+4
 THAC0: +3
-Especial: 
+Especial:~
  Bonificación al daño contra no muertos
  Ataque extra
 Tipo de daño: Aplastamiento
@@ -2856,13 +2856,13 @@ No lo puede usar:
 @1446 = ~Ballesta ligera de Velocidad de Keiria Hilodeplata~
 @1448 = ~Esta ballesta ligera no posee más habilidades que las de una ballesta de velocidad normal, la única diferencia radica en su color, ya que Keira siempre intenta ir a la moda, incluso en la batalla.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: +1 (proyectil)
 THAC0: Bonificador +1
 Especial: 1 ataque extra por asalto
-Peso: 5 
-Factor de velocidad: 3 
+Peso: 5~
+Factor de velocidad: 3~
 Talento marcial: Ballesta
 Tipo: a dos manos
 
@@ -2870,16 +2870,16 @@ Utilizable sólo por:
  Keiria Hilodeplata~
 
 @1449 = ~Ballesta de las Sombras~
-@1450 = ~Una ballesta es un arco que se monta transversalmente sobre un fuste de madera o de metal. El último recibe el nombre de timón. El arco se suele hacer de madera de fresno o de tejo. La ballesta dispara cuadrillos (también llamados virotes). Esta ballesta en particular la usan los ladrones del reino. ¡Pero no hay lugar, como Calimport, ciudad de la intriga! Cuidado con estas ballestas mortíferas. 
+@1450 = ~Una ballesta es un arco que se monta transversalmente sobre un fuste de madera o de metal. El último recibe el nombre de timón. El arco se suele hacer de madera de fresno o de tejo. La ballesta dispara cuadrillos (también llamados virotes). Esta ballesta en particular la usan los ladrones del reino. ¡Pero no hay lugar, como Calimport, ciudad de la intriga! Cuidado con estas ballestas mortíferas.~
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: +1 (proyectil)
 THAC0: Bonificador +1
-Peso: 6 
-Factor de velocidad: 2 
-Talento marcial: Ballesta 
-Tipo: a dos manos 
+Peso: 6~
+Factor de velocidad: 2~
+Talento marcial: Ballesta~
+Tipo: a dos manos~
 Requisito: 8 Fuerza
 
 No lo puede usar:
@@ -2910,7 +2910,7 @@ No lo puede usar:
 @1456 = ~Arco largo de Fuerza +3 'Vibramuerte'~
 @1458 = ~Creado por los elfos del bosque para el príncipe de los bárbaros de las nieves Corbus Denox, este arco proporciona incrementos a la fuerza, daño y precisión. Un zumbido resonante y profundo que se oye tras dispararlo es el origen de su nombre.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: +3
 THAC0: +3
@@ -2991,7 +2991,7 @@ Utilizable sólo por:
 @1470 = ~La Zarza de Elgenon - 'La Rama de Muchas Espinas'~
 @1472 = ~Creada por ninfas para los guardianes del bosque, este zarzal está encantado mágicamente para que crezcan espinas después de cada uso. Originalmente fue un regalo para Elgenon El Sabio, protector del Árbol de la Sabiduría, desde entonces los druidas han demostrado su valía como guardianes de los bosques con esta poderosa arma.
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d8+1
 THAC0: +1
@@ -3009,7 +3009,7 @@ Utilizable sólo por:
 @1473 = ~Mandíbula de Asno~
 @1474 = ~Esto parece ser nada más que la mandíbula de un animal, quizás un mono o una mula. En un apuro puede ser usada como un garrote primitivo...
 
-CARACTERÍSTICAS: 
+CARACTERÍSTICAS:~
 
 Daño: 1d6
 Tipo de daño: Aplastamiento
@@ -3081,10 +3081,10 @@ No lo puede usar:
 @2133 = ~FERTHGIL MATATROLLS
 
 Ferthgil se crió entre enanos dorados en las montañas de los Picos Nublados, su padre, Breachin Matatrolls era un herrero itinerante, que realizaba su trabajo en varios pueblos a lo largo de la Costa de la Espada. Breachin fue asesinado intentando proteger a su hijo de una patrulla de Verbeegs en las montañas de los Picos Nublados, y el pequeño Ferthgil (aún un adolescente) vagabundeó indefenso por las montañas arrastrando el hacha de su padre.
-Lo encontró Gulmoth Suelodepiedra, un Alaghor, o clérigo de Clangeddin Barbaplateada. 
+Lo encontró Gulmoth Suelodepiedra, un Alaghor, o clérigo de Clangeddin Barbaplateada.~
 Gulmoth vio toda la rabia y frustración que el chico guardaba pero también su potencial y nobleza. Lo entrenó en el fuerte de Suelodepiedra, un refugio para enanos en el sur de la Costa de la Espada y le enseñó a canalizar su rabia al servicio del Dios de la Guerra.
 
-Ferthgil había heredado de su padre el deseo de ver el mundo, y no era capaz de permanecer demasiado tiempo en el mismo sitio, una mañana abandonó la seguridad y reclusión del fuerte de Suelodepiedra y se lanzó a los caminos. 
+Ferthgil había heredado de su padre el deseo de ver el mundo, y no era capaz de permanecer demasiado tiempo en el mismo sitio, una mañana abandonó la seguridad y reclusión del fuerte de Suelodepiedra y se lanzó a los caminos.~
 
 De todas formas, Ferhgil no tenía clan, no tenía hogar, y más importante aún, no tenía riquezas. De camino a Velen, en el sur, se encontró con el que se convertiría en su compañero de viaje y mejor amigo, Tearlac Martillofiel, del clan Martillofiel del norte.
 Su amistad creció rápidamente y, Ferthgil empezó a sentirse parte de una comunidad. Aunque no oficialmente, ya era parte del clan Martillofiel al Norte.

@@ -1,8 +1,8 @@
 //DSCOFF1.baf; DSCOFF2.baf
-@0    = ~Il vampiro si è rifugiato nella sua bara una volta che l'hai sconfitto. Se hai un paletto di legno puoi provare ad ucciderlo.~
-@1    = ~Pianti il paletto nel cuore nero del vampiro. La creatura non si ciberà mai più del sangue degli altri.~
-@2    = ~Il vampiro è morto davvero e la bara puzza di cadavere. Non puoi fare altro qui.~
-@3    = ~Sei troppo lontano per utilizzare quest'oggetto.~
+@0 = ~Il vampiro si è rifugiato nella sua bara una volta che l'hai sconfitto. Se hai un paletto di legno puoi provare ad ucciderlo.~
+@1 = ~Pianti il paletto nel cuore nero del vampiro. La creatura non si ciberà mai più del sangue degli altri.~
+@2 = ~Il vampiro è morto davvero e la bara puzza di cadavere. Non puoi fare altro qui.~
+@3 = ~Sei troppo lontano per utilizzare quest'oggetto.~
 
 //DSDUEGWA.BAF
-@10    = ~Allarme!  Intrusi!~
+@10 = ~Allarme! Intrusi!~

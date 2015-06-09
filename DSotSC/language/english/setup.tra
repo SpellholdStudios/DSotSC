@@ -2,10 +2,10 @@
 //Spells
 ////////
 
-@1    = ~The Shadow Wolf~
-@2    = ~Disciple of Light~
-@3    = ~Cause Light Wounds~
-@4    = ~Cause Light Wounds (Necromancy)
+@1 = ~The Shadow Wolf~
+@2 = ~Disciple of Light~
+@3 = ~Cause Light Wounds~
+@4 = ~Cause Light Wounds (Necromancy)
 Level: 1
 Sphere: Healing
 Range: Touch
@@ -15,8 +15,8 @@ Area of Effect: 1 creature
 Saving Throw: Neg
 
 This is the reverse of the Cure Light Wounds spell. The creature touched loses 1-8 hit points unless a save vs. spells is made. Caused wounds may be healed or cured normally.~
-@5    = ~Fire Bolt~
-@6    = ~Fire Bolt (Evocation)
+@5 = ~Fire Bolt~
+@6 = ~Fire Bolt (Evocation)
 Level: 1
 Sphere: Elemental Fire
 Range: Line of Sight
@@ -26,8 +26,8 @@ Area of Effect: 1 creature
 Saving Throw: Special
 
 The caster summons fire and forms it into a small projectile which travels to the target causing 1D6 fire damage. The target creature must make a Save vs. spell or suffer a further 1D6 fire damge.~
-@7    = ~Armor Melt~
-@8    = ~Armor Melt (Alteration)
+@7 = ~Armor Melt~
+@8 = ~Armor Melt (Alteration)
 Level: 1
 Sphere: Combat
 Range: Line of Sight
@@ -37,8 +37,8 @@ Area of Effect: 1 creature
 Saving Throw: 1/2
 
 Upon casting this spell the priest can cause a change in certain physical material. Armor and metal objects will start to melt. Any creature affected by the spell receives an 4 point loss in armor class. Save vs spells for 1/2.~
-@9    = ~Cure Moderate Wounds~
-@10   = ~Cure Moderate Wounds (Necromancy)
+@9 = ~Cure Moderate Wounds~
+@10 = ~Cure Moderate Wounds (Necromancy)
 Level: 2
 Sphere: Healing
 Range: Touch
@@ -48,8 +48,8 @@ Area of Effect: 1 creature
 Saving Throw: None
 
 When casting this spell and laying his hands upon a creature, the priest heals 12 hit points of damage to the creature's body. This spell has no effect on undead or extraplanar creatures.~
-@12   = ~Sparks~
-@13   = ~Sparks (Evocation)
+@12 = ~Sparks~
+@13 = ~Sparks (Evocation)
 Level: 2
 Sphere: Combat, Weather
 Range: Line of Sight
@@ -59,8 +59,8 @@ Area of Effect: 1 creature
 Saving Throw: 1/2
 
 The druid summons up the electricity from the air around him and hurdles it at the target causing 4D6 electrical damage, save vs. spell to half.~
-@14   = ~Ward of Protection~
-@15   = ~Ward of Protection (Evocation)
+@14 = ~Ward of Protection~
+@15 = ~Ward of Protection (Evocation)
 Level: 2
 Sphere: Protection
 Range: Self
@@ -70,8 +70,8 @@ Area of Effect: Caster
 Saving Throw: None
 
 When this spell is cast, an invisible barrier comes into being in front of the caster. It sets the caster's base armor class to 3.~
-@17   = ~Pain~
-@18   = ~Pain (Enchantment/Charm)
+@17 = ~Pain~
+@18 = ~Pain (Enchantment/Charm)
 Level: 3
 Sphere: Charm
 Range: Visual range of caster
@@ -80,9 +80,9 @@ Casting Time: 4
 Area of Effect: 15' radius
 Saving Throw: Neg
 
-This spell causes excruciating pain in all hostile creatures within the area of effect. The spell does no damage, but those who fail a saving throw vs. spells at -2 will suffer a -2 to dexterity and a -2 to all attack rolls for one turn.  Creatures that do not normally feel pain (such as undead) are unaffected by this spell.~
-@19   = ~Armor of Darkness~
-@20   = ~Armor of Darkness (Conjuration)
+This spell causes excruciating pain in all hostile creatures within the area of effect. The spell does no damage, but those who fail a saving throw vs. spells at -2 will suffer a -2 to dexterity and a -2 to all attack rolls for one turn. Creatures that do not normally feel pain (such as undead) are unaffected by this spell.~
+@19 = ~Armor of Darkness~
+@20 = ~Armor of Darkness (Conjuration)
 Level: 3
 Sphere: Protection, Sun
 Range: Touch
@@ -92,7 +92,7 @@ Area of Effect: 1 creature
 Saving Throw: None
 
 The goddess of the night Shar grants clerics the power to call forth a shroud of mystical darkness that envelops the target of the spell. While encased in this the subject's Armor Class improves by 2 and saving throws vs. spells are made at a +2 bonus. The target also gains infravison and is unaffected by blindness. Due to the evil nature of this spell the caster takes 3 hit points of damage when the spell is cast.~
-@21   = ~Stoneskin (Alteration)
+@21 = ~Stoneskin (Alteration)
 Level: 3
 Range: 0
 Duration: 12 hours
@@ -100,9 +100,9 @@ Casting Time: 1
 Area of Effect: Caster
 Saving Throw: None
 
-When a druid casts this powerful spell upon himself, an outer skin of stone will move up from the ground completely covering him.  This skin is of course magical and will hinder the druid in no way.  The effect of this is to protect the druid from physical attacks such as melee weapons and projectiles.  For every 2 levels of the caster an additional skin is gained upon casting, for example a 10th level druid would receive 5 skins while a 20th level druid would receive 10.  For each skin the druid possesses the spell will stop one attack, so a 10th level druid would be protected from the first 5 attacks made against him, but the sixth would affect him normally.  The skins will remain on the druid until he is affected by a dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires.  It is important to note that this will not protect the druid from any magical attacks such as fireball, however it will protect him from physical magical attacks such as magic missle.~
-@22   = ~Poison Spray~
-@23   = ~Poison Spray (Necromancy)
+When a druid casts this powerful spell upon himself, an outer skin of stone will move up from the ground completely covering him. This skin is of course magical and will hinder the druid in no way. The effect of this is to protect the druid from physical attacks such as melee weapons and projectiles. For every 2 levels of the caster an additional skin is gained upon casting, for example a 10th level druid would receive 5 skins while a 20th level druid would receive 10. For each skin the druid possesses the spell will stop one attack, so a 10th level druid would be protected from the first 5 attacks made against him, but the sixth would affect him normally. The skins will remain on the druid until he is affected by a dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires. It is important to note that this will not protect the druid from any magical attacks such as fireball, however it will protect him from physical magical attacks such as magic missle.~
+@22 = ~Poison Spray~
+@23 = ~Poison Spray (Necromancy)
 Level: 4
 Sphere: Plant
 Range: 15 ft
@@ -112,8 +112,8 @@ Area of Effect: 1 creature
 Saving Throw: 1/2
 
 The Druid summons the poisons from the area around them and sprays them at the target creature bathing it in the spray doing 4 points of damage per round up to a total of 32, damage can be halved with a successful save vs. death.~
-@24   = ~Mielikki's Blade~
-@25   = ~Mielikki's Blade (Evocation)
+@24 = ~Mielikki's Blade~
+@25 = ~Mielikki's Blade (Evocation)
 Level: 4
 Sphere: Combat, Nature
 Range: Self
@@ -123,8 +123,8 @@ Area of Effect: 3' long blade
 Saving Throw: None
 
 This spell conjures a magical weapon symbolic of the goddess Mielikki - a great scimitar that blazes with a cold blue fire. The blade is wielded as a +4 magical weapon dealing 1-8 points of damage, and any creature struck must make a saving throw or suffer an additional 1-6 cold damage from the flames. Mielikki's blade also grants the druid a resistance to fire for as long as it exists.~
-@26   = ~Blades~
-@27   = ~Blades (Alteration)
+@26 = ~Blades~
+@27 = ~Blades (Alteration)
 Level: 5
 Sphere: Combat
 Range: Line of Sight
@@ -134,7 +134,7 @@ Area of Effect: 1 creature
 Saving Throw: 1/2
 
 The Druid conjurers up a swarming circle of small sharp blades that are launched at the target creature slicing them for 4D8 damage, damage is reduced by half with a successful save.~
-@28   = ~Selune's Blessing (Abjuration)
+@28 = ~Selune's Blessing (Abjuration)
 Level: 5
 Sphere: Protection
 Range: 0
@@ -144,8 +144,8 @@ Area of Effect: 5' radius sphere
 Saving Throw: None
 
 This spell invokes the power of the goddess Selune to protect the priest from physical or magical harm. The caster is surrounded by a shimmering field that improves his or her armor class by a full 4 factors, and also prevents the effects of any 1st through 3rd level spells. As with the mage spell Globe of Invulnerability, spells may still be cast out of the area of effect with no penalty. The spell is vulnerable to Dispel Magic, Pierce Magic and similar spells.~
-@29   = ~Call Undead~
-@30   = ~Call Undead (Necromancy)
+@29 = ~Call Undead~
+@30 = ~Call Undead (Necromancy)
 Level: 5
 Sphere: Necromantic, Summoning
 Range: 10 yards
@@ -155,8 +155,8 @@ Area of Effect: Special
 Saving Throw: None
 
 Upon the casting of this spell 3 to 6 ghouls and 0 to 2 ghasts will claw their way out of the earth to serve the caster. The creatures can understand simple commands and will remain for 5 turns unless destroyed or turned.~
-@31   = ~Transport via Plants~
-@32   = ~Transport via Plants (Alteration)
+@31 = ~Transport via Plants~
+@32 = ~Transport via Plants (Alteration)
 Level: 5
 Sphere: Plant
 Range: Visual range of caster
@@ -166,7 +166,7 @@ Area of Effect: Caster only
 Saving Throw: None
 
 By means of this spell the caster can effectively teleport by stepping into any living plant, and emerging instantly from any other within visual range.~
-@33   = ~Hold Monster (Enchantment/Charm)
+@33 = ~Hold Monster (Enchantment/Charm)
 Level: 6
 Sphere: Charm, Law
 Range: Visual range of caster
@@ -176,7 +176,7 @@ Area of Effect: 60 foot cube
 Saving Throw: Neg
 
 This spell holds 1d4 creatures of any type rigidly immobile and in place for nine or more rounds, unless a save vs. spells is made with a -2 penalty. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also effected. Those who succeed on their saving throws are totally unaffected by the spell. Undead creatures cannot be held. Held creatures cannot move or speak, but they remain aware of events around them and can use abilities not requiring motion or speech. Being held does not prevent the worsening of the subjects' condition due to wounds, disease, or poison.~
-@34   = ~Tenser's Transformation (Alteration/Evocation)
+@34 = ~Tenser's Transformation (Alteration/Evocation)
 Level: 6
 Sphere: Protection
 Range: 0
@@ -187,7 +187,7 @@ Saving Throw: None
 
 The priest casting this dweomer undergoes a startling transformation, their size and strength increasing to heroic proportions so they become a formidible fighting machine. The priests hit points double and their armor class improves a full 4 factors. All attacks are made as if the priest is a fighter of equal level. Each attack is made at +2 and each successful hit in combat inflicts an additional 2 points of damge. All bonuses will be lost when the spell ends or is dispelled including the hit point bonus.
 Note: This spell does not give the caster any extra attacks.~
-@35   = ~Flesh to Stone (Alteration)
+@35 = ~Flesh to Stone (Alteration)
 Level: 6
 Sphere: Elemental Earth
 Range: Sight of Caster
@@ -197,7 +197,7 @@ Area of Effect: 1 creature
 Saving Throw: Neg
 
 The target of this spell must make a saving throw vs. petrification or be turned to stone. Likewise, all possessions on the person will be petrified and be rendered unremovable unless a Stone to Flesh spell is cast. Any successful hit on a petrified creature will shatter it, killing it irrevocably.~
-@36   = ~Stone to Flesh (Alteration)
+@36 = ~Stone to Flesh (Alteration)
 Level: 6
 Sphere: Elemental Earth
 Range: Touch
@@ -206,9 +206,9 @@ Casting Time: 6
 Area of Effect: 1 creature
 Saving Throw: None
 
-By use of this spell the caster can restore a petrified creature to living flesh provided his stone body is still intact. The recipient will be physically drained by his time as a statue and will have only 1 hit point upon restoration.  Cure spells or rest will recover the lost health.~
-@37   = ~Choking Vines~
-@38   = ~Choking Vines (Alteration)
+By use of this spell the caster can restore a petrified creature to living flesh provided his stone body is still intact. The recipient will be physically drained by his time as a statue and will have only 1 hit point upon restoration. Cure spells or rest will recover the lost health.~
+@37 = ~Choking Vines~
+@38 = ~Choking Vines (Alteration)
 Level: 6
 Sphere: Plant
 Range: Line of Sight
@@ -218,8 +218,8 @@ Area of Effect: 20 square yards
 Saving Throw: Special
 
 The Druid summons up the powers of the earth to form a vine which grabs all creatures in the target area crushing them for 3 rounds. Any creature caught by the vine will be slowed and takes 4D5 damage when the vine attacks and must make a saving throw at -2 or suffer the same damage one round later.~
-@39   = ~Life Steal~
-@40   = ~Life Steal (Necromancy)
+@39 = ~Life Steal~
+@40 = ~Life Steal (Necromancy)
 Level: 6
 Sphere: Necromantic, Healing
 Range: Line of Sight
@@ -229,7 +229,7 @@ Area of Effect: 1 creature
 Saving Throw: Neg
 
 The caster prays for divine aid and attempts to steal the very life force from the target creature. The target creature suffers 6D5 points of damage, half with successful save. The caster then absorbs the life force healing up to 27 points.~
-@41   = ~Confusion (Enchantment/Charm)
+@41 = ~Confusion (Enchantment/Charm)
 Level: 7
 Sphere: Charm, Law
 Range: Visual range of the caster
@@ -238,10 +238,10 @@ Casting Time: 4
 Area of Effect: Up to 60-feet cube
 Saving Throw: Special
 
-This spell causes confusion in one or more creatures within the area, creating indecision and the inability to take effective action. All creatures within the area of affect are allowed saving throws vs. spell with - 2 penalties.  Those successfully saving are unaffected by the spell. The spell lasts for two rounds plus one round for each level of the caster.  Those who fail their saving throws will either go berserk, stand confused or wander about for the duration of the spell.
-Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.).  Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.~
-@43   = ~Aura of Protection~
-@44   = ~Aura of Protection (Conjuration/Summoning)
+This spell causes confusion in one or more creatures within the area, creating indecision and the inability to take effective action. All creatures within the area of affect are allowed saving throws vs. spell with - 2 penalties. Those successfully saving are unaffected by the spell. The spell lasts for two rounds plus one round for each level of the caster. Those who fail their saving throws will either go berserk, stand confused or wander about for the duration of the spell.
+Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.~
+@43 = ~Aura of Protection~
+@44 = ~Aura of Protection (Conjuration/Summoning)
 Level: 7
 Sphere: Protection
 Range: Party
@@ -251,8 +251,8 @@ Area of Effect: 30' radius
 Saving Throw: None
 
 The caster calls favor from his God upon his party. While Aura of Protection is in effect all party members are granted a base armor class of 0 for 1 turn.~
-@45   = ~Dark Ritual~
-@46   = ~Dark Ritual (Alteration)
+@45 = ~Dark Ritual~
+@46 = ~Dark Ritual (Alteration)
 Level: 7
 Sphere: Protection
 Range: Touch
@@ -262,8 +262,8 @@ Area of Effect: 1 creature
 Saving Thow: None
 
 This spell provides the protection of the dark deities. This evil spell provides 12 full hit points and armor class lowered by 4. Due to the evil nature of this spell strength is reduced by 1 for the duration.~
-@47   = ~Summon Sirine~
-@48   = ~Summon Sirine (Conjuration/Summoning)
+@47 = ~Summon Sirine~
+@48 = ~Summon Sirine (Conjuration/Summoning)
 Level: 7
 Sphere: Summoning
 Range: Visual range of caster
@@ -273,8 +273,8 @@ Area of Effect: Special
 Saving Throw: None
 
 Once cast, four Sirine's will rise from the Ethereal Plane to serve the Druid with their most aggressive demeanor.~
-@49   = ~Thunder Bolt~
-@50   = ~Thunder Bolt (Evocation)
+@49 = ~Thunder Bolt~
+@50 = ~Thunder Bolt (Evocation)
 Level: 7
 Sphere: Combat
 Range: 150 feet
@@ -284,7 +284,7 @@ Area of Effect: Special
 Saving Throw: 1/2
 
 This spell is similar to the Wizard level 3 spell Lighting Bolt but any creature hit by the bolt suffers 12d4 electrical damage with a saving throw for half.~
-@51   = ~Selune's Curse (Evocation)
+@51 = ~Selune's Curse (Evocation)
 Level: 7
 Sphere: Charm, Combat
 Range: Visual range of caster
@@ -295,8 +295,8 @@ Saving Throw: 1/2
 
 This powerful incantation calls down the wrath of Selune upon the cleric's enemies. The spell creates an explosion of cold blue flames that deal 6d10 damage to all creatures within the area of effect. A failed saving throw results in the victim suffering the full effects of the blast, while those who succeed manage to avoid the worst, only taking 1/2 damage.~
 
-@52   = ~Orb of Air~
-@53   = ~Orb of Air (Alteration)
+@52 = ~Orb of Air~
+@53 = ~Orb of Air (Alteration)
 Level: 1
 Range: 40 Feet
 Duration: 2 Rounds
@@ -306,8 +306,8 @@ Saving throw: Save vs. Spell
 
 This spell allows the mage to turn a target into a puff of smoke for a limited amount of time.~
 
-@54   = ~Thunderslap~
-@55   = ~Thunderslap (Conjuration/Summoning)
+@54 = ~Thunderslap~
+@55 = ~Thunderslap (Conjuration/Summoning)
 Level: 2
 Range: 0
 Duration: 3 Rounds
@@ -316,38 +316,38 @@ Area of Effect: The caster
 Saving Throw: special
 
 When the caster completes this spell, a green glow encompasses his hand. When the wizard makes a successful melee attack against a creature, that creature is Stunned for 3 rounds (save vs spells at -2) and takes 1D10 of electricity damage (no save).~
-@56   = ~Icebolt~
-@57   = ~Icebolt (Evocation)
-Level:  2
+@56 = ~Icebolt~
+@57 = ~Icebolt (Evocation)
+Level: 2
 Range: 10 yards
-Duration:  Instantaneous
-Casting Time:  2
-Area of Effect:  One creature
-Saving Throw:  None
+Duration: Instantaneous
+Casting Time: 2
+Area of Effect: One creature
+Saving Throw: None
 
-Upon uttering this dweomer a freezing ball of ice bursts from the caster's hands and streaks unerringly toward one target.  The Icebolt deals 2d10 damage with no saving throw allowed, however magic or cold resistance can negate its effects.~
-@58   = ~Minor Globe of Darkness~
-@59   = ~Minor Globe of Darkness (Alteration)
-Level:  2
+Upon uttering this dweomer a freezing ball of ice bursts from the caster's hands and streaks unerringly toward one target. The Icebolt deals 2d10 damage with no saving throw allowed, however magic or cold resistance can negate its effects.~
+@58 = ~Minor Globe of Darkness~
+@59 = ~Minor Globe of Darkness (Alteration)
+Level: 2
 Range: 10 yds
 Duration: 1 turn
 Area of Effect: 15-ft. radius
 Casting Time: 2 secs
 Saving Throw: None
 
-This spell causes total, impenetrable darkness in the area of effect. Infravision is useless.  Neither normal nor magical light works unless a "light" or "continual light" spell is used. In the former event, the Globe of Darkness spell is negated by the "light" spell, and vice versa.~
-@60   = ~Ray of Frost~
-@61   = ~Ray of Frost (Evocation)
+This spell causes total, impenetrable darkness in the area of effect. Infravision is useless. Neither normal nor magical light works unless a "light" or "continual light" spell is used. In the former event, the Globe of Darkness spell is negated by the "light" spell, and vice versa.~
+@60 = ~Ray of Frost~
+@61 = ~Ray of Frost (Evocation)
 Level: 3
-Range:  20 yards
-Duration:  Instantaneous
-Casting Time:  3
-Area of Effect:  1 creature
-Saving Throw:  Special
+Range: 20 yards
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Special
 
-Upon casting this spell a 2 foot by 60 foot jet of incredibly cold frost bursts from the caster's hands.  The Ray inflicts 5d6 points of damage and is so cold that the target creature must save vs. spell or be unable to move or fight at full capacity until it shakes off the chill.  Cold or magic resistance may negate these effects.~
-@62   = ~Army of One~
-@63   = ~Army of One (Illusion/Phantasm)
+Upon casting this spell a 2 foot by 60 foot jet of incredibly cold frost bursts from the caster's hands. The Ray inflicts 5d6 points of damage and is so cold that the target creature must save vs. spell or be unable to move or fight at full capacity until it shakes off the chill. Cold or magic resistance may negate these effects.~
+@62 = ~Army of One~
+@63 = ~Army of One (Illusion/Phantasm)
 Level: 3
 Range: 0
 Duration: 1 Turn
@@ -356,7 +356,7 @@ Area of Effect: Self
 Saving Throw: Neg.
 
 This spell causes the caster to seem to become an army unto himself: eight images of the caster are created, and the attributes Strength, Dexterity and Constitution are increased by 2.~
-@64   = ~Wraith Form (Alteration, Illusion)
+@64 = ~Wraith Form (Alteration, Illusion)
 Level: 3
 Range: 0
 Duration: 1 turn
@@ -364,19 +364,19 @@ Casting Time: 1
 Area of Effect: The caster
 Saving Throw: None
 
-When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons.  The wizard also gains a 25% magic resistance.  While in wraith form the caster is unable to cast spells.~
-@65   = ~Ettin's Healing~
-@66   = ~Ettin's Healing (Necromancy)
+When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. The wizard also gains a 25% magic resistance. While in wraith form the caster is unable to cast spells.~
+@65 = ~Ettin's Healing~
+@66 = ~Ettin's Healing (Necromancy)
 Level: 4
 Range: Caster
-Duration:  10 rounds
+Duration: 10 rounds
 Casting Time: 7
-Area of Effect:  Special
+Area of Effect: Special
 Saving Throw: None
 
 Ettin, a monk who lived during the Time of the Ancients, was also an adept herbalist who found many ways to heal the body. The caster gains regeneration (6 HP/round).~
-@67   = ~Ajandurah's Ice Shard~
-@68   = ~Ajandurah's Ice Shard (Conjuration/Summoning)
+@67 = ~Ajandurah's Ice Shard~
+@68 = ~Ajandurah's Ice Shard (Conjuration/Summoning)
 Level: 4
 Range: Visual range of caster
 Duration: 1 round
@@ -386,19 +386,19 @@ Saving Throw: special
 
 This spell summons a burning shard of magical ice that flies unerringly toward its target inflicting cold damage on that target as if 3 arrows had in actual fact struck. Each arrow deals 2D6 of cold damage, for a total of 6D6 (4D6 if a save vs spells is made).~
 
-@69   = ~Melf's Explosive Meteors~
-@70   = ~Melf's Explosive Meteors (Evocation)
+@69 = ~Melf's Explosive Meteors~
+@70 = ~Melf's Explosive Meteors (Evocation)
 Level: 5
-Range:  Caster only
-Duration:  1 minute
-Casting Time:  5
-Area of Effect:  Special
-Saving Throw:  Special
+Range: Caster only
+Duration: 1 minute
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: Special
 
-This evocation is the same as the third level mage spell Melf's Minute Meteors, except that the missiles created explode violently on impact.  All creatures within 20' of the point of impact will be showered with flaming shrapnel inflicting 2-12 points of damage.  A successful saving throw will allow the affected creature to avoid the worst effects, reducing the damage taken by half.~
+This evocation is the same as the third level mage spell Melf's Minute Meteors, except that the missiles created explode violently on impact. All creatures within 20' of the point of impact will be showered with flaming shrapnel inflicting 2-12 points of damage. A successful saving throw will allow the affected creature to avoid the worst effects, reducing the damage taken by half.~
 
-@71   = ~Geas~
-@72   = ~Geas (Enchantment/Charm)
+@71 = ~Geas~
+@72 = ~Geas (Enchantment/Charm)
 Level: 6
 Sphere: Creature
 Range: Visual range of the caster
@@ -408,19 +408,19 @@ Area of Effect: 1 single target
 Saving Throw: Save vs Spells
 
 This spell will effect any single creature cast upon. The targets include all known creatures upon the land. The person receives a Save vs. Spells roll to avoid the effect without adjustments of wisdom. If the saving throw fails, the target regards the caster as his/her new master. The caster may give the target orders, and the charmed character will carry them out as quickly as possible.~
-@73   = ~Anti-Magic Shell~
-@74   = ~Anti-Magic Shell (Abjuration)
+@73 = ~Anti-Magic Shell~
+@74 = ~Anti-Magic Shell (Abjuration)
 Level: 6
-Range:  Caster only
-Duration:  5 rounds
-Casting Time:  2
-Area of Effect:  Caster only
-Saving Throw:  None
+Range: Caster only
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: Caster only
+Saving Throw: None
 
-By means of this spell, the caster surrounds himself with a shimmering barrier that moves with him.  The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike.  Likewise it prevents any spellcasting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled.  Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier.  It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
+By means of this spell, the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spellcasting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
 
-@77   = ~Sphere of Dissipation~
-@78   = ~Sphere of Energy Dissipation (Abjuration)
+@77 = ~Sphere of Dissipation~
+@78 = ~Sphere of Energy Dissipation (Abjuration)
 Level: 7
 Range: 0
 Duration:180 seconds
@@ -429,8 +429,8 @@ Area of Effect: Self
 Saving Throw: None
 
 Otiluke derives great amusement from the fact that many mages use his resilient sphere spell when in fact it was merely a mistake test spell from the making of this spell his sphere of energy dissipation. A powerful spell for the adventuring arch mage it creates a powerful sphere of energy around the caster that absorbs the energy from all the attacks made against the caster rendering them harmless. Only the most potent of spells or magical weapons could hope to pierce this shield making it very useful when wandering the planes or backstreets of Toril.~
-@79   = ~Mass Charm~
-@80   = ~Mass Charm (Enchantment/Charm)
+@79 = ~Mass Charm~
+@80 = ~Mass Charm (Enchantment/Charm)
 Level: 7
 Range: Visual range of caster
 Duration: 5 rounds
@@ -439,8 +439,8 @@ Area of Effect: 20' radius sphere
 Saving Throw: None
 
 This spell affects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humans, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs. spells to negate the effects.~
-@81   = ~Fire Storm~
-@82   = ~Fire Storm (Invocation)
+@81 = ~Fire Storm~
+@82 = ~Fire Storm (Invocation)
 Level: 7
 Range: 80
 Duration: Instant
@@ -451,8 +451,8 @@ Saving Throw: vs breath (half damage)
 
 
 For the average Archmage a fireball is simply not enough. This spell from the time of Nethril fills this void. It requires a great deal of skill to cast and even then it is slightly unstable. The effects however are truly devastating. A initial spell is released that might appear to a fire ball however after its detonation there are many more explosions of equal or greater power consuming the battle field in a storm of fire.~
-@83   = ~Vestcakes Floating Curse~
-@84   = ~Vestcakes Floating Curse (Invocation)
+@83 = ~Vestcakes Floating Curse~
+@84 = ~Vestcakes Floating Curse (Invocation)
 Level: 7
 Target: Area
 Duration: 30 Seconds
@@ -460,8 +460,8 @@ Casting Time: 5
 Range: 150 feet
 
 This powerful curse creates a cloud of boiling gas that spreads around the battle ground. The cloud crackles with energy and small lightning bolts leap around in it. The cloud is so highly charged with electricity that any creature caught in the cloud will suffer continual detrimental effects as the energy discharges on to them over the clouds duration.~
-@85   = ~Infernal Combustion Enigma~
-@86   = ~Infernal Combustion Enigma (Invocation)
+@85 = ~Infernal Combustion Enigma~
+@86 = ~Infernal Combustion Enigma (Invocation)
 Level: 8
 Range: 50 feet
 Duration: Instantaneous
@@ -470,8 +470,8 @@ Area of Effect: 30-feet radius
 Saving Throw: 1/2
 
 The Infernal Combustion Enigma was the creation of the powerful yet insane ArchMage, better known as the Arch-Astronomer, in the time of Nethril. This mage had an addiction to fire and made this spell to accommodate to all of his needs (It is noted that this mage died shortly after completing the spell probably from its effects). Nearly all of modern fire spells are included in this cocktail of spells and as such this spell is capable incinerating many a noble adventurer. However, it is a unpredictable spell so it is considered a prime example of spells to be launched from afar.~
-@87   = ~Insanity~
-@88   = ~Insanity (Enchantment/Charm)
+@87 = ~Insanity~
+@88 = ~Insanity (Enchantment/Charm)
 Level: 8
 Range: 50 feet
 Duration: Permanent
@@ -480,8 +480,8 @@ Area of Effect: Single Target
 Saving Throw: vs spells (-4)
 
 This spell causes the Mage to send forth his will into the mind of his target completely destroying that mind in the process leaving the victim completely insane but still dangerous. The effect is permanent and the victim will walk around dazed or confused or run madly into battle with anyone close to him. The process by which this spell works is iffy at best so there is a 50 percent chance the spell will work.~
-@89   = ~Miasma~
-@90   = ~Miasma (Evocation)
+@89 = ~Miasma~
+@90 = ~Miasma (Evocation)
 Level: 8
 Range: 100 yards
 Duration: 30 seconds
@@ -490,7 +490,7 @@ Area of Effect: 40' wide, 20' high, 20' deep cloud
 Saving Throw: poison negates
 
 This powerful spell summons forth a acidic cloud of deadly vapors that envelop all around them. The acidity of the vapors increases throughout the duration of this spell so the damage done every 5 seconds increases up to a max of 7d 6. Anyone caught in the cloud even if they leave it are covered in the acid and continue to suffer the effects as if they were still in the cloud. This effect can however be dispelled if done fast enough.~
-@91   = ~Thunder Bolt (Evocation)
+@91 = ~Thunder Bolt (Evocation)
 Level: 8
 Range: 60 yards
 Duration: Instantaneous
@@ -499,29 +499,29 @@ Area of Effect: Special
 Saving Throw: none
 
 In some circles of Archmages it is considered rather pathetic to cast a lightning bolt like a weak little mage. So the thunder bolt was developed. While looking to all intensive purposes like a lightning bolt it is however charged a great deal more and capable of doing vast amounts of damage to anything it strikes, including its caster! The bolt will rebound back and forth until all its power is lost and there are few beings which can withstand a hit from this spell.~
-@92   = ~Varashar's Life Drain~
-@93   = ~Varashar's Life Drain (Necromancy)
-Level:  8
-Range:  30 feet
-Duration:  Instant
-Casting Time:   1
-Area of Effect:  Single Target
-Saving Throw:  None
+@92 = ~Varashar's Life Drain~
+@93 = ~Varashar's Life Drain (Necromancy)
+Level: 8
+Range: 30 feet
+Duration: Instant
+Casting Time: 1
+Area of Effect: Single Target
+Saving Throw: None
 
 The Mage King Varashar, according to rumor, used this spell to extend his life many times during his 120 year reign.
 The target suffers 25 HP damage, while the caster is healed for the same amount. There's no saving throw.~
-@94   = ~Arc of Death~
-@95   = ~Arc of Death (Necromancy)
+@94 = ~Arc of Death~
+@95 = ~Arc of Death (Necromancy)
 Level: 9
-Range:  50 feet
-Duraation:  Instant
+Range: 50 feet
+Duraation: Instant
 Casting Time: 8
 Area of Effect: 1 creature
 Damage:: 10D20 (piercing, no save) + 10D20 (electrical, save for none)
 
 By casting this spell, the wizard causes massive, but highly variable damage to a single target.~
-@96   = ~Azuth's Rune of Utter Negativity~
-@97   = ~Azuth's Rune of Utter Negativity (Invocation)
+@96 = ~Azuth's Rune of Utter Negativity~
+@97 = ~Azuth's Rune of Utter Negativity (Invocation)
 Level: 9
 Target: One Target
 Area of effect: One Creature
@@ -531,8 +531,8 @@ Casting time: 7
 Before perhaps the greatest mage of all time rose to godhood as Mystra's consort, he created this spell. A devastatingly powerful spell which can truly be called a deity kill spell for its power is unsurpassed in all the planes. The Archmage (for great power and skill is needed to cast this spell) stretches forth his hand and calls on the very powers of reality that hold the universe together. Huge bolts of energy spin in front of him and as he releases the spell a bolt of pure energy ripples down from the sky and destroys the spells target.
 
 No save, this spell will even overcome magic resistance.~
-@98   = ~Heal~
-@99   = ~Heal (Divination)
+@98 = ~Heal~
+@99 = ~Heal (Divination)
 Level: 9
 Range: 10 yards
 Duration: Permanent
@@ -551,8 +551,8 @@ When cast, this spell removes poison and will restore all hit points of the curr
 
 STATISTICS:
 
-Armor Class Bonus:  None
-Special:  Protects Against Critical Hits
+Armor Class Bonus: None
+Special: Protects Against Critical Hits
 Weight: 2
 
 Not Usable by:
@@ -567,9 +567,9 @@ Special:
   Protection against critical hits
   1 extra spell for level 1 and 2
   Charm Animal unless save vs. wands (1/day)
-Range:  40 ft
-Area:  1 animal
-Duration:  10 turns
+Range: 40 ft
+Area: 1 animal
+Duration: 10 turns
 Weight: 2
 
 Only usable by:
@@ -577,11 +577,11 @@ Only usable by:
 
 @1004 = ~Crown of the Shar'DuKha~
 @1005 = ~Crown of the Shar'DuKha 'The Wizard's Helm'
-This crown is from the Shar'DuKha, the Elemental Templers.  Crafted for users of magic it offers them protections they usually have to abandon in pursuit of their art.
+This crown is from the Shar'DuKha, the Elemental Templers. Crafted for users of magic it offers them protections they usually have to abandon in pursuit of their art.
 
 STATISTICS:
 
-Armor Class Bonus:  +1
+Armor Class Bonus: +1
 Special:
   Resists charm and panic
   +1 Saving Throws
@@ -595,7 +595,7 @@ Usable only By:
 
 @1006 = ~Hat~
 @1007 = ~Rogue's Hat~
-@1008 = ~The felt hat is a favorite of the bards, though they offer little in the way of protection they are decorative at times.  On rare occasions one is discovered that was enchanted with some magic.
+@1008 = ~The felt hat is a favorite of the bards, though they offer little in the way of protection they are decorative at times. On rare occasions one is discovered that was enchanted with some magic.
 
 Usable Only By:
  Bard
@@ -605,7 +605,7 @@ Usable Only By:
 
 STATISTICS:
 
-Armor Class Bonus:  None
+Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
   Protection from Fear effects
@@ -622,10 +622,10 @@ Usable Only By:
 
 STATISTICS:
 
-Armor Class Bonus:  None
+Armor Class Bonus: None
 Weight: 2~
 
-@1013 = ~Where most tiaras are ornamental items, this one is enchanted by the High Priests of the Chanah'Rea.  It is believed that the stone that graces its front is from Stone Hedge itself.
+@1013 = ~Where most tiaras are ornamental items, this one is enchanted by the High Priests of the Chanah'Rea. It is believed that the stone that graces its front is from Stone Hedge itself.
 
 STATISTICS:
 
@@ -645,11 +645,11 @@ Usable Only By:
 
 STATISTICS:
 
-Armor Class Bonus:  None
+Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
   Protects Against all forms of charms, panic and holds
-  +20% to Magic resistance
+  +5% to Magic resistance
 
 Weight: 2
 
@@ -657,7 +657,7 @@ Usable Only By:
  Ferthgil Trollslayer~
 
 @1018 = ~Ebon Helm~
-@1019 = ~Part of the standard equipment given to the soldiers of the cult of The Ebon Hand.  The helm allowed one of the Hand to perform their prescribed duties without external interference.
+@1019 = ~Part of the standard equipment given to the soldiers of the cult of The Ebon Hand. The helm allowed one of the Hand to perform their prescribed duties without external interference.
 
 STATISTICS:
 
@@ -680,7 +680,7 @@ Not usable by:
 
 STATISTICS:
 
-Armor Class Bonus:  None
+Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
   Protects Against Fear and Certain Mind Attacks
@@ -695,11 +695,11 @@ Not Usable By:
  Kensai~
 
 @1022 = ~Crystal Helm~
-@1023 = ~Crafted from magical crystals from a now abandoned Dwarven Mine.  The crystals have a natural resistance to heat and cold.
+@1023 = ~Crafted from magical crystals from a now abandoned Dwarven Mine. The crystals have a natural resistance to heat and cold.
 
 STATISTICS:
 
-Armor Class Bonus:  +1
+Armor Class Bonus: +1
 Special:
   Protects Against Critical Hits
   +10% Fire Resistance
@@ -715,11 +715,11 @@ Not Usable By:
  Kensai~
 
 @1024 = ~Skeezer Lumpkin's 'Dwarven' War Helmet~
-@1025 = ~Skeezer was given this helmet by his good friend, Gothmog Stonehearth, a dwarven skald of the Stonehearth clan. Skeezer and Gothmog became good friends after Skeezer had saved Gothmog's life one night. Gothmog was ambushed by a patrol of duergar, who made their way to the surface one moonless night to seek out prey. When Skeezer saw this, he thrust his staff onto the ground, causing the sky to become as bright as any brightly lit midday sky.  This of course sent the duergar running. From that day on, Gothmog and Skeezer became close friends, and Gothmog had even become interested in his Gnomish friends magical abilities, and perhaps in secret has tried out a few small spells, knowing of course that his clan would frown upon such activities.
+@1025 = ~Skeezer was given this helmet by his good friend, Gothmog Stonehearth, a dwarven skald of the Stonehearth clan. Skeezer and Gothmog became good friends after Skeezer had saved Gothmog's life one night. Gothmog was ambushed by a patrol of duergar, who made their way to the surface one moonless night to seek out prey. When Skeezer saw this, he thrust his staff onto the ground, causing the sky to become as bright as any brightly lit midday sky. This of course sent the duergar running. From that day on, Gothmog and Skeezer became close friends, and Gothmog had even become interested in his Gnomish friends magical abilities, and perhaps in secret has tried out a few small spells, knowing of course that his clan would frown upon such activities.
 
 STATISTICS:
 
-Armor Class Bonus:  None
+Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
   Protects Against all forms of panic and boosts morale
@@ -731,7 +731,7 @@ Usable Only By:
  Skeezer Lumpkin VI~
 
 @1026 = ~Helm of the Holy Guard~
-@1027 = ~Bold and ornamental this helm looks to be more of a show piece then a source of protection; looks however can be very deceiving.  Enchanted by the high priests of the Sukien, it provides the wearer with the strength of mind to resist all forms of temptation.
+@1027 = ~Bold and ornamental this helm looks to be more of a show piece then a source of protection; looks however can be very deceiving. Enchanted by the high priests of the Sukien, it provides the wearer with the strength of mind to resist all forms of temptation.
 
 STATISTICS:
 
@@ -761,33 +761,33 @@ Not Usable By:
  Thief~
 
 @1030 = ~Armor of Thorns~
-@1032 = ~Upon closer inspection, one discovers that the armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches.  The armor is a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
+@1032 = ~Upon closer inspection, one discovers that the armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches. The armor is a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
 
 STATISTICS:
 
-Armor Class:  5
-Saving Throws:  +1 bonus
-Weight:  4
+Armor Class: 5
+Saving Throws: +1 bonus
+Weight: 4
 
 Only Usable By:
  Druid (single, dual, & multi-class)~
 
 @1033 = ~Stormcloud 'Kraken's Bane'~
-@1034 = ~This leather was fashioned from the charred remains of a dragon struck down by lightning.  Last known to be worn by Shrethu Reogher, the warlock.  One must hope that he is dead, for if it were removed from him while he was still alive he is sure to come looking for it.
+@1034 = ~This leather was fashioned from the charred remains of a dragon struck down by lightning. Last known to be worn by Shrethu Reogher, the warlock. One must hope that he is dead, for if it were removed from him while he was still alive he is sure to come looking for it.
 
 STATISTICS:
 
-Armor Class:  3 (0 vs missiles)
-Saving Throws:  +1 bonus
+Armor Class: 3 (0 vs missiles)
+Saving Throws: +1 bonus
 Special: Resist Electricity +25%
-Weight:  4
+Weight: 4
 Requires: 6 Strength
 
 Only Usable By:
  Druid~
 
 @1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
-@1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer.  Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +4 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
+@1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +4 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
 
 STATISTICS:
 
@@ -811,7 +811,7 @@ Usable By:
  Conchobhair~
 
 @1041 = ~Crystal Plate Mail~
-@1042 = ~Forged from magical crystals mined from a now abandoned Dwarven mine.  The crystals have a natural resistance to fire and cold.
+@1042 = ~Forged from magical crystals mined from a now abandoned Dwarven mine. The crystals have a natural resistance to fire and cold.
 
 STATISTICS:
 
@@ -836,8 +836,8 @@ Not Usable By:
  Kensai
  Shapeshifter~
 
-@1044 = ~Full plate armor:  'Ebon Plate'~
-@1046 = ~Lord Scrakin, Chief General of the Ebon Hand, wore this piece of armor for nearly 50 years.  During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains.  How his armor moved to other lands without him is not certain, though the separation of the two was surely unusual.
+@1044 = ~Full plate armor: 'Ebon Plate'~
+@1046 = ~Lord Scrakin, Chief General of the Ebon Hand, wore this piece of armor for nearly 50 years. During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains. How his armor moved to other lands without him is not certain, though the separation of the two was surely unusual.
 
 STATISTICS:
 
@@ -864,7 +864,7 @@ Only Usable By:
  Thorfinn Hauskluniff~
 
 @1052 = ~Crusader's Armor~
-@1054 = ~The Splint Mail is the preferred armor of the crusader class warrior, also know as the paladin.  Often called religious zealots these warriors fight strongly with great faith in the laws that they boldly defend.
+@1054 = ~The Splint Mail is the preferred armor of the crusader class warrior, also know as the paladin. Often called religious zealots these warriors fight strongly with great faith in the laws that they boldly defend.
 
 STATISTICS:
 
@@ -902,7 +902,7 @@ Not Usable By:
  Shapeshifter~
 
 @1057 = ~Sukien Holy Armor~
-@1058 = ~Sukien Holy Armor, worn by the Holy Guard of the Sukien Temple, this mail possess great magic.  Boasting of never being defeated in battle, the Holy Guard are staunch zealots with a will to win that is believed by many to be a gift from the very heavens.  This trademark armor with its emblem proudly displayed on the chest is as brash and bold as its wearers.
+@1058 = ~Sukien Holy Armor, worn by the Holy Guard of the Sukien Temple, this mail possess great magic. Boasting of never being defeated in battle, the Holy Guard are staunch zealots with a will to win that is believed by many to be a gift from the very heavens. This trademark armor with its emblem proudly displayed on the chest is as brash and bold as its wearers.
 
 STATISTICS:
 
@@ -915,7 +915,7 @@ Usable Only By:
  Paladin~
 
 @1059 = ~Jet'laya's Chainmail~
-@1060 = ~This is Jet'laya's personal set of chainmail.  It was forged for her by her twin brother, Rennar.  Despite the unusual coloration, it appears to be a normal set of elven chainmail.
+@1060 = ~This is Jet'laya's personal set of chainmail. It was forged for her by her twin brother, Rennar. Despite the unusual coloration, it appears to be a normal set of elven chainmail.
 
 STATISTICS:
 
@@ -925,12 +925,12 @@ Weight: 15
 Usable Only By:
   Jet'laya~
 
-@1061 = ~Splint Mail Armor +2 - Korim's Skin~
+@1061 = ~Splint Mail Armor 'Korim's Skin'~
 @1062 = ~Forged by the Netherese sorcerer/ranger Korim, this green tinged splint mail is imbued with strong enchantments. The strange metal (a copper and uranium mix) is light and supple, yet nearly impervious to blows of any kind. The mail allowed Korim to use his abilities to their fullest. Moreover, the strange metal has proven to have an extraordinary side-effect - it heals the wearer.
 
 STATISTICS:
 
-Armor Class: 2
+Armor Class: 4
 Special:
   Regeneration 1HP every 2 rounds
   Mage Skills Unimpaired
@@ -954,7 +954,7 @@ Not usable by
 STATISTICS:
 
 Armor Class: 3
-Special:  +15% Hide in Shadows
+Special: +15% Hide in Shadows
 
 Weight: 8
 
@@ -974,7 +974,7 @@ Usable Only By:
 
 @1067 = ~Gnomish Workman's Leather~
 @1068 = ~Gnomish Workman's Leather +2~
-@1069 = ~Gnomish Workman's Leather armor is a variation of high-quality gnomish leather armor. Gnomish workman's leather is adorned with dozens of tiny tool holders and pouches,  typically filled with the most bizarre collection of coins, nails , tools, weapons, widgets and sprockets ever assembled on one body. For this reason, a set of gnomish workman's leather provides the protection identical to studded leather armor.
+@1069 = ~Gnomish Workman's Leather armor is a variation of high-quality gnomish leather armor. Gnomish workman's leather is adorned with dozens of tiny tool holders and pouches, typically filled with the most bizarre collection of coins, nails , tools, weapons, widgets and sprockets ever assembled on one body. For this reason, a set of gnomish workman's leather provides the protection identical to studded leather armor.
 
 STATISTICS:
 
@@ -1003,10 +1003,10 @@ Only Usable By:
 
 STATISTICS:
 
-Armor Class:  5
+Armor Class: 5
 Magic Resistance: +5%
-Saving Throws:  +1 bonus
-Weight:  6
+Saving Throws: +1 bonus
+Weight: 6
 
 Only Usable By:
  Skeezer Lumpkin VI~
@@ -1016,44 +1016,44 @@ Only Usable By:
 
 STATISTICS:
 
-Armor Class:  8
-Special:  1 Bonus Spell on level 1 and level 2
+Armor Class: 8
+Special: 1 Bonus Spell on level 1 and level 2
 
-Weight:  3
+Weight: 3
 
 Only Usable By:
  Mage (single, dual, & multi-class]
  Bard~
 
 @1077 = ~Robe of the Grand Wizard~
-@1078 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws.  Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
+@1078 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
 
 STATISTICS:
 
-Armor Class:  +2 Bonus
-Saving Throws:  +2 bonus
+Armor Class: +2 Bonus
+Saving Throws: +2 bonus
 Magic Resistance: +15%
-Weight:  6
+Weight: 6
 
 Only usable by:
-  Mage (single, dual, & multi-class)
-  Evil-aligned character~
+ Mage (single, dual, & multi-class)
+ Evil-aligned character~
 
 @1079 = ~Robe of Dh'arlo'me~
 @1080 = ~This powerful robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance. Due to the nature of its enchantment, it can only be removed by remove curse.
 
 STATISTICS:
 
-Armor Class:  3
-Magic Resistance: +25%
+Armor Class: 4
+Magic Resistance: +10%
 Special:
   Immune to 1st & 2nd level spells
   Immune to all non-magical weapons
   One extra 3rd and 4th level spell (arcane & divine)
   +1 to Intelligence and Wisdom
-  Increases spell casting speed by 2
+  Increases spell casting speed by 1
 
-Weight:  6
+Weight: 6
 
 Usable by:
  All~
@@ -1071,7 +1071,7 @@ Only Usable By:
  Mages (Single, Dual, and Multi-class)~
 
 @1083 = ~Drow Mage Robe~
-@1084 = ~High level drow mages wear a robe that provides a 75% chance of remaining undetected in shadows. The material used to make these robes does not cut easily and is fire resistant; giving the robe a +6 bonus to saving throws vs. fire. These robes can only be worn by those of elven size and build.  Because of the nature of drow cloth, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
+@1084 = ~High level drow mages wear a robe that provides a 75% chance of remaining undetected in shadows. The material used to make these robes does not cut easily and is fire resistant; giving the robe a +6 bonus to saving throws vs. fire. These robes can only be worn by those of elven size and build. Because of the nature of drow cloth, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
 
 STATISTICS:
 
@@ -1089,31 +1089,32 @@ Usable Only By:
  Evil Mage (Single, Dual, and Multi-classed)~
 
 @1085 = ~Robe of the Abyss~
-@1086 = ~A foul artifact indeed.  Woven from the fabric of the Abyss itself, these powerful robes offer protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its origin, it can only be worn by mages of evil alignment.
+@1086 = ~A foul artifact indeed. Woven from the fabric of the Abyss itself, these powerful robes offer protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its origin, it can only be worn by mages of evil alignment.
 
 STATISTICS:
 
-Armor Class:  +2 Bonus
-Magic Resistance: +20%
-Saving Throw:  +2 bonus
-Bonus Spells: +1(Lv 5-8)
-Special: Never Need Sleep
+Armor Class: +2 Bonus
+Magic Resistance: +10%
+Saving Throw: +2 bonus
+Bonus Spells: +1(Lv 5-7)
 
-Weight:  6
+Constitution: -30%
+
+Weight: 6
 
 Only Usable By:
-  Mage (single, dual, & multi-class)
-  Evil-aligned character~
+ Mage (single, dual, & multi-class)
+ Evil-aligned character~
 
 @1087 = ~Robe of the High Templar~
 @1088 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of good alignment.
 
 STATISTICS:
 
-Armor Class:  +1 Bonus
+Armor Class: +1 Bonus
 Magic Resistance: +10%
-Saving Throw:  +1 bonus
-Weight:  6
+Saving Throw: +1 bonus
+Weight: 6
 
 Only Usable By:
  Mage (single, dual, & multi-class)
@@ -1134,7 +1135,7 @@ Only Usable By:
  Neutral-aligned character~
 
 @1092 = ~Holy Belt~
-@1094 = ~Ornate and holy this belt bears the mark of the Sukien Holy Guard.  Long known to have the ability to attack with great fervor it was always believed to be a natural ability from within.  How clever of the guard to hide their secret for so long.
+@1094 = ~Ornate and holy this belt bears the mark of the Sukien Holy Guard. Long known to have the ability to attack with great fervor it was always believed to be a natural ability from within. How clever of the guard to hide their secret for so long.
 
 STATISTICS:
 
@@ -1142,38 +1143,38 @@ Armor Class Bonus:
   +3 vs. piercing and missile weapons
 Special: bonus 2nd level priest spell
 
-Weight:  2
+Weight: 2
 
 Usable Only By:
  Paladin~
 
 @1096 = ~Morridin's Cloak~
-@1098 = ~This cloak once belonging to the famous bard Morridin.  The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements".  The cloak, along with many other personal items of Morridin became a topic of discussion among many.
+@1098 = ~This cloak once belonging to the famous bard Morridin. The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements". The cloak, along with many other personal items of Morridin became a topic of discussion among many.
 
 STATISTICS:
 
-Armor Class:  +1 bonus
-Special:  +1 charisma
-Weight:  3
+Armor Class: +1 bonus
+Special: +1 charisma
+Weight: 3
 
 Usable Only By:
  Bard~
 
 @1099 = ~Faded Cloak~
-@1100 = ~This cloak was crafted by the now mad Lord Sorcerer Noober Harpell. Fond of the elven cloaks he saw during his travels, he made this as a similar replica. When worn, it fades the owner almost completely from sight, allowing moving about almost with impunity.  Inside the cloak is sewn 'Property of Noober, son of Noober'
+@1100 = ~This cloak was crafted by the now mad Lord Sorcerer Noober Harpell. Fond of the elven cloaks he saw during his travels, he made this as a similar replica. When worn, it fades the owner almost completely from sight, allowing moving about almost with impunity. Inside the cloak is sewn 'Property of Noober, son of Noober'
 
 STATISTICS:
 
 Special:
   Fades wearer 75% (similar to invisibility)
 
-Weight:  3
+Weight: 3
 
 Not Usable By:
  Wizardslayer~
 
 @1101 = ~Cloak of the Woods~
-@1102 = ~Stolen from the temple of Erreth-Akbe, the cloak was recovered by Archdruid Yarrow when he sought out his revenge against those who defaced his temple.  It was rumored that the cloak was given to his son Shephesh as a gift.
+@1102 = ~Stolen from the temple of Erreth-Akbe, the cloak was recovered by Archdruid Yarrow when he sought out his revenge against those who defaced his temple. It was rumored that the cloak was given to his son Shephesh as a gift.
 
 STATISTICS:
 
@@ -1183,28 +1184,28 @@ Special:
   Increased Stealth
   Non Detection
 
-Weight:  3
+Weight: 3
 
 Usable Only By:
  Ranger~
 
 @1103 = ~Mystra's Cloak~
-@1104 = ~Cloak of Protection:  'Mystra's Cloak'
-These cloaks are said to be given only to a chosen few of Mystra's most worthy priests.  Although, due to some of these priests 'untimely' demise, a few cloaks have been seen outside the ranks of this religious organization.  The cloak gives the wearer bonuses to physical and magical attacks as well as protection from undead attacks.
+@1104 = ~Cloak of Protection: 'Mystra's Cloak'
+These cloaks are said to be given only to a chosen few of Mystra's most worthy priests. Although, due to some of these priests 'untimely' demise, a few cloaks have been seen outside the ranks of this religious organization. The cloak gives the wearer bonuses to physical and magical attacks as well as protection from undead attacks.
 
 STATISTICS:
 
-Armor Class:  +2 bonus
+Armor Class: +2 bonus
 Saving Throw: +1 bonus
 Special: Negative Plane Protection
 
-Weight:  3
+Weight: 3
 
 Only Usable By
  Mage (Single, Dual, & Multiclass)~
 
 @1106 = ~Dragon Skin Bracers~
-@1108 = ~These bracers are made of dragon skin leather.   Similar items are made by druidic craftsmen on rare occasions such as the death of an old dragon of a dragon whelp.
+@1108 = ~These bracers are made of dragon skin leather. Similar items are made by druidic craftsmen on rare occasions such as the death of an old dragon of a dragon whelp.
 
 STATISTICS:
 
@@ -1216,12 +1217,12 @@ Not Usable By:
  Kensai~
 
 @1110 = ~Gauntlets of Dexterity~
-@1112 = ~Gauntlets of dexterity:  'The Brawling Hands'
-This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts.  Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy.
+@1112 = ~Gauntlets of dexterity: 'The Brawling Hands'
+This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy.
 
 STATISTICS:
 
-Special:  +2 Bonus to Dexterity
+Special: +2 Bonus to Dexterity
 
 Weight: 2
 
@@ -1229,7 +1230,7 @@ Not Usable By:
  Wizardslayer~
 
 @1113 = ~Otrad Atwah: 'Gloves of the Magi'~
-@1114 = ~Even the most powerful of sages can at times find themselves unprepared for a battle and without the magic to defeat an opponent.  It was for just these times that Sharga commissioned these gloves to be made.  They provide a practitioner of magic with a little extra help when the fight degenerates to direct combat.
+@1114 = ~Even the most powerful of sages can at times find themselves unprepared for a battle and without the magic to defeat an opponent. It was for just these times that Sharga commissioned these gloves to be made. They provide a practitioner of magic with a little extra help when the fight degenerates to direct combat.
 
 STATISTICS:
 
@@ -1246,7 +1247,7 @@ Usable Only By:
  Mage (Single Class Only)~
 
 @1115 = ~Gift of the Woods~
-@1116 = ~Throughout time druids and rangers have struggled to protect the wild from the ever encroaching civilization.  On occasion the dwellers of the wild do grant these zealots with favors to aid them in their endeavors to protect them.
+@1116 = ~Throughout time druids and rangers have struggled to protect the wild from the ever encroaching civilization. On occasion the dwellers of the wild do grant these zealots with favors to aid them in their endeavors to protect them.
 
 STATISTICS:
 
@@ -1261,7 +1262,7 @@ Usable Only By:
  Rangers~
 
 @1117 = ~Mage's Bracers~
-@1118 = ~The exact origin of these bracers in unknown.  Throughout history, there have been numerous rumors to its current whereabouts and its origins.   Dispute their age the enchantments placed upon these bracers is still very strong, unlike many artifacts of a similar age.
+@1118 = ~The exact origin of these bracers in unknown. Throughout history, there have been numerous rumors to its current whereabouts and its origins. Dispute their age the enchantments placed upon these bracers is still very strong, unlike many artifacts of a similar age.
 
 STATISTICS:
 
@@ -1270,32 +1271,32 @@ Armor Class Bonus: +1
 Special:
   Increase Spell Casting Speed by 1
 
-Weight:  2
+Weight: 2
 
 Only usable by:
  Mage
  Bard~
 
 @1119 = ~Gauntlets of the Faithful Warrior~
-@1120 = ~Throughout time, many deities have been know to grant boons to their followers in the way of blessed items.  Even though the exact origins of these gauntlets are unknown that must surely be the case with this particular set.
+@1120 = ~Throughout time, many deities have been know to grant boons to their followers in the way of blessed items. Even though the exact origins of these gauntlets are unknown that must surely be the case with this particular set.
 
 STATISTICS:
 
-THAC0:   +2 bonus
-Damage:  +2 bonus
+THAC0: +2 bonus
+Damage: +2 bonus
 Weight: 1
 
 Usable Only By:
  Cleric (single and multi-classed)~
 
-@1124 = ~This ring was given to the reef scavenger and hunter known only as Edventar, by a group of aquatic elves long his friends.  His help in routing the "Pirate Queen" of Dambrath was instrumental in their survival, though Yenandra continues to be feared anywhere the water meets land.
+@1124 = ~This ring was given to the reef scavenger and hunter known only as Edventar, by a group of aquatic elves long his friends. His help in routing the "Pirate Queen" of Dambrath was instrumental in their survival, though Yenandra continues to be feared anywhere the water meets land.
 
 STATISTICS:
 
-The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted.   This ring has been enchanted so that beneficial effects such as those received from the boots of speed still function while wearing the ring.~
+The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted. This ring has been enchanted so that beneficial effects such as those received from the boots of speed still function while wearing the ring.~
 
 @1125 = ~Ring of the Ancients~
-@1126 = ~Created by a race known as the Ancients.  Many of the abilities and uses of the relics that remain from that time are unknown to even the descendants of the Ancients.
+@1126 = ~Created by a race known as the Ancients. Many of the abilities and uses of the relics that remain from that time are unknown to even the descendants of the Ancients.
 
 STATISTICS:
 
@@ -1309,7 +1310,7 @@ Usable Only By:
 
 STATISTICS:
 
-Special:  adds one 1st and one 2nd level spells
+Special: adds one 1st and one 2nd level spells
 
 Usable By:
  Mage
@@ -1340,14 +1341,14 @@ STATISTICS:
 +1 to Luck
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1136 = ~Mystic Ring~
 @1137 = ~The exact origins of this ring are unknown, however, it is believed that this ring was in the possession of an older mage living in a small village and acting as their 'wise man' before he died.
 
 STATISTICS:
 
-Spells:  adds one 3rd and 4th level spell
+Spells: adds one 3rd and 4th level spell
 
 Usable By:
  Mage
@@ -1361,10 +1362,10 @@ STATISTICS:
 Special: Gives the wearer complete protection from non-magic missile weapons.
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1140 = ~Traveler’s Ring~
-@1141 = ~Personal ring of the famous bard Morridin.  It is missing a stone.  When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling."  His ring quickly became known as the Traveler’s ring.  Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
+@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Traveler’s ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
 
 STATISTICS:
 
@@ -1376,7 +1377,7 @@ Usable By:
 @1142 = ~Bard's Ring~
 @1143 = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago.
 
-It is set with a single stone of an unknown type that radiates a slight glow.  Though the ring is cold to the touch, the chill is strangely comforting.
+It is set with a single stone of an unknown type that radiates a slight glow. Though the ring is cold to the touch, the chill is strangely comforting.
 
 STATISTICS:
 
@@ -1391,8 +1392,8 @@ Usable Only By:
 
 STATISTICS:
 
-Armor Class:  +1 bonus
-Saving Throws:  +1 bonus
+Armor Class: +1 bonus
+Saving Throws: +1 bonus
 Special: Protection from Petrification (1/day)
 
 Usable Only by:
@@ -1400,7 +1401,7 @@ Usable Only by:
 
 @1146 = ~Ring of Fire Shielding~
 @1147 = ~Ring of Fire Shielding, "Charvirak's Glow"
-Since the dawn of time Warlocks have used the elements around them to both attack and defend.  This ring was the handiwork of a great warlock Charvirak of Corymer.  It is said that he stole the essence of a fire golem and trapped it within the ring.
+Since the dawn of time Warlocks have used the elements around them to both attack and defend. This ring was the handiwork of a great warlock Charvirak of Corymer. It is said that he stole the essence of a fire golem and trapped it within the ring.
 
 STATISTICS:
 
@@ -1416,7 +1417,7 @@ Only usable by:
 @1149 = ~This ring belonged to Jet'laya's mother.~
 
 @1151 = ~Davaeorn,
-My sources have told me that a small band of mercenaries, some of which may be members of the Harpers were in the area of the Friendly Arm Inn.  I sent Tarnesh to investigate and stop whoever it is, but I have not heard back from him.  I suggest you send Drasus and Genthore to the Friendly Arm Inn immediately.  Notify Tazok of the situation.
+My sources have told me that a small band of mercenaries, some of which may be members of the Harpers were in the area of the Friendly Arm Inn. I sent Tarnesh to investigate and stop whoever it is, but I have not heard back from him. I suggest you send Drasus and Genthore to the Friendly Arm Inn immediately. Notify Tazok of the situation.
 
 Reiltar~
 @1152 = ~Otho my friend,
@@ -1438,7 +1439,7 @@ Fare thee well,
  CúChoinneach agus Madadh n'Sgàil~
 @1155 = ~Letter to Thomic~
 @1156 = ~Thomic,
-You left the shopping list at home again.  Do not forget to bring these goods with you when you come home.
+You left the shopping list at home again. Do not forget to bring these goods with you when you come home.
 
 Bread
 Milk
@@ -1455,7 +1456,7 @@ Katerin~
 
 Return these vials to the phantoms to give them their freedom.~
 @1160 = ~Phylactery of Koroval Na'Krugen~
-@1161 = ~This vessel contains the life essence of the Dark One, formerly known as Koroval Na'Krugen.  Through a very evil ritual, he was able to transform himself into a very powerful undead being known as a lich. A Lich will spend their entire existence discovering more powerful magics that they were able to obtain in their mortal form. This is usually the reason that a mage chooses to take such a horrid form of existence.
+@1161 = ~This vessel contains the life essence of the Dark One, formerly known as Koroval Na'Krugen. Through a very evil ritual, he was able to transform himself into a very powerful undead being known as a lich. A Lich will spend their entire existence discovering more powerful magics that they were able to obtain in their mortal form. This is usually the reason that a mage chooses to take such a horrid form of existence.
 
 To destroy the Lich known as the Dark One, you must have possession of this Phylactery. This will prohibit the lich from resurrecting himself.~
 @1162 = ~Ancient Relic of Lathander~
@@ -1463,7 +1464,7 @@ To destroy the Lich known as the Dark One, you must have possession of this Phyl
 @1164 = ~Ancient Goblet~
 @1165 = ~Holy Goblet~
 @1166 = ~This goblet appears to be quite old.~
-@1167 = ~It is said that those who drink from this most holy goblet are truly blessed.  The engraving on the goblet reads: "Those who walketh in the Light are most surely blessed"
+@1167 = ~It is said that those who drink from this most holy goblet are truly blessed. The engraving on the goblet reads: "Those who walketh in the Light are most surely blessed"
 
 Special:
   Grants innate ability 'Disciple of Light'
@@ -1474,14 +1475,14 @@ Usable By:
 
 @1169 = ~Battle Cry~
 @1170 = ~This delicately crafted horn is decorated with reb ribbons and runic carvings.~
-@1171 = ~When Neshum Serret was leading his forces against the orcs he brought with him a young bard whom he gave a gift, a horn enchanted with great power.  At the start of each battle the bard would play Battle Cry, the strange and menacing sound it made struck fear into the hearts of many on the opposing side.
+@1171 = ~When Neshum Serret was leading his forces against the orcs he brought with him a young bard whom he gave a gift, a horn enchanted with great power. At the start of each battle the bard would play Battle Cry, the strange and menacing sound it made struck fear into the hearts of many on the opposing side.
 
 STATISTICS:
 
-Special:  Cause enemies to run in fear unless they save vs. spells (+2)
-Range:  100 ft
-Area:  20 ft radius
-Duration:  15 rounds
+Special: Cause enemies to run in fear unless they save vs. spells (+2)
+Range: 100 ft
+Area: 20 ft radius
+Duration: 15 rounds
 
 Usable Only By:
  Bard~
@@ -1490,14 +1491,14 @@ Usable Only By:
 
 @1174 = ~Lute~
 @1175 = ~Song of the Nyriad~
-@1176 = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold.  The craftsmanship appears exquisite, perfect, and almost inhuman.  So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords.  Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
-@1177 = ~The origins of this lute are not known, its creator however did seem to take that old adage "Music has charms..." to a new level.  When played by a skilled musician this instrument produces a sound that can leave the target audience totally beholding.
+@1176 = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold. The craftsmanship appears exquisite, perfect, and almost inhuman. So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords. Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
+@1177 = ~The origins of this lute are not known, its creator however did seem to take that old adage "Music has charms..." to a new level. When played by a skilled musician this instrument produces a sound that can leave the target audience totally beholding.
 
 STATISTICS:
 
-Special:  Dire Charm (10 rounds)
+Special: Dire Charm (10 rounds)
 Range: 30 ft
-Area:  1 creature
+Area: 1 creature
 
 Usable Only By:
  Bard~
@@ -1509,8 +1510,8 @@ Usable Only By:
 STATISTICS:
 
 The character gains 10000 experience points upon reading
-Special:  The book is consumed upon use
-Usage:  Place into quick item slot
+Special: The book is consumed upon use
+Usage: Place into quick item slot
 
 Usable by:
  Mage (Single Class Only)~
@@ -1519,11 +1520,11 @@ Usable by:
 @1242 = ~History of the Dark Side~
 @1243 = ~History of the Dark Side
 
-A long time ago a wise mage by the name Roach happened upon the young elf CúChoinneach.  Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey.  This journey descended into the mysteries that lie hidden in the Swordcoast.  Roach knew that there was much more here than met the eye.  With Roach's guidance and encouragement, CúChoinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way.  He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery.  Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening.  He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer.  But, CúChoinneach paid them no mind and continued the search.
+A long time ago a wise mage by the name Roach happened upon the young elf CúChoinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, CúChoinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, CúChoinneach paid them no mind and continued the search.
 
-During his journey, CúChoinneach met a range of unique individuals that, in thier own way, had contributed to Roach and CúChoinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name.  He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
+During his journey, CúChoinneach met a range of unique individuals that, in thier own way, had contributed to Roach and CúChoinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
 
-One of these individuals went simply by the name of Banelord.  He was able to show CúChoinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene.  Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
+One of these individuals went simply by the name of Banelord. He was able to show CúChoinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
 
 The list continues to grow as the journey continues...
 
@@ -1539,13 +1540,13 @@ All other NPC's were created by CúChoinneach
 Voice and Bio for Ferthgil Trollslayer provided by Gothmog of the Stonehearth Clan.
 Original Iconsfor some of the items were created by WoRm Website and Publicity by Ken Baker.
 
-None of this would not have been possible if it weren't for Ken Baker and the creation of TeamBG.  TeamBG allowed the coming together of minds and provided the ingredients necessary for a successful brew!
+None of this would not have been possible if it weren't for Ken Baker and the creation of TeamBG. TeamBG allowed the coming together of minds and provided the ingredients necessary for a successful brew!
 
 Finally a quick thank you to Gustov Montessie who has been a major contributor of editors and other programs that make it possible to create a number of the items and spells. And thanks to all the TeamBG Partners.
 
 Special thanks to Black Isle Studios, Bioware Corp., Interplay Productions, and all of the individuals who were involved in the creation of Baldur's Gate and Tales of the Sword Coast. Without any doubt the greatest CRPG ever created, and without which I would not have created DSotSC.
 
-My last thank you goes to you! The adventurer that who is reading this and was able to find it stashed in a bookcase somewhere in the Dark Side of the Sword Coast.  Now get out there and bust some heads ye "Greedy Goblins!"
+My last thank you goes to you! The adventurer that who is reading this and was able to find it stashed in a bookcase somewhere in the Dark Side of the Sword Coast. Now get out there and bust some heads ye "Greedy Goblins!"
 
 CúChoinneach~
 
@@ -1554,11 +1555,11 @@ CúChoinneach~
 
 @1247 = ~Heart of the Woods~
 
-@1249 = ~The carvings on the amulet speak of life and power from the mother goddess.  There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid’s temple.  Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience.  Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
+@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid’s temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
 
 STATISTICS:
 
-Special:  Gain 25% Protection from Acid
+Special: Gain 25% Protection from Acid
 
 Usable Only By:
  Neutral Alignment~
@@ -1569,7 +1570,7 @@ Usable Only By:
 Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.~
 
 @1254 = ~Holy Amulet of Sehanin Moonbow~
-@1255 = ~This is the holy amulet of followers of Sehanin Moonbow.  A moonbar crystal in the shape of small flat disk, (aprox 3 inches in diameter) worn around neck on a mithril chain.
+@1255 = ~This is the holy amulet of followers of Sehanin Moonbow. A moonbar crystal in the shape of small flat disk, (aprox 3 inches in diameter) worn around neck on a mithril chain.
 
 STATISTICS:
 
@@ -1586,35 +1587,35 @@ Usable by:
 @1256 = ~The true nature of this amulet is unknown. It seems to be of great power.~
 
 @1257 = ~Segoy Signet Amulet~
-@1258 = ~This amulet bares the trademark symbol of the Segoy, a ruthless band of assassins.  The evil seems almost to radiate from the amulet as you hold it in your hands.  This particular one is enchanted with magics providing a protective charm, although you can sense that there is a limit to its powers.
+@1258 = ~This amulet bares the trademark symbol of the Segoy, a ruthless band of assassins. The evil seems almost to radiate from the amulet as you hold it in your hands. This particular one is enchanted with magics providing a protective charm, although you can sense that there is a limit to its powers.
 
 STATISTICS:
 
-Special:  Gain 25% Protection from Fire
+Special: Gain 25% Protection from Fire
 
 Usable Only By:
  Evil Alignment~
 
 @1259 = ~Bluestone Necklace of Dexterity~
-@1260 = ~You are a very lucky adventurer indeed.  This Bluestone Necklace increases your Dexterity and gives you a +1 THAC0 bonus!  Just don't let it fall into the wrong hands.....
+@1260 = ~You are a very lucky adventurer indeed. This Bluestone Necklace increases your Dexterity and gives you a +1 THAC0 bonus! Just don't let it fall into the wrong hands.....
 
 Special:
   +1 Dexterity Bonus and +1 THAC0 while wearing
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1261 = ~Amulet of Faith~
-@1262 = ~There are many similar items throughout the realms, those that have a more symbolic purpose rather than a practical one.  Most commonly such items are used to express one's belief in a certain deity.
+@1262 = ~There are many similar items throughout the realms, those that have a more symbolic purpose rather than a practical one. Most commonly such items are used to express one's belief in a certain deity.
 
 STATISTICS:
 
-Armor Class Bonus:  1
+Armor Class Bonus: 1
 Save vs Death: +1
 Special: +1 first level priest spell
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1263 = ~Jules Antique Pearl Necklace~
 @1264 = ~Amulet of the Learned~
@@ -1622,7 +1623,7 @@ Not Usable By:
 
 STATISTICS:
 
-Spells:  bonus 3rd level spell
+Spells: bonus 3rd level spell
 
 Usable By:
  Mage
@@ -1636,10 +1637,10 @@ STATISTICS:
 Grants non-detection to its wearer
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1268 = ~Amulet of Great Foresight~
-@1269 = ~Amulet of Great Foresight  Known for its ability to enhance the vision of its wearer, the Amulet of Great Foresight  is highly sought after by leaders of great armies since they are able to see things from miles away and react to enemy strategies. Its origin and recent history are unknown.
+@1269 = ~Amulet of Great Foresight Known for its ability to enhance the vision of its wearer, the Amulet of Great Foresight is highly sought after by leaders of great armies since they are able to see things from miles away and react to enemy strategies. Its origin and recent history are unknown.
 
 STATISTICS:
 
@@ -1647,23 +1648,22 @@ Special:
   Provides the user with improved vision (Clairvoyance)
 
 Not Usable By:
-  Wizardslayer~
+ Wizardslayer~
 
 @1271 = ~Arrow of Dragon Slaying~
-@1273 = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger then itself.  It was made specifically to pierce the mighty armor-like scales to kill one type of creature and one type only.  In this case the ever feared dragon. This arrow will kill any minor dragon or wyvern outright, does extra damage larger dragons and wyrms and has a greater chance of slaying one of the greatest threats to elven forest, the Green or Forest Dragon.
+@1273 = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger then itself. It was made specifically to pierce the mighty armor-like scales to kill one type of creature and one type only. In this case the ever feared dragon. This arrow will kill any wyvern outright and does extra damage to dragons.
 
 STATISTICS:
 
-Damage:  1D6
-Damage type:  missile (piercing)
+Damage: 1D6
+Damage type: missile (piercing)
 
 Special:
   Slays Wyverns upon contact (save negates)
   +3 Damage/+3 To Hit all Dragons
-  10% chance to slay all Dragons
 
 Weight: 0
-Launcher:  Bow~
+Launcher: Bow~
 
 @1275 = ~Arrows 'Deth Stik'~
 @1277 = ~These arrows, are not of an exceptional quality and in fact are quite crude in thier construction. However they have been soak in a deadly toxin that makes the arrow especially dangerous to victim and wielder alike.
@@ -1672,30 +1672,30 @@ STATISTICS:
 
 15% Chance that wielder will stick self for 4 poison damage
 
-Damage:  1D6 (+6 poison save for half)
-Damage type:  missile (piercing)
-Weight:  0
-Launcher:  Bow~
+Damage: 1D6 (+6 poison save for half)
+Damage type: missile (piercing)
+Weight: 0
+Launcher: Bow~
 
 @1278 = ~Arrow of Striking~
 
-@1279 = ~This arrow is brilliant and blue with a bright gold tip.  It radiates with magic and is lighter and smaller then normal arrows.  It is the preferred arrow of the Holy Guard of the Sukien, who are rumored to possess a bow that can create them.
+@1279 = ~This arrow is brilliant and blue with a bright gold tip. It radiates with magic and is lighter and smaller then normal arrows. It is the preferred arrow of the Holy Guard of the Sukien, who are rumored to possess a bow that can create them.
 
 STATISTICS:
 
-Damage:  1D6 + 2, +2D3 magic damage
-Damage type:  missile (piercing)
+Damage: 1D6 + 2, +2D3 magic damage
+Damage type: missile (piercing)
 Weight: 0
-Launcher:  Bow~
+Launcher: Bow~
 
 @1281 = ~Bolt +1 of Dispelling~
-@1283 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+@1283 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size. However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
 
 STATISTICS:
 
 Damage: 1D8
 Special: dispel magic (save vs spells at +2)
-Damage type:  missile (piercing)
+Damage type: missile (piercing)
 Launcher: Crossbow~
 
 @1285 = ~Bullet of Detonation~
@@ -1703,11 +1703,11 @@ Launcher: Crossbow~
 
 STATISTICS:
 
-Damage:  1D4 + 1
+Damage: 1D4 + 1
 Special:
   6D6 explosion upon impact (save vs. spells for half)
-Damage type:  missile (piercing)
-Launcher:  sling~
+Damage type: missile (piercing)
+Launcher: sling~
 
 @1288 = ~Bullet of Holy Water~
 @1289 = ~This bullet not only embedded with magical currents so to be a little more balanced and lighter as it jumps towards an opponent, but it is also soaked in holy water, thus providing extra damage to undead creatures.
@@ -1715,7 +1715,7 @@ Launcher:  sling~
 STATISTICS:
 
 Damage: 1D4 + 2
-THAC0:  +1
+THAC0: +1
 Special:
   2D3 to undead creatures
 Damage type: missle (piercing)
@@ -1731,12 +1731,12 @@ Usable Only By:
  Ranger (Single Class Only)~
 
 @1295 = ~Boots of Valor~
-@1296 = ~Boots of Valor:  'Thunderfoot'
-The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks.  They plant the wearer’s feet firmly on the ground giving them the ability to withstand the blow.
+@1296 = ~Boots of Valor: 'Thunderfoot'
+The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearer’s feet firmly on the ground giving them the ability to withstand the blow.
 
 STATISTICS:
 
-Armor Class bonus:  +3 vs. blunt weapons
+Armor Class bonus: +3 vs. blunt weapons
 Weight: 18
 
 Not Usable By:
@@ -1746,12 +1746,12 @@ Not Usable By:
  Thief
  Wizardslayer~
 
-@1300 = ~This shield was commissioned from the finest dwarven smiths by Pellan of Tyr, a renowned paladin who was known for his unquestioning courage and total lack of common sense. Upon hearing that a red dragon was ravaging the countryside, Pellan mounted his horse and rode off to do battle. Pellan and his armor digested readily but the shield gave the dragon severe stomach cramps. He coughed it up and it lay in his treasure pile for several years until it was retrieved by Pellan's son, a paladin who knew when to sneak.  The superior craftsmanship is supplemented by a permanent lightness spell, which makes the shield very easy to wield.
+@1300 = ~This shield was commissioned from the finest dwarven smiths by Pellan of Tyr, a renowned paladin who was known for his unquestioning courage and total lack of common sense. Upon hearing that a red dragon was ravaging the countryside, Pellan mounted his horse and rode off to do battle. Pellan and his armor digested readily but the shield gave the dragon severe stomach cramps. He coughed it up and it lay in his treasure pile for several years until it was retrieved by Pellan's son, a paladin who knew when to sneak. The superior craftsmanship is supplemented by a permanent lightness spell, which makes the shield very easy to wield.
 
 STATISTICS:
 
 Armor Class Bonus: 3
-Special:  +1 vs. Missile Weapons
+Special: +1 vs. Missile Weapons
 Weight: 10
 Requires: 10 Strength
 
@@ -1769,7 +1769,7 @@ Not Usable By:
 STATISTICS:
 
 Armor Class Bonus: +4
-Special:  No Missile Weapon Protection
+Special: No Missile Weapon Protection
 
 Weight: 3
 
@@ -1777,7 +1777,7 @@ Only Usable By:
  CúChoinneach~
 
 @1305 = ~Small Shield +2~
-@1306 = ~This is the personal shield of Jet'laya.  The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water.  Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
+@1306 = ~This is the personal shield of Jet'laya. The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water. Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
 
 STATISTICS:
 
@@ -1792,7 +1792,7 @@ Usable Only By:
  Jet'laya~
 
 @1307 = ~Small Shield +2 'Sun Shield'~
-@1308 = ~This shield is warm to the touch as if a fire was burning deep within it.  The origins of the shield are unknown and much of its secrets remain just that.
+@1308 = ~This shield is warm to the touch as if a fire was burning deep within it. The origins of the shield are unknown and much of its secrets remain just that.
 
 STATISTICS:
 
@@ -1811,7 +1811,7 @@ Not Usable By:
  Monk
  Kensai~
 
-@1312 = ~A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward.
+@1312 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward.
 
 STATISTICS:
 
@@ -1828,7 +1828,7 @@ Not Usable By:
  Kensai~
 
 @1313 = ~Medium Shield +2 'Heart of the Dragon'~
-@1314 = ~A relatively unknown knight, Neshum was never to swift of the mind.  When traveling through the north he came upon a battle, before him were several warriors and a dragon.  Neshum decided that the battle was unfair, and took arms in defense of the dragon.  Neshum's aid was the turning point and the warriors were defeated.  Benderesk, the dragon, repaid the knight's aid by giving him a shield which he bestowed with the strength of a dragon's heart.  Benderesk retrieved his gift some years later when Neshum was hired by the same village as the warrior to rid them of this troublesome dragon.
+@1314 = ~A relatively unknown knight, Neshum was never to swift of the mind. When traveling through the north he came upon a battle, before him were several warriors and a dragon. Neshum decided that the battle was unfair, and took arms in defense of the dragon. Neshum's aid was the turning point and the warriors were defeated. Benderesk, the dragon, repaid the knight's aid by giving him a shield which he bestowed with the strength of a dragon's heart. Benderesk retrieved his gift some years later when Neshum was hired by the same village as the warrior to rid them of this troublesome dragon.
 
 STATISTICS:
 
@@ -1848,8 +1848,8 @@ Not Usable By:
  Kensai~
 
 @1315 = ~Large Shield +2, +7 vs. Missiles~
-@1317 = ~Large shield +2, +7 vs. missiles:  'The Wall'
-In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies.  Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught.  The smiths worked feverishly and produced a dozen of these shields.  They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
+@1317 = ~Large shield +2, +7 vs. missiles: 'The Wall'
+In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies. Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught. The smiths worked feverishly and produced a dozen of these shields. They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
 
 STATISTICS:
 
@@ -1871,14 +1871,14 @@ Not Usable By:
 STATISTICS:
 
 Damage: 2D5 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Special:
   +1 Dexterity
-Damage type:  Slashing
-Weight:  8
-Proficiency type:  Katana
-Speed Factor:  2
-Type:  1-handed
+Damage type: Slashing
+Weight: 8
+Proficiency type: Katana
+Speed Factor: 2
+Type: 1-handed
 Requires: 6 Strength
 
 Not Usable By:
@@ -1887,18 +1887,18 @@ Not Usable By:
  Mage
  Beast Master~
 
-@1326 = ~Katana +3,  'Muramasa'~
+@1326 = ~Katana +3, 'Muramasa'~
 @1328 = ~This is an excellent katana. However, some say it's "cursed", and others think this sword has its own mind, no doubt a dark brood thirsty mind.
 
 STATISTICS:
 
 Damage: 2D5 + 3
-THAC0:  +3 bonus
-Damage type:  Slashing
-Weight:  10
-Proficiency type:  Katana
-Speed Factor:  3
-Type:  1-handed
+THAC0: +3 bonus
+Damage type: Slashing
+Weight: 10
+Proficiency type: Katana
+Speed Factor: 3
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -1908,61 +1908,61 @@ Not Usable By:
  Beast Master~
 
 @1330 = ~Scimitar +1, 'Yarrow's Tears'~
-@1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence.  The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar.  The tears empowered his scimitar with his grief and longing for revenge.
+@1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence. The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar. The tears empowered his scimitar with his grief and longing for revenge.
 
 STATISTICS:
 
 Damage: 1D8 + 1
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Special:
   Cast Charm Person or Mammal 1/day (save at +2)
   20% Stun target unless save vs. spells
-Damage type:  slashing
+Damage type: slashing
 Weight: 3
 Speed Factor: 2
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 8 Strength
 
 Usable Only By:
  Druid~
 
 @1334 = ~Conchobhair's Dragonslayer~
-@1336 = ~This sword is imbued with a very strong enchantment and any attempts to see into the true nature of this sword is shielded by very strong magic.  It's origin and history is unknown.  The sword 'chooses' it handler, and thus will prevent any but the chosen to wield it.  Any attempt to control the weapon will find themselves subdued by it or worse.
+@1336 = ~This sword is imbued with a very strong enchantment and any attempts to see into the true nature of this sword is shielded by very strong magic. It's origin and history is unknown. The sword 'chooses' it handler, and thus will prevent any but the chosen to wield it. Any attempt to control the weapon will find themselves subdued by it or worse.
 
 STATISTICS:
 
 Damage: 1D10 + 4 (+3 vs All Dragons)
-THAC0:  +4 (+3 vs All Dragons)
+THAC0: +4 (+3 vs All Dragons)
 Special:
   Has a slight chance of slaying any dragon on contact
   20% Resistance to Fire and Acid
   +2 Bonus to Save vs. Breath Weapons
-Damage type:  slashing
+Damage type: slashing
 Weight: 15
 Speed Factor: 6
 Proficiency Type: Two Handed sword
-Type:  2-handed
+Type: 2-handed
 Requires: 14 Strength
 
 Usable Only By:
  Conchobhair~
 
 @1337 = ~Scimitar +1: 'The Jagged Lightning'~
-@1338 = ~The mithril blade of this scimitar is serrated so that it resembles a slightly curved lightning bolt. The scimitar was created in Calimshan in ancient times by a religious cult worshipping a thunder god. It was used by holy warriors of the cult on special, holy missions.  Electricity flows through the blade and small surges of energy cause little lightning bolts to flicker along its serrated edge. Some of the electric energy directed at its wielder will be absorbed by the scimitar. The magic of the scimitar also allows its wielder to strike first in any combat situation.
+@1338 = ~The mithril blade of this scimitar is serrated so that it resembles a slightly curved lightning bolt. The scimitar was created in Calimshan in ancient times by a religious cult worshipping a thunder god. It was used by holy warriors of the cult on special, holy missions. Electricity flows through the blade and small surges of energy cause little lightning bolts to flicker along its serrated edge. Some of the electric energy directed at its wielder will be absorbed by the scimitar. The magic of the scimitar also allows its wielder to strike first in any combat situation.
 
 STATISTICS:
 
-Damage:  1D8 + 1
-THAC0:  +1 bonus
+Damage: 1D8 + 1
+THAC0: +1 bonus
 Special:
   It grants 30% resistance to electricity
   Does +1d4 Lightning damage
 Damage type: Slashing
-Weight:  4
-Proficiency type:  Scimitar
-Speed Factor:  n/a
-Type:  1-handed
+Weight: 4
+Proficiency type: Scimitar/Wakizashi/Ninja-To
+Speed Factor: n/a
+Type: 1-handed
 Requires: 8 Strength
 
 Not usable by:
@@ -1975,16 +1975,16 @@ Not usable by:
 
 STATISTICS:
 
-Damage:  1D10 + 1
-THAC0:   +1 bonus
+Damage: 1D10 + 1
+THAC0: +1 bonus
 Special:
   bonus damage and THAC0 against undead
   Wielder may cast "Entangle" (1/day)
-Damage type:  Slashing
-Weight:  9
-Proficiency type:  Two Handed Sword
-Speed Factor:  6
-Type:  2-handed
+Damage type: Slashing
+Weight: 9
+Proficiency type: Two Handed Sword
+Speed Factor: 6
+Type: 2-handed
 Requires: 14 Strength
 
 Usable By:
@@ -1992,16 +1992,16 @@ Usable By:
 
 @1341 = ~Cutlass~
 @1342 = ~Cutlass +1: 'O-Tokne's Fang'~
-@1343 = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun.  The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
+@1343 = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
 STATISTICS:
 
-Damage:  3D3
-Damage type:  slashing
+Damage: 3D3
+Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2012,17 +2012,17 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target.  Its added grace gives new energy to the wielder enabling them to attack more often.
+@1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target. Its added grace gives new energy to the wielder enabling them to attack more often.
 
 STATISTICS:
 
-Damage:  3D3 + 1
-THAC0:  +1 bonus
-Damage type:  slashing
+Damage: 3D3 + 1
+THAC0: +1 bonus
+Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2034,17 +2034,17 @@ Not Usable By:
  Beast Master~
 
 @1345 = ~Cutlass +1 'Scorcher'~
-@1346 = ~Wrinkled and red this cutlass is cold to the touch; the runic carvings only say 'Scorcher'.  Its appearance has caused many an adventurer to mistaken it as worn-out, old, or useless.  Those more inquisitive adventurers who carried it along just to be sure were always pleasantly surprised.  You see scorcher does not get hot until swung, but once it is in motion heading for a target its name becomes clearly correct.
+@1346 = ~Wrinkled and red this cutlass is cold to the touch; the runic carvings only say 'Scorcher'. Its appearance has caused many an adventurer to mistaken it as worn-out, old, or useless. Those more inquisitive adventurers who carried it along just to be sure were always pleasantly surprised. You see scorcher does not get hot until swung, but once it is in motion heading for a target its name becomes clearly correct.
 
 STATISTICS:
 
-Damage:  3D3 + 1, +2D3 Fire Damage
-THAC0:  +1 bonus
-Damage type:  slashing
+Damage: 3D3 + 1, +2D3 Fire Damage
+THAC0: +1 bonus
+Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2055,18 +2055,18 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1347 = ~Cutlass +2  'Ghost Blade'~
-@1348 = ~Anytime a swordsman swings their blade they can see slight images of it tracing along behind.  This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut.  It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief.  Given how well this blades enchantment works he might have been better served to stay a mage.
+@1347 = ~Cutlass +2 'Ghost Blade'~
+@1348 = ~Anytime a swordsman swings their blade they can see slight images of it tracing along behind. This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut. It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief. Given how well this blades enchantment works he might have been better served to stay a mage.
 
 STATISTICS:
 
-Damage:  3D2 +2, +2D3 Slashing Damage
-THAC0:  +2 bonus
-Damage type:  slashing
+Damage: 3D2 +2, +2D3 Slashing Damage
+THAC0: +2 bonus
+Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2078,17 +2078,17 @@ Not Usable By:
  Beast Master~
 
 @1349 = ~Cutlass +1 'Sparks'~
-@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name.  The origins of it are not known, but stories of a strange land always accompany any recount of this blade.  The first known owner was a pirate just returned to port.  He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
+@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
 
 STATISTICS:
 
-Damage:  3D3 +1, +2D3 Electrical Damage
-THAC0:  +1 bonus
-Damage type:  slashing
+Damage: 3D3 +1, +2D3 Electrical Damage
+THAC0: +1 bonus
+Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2104,15 +2104,15 @@ Not Usable By:
 STATISTICS:
 
 Damage: 1D8 + 1
-THAC0:  +5 bonus
+THAC0: +5 bonus
 Special:
    Dexterity bonus +1
    AC bonus +1
-Damage type:  slashing
+Damage type: slashing
 Weight: 4
 Speed Factor: 2
 Proficiency Type: Long Sword
-Type:  1-handed
+Type: 1-handed
 Requires: 6 Strength
 
 Only Usable By:
@@ -2124,30 +2124,30 @@ Only Usable By:
 STATISTICS:
 
 Damage: 2D4 +1
-THAC0:  +1
-Special:  wielder is under effect of "Bless" spell
-Damage type:  slashing
+THAC0: +1
+Special: wielder is under effect of "Bless" spell
+Damage type: slashing
 Weight: 12
 Speed Factor: 5
 Proficiency Type: Bastard Sword
-Type:  1-handed
+Type: 1-handed
 Requires: 12 Strength
 
 Usable By:
  Paladin~
 
 @1359 = ~Sword of Evil's Bane~
-@1360 = ~A mythical sword in the elven inhabited province of Hyilia, this sword was said to have vanquished the evil wizard Ganondorf.  Legends say it was the sword that brought the tri-force back to the powers of good.
+@1360 = ~A mythical sword in the elven inhabited province of Hyilia, this sword was said to have vanquished the evil wizard Ganondorf. Legends say it was the sword that brought the tri-force back to the powers of good.
 
 STATISTICS:
 
 Damage: 1D10 +1
-THAC0:  +1
-Damage type:  slashing
+THAC0: +1
+Damage type: slashing
 Weight: 7
 Speed Factor: 10
 Proficiency Type: Long Sword
-Type:  1-handed
+Type: 1-handed
 Requires: 11 Strength
 
 Not Usable By:
@@ -2181,49 +2181,49 @@ Not Usable By:
 STATISTICS:
 
 Damage: 1D8 + 3
-THAC0:  +3
+THAC0: +3
 Special:
   Negative Plane Protection
-Damage type:  slashing
+Damage type: slashing
 Weight: 4
 Speed Factor: 3
-Proficiency Type: Scimitar
-Type:  1-handed
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
 
 Only Usable By:
-  CúChoinneach~
+ CúChoinneach~
 
 @1366 = ~Nemmerle's Revenge~
-@1368 = ~In a classic battle of good vs. evil the Archmage Nemmerle saw his defeat was inevitable and summoned what was left of his dark magic to enchant his staff and teleported it to his fledgling apprentice.  Only in the end did he realize what was needed to win the day, and lacking the strength to accomplish it himself, he saw to it that even in defeat he might grasp some small victory.  Gensher had enchanted his robes to withstand any crushing blows, evenly matched in magic he knew the battle would end in close combat and had outwitted the evil sage. The staff gives off a very faint aura of alteration magic.  Upon identification of the command word, the staff takes on the attributes of a halberd, which allows it to do slashing damage.
+@1368 = ~In a classic battle of good vs. evil the Archmage Nemmerle saw his defeat was inevitable and summoned what was left of his dark magic to enchant his staff and teleported it to his fledgling apprentice. Only in the end did he realize what was needed to win the day, and lacking the strength to accomplish it himself, he saw to it that even in defeat he might grasp some small victory. Gensher had enchanted his robes to withstand any crushing blows, evenly matched in magic he knew the battle would end in close combat and had outwitted the evil sage. The staff gives off a very faint aura of alteration magic. Upon identification of the command word, the staff takes on the attributes of a halberd, which allows it to do slashing damage.
 
 STATISTICS:
 
 Damage: 2D6 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Special: causes panic on hit (save +2)
 Weight: 4
 Speed Factor: 2
-Damage type:  Slashing
+Damage type: Slashing
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Not Usable By:
  Monk
  Good or Neutral Alignment~
 
 @1370 = ~Chaos Flail~
-@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon.  The magics and origin are unknown.  What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent’s life force before the wielders eyes.  This weapon also grafts itself to its new owner and can only be removed via a remove curse.  It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon!
+@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent’s life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon!
 
 STATISTICS:
 
 Damage: 1D6 + 2
-THAC0:  +1
+THAC0: +1
 Special: vampiric effect
-Damage type:  crushing
+Damage type: crushing
 Weight: 7
 Speed Factor: 3
 Proficiency Type: Flail
-Type:  1-handed
+Type: 1-handed
 Requires: 13 Strength
 
 Not Usable By:
@@ -2237,12 +2237,12 @@ Only Usable By:
  Evil alignment~
 
 @1373 = ~Justice~
-@1374 = ~Given to a High Priest during the time of the Ancients, Justice has been a paladin or cleric's most powerful weapon in the fight against evil.  Justice is as an ordinary flail to most, but when equipped by "one pure of heart" the entire weapon shines with a golden light.  It was believed that Justice's wielder was blessed of the gods.
+@1374 = ~Given to a High Priest during the time of the Ancients, Justice has been a paladin or cleric's most powerful weapon in the fight against evil. Justice is as an ordinary flail to most, but when equipped by "one pure of heart" the entire weapon shines with a golden light. It was believed that Justice's wielder was blessed of the gods.
 
 STATISTICS:
 
 Damage: 2d4 + 2
-THAC0:  +2
+THAC0: +2
 Special:
   +4 HP Bonus
   1 Bonus to all Saving Throws
@@ -2264,12 +2264,12 @@ Usable By:
 STATISTICS:
 
 Damage: 1D8 + 3 (+3 vs Giants, +2 vs all Monsters)
-THAC0:  +3 bonus (+3 vs Giants, +2 vs all Monsters)
-Damage type:  slashing
+THAC0: +3 bonus (+3 vs Giants, +2 vs all Monsters)
+Damage type: slashing
 Weight: 5
 Speed Factor: 5
 Proficiency Type: Axe
-Type:  1-handed
+Type: 1-handed
 
 Only Usable By:
  Ferthgil Trollslayer~
@@ -2280,12 +2280,12 @@ Only Usable By:
 STATISTICS:
 
 Damage: 1D8 + 2
-THAC0:  +2 bonus
-Damage type:  slashing
+THAC0: +2 bonus
+Damage type: slashing
 Weight: 7
 Speed Factor: 6
 Proficiency Type: Axe
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2302,19 +2302,19 @@ Not Usable By:
 STATISTICS:
 
 Damage: 2D4 + 2
-THAC0:  +1 bonus
-Damage type:  slashing
+THAC0: +1 bonus
+Damage type: slashing
 Weight: 5
 Speed Factor: 2
 Proficiency Type: Axe
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
  Druid
  Cleric
  Mage
- Thief ~
+ Thief~
 
 @1384 = ~Pole Axe~
 @1385 = ~Dwarven War Axe +2 'Screaming Death'~
@@ -2323,11 +2323,11 @@ Not Usable By:
 STATISTICS:
 
 Damage: 1D12
-Damage type:  slashing
+Damage type: slashing
 Weight: 20
 Speed Factor: 12
 Proficiency Type: Axe
-Type:  2-handed
+Type: 2-handed
 Requires: 13 Strength
 
 Not Usable By:
@@ -2338,37 +2338,37 @@ Not Usable By:
  Monk
  Beast Master~
 
-@1387 = ~This axe dates back to the clan wars, it was made by Thordar of The Vale for his son Kelvin to use in battle. Kelvin was never much of a warrior, and the axe was made to assist him in his weaknesses.  The name comes from the battle of Wyvern Falls, the first time Kelvin used it in battle.  Each time he struck down an opponent, Kelvin would scream in disbelief, hence the name 'Screaming Death.'
+@1387 = ~This axe dates back to the clan wars, it was made by Thordar of The Vale for his son Kelvin to use in battle. Kelvin was never much of a warrior, and the axe was made to assist him in his weaknesses. The name comes from the battle of Wyvern Falls, the first time Kelvin used it in battle. Each time he struck down an opponent, Kelvin would scream in disbelief, hence the name 'Screaming Death.'
 
 STATISTICS:
 
 Damage: 1D10 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Special:
   1D6 Backswing Damage (Save v. death for half damage)
   Armor Class +1 bonus
-Damage type:  slashing
+Damage type: slashing
 Weight: 20
 Speed Factor: 10
 Proficiency Type: Axe
-Type:  2-handed
+Type: 2-handed
 Requires: 15 Strength
 
 Usable Only By:
  Dwarfs (Fighter or Fighter-Thief)~
 
 @1388 = ~Battle Axe +2 'Skull Splitter'~
-@1389 = ~In the battle over Skull Pass, the necromancers brought out all of the zombies they could gather, even taking control of fallen warriors on the battlefield.  Farley Malistone, the high priest of the clan, used all of the magic and prayer he could muster up and enchanted the axe of the clans most reverent warrior with a gift to do greater damage against the undead.  In a cruel twist of fate Farley was slain on the battlefield, taken under control by the necromancers, and then slain again by the axe of his own creation.
+@1389 = ~In the battle over Skull Pass, the necromancers brought out all of the zombies they could gather, even taking control of fallen warriors on the battlefield. Farley Malistone, the high priest of the clan, used all of the magic and prayer he could muster up and enchanted the axe of the clans most reverent warrior with a gift to do greater damage against the undead. In a cruel twist of fate Farley was slain on the battlefield, taken under control by the necromancers, and then slain again by the axe of his own creation.
 
 STATISTICS:
 
 Damage: 1D8 (+3 vs. Undead)
-THAC0:  +2 vs. Undead
-Damage type:  slashing
+THAC0: +2 vs. Undead
+Damage type: slashing
 Weight: 5
 Speed Factor: 5
 Proficiency Type: Axe
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2379,18 +2379,18 @@ Not Usable By:
  Monk
  Beast Master~
 
-@1390 = ~Pole axe +2  'Kilther'~
+@1390 = ~Pole axe +2 'Kilther'~
 @1391 = ~Kilther was the general of "Silver Knights". When they were invaded by a Huge Orc Cavalry, all of his knights wanted to ride mounts into the orc hoards. But, Kilther banned this. He forced his men to walk on foot, equipped with bow, halberd or pole axe. He chose this particular one. When fighting began, the poles stopped the orcs advance. Showers of arrows were launched and the axes brought the Orcs mounts to a halt. The Orcs lost thousands while the Silver Knights lost only 19 men, including Kilther.
 
 STATISTICS:
 
-Damage:  1D12 + 2
-THAC0:  +2 bonus
-Damage type:  slashing
+Damage: 1D12 + 2
+THAC0: +2 bonus
+Damage type: slashing
 Weight: 10
 Speed Factor: 9
 Proficiency Type: Axe
-Type:  2-handed
+Type: 2-handed
 Requires: 12 Strength
 
 Not Usable By:
@@ -2406,7 +2406,7 @@ Not Usable By:
 
 STATISTICS:
 
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Damage: 1D6 +1 (ranged), 1D8 +1 (melee)
 Damage type(melee): slashing
 Damage type(thrown): missile (piercing)
@@ -2424,32 +2424,32 @@ Only Usable By:
  Warriors~
 
 @1396 = ~Staff of Life~
-@1398 = ~White and gold, pulsing with great power this staff was formed at the dawn of time by the first ray of the sun as it glistened off of a pure body of water.  Offering little in the way of offense, this staff does provide its wielder with powerful protections.
+@1398 = ~White and gold, pulsing with great power this staff was formed at the dawn of time by the first ray of the sun as it glistened off of a pure body of water. Offering little in the way of offense, this staff does provide its wielder with powerful protections.
 
 STATISTICS:
 
-Damage:  2D2 + 2
-THAC0:  +1
+Damage: 2D2 + 2
+THAC0: +1
 Special:
   Creates Potions of Extra Healing and Antidotes (5 charges)
   Protection from level 1 spells
-Damage type:  crushing
+Damage type: crushing
 Weight: 3
 Speed Factor: 6
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Only Usable By:
  Mage (single, dual, & multi-class)
  Good-aligned characters~
 
 @1399 = ~Staff of the Ancients~
-@1400 = ~Staff created by a race called the Ancients, who lived many centuries ago.  Few relics from that time period exist today and even the decendants of the Ancients know very little about the artifacts.
+@1400 = ~Staff created by a race called the Ancients, who lived many centuries ago. Few relics from that time period exist today and even the decendants of the Ancients know very little about the artifacts.
 
 STATISTICS:
 
 Damage: 2d4 + 3
-THAC0:  +3
+THAC0: +3
 Special: +1 AC
 Weight: 3
 Speed Factor: 1
@@ -2462,19 +2462,19 @@ Usable By:
  Cleric~
 
 @1401 = ~Ethric~
-@1402 = ~This staff grants immunity to non-magical weapons.   This is a powerful staff that has a very powerful evil enchantment. All of its properties are unknown.
+@1402 = ~This staff grants immunity to non-magical weapons. This is a powerful staff that has a very powerful evil enchantment. All of its properties are unknown.
 
 STATISTICS:
 
-Damage:  2D8 + 1
-THAC0:  +1
+Damage: 2D8 + 1
+THAC0: +1
 Special:
   Immunity to Non-Magical Weapons
-Damage type:  piercing
+Damage type: piercing
 Weight: 5
 Speed Factor: 8
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Only Usable By:
  Mage (single, dual, & multi-class)
@@ -2486,31 +2486,31 @@ Only Usable By:
 STATISTICS:
 
 Damage: 1D8 +2, additional 2D6 Electrical Damage (half if save vs. wands)
-THAC0:  +2
+THAC0: +2
 Special:
   casts "Lightning Bolt" (10 charges, 4D6 damage, with save for half)
-Damage type:  crushing
+Damage type: crushing
 Weight: 3
 Speed Factor: 2
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Usable Only By:
  Druids~
 
-@1407 = ~Quarter Staff +1  'Bonebreaker'~
-@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage.  His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff.  Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance.  In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master’s gift.  It has not been seen since.
+@1407 = ~Quarter Staff +1 'Bonebreaker'~
+@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master’s gift. It has not been seen since.
 
 STATISTICS:
 
 Damage: 1D6 + 1
-THAC0:  +1
+THAC0: +1
 Special: 20% Target is slowed unless save vs. spell at -4
-Damage type:  crushing
+Damage type: crushing
 Weight: 4
 Speed Factor: 3
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Not Usable By:
  Monk~
@@ -2522,16 +2522,16 @@ This staff has been used by a tribe of Druids for many centuries now. Passed dow
 STATISTICS:
 
 Damage: 2D3 + 1
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Special:
   +10 max Hitpoints
   Lore +20 bonus
   +2 1st level Priest spells
 Weight: 2
 Speed Factor: 2
-Damage type:  crushing
+Damage type: crushing
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Usable By:
  Druid Only~
@@ -2542,29 +2542,29 @@ Usable By:
 STATISTICS:
 
 Damage: 1D6 + 2
-THAC0:  +1
+THAC0: +1
 Special: Unknown
-Damage type:  crushing
+Damage type: crushing
 Weight: 4
 Speed Factor: 1
 Proficiency Type: Staff
-Type:  2-handed
+Type: 2-handed
 
 Usable Only By:
  Gnome Magic Users~
 
-@1414 = ~Tearlac Truehammer's  War Hammer 'Giant Feller'~
-@1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is made of very strong oak and is about 18 inches long.
+@1414 = ~Tearlac Truehammer's War Hammer 'Giant Feller'~
+@1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is made of very strong oak and is about 18 inches long.
 
 STATISTICS:
 
 Damage: 1D4 + 2 (+3 vs. giant humanoids)
-THAC0:  +1 Bonus (+3 vs. giant humanoids)
-Damage type:  crushing
+THAC0: +1 Bonus (+3 vs. giant humanoids)
+Damage type: crushing
 Weight: 8
 Speed Factor: 2
 Proficiency Type: War Hammer
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2575,12 +2575,12 @@ Not Usable By:
  Beast Master~
 
 @1417 = ~Mageton Hammer~
-@1418 = ~It is believed that this weapon was crafted by the smiths of ancient Myth Drannor.  It is also believed that it was enchanted by an extremely powerful cleric for the fight against evil.  The hammer is surprisingly easy top swing despite its immense weight.
+@1418 = ~It is believed that this weapon was crafted by the smiths of ancient Myth Drannor. It is also believed that it was enchanted by an extremely powerful cleric for the fight against evil. The hammer is surprisingly easy top swing despite its immense weight.
 
 STATISTICS:
 
 Damage: 2d6 + 1
-THAC0:  +1
+THAC0: +1
 Damage Type: Crushing
 Weight: 44
 Speed Factor: 2
@@ -2601,12 +2601,12 @@ Not Usable By
 STATISTICS:
 
 Damage: 1D6 + 1, +1d6 fire damage
-THAC0:  +1
-Damage type:  piercing
+THAC0: +1
+Damage type: piercing
 Weight: 3
 Speed Factor: 3
 Proficiency Type: Spear
-Type:  2-handed
+Type: 2-handed
 
 Not Usable By:
  Cleric
@@ -2616,17 +2616,17 @@ Not Usable By:
  Beast Master~
 
 @1423 = ~Spear +3: 'Dragon Scepter'~
-@1424 = ~Named so because of the dragons ornately carved into the shaft of the spear.  Its exact origins remain unknown.
+@1424 = ~Named so because of the dragons ornately carved into the shaft of the spear. Its exact origins remain unknown.
 
 STATISTICS:
 
 Damage: 1D6 + 3
-THAC0:  +3 bonus
-Damage type:  piercing
+THAC0: +3 bonus
+Damage type: piercing
 Weight: 5
 Speed Factor: 5
 Proficiency Type: Spear
-Type:  2-handed
+Type: 2-handed
 
 Not Usable By:
  Cleric
@@ -2636,17 +2636,17 @@ Not Usable By:
  Beast Master~
 
 @1426 = ~Otho Truehammer's Mace +1~
-@1428 = ~Otho has created this finely crafted mace for you. The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end.  In this case, the head is pyramidal and made of the finest Iron, as it sits atop a polished oak shaft.    Even though there is an iron shortage all smithys keep on hand a small amount of fine iron for "special" purposes.
+@1428 = ~Otho has created this finely crafted mace for you. The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end. In this case, the head is pyramidal and made of the finest Iron, as it sits atop a polished oak shaft. Even though there is an iron shortage all smithys keep on hand a small amount of fine iron for "special" purposes.
 
 STATISTICS:
 
 Damage: 1D6 + 2
-THAC0:  +1
-Damage type:  crushing
+THAC0: +1
+Damage type: crushing
 Weight: 8
 Speed Factor: 6
 Proficiency Type: Mace
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2662,12 +2662,12 @@ Not Usable By:
 STATISTICS:
 
 Damage: 1D6 + 2, +2 vs Undead
-THAC0:  +1, +2 vs Undead
-Damage type:  crushing
+THAC0: +1, +2 vs Undead
+Damage type: crushing
 Weight: 8
 Speed Factor: 6
 Proficiency Type: Mace
-Type:  1-handed
+Type: 1-handed
 Requires: 10 Strength
 
 Not Usable By:
@@ -2682,15 +2682,15 @@ Not Usable By:
 
 STATISTICS:
 
-Damage:  1D6 + 1, +2 vs Undead
-THAC0:  +1
+Damage: 1D6 + 1, +2 vs Undead
+THAC0: +1
 Special:
   Will destroy undead unless save
-Damage type:  crushing
+Damage type: crushing
 Weight: 8
 Speed Factor: 6
 Proficiency Type: Mace
-Type:  1-handed
+Type: 1-handed
 
 Not Usable By:
  Any Evil
@@ -2701,39 +2701,39 @@ Not Usable By:
  Beast Master~
 
 @1433 = ~Mace of Contrition~
-@1434 = ~This mace was crafted by a zealot named Parias.  With it he planned to "bring the heathens into the light."  However, he was so over zealous in his quest that he killed his wife and family for not "walking in the light."  After realizing what he had done, he buried the mace, confessed his sins, and starved himself weeping at his wife’s grave.  The mace was later found and named the Mace of Contrition since his sins had grieved Parias so.
+@1434 = ~This mace was crafted by a zealot named Parias. With it he planned to "bring the heathens into the light." However, he was so over zealous in his quest that he killed his wife and family for not "walking in the light." After realizing what he had done, he buried the mace, confessed his sins, and starved himself weeping at his wife’s grave. The mace was later found and named the Mace of Contrition since his sins had grieved Parias so.
 
 STATISTICS:
 
 Damage: 1D6 + 3
-THAC0:  +2
+THAC0: +2
 Special:
   Bonus Damage vs Undead
-Damage type:  crushing
+Damage type: crushing
 Weight: 7
 Speed Factor: 6
 Proficiency Type: Mace
-Type:  1-handed
+Type: 1-handed
 
 Usable Only By:
  Jet'laya~
 
 @1436 = ~Dagger +3: 'AdderSting'~
-@1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator.  The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin.  This jet black blade is split in the middle and ends in two razor sharp points.  In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches.  Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
+@1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator. The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin. This jet black blade is split in the middle and ends in two razor sharp points. In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches. Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
 
 STATISTICS:
 
-Damage (melee):   1d4 + 2 (plus 6 poison, save for half)
+Damage (melee): 1d4 + 2 (plus 6 poison, save for half)
 Damage (missile): 1d4 + 2 (plus 6 poison, save for half)
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Special:
   5% chance of nicking yourself (6 poison, no save)
   Returns when thrown
-Damage type:  piercing
+Damage type: piercing
 Weight: 2
 Speed Factor: 0
 Proficiency Type: Dagger
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Not Usable By:
@@ -2741,12 +2741,12 @@ Not Usable By:
  Beast Master~
 
 @1439 = ~Drow Adamantite Dagger +3~
-@1440 = ~Most drow carry daggers made of adamantite alloy. These daggers can have a +1 to +3 bonus. This particular one is coated with a powerful sleep poison.  Because of the nature of adamantite, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
+@1440 = ~Most drow carry daggers made of adamantite alloy. These daggers can have a +1 to +3 bonus. This particular one is coated with a powerful sleep poison. Because of the nature of adamantite, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
 
 STATISTICS:
 
 Damage: 1d4 + 3
-THAC0:  +3 bonus
+THAC0: +3 bonus
 Special:
   Poison, 10 damage in 10 seconds unless a successful save vs poison with a -4 penalty is made
   Renders the victim unconscious for 10 seconds (save without penalty)
@@ -2754,7 +2754,7 @@ Special:
 Weight: 1
 Speed Factor: 2
 Proficiency Type: Dagger
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Usable By:
@@ -2762,17 +2762,17 @@ Usable By:
  Evil Aligned~
 
 @1441 = ~D'Raavhen's Fang~
-@1442 = ~Vampiric dagger of Lorik D'Raavhen. The mere sight of this dark blade strikes a fear in you that is beyond description.  It pulses with such an aura of pure evil, your first, and only thought is to run until your body collapses from exhaustion.   Its blackened blade was apparently forged from the arcane substance of the Abyss, giving the weapon an appearance as dark and foreboding as its master.
+@1442 = ~Vampiric dagger of Lorik D'Raavhen. The mere sight of this dark blade strikes a fear in you that is beyond description. It pulses with such an aura of pure evil, your first, and only thought is to run until your body collapses from exhaustion. Its blackened blade was apparently forged from the arcane substance of the Abyss, giving the weapon an appearance as dark and foreboding as its master.
 
 STATISTICS:
 
 Damage: 1D4 + 5
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Special: Vampiric effect
 Weight: 1
 Speed Factor: 0
 Proficiency Type: Dagger
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Usable By:
@@ -2780,18 +2780,18 @@ Usable By:
  Evil Aligned~
 
 @1443 = ~Dagger "Nome Stikkah"~
-@1444 = ~Though kobolds do not normally wield poison daggers, it is evident that they have been given the means to make these.  The crudeness of the construction of this weapon however, does not lessen the deadliness of it. In fact it can be just as deadly to the wielder as it is to the victim.
+@1444 = ~Though kobolds do not normally wield poison daggers, it is evident that they have been given the means to make these. The crudeness of the construction of this weapon however, does not lessen the deadliness of it. In fact it can be just as deadly to the wielder as it is to the victim.
 
 STATISTICS:
 
-Damage:  1D4 (+6 poison, save for half)
+Damage: 1D4 (+6 poison, save for half)
 Special:
   15% chance of nicking yourself (4 poison, no save)
-Damage type:  Piercing
+Damage type: Piercing
 Weight: 2
 Speed Factor: 0
 Proficiency Type: Dagger
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Not Usable By:
@@ -2804,27 +2804,27 @@ Not Usable By:
 STATISTICS:
 
 Damage: +1 (missile)
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Special: 1 extra attack per round
 Weight: 5
 Speed Factor: 3
 Proficiency Type: Crossbow
-Type:  2-handed
+Type: 2-handed
 
 Usable Only By:
  Keiria Silverstring~
 
 @1449 = ~Shadow Crossbow~
-@1450 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller.  The bow is usually made of ash or yew.  The crossbow fires a quarrel (also called a bolt). This particular crossbow is used by thieves of the realms. But no place, like Calimport, city of intrigue! Beware the deadliness of these crossbows.
+@1450 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. The crossbow fires a quarrel (also called a bolt). This particular crossbow is used by thieves of the realms. But no place, like Calimport, city of intrigue! Beware the deadliness of these crossbows.
 
 STATISTICS:
 
 Damage: +1 (missile)
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Weight: 6
 Speed Factor: 2
 Proficiency Type: Crossbow
-Type:  2-handed
+Type: 2-handed
 Requires: 8 Strength
 
 Not Usable By:
@@ -2841,11 +2841,11 @@ Not Usable By:
 STATISTICS:
 
 Damage: +2
-THAC0:  +2
+THAC0: +2
 Weight: 2
 Speed Factor: 3
 Proficiency Type: Short Bow
-Type:  2-handed
+Type: 2-handed
 Requires: 3 Strength
 
 Not Usable By:
@@ -2858,12 +2858,12 @@ Not Usable By:
 STATISTICS:
 
 Damage: +1
-THAC0:  +2
+THAC0: +2
 Special: +1 Strength
 Weight: 2
 Speed Factor: 5
 Proficiency Type: Long Bow
-Type:  2-handed
+Type: 2-handed
 Requires: 6 Strength
 
 Not Usable By:
@@ -2876,44 +2876,44 @@ Not Usable By:
  Cavalier~
 
 @1459 = ~Holy Bow of the Sukien 'Saw Tooth'~
-@1460 = ~Saw Tooth, probably so named from its appearance, sporting an array of tooth like barbs along its outer length.  Only seen in the temple of the Sukien, this is the weapon of a Holy Guard.  Runic carvings indicate a command word that when activated creates a block of 5 Arrows of Striking.
+@1460 = ~Saw Tooth, probably so named from its appearance, sporting an array of tooth like barbs along its outer length. Only seen in the temple of the Sukien, this is the weapon of a Holy Guard. Runic carvings indicate a command word that when activated creates a block of 5 Arrows of Striking.
 
 STATISTICS:
 
 Damage: +3
-THAC0:  +2
+THAC0: +2
 Special: Create Arrows of Striking (1 arrow/day)
 Weight: 2
 Speed Factor: 5
 Proficiency Type: Long Bow
-Type:  2-handed
+Type: 2-handed
 Requires: 6 Strength
 
 Usable Only By:
  Paladin~
 
 @1462 = ~Ettin's Wand~
-@1464 = ~Ettin was monk from the time of the Ancients.  Aside from his priestly duties he was a very adept herbalist.  He discovered three magical herbs that when, combined have the effect of paralyzing the user for a short period of time.  There is also a small chance of being poisoned when using these herbs.  Ettin's knowledge was later discovered by a mage who found a way to deliver the herbs from a distance by coating magical spheres with the herbs.
+@1464 = ~Ettin was monk from the time of the Ancients. Aside from his priestly duties he was a very adept herbalist. He discovered three magical herbs that when, combined have the effect of paralyzing the user for a short period of time. There is also a small chance of being poisoned when using these herbs. Ettin's knowledge was later discovered by a mage who found a way to deliver the herbs from a distance by coating magical spheres with the herbs.
 
 STATISTICS:
 
 Usage: 10 charges
-Effect:  Stuns Target for 2 rounds (save vs wands at -4)
-Special:  30% chance to poison target (30 damage in 15 seconds)
-Range:  100 ft
-Area:  1 creature
+Effect: Stuns Target for 2 rounds (save vs wands at -4)
+Special: 30% chance to poison target (30 damage in 15 seconds)
+Range: 100 ft
+Area: 1 creature
 
 Usable By:
  Bard
  Mage~
 
 @1465 = ~Sapphire Wand~
-@1466 = ~Used by the Mage King Varashar while he was holding audience, or court.  He used the wand as a form of punishment after he had past judgment.  According to most stories he said "Your amount of guilt will determine your amount of pain."
+@1466 = ~Used by the Mage King Varashar while he was holding audience, or court. He used the wand as a form of punishment after he had past judgment. According to most stories he said "Your amount of guilt will determine your amount of pain."
 
 STATISTICS:
 
-Damage:  2d4
-Special:  Possibility of additional damage for the next 3 rounds.
+Damage: 2d4
+Special: Possibility of additional damage for the next 3 rounds.
 
 Usable By:
  Bard
@@ -2924,63 +2924,63 @@ Usable By:
 
 STATISTICS:
 
-Special:  Ball of Electrical Energy
-Damage:  6D6 (save vs wands for half)
+Special: Ball of Electrical Energy
+Damage: 6D6 (save vs wands for half)
 Range: 40 ft
-Area:  20 yards
+Area: 20 yards
 
 Usable By:
  Bard
  Mage~
 
 @1470 = ~Elgenon's Bramble - 'The Branch of Many Thorns'~
-@1472 = ~Crafted by nymphs for the keepers of the wood this bramble bush branch is enchanted with thorns that grow anew upon use.  Originally gifted to Elgenon the Wise, protector of the Tree of Wisdom, it has since been passed on to druids who have proven their worth as protectors of the wood.
+@1472 = ~Crafted by nymphs for the keepers of the wood this bramble bush branch is enchanted with thorns that grow anew upon use. Originally gifted to Elgenon the Wise, protector of the Tree of Wisdom, it has since been passed on to druids who have proven their worth as protectors of the wood.
 
 STATISTICS:
 
 Damage: 1D8 + 1
-THAC0:  +1
-Poison Damage:  1 point per round, up to a total of 5 damage (save negates)
+THAC0: +1
+Poison Damage: 1 point per round, up to a total of 5 damage (save negates)
 Special: can be thrown and returns to the hand of the wielder
  +1 attack
 Weight: 4
 Speed Factor: 1
 Proficiency Type: Club
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Usable Only By:
  Druid (Single, Dual, & Multiclass)~
 
 @1473 = ~Ass' Jawbone~
-@1474 = ~This appears to be nothing more than the jawbone of an animal, perhaps a donkey or mule.  In a pinch this could be used as a primitive club.....
+@1474 = ~This appears to be nothing more than the jawbone of an animal, perhaps a donkey or mule. In a pinch this could be used as a primitive club.....
 
 STATISTICS:
 
-Damage:  1D6
-Damage type:  crushing
+Damage: 1D6
+Damage type: crushing
 Weight: 3
 Speed Factor: 4
 Proficiency Type: Club
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Not Usable By:
  Mage~
 
-@1475 = ~This is the jawbone of a donkey that the Nazerite warrior/priest Samson used to kill 600 Philistines in one day.  A formidable weapon of humble origin.
+@1475 = ~This is the jawbone of a donkey that the Nazerite warrior/priest Samson used to kill 600 Philistines in one day. A formidable weapon of humble origin.
 
 STATISTICS:
 
 Damage: 1D6 + 2
-THAC0:  +2
+THAC0: +2
 Special:
-  +1 to AC
-Damage type:  crushing
+  Upon equipping weapon character's outline becomes blurred, giving a +1 AC bonus and a +1 bonus to all saving throws.
+Damage type: crushing
 Weight: 3
 Speed Factor: 2
 Proficiency Type: Club
-Type:  1-handed
+Type: 1-handed
 Requires: 3 Strength
 
 Not Usable By:
@@ -3030,7 +3030,7 @@ Ferthgil left the haven and seclusion of Stonehearth Keep and went on his way. F
 @2134 = ~Fey'doch~
 @2135 = ~Forest Dragon~
 
-@2138 = ~ Burn and die, puny fools!~ [BAZDR303]
+@2138 = ~Burn and die, puny fools!~ [BAZDR303]
 
 @2142 = ~Baby Forest Dragon~
 @2143 = ~Gillian Ghastkill~
@@ -3041,10 +3041,10 @@ Ferthgil left the haven and seclusion of Stonehearth Keep and went on his way. F
 @2151 = ~Goblin Chief~
 @2152 = ~Grog~
 @2153 = ~Gandolar Luckyfoot~
-@2154 = ~Well met, traveler.  Gandolar Luckyfoot, at your disposal.~ [GANDL01]
+@2154 = ~Well met, traveler. Gandolar Luckyfoot, at your disposal.~ [GANDL01]
 
 
-@2157 = ~Gullykin is our pride and joy.  Treat her well.~ [GANDL02]
+@2157 = ~Gullykin is our pride and joy. Treat her well.~ [GANDL02]
 @2158 = ~Halfling Fighter~
 @2159 = ~Halfling Thief~
 @2160 = ~Jabress Xaendrassa Auvryndar~
@@ -3377,7 +3377,7 @@ take up a profession as a hired adventurer. He traveled first to Baldur's Gate t
 @20713 = ~The air is quite... bracing here.~ [KEIRI13]
 @20714 = ~I fear that now we have entered, this place will not easily let us go.~ [KEIRI14]
 @20716 = ~It is difficult to separate shadow from the darkness here.~ [KEIRI16]
-@20717 = ~Prepare yourself.~  [KEIRI17]
+@20717 = ~Prepare yourself.~ [KEIRI17]
 @20718 = ~What is it?~ [KEIRI18]
 @20719 = ~It is good to be journeying again.~ [KEIRI19]
 @20720 = ~I'll be careful.~ [KEIRI20]

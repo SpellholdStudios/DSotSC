@@ -2,10 +2,10 @@
 //Spells
 ////////
 
-@1    = ~Schattenwolf~
-@2    = ~Schüler des Lichts~
-@3    = ~Leichte Wunden verursachen~
-@4    = ~Leichte Wunden verursachen (Nekromantie)
+@1 = ~Schattenwolf~
+@2 = ~Schüler des Lichts~
+@3 = ~Leichte Wunden verursachen~
+@4 = ~Leichte Wunden verursachen (Nekromantie)
 
 Grad: 1
 Reichweite: Berührung
@@ -15,8 +15,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Dieser Spruch ist das Gegenteil von "Leichte Wunden heilen". Das berührte Wesen verliert 1W8 Trefferpunkte, welche aber durch normale Heilung wiederhergestellt werden können.~
-@5    = ~Feuerbolzen~
-@6    = ~Feuerbolzen (Anrufung)
+@5 = ~Feuerbolzen~
+@6 = ~Feuerbolzen (Anrufung)
 
 Grad: 1
 Reichweite: Sichtweite
@@ -26,8 +26,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Speziell
 
 Der Anwender beschwört magisches Feuer und formt daraus ein kleines Projektil, welches auf das Ziel zufliegt und 1W3 Schadenspunkte durch Feuer verursacht. Gelingt ein Rettungswurf gegen Zauber gegen -2 nicht, so erleidet das Zielwesen weitere 1W3 Schadenspunkte.~
-@7    = ~Rüstung schmelzen~
-@8    = ~Rüstung schmelzen (Hervorrufung)
+@7 = ~Rüstung schmelzen~
+@8 = ~Rüstung schmelzen (Hervorrufung)
 
 Grad: 1
 Reichweite: Sichtweite
@@ -37,8 +37,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: 1/2
 
 Mit diesem Spruch kann der Anwender die Verteidigung seines Gegners senken. Das Ziel verliert 8 Punkte von seiner Rüstungsklasse, 4 bei erfolgreichem Rettungswurf gegen Zauber.~
-@9    = ~Mittelschwere Wunden heilen~
-@10   = ~Mittelschwere Wunden heilen (Nekromantie)
+@9 = ~Mittelschwere Wunden heilen~
+@10 = ~Mittelschwere Wunden heilen (Nekromantie)
 
 Grad: 2
 Reichweite: Berührung
@@ -48,8 +48,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Wenn der Priester für diesen Zauber einem Wesen seine Hände auflegt, heilt er bei dem Wesen 12 erlittene Schadenspunkte. Der Spruch wirkt nicht bei Untoten oder extraplanaren Kreaturen.~
-@12   = ~Funken~
-@13   = ~Funken (Hervorrufung)
+@12 = ~Funken~
+@13 = ~Funken (Hervorrufung)
 
 Grad: 2
 Reichweite: Sichtweite
@@ -59,8 +59,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: 1/2
 
 Der Anwender sammelt die elektrische Energie um sich herum und entlädt sie auf dem Zielwesen, was sich mit 4W6 elektrischem Schaden bemerkbar macht. Ein erfolgreicher Rettungswurf gegen Zauber mindert den Schaden um die Hälfte.~
-@14   = ~Schutzschild~
-@15   = ~Schutzschild (Hervorrufung)
+@14 = ~Schutzschild~
+@15 = ~Schutzschild (Hervorrufung)
 
 Grad: 2
 Reichweite: 0
@@ -70,8 +70,8 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Dieser Zauberspruch erschafft eine unsichtbare Schutzwand vor dem Anwender. Dadurch wird seine Rüstungsklasse gegen alle Waffen auf 3 gesetzt.~
-@17   = ~Schmerz~
-@18   = ~Schmerz (Verzauberung/Bezauberung)
+@17 = ~Schmerz~
+@18 = ~Schmerz (Verzauberung/Bezauberung)
 
 Grad: 3
 Reichweite: Sichtweite
@@ -81,8 +81,8 @@ Wirkungsbereich: 5 m Radius
 Rettungswurf: Nein
 
 Dieser Spruch verursacht unerträgliche Schmerzen bei den Zielwesen. Er verursacht zwar keinen Schaden, aber schafft das Ziel keinen Rettungswurf gegen Zauber, erleidet es für eine Phase einen Malus von -2 auf Geschicklichkeit und -4 auf alle Angriffswürfe. Kreaturen, die von Natur aus keinen Schmerz empfinden können, wie beispielsweise Untote, werden durch den Spruch nicht beeinflusst.~
-@19   = ~Rüstung der Finsternis~
-@20   = ~Rüstung der Finsternis (Beschwörung)
+@19 = ~Rüstung der Finsternis~
+@20 = ~Rüstung der Finsternis (Beschwörung)
 
 Grad: 3
 Reichweite: Berührung
@@ -92,7 +92,7 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Die dunkle Göttin Shar verlieh ihren Klerikern die Fähigkeit, einen mystischen dunklen Schleier um ein Zielwesen zu legen. Während das Ziel in diesen Schleier eingehüllt ist, verbessert sich seine Rüstungsklasse um 2 und Rettungswürfe gegen Zauber erfolgen mit einem +2 Bonus. Das Zielwesen erhält außerdem Infravision und ist vor Blindheit geschützt. Aufgrund der bösen Natur des Zaubers erleidet der Anwender 3 Schadenspunkte, wenn er den Zauber wirkt.~
-@21   = ~Steinhaut (Veränderung)
+@21 = ~Steinhaut (Veränderung)
 
 Grad: 3
 Reichweite: 0
@@ -102,8 +102,8 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Durch diesen Zauberspruch verwandelt sich der Anwender in eine Art lebende Statue. Seine Haut wird so hart wie Stein und ist durch normale Waffen nur sehr schwer zu beschädigen. Die Rüstungsklasse wird während der Wirkungsdauer auf 0 gesetzt und alle Rettungswürfe werden mit einem Bonus von +2 ausgeführt. Da die Haut nicht so flexibel wie normale Haut ist, erhält der Anwender einen Malus von -3 auf seine Geschicklichkeit.~
-@22   = ~Gift schleudern~
-@23   = ~Gift schleudern (Herbeirufung/Beschwörung)
+@22 = ~Gift schleudern~
+@23 = ~Gift schleudern (Herbeirufung/Beschwörung)
 
 Grad: 4
 Reichweite: 5 m
@@ -113,8 +113,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: 1/2
 
 Der Anwender beschwört magisches Gift und schleudert es auf ein Wesen, das einen Schaden von 4 Punkten pro Runde bis zu einem Gesamtschaden von 32 Punkten erleidet. Der Schaden kann durch einen erfolgreichen Rettungswurf gegen Tot halbiert werden.~
-@24   = ~Mielikkis Klinge~
-@25   = ~Mielikkis Klinge (Hervorrufung)
+@24 = ~Mielikkis Klinge~
+@25 = ~Mielikkis Klinge (Hervorrufung)
 
 Grad: 4
 Reichweite: Selbst
@@ -125,8 +125,8 @@ Wirkungsbereich: 1m Langschwert
 Rettungswurf: Nein
 
 Dieser Spruch ruft eine magische Waffe hervor, die symbolisch für die Göttin Mielikki steht: ein 90 cm langer Säbel aus einer kalten blauen Flamme. Die Klinge zählt als magische Waffe +4 und übt 1W8 Schaden aus. Außerdem muss jedem getroffenen Wesen ein Rettungswurf gelingen, oder es erhält zusätzlich noch 1W6 Kälteschaden. Die Klinge verleiht dem Träger für die Wirkungsdauer außerdem Resistenz gegen Feuer.~
-@26   = ~Klingen~
-@27   = ~Klingen (Veränderung)
+@26 = ~Klingen~
+@27 = ~Klingen (Veränderung)
 
 Grad: 5
 Reichweite: Sichtweite
@@ -136,7 +136,7 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: 1/2
 
 Der Druide beschwört einen Schwarm kleiner scharfer Klingen herauf, die sich gegen das Zielwesen richten und ihm 4W8 Schaden zufügen. Der Schaden kann durch einen erfolgreichen Rettungswurf halbiert werden.~
-@28   = ~Selunes Segen (Bannzauber)
+@28 = ~Selunes Segen (Bannzauber)
 
 Grad: 5
 Reichweite: 0
@@ -146,8 +146,8 @@ Wirkungsbereich: 1,5 m Radius
 Rettungswurf: Nein
 
 Dieser Zauber ruft die Macht der Göttin Selune herbei, die den Priester vor körperlichem oder magischem Schaden schützt. Der Anwender ist von einem schimmernden Feld umgeben, welches seine Rüstungsklasse um 4 Punkte verbessert. Außerdem schützt es ihn vor sämtlichen Zaubern des 1. bis 4. Grades. Ähnlich wie beim Spruch "Kugel der Unverwundbarkeit" kann sich der Magier frei bewegen.~
-@29   = ~Untote rufen~
-@30   = ~Untote rufen (Nekromantie)
+@29 = ~Untote rufen~
+@30 = ~Untote rufen (Nekromantie)
 
 Grad: 5
 Reichweite: 10 m
@@ -157,8 +157,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: Nein
 
 Nach dem Aussprechen dieses Zaubers erscheinen 3 bis 6 Ghule und 0 bis 2 Düsterschrecken als Hilfe. Die Kreaturen können einfache Kommandos verstehen und verschwinden nach 8 Stunden, wenn sie nicht vorher vernichtet oder gebannt werden.~
-@31   = ~Pflanzen-Transport~
-@32   = ~Pflanzen-Transport (Veränderung)
+@31 = ~Pflanzen-Transport~
+@32 = ~Pflanzen-Transport (Veränderung)
 
 Grad: 5
 Reichweite: Sichtweite
@@ -168,7 +168,7 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Durch Aussprechen dieses Zaubers kann sich der Anwender mit Hilfe einer lebenden Pflanze von einem Ort zum Anderen bewegen und so augenblicklich an einer anderen Stelle auftauchen.~
-@33   = ~Monster festhalten (Verzauberung/Bezauberung)
+@33 = ~Monster festhalten (Verzauberung/Bezauberung)
 
 Grad: 6
 Reichweite: Sichtweite
@@ -178,7 +178,7 @@ Wirkungsbereich: Würfel mit 16 m Seitenlänge
 Rettungswurf: Nein
 
 Dieser Zauber hält 1W4 Wesen für mindestens neun Runden an einer Stelle fest. Den Opfern steht ein Rettungswurf -2 gegen Zauber zu, um den Auswirkungen zu entgehen. Alle Feinde, die sich innerhalb von 15 m Entfernung um das Ziel aufhalten, werden ebenfalls festgehalten. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. Die festgehaltenen Wesen können sich weder bewegen noch sprechen. Sie bekommen durchaus mit, was rund um sie geschieht, und sie können alle Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Der Zustand eines festgehaltenen Wesens kann sich aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
-@34   = ~Tensers Umwandlung (Veränderung)
+@34 = ~Tensers Umwandlung (Veränderung)
 
 Grad: 6
 Reichweite: 0
@@ -188,7 +188,7 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Tensers Umwandlung sorgt für einen Anblick, der jedes Wesen, das den Zauber noch nie in Aktion gesehen hat, in Erstaunen versetzt. Der Anwender durchläuft nämlich eine erstaunliche Umwandlung. Seine Größe und Stärke nehmen heroische Ausmaße an, wodurch er zu einer richtigen Kampfmaschine wird. Die Trefferpunkte erhöhen sich um 20 und die Rüstungsklasse verbessert sich um -4 bis zu einem Maximum von -10. Alle Angriffe werden mit dem ETW0 eines Kriegers der gleichen Stufe ausgeführt. Außerdem erhält der Anwender +2 auf Trefferwürfe. Diese Auswirkungen halten an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
-@35   = ~Fleisch zu Stein (Veränderung)
+@35 = ~Fleisch zu Stein (Veränderung)
 
 Grad: 6
 Reichweite: Sichtweite
@@ -198,7 +198,7 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Das Ziel dieses Zaubers muss einen erfolgreichen Rettungswurf gegen Versteinerung durchführen oder es wird versteinert. Es werden auch alle Besitztümer des Zielwesens versteinert und können danach nicht mehr entfernt werden. Falls ein derartig versteinertes Wesen angegriffen wird, zersplittert es in kleine Einzelteile und kann nie mehr zum Leben erweckt werden. Die einzige Möglichkeit, ein versteinertes Wesen wieder ins Leben zurück zu holen, besteht darin, die umgekehrte Version dieses Zaubers einzusetzen.~
-@36   = ~Stein zu Fleisch (Veränderung)
+@36 = ~Stein zu Fleisch (Veränderung)
 
 Grad: 6
 Reichweite: Berührung
@@ -208,8 +208,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Der Zauber stellt die umgekehrte Version von "Fleisch zu Stein" dar und verwandelt ein versteinertes Wesen zurück in seine normale Gestalt. Alle Besitztümer des Wesens werden ebenfalls zurück verwandelt. Die Verwandlung geschieht augenblicklich. Es ist weder ein Rettungswurf, noch ein Wurf auf körperlichen Schock erforderlich.~
-@37   = ~Ranken~
-@38   = ~Ranken (Veränderung)
+@37 = ~Ranken~
+@38 = ~Ranken (Veränderung)
 
 Grad: 6
 Reichweite: Sichtweite
@@ -219,8 +219,8 @@ Wirkungsbereich: 4,5 x 4,5 m
 Rettungswurf: Speziell
 
 Der Anwender ruft die Kräfte der Erde an, welche dann Ranken wachsen lassen, die alle Wesen im Wirkungsbereich ergreifen und für 3 Runden würgen. Jedes betroffene Wesen wird verlangsamt und erleidet 4W5 Schaden. Ein Rettungswurf gegen -2 verhindert, dass der Schaden nach einer Runde erneut zugefügt wird.~
-@39   = ~Leben stehlen~
-@40   = ~Leben stehlen (Nekromantie)
+@39 = ~Leben stehlen~
+@40 = ~Leben stehlen (Nekromantie)
 
 Grad: 6
 Reichweite: Sichtweite
@@ -230,7 +230,7 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Der Anwender betet für göttlichen Segen und versucht, dem Zielwesen die Lebensenergie zu entziehen. Das Zielwesen erleidet 6W5 Schadenspunkte, die Hälfte bei erfolgreichem Rettungswurf. Der Anwender absorbiert die Lebensenergie und erhält so bis zu 27 Trefferpunkte zurück.~
-@41   = ~Verwirrung (Verzauberung/Bezauberung)
+@41 = ~Verwirrung (Verzauberung/Bezauberung)
 
 Grad: 7
 Reichweite: Sichtweite
@@ -240,8 +240,8 @@ Wirkungsbereich: bis zu 20 x 20 m
 Rettungswurf: Speziell
 
 Dieser Zauber führt bei einem oder mehreren Wesen im Wirkungsbereich zu Verwirrung. Sie werden unschlüssig und können nicht mehr effektiv agieren. Alle Wesen im Wirkungsbereich erhalten einen Rettungswurf -2 gegen Zauber, um den Auswirkungen des Zaubers zu entgehen. Ein verwirrtes Wesen, das angegriffen wird, sieht in dem Angreifer einen Feind und handelt gemäß seinen Instinkten, um sich zu verteidigen.~
-@43   = ~Schutzaura~
-@44   = ~Schutzaura (Herbeirufung/Beschwörung)
+@43 = ~Schutzaura~
+@44 = ~Schutzaura (Herbeirufung/Beschwörung)
 
 Grad: 7
 Reichweite: Gruppe
@@ -251,8 +251,8 @@ Wirkungsbereich: 10 m Radius
 Rettungswurf: Nein
 
 Der Beschwörer bittet bei seinem Gott um Hilfe für seine Kameraden. Während die Schutzaura wirkt, erhalten alle Gruppenmitglieder eine Basis-Rüstungsklasse von 1.~
-@45   = ~Dunkles Ritual~
-@46   = ~Dunkles Ritual (Veränderung)
+@45 = ~Dunkles Ritual~
+@46 = ~Dunkles Ritual (Veränderung)
 
 Grad: 9
 Reichweite: Berührung
@@ -262,8 +262,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Dieser Spruch sorgt für den Schutz durch dunkle Mächte. Der Anwender erhält zusätzlich 12 Trefferpunkte und seine Rüstungsklasse verbessert sich um 4 Punkte. Aufgrund der bösen Natur des Zaubers reduziert sich die Stärke um 1 (nur für die Wirkungsdauer).~
-@47   = ~Sirenen beschwören~
-@48   = ~Sirenen beschwören (Herbeirufung/Beschwörung)
+@47 = ~Sirenen beschwören~
+@48 = ~Sirenen beschwören (Herbeirufung/Beschwörung)
 
 Grad: 9
 Reichweite: Sichtweite
@@ -273,8 +273,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: Nein
 
 Nachdem dieser Zauber ausgesprochen wurde erscheinen 4 Sirenen aus der himmlischen Sphäre, um dem Anwender zu dienen. Sie werden alle Gegner, die sich in Sichtweite befinden, angreifen und versuchen zu töten.~
-@49   = ~Donnerbolzen~
-@50   = ~Donnerbolzen (Hervorrufung)
+@49 = ~Donnerbolzen~
+@50 = ~Donnerbolzen (Hervorrufung)
 
 Grad: 7
 Reichweite: 50 m
@@ -284,7 +284,7 @@ Wirkungsbereich: Speziell
 Rettungswurf: 1/2
 
 In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
-@51   = ~Selunes Fluch (Hervorrufung)
+@51 = ~Selunes Fluch (Hervorrufung)
 
 Grad: 7
 Reichweite: Sichtweite
@@ -294,8 +294,8 @@ Wirkungsbereich: 20 m Radius
 Rettungswurf: 1/2
 
 Dieser mächtige Spruch lässt den Zorn der Göttin Selune über alle Feinde im Wirkungsbereich kommen. Es entsteht eine Explosion bestehend aus kalten blauen Flammen, welche dem Gegner 6W10 Schadenspunkte zufügen. Ein gescheiterter Rettungswurf resultiert in dem Ergebnis, dass der Gegner die volle Wucht der Detonation abbekommt, während ein erfolgreicher Rettungswurf den Schaden um die Hälfte reduziert.~
-@52   = ~Luftorb~
-@53   = ~Luftorb (Veränderung)
+@52 = ~Luftorb~
+@53 = ~Luftorb (Veränderung)
 
 Grad: 1
 Reichweite: 13 m
@@ -305,8 +305,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: Gegen Zauber
 
 Mit diesem Spruch kann der Magier ein Zielwesen für begrenzte Zeit in eine Rauchwolke verwandeln. Dem Ziel steht ein Rettungswurf gegen Zauber zu, um der Auswirkung zu entgehen.~
-@54   = ~Donnerschlag~
-@55   = ~Donnerschlag (Herbeirufung/Beschwörung)
+@54 = ~Donnerschlag~
+@55 = ~Donnerschlag (Herbeirufung/Beschwörung)
 
 Grad: 2
 Reichweite: Berührung
@@ -316,8 +316,8 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Dieser Zauber ist ein wenig effektiver als der Schockgriff des 1. Grades. Wenn der Anwender eine erfolgreiche Nahkampfattacke ausführt, wird das Opfer für 1 Runde betäubt und erleidet zusätzlich 2W6 Schadenspunkte.~
-@56   = ~Eisbolzen~
-@57   = ~Eisbolzen (Hervorrufung)
+@56 = ~Eisbolzen~
+@57 = ~Eisbolzen (Hervorrufung)
 
 Grad: 2
 Reichweite: 10 m
@@ -327,8 +327,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Nach dem Ausspruch dieses Zaubers stößt eine Eiskugel aus den Händen des Magiers hervor und fliegt auf das Ziel zu. Dieser Eisbolzen verursacht 2W10 Schadenspunkte und erlaubt keine Rettungswürfe. Allerdings kann der Schaden durch Resistenz gegen Kälte oder Magie vermindert werden.~
-@58   = ~Kleine Kugel der Dunkelheit~
-@59   = ~Kleine Kugel der Dunkelheit (Veränderung)
+@58 = ~Kleine Kugel der Dunkelheit~
+@59 = ~Kleine Kugel der Dunkelheit (Veränderung)
 
 Grad: 2
 Reichweite: 10 m
@@ -338,8 +338,8 @@ Wirkungsbereich: 5 m Radius
 Rettungswurf: Nein
 
 Dieser Spruch verursacht totale, undurchdringliche Dunkelheit im Wirkungsbereich, in der selbst Infravision nutzlos ist. Weder normale noch magische Lichter funktionieren. Die Wirkung kann nur durch einen "Licht"-Spruch aufgehoben werden.~
-@60   = ~Froststrahl~
-@61   = ~Froststrahl (Hervorrufung)
+@60 = ~Froststrahl~
+@61 = ~Froststrahl (Hervorrufung)
 
 Grad: 3
 Reichweite: 20 m
@@ -349,8 +349,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Speziell
 
 Durch diesen Spruch ruft der Anwender einen 60 cm breiten und 20 m langen Froststrahl hervor, der aus seinen Händen schießt. Der Strahl verursacht 5W6 Schadenspunkte und ist so kalt, dass dem Zielwesen ein Rettungswurf gegen Zauber gelingen muss, oder es wird unfähig mit voller Kapazität weiterzukämpfen. Resistenz gegen Kälte oder Magie kann dem Effekt entgegen wirken.~
-@62   = ~Vereinte Armee~
-@63   = ~Vereinte Armee (Illusion/Hirngespinst)
+@62 = ~Vereinte Armee~
+@63 = ~Vereinte Armee (Illusion/Hirngespinst)
 
 Grad: 3
 Reichweite: Berührung
@@ -360,7 +360,7 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Mit diesem Zauberspruch kann der Anwender die Stärke einer Armee in einer Person vereinen. Stärke, Konstitution und Geschicklichkeit des Empfängers werden um jeweils 2 Punkte erhöht.~
-@64   = ~Gespensterform (Veränderung, Illusion)
+@64 = ~Gespensterform (Veränderung, Illusion)
 
 Grad: 3
 Reichweite: 0
@@ -370,8 +370,8 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Durch diesen Zauber verliert der Magier mitsamt seiner Ausrüstung jede feste Konsistenz. Er kann nur durch magische oder besondere Angriffe getroffen werden, einschließlich durch Waffen mit +1 oder besser, sowie Wesen, die in der Lage sind Geschöpfe zu verletzen, die sonst nur von magischen Waffen getroffen werden können. Der Magier erlangt ferner eine magische Widerstandskraft von 25%. Während er sich in Gespensterform befindet, kann er keine weiteren Zauber aussprechen.~
-@65   = ~Ettins Heilung~
-@66   = ~Ettins Heilung (Nekromantie)
+@65 = ~Ettins Heilung~
+@66 = ~Ettins Heilung (Nekromantie)
 
 Grad: 4
 Reichweite: Anwender
@@ -381,8 +381,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: Nein
 
 Ettin, ein Mönch aus der Zeit der Antiker, war ein erfahrener Kräuterkenner. Er fand viele neue Wege in der Heilung des humanoiden Körpers. Ettins Heilung erlaubt es dem Anwender 1 Trefferpunkt pro Runde zu regenerieren.~
-@67   = ~Ajandurahs Eisscherben~
-@68   = ~Ajandurahs Eisscherben (Hervorrufung)
+@67 = ~Ajandurahs Eisscherben~
+@68 = ~Ajandurahs Eisscherben (Hervorrufung)
 Grad: 4
 Reichweite: Sichtweite
 Wirkungsdauer: 1 Runde
@@ -391,8 +391,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Dieser Spruch zaubert Scherben aus Eis, die zielsicher auf das Ziel zufliegen und ihm Kälteschaden in der Größenordnung von drei treffenden Pfeile zufügt.~
-@69   = ~Melfs explosive Meteoriten~
-@70   = ~Melfs explosive Meteoriten (Hervorrufung)
+@69 = ~Melfs explosive Meteoriten~
+@70 = ~Melfs explosive Meteoriten (Hervorrufung)
 
 Grad: 5
 Reichweite: Nur Anwender
@@ -402,8 +402,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: 1/2
 
 Dieser Spruch ähnelt dem Zauber "Melfs magische Meteoriten" des 3. Grades, mit dem Unterschied, dass die Geschosse eine heftigere Explosion verursachen. Alle Kreaturen im Wirkungsbereich erleiden einen Schaden von 2W6 Punkten. Ein erfolgreicher Rettungswurf kann die schlimmsten Auswirkungen verhindern, indem der Schaden um die Hälfte reduziert wird.~
-@71   = ~Geas "Magische Bindung"~
-@72   = ~Geas (Verzauberung/Bezauberung)
+@71 = ~Geas "Magische Bindung"~
+@72 = ~Geas (Verzauberung/Bezauberung)
 Grad: 6
 Wirkungsbereich: 1 Wesen
 Reichweite: Sichtweise
@@ -411,8 +411,9 @@ Wirkungsdauer: Permanent
 Zeitaufwand: 5
 Rettungswurf: Gegen Zauber
 
-Dieser Spruch wirkt auf jedes betroffene Wese. Es gibt einen Rettungswurf gegen Zauber, um den Effekt des Spruches ohne Anpassung der Weisheit zu überstehen. Misslingt der Rettungswurf erkennt das Opfer den Sprecher des Spruches als seinen Herrn an. Dieser kann dem Opfer Befehle erteilen und die bezauberte Person wird diese so schnell wie möglich ausführen.~@73   = ~Antimagische Schutzhülle~
-@74   = ~Antimagische Schutzhülle (Bannzauber)
+Dieser Spruch wirkt auf jedes betroffene Wese. Es gibt einen Rettungswurf gegen Zauber, um den Effekt des Spruches ohne Anpassung der Weisheit zu überstehen. Misslingt der Rettungswurf erkennt das Opfer den Sprecher des Spruches als seinen Herrn an. Dieser kann dem Opfer Befehle erteilen und die bezauberte Person wird diese so schnell wie möglich ausführen.~
+@73 = ~Antimagische Schutzhülle~
+@74 = ~Antimagische Schutzhülle (Bannzauber)
 
 Grad: 6
 Reichweite: Anwender
@@ -422,8 +423,8 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Nach dem Ausspruch dieses Zaubers wird der Anwender von einer schimmernden Barriere umgeben. Diese Barriere ist für jegliche Magie und Zaubersprüche undurchdringlich, wodurch der Anwender vor allen Zaubern geschützt ist. Zusätzlich verhindert die Barriere das Aussprechen von Zaubern im Inneren und bannt alle magischen Auswirkungen, die auf dem Anwender liegen. Odemwaffen, Blick- oder Sprachattacken und ähnliche Spezialangriffe können die Barriere ebenfalls nicht durchdringen. Die Barriere kann auch durch "Magie bannen" nicht entfernt werden.~
-@77   = ~Sphäre der Dissipation~
-@78   = ~Sphäre der Dissipation (Bannzauber)
+@77 = ~Sphäre der Dissipation~
+@78 = ~Sphäre der Dissipation (Bannzauber)
 Grad: 7
 Reichweite: 0
 Wirkungsdauer: 180 Sekunden
@@ -432,8 +433,8 @@ Wirkungsbereich: Selbst
 Rettungswurf: Nein
 
 Otiluke amüsierte sich an der Tatsache, dass viele Magier seinen robusten Sphärenzauber benutzten, obwohl dieser Spruch lediglich durch einen Fehler beim Testen eines anderen Spruches entstand. Es ist ein mächtiger Spruch für den umherwandernden Erzmagier, der Spruch erzeugt eine Sphäre aus Energie um den Magier, die die Energie von den Angreifern absorbiert. Nur die mächtigsten Sprüche oder besten magischen Waffen können hoffen, den Schild zu durchdringen. Deshalb ist es sehr nützlich, diesen Spruch bei Wanderungen durch die Ebenen von Toril zu verwenden.~
-@79   = ~Massenbezauberung~
-@80   = ~Massenbezauberung (Verzauberung/Bezauberung)
+@79 = ~Massenbezauberung~
+@80 = ~Massenbezauberung (Verzauberung/Bezauberung)
 
 Grad: 7
 Reichweite: Sichtweite
@@ -443,8 +444,8 @@ Wirkungsbereich: 20 m Radius
 Rettungswurf: Nein
 
 Dieser Zauberspruch wirkt auf alle Wesen im Wirkungsbereich um den vom Anwender gewählten Punkt. Es sind alle humanoiden Wesen für 30 Sekunden betroffen. Humanoide Wesen umfassen Menschen, Dryaden, Zwerge, Elfen, Erdwichte, Gnome, Goblins, Halbelfen, Hobgoblins und so weiter, allerdings keine größeren Kreaturen wie zum Beispiel Oger. Jedem Wesen muss ein Rettungswurf gegen Zauber gelingen, um dem Effekt zu entgehen.~
-@81   = ~Feuersturm~
-@82   = ~Feuersturm (Hervorrufung)
+@81 = ~Feuersturm~
+@82 = ~Feuersturm (Hervorrufung)
 
 Grad: 7
 Reichweite: 25 m
@@ -454,8 +455,8 @@ Wirkungsbereich: Großflächig
 Rettungswurf: Nein
 
 Für den durchschnittlichen Erzmagier ist der normale Feuerball einfach nicht genug. Dieser Zauber aus der Zeit von Nesseril füllt diese Lücke. Der Anwender muss sehr fähig sein, und selbst dann ist der Zauber noch labil. Die Auswirkungen sind trotzdem sehr zerstörerisch. Jedes Wesen, dass den Flammen dieses Zaubers ausgesetzt ist, erleidet 6W6 Schadenspunkte durch Feuer und weitere 2W6 SP, wenn ihm ein Rettungswurf misslingt.~
-@83   = ~Vestcakes schwebender Fluch~
-@84   = ~Vestcakes schwebender Fluch (Hervorrufung)
+@83 = ~Vestcakes schwebender Fluch~
+@84 = ~Vestcakes schwebender Fluch (Hervorrufung)
 
 Grad: 7
 Reichweite: 50 m
@@ -463,8 +464,8 @@ Wirkungsdauer: 30s
 Zeitaufwand: 5
 
 Dieser mächtige Fluch lässt eine Wolke aus kochendem Gas entstehen, die sich auf dem Schlachtfeld ausbreitet. In ihrem Innern kann man kleine Blitze hin und her springen sehen. Die Wolke ist so stark mit Elektrizität geladen, dass jedes Wesen von den Blitzen getroffen wird und sehr hohen Schaden erleidet.~
-@85   = ~Höllenfeuer~
-@86   = ~Höllenfeuer (Hervorrufung)
+@85 = ~Höllenfeuer~
+@86 = ~Höllenfeuer (Hervorrufung)
 
 Grad: 8
 Reichweite: 16 m
@@ -475,8 +476,8 @@ Rettungswurf: 1/2
 
 Dieser Zauberspruch ist das Werk eines verrückt gewordenen Erzmagiers, auch bekannt als Erz-Astronomer, der während der Zeit von Nesseril lebte. Dieser verrückte Magier war süchtig nach Feuer und erschuf diesen Zauber, um seine Sucht zu befriedigen. Er starb durch ihn kurz nach seiner Fertigstellung.
 Fast alle modernen Feuersprüche sind in diesem "Cocktail" enthalten, wodurch er fähig ist, so ziemlich jedes Wesen zu Asche zu verbrennen. Wie auch immer, es ist ein unberechenbarer Zauberspruch, somit ist es sicherer ihn aus großer Entfernung auszusprechen.~
-@87   = ~Wahnsinn~
-@88   = ~Wahnsinn (Verzauberung/Bezauberung)
+@87 = ~Wahnsinn~
+@88 = ~Wahnsinn (Verzauberung/Bezauberung)
 Grad: 8
 Reichweite: 16 m
 Wirkungsdauer: Permanent
@@ -485,8 +486,8 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Dieser Spruch verursacht, dass der Wille des Magiers in den Verstand des Zieles eindringt und diesen komplett zerstört. Dabei wird das Opfer komplett wahnsinnig, aber immer noch gefährlich. Die Dauer ist permanent und das Opfer geht benommen oder konfus umher oder stürzt sich wie verrückt mit dem nächst besten in den Kampf. Es gibt nur eine 50% Chance, dass der Spruch funktioniert.~
-@89   = ~Miasma~
-@90   = ~Miasma (Hervorrufung)
+@89 = ~Miasma~
+@90 = ~Miasma (Hervorrufung)
 Grad: 8
 Reichweite: 100 m
 Wirkungsdauer: 30 Sekunden
@@ -495,7 +496,7 @@ Wirkungsbereich: 40 m breite, 20 m hohe, 20 m tiefe Wolke
 Rettungswurf: Verschiedene
 
 Dieser mächtige Spruch erzeugt eine säurehaltige Wolke mit tödlichen Dampf, der alles um sich herum einhüllt. Die Säurehaltigkeit des Dampfes vergrößert sich im Laufe der Dauer des Spruches, so dass sich alle 5 Sekunden der Schaden bis zu einem Maximum von 7W6 erhöht. Jeder der sich in der Wolke befindet, selbst diese, die sie verlassen haben, sind mit Säure bedeckt und sind genauso von dem Effekt betroffen, als ob sie noch in der Wolke stehen würden. Der Effekt kann, wenn man schnell genug ist, auch aufgehoben werden. Der durch die Säsure verursachte Schaden ist relative leicht zu verhindern, aber die Wolke hat einen noch schlimmeren Effekt. Befindet sich eine Person in dieser Wolke, so besteht eine 25% Chance, dass sich die Person aufgrund der ätzenden Natur der Wolke in einen Pfuhl von Schleim verwandelt. (Kein Rettungswurf)~
-@91   = ~Donnerbolzen (Hervorrufung)
+@91 = ~Donnerbolzen (Hervorrufung)
 
 Grad: 8
 Reichweite: 50 m
@@ -505,8 +506,8 @@ Wirkungsbereich: Speziell
 Rettungswurf: Nein
 
 In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
-@92   = ~Varashars Lebensentzug~
-@93   = ~Varashars Lebensentzug (Nekromantie)
+@92 = ~Varashars Lebensentzug~
+@93 = ~Varashars Lebensentzug (Nekromantie)
 
 Grad: 8
 Reichweite: 10 m
@@ -516,18 +517,18 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Den Gerüchten nach nutzte der Magierkönig Varashar diesen Zauber, um sein Leben während seiner 120-jährigen Herrschaft mehrfach zu verlängern. Das Opfer des Zaubers erleidet 5W4 Schadenspunkte, während der Anwender zusätzliche 25% seiner Trefferpunkte erhält. Solche Trefferpunkte, die über das Maximum des Anwenders hinausgehen, gehen nach 4 Runden verloren.~
-@94   = ~Funke des Todes~
-@95   = ~Funke des Todes (Nekromantie)
+@94 = ~Funke des Todes~
+@95 = ~Funke des Todes (Nekromantie)
 Grad: 9
 Reichweite: 16 m
-Wirkungsdauer:  Sofort
+Wirkungsdauer: Sofort
 Zeitaufwand: 8
 Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Indem er diesen Spruch spricht, verursacht der Magier enormen, aber auch in hohem Grade variablen Schaden an einem einzelnen Ziel.~
-@96   = ~Azuths Rune der negativen Beschaffenheit~
-@97   = ~Azuths Rune der negativen Beschaffenheit (Hervorrufung)
+@96 = ~Azuths Rune der negativen Beschaffenheit~
+@97 = ~Azuths Rune der negativen Beschaffenheit (Hervorrufung)
 Grad: 9
 Wirkungsbereich: 1 Wesen
 Reichweite: 33 m
@@ -536,8 +537,8 @@ Zeitaufwand: 7
 Bevor der vielleicht mächtigste Magier alle Zeiten als Gottheit sich neben Mystra gesellte, kreierte er diesen Spruch. Ein verheerend mächtiger Spruch, welcher seinen Namen als göttlicher Todesspruch verdient und in keiner der Ebenen übertroffen wird. Der Erzmagier streckt seine Arme nach vorne und beschwört die große Macht des Seins, die das Universum zusammenhält. Riesige Bolzen Energie schwirren vor ihm und als er den Spruch loslässt, kräuselt sich ein Bolzen reinster Energie vom Himmel herab und zerstört das Ziel.
 
 Es gibt keien Rettungswurf und der Spruch durchdringt jeden magischen Schutz.~
-@98   = ~Heilung~
-@99   = ~Heilung (Erkenntnis)
+@98 = ~Heilung~
+@99 = ~Heilung (Erkenntnis)
 Grad: 9
 Reichweite: 10 m
 Wirkungsdauer: Permanent
@@ -1097,9 +1098,9 @@ Kunstvolle und heilige Markierungen heben den Gürtel der Heiligen Wache der Suki
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
-Rüstungsklasse-Bonus:  -3 gegen Stichwaffen und Geschosswaffen
+Rüstungsklasse-Bonus: -3 gegen Stichwaffen und Geschosswaffen
 Bonus: Hast
-Gewicht:  2
+Gewicht: 2
 Kann nur verwendet werden von:
  Paladinen~
 @1096 = ~Morridins Umhang~
@@ -1455,7 +1456,7 @@ Kann nur verwendet werden von:
 @1242 = ~Die Geschichte der Dunklen Seite~
 @1243 = ~Die Geschichte der Dunklen Seite
 
-Vor langer Zeit lief der weise Magier Roach zufällig dem jungen Elfen CúChoinneach über den Weg. Roach sah in ihm den wahren Geist des Abenteuers und fragte ihn, ob er mit auf eine lange Reise gehen würde. Diese Reise führte sie schließlich zu den Geheimnissen, die an der Schwertküste verborgen liegen. Roach wusste, dass es hier viel mehr gab, als das bloße Auge erkennen konnte. Durch die Führung und den Mut von Roach begann CúChoinneach die vielen dunklen Geschichten aufzudecken, die unter der Oberfläche der idyllischen Landschaft um den Küstenweg schlummerten. Er verbrachte viele schlaflose Nächte, in denen er nach neuen Zaubersprüchen suchte. Manchmal war er erfolgreich, zu seiner Überraschung, aber meistens musste er entmutigende Niederlagen hinnehmen. Außerdem musste er mit der Tatsache klarkommen, dass viele behaupteten, die dunkle Seite würde nicht existieren oder sollte besser von einem fähigeren Abenteurer aufgedeckt werden. Aber CúChoinneach schenkte ihnen keine Beachtung und setzte seine Suche 
+Vor langer Zeit lief der weise Magier Roach zufällig dem jungen Elfen CúChoinneach über den Weg. Roach sah in ihm den wahren Geist des Abenteuers und fragte ihn, ob er mit auf eine lange Reise gehen würde. Diese Reise führte sie schließlich zu den Geheimnissen, die an der Schwertküste verborgen liegen. Roach wusste, dass es hier viel mehr gab, als das bloße Auge erkennen konnte. Durch die Führung und den Mut von Roach begann CúChoinneach die vielen dunklen Geschichten aufzudecken, die unter der Oberfläche der idyllischen Landschaft um den Küstenweg schlummerten. Er verbrachte viele schlaflose Nächte, in denen er nach neuen Zaubersprüchen suchte. Manchmal war er erfolgreich, zu seiner Überraschung, aber meistens musste er entmutigende Niederlagen hinnehmen. Außerdem musste er mit der Tatsache klarkommen, dass viele behaupteten, die dunkle Seite würde nicht existieren oder sollte besser von einem fähigeren Abenteurer aufgedeckt werden. Aber CúChoinneach schenkte ihnen keine Beachtung und setzte seine Suche
 fort.
 
 Während seiner Reise traf CúChoinneach auf eine Menge einzigartiger Individuen, die auf ihre Weise etwas zu den Entdeckungen von Roach und CúChoinneach beigetragen haben. Unter diesen vielen bunten Einwohnern der Schwertküste war ein Mann, der nur als Ken der Bäcker bekannt ist. Er hält sich oft im Windigen Schwindler in Beregost auf, normalerweise gleich nach einem Gewinn von Team Baldurs Tor. Ken, wie er von manchen genannt wird, glaubt ebenfalls an die vielen Geheimnisse, die an der Schwertküste versteckt liegen. Er begann mit seiner Gruppe von "Hexern" mit der Suche nach diesen Geheimnissen. Diese "Hexer" bestanden aus Zauberern, Illusionisten und Vertretern von jeder anderen Zauberschule.
@@ -1510,7 +1511,7 @@ Kann verwendet werden von:
  Druiden
  Waldläufern
  Paladinen
- (Nicht-böse) ~
+ (Nicht-böse)~
 @1256 = ~Die wahre Natur dieses Amuletts bleibt Euch verborgen, doch Ihr könnt spüren, dass es sehr mächtig sein muss.~
 @1257 = ~Amulett der Segoy~
 @1258 = ~Dieses Amulett trägt das Erkennungszeichen der Segoy, einer unbarmherzigen Bande von Mördern. Das Böse scheint sich aus seinem Innern zu ergießen, während Ihr es in der Hand haltet.
@@ -2952,7 +2953,7 @@ Kann nicht verwendet werden von:
 @2007 = ~[GLANMARIE 3]~ [GLANM03]
 @2008 = ~Conchobhair Starkklinge~
 
-@2046 = ~Conchobhair stammt ursprünglich aus Tiefwasser. Er ist der Jüngste von vier Söhnen der sehr einflussreichen Familie Starkklinge aus Tiefwasser. Als der jüngste Sohn sah er nur sehr geringe Chancen für sich, die Familie weiterzuführen, und so zog er aus, um sein eigenes Leben zu leben, bis er sein 20. Lebensjahr vollendet hatte. Er begann sein Training als Paladin und lebte einige Jahre nach dessen Tugenden. Mit der Zeit jedoch fühlte sich Conchobhair zu eingeschränkt in seinen Aufgaben und strebte nach ruhmvollen Abenteuern. Auf einem seiner langen Fußmärsche von Tiefwasser nach Baldurs Tor traf er auf einen Krieger namens Fergus Ravenskill. Fergus war ein sehr erfahrener Krieger, der die meiste Zeit seiner 56 Jahre auf dem Schlachtfeld verbracht hatte. Conchobhair zog einige Monate mit Ravenskill durch die Lande, und seine Erzählungen über große Schlachten beeindruckten ihn. Es dauerte auch nicht lange, bis Fergus ihm von seinem Zusammentreffen mit einem blauen Drachen erzählte, was Conchobhair zu 
+@2046 = ~Conchobhair stammt ursprünglich aus Tiefwasser. Er ist der Jüngste von vier Söhnen der sehr einflussreichen Familie Starkklinge aus Tiefwasser. Als der jüngste Sohn sah er nur sehr geringe Chancen für sich, die Familie weiterzuführen, und so zog er aus, um sein eigenes Leben zu leben, bis er sein 20. Lebensjahr vollendet hatte. Er begann sein Training als Paladin und lebte einige Jahre nach dessen Tugenden. Mit der Zeit jedoch fühlte sich Conchobhair zu eingeschränkt in seinen Aufgaben und strebte nach ruhmvollen Abenteuern. Auf einem seiner langen Fußmärsche von Tiefwasser nach Baldurs Tor traf er auf einen Krieger namens Fergus Ravenskill. Fergus war ein sehr erfahrener Krieger, der die meiste Zeit seiner 56 Jahre auf dem Schlachtfeld verbracht hatte. Conchobhair zog einige Monate mit Ravenskill durch die Lande, und seine Erzählungen über große Schlachten beeindruckten ihn. Es dauerte auch nicht lange, bis Fergus ihm von seinem Zusammentreffen mit einem blauen Drachen erzählte, was Conchobhair zu
 einem Lebenswandel bewegte. Er bat Fergus ihn zu trainieren und ihm alles zu erzählen, was er über Drachen weiß. Er verbrachte 6 Jahre mit dem Training auf seinem Weg zu einem großen Drachenjäger. Er erhielt sogar Aufträge als Söldner im Dienste sehr großer Städte. Ein verhängnisvoller Tag jedoch brachte Fergus und Conchobhair Auge in Auge mit einem rotem Drachen. Es war ein Drache, dem Fergus schon einmal vor etwa 20 Jahren begegnete. Damals wurde der Drache von Fergus auf einem Auge geblendet. Es war klar, dass der Drache nur Rache wollte, und die Möglichkeit hatte er jetzt bekommen. Fergus starb im Kampf, Conchobhair konnte jedoch mit leichten Verletzungen und Verbrennungen entkommen. An diesem Tag schwor er sich, jeden Drachen zu töten, der die Reiche bedroht und den Drachen zu finden, der seinen Mentor umgebracht hatte.~
 @2047 = ~Cooshee~
 @2048 = ~CúChoinneach~
@@ -3038,7 +3039,7 @@ Als Jet"laya und ihr Zwillingsbruder sechs Jahre alt waren, wurde Cormanthor von
 @2260 = ~Shar Nadal~
 @2261 = ~Skeezer Lumpkin VI~
 
-@2286 = ~Skeezer Lumpkin VI. stammt aus der Gnom-Siedlung bei Krynn, unterhalb von Mount Nevermind. In den letzten 75 Jahren lebte er jedoch in Athkatla in Amn. Er verbrachte sein ganzes Leben damit, die perfekte Kombination aus Technologie und Magie zu finden. Er dachte, er könnte damit den ultimativen Kesselflicker erschaffen. Bis jetzt hat er es aber nicht geschafft. Er hat sich immer vor einem normalen Gnomdasein gescheut und nach einem größeren Verständnis für die Magie gesucht. Seine Kreationen hatten aber nur beschränkten Erfolg. Eine seiner Schöpfungen war der "Automatische (Systematische) Artikulierte Mop und Aufladbare Besen-betriebene Torten und Blechdosen-Flieger und Ei-Werfer". Damit konnten Eier zum Fliegen mit hoher Geschwindigkeit gebracht werden, sonst hatte es keinen wirklichen Zweck. Einer seiner größten Wünsche ist es, eines der fliegenden Schiffe zu sehen. Er hat schon viele Geschichten über diese Flugschiffe gehört und wünscht sich nichts lieber, als eines der Flugschiffe von Baldurs 
+@2286 = ~Skeezer Lumpkin VI. stammt aus der Gnom-Siedlung bei Krynn, unterhalb von Mount Nevermind. In den letzten 75 Jahren lebte er jedoch in Athkatla in Amn. Er verbrachte sein ganzes Leben damit, die perfekte Kombination aus Technologie und Magie zu finden. Er dachte, er könnte damit den ultimativen Kesselflicker erschaffen. Bis jetzt hat er es aber nicht geschafft. Er hat sich immer vor einem normalen Gnomdasein gescheut und nach einem größeren Verständnis für die Magie gesucht. Seine Kreationen hatten aber nur beschränkten Erfolg. Eine seiner Schöpfungen war der "Automatische (Systematische) Artikulierte Mop und Aufladbare Besen-betriebene Torten und Blechdosen-Flieger und Ei-Werfer". Damit konnten Eier zum Fliegen mit hoher Geschwindigkeit gebracht werden, sonst hatte es keinen wirklichen Zweck. Einer seiner größten Wünsche ist es, eines der fliegenden Schiffe zu sehen. Er hat schon viele Geschichten über diese Flugschiffe gehört und wünscht sich nichts lieber, als eines der Flugschiffe von Baldurs
 Tor zu bestaunen.~
 @2287 = ~Spec~
 @2288 = ~Thomic~
@@ -3054,10 +3055,10 @@ Tor zu bestaunen.~
 //@2300 = ~Scharfzahnwald~
 //@2301 = ~Ausgang~
 @2302 = ~Burg von Daerthmac~
-@2304 = ~Als ob die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet'laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet?... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit 
+@2304 = ~Als ob die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet'laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet?... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit
 gestoßen worden zu sein. Was wird Euch und Euren Begleitern auf der langen Reise noch alles begegnen? Ihr befürchtet, dass Ihr die Antwort schon sehr bald erhalten werdet... wenn Ihr eintaucht in die "Dunkle Seite der Schwertküste".~
 @2305 = ~Die Dunkle Seite der Schwertküste~
-@2306 = ~Als wenn die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet"laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet? ... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit 
+@2306 = ~Als wenn die Probleme an der Schwertküste nicht schon schlimm genug sind, beginnt Ihr Euch zu fragen, ob da nicht noch mehr ist als das, was man auf den ersten Blick vernehmen mag. Ein Gefühl des Entsetzens und der Angst macht sich in Eurem Körper breit und Ihr beginnt zu fühlen, dass dunkle Mächte in diesem kleinen Teil von Faerûn, den Ihr Heimat nennt, am Werke sind. Aber zu dieser Zeit habt Ihr noch keine Ahnung, wie dunkel diese Mächte wirklich sind. War es Zufall, dass Euch die Elfe Jet"laya aus Cormanthor über den Weg lief? Ist es denkbar, dass Ihr zu diesem Punkt geführt wurdet? ... Aber warum? Wer oder was hat Euch ausgewählt, dieser Dunkelheit gegenüber zu treten? Eine Dunkelheit, die sich scheinbar auf die wichtige Verbindung zwischen Baldurs Tor und Amn konzentriert, der Pulsader, durch die das Lebensblut der Schwertküste fließt... den Küstenweg. Ihr, der bis vor kurzem in den heiligen und sicheren Hallen der Kerzenburg gelebt hat, scheint nun ganz plötzlich in diese große Dunkelheit
 gestoßen worden zu sein. Was wird Euch und Euren Begleitern auf der langen Reise noch alles begegnen? Ihr befürchtet, dass Ihr die Antwort schon sehr bald erhalten werdet... wenn Ihr eintaucht in die "Dunkle Seite der Schwertküste".~ [dsotsc]
 
 @3000 = ~Erhöhe die Möglichkeit des Stapelns der neuen Gegenstände (Waffen, Tränke und Ringe/Amulette)~
@@ -3314,7 +3315,7 @@ Kann nur verwendet werden von:
 @20643 = ~Verdammmt noch mal, daneben!~ //[BUB43]
 @20644 = ~Erwischt!~ //[BUB44]
 @20645 = ~BUB SNIKT wurde in Dolchfurt geboren, einem Dorf, das auf dem Handelsweg zwischen Baldurs Tor und Tiefwasser liegt. Er wuchs auf dem Land als siebter Sohn eines Bauern auf, von dem er die ländliche Lebensart lernte, während ihm seine Brüder das Jagen beibrachten. Es dauerte nicht lange, bis Bub einen scharfen Blick entwickelte, und seine Fähigkeiten mit dem Bogen waren schon bald so gut, wie die der Bogenschützen der Burgwache. Die Jahre gingen dahin und es passierte nicht viel. Gelegentlich verteidigte er mit seinen Brüdern und der lokalen Miliz das umliegende Farmland gegen plündernde Echsenmenschen aus dem Sumpf, doch die meiste Zeit blieb das Leben auf dem Land unverändert.
-Eines Tages, nur wenige Tage nach dem Feiertag der Hochernte, sollten sich die Dinge grundlegend ändern. Bub war gerade auf dem Markt in Dolchfurt, um ein paar Waren vom Bauernhof zu verkaufen, als man die Männer zu den Waffen rief. Eine Ogerbande hatte sich durch den Nebelwald herangepirscht und griff nun die Bauernhöfe an, wobei sie die Bauern abschlachteten und sich an der Ernte vergriffen. Bub sorgte sich um seine Familie und ritt sofort in vollem Gallopp nach Hause. Als er ankam, waren seine Brüder bereits in einen heftigen Kampf mit einigen Ogern verwickelt. Die Größe der Oger jagte Bub einen Schauer über den Rücken. Zu diesem Zeitpunkt erinnerte er sich an den Talisman, den sein Vater ihm vor Jahren gegeben hatte, eine Kette mit dem Symbol von Tempus. Was dann passierte, kann Bub sicht nicht wirklich erklären. Als er sich seinen Brüdern anschloss, um ihnen im Kampf beizstehen, war es, als wäre er mit der Kraft und Schnelligkeit von zehn Männern gesegnet. Keiner der Oger konnte es mit ihm aufnehmen. 
+Eines Tages, nur wenige Tage nach dem Feiertag der Hochernte, sollten sich die Dinge grundlegend ändern. Bub war gerade auf dem Markt in Dolchfurt, um ein paar Waren vom Bauernhof zu verkaufen, als man die Männer zu den Waffen rief. Eine Ogerbande hatte sich durch den Nebelwald herangepirscht und griff nun die Bauernhöfe an, wobei sie die Bauern abschlachteten und sich an der Ernte vergriffen. Bub sorgte sich um seine Familie und ritt sofort in vollem Gallopp nach Hause. Als er ankam, waren seine Brüder bereits in einen heftigen Kampf mit einigen Ogern verwickelt. Die Größe der Oger jagte Bub einen Schauer über den Rücken. Zu diesem Zeitpunkt erinnerte er sich an den Talisman, den sein Vater ihm vor Jahren gegeben hatte, eine Kette mit dem Symbol von Tempus. Was dann passierte, kann Bub sicht nicht wirklich erklären. Als er sich seinen Brüdern anschloss, um ihnen im Kampf beizstehen, war es, als wäre er mit der Kraft und Schnelligkeit von zehn Männern gesegnet. Keiner der Oger konnte es mit ihm aufnehmen.
 Seine Pfeile trafen sicher ihr Ziel, und jeder Schlag mit seinem Schwert stieß auf so gut wie keinen Widerstand. Innerhalb einer Stunde waren alle Oger tot, und seine Brüder konnten nur staunen. Kurze Zeit nach diesem Vorfall änderte sich Bubs Einstellung. Sein Interesse am Leben auf dem Lande schwand und er beschloss, sich dem Abenteurerleben zu widmen. Er reiste erst nach Baldurs Tor, wo er nur kurz als Söldner arbeitete, und dann weiter nach Beregost, wo er im Dienste der Bewohner die umliegenden Lande durchstreift, um Oger und andere ungewollte Gäste aufzuspüren und zu beseitigen.~
 
 @20701 = ~Guten Tag, Reisende. Wie kann ich Euch helfen?~ //[KEIRI01]

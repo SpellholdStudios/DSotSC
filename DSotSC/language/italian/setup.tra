@@ -2,10 +2,10 @@
 //Incantesimi
 ////////
 
-@1    = ~Lupo d'Ombra~
-@2    = ~Seguace della Luce~
-@3    = ~Causa Ferite Leggere~
-@4    = ~Causa Ferite Leggere (Negromanzia)
+@1 = ~Lupo d'Ombra~
+@2 = ~Seguace della Luce~
+@3 = ~Causa Ferite Leggere~
+@4 = ~Causa Ferite Leggere (Negromanzia)
 Livello: 1
 Sfera: Guarigione
 Raggio d'azione: Tocco
@@ -15,8 +15,8 @@ Area di Effetto: 1 creatura
 Tiro Salvezza: Neg
 
 E' l'opposto dell'incantesimo Cura Ferite Leggere. Le creatura toccate perdono 1-8 punti ferita a meno che non venga effettuato un tiro salvezza contro gli incantesimi. Le ferite provocate possono essere curate normalmente.~
-@5    = ~Dardo di Fuoco~
-@6    = ~Dardo di Fuoco (Invocazione)
+@5 = ~Dardo di Fuoco~
+@6 = ~Dardo di Fuoco (Invocazione)
 Livello: 1
 Sfera: Fuoco Elementale
 Raggio di Azione: Campo visivo
@@ -26,8 +26,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Speciale
 
 Il lanciatore convoca del fuoco e lo plasma in un piccolo proiettile che va dritto al bersaglio causando 1D3 danno da fuoco. La creatura colpita deve effettuare un tiro salvezza contro incantesimi a -2 o subire un ulteriore 1D3 di danno da fuoco.~
-@7    = ~Sciogliere Armature~
-@8    = ~Sciogliere Armature (Alterazione)
+@7 = ~Sciogliere Armature~
+@8 = ~Sciogliere Armature (Alterazione)
 Livello: 1
 Sfera: Combattimento
 Raggio di Azione: Campo visivo
@@ -37,8 +37,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: 1/2
 
 Mentre lancia questo incantesimo il sacerdote può causare la trasformazione di alcuni materiali fisici. Corazze o oggetti metallici inizieranno a fondersi. Le creature colpite da questo incantesimo ricevono una perdita di 8 punti nella Classe Armatura. Tiro salvezza contro incantesimi per 1/2.~
-@9    = ~Cura Ferite Moderate~
-@10   = ~Cura Ferite Moderate (Negromanzia)
+@9 = ~Cura Ferite Moderate~
+@10 = ~Cura Ferite Moderate (Negromanzia)
 Livello: 2
 Sfera: Guarigione
 Raggio di Azione: Tocco
@@ -48,8 +48,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 Quando lancia questo incantesimo e posa le sue mani sopra una creatura, il sacerdote gli guarisce 12 Punti ferita. Questo incantesimo non ha effetto sui non morti e sulle creature extraplanari.~
-@12   = ~Scintille~
-@13   = ~Scintille (Invocazione)
+@12 = ~Scintille~
+@13 = ~Scintille (Invocazione)
 Livello: 2
 Sfera: Combattimento, Tempo meteorologico
 Raggio di Azione: Campo visivo
@@ -59,8 +59,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: 1/2
 
 Il druido raccoglie dell'elettricità dall'aria intorno a lui e poi la circonda intorno al bersaglio causandogli 4D6 di danno da elettricità, tiro salvezza contro incantesimi a metà.~
-@14   = ~Protezione Minore~
-@15   = ~Protezione Minore (Invocazione)
+@14 = ~Protezione Minore~
+@15 = ~Protezione Minore (Invocazione)
 Livello: 2
 Sfera: Protezione
 Raggio di Azione: Se stesso
@@ -70,8 +70,8 @@ Area d'effetto: Chi lo lancia
 Tiro Salvezza: Nessuno
 
 Quando questo incantesimo viene lanciato, si forma una barriera invisibile di fronte al lanciatore. Porta la Classe Armatura base del lanciatore a 3.~
-@17   = ~Dolore~
-@18   = ~Dolore (Incantamento/Charme)
+@17 = ~Dolore~
+@18 = ~Dolore (Incantamento/Charme)
 Livello: 3
 Sfera: Charme
 Raggio di Azione: Raggio visivo del lanciatore
@@ -81,8 +81,8 @@ Area d'effetto: nel raggio di 4,5 metri
 Tiro Salvezza: Neg
 
 Questo incantesimo causa atroci dolori in tutte le creature nemiche all'interno dell'area d'effetto. L'incantesimo non dà danni, ma coloro che falliscono un tiro salvezza contro incantesimi a -2 subiranno un -2 alla destrezza ed un -2 a tutti i tiri per colpire per un turno. Le creature che normalmente non possono sentire dolore (come i non morti) non sono influenzate da questo incantesimo.~
-@19   = ~Armatura dell'Oscurità~
-@20   = ~Armatura dell'Oscurità (Evocazione)
+@19 = ~Armatura dell'Oscurità~
+@20 = ~Armatura dell'Oscurità (Evocazione)
 Livello: 3
 Sfera: Protezione, Sole
 Raggio di Azione: Tocco
@@ -92,7 +92,7 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 La Dea della notte Shar concede ai chierici il potere di creare un manto di oscurità mistica che avvolge il bersaglio dell'incantesimo. Finchè si è racchiusi in questo manto la Classe Armatura del bersaglio migliora di 2 e con un tiro salvezza contro incantesimi arriva ad un +2 bonus. Il bersaglio acquista anche l'infravisione ed è immune alla cecità. Vista la natura malvagia di questo incantesimo, il lanciatore perderà 3 punti ferita quando lancerà l'incantesimo.~
-@21   = ~Pelle di Pietra (Alterazione)
+@21 = ~Pelle di Pietra (Alterazione)
 Livello: 3
 Raggio di Azione: 0
 Durata: 12 ore
@@ -100,10 +100,10 @@ Tempo di Lancio: 1
 Area d'effetto: Chi lo lancia
 Tiro Salvezza: Nessuno
 
-Quando un druido lancia questo potente incantesimo su se stesso, una pelle esterna di pietra sorge dal terreno, ricoprendolo completamente. Questa pelle, naturalmente, è magica, e non ostacola assolutamente il druido. L'effetto è di proteggere il druido da attacchi fisici come armi da mischia e proiettili. Per ogni 2 livelli del lanciatore si guadagna una pelle aggiuntiva ad ogni lancio: per esempio un druido di 10° livello riceve 5 pelli, mentre un druido di 20° livello ne riceve 10. Per ogni pelle che il druido possiede, l'incantesimo ferma 1 attacco: quindi un druido del 10° livello è protetto dai primi 5 attacchi contro di lui, ma il sesto lo colpisce normalmente. Le pelli rimangono sul druido fino a quando egli viene colpito da un incantesimo di dissipa magia, o tutte le pelli vengono rimosse a causa di attacchi fisici, o la durata dell'incantesimo ha termine. E' importante notare che questo non protegge il druido da attacchi magici quali la palla di fuoco, tuttavia lo protegge da attacchi magici fisici 
+Quando un druido lancia questo potente incantesimo su se stesso, una pelle esterna di pietra sorge dal terreno, ricoprendolo completamente. Questa pelle, naturalmente, è magica, e non ostacola assolutamente il druido. L'effetto è di proteggere il druido da attacchi fisici come armi da mischia e proiettili. Per ogni 2 livelli del lanciatore si guadagna una pelle aggiuntiva ad ogni lancio: per esempio un druido di 10° livello riceve 5 pelli, mentre un druido di 20° livello ne riceve 10. Per ogni pelle che il druido possiede, l'incantesimo ferma 1 attacco: quindi un druido del 10° livello è protetto dai primi 5 attacchi contro di lui, ma il sesto lo colpisce normalmente. Le pelli rimangono sul druido fino a quando egli viene colpito da un incantesimo di dissipa magia, o tutte le pelli vengono rimosse a causa di attacchi fisici, o la durata dell'incantesimo ha termine. E' importante notare che questo non protegge il druido da attacchi magici quali la palla di fuoco, tuttavia lo protegge da attacchi magici fisici
 come il missile magico.~
-@22   = ~Spruzzo di Veleno~
-@23   = ~Spruzzo di Veleno (Negromanzia) Livello: 4
+@22 = ~Spruzzo di Veleno~
+@23 = ~Spruzzo di Veleno (Negromanzia) Livello: 4
 Sfera: Vegetale
 Raggio di Azione: 4,5 metri
 Durata: 8 round
@@ -112,8 +112,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: 1/2
 
 Il Druido attrae il veleno dall'area circostante e la spruzza sulla creatura ricoprendocela interamente. Lo spruzzo fa 4 punti di danno per round fino ad un totale di 32, il danno può essere dimezzato con un Salva contro Morte andato a buon fine.~
-@24   = ~Lama di Mielikki~
-@25   = ~Lama di Mielikki (Invocazione)
+@24 = ~Lama di Mielikki~
+@25 = ~Lama di Mielikki (Invocazione)
 Livello: 4
 Sfera: Combattimento, Natura
 Raggio di Azione: Se stesso
@@ -123,8 +123,8 @@ Area d'effetto: 1 metro di lama lunga
 Tiro Salvezza: Nessuno
 
 Questo incantesimo evoca un'arma magica in onore del Dio Mielikki - una grande scimitarra che arde di un freddo fuoco blu. La lama è simile ad un'arma magica +4 che dà 1-8 punti di danno, ed ogni creatura colpita deve effettuare un Tiro Salvezza o subire un ulteriore 1-6 danno da freddo provocato dalle fiamme che ardono di freddo. La lama di Mielikki garantisce al druido anche una resistenza al fuoco per tutta la durata dell'incantesimo.~
-@26   = ~Lame~
-@27   = ~Lame (Alterazione)
+@26 = ~Lame~
+@27 = ~Lame (Alterazione)
 Livello: 5
 Sfera: Combattimento
 Raggio di Azione: Campo visivo
@@ -134,7 +134,7 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: 1/2
 
 Il Druido evoca a sè uno sciame di piccole lame taglienti che vengono lanciate sulla creatura oggetto del bersaglio tagliandola e causando 4D8 di danno, che si riduce di metà con un tiro salvezza andato a buon fine.~
-@28   = ~Benedizione di Selune (Scongiurazione)
+@28 = ~Benedizione di Selune (Scongiurazione)
 Livello: 5
 Sfera: Protezione
 Raggio di Azione: 0
@@ -144,8 +144,8 @@ Area d'effetto: una sfera del raggio di 1,5 metri
 Tiro Salvezza: Nessuno
 
 Questo incantesimo invoca il potere della Dea Selune per proteggere il sacerdote da danni fisici o magici. Il lanciatore viene circondato da un campo luccicante che migliora la sua Classe Armatura di 4 punti e previene anche gli effetti delle magia dal 1° al 4° livello. Come con la magia Globo di Invulnerabilità del mago, gli altri tipi di incantesimi possono essere lanciati e passare fuori dell'area d'effetto senza penalità.~
-@29   = ~Evocare Non Morti~
-@30   = ~Evocare Non Morti (Negromanzia)
+@29 = ~Evocare Non Morti~
+@30 = ~Evocare Non Morti (Negromanzia)
 Livello: 5
 Sfera: Negromanzia, Attrazione
 Raggio di Azione: 9 metri
@@ -155,8 +155,8 @@ Area d'effetto: Speciale
 Tiro Salvezza: Nessuno
 
 Appena lanciato l'incantesimo 3 o 6 ghoul e da 0 a 2 ghast risorgeranno per servire il lanciatore dell'incantesimo. Le creature possono comprendere solo semplici comandi e rimarranno per 5 turni a meno che non vengano distrutti o scacciati.~
-@31   = ~Spostarsi attraverso le Piante~
-@32   = ~Spostarsi attraverso le Piante (Alterazione)
+@31 = ~Spostarsi attraverso le Piante~
+@32 = ~Spostarsi attraverso le Piante (Alterazione)
 Livello: 5
 Sfera: Pianta
 Raggio di Azione: Campo visivo del lanciatore
@@ -166,7 +166,7 @@ Area d'effetto: Solo il lanciatore
 Tiro Salvezza: Nessuno
 
 Per mezzo di questo incantesimo il lanciatore può spostarsi dentro una pianta vivente, apparendo da una pianta all'altra ma che sia all'interno del suo raggio di azione.~
-@33   = ~Bloccamostri (Incantamento/Charme)
+@33 = ~Bloccamostri (Incantamento/Charme)
 Livello: 6
 Sfera: Charme, Ordine
 Raggio di Azione: Campo visivo del lanciatore
@@ -176,7 +176,7 @@ Area d'effetto: 18 metri cubi
 Tiro Salvezza: Neg
 
 Questo incantesimo blocca le creature 1d4 di qualsiasi tipo e le rende rigide e immobili per nove o più round, a meno che non si lanci una protezione dagli incantesimi con una penalità di -2. L'effetto si concentra sulla vittima selezionata dal lanciatore, ma sono influenzati anche i nemici che si trovano in un raggio di 1,5 m dal bersaglio. Coloro che manderanno a segno i tiri-salvezza non subiranno l'effetto dell'incantesimo. Le creature non morte non possono essere bloccate. Le creature bloccate non possono muoversi o parlare, ma si rendono conto degli eventi che si svolgono attorno a loro e possono avvalersi di funzioni che non richiedono di muoversi o di parlare. Essere bloccati non impedisce un peggioramento delle proprie condizioni in seguito a ferite, malattie o veleni.~
-@34   = ~Trasformazione di Tenser (Alterazione/Invocazione)
+@34 = ~Trasformazione di Tenser (Alterazione/Invocazione)
 Livello: 6
 Sfera: Protezione
 Raggio di Azione: 0
@@ -187,7 +187,7 @@ Tiro Salvezza: Nessuno
 
 Il lanciatore di questo incantesimo subisce una sorprendente trasformazione, aumentando le sue proporzioni e la sua forza diventando una vera macchina da guerra. I Punti Ferita del sacerdote raddoppiano e la sua Classe Armatura migliora di 4 punti. Tutti gli attacchi avvengono come se fossero effettuati da un guerriero di pari livello equivalente a quello del sacerdote. Ogni attacco ha un bonus di +2 ed ogni successivo tiro per colpire infligge 2 punti addizionali di danno. Tutti i bonus saranno persi quando l'incantesimo sarà dissolto.
 Nota: Questo incantesimo non dà al lanciatore alcun attacco extra.~
-@35   = ~Carne in Pietra (Alterazione)
+@35 = ~Carne in Pietra (Alterazione)
 Livello: 6
 Sfera: Elemento Terra
 Raggio di Azione: Campo visivo del Lanciatore
@@ -197,7 +197,7 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Neg
 
 Il bersaglio di questo incantesimo deve effettuare un Tiro Salvezza contro Pietrificazione o essere mutato in pietra. Nello stesso modo, tutto ciò che possiede la persona sarà pietrificato e trasformato in modo perenne a meno che non si lanci sul bersaglio l'incantesimo Pietra in Carne. Ogni colpo successivo su una creatura pietrificata la manderà in frantumi, uccidendola irrevocabilmente.~
-@36   = ~Pietra in Carne (Alterazione)
+@36 = ~Pietra in Carne (Alterazione)
 Livello: 6
 Sfera: Elemento Terra
 Raggio di Azione: Tocco
@@ -207,8 +207,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 Usando questo incantesimo il lanciatore può restituire ad una creatura pietrificata il proprio corpo purché il corpo pietrificato della creatura sia ancora intatto. Il destinatario sarà fisicamente esausto per essere rimasto simile ad una statua per un po' di tempo ed avrà solo 1 punto ferita subito dopo la sua ritrasformazione. Incantesimi di cura o del riposo faranno recuperare la salute perduta.~
-@37   = ~Piante rampicanti Soffocanti~
-@38   = ~Piante rampicanti Soffocanti (Alterazione)
+@37 = ~Piante rampicanti Soffocanti~
+@38 = ~Piante rampicanti Soffocanti (Alterazione)
 Livello: 6
 Sfera: Pianta
 Raggio di Azione: Campo visivo
@@ -217,8 +217,8 @@ Tempo di Lancio: 7
 Area d'effetto: 18 metri quadrati Tiro Salvezza: Speciale
 
 Il Druido evoca a sé i poteri della terra per formare una pianta rampicante che afferra tutte le creature all'interno dell'area del bersaglio stritolandole per 3 round. Ogni creatura presa dalla pianta sarà rallentata ed avrà 4D5 di danno quando la pianta la aggredirà e dovrà effettuare un Tiro Salvezza a -2 o avranno lo stesso danno il round successivo.~
-@39   = ~Sottrarre Forza Vitale~
-@40   = ~Sottrarre Forza Vitale (Negromanzia)
+@39 = ~Sottrarre Forza Vitale~
+@40 = ~Sottrarre Forza Vitale (Negromanzia)
 Livello: 6
 Sfera: Negromanzia, Guarigione
 Raggio di Azione: Campo visivo
@@ -228,7 +228,7 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Neg
 
 Il lanciatore prega per un aiuto divino e prova a sottrarre molta forza vitale dalla creatura bersaglio dell'incantesimo la quale subisce 6D5 punti di danno, dimezzati con un tiro salvezza. Il lanciatore di conseguenza assorbe la forza vitale fino a 27 punti.~
-@41   = ~Confusione (Incantamento/Charme)
+@41 = ~Confusione (Incantamento/Charme)
 Livello: 7
 Sfera: Charme, Ordine
 Raggio di Azione: Campo visivo del lanciatore
@@ -239,8 +239,8 @@ Tiro Salvezza: Speciale
 
 Questo incantesimo causa confusione in una o più creature all'interno dell'area d'effetto, creando indecisione ed incapacità ad eseguire azioni efficaci. Tutte le creature all'interno dell'area d'effetto possono effettuare un Tiro Salvezza contro incantesimi con una penalità di - 2. Se va a buon fine il tiro salvezza l'incantesimo non ha effetto sul bersaglio. L'incantesimo dura per due round più un round per ogni livello del lanciatore. Se il bersaglio fallisce il Tiro Salvezza andrà in berserk, rimarrà confuso o vagherà senza meta per la durata dell'incantesimo.
 Le creature erranti si allontanano il più possibile dal lanciatore, muovendosi nel modo che più gli si confà (i personaggi camminano, i pesci nuotano, i pipistrelli volano, ecc.). Le creature confuse che vengono attaccate percepiscono l'attaccante come un nemico e reagiscono in base ai propri istinti.~
-@43   = ~Aura di Protezione~
-@44   = ~Aura di Protezione (Evocazione/Attrazione)
+@43 = ~Aura di Protezione~
+@44 = ~Aura di Protezione (Evocazione/Attrazione)
 Livello: 7
 Sfera: Protezione
 Raggio di Azione: Componenti del Gruppo
@@ -250,8 +250,8 @@ Area d'effetto: 9 metri di raggio
 Tiro Salvezza: Nessuno
 
 Il lanciatore invoca il favore del suo Dio sui suoi compagni. Finché l'Aura di Protezione è efficace tutti i componenti del gruppo hanno la Classe Armatura di base a 1.~
-@45   = ~Rituale Oscuro~
-@46   = ~Rituale Oscuro (Alterazione)
+@45 = ~Rituale Oscuro~
+@46 = ~Rituale Oscuro (Alterazione)
 Livello: 9
 Sfera: Protezione
 Raggio di Azione: Tocco
@@ -261,8 +261,8 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 L'incantesimo fornisce la protezione delle divinità oscure. Questo incantesimo malvagio fornisce 12 Punti ferita e la Classe Armatura abbassata di 4. In conseguenza della natura malvagia dell'incantesimo si avrà la forza ridotta di 1 per tutta la durata dell'incantesimo.~
-@47   = ~Evocare Sirene~
-@48   = ~Evocare Sirene (Evocazione/Attrazione)
+@47 = ~Evocare Sirene~
+@48 = ~Evocare Sirene (Evocazione/Attrazione)
 Livello: 9
 Sfera: Attrazione
 Raggio di Azione: Campo visivo del lanciatore
@@ -272,8 +272,8 @@ Area d'effetto: Speciale
 Tiro Salvezza: Nessuno
 
 Una volta lanciato, quattro Sirene verranno dal Piano Etereo per servire il Druido con i loro più aggressivi comportamenti. Non si fermeranno davanti a nulla e distruggeranno tutti gli avversari che potranno.~
-@49   = ~Dardo Tuonante~
-@50   = ~Dardo Tuonante (Invocazione)
+@49 = ~Dardo Tuonante~
+@50 = ~Dardo Tuonante (Invocazione)
 Livello: 7
 Sfera: Combattimento
 Raggio di Azione: 45 metri
@@ -282,7 +282,7 @@ Tempo di Lancio: 5 Area d'effetto: Speciale
 Tiro Salvezza: 1/2
 
 Questo incantesimo è simile all'incantesimo Fulmine di Livello 3 del mago ma ogni creatura colpita dal dardo subisce 12d4 di danno elettrico ridotto a metà con un tiro salvezza andato a buon fine.~
-@51   = ~Maledizione di Selune (Invocazione)
+@51 = ~Maledizione di Selune (Invocazione)
 Livello: 7
 Sfera: Charme, Combattimento
 Raggio di Azione: Campo visivo del lanciatore
@@ -293,8 +293,8 @@ Tiro Salvezza: 1/2
 
 Questa potente magia invoca la furia di Selune sui nemici del chierico. L'incantesimo crea un'esplosione di freddo dalle fiamme blue che causa 6d10 di danno a tutte le creature all'interno dell'area d'effetto. Un Tiro Salvezza fallito causa nelle vittime il danno del pieno effetto dell'esplosione, laddove invece il tiro salvezza non fallisce si avrà solo la metà del danno.~
 
-@52   = ~Globo d'Aria~
-@53   = ~Globo d'Aria (Alterazione)
+@52 = ~Globo d'Aria~
+@53 = ~Globo d'Aria (Alterazione)
 Livello: 1
 Raggio di Azione: 12 metri
 Durata: 4 Round
@@ -304,8 +304,8 @@ Tiro Salvezza: Tiro salvezza contro Incantesimo
 
 Questo incantesimo permette al mago di mandare il bersaglio dentro una folata di fumo per un limitato periodo di tempo.~
 
-@54   = ~Schiaffo Tonante~
-@55   = ~Schiaffo Tonante (Evocazione/Attrazione)
+@54 = ~Schiaffo Tonante~
+@55 = ~Schiaffo Tonante (Evocazione/Attrazione)
 Livello: 2
 Raggio di Azione: 0
 Durata: 10 Round
@@ -314,19 +314,19 @@ Area d'effetto: Il lanciatore
 Tiro Salvezza: Nessuno
 
 Quando il lanciatore ha completato questo incantesimo, una luce verde circonda la sua mano. Quando al mago riesce un'attacco da mischia contro una creatura, la creatura è Stordita per 10 round e subisce danno.~
-@56   = ~Dardo di Ghiaccio~
-@57   = ~Dardo di Ghiaccio (Invocazione)
-Livello:  2
+@56 = ~Dardo di Ghiaccio~
+@57 = ~Dardo di Ghiaccio (Invocazione)
+Livello: 2
 Raggio di Azione: 9 metri
-Durata:  Istantanea
-Tempo di Lancio:  2
-Area d'effetto:  Una creatura
-Tiro Salvezza:  Nessuno
+Durata: Istantanea
+Tempo di Lancio: 2
+Area d'effetto: Una creatura
+Tiro Salvezza: Nessuno
 
 Una volta lanciato questo incantesimo una palla di ghiaccio gelida parte dalle mani del lanciatore e va veloce ed infallibile verso un bersaglio. Il Dardo di Ghiaccio dà 2d10 di danno senza Tiro Salvezza, tuttavia la magia o la resistenza al freddo può annullare i suoi effetti.~
-@58   = ~Globo minore dell'Oscurità~
-@59   = ~Globo minore dell'Oscurità (Alterazione)
-Livello:  2
+@58 = ~Globo minore dell'Oscurità~
+@59 = ~Globo minore dell'Oscurità (Alterazione)
+Livello: 2
 Raggio di Azione: 9 metri
 Durata: 1 turno
 Area d'effetto: 4,5 metri di raggio
@@ -334,18 +334,18 @@ Tempo di Lancio: 2 secondi
 Tiro Salvezza: Nessuno
 
 Questo incantesimo causa una totale ed impenetrabile oscurità nell'area d'effetto. L'infravisione è inutile. Né la normale luce e né la luce magica hanno effetto a meno che non si usi un incantesimo di "luce" o "luce costante". Nel primo caso, l'incantesimo Globo dell'Oscurità viene annullato dall'incantesimo di "luce", e viceversa.~
-@60   = ~Raggio di Gelo~
-@61   = ~Raggio di Gelo (Invocazione)
+@60 = ~Raggio di Gelo~
+@61 = ~Raggio di Gelo (Invocazione)
 Livello: 3
-Raggio di Azione:  18 metri
-Durata:  Istantanea
-Tempo di Lancio:  3
-Area d'effetto:  1 creatura
-Tiro Salvezza:  Speciale
+Raggio di Azione: 18 metri
+Durata: Istantanea
+Tempo di Lancio: 3
+Area d'effetto: 1 creatura
+Tiro Salvezza: Speciale
 
 Una volta lanciato questo incantesimo un getto di incredibile freddo gelido di 0,5 metri per 18 metri parte dalle mani del lanciatore. Il Raggio infligge 5d6 punti di danno ed è così gelido che la creatura oggetto del bersaglio deve effettuare un Tiro contro Incantesimo o essere incapace di muoversi o combattere nelle sue piene capacità fino a quando non si scrolla via il gelo. La resistenza al freddo o alla magia possono annullare questi effetti.~
-@62   = ~Esercito di una persona~
-@63   = ~Esercito di una persona (Illusione/Allucinazione)
+@62 = ~Esercito di una persona~
+@63 = ~Esercito di una persona (Illusione/Allucinazione)
 Livello: 3
 Raggio di Azione: 0
 Durata: 1 Turno
@@ -354,7 +354,7 @@ Area d'effetto: Se stesso
 Tiro Salvezza: Neg.
 
 Questo incantesimo dà al lanciatore le sembianze di un esercito creato da lui, sono molti ma in realtà è uno solo.~
-@64   = ~Forma di Spettro (Alterazione, Illusione)
+@64 = ~Forma di Spettro (Alterazione, Illusione)
 Livello: 3
 Raggio di Azione: 0
 Durata: 1 turno
@@ -363,18 +363,18 @@ Area d'effetto: Il lanciatore
 Tiro Salvezza: Nessuno
 
 Quando questo incantesimo viene lanciato, il mago e tutto il suo equipaggiamento diventano incorporei. Il lanciatore è soggetto solo alla magia, ad attacchi speciali, incluse armi +1 o superiori, o altrimenti da creature che sono capaci di colpirli solo con armi magiche. Il mago guadagna anche un 25% di resistenza alla magia. Finché il lanciatore ha la forma di spettro non può lanciare incantesimi.~
-@65   = ~Guarigione di Ettin~
-@66   = ~Guarigione di Ettin (Negromanzia)
+@65 = ~Guarigione di Ettin~
+@66 = ~Guarigione di Ettin (Negromanzia)
 Livello: 4
 Raggio di Azione: Lanciatore
-Durata:  10 round
+Durata: 10 round
 Tempo di Lancio: 7
-Area d'effetto:  Speciale
+Area d'effetto: Speciale
 Tiro Salvezza: Nessuno
 
 Ettin, un monaco che ha vissuto durante il Tempo degli Antichi, fu anche un abile erborista che trovò molte vie per guarire il corpo.~
-@67   = ~Frammento Ghiacciato di Ajandurah~
-@68   = ~Frammento Ghiacciato di Ajandurah (Evocazione/Attrazione)
+@67 = ~Frammento Ghiacciato di Ajandurah~
+@68 = ~Frammento Ghiacciato di Ajandurah (Evocazione/Attrazione)
 Livello: 4
 Raggio di Azione: Campo visivo del lanciatore
 Durata: 1 round
@@ -383,18 +383,18 @@ Area d'effetto: Una Creatura
 Tiro Salvezza: Nessuno
 
 Questo incantesimo evoca un frammento di ghiaccio magico ardente che vola infallibilmente sul bersaglio infliggendogli danno da freddo come se fossero 3 frecce incantate.~
-@69   = ~Meteore Esplosive di Melf~
-@70   = ~Meteore Esplosive di Melf (Invocazione)
+@69 = ~Meteore Esplosive di Melf~
+@70 = ~Meteore Esplosive di Melf (Invocazione)
 Livello: 5
-Raggio di Azione:  Solo il lanciatore
-Durata:  1 minuto
-Tempo di Lancio:  5
-Area d'effetto:  Speciale
-Tiro Salvezza:  Speciale
+Raggio di Azione: Solo il lanciatore
+Durata: 1 minuto
+Tempo di Lancio: 5
+Area d'effetto: Speciale
+Tiro Salvezza: Speciale
 
 Questo incantesimo è paragonabile all'incantesimo di terzo livello del mago Piccole Meteore di Melf, eccetto che i missili creati esplodono violentemente nell'impatto. Tutte le creature nel raggio di 6 metri dal punto dell'impatto saranno colpite dai frammenti ardenti subendo 2-12 punti di danno. Un Tiro Salvezza andato a buon fine permetterà alla creatura colpita di evitare effetti peggiori, riducendo il danno della metà.~
-@71   = ~Costrizione~
-@72   = ~Costrizione (Incantamento/Charme)
+@71 = ~Costrizione~
+@72 = ~Costrizione (Incantamento/Charme)
 Livello: 6
 Sfera: Creatura
 Raggio di Azione: Campo visivo del lanciatore
@@ -404,18 +404,18 @@ Area d'effetto: 1 singolo bersaglio
 Tiro Salvezza: Tiro salvezza contro Incantesimi
 
 Questo incantesimo avrà effetto sopra una singola creatura. Gli obiettivi sono tutte le creature umanoidi conosciute sulla faccia della terra. La persona riceve un Tiro Salvezza contro Incantesimi evitando l'effetto senza variamenti di saggezza. Se il Tiro Salvezza fallisce, il bersaglio considera il lanciatore come il suo nuovo padrone. Il lanciatore potrà dare al bersaglio ordini, e la persona charmata lo porterà con sé fuori dal pericolo il più velocemente possibile.~
-@73   = ~Corazza Anti-Magia~
-@74   = ~Corazza Anti-Magia (Scongiurazione)
+@73 = ~Corazza Anti-Magia~
+@74 = ~Corazza Anti-Magia (Scongiurazione)
 Livello: 6
 Raggio di Azione: Solo il lanciatore
-Durata:  2 turni
-Tempo di Lancio:  2
-Area d'effetto:  Solo il lanciatore
-Tiro Salvezza:  Nessuno
+Durata: 2 turni
+Tempo di Lancio: 2
+Area d'effetto: Solo il lanciatore
+Tiro Salvezza: Nessuno
 
 Con questo incantesimo, il lanciatore viene circondato da una barriera luccicante che si muove con lui. L'area all'interno della barriera è totalmente impenetrabile a tutto il magico e a tutti gli effetti di incantesimi magici, in questo modo si impedirà il passaggio di ogni tipo di incantesimo, sia esso dannoso o che dia beneficio. Allo stesso modo la barriera ostacola ogni tipo di lancio di incantesimi all'interno dei suoi confini e i magici effetti dell'incantesimo eventualmente lanciato dal mago andranno immediatamente dispersi cioè saranno nulli. Neanche soffio, sguardi fissi, attacchi vocali, e attacchi simili dalle forme speciali possono penetrare la barriera. Neppure l'incantesimo Dissolvi Magie riesce a rimuovere la barriera.~
-@77   = ~Sfera di Dispersione~
-@78   = ~Sfera di Dispersione di Energia (Scongiurazione)
+@77 = ~Sfera di Dispersione~
+@78 = ~Sfera di Dispersione di Energia (Scongiurazione)
 Livello: 7
 Raggio di Azione: 0
 Durata:180 secondi
@@ -424,8 +424,8 @@ Area d'effetto: Se stesso
 Tiro Salvezza: Nessuno
 
 Otiluke trae gran divertimento dal fatto che molti maghi usano il suo incantesimo della Sfera elastica quando infatti per lui era solo un test errato poiché in realtà voleva creare questa sua Sfera di dispersione di energia. Per agevolare tutti gli Arcimaghi avventurieri ha creato una potente Sfera di energia intorno al lanciatore che assorbe l'energia di tutti gli attacchi fatti contro il lanciatore rendendoli inoffensivi. Solo il più potente degli incantesimi o delle armi magiche potrebbero sperare di forare questa barriera che è molto utile per vagare nei piani o quando si cammina per qualche strada interna di Toril.~
-@79   = ~Charme di Massa~
-@80   = ~Charme di Massa (Incantamento/Charme)
+@79 = ~Charme di Massa~
+@80 = ~Charme di Massa (Incantamento/Charme)
 Livello: 7
 Raggio di Azione: Campo visivo del lanciatore
 Durata: 5 round
@@ -434,8 +434,8 @@ Area d'effetto: Sfera di raggio 6 metri
 Tiro Salvezza: Nessuno
 
 L'incantesimo ha effetto su tutte le persone all'interno di un'area di 6 metri da dove viene lanciato. Tutte le creature umanoidi saranno charmate per 30 secondi. Le creature umanoidi comprendono: umani, driadi, nani, elfi, folletti, gnomi, goblin, mezzelfi, hobgoblin ecc. ma non include creature più grandi come ad esempio gli orchi. Tutte le creature eseguono un Tiro Salvezza contro incantesimi per annullarne gli effetti.~
-@81   = ~Tempesta di Fuoco~
-@82   = ~Tempesta di Fuoco (Invocazione)
+@81 = ~Tempesta di Fuoco~
+@82 = ~Tempesta di Fuoco (Invocazione)
 Livello: 7
 Raggio di Azione: 80
 Durata: Istantaneo
@@ -444,8 +444,8 @@ Area d'effetto: Ampia
 Tiro Salvezza: Nessuno
 
 Per un Arcimago medio una Palla di fuoco non è sufficiente. Questo incantesimo dal tempo di Nethril riempie questo vuoto. Si richiede molta esperienza per lanciarlo in quanto risulta anche leggermente instabile. Gli effetti tuttavia sono veramente devastanti. All'inizio l'incantesimo potrebbe sembrare come una semplice palla di fuoco tuttavia le successive e multiple esplosioni, più o meno potenti, trasformano il campo di battaglia in una tempesta di fuoco.~
-@83   = ~Maledizione Errante di Vestcakes~
-@84   = ~Maledizione Errante di Vestcakes (Invocazione)
+@83 = ~Maledizione Errante di Vestcakes~
+@84 = ~Maledizione Errante di Vestcakes (Invocazione)
 Livello: 7
 Bersaglio: L'area
 Durata: 30 Secondi
@@ -453,8 +453,8 @@ Tempo di Lancio: 5
 Raggio di Azione: 45 metri
 
 Questa potente maledizione crea una nube di gas bollente che si espande intorno al campo di battaglia. La nuvola si espande con vigore e piccoli dardi luminosi vengono lanciati da ogni parte. La nube è talmente caricata di energia che ogni creatura prigioniera nella nuvola subirà continui danni in quanto l'energia viene scaricata sulla creatura stessa che si trova all'interno della nube fino alla fine della sua durata.~
-@85   = ~Combustione Infernale di Enigma~
-@86   = ~Combustione Infernale di Enigma (Invocazione)
+@85 = ~Combustione Infernale di Enigma~
+@86 = ~Combustione Infernale di Enigma (Invocazione)
 Livello: 8
 Raggio di Azione: 15 metri
 Durata: Istantanea
@@ -463,8 +463,8 @@ Area d'effetto: 9 metri di raggio
 Tiro Salvezza: 1/2
 
 La Combustione Infernale di Enigma è stata una creazione dello stesso potente ma folle Arcimago, meglio conosciuto come Arciastronomo, al tempo di Nethril. Questo mago aveva una passione per il fuoco e creò questo incantesimo per fornirsi di tutto ciò di cui aveva bisogno (é risaputo che questo mago è morto subito dopo aver portato a termine l'incantesimo probabilmente a seguito dei suoi effetti). Quasi tutti i moderni incantesimi di fuoco sono inclusi in questo incantesimo e come tale questa magia è in grado di incenerire molti e nobili avventurieri. Tuttavia, essendo un incantesimo imprevedibile, è considerato il primo esempio di magia che deve essere lanciata da lontano.~
-@87   = ~Follia~
-@88   = ~Follia (Incantamento/Charme)
+@87 = ~Follia~
+@88 = ~Follia (Incantamento/Charme)
 Livello: 8
 Raggio di Azione: 15 metri
 Durata: Permanente
@@ -473,8 +473,8 @@ Area d'effetto: Bersaglio Singolo
 Tiro Salvezza: Nessuno
 
 Questo incantesimo fa in modo che il Mago entri nella mente del suo bersaglio distruggendola completamente lasciando poi la sua vittima completamente folle ma ancora pericolosa. L'effetto è permanente e la vittima camminerà stordita o confusa oppure correrà impazzita verso la battaglia contro chiunque gli sarà vicino. Il procedimento di questo incantesimo è molto complicato quindi ci sarà solo il 50 per cento di possibilità che l'incantesimo funzioni.~
-@89   = ~Nube acida dannosa~
-@90   = ~Nube acida dannosa (Invocazione)
+@89 = ~Nube acida dannosa~
+@90 = ~Nube acida dannosa (Invocazione)
 Livello: 8
 Raggio di Azione: 91 metri
 Durata: 30 secondi
@@ -483,7 +483,7 @@ Area d'effetto: 12 metri di larghezza, 6 metri di altezza, 6 metri di profondità
 Tiro Salvezza: Vari
 
 Questo potente incantesimo invoca una nuvola acida dai vapori mortali. L'acidità dei vapori si estende anche quando è terminata la durata dell'incantesimo così il danno fatto ogni 5 secondi aumenta fino ad un massimo di 7d6. Chiunque venga intrappolato nei vapori e poi ne esce rimane comunque ricoperto di acido e continua a subire gli effetti come se fosse ancora all'interno della nube tossica. Questo effetto tuttavia può essere disperso se si è sufficientemente rapidi. Dal danno da acido è normalmente piuttosto facile salvarsi mentre la nube provoca un danno maggiore. Se una persona rimane intrappolata nei vapori c'è un 25% di possibilità che sarà ridotta in una pozza di melma, ciò è dovuto alla natura corrosiva dei vapori acidi (senza Tiro Salvezza).~
-@91   = ~Dardo Tuonante (Invocazione)
+@91 = ~Dardo Tuonante (Invocazione)
 Livello: 8
 Raggio di Azione: 137 metri
 Durata: Istantanea
@@ -492,28 +492,28 @@ Area d'effetto: Speciale
 Tiro Salvezza: Nessuno
 
 In alcuni circoli di Arcimaghi lanciare l'incantesimo Fulmine è considerato piuttosto patetico e chi lo fa viene considerato un mago scarso. Perciò è stato sviluppato il Dardo Tuonante. Sebbene si considera che il fulmine ha dei buoni risultati, il dardo è tuttavia di qualità superiore ed è in grado di fare una gran quantità di danni a chiunque ne venga colpito, incluso il lanciatore! Il dardo rimbalzerà intorno finché non svaniranno tutti i suoi poteri. Ci sono solo poche persone che possono resistere agli effetti di questo incantesimo.~
-@92   = ~Risucchio di Vita di Varashar~
-@93   = ~Risucchio di Vita di Varashar (Negromanzia)
-Livello:  8
-Raggio di Azione:  9 metri
-Durata:  Speciale
-Tempo di Lancio:   1
-Area d'effetto:  Bersaglio Singolo
-Tiro Salvezza:  Nessuno
+@92 = ~Risucchio di Vita di Varashar~
+@93 = ~Risucchio di Vita di Varashar (Negromanzia)
+Livello: 8
+Raggio di Azione: 9 metri
+Durata: Speciale
+Tempo di Lancio: 1
+Area d'effetto: Bersaglio Singolo
+Tiro Salvezza: Nessuno
 
 Il Re Varashar, un mago, secondo quanto si dice, ha usato questo incantesimo per allungarsi la vita tante volte durante i suoi 120 anni di regno.~
-@94   = ~Arco della Morte~
-@95   = ~Arco della Morte (Negromanzia)
+@94 = ~Arco della Morte~
+@95 = ~Arco della Morte (Negromanzia)
 Livello: 9
-Raggio di Azione:  15 metri
-Durata:  Istantanea
+Raggio di Azione: 15 metri
+Durata: Istantanea
 Tempo di Lancio: 8
 Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 Lanciando questo incantesimo, il mago provoca un forte, ma variabile, danno ad un singolo bersaglio.~
-@96   = ~Runa della Totale Negatività di Azuth~
-@97   = ~Runa della Totale Negatività di Azuth (Invocazione)
+@96 = ~Runa della Totale Negatività di Azuth~
+@97 = ~Runa della Totale Negatività di Azuth (Invocazione)
 Livello: 9
 Bersaglio: Un Bersaglio
 Area d'effetto: Una Creatura
@@ -523,8 +523,8 @@ Tempo di Lancio: 7
 E' probabile che, prima che fosse diventato il più grande mago di tutti i tempi, Azuth, il consorte della dea Mystra, creò questo incantesimo. Un devastante e potente incantesimo il quale può essere considerato più precisamente un incantesimo di distruzione divina per i suoi immensi poteri su tutti i piani. L'Arcimago (che deve avere un grande potere ed una notevole esperienza) distende la sua mano e richiama a sé molti poteri che comprendono l'intero universo. Enormi dardi di energia girano davanti ad esso e come il mago lancia l'incantesimo dei dardi di energia pura ondeggiano in alto andando poi a colpire e distruggere il bersaglio dell'incantesimo.
 
 Questo incantesimo supera la resistenza magica e non ha tiri salvezza.~
-@98   = ~Guarigione da veleno~
-@99   = ~Guarigione da veleno (Divinazione)
+@98 = ~Guarigione da veleno~
+@99 = ~Guarigione da veleno (Divinazione)
 Livello: 9
 Raggio di Azione: 9 metri
 Durata: Permanente
@@ -543,8 +543,8 @@ Quando è lanciato, questo incantesimo guarisce dall'avvelenamento e restituirà t
 
 STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
-Speciale:  Protegge contro colpi critici
+Classe Armatura Bonus: Nessuno
+Speciale: Protegge contro colpi critici
 Peso: 2
 
 Non utilizzabile da:
@@ -559,9 +559,9 @@ Speciale:
   Protezione contro colpo critico
   1 incantesimo extra dal livello 1 a 3
   Charma Animale a meno che non sia protetto dalle bacchette
-Raggio di Azione:  12 metri
-Area:  1 animale
-Durata:  10 turni
+Raggio di Azione: 12 metri
+Area: 1 animale
+Durata: 10 turni
 Peso: 2
 
 Utilizzabile solo da:
@@ -573,7 +573,7 @@ Questa corona proviene da Shar'DuKha, il Tempio Elementale. Creato per chi prati
 
 STATISTICHE:
 
-Classe Armatura Bonus:  +1
+Classe Armatura Bonus: +1
 Speciale:
   Resiste agli attacchi mentali
   +1 Tiri Salvezza
@@ -597,7 +597,7 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
+Classe Armatura Bonus: Nessuno
 Speciale:
   Protegge Contro i Colpi Critici
   Protezione dagli effetti della Paura
@@ -614,7 +614,7 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
+Classe Armatura Bonus: Nessuno
 Peso: 2~
 
 @1013 = ~La maggior parte dei diademi sono oggetti ornamentali, alcuni sono incantati dagli Alti Sacerdoti di Chanah'Rea. Si crede che la pietra che orna la parte frontale del diadema provenga proprio da Stone Hedge.
@@ -636,7 +636,7 @@ Utilizzabile solo da:
 @1017 = ~Questo è l'elmo usato da Ferthgil Trollslayer, figlio di Breachin Trollslayer. Questo elmo è stato dato a Ferthgil dal clan di Stoneheath durante la sua permanenza con loro dopo la morte di suo padre. Gulmoth Stonehearth, il mentore di Ferthgil posò la benedizione di Clanngedin sull'elmo, per aiutare Ferthgil a proteggere tutti i suoi pensieri, se ne avesse avuto veramente bisogno, soprattutto in battaglia.
 STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
+Classe Armatura Bonus: Nessuno
 Speciale:
   Protegge Contro i Colpi Critici
   Protegge da tutte le forme di charme, panico e blocco
@@ -662,7 +662,7 @@ Peso: 4
 Non utilizzabile da:
  Mago
  Bardo
- Ladro  Monaco
+ Ladro Monaco
  Kensai~
 
 @1020 = ~Elmo di Coraggio di Conchobhair Strongblade~
@@ -670,7 +670,7 @@ Non utilizzabile da:
 
  STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
+Classe Armatura Bonus: Nessuno
 Speciale:
   Protegge Contro i Colpi Critici
   Protegge dalla Paura e dagli Attacchi Mentali
@@ -689,7 +689,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Classe Armatura Bonus:  +1
+Classe Armatura Bonus: +1
 Speciale:
   Protegge Contro i Colpi Critici
   +20% di resistenza al Fuoco
@@ -707,7 +707,7 @@ Peso: 2
 
 STATISTICHE:
 
-Classe Armatura Bonus:  Nessuno
+Classe Armatura Bonus: Nessuno
 Speciale:
   Protegge Contro i Colpi Critici
   Protegge contro ogni forma di panico e risolleva il morale
@@ -753,9 +753,9 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Classe Armatura:  3
-Tiro Salvezza:  +1 bonus
-Peso:  4
+Classe Armatura: 3
+Tiro Salvezza: +1 bonus
+Peso: 4
 
 Utilizzabile solo da:
  Druido (singolo, duale, e multiclasse)~
@@ -764,10 +764,10 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  0
-Tiro Salvezza:  +3 bonus
+Classe Armatura: 0
+Tiro Salvezza: +3 bonus
 Speciale: Resistenza all'Elettricità
-Peso:  4 Richiede: 6 alla Forza
+Peso: 4 Richiede: 6 alla Forza
 
 Utilizzabile solo da:
  Druido~
@@ -816,9 +816,9 @@ Non utilizzabile da:
  Infiltrato
  Barbaro
  Addestratore di Animali
- Kensai  Mutaforma~
+ Kensai Mutaforma~
 
-@1044 = ~Armatura di Piastre Completa +1:  'Armatura d'Ebano'~
+@1044 = ~Armatura di Piastre Completa +1: 'Armatura d'Ebano'~
 @1046 = ~Lord Scrakin, Sommo Capo della Mano d'Ebano, portò questa armatura per quasi 50 anni. Si dice che in questo periodo abitasse in un castello nei pressi delle Montagne Ripide. Non si sa come la sua armatura sia arrivata in altre terre senza di lui, anche se la separazione dai due fu sicuramente insolita.
 
 STATISTICHE:
@@ -857,7 +857,7 @@ Peso: 20
 Richiede: 8 alla Forza
 
 Utilizzabile solo da:
- Paladino  Chierico (Solo Legale Buono)~
+ Paladino Chierico (Solo Legale Buono)~
 
 @1055 = ~Corazza di Maglia +2 'Corazza di Maglia Benedetta'~
 @1056 = ~Questa Corazza di Maglia +2 è spesso indossata da sacerdoti che sono ricercati per la loro fede. Quando indossata, il sacerdote è benedetto dall'incantesimo Aiuto.
@@ -926,7 +926,7 @@ Non utilizzabile da
 STATISTICHE:
 
 Classe Armatura: 3
-Speciale:  +15% a Nascondersi nelle Ombre
+Speciale: +15% a Nascondersi nelle Ombre
 
 Peso: 8
 
@@ -972,10 +972,10 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  5
+Classe Armatura: 5
 Resistenza alla Magia: +5%
-Tiro Salvezza:  +1 bonus
-Peso:  6
+Tiro Salvezza: +1 bonus
+Peso: 6
 
 Utilizzabile solo da:
  Skeezer Lumpkin VI~
@@ -985,10 +985,10 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  8
-Speciale:  1 Incantesimo Bonus al Livello 1 e al Livello 2
+Classe Armatura: 8
+Speciale: 1 Incantesimo Bonus al Livello 1 e al Livello 2
 
-Peso:  3
+Peso: 3
 
 Utilizzabile solo da:
  Mago (singolo, duale, e multiclasse]
@@ -999,10 +999,10 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  +2 Bonus
+Classe Armatura: +2 Bonus
 Resistenza alla Magia: +25%
-Tiro Salvezza:  +3 bonus
-Peso:  6
+Tiro Salvezza: +3 bonus
+Peso: 6
 
 Utilizzabile solo da:
   Mago (singolo, duale, e multiclasse)
@@ -1013,7 +1013,7 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  3
+Classe Armatura: 3
 Resistenza alla Magia: +50%
 Speciale:
   Immune agli incantesimi di 1°, 2° e 3° Livello
@@ -1021,7 +1021,7 @@ Speciale:
   Imposta l'Intelligenza e la Saggezza a 19
   Aumenta la velocità di lancio dell'incantesimo
   Immune a tutte le armi non magiche
-Peso:  6
+Peso: 6
 
 Utilizzabile da:
  Tutti~
@@ -1061,14 +1061,14 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  +5 Bonus
+Classe Armatura: +5 Bonus
 Resistenza alla Magia: +25%
-Tiro Salvezza:  +5 bonus
+Tiro Salvezza: +5 bonus
 Incantesimi Bonus: +3(Lv 1-5)
-                   +1(Lv 6-8)
-Costituzione: -30%  Speciale: Chi lo indossa non ha mai bisogno di dormire
+   +1(Lv 6-8)
+Costituzione: -30% Speciale: Chi lo indossa non ha mai bisogno di dormire
 
-Peso:  6
+Peso: 6
 
 Utilizzabile solo da:
   Mago (singolo, duale, e multiclasse)
@@ -1078,10 +1078,10 @@ Utilizzabile solo da:
 @1088 = ~Questo potente abito da Mago offre protezione da tutte le forme di attacco fisico e al tempo stesso incrementa la resistenza alla magia e il Tiro Salvezza. Data la natura del suo incantesimo, questo abito può essere indossato solamente da maghi di allineamento buono.
 STATISTICHE:
 
-Classe Armatura:  +2 Bonus
+Classe Armatura: +2 Bonus
 Resistenza alla Magia: +25%
-Tiro Salvezza:  +3 bonus
-Peso:  6
+Tiro Salvezza: +3 bonus
+Peso: 6
 
 Utilizzabile solo da:
  Mago (singolo, duale e multiclasse)
@@ -1109,7 +1109,7 @@ Classe Armatura Bonus:
   +3 contro armi perforanti e armi da lancio
 Speciale: Velocità
 
-Peso:  2
+Peso: 2
 
 Utilizzabile solo da:
  Paladino~
@@ -1119,9 +1119,9 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Classe Armatura:  +1 bonus
-Speciale:  +1 al carisma
-Peso:  3
+Classe Armatura: +1 bonus
+Speciale: +1 al carisma
+Peso: 3
 
 Utilizzabile solo da:
  Bardo~
@@ -1133,7 +1133,7 @@ STATISTICHE:
 Speciale:
   Fa sbiadire chi lo indossa del 75% (simile all'invisibilità)
 
-Peso:  3
+Peso: 3
 
 Non utilizzabile da:
  Ammazzastregoni~
@@ -1149,21 +1149,21 @@ Speciale:
   Aumenta la Segretezza
   Anti-Individuazione
 
-Peso:  3
+Peso: 3
 
 Utilizzabile solo da:
  Ranger~
 
 @1103 = ~Mantello di Protezione +3~
-@1104 = ~Mantello di Protezione +3:  'Il Mantello di Mystra'
+@1104 = ~Mantello di Protezione +3: 'Il Mantello di Mystra'
 Si dice che questi mantelli sono donati solo a pochi eletti di Mystra, i più meritevoli sacerdoti. Forse è dovuto a qualche sacerdote 'prematuramente' morto, ma alcuni mantelli sono stati visti al di fuori di queste organizzazioni religiose. Il mantello dà a chi lo indossa non solo bonus ad attacchi fisici e magici ma lo protegge anche dagli attacchi dei Non Morti.
  STATISTICHE:
 
-Classe Armatura:  +3 bonus
+Classe Armatura: +3 bonus
 Tiro Salvezza: +2 bonus
 Speciale: Protezione dai Non Morti
 
-Peso:  3
+Peso: 3
 
 Non utilizzabile da
  Ammazzastregoni~
@@ -1186,7 +1186,7 @@ Questo paio di guanti sono stati probabilmente creati in Kara-Tur con l'aiuto de
 
 STATISTICHE:
 
-Speciale:  +2 Bonus alla Destrezza
+Speciale: +2 Bonus alla Destrezza
 
 Peso: 2
 
@@ -1234,7 +1234,7 @@ STATISTICHE:
 Classe Armatura Bonus: +2
 Speciale:
   Aumenta il tempo di lancio degli incantesimi
- Peso:  2
+ Peso: 2
 
 Utilizzabile solo da:
  Mago
@@ -1245,8 +1245,8 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-THAC0:  +3 bonus
-Danno:  +3 bonus
+THAC0: +3 bonus
+Danno: +3 bonus
 Peso: 1
 
 Utilizzabile solo da:
@@ -1273,7 +1273,7 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Speciale:  aggiunge due incantesimi al 1° livello, uno al 2°, ed uno al 3°
+Speciale: aggiunge due incantesimi al 1° livello, uno al 2°, ed uno al 3°
 
 Utilizzabile da:
  Mago
@@ -1310,7 +1310,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Incantesimi:  aggiunge un incantesimo al 2°, 3°, e 4° Livello
+Incantesimi: aggiunge un incantesimo al 2°, 3°, e 4° Livello
 
 Utilizzabile da:
  Mago
@@ -1327,7 +1327,7 @@ Non utilizzabile da:
   Ammazzastregoni~
 
 @1140 = ~L'Anello del Viaggiatore~
-@1141 = ~Questo è stato l'anello personale del famoso bardo Morridin. E' mancante di una pietra. Quando gli si chiedeva in che modo l'anello perse la pietra, Morridin rispondeva semplicemente, "Cadde durante i miei viaggi."  Il suo anello divenne rapidamente conosciuto col nome di anello del viaggiatore. Poiché Morridin non ha mai detto cosa faceva esattamente questo anello, l'esatta natura degli incantesimi posti su di esso sono sconosciuti.
+@1141 = ~Questo è stato l'anello personale del famoso bardo Morridin. E' mancante di una pietra. Quando gli si chiedeva in che modo l'anello perse la pietra, Morridin rispondeva semplicemente, "Cadde durante i miei viaggi." Il suo anello divenne rapidamente conosciuto col nome di anello del viaggiatore. Poiché Morridin non ha mai detto cosa faceva esattamente questo anello, l'esatta natura degli incantesimi posti su di esso sono sconosciuti.
 
 STATISTICHE:
 
@@ -1349,12 +1349,12 @@ Utilizzabile solo da:
  Bardi~
 
 @1144 = ~Anello col Sigillo di Sukien~
-@1145 = ~Incantato con la magia dell'Alto Sacerdote del Tempio di Sukien, questo anello ce l'hanno tutti coloro  che proteggono il Tempio dalla malvagità.
+@1145 = ~Incantato con la magia dell'Alto Sacerdote del Tempio di Sukien, questo anello ce l'hanno tutti coloro che proteggono il Tempio dalla malvagità.
 
 STATISTICHE:
 
 Classe Armatura:+1 bonus
-Tiri Salvezza:  +2 bonus
+Tiri Salvezza: +2 bonus
 Speciale: Protezione dalla Pietrificazione
 
 Utilizzabile solo da:
@@ -1389,7 +1389,7 @@ Il tuo amico,
  Lennan~
 @1153 = ~Lord Daerthmac,
 
-Consacro il mio corpo, la mia anima e la mia mente al vostro servizio e vi amo come non ho mai amato nessuno.  Vostra per l'eternità,
+Consacro il mio corpo, la mia anima e la mia mente al vostro servizio e vi amo come non ho mai amato nessuno. Vostra per l'eternità,
  Clairis~
 @1154 = ~Amici,
 Siete stati valorosi e onorevoli. Con il vostro aiuto abbiamo fermato Lord Daerthmac che stava diffondendo terrore ovunque. Mi dispiace che molti di voi abbiano perso le loro vite. Non avrei mai dovuto mettervi in pericolo con una guerra che era solo mia. Ora vi lascio perché questo è il mio modo di vivere. Tuttavia, se avrò di nuovo altre avventure con un gruppo, speriamo che siano valorosi ed onorevoli come voi.
@@ -1440,9 +1440,9 @@ Utilizzabile da:
 STATISTICHE:
 
 Speciale: Costringe i nemici a scappare in preda alla paura, a meno che non gli riesca un Tiro Salvezza contro Incantesimi.
-Raggio di Azione:  30 metri
-Area:  6 metri di raggio
-Durata:  15 round
+Raggio di Azione: 30 metri
+Area: 6 metri di raggio
+Durata: 15 round
 
 Utilizzabile solo da:
  Bardo~
@@ -1458,7 +1458,7 @@ STATISTICHE:
 
 Speciale: Charme Distruttivo
 Raggio di Azione: 30 metri
-Area:  1 creatura
+Area: 1 creatura
 
 Utilizzabile solo da:
  Bardo~
@@ -1470,7 +1470,7 @@ STATISTICHE:
 
 Una volta letto raddoppia i punti esperienza
 Speciale: Una volta letto il libro scompare
-Uso:  Piazzare negli slot degli oggetti rapidi
+Uso: Piazzare negli slot degli oggetti rapidi
 
 Utilizzabile da:
  Mago (Solo di Classe Singola)~
@@ -1512,7 +1512,7 @@ CúChoinneach~
 
 STATISTICHE:
 
-Speciale:  Dà Protezione dall'Acido
+Speciale: Dà Protezione dall'Acido
 
 Utilizzabile solo da:
  Personaggi di Allineamento Neutrale~
@@ -1545,7 +1545,7 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Speciale:  Dà protezone dal Fuoco
+Speciale: Dà protezone dal Fuoco
  Utilizzabile solo da:
  Personaggi di Allineamento Malvagio~
 
@@ -1562,7 +1562,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Classe Armatura Bonus:  1
+Classe Armatura Bonus: 1
 Tiro salvezza contro Morte: +1 Speciale: +1 all'incantesimo di 1° Livello dei sacerdoti
 
 Non utilizzabile da:
@@ -1573,7 +1573,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Incantesimi:  aggiunge un incantesimo di 1° Livello e due di 2° e 3° Livello
+Incantesimi: aggiunge un incantesimo di 1° Livello e due di 2° e 3° Livello
 
 Utilizzabile da:
  Mago
@@ -1605,7 +1605,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno:  1D6
+Danno: 1D6
 Tipo di danno: proiettile (perforante)
 
 Speciale:
@@ -1623,9 +1623,9 @@ STATISTICHE:
 
 15% di possibilità che il possessore si possa pungere ed avere un danno da veleno di 4
 
-Danno:  1D6 (+6 da veleno, tiro salvezza per dimezzare i danni)
-Tipo di danno:  proiettile (perforante)
-Peso:  0
+Danno: 1D6 (+6 da veleno, tiro salvezza per dimezzare i danni)
+Tipo di danno: proiettile (perforante)
+Peso: 0
 Competenza: Arco~
 
 @1278 = ~Freccia Colpente~
@@ -1634,7 +1634,7 @@ Competenza: Arco~
 
 STATISTICHE:
 
-Danno:  1D6 + 2, +2D3 danno magico
+Danno: 1D6 + 2, +2D3 danno magico
 Tipo di danno: proiettile (perforante)
 Peso: 0
 Competenza: Arco~
@@ -1644,7 +1644,7 @@ Competenza: Arco~
 STATISTICHE:
 
 Danno: 1D8 + 1
-THAC0:  +1
+THAC0: +1
 Speciale: Dissolvi Magie
 Tipo di danno: proiettile (perforante)
 Competenza: Balestra~
@@ -1653,7 +1653,7 @@ Competenza: Balestra~
 @1287 = ~Questo proiettile ha un particolare effetto debilitante sulle sue vittime. Subito dopo l'impatto esplode in un'enorme palla di fuoco ed i suoi frammenti si cospargono per tutta l'area.
  STATISTICHE:
 
-Danno:  1D4 + 1
+Danno: 1D4 + 1
 Speciale:
   6D6 di esplosione subito dopo l'impatto (metà danni se si è protetti da salva contro incantesimi)
 Tipo di danno: proiettile (perforante)
@@ -1665,7 +1665,7 @@ Competenza: Fionda~
 STATISTICHE:
 
 Danno: 1D4 + 2
-THAC0:  +1
+THAC0: +1
 Speciale:
   2D3 alle creature non morte
 Tipo di danno: proiettile (perforante)
@@ -1681,12 +1681,12 @@ Utilizzabile solo da:
  Ranger (Solo Classe Singola)~
 
 @1295 = ~Stivali del Coraggio~
-@1296 = ~Stivali del Coraggio:  'Piedi Tonanti'
+@1296 = ~Stivali del Coraggio: 'Piedi Tonanti'
 La magia di questi stivali è stata specificatamente disegnata al fine di aiutare il possessore a resistere agli attacchi contundenti. Questi stivali rendono il possessore stabile sul terreno dandogli la capacità di resistere ai colpi.
 
 STATISTICHE:
 
-Classe Armatura bonus:  +5 contro armi contundenti
+Classe Armatura bonus: +5 contro armi contundenti
 Peso: 18
 
 Non utilizzabile da:
@@ -1696,13 +1696,13 @@ Non utilizzabile da:
  Ladro
  Ammazzastregoni~
 
-@1300 = ~ Questo scudo fu commissionato ad alcuni tra i più abili fabbri nani da Pellan di Tyr, un paladino famoso per un indiscutibile coraggio e una totale mancanza di buon senso. Avendo saputo che un drago rosso si aggirava nella campagna, Pellan montò sul suo cavallo e si precipitò per combatterlo. Il drago digerì benissimo sia Pellan che la sua corazza, mentre lo scudo gli provocò crampi fortissimi allo stomaco. Con un colpo di tosse riuscì a espellerlo, ma finì in mezzo alla sua pila di monete d'oro. Lì rimase nascosto per molti anni, finché il figlio di Pellan, un paladino piuttosto sveglio, lo ritrovò.
+@1300 = ~Questo scudo fu commissionato ad alcuni tra i più abili fabbri nani da Pellan di Tyr, un paladino famoso per un indiscutibile coraggio e una totale mancanza di buon senso. Avendo saputo che un drago rosso si aggirava nella campagna, Pellan montò sul suo cavallo e si precipitò per combatterlo. Il drago digerì benissimo sia Pellan che la sua corazza, mentre lo scudo gli provocò crampi fortissimi allo stomaco. Con un colpo di tosse riuscì a espellerlo, ma finì in mezzo alla sua pila di monete d'oro. Lì rimase nascosto per molti anni, finché il figlio di Pellan, un paladino piuttosto sveglio, lo ritrovò.
 La maestria con cui è costruito è esaltata da un incantesimo permanente di leggerezza, che rende lo scudo molto facile da indossare.
 
 STATISTICHE:
 
 Classe Armatura Bonus: 3
-Speciale:  +1 contro le Armi da Lancio
+Speciale: +1 contro le Armi da Lancio
 Peso: 10
 Richiede: 10 alla Forza
 
@@ -1822,15 +1822,15 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 2D5 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Speciale:
   +1 Classe Armatura bonus
   +1 alla Destrezza
 Tipo di danno: Tagliente
-Peso:  8
-Tipo di Competenza:  Katana
-Fattore Velocità:  2
-Tipo:  ad una mano
+Peso: 8
+Tipo di Competenza: Katana
+Fattore Velocità: 2
+Tipo: ad una mano
 Richiede: 6 alla Forza
 
 Non utilizzabile da:
@@ -1839,19 +1839,19 @@ Non utilizzabile da:
  Mago
  Addestratore di Animali~
 
-@1326 = ~Katana +3,  'Muramasa'~
+@1326 = ~Katana +3, 'Muramasa'~
 @1328 = ~Questa è un'eccellente katana. Tuttavia, qualcuno dice che sia "maledetta", altri pensano che questa spada abbia una mente propria, senza dubbio ci si annida una oscura mente avida. Quando questa spada viene a contatto con il sangue, il possessore ha la possibilità di cadere in uno stato di berserker, come se fosse completamente controllato dalla sua spada.
 
 STATISTICHE:
 
 Danno: 2D5 + 3
-THAC0:  +3 bonus
-Speciale:   40% di possibilità che il possessore cada in uno stato di berserk subito dopo un colpo andato a segno
-Tipo di danno:  Tagliente
-Peso:  10
-Tipo di Competenza:  Katana
-Fattore Velocità:  3
-Tipo:  ad una mano
+THAC0: +3 bonus
+Speciale: 40% di possibilità che il possessore cada in uno stato di berserk subito dopo un colpo andato a segno
+Tipo di danno: Tagliente
+Peso: 10
+Tipo di Competenza: Katana
+Fattore Velocità: 3
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -1866,15 +1866,15 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 3
-THAC0:  +3 bonus
+THAC0: +3 bonus
 Classe Armatura: +2 Bonus
 Speciale:
-  Lancia Charmare Persona o Mammiferi 3 volte al giorno   Stordisce il bersaglio a meno che non sia protetto da Incantesimo
-Tipo di danno:  tagliente
+  Lancia Charmare Persona o Mammiferi 3 volte al giorno Stordisce il bersaglio a meno che non sia protetto da Incantesimo
+Tipo di danno: tagliente
 Peso: 3
 Fattore Velocità: 2
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 8 alla Forza
 
 Utilizzabile solo da:
@@ -1885,18 +1885,18 @@ Utilizzabile solo da:
 
 STATISTICHE:
  Danno: 1D10 + 4 (+3 contro Tutti i Draghi)
-THAC0:  +4 (+3 contro Tutti i Draghi)
+THAC0: +4 (+3 contro Tutti i Draghi)
 Speciale:
   CA Bonus +1
   Si ha una piccola possibilità di uccidere qualsiasi drago al contatto
   50% di Resistenza al Fuoco e all'Acido
   Fornisce un'Aura di Protezione
   +2 Bonus ai tiri salvezza contro Soffio
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 15
 Fattore Velocità: 6
 Tipo di Competenza: Spada a due mani
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 14 alla Forza
 
 Utilizzabile solo da:
@@ -1907,15 +1907,15 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Danno:  1D8 + 2
-THAC0:  +2 bonus Speciale:
+Danno: 1D8 + 2
+THAC0: +2 bonus Speciale:
   Garantisce il 40% di resistenza all'elettricità
   Fa +1d4 di danno da Fulmine
 Tipo di danno: Tagliente
-Peso:  4
-Tipo di Competenza:  Scimitarra/Wakizashi/Ninja-To
-Fattore Velocità:  n/a
-Tipo:  ad una mano
+Peso: 4
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
+Fattore Velocità: n/a
+Tipo: ad una mano
 Richiede: 8 alla Forza
 
 Non utilizzabile da:
@@ -1928,15 +1928,15 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno:  1D10 + 2
-THAC0:   +2 bonus
-Speciale:   Danno bonus e THAC0 contro i Non Morti
-  Il possessore può lanciare "Intralciare" a piacimento   Immunità al Veleno
-Tipo di danno:  Tagliente
-Peso:  9
-Tipo di Competenza:  Spada a due mani
-Fattore Velocità:  6
-Tipo:  a due mani
+Danno: 1D10 + 2
+THAC0: +2 bonus
+Speciale: Danno bonus e THAC0 contro i Non Morti
+  Il possessore può lanciare "Intralciare" a piacimento Immunità al Veleno
+Tipo di danno: Tagliente
+Peso: 9
+Tipo di Competenza: Spada a due mani
+Fattore Velocità: 6
+Tipo: a due mani
 Richiede: 14 alla Forza
 
 Utilizzabile da:
@@ -1948,12 +1948,12 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Danno:  3D3
-Tipo di danno:  tagliente
+Danno: 3D3
+Tipo di danno: tagliente
 Peso: 4
 Fattore Velocità: 5
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -1968,14 +1968,14 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno:  3D3 + 2
-THAC0:  +2 bonus
+Danno: 3D3 + 2
+THAC0: +2 bonus
 Speciale: Aumenta gli Attacchi
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 3
 Fattore Velocità: 3
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -1990,13 +1990,13 @@ Non utilizzabile da:
 @1346 = ~Increspata e rossa questa sciabola è fredda al tocco; l'intaglio runico dice solo 'La Bruciante'. Il suo aspetto ha causato a molti avventurieri l'errore di considerarla come logorata, vecchia, o inutile. Gli avventurieri più curiosi che l'hanno tenuta a lungo sono rimasti sempre piacevolmente sorpresi. Questa sciabola Bruciante non si scalda finché non viene agitata ma, una volta in movimento, quando si dirige verso il bersaglio, diventa molto potente.
 STATISTICHE:
 
-Danno:  3D3 + 2, +2D3 Danno da Fuoco
-THAC0:  +2 bonus
-Tipo di danno:  tagliente
+Danno: 3D3 + 2, +2D3 Danno da Fuoco
+THAC0: +2 bonus
+Tipo di danno: tagliente
 Peso: 3
 Fattore Velocità: 3
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2007,25 +2007,25 @@ Non utilizzabile da:
  Paladino
  Addestratore di Animali~
 
-@1347 = ~Sciabola +3  'La Lama Fantasma'~
-@1348 = ~Ogni volta che gli spadaccini ruotano le loro lame possono vedere delle  leggere scie che seguono i movimenti della lama. Questa lama non è differente, ma rispetto alle altre lame sembra che queste scie spettrali possano anche tagliare. Questa sciabola è stata originariamente posseduta da un uomo sfacciato e pigro chiamato Bordger che, si dice, si intendeva di magia prima di diventare un ladro. Se fosse rimasto un mago l'incantesimo di queste lame gli sarebbe stato più utile.
+@1347 = ~Sciabola +3 'La Lama Fantasma'~
+@1348 = ~Ogni volta che gli spadaccini ruotano le loro lame possono vedere delle leggere scie che seguono i movimenti della lama. Questa lama non è differente, ma rispetto alle altre lame sembra che queste scie spettrali possano anche tagliare. Questa sciabola è stata originariamente posseduta da un uomo sfacciato e pigro chiamato Bordger che, si dice, si intendeva di magia prima di diventare un ladro. Se fosse rimasto un mago l'incantesimo di queste lame gli sarebbe stato più utile.
 
 STATISTICHE:
 
-Danno:  3D3 + 3, +2D3 Danno Tagliente
-THAC0:  +3 bonus
-Tipo di danno:  tagliente
+Danno: 3D3 + 3, +2D3 Danno Tagliente
+THAC0: +3 bonus
+Tipo di danno: tagliente
 Peso: 3
 Fattore Velocità: 3
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
  Bardo
  Chierico
  Druido
- Mago  Paladino
+ Mago Paladino
  Addestratore di Animali~
 
 @1349 = ~Sciabola +2 'La Scintillante'~
@@ -2033,13 +2033,13 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno:  3D3 + 3, +2D3 di Danno Elettrico
-THAC0:  +2 bonus
-Tipo di danno:  tagliente
+Danno: 3D3 + 3, +2D3 di Danno Elettrico
+THAC0: +2 bonus
+Tipo di danno: tagliente
 Peso: 3
 Fattore Velocità: 3
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2054,15 +2054,15 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno: 1D8 + 1 THAC0:  +5 bonus Speciale:
+Danno: 1D8 + 1 THAC0: +5 bonus Speciale:
    Bonus alla Destrezza +2
    CA bonus +3
    1 attacco extra per round
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 4
 Fattore Velocità: 2
 Tipo di Competenza: Spada Lunga
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 6 alla Forza
 
 Utilizzabile solo da:
@@ -2074,13 +2074,13 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 2D4 + 2
-THAC0:  +2
-Speciale:  il possessore è sotto l'effetto dell'incantesimo "Aiuto"
-Tipo di danno:  tagliente
+THAC0: +2
+Speciale: il possessore è sotto l'effetto dell'incantesimo "Aiuto"
+Tipo di danno: tagliente
 Peso: 12
 Fattore Velocità: 5
 Tipo di Competenza: Spada Bastarda
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 12 alla Forza
 
 Utilizzabile da:
@@ -2092,12 +2092,12 @@ Utilizzabile da:
 STATISTICHE:
 
 Danno: 1D10 + 1
-THAC0:  +1
-Tipo di danno:  tagliente
+THAC0: +1
+Tipo di danno: tagliente
 Peso: 7
 Fattore Velocità: 10
 Tipo di Competenza: Spada Lunga
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 11 alla Forza
 
 Non utilizzabile da:
@@ -2131,30 +2131,30 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 4
-THAC0:  +4
+THAC0: +4
 Speciale:
   Poteri Speciali contro i Non Morti
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 4
 Fattore Velocità: 3
 Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
-Tipo:  ad una mano
+Tipo: ad una mano
 
 Utilizzabile solo da:
   CúChoinneach~
 
 @1366 = ~La Vendetta di Nemmerle~
-@1368 = ~In una classica battaglia di buoni contro cattivi l'Arcimago Nemmerle resosi conto che la sconfitta era inevitabile radunò tutto ciò che rimaneva dei sui oscuri poteri magici per incantare il suo bastone e teletrasportarlo al suo apprendista principiante. Solo alla fine si rese conto di cosa era necessario per vincere, ma gli mancarono le forze. Si rese conto, però, che anche nella sconfitta si poteva ottenere qualche piccola vittoria. Il suo nemico Gensher incantò i propri abiti per resistere a qualsiasi colpo da schiacciamento e li assortì equamente di magia. Sapeva che la battaglia sarebbe terminata in un combattimento corpo a corpo e superò con l'astuzia il saggio malvagio. Il bastone emana una debolissima aura di alterazione. Subito dopo essere stato identificato, il bastone prende gli attributi di un'alabarda, consentendo così di fare danni da  taglio.
+@1368 = ~In una classica battaglia di buoni contro cattivi l'Arcimago Nemmerle resosi conto che la sconfitta era inevitabile radunò tutto ciò che rimaneva dei sui oscuri poteri magici per incantare il suo bastone e teletrasportarlo al suo apprendista principiante. Solo alla fine si rese conto di cosa era necessario per vincere, ma gli mancarono le forze. Si rese conto, però, che anche nella sconfitta si poteva ottenere qualche piccola vittoria. Il suo nemico Gensher incantò i propri abiti per resistere a qualsiasi colpo da schiacciamento e li assortì equamente di magia. Sapeva che la battaglia sarebbe terminata in un combattimento corpo a corpo e superò con l'astuzia il saggio malvagio. Il bastone emana una debolissima aura di alterazione. Subito dopo essere stato identificato, il bastone prende gli attributi di un'alabarda, consentendo così di fare danni da taglio.
 
 STATISTICHE:
 
 Danno: 2D6 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Peso: 4
 Fattore Velocità: 2
-Tipo di danno:  Tagliente
+Tipo di danno: Tagliente
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Non utilizzabile da:
  Monaco
@@ -2166,12 +2166,12 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 3
-THAC0:  +2
-Tipo di danno:  schiacciamento
+THAC0: +2
+Tipo di danno: schiacciamento
 Peso: 7
 Fattore Velocità: 3
 Tipo di Competenza: Mazzafrusto/Morning Star
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 13 alla Forza
 
 Non utilizzabile da:
@@ -2190,7 +2190,7 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 2d4 + 4
-THAC0:  +4
+THAC0: +4
 Speciale:
   +4 Punti Ferita Bonus
   1 Bonus a tutti i Tiri Salvezza
@@ -2212,11 +2212,11 @@ Utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 3 (+3 contro i Giganti, +2 contro tutti i Mostri)
-THAC0:  +3 bonus (+3 contro i Giganti, +2 contro tutti i Mostri)
-Tipo di danno:  tagliente
+THAC0: +3 bonus (+3 contro i Giganti, +2 contro tutti i Mostri)
+Tipo di danno: tagliente
 Peso: 5
 Fattore Velocità: 5
-Tipo di Competenza: Ascia Tipo:  ad una mano
+Tipo di Competenza: Ascia Tipo: ad una mano
 
 Utilizzabile solo da:
  Ferthgil Trollslayer~
@@ -2227,12 +2227,12 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 1D8 + 2
-THAC0:  +2 bonus
-Tipo di danno:  tagliente
+THAC0: +2 bonus
+Tipo di danno: tagliente
 Peso: 7
 Fattore Velocità: 6
 Tipo di Competenza: Ascia
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2249,19 +2249,19 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 2D4 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Speciale: +1 attacco per round
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 5
 Fattore Velocità: 2
 Tipo di Competenza: Ascia
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
  Druido
- Chierico  Mago
- Ladro ~
+ Chierico Mago
+ Ladro~
 
 @1384 = ~Il Palo-Ascia~
 @1385 = ~Ascia di Guerra Nanica +2 'La Morte Urlante'~
@@ -2270,11 +2270,11 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D12
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 20
 Fattore Velocità: 12
 Tipo di Competenza: Ascia
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 13 alla Forza
 
 Non utilizzabile da:
@@ -2290,16 +2290,16 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Speciale:
-  1D6 di Danno dovuto a seguito del colpo dato con un movimento rotatorio del braccio (Tiro salvezza contro morte per dimezzare i danni)   Destrezza +1 bonus
+  1D6 di Danno dovuto a seguito del colpo dato con un movimento rotatorio del braccio (Tiro salvezza contro morte per dimezzare i danni) Destrezza +1 bonus
   Incrementa gli Attacchi
   Armatura +1 bonus
-Tipo di danno:  tagliente
+Tipo di danno: tagliente
 Peso: 20
 Fattore Velocità: 10
 Tipo di Competenza: Ascia
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 15 alla Forza
 
 Utilizzabile solo da:
@@ -2311,12 +2311,12 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 1D8 + 3 (+5 contro i Non Morti)
-THAC0:  +3 bonus (+5 contro i Non Morti)
-Tipo di danno:  tagliente
+THAC0: +3 bonus (+5 contro i Non Morti)
+Tipo di danno: tagliente
 Peso: 5
 Fattore Velocità: 5
 Tipo di Competenza: Ascia
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2327,24 +2327,24 @@ Non utilizzabile da:
  Monaco
  Addestratore di Animali~
 
-@1390 = ~Il Palo-Ascia +2  'Kilther'~
+@1390 = ~Il Palo-Ascia +2 'Kilther'~
 @1391 = ~Kilther fu il generale dei "Cavalieri d'Argento". Quando furono presi sotto il controllo di un'immensa cavalleria di Orchi, tutti i cavalieri volevano cavalcare contro gli orchi. Ma Kilther glielo proibì. Forzò i suoi uomini ad agire a piedi, equipaggiati con l'arco, l'alabarda o il palo-ascia. Kilther scelse questa particolare stratagemma. Quando il combattimento iniziò, i pali-asce contennero l'avanzata degli orchi. Una pioggia di frecce furono lanciate e le asce indussero gli orchi a fermarsi. Mille Orchi persero la vita mentre i Cavalieri d'Argento ebbero una perdita di soli diciannove uomini, compreso Kilther.
 
 STATISTICHE:
 
-Danno:  1D12 + 2
-THAC0:  +2 bonus
-Tipo di danno:  tagliente
+Danno: 1D12 + 2
+THAC0: +2 bonus
+Tipo di danno: tagliente
 Peso: 10
 Fattore Velocità: 9
 Tipo di Competenza: Ascia
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 12 alla Forza
 
 Non utilizzabile da:
  Druido
  Chierico
- Mago   Ladro
+ Mago Ladro
  Monaco
  Addestratore di Animali~
 
@@ -2354,7 +2354,7 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 1
-THAC0:  +2
+THAC0: +2
 Tipo di danno(da mischia): tagliente
 Tipo di danno(da lancio): proiettile (perforante)
 Speciale:
@@ -2375,16 +2375,16 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Danno:  2D2 + 2  THAC0:  +2
+Danno: 2D2 + 2 THAC0: +2
 Classe Armatura: +2 Bonus
 Speciale:
   Crea Pozioni di Guarigione e Antidoti
   Protegge dagli incantesimi di 1° Livello
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 3
 Fattore Velocità: 6
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile solo da:
  Mago (singolo, duale, e multiclasse)
@@ -2396,7 +2396,7 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 2d4 + 3
-THAC0:  +3
+THAC0: +3
 Speciale: +1 CA
 Peso: 3
 Fattore Velocità: 1
@@ -2413,15 +2413,15 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Danno:  2D8 + 1
-THAC0:  +1
+Danno: 2D8 + 1
+THAC0: +1
 Speciale:
   Immunità alle Armi Non Magiche
-Tipo di danno:  perforante
+Tipo di danno: perforante
 Peso: 5
 Fattore Velocità: 8
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile solo da:
  Mago (singolo, duale, e multiclasse)
@@ -2432,31 +2432,31 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Danno: 1D8 + 3, in più 6D6 di Danno Elettrico (dimezza il danno se si è protetti dalle bacchette) THAC0:  +3
+Danno: 1D8 + 3, in più 6D6 di Danno Elettrico (dimezza il danno se si è protetti dalle bacchette) THAC0: +3
 Speciale:
   CA Bonus +2
   lancia "Fulmine" 3 volte al giorno
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 3
 Fattore Velocità: 2
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile solo da:
  Druidi~
 
-@1407 = ~Bastone Ferrato +2  'Frantumatore di Ossa'~
+@1407 = ~Bastone Ferrato +2 'Frantumatore di Ossa'~
 @1408 = ~Mentre la maggior parte dei maghi sono piccoli di statura, Estaroil era magro perfino in confronto ad un mago. Allora il suo maestro, l'Arcimago Heleth Otrad, temeva che il suo studente non sarebbe mai sopravvissuto a nessun tipo di combattimento e creò per lui questo bastone. Heleth lo incantò dandogli l'abilità di mandare in frantumi le ossa all'impatto col bastone, rallentando i nemici e dando al fragile Estaroil qualche possibilità di vittoria. Nel corso del tempo Estaroil stava diventando non solo un potente mago, ma cresceva anche di statura ed alla fine scartò il dono fattogli dal suo maestro. Da allora Estaroil non è stato più visto.
 
 STATISTICHE:
 
-Danno: 1D6 + 2 THAC0:  +2
+Danno: 1D6 + 2 THAC0: +2
 Speciale: Il bersaglio è rallentato a meno che non si protetto da incantesimo
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 4
 Fattore Velocità: 3
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Non utilizzabile da:
  Monaco~
@@ -2468,16 +2468,16 @@ Questo bastone è stato usato da una tribù di Druidi per molti secoli. Passato di
 STATISTICHE:
 
 Danno: 2D3 + 2
-THAC0:  +2 bonus
+THAC0: +2 bonus
 Speciale:
   +15 Punti Ferita massimi
   Conoscenza +20 di bonus
   +3 al 1° Livello di incantesimi del Sacerdote
 Peso: 2
 Fattore Velocità: 2
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile da:
  Solo il Druido~
@@ -2488,13 +2488,13 @@ Utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 3
-THAC0:  +2
+THAC0: +2
 Speciale: Sconosciuto
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 4
 Fattore Velocità: 1
 Tipo di Competenza: Bastone
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile solo da:
  Gnomo che usa la magia~
@@ -2505,12 +2505,12 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: 1D4 + 2 (+3 contro umanoidi giganti)
-THAC0:  +1 Bonus (+3 contro umanoidi giganti)
-Tipo di danno:  schiacciamento
+THAC0: +1 Bonus (+3 contro umanoidi giganti)
+Tipo di danno: schiacciamento
 Peso: 8
 Fattore Velocità: 2
 Tipo di Competenza: Martello da Guerra
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2526,7 +2526,7 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 3d6 + 1
-THAC0:  +4
+THAC0: +4
 Tipo di danno: Schiacciamento
 Peso: 44
 Fattore Velocità: 2
@@ -2547,12 +2547,12 @@ Non utilizzabile da
 STATISTICHE:
 
 Danno: 1D6 + 2, +1d6 di danno da fuoco
-THAC0:  +2
-Tipo di danno:  perforante
+THAC0: +2
+Tipo di danno: perforante
 Peso: 3
 Fattore Velocità: 3
 Tipo di Competenza: Lancia
-Tipo:  a due mani
+Tipo: a due mani
 
 Non utilizzabile da:
  Chierico
@@ -2567,12 +2567,12 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 3
-THAC0:  +3 bonus
-Tipo di danno:  perforante
+THAC0: +3 bonus
+Tipo di danno: perforante
 Peso: 5
 Fattore Velocità: 5
 Tipo di Competenza: Lancia
-Tipo:  a due mani
+Tipo: a due mani
 
 Non utilizzabile da:
  Chierico
@@ -2587,18 +2587,18 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 2
-THAC0:  +1
-Tipo di danno:  schiacciamento
+THAC0: +1
+Tipo di danno: schiacciamento
 Peso: 8
 Fattore Velocità: 6
 Tipo di Competenza: Mazza
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
  Druido
  Mago
- Ladro  Monaco
+ Ladro Monaco
  Addestratore di Animali~
 
 @1429 = ~Mazza +1 di Otho Truehammer potenziata~
@@ -2607,11 +2607,11 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 2, +2 contro i Non Morti
-THAC0:  +1, +2 contro i Non Morti Tipo di danno:  schiacciamento
+THAC0: +1, +2 contro i Non Morti Tipo di danno: schiacciamento
 Peso: 8
 Fattore Velocità: 6
 Tipo di Competenza: Mazza
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 10 alla Forza
 
 Non utilizzabile da:
@@ -2626,22 +2626,22 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno:  1D6 + 2, +2 contro i Non Morti
-THAC0:  +2
+Danno: 1D6 + 2, +2 contro i Non Morti
+THAC0: +2
 Speciale:
   Distruggerà molti Non Morti al contatto
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 8
 Fattore Velocità: 6
 Tipo di Competenza: Mazza
-Tipo:  ad una mano
+Tipo: ad una mano
 
 Non utilizzabile da:
  Qualsiasi personaggio di allineamento malvagio
  Druido
  Mago
  Ladro
- Monaco  Addestratore di Animali~
+ Monaco Addestratore di Animali~
 
 @1433 = ~Mazza del Pentimento~
 @1434 = ~Questa mazza fu creata da un fanatico di nome Parias. Con lei progettò di "portare agli infedeli la luce della fede". Tuttavia, fu così tanto zelante nella sua missione, che uccise sua moglie e la sua famiglia perché non "agivano nella luce della fede". Dopo aver realizzato cosa aveva fatto, sotterrò la mazza, confessò il suo peccato, e morì di fame piangendo sulla tomba di sua moglie. Successivamente la mazza fu poi ritrovata e chiamata la Mazza del Pentimento in seguito alle afflizioni dolorose di Parias dovute appunto alle sue colpe.
@@ -2649,15 +2649,15 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 4
-THAC0:  +3
+THAC0: +3
 Speciale:
   Danno Bonus contro i Non Morti
   Attacco Extra
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 7
 Fattore Velocità: 6
 Tipo di Competenza: Mazza
-Tipo:  ad una mano
+Tipo: ad una mano
 
 Utilizzabile solo da:
  Jet'laya~
@@ -2668,14 +2668,14 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno (mischia): 1d4 + 3 (più 8 danni da veleno, tiro salvezza per dimezzare i danni) Danno (missile): 1d4 + 3 (più 8 danni da veleno, tiro salvezza per dimezzare i danni)
-THAC0:  +3 bonus
+THAC0: +3 bonus
 Speciale:
-  5% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza)   Ritorna quando lanciato
-Tipo di danno:  perforante
+  5% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza) Ritorna quando lanciato
+Tipo di danno: perforante
 Peso: 2
 Fattore Velocità: 0
 Tipo di Competenza: Pugnale
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Non utilizzabile da:
@@ -2688,7 +2688,7 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1d4 + 3
-THAC0:  +3 bonus
+THAC0: +3 bonus
 Speciale:
   30 danni da veleno ogni 15 secondi a meno che non riesca un tiro salvezza contro veleno con un -4 di penalità
   Rende la vittima inconsapevole per 30 secondi
@@ -2696,7 +2696,7 @@ Speciale:
 Peso: 1
 Fattore Velocità: 2
 Tipo di Competenza: Pugnale
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Utilizzabile da:
@@ -2709,12 +2709,12 @@ Utilizzabile da:
 STATISTICHE:
 
 Danno: 1D4 + 4
-THAC0:  +4 bonus
+THAC0: +4 bonus
 Speciale: Vampirica
 Peso: 1
 Fattore Velocità: 0
 Tipo di Competenza: Pugnale
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Utilizzabile da:
@@ -2726,14 +2726,14 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Danno:  1D4 (+6 da veleno, tiro salvezza per dimezzare i danni)
+Danno: 1D4 (+6 da veleno, tiro salvezza per dimezzare i danni)
 Speciale:
   15% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza)
-Tipo di danno:  Perforante
+Tipo di danno: Perforante
 Peso: 2
 Fattore Velocità: 0
 Tipo di Competenza: Pugnale
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Non utilizzabile da:
@@ -2746,11 +2746,11 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: +1 (da proiettile)
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Speciale: 1 attacco extra per round Peso: 5
 Fattore Velocità: 3
 Tipo di Competenza: Balestra
-Tipo:  a due mani
+Tipo: a due mani
 
 Utilizzabile solo da:
  Keiria Silverstring~
@@ -2761,11 +2761,11 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Danno: +1 (da proiettile)
-THAC0:  +1 bonus
+THAC0: +1 bonus
 Peso: 6
 Fattore Velocità: 2
 Tipo di Competenza: Balestra
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 8 alla Forza
 
 Non utilizzabile da:
@@ -2782,11 +2782,11 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: +2
-THAC0:  +2
+THAC0: +2
 Peso: 2
 Fattore Velocità: 3
 Tipo di Competenza: Arco Corto
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 3 alla Forza
 
 Non utilizzabile da:
@@ -2799,12 +2799,12 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: +3
-THAC0:  +3
+THAC0: +3
 Speciale: +1 alla Forza
 Peso: 2
 Fattore Velocità: 5
 Tipo di Competenza: Arco Lungo
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 6 alla Forza
 
 Non utilizzabile da:
@@ -2822,11 +2822,11 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: +3
-THAC0:  +2 Speciale: Crea Frecce da Combattimento
+THAC0: +2 Speciale: Crea Frecce da Combattimento
 Peso: 2
 Fattore Velocità: 5
 Tipo di Competenza: Arco Lungo
-Tipo:  a due mani
+Tipo: a due mani
 Richiede: 6 alla Forza
 
 Utilizzabile solo da:
@@ -2837,11 +2837,11 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Effetto:  Stordisce il Bersaglio
-Speciale:  30% di possibilità di avvelenare il bersaglio
-Raggio di Azione:  30 metri
-Area:  1 creatura
-Durata:  10 round
+Effetto: Stordisce il Bersaglio
+Speciale: 30% di possibilità di avvelenare il bersaglio
+Raggio di Azione: 30 metri
+Area: 1 creatura
+Durata: 10 round
 
 Utilizzabile da:
  Bardo
@@ -2852,8 +2852,8 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Danno:  2d4
-Speciale:  Possibilità di danno aggiuntivo per i successivi 3 round.
+Danno: 2d4
+Speciale: Possibilità di danno aggiuntivo per i successivi 3 round.
 
 Utilizzabile da:
  Bardo
@@ -2864,9 +2864,9 @@ Utilizzabile da:
 
 STATISTICHE:
 
-Speciale:  Palla di Energia Elettrica Danno:  6D6 + 6
+Speciale: Palla di Energia Elettrica Danno: 6D6 + 6
 Raggio di Azione: 30 metri
-Area:  18 metri
+Area: 18 metri
 
 Utilizzabile da:
  Bardo
@@ -2878,13 +2878,13 @@ Utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 1
-THAC0:  +1
-Tipo di danno:  schiacciamento (mischia), perforante (proiettile)
+THAC0: +1
+Tipo di danno: schiacciamento (mischia), perforante (proiettile)
 Danno da Veleno: 2 punti per round, fino ad un totale di 30 danni
 Peso: 4
 Fattore Velocità: 1
 Tipo di Competenza: Clava
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Utilizzabile solo da:
@@ -2895,12 +2895,12 @@ Utilizzabile solo da:
 
 STATISTICHE:
 
-Danno:  1D6
-Tipo di danno:  schiacciamento
+Danno: 1D6
+Tipo di danno: schiacciamento
 Peso: 3
 Fattore Velocità: 4
 Tipo di Competenza: Clava
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Non utilizzabile da:
@@ -2910,15 +2910,15 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Danno: 1D6 + 3 THAC0:  +3
+Danno: 1D6 + 3 THAC0: +3
 Speciale:
   +1 a tutti i tiri Salvezza
    Subito dopo aver preso l'arma il personaggio è offuscato come per l'incantesimo di 2° livello del mago
-Tipo di danno:  schiacciamento
+Tipo di danno: schiacciamento
 Peso: 3
 Fattore Velocità: 2
 Tipo di Competenza: Clava
-Tipo:  ad una mano
+Tipo: ad una mano
 Richiede: 3 alla Forza
 
 Non utilizzabile da:
@@ -2940,7 +2940,7 @@ Non utilizzabile da:
 @2007 = ~[GLANMARIE 3]~ [GLANM03]
 @2008 = ~Conchobhair Strongblade~
 
-@2046 = ~Conchobhair è originario di Waterdeep. E' il più giovane di quattro fratelli dell'autorevole famiglia Strongblade a Waterdeep. Essendo il più piccolo, tuttavia, ereditò poco dei molti beni della famiglia, così partì con l'intenzione di vivere da solo fino ai vent'anni. Iniziò come paladino e facendo, per pochi anni, la vita virtuosa del paladino. Tuttavia, alla fine si sentì troppo limitato nella disciplina tipica del paladino e desiderò qualcosa che gli desse più gloria. In uno dei suoi viaggi da Waterdeep a Baldur's Gate, incontrò un guerriero di nome Fergus Ravenskill. Fergus era un coraggiosissimo guerriero che aveva passato la maggior parte dei suoi cinquantasei anni di età sui campi di battaglia. Conchobhair viaggiò alcuni mesi con Ravenskill e i suoi racconti di grandi battaglie lo affascinarono molto. Tuttavia, dal momento in cui Fergus gli parlò del suo incontro con un terribile drago, Conchobhair decise di cambiare vita. Chiese a Fergus di addestrarlo e di insegnargli ogni cosa che sapeva. 
+@2046 = ~Conchobhair è originario di Waterdeep. E' il più giovane di quattro fratelli dell'autorevole famiglia Strongblade a Waterdeep. Essendo il più piccolo, tuttavia, ereditò poco dei molti beni della famiglia, così partì con l'intenzione di vivere da solo fino ai vent'anni. Iniziò come paladino e facendo, per pochi anni, la vita virtuosa del paladino. Tuttavia, alla fine si sentì troppo limitato nella disciplina tipica del paladino e desiderò qualcosa che gli desse più gloria. In uno dei suoi viaggi da Waterdeep a Baldur's Gate, incontrò un guerriero di nome Fergus Ravenskill. Fergus era un coraggiosissimo guerriero che aveva passato la maggior parte dei suoi cinquantasei anni di età sui campi di battaglia. Conchobhair viaggiò alcuni mesi con Ravenskill e i suoi racconti di grandi battaglie lo affascinarono molto. Tuttavia, dal momento in cui Fergus gli parlò del suo incontro con un terribile drago, Conchobhair decise di cambiare vita. Chiese a Fergus di addestrarlo e di insegnargli ogni cosa che sapeva.
 Passò sei anni addestrandosi con Fergus diventando così un esperto guerriero e lavorò persino come mercenario, presso qualche grande città della zona. Ma, un fatidico giorno, Fergus e Conchobhair si trovarono faccia a faccia con un Drago Rosso. Era un drago che Fergus aveva già incontrato una ventina di anni prima, e che Fergus aveva ferito accecandolo da un occhio. Il drago cercava la sua rivincita ed ora gli si presentava l'opportunità di vendicarsi. Fergus rimase ucciso nell'attacco, a causa di dolorose e multiple ferite da scottatura provocate dalle fiamme del drago e Conchobhair invece riuscì a fuggire subendo qualche piccola scottatura e alcune ferite lievi. Da quel giorno Conchobhair giurò di distruggere ogni drago che potesse minacciare i reami e di trovare il drago che uccise il suo amico e mentore.~
 @2047 = ~Cooshee~
 @2048 = ~CúChoinneach~
@@ -3021,7 +3021,7 @@ Tuttavia Ferthgil, aveva ereditato da suo padre il desiderio di girare il mondo,
 @2260 = ~Shar Nadal~
 @2261 = ~Skeezer Lumpkin VI~
 
-@2286 = ~Skeezer Lumpkin VI viene dalla colonia di gnomi di Krynn, sotto il Monte Nevermind. Tuttavia, gli ultimi 75 anni li ha vissuti ad Athakla nell'Amn. Ha passato la vita intera provando a scoprire la perfetta combinazione tra tecnologia e magia. Ha la sensazione che questo potrebbe essere l'ultimo tassello della natura. Fino ad ora ancora non ci è riuscito. Si è dissociato dalla normale vita di uno gnomo per cercare di comprendere la grande magia. Fino ad ora le sue creazioni hanno avuto un limitato successo. Una delle sue prime creazioni che fece quando era ancora ragazzo era chiamata "L'Automatica (Sistematica) Scopa Articolata a Frange Guidata da una Torta di Latta che Lancia le Uova" (o abbreviato ASSAFGTLLU). Voleva far volare le uova ad alta velocità. Le uova dovevano essere portate al seguito sennò l'invenzione suddetta non aveva senso. Uno dei più grandi desideri di Skeezer è di vedere in tutta Faerun le bellissime Navi Volanti. Ha già sentito molti racconti di simili navi e non desidera altro 
+@2286 = ~Skeezer Lumpkin VI viene dalla colonia di gnomi di Krynn, sotto il Monte Nevermind. Tuttavia, gli ultimi 75 anni li ha vissuti ad Athakla nell'Amn. Ha passato la vita intera provando a scoprire la perfetta combinazione tra tecnologia e magia. Ha la sensazione che questo potrebbe essere l'ultimo tassello della natura. Fino ad ora ancora non ci è riuscito. Si è dissociato dalla normale vita di uno gnomo per cercare di comprendere la grande magia. Fino ad ora le sue creazioni hanno avuto un limitato successo. Una delle sue prime creazioni che fece quando era ancora ragazzo era chiamata "L'Automatica (Sistematica) Scopa Articolata a Frange Guidata da una Torta di Latta che Lancia le Uova" (o abbreviato ASSAFGTLLU). Voleva far volare le uova ad alta velocità. Le uova dovevano essere portate al seguito sennò l'invenzione suddetta non aveva senso. Uno dei più grandi desideri di Skeezer è di vedere in tutta Faerun le bellissime Navi Volanti. Ha già sentito molti racconti di simili navi e non desidera altro
 che vedere queste Navi Volanti a Baldur's Gate.~
 @2287 = ~Spec~
 @2288 = ~Thomic~
@@ -3039,12 +3039,12 @@ che vedere queste Navi Volanti a Baldur's Gate.~
 //@2301 = ~Uscita~
 @2302 = ~Fortezza di Daerthmac~
 
-@2304 = ~Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa 
+@2304 = ~Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa
 incontrerete ancora tu e i tuoi compagni durante i vostri viaggi. Hai paura che la risposta arriverà presto, appena passerai nel "Lato Oscuro della Costa della Spada".~
 @2305 = ~Il Lato Oscuro della Costa della Spada~
 @2306 = ~Il Lato Oscuro della Costa della Spada
 
-Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa 
+Come se i problemi che affliggono la Costa della Spada non fossero già sufficienti, inizi a chiederti se non ce ne siano altri. Un senso di orrore ed inquietudine monta improvvisamente attraversando il tuo corpo e hai la sensazione che forze oscure siano al lavoro in questa piccola parte di Faerun che tu chiami casa. Tutt'ora non hai compreso bene cosa siano queste forze oscure. Forse l'incontro con l'elfo Jet'Laya, che viene da Cormanthor può darti delle risposte... Forse, o forse no. E' possibile che tu sia stato guidato fino a questo punto. Ma, per quale ragione e perché tu? Chi o cosa ha scelto proprio la tua faccia per affrontare l'oscurità? Un'oscurità che in qualche modo sembra concentrata su buona parte della linfa vitale tra Baldur's Gate e Amn, la principale popolosa arteria sulla Costa della Spada, la via della Costa. A te, che hai passato la maggior parte dei tuoi anni all'interno delle sicure mura di Candlekeep, sembra che tu sia stato spinto a forza nell'oscuro ignoto. Non sapete cosa
 incontrerete ancora tu e i tuoi compagni durante i vostri viaggi. Hai paura che la risposta arriverà presto, appena passerai nel "Lato Oscuro della Costa della Spada".~ [DSOTSC]
 
 //Suoni Creatura
@@ -3301,8 +3301,8 @@ Utilizzabile solo da:
 @20642 = ~Cosa è stato?~ [BUB42]
 @20643 = ~Per tutti gli inferni, l'ho mancato!~ [BUB43]
 @20644 = ~Preso!~ [BUB44]
-@20645 = ~Se gli domandi del suo passato, BUB SNIKT ti dice che è nato a Daggerford, una città situata sulla Via del Commercio tra Baldur's Gate e Waterdeep. Settimo figlio di un contadino, Bub crebbe nella fattoria e divenne il figlio favorito di suo padre. Durante la sua gioventù, da suo padre imparò i segreti della vita campestre, e dai suoi fratelli imparò l'abilità della caccia. Ben presto ci si accorse delle notevoli capacità di Bub, visto che usava l'arco tanto bene almeno quanto un arciere del castello. Ogni anno la vita campestre passava sempre uguale. Occasionalmente, lui con i suoi fratelli e la locale Milizia si trovavano a difendere le fattorie di Daggerford dai tentativi di saccheggio dalle Lucertole provenienti dalla Palude delle Lucertole, ma la maggior parte del tempo passava monotono. Un giorno però ci fu un fatto particolare che cambiò le cose. Bub fece la sua regolare visita a Daggerford per vendere i prodotti della fattoria al mercato della città, quando ci fu una chiamata alle armi. Un 
-gruppo di orchi erano passati attraverso la Foresta Velata provenienti dall'Alta Brughiera ed avevano attaccato le fattorie locali che avevano trovato lungo la loro marcia, uccidendo i contadini e depredando tutto il cibo che potevano prendere. La fattoria di Bub si trovava proprio da quelle parti e, preoccupato per la vita dei suoi familiari, Bub lasciò la carovana dove c'era la merce che avrebbe dovuto vendere in città e, cavalcando al galoppo, si trovò alle porte della sua fattoria in brevissimo tempo. Quando arrivò nella sua fattoria, i suoi fratelli erano nel pieno del combattimento con diversi orchi, la grandezza dei quali impressionò notevolmente Bub. E' in quel momento che si ricordò dell'Amuleto che gli aveva donato suo padre quando era bambino. Il simbolo di Tempus infatti era appeso al suo collo. Bub non ricorda molto bene quello che successe quel giorno, ma quando si unì ai fratelli in battaglia, fu come se fosse stato benedetto e sembrava avere la velocità e la forza di dieci uomini. Nessun orco 
+@20645 = ~Se gli domandi del suo passato, BUB SNIKT ti dice che è nato a Daggerford, una città situata sulla Via del Commercio tra Baldur's Gate e Waterdeep. Settimo figlio di un contadino, Bub crebbe nella fattoria e divenne il figlio favorito di suo padre. Durante la sua gioventù, da suo padre imparò i segreti della vita campestre, e dai suoi fratelli imparò l'abilità della caccia. Ben presto ci si accorse delle notevoli capacità di Bub, visto che usava l'arco tanto bene almeno quanto un arciere del castello. Ogni anno la vita campestre passava sempre uguale. Occasionalmente, lui con i suoi fratelli e la locale Milizia si trovavano a difendere le fattorie di Daggerford dai tentativi di saccheggio dalle Lucertole provenienti dalla Palude delle Lucertole, ma la maggior parte del tempo passava monotono. Un giorno però ci fu un fatto particolare che cambiò le cose. Bub fece la sua regolare visita a Daggerford per vendere i prodotti della fattoria al mercato della città, quando ci fu una chiamata alle armi. Un
+gruppo di orchi erano passati attraverso la Foresta Velata provenienti dall'Alta Brughiera ed avevano attaccato le fattorie locali che avevano trovato lungo la loro marcia, uccidendo i contadini e depredando tutto il cibo che potevano prendere. La fattoria di Bub si trovava proprio da quelle parti e, preoccupato per la vita dei suoi familiari, Bub lasciò la carovana dove c'era la merce che avrebbe dovuto vendere in città e, cavalcando al galoppo, si trovò alle porte della sua fattoria in brevissimo tempo. Quando arrivò nella sua fattoria, i suoi fratelli erano nel pieno del combattimento con diversi orchi, la grandezza dei quali impressionò notevolmente Bub. E' in quel momento che si ricordò dell'Amuleto che gli aveva donato suo padre quando era bambino. Il simbolo di Tempus infatti era appeso al suo collo. Bub non ricorda molto bene quello che successe quel giorno, ma quando si unì ai fratelli in battaglia, fu come se fosse stato benedetto e sembrava avere la velocità e la forza di dieci uomini. Nessun orco
 sopravvisse. Ogni sua freccia andava a segno ed ogni movimento della sua spada non trovava resistenza. Nello spazio di un'ora tutti gli orchi furono uccisi, ed i suoi fratelli poterono solo assistere sbalorditi. Poco dopo il combattimento, Bub cambiò. Perse tutti gli interessi per la vita rurale e campestre e decise di intraprendere la vita da avventuriero. Prima si diresse verso Baldur's Gate poi a Beregost dove mise la sua persona al servizio e nella protezione dei locai contadini dagli orchi e da ogni altro pericolo.~
 
 @20701 = ~Ben incontrato, viaggiatore. Come posso aiutarti?~ [KEIRI01]
@@ -3320,7 +3320,7 @@ sopravvisse. Ogni sua freccia andava a segno ed ogni movimento della sua spada n
 @20713 = ~L'aria è molto... tonificante qui.~ [KEIRI13]
 @20714 = ~Ho paura che adesso che siamo entrati, non sarà facile uscire da questo posto.~ [KEIRI14]
 @20716 = ~E' difficile separare le ombre dall'oscurità qui.~ [KEIRI16]
-@20717 = ~Preparati.~  [KEIRI17]
+@20717 = ~Preparati.~ [KEIRI17]
 @20718 = ~Che c'é?~ [KEIRI18]
 @20719 = ~E' bello essere ancora in viaggio.~ [KEIRI19]
 @20720 = ~Starò attenta.~ [KEIRI20]
@@ -3437,7 +3437,7 @@ sopravvisse. Ogni sua freccia andava a segno ed ogni movimento della sua spada n
 @21045 = ~Ti spaccherei la testa se non fossi un codardo.~ [THORF45]
 @21046 = ~Ha ha ha ha ha!~ [THORF46]
 @21047 = ~La-la-la-la la-la-la.~ [THORF47]
-@21050 = ~Quando gli domandi del suo passato, THORFINN HAUSKLUNIFF ti spiega che la sua infanzia non è iniziata sotto una buona stella. Nato nell'Isola di Ruathym, fu ben presto offerto in sacrificio ad Auriel. I sacerdoti di Auriel misero Thorfinn su una zattera quando era solo un bambino, e lo spedirono, abbandonandolo, nel Mare senza Tracce. In quel momento le acque erano calme ma le correnti trascinarono la zattera a sud in direzione del lato ovest delle Isole Moonshae. Fu trascinato per diversi giorni finché la zattera raggiunse le coste dell'Isola di Moray. Thorfinn fu trovato esausto appoggiato ad una roccia sulle spiagge dell'Isola e soccorso da alcuni pescatori che lo accettarono nelle loro terre e da cui fu poi allevato. All'inizio, lavorò come marinaio e pescatore con la barca della sua famiglia adottiva, imparando praticamente tutto sulla vita marina. Iniziò ad avere interessi per la marina militare e quando raggiunse sedici anni, chiese alla sua famiglia adottiva il permesso di arruolarsi. 
+@21050 = ~Quando gli domandi del suo passato, THORFINN HAUSKLUNIFF ti spiega che la sua infanzia non è iniziata sotto una buona stella. Nato nell'Isola di Ruathym, fu ben presto offerto in sacrificio ad Auriel. I sacerdoti di Auriel misero Thorfinn su una zattera quando era solo un bambino, e lo spedirono, abbandonandolo, nel Mare senza Tracce. In quel momento le acque erano calme ma le correnti trascinarono la zattera a sud in direzione del lato ovest delle Isole Moonshae. Fu trascinato per diversi giorni finché la zattera raggiunse le coste dell'Isola di Moray. Thorfinn fu trovato esausto appoggiato ad una roccia sulle spiagge dell'Isola e soccorso da alcuni pescatori che lo accettarono nelle loro terre e da cui fu poi allevato. All'inizio, lavorò come marinaio e pescatore con la barca della sua famiglia adottiva, imparando praticamente tutto sulla vita marina. Iniziò ad avere interessi per la marina militare e quando raggiunse sedici anni, chiese alla sua famiglia adottiva il permesso di arruolarsi.
 Durante la sua adolescenza, perfezionò le sue già grandi capacità di esperto navigatore ed imparò l'arte della scherma. Divenne abile nell'uso dell'ascia, e capace di maneggiare le spade grandi con una facilità ed un'abilità ancora non perduta tra i pirati ed i ladri delle Isole Moonshae. La spada a due mani divenne la sua arma preferita. Dopo cinque anni, Thorfinn decise di lasciare la marina e di viaggiare. Successivamente lavorò come mercenario assunto dai mercanti a cui serviva protezione per viaggiare per le strade con le loro carovane. Alla fine, i viaggi di Thorfinn lo condussero sulla Costa della Spada e poi nella città di Baldur's Gate.~
 
 
