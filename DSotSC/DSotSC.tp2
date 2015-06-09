@@ -63,6 +63,8 @@ END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
 	OUTER_SPRINT door_Nashkel ~DOOR3704~
 END
 
+INCLUDE ~DSotSC/lib/macros.tpa~
+
 ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 	COPY - ~weidu.conf~ ~weidu.conf~
 		READ_2DA_ENTRY 0 2 3 "lang_dir"
@@ -147,29 +149,29 @@ DSC036  value~
 UNLESS ~DSC001~
 
 APPEND ~interdia.2da~
-~CUCHOINNEACH  BCUCHOI   NONE
+~DSBARDO       BBARDO    NONE
+DSBUB         BBUB      NONE
 CONCHOBHAIR   BCONCHO   NONE
+CUCHOINNEACH  BCUCHOI   NONE
 FERTHGIL      BFERTHG   NONE
-SKEEZER       BSKEEZE   NONE
-BARDO         BBARDO    NONE
-KEIRIA        BKEIRIA   NONE
 JETLAYA       BJETLA    NONE
-BUB           BBUB      NONE
+KEIRIA        BKEIRIA   NONE
+SKEEZER       BSKEEZE   NONE
 THORFINN      BTHORF    NONE~
-UNLESS ~CUCHOINNEACH~
+UNLESS ~JETLAYA~
 COPY_EXISTING ~interdia.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
 
 APPEND ~pdialog.2da~
-~JETLAYA      JETLAP             JETLAJ            ***            ***                ***                ***                 ***
-CUCHOINNEACH CUCHOINP           CUCHOINJ          ***            ***                ***                ***                 ***
-CONCHOBHAIR  CONCHOP            CONCHOJ           ***            ***                ***                ***                 ***
-FERTHGIL     FERTHP             FERTHJ            ***            ***                ***                ***                 ***
-SKEEZER      SKEEZP             SKEEZJ            ***            ***                ***                ***                 ***
-DSBARDO      BARDOP             BARDOJ            ***            ***                ***                ***                 ***
+~DSBARDO      BARDOP             BARDOJ            ***            ***                ***                ***                 ***
 DSBUB        BUBP               BUBJ              ***            ***                ***                ***                 ***
+CONCHOBHAIR  CONCHOP            CONCHOJ           ***            ***                ***                ***                 ***
+CUCHOINNEACH CUCHOINP           CUCHOINJ          ***            ***                ***                ***                 ***
+FERTHGIL     FERTHP             FERTHJ            ***            ***                ***                ***                 ***
+JETLAYA      JETLAP             JETLAJ            ***            ***                ***                ***                 ***
 KEIRIA       KEIRIP             KEIRIJ            ***            ***                ***                ***                 ***
+SKEEZER      SKEEZP             SKEEZJ            ***            ***                ***                ***                 ***
 THORFINN     THORFP             THORFJ            ***            ***                ***                ***                 ***~
 UNLESS ~JETLAYA~
 COPY_EXISTING ~pdialog.2da~ ~override~
@@ -183,6 +185,294 @@ LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSBELT01~ tooltips = ~12080~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSDAGG01~ tooltips = ~15529 15527~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSSWD02~ tooltips = ~@1339 12119~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSTEARS~ tooltips = ~@1330 12099~ END
+
+COPY_EXISTING ~INTERACT.2DA~ ~override~
+	~DEATH.2DA~ ~override~
+	PRETTY_PRINT_2DA
+	REPLACE_TEXTUALLY ~IMOEN ~ ~IMOEN2 ~
+	PRETTY_PRINT_2DA
+BUT_ONLY
+
+ACTION_DEFINE_ARRAY npc_labels_array BEGIN IMOEN2 DSBARDO DSBUB CONCHOBHAIR CUCHOINNEACH FERTHGIL JETLAYA KEIRIA SKEEZER THORFINN END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY interact_patch_table BEGIN
+	1 , KIVAN , DSBUB => i
+	2 , KIVAN , FERTHGIL => i
+	3 , KIVAN , KEIRIA => c
+	4 , KIVAN , THORFINN => c
+	5 , ALORA , DSBARDO => i
+	6 , ALORA , CONCHOBHAIR => i
+	7 , ALORA , JETLAYA => i
+	8 , MINSC , DSBUB => i
+	9 , MINSC , FERTHGIL => c
+	10 , DYNAHEIR , IMOEN2 => s
+	11 , DYNAHEIR , CONCHOBHAIR => c
+	12 , DYNAHEIR , THORFINN => i
+	13 , YESLICK , CUCHOINNEACH => i
+	14 , YESLICK , FERTHGIL => c
+	15 , CORAN , JETLAYA => c
+	16 , CORAN , KEIRIA => c
+	17 , AJANTIS , DSBUB => i
+	18 , AJANTIS , CONCHOBHAIR => c
+	19 , AJANTIS , JETLAYA => s
+	20 , KHALID , FERTHGIL => i
+	21 , KHALID , JETLAYA => s
+	22 , JAHEIRA , DSBARDO => c
+	23 , JAHEIRA , DSBUB => i
+	24 , JAHEIRA , CONCHOBHAIR => i
+	25 , JAHEIRA , FERTHGIL => i
+	26 , JAHEIRA , SKEEZER => c
+	27 , GARRICK , IMOEN2 => s
+	28 , GARRICK , DSBUB => i
+	29 , GARRICK , KEIRIA => s
+	30 , GARRICK , THORFINN => c
+	31 , SAFANA , DSBUB => c
+	32 , SAFANA , CONCHOBHAIR => i
+	33 , SAFANA , KEIRIA => i
+	34 , SAFANA , THORFINN => c
+	35 , FALDORN , DSBARDO => c
+	36 , FALDORN , CONCHOBHAIR => i
+	37 , FALDORN , FERTHGIL => i
+	38 , FALDORN , JETLAYA => c
+	39 , FALDORN , KEIRIA => c
+	40 , FALDORN , SKEEZER => c
+	41 , BRANWEN , DSBUB => i
+	42 , BRANWEN , CONCHOBHAIR => i
+	43 , BRANWEN , FERTHGIL => c
+	44 , BRANWEN , JETLAYA => i
+	45 , BRANWEN , THORFINN => c
+	46 , QUAYLE , DSBARDO => i
+	47 , QUAYLE , DSBUB => c
+	48 , QUAYLE , FERTHGIL => i
+	49 , QUAYLE , SKEEZER => c
+	50 , QUAYLE , THORFINN => i
+	51 , XAN , CONCHOBHAIR => i
+	52 , XAN , CUCHOINNEACH => i
+	53 , XAN , KEIRIA => c
+	54 , XAN , THORFINN => i
+	55 , SKIE , DSBARDO => c
+	56 , SKIE , DSBUB => c
+	57 , SKIE , CONCHOBHAIR => c
+	58 , SKIE , SKEEZER => c
+	59 , ELDOTH , FERTHGIL => i
+	60 , ELDOTH , JETLAYA => c
+	61 , ELDOTH , KEIRIA => c
+	62 , ELDOTH , THORFINN => i
+	63 , XZAR , IMOEN2 => s
+	64 , XZAR , DSBARDO => s
+	65 , XZAR , DSBUB => s
+	66 , XZAR , CONCHOBHAIR => s
+	67 , XZAR , CUCHOINNEACH => s
+	68 , XZAR , FERTHGIL => s
+	69 , XZAR , JETLAYA => s
+	70 , XZAR , KEIRIA => s
+	71 , XZAR , SKEEZER => s
+	72 , XZAR , THORFINN => s
+	73 , MONTARON , DSBARDO => i
+	74 , MONTARON , CUCHOINNEACH => i
+	75 , MONTARON , SKEEZER => i
+	76 , MONTARON , THORFINN => i
+	77 , TIAX , DSBARDO => i
+	78 , TIAX , DSBUB => i
+	79 , TIAX , CUCHOINNEACH => s
+	80 , TIAX , JETLAYA => s
+	81 , TIAX , SKEEZER => s
+	82 , KAGAIN , DSBARDO => i
+	83 , KAGAIN , CUCHOINNEACH => s
+	84 , KAGAIN , JETLAYA => i
+	85 , KAGAIN , SKEEZER => i
+	86 , SHARTEEL , DSBUB => i
+	87 , SHARTEEL , CONCHOBHAIR => i
+	88 , SHARTEEL , JETLAYA => c
+	89 , SHARTEEL , KEIRIA => c
+	90 , EDWIN , DSBARDO => i
+	91 , EDWIN , FERTHGIL => i
+	92 , EDWIN , THORFINN => i
+	93 , VICONIA , CUCHOINNEACH => s
+	94 , VICONIA , JETLAYA => i
+	95 , VICONIA , SKEEZER => c
+	//96 , IMOEN2 ,  => 
+	97 , DSBARDO , KIVAN => c
+	98 , DSBARDO , ALORA => i
+	99 , DSBARDO , DYNAHEIR => s
+	100 , DSBARDO , CORAN => c
+	101 , DSBARDO , SAFANA => s
+	102 , DSBARDO , FALDORN => s
+	103 , DSBARDO , MONTARON => i
+	104 , DSBARDO , TIAX => i
+	105 , DSBARDO , KAGAIN => i
+	106 , DSBARDO , EDWIN => i
+	107 , DSBARDO , CONCHOBHAIR => c
+	108 , DSBARDO , CUCHOINNEACH => s
+	109 , DSBARDO , JETLAYA => c
+	110 , DSBARDO , SKEEZER => s
+	111 , DSBARDO , THORFINN => c
+	112 , DSBUB , MINSC => i
+	113 , DSBUB , DYNAHEIR => s
+	114 , DSBUB , KHALID => i
+	115 , DSBUB , JAHEIRA => s
+	116 , DSBUB , SAFANA => c
+	117 , DSBUB , QUAYLE => i
+	118 , DSBUB , SKIE => s
+	119 , DSBUB , TIAX => i
+	120 , DSBUB , SHARTEEL => c
+	121 , DSBUB , VICONIA => s
+	122 , DSBUB , IMOEN2 => s
+	123 , DSBUB , DSBARDO => c
+	124 , DSBUB , FERTHGIL => c
+	125 , DSBUB , KEIRIA => c
+	126 , DSBUB , THORFINN => i
+	127 , CONCHOBHAIR , ALORA => i
+	128 , CONCHOBHAIR , DYNAHEIR => c
+	129 , CONCHOBHAIR , YESLICK => c
+	130 , CONCHOBHAIR , AJANTIS => c
+	131 , CONCHOBHAIR , JAHEIRA => i
+	132 , CONCHOBHAIR , SAFANA => s
+	133 , CONCHOBHAIR , FALDORN => i
+	134 , CONCHOBHAIR , BRANWEN => s
+	135 , CONCHOBHAIR , XAN => i
+	136 , CONCHOBHAIR , SKIE => s
+	137 , CONCHOBHAIR , SHARTEEL => i
+	138 , CONCHOBHAIR , VICONIA => s
+	139 , CONCHOBHAIR , IMOEN2 => c
+	140 , CONCHOBHAIR , JETLAYA => s
+	141 , CONCHOBHAIR , KEIRIA => c
+	142 , CUCHOINNEACH , XAN => i
+	143 , CUCHOINNEACH , MONTARON => i
+	144 , CUCHOINNEACH , FERTHGIL => i
+	145 , FERTHGIL , KIVAN => i
+	146 , FERTHGIL , MINSC => c
+	147 , FERTHGIL , YESLICK => c
+	148 , FERTHGIL , CORAN => i
+	149 , FERTHGIL , KHALID => i
+	150 , FERTHGIL , JAHEIRA => i
+	151 , FERTHGIL , ELDOTH => s
+	152 , FERTHGIL , MONTARON => s
+	153 , FERTHGIL , KAGAIN => s
+	154 , FERTHGIL , EDWIN => s
+	155 , FERTHGIL , IMOEN2 => s
+	156 , FERTHGIL , DSBARDO => c
+	157 , FERTHGIL , CONCHOBHAIR => c
+	158 , FERTHGIL , CUCHOINNEACH => i
+	159 , FERTHGIL , THORFINN => c
+	160 , JETLAYA , KIVAN => c
+	161 , JETLAYA, ALORA => s
+	162 , JETLAYA, YESLICK => c
+	163 , JETLAYA, CORAN => i
+	164 , JETLAYA, KHALID => c
+	165 , JETLAYA, FALDORN => s
+	166 , JETLAYA , BRANWEN => i
+	167 , JETLAYA , ELDOTH => i
+	168 , JETLAYA , XZAR => s
+	169 , JETLAYA , KAGAIN => i
+	170 , JETLAYA , IMOEN2 => s
+	171 , JETLAYA , DSBARDO => c
+	172 , JETLAYA , DSBUB => i
+	173 , JETLAYA , CONCHOBHAIR => i
+	174 , JETLAYA , CUCHOINNEACH => s
+	175 , JETLAYA , FERTHGIL => i
+	176 , JETLAYA , KEIRIA => i
+	177 , JETLAYA , SKEEZER => c
+	178 , KEIRIA , KIVAN => c
+	179 , KEIRIA , CORAN => i
+	180 , KEIRIA , JAHEIRA => s
+	181 , KEIRIA , GARRICK => c
+	182 , KEIRIA , SAFANA => i
+	183 , KEIRIA , FALDORN => c
+	184 , KEIRIA , XAN => s
+	185 , KEIRIA , ELDOTH => c
+	186 , KEIRIA , MONTARON => s
+	187 , KEIRIA , KAGAIN => s
+	188 , KEIRIA , VICONIA => s
+	189 , KEIRIA , IMOEN2 => s
+	190 , KEIRIA , DSBUB => c
+	191 , KEIRIA , JETLAYA => i
+	192 , KEIRIA , SKEEZER => c
+	193 , KEIRIA , THORFINN => c
+	194 , SKEEZER , YESLICK => i
+	195 , SKEEZER , SAFANA => s
+	196 , SKEEZER , FALDORN => c
+	197 , SKEEZER , SKIE => c
+	198 , SKEEZER , XZAR => s
+	199 , SKEEZER , MONTARON => i
+	200 , SKEEZER , KAGAIN => i
+	201 , SKEEZER , VICONIA => s
+	202 , SKEEZER , CUCHOINNEACH => s
+	203 , SKEEZER , FERTHGIL => i
+	204 , SKEEZER , JETLAYA => c
+	205 , SKEEZER , KEIRIA => c
+	206 , SKEEZER , THORFINN => s
+	207 , THORFINN , MINSC => c
+	208 , THORFINN , DYNAHEIR => s
+	209 , THORFINN , YESLICK => c
+	210 , THORFINN , SAFANA => c
+	211 , THORFINN , FALDORN => s
+	212 , THORFINN , BRANWEN => s
+	213 , THORFINN , XAN => i
+	214 , THORFINN , ELDOTH => i
+	215 , THORFINN , MONTARON => i
+	216 , THORFINN , SHARTEEL => c
+	217 , THORFINN , EDWIN => i
+	218 , THORFINN , VICONIA => s
+	219 , THORFINN , FERTHGIL => c
+	220 , THORFINN , JETLAYA => s
+	221 , THORFINN , SKEEZER => i
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY death_patch_table BEGIN
+	1 , AJANTIS , DSBUB => 1
+	2 , GARRICK , KEIRIA => 1
+	3 , FALDORN , KEIRIA => 1
+	4 , BRANWEN , FERTHGIL => 1
+	5 , BRANWEN , THORFINN => 1
+	6 , SHARTEEL , DSBUB => 1
+	7 , SHARTEEL , CONCHOBHAIR => 1
+	8 , DSBARDO , ALORA => 1
+	9 , DSBARDO , MONTARON => 1
+	10 , DSBARDO , TIAX => 1
+	11 , DSBARDO , KAGAIN => 1
+	12 , DSBARDO , EDWIN => 1
+	13 , DSBUB , MINSC => 1
+	14 , DSBUB , KHALID  => 1
+	15 , DSBUB , QUAYLE  => 1
+	16 , DSBUB , THORFINN => 1
+	17 , CONCHOBHAIR , CORAN => 1
+	18 , CONCHOBHAIR , XAN => 1
+	19 , CONCHOBHAIR , TIAX => 1
+	20 , CONCHOBHAIR , CUCHOINNEACH => 1
+	21 , FERTHGIL , MINSC => 1
+	22 , FERTHGIL , YESLICK => 1
+	23 , FERTHGIL , KAGAIN => 1
+	24 , FERTHGIL , CONCHOBHAIR => 1
+	25 , FERTHGIL , THORFINN => 1
+	26 , JETLAYA , YESLICK => 1
+	27 , JETLAYA , KHALID => 1
+	28 , JETLAYA , KIVAN => 1
+	29 , JETLAYA , SKEEZER => 1
+	30 , KEIRIA , SAFANA => 1
+	31 , KEIRIA , FALDORN => 1
+	32 , KEIRIA , VICONIA => 1
+	33 , KEIRIA , JETLAYA => 1
+	34 , KEIRIA , JETLAYA => 1
+	35 , THORFINN , XAN => 1
+	36 , THORFINN , ELDOTH => 1
+	37 , THORFINN , MONTARON => 1
+	38 , THORFINN , EDWIN => 1
+END
+
+LAF ~patch_matrix_2da~
+	STR_VAR
+	file_to_patch = ~INTERACT~
+	labels_array = npc_labels_array
+	patch_table = interact_patch_table
+END
+
+LAF ~patch_matrix_2da~
+	STR_VAR
+	file_to_patch = ~DEATH~
+	labels_array = npc_labels_array
+	patch_table = death_patch_table
+END
 
 /////                                                  \\\\\
 ///// install spells                                   \\\\\
@@ -3490,8 +3780,6 @@ END
 
 //add areas to EET Worldmap, BGT one is too small to have them, but both platforms are compatible with BP-BGT Worldmap
 ACTION_IF (GAME_IS ~eet~) BEGIN
-
-	INCLUDE ~DSotSC/lib/wmp_macros.tpa~
 
 	COPY_EXISTING - ~worldmap.wmp~ ~override~
 		LPF ~dump_wmp~
