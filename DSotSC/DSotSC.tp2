@@ -7,7 +7,7 @@
 BACKUP ~DSotSC/backup~
 AUTHOR ~~
 VERSION ~v3.0~
-README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
+README ~DSotSC/docs/[%LANGUAGE%]ReadMe-dsotsc.html~ ~DSotSC/docs/[english]ReadMe-dsotsc.html~
 AUTO_TRA ~DSotSC/language/%s/D~ //%~
 
 LANGUAGE
@@ -55,7 +55,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 	INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
 	OUTER_SPRINT ~platform~ ~eet~
 	OUTER_SPRINT ~res~ ~ee~
-	OUTER_SPRINT door_Nashkel ~DOOR4804~ //used in AR3700.baf and megacut.baf
+	OUTER_SPRINT door_Nashkel ~DOOR4804~ //used in ar3700.baf and megacut.baf
 END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
 	INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
 	OUTER_SPRINT ~platform~ ~bgt~
@@ -88,7 +88,7 @@ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		reload_array = charsetsReloadArray
 		noconvert_array = charsetsNoConvertArray
 	END
-	LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-EE.tra~
+	LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-ee.tra~
 END
 
 /////                                                  \\\\\
@@ -105,7 +105,7 @@ END
 
 // Install new 2da files
 
-COPY ~DSotSC/base/2da/chptxt-9.2DA~ ~override~
+COPY ~DSotSC/base/2da/chptxt-9.2da~ ~override~
 	REPLACE ~99990~ @2305
 	REPLACE ~99991~ @2306
 
@@ -186,8 +186,8 @@ LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSDAGG01~ tooltips = ~15529 15527~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSSWD02~ tooltips = ~@1339 12119~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~DSTEARS~ tooltips = ~@1330 12099~ END
 
-COPY_EXISTING ~INTERACT.2DA~ ~override~
-	~DEATH.2DA~ ~override~
+COPY_EXISTING ~interact.2da~ ~override~
+	~death.2da~ ~override~
 	PRETTY_PRINT_2DA
 	REPLACE_TEXTUALLY ~IMOEN ~ ~IMOEN2 ~
 	PRETTY_PRINT_2DA
@@ -480,100 +480,100 @@ END
 
 COPY ~DSotSC/base/spl/nostring~ ~override~
 
-COPY ~DSotSC/base/spl/SPINDS1.SPL~ ~override~
+COPY ~DSotSC/base/spl/spinds1.spl~ ~override~
 	SAY NAME1 @1
 
-COPY ~DSotSC/base/spl/SPINDS2.SPL~ ~override~
+COPY ~DSotSC/base/spl/spinds2.spl~ ~override~
 
-COPY ~DSotSC/base/spl/SPINDS3.SPL~ ~override~
+COPY ~DSotSC/base/spl/spinds3.spl~ ~override~
 	SAY NAME1 @2
 
-COPY ~DSotSC/base/spl/SPPR145.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr145.spl~ ~override~
 	SAY NAME1 @3
 	SAY UNIDENTIFIED_DESC @4
 
-COPY ~DSotSC/base/spl/SPPR146.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr146.spl~ ~override~
 	SAY NAME1 @5
 	SAY UNIDENTIFIED_DESC @6
 
-COPY ~DSotSC/base/spl/SPPR147.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr147.spl~ ~override~
 	SAY NAME1 @7
 	SAY UNIDENTIFIED_DESC @8
 
-COPY ~DSotSC/base/spl/SPPR245.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr245.spl~ ~override~
 	SAY NAME1 @9
 	SAY UNIDENTIFIED_DESC @10
 
-COPY ~DSotSC/base/spl/SPPR246.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr246.spl~ ~override~
 	SAY NAME1 @12
 	SAY UNIDENTIFIED_DESC @13
 
-COPY ~DSotSC/base/spl/SPPR247.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr247.spl~ ~override~
 	SAY NAME1 @14
 	SAY UNIDENTIFIED_DESC @15
 
-COPY ~DSotSC/base/spl/SPPR345.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr345.spl~ ~override~
 	SAY NAME1 @17
 	SAY UNIDENTIFIED_DESC @18
 
-COPY ~DSotSC/base/spl/SPPR346.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr346.spl~ ~override~
 	SAY NAME1 @19
 	SAY UNIDENTIFIED_DESC @20
 
-COPY ~DSotSC/base/spl/SPPR347.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr347.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @21
 
-COPY ~DSotSC/base/spl/SPPR445.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr445.spl~ ~override~
 	SAY NAME1 @22
 	SAY UNIDENTIFIED_DESC @23
 
-COPY ~DSotSC/base/spl/SPPR446.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr446.spl~ ~override~
 	SAY NAME1 @24
 	SAY UNIDENTIFIED_DESC @25
 
-COPY ~DSotSC/base/spl/SPPR545.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr545.spl~ ~override~
 	SAY NAME1 @26
 	SAY UNIDENTIFIED_DESC @27
 
-COPY ~DSotSC/base/spl/SPPR546.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr546.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @28
 
-COPY ~DSotSC/base/spl/SPPR547.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr547.spl~ ~override~
 	SAY NAME1 @29
 	SAY UNIDENTIFIED_DESC @30
 
-COPY ~DSotSC/base/spl/SPPR548.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr548.spl~ ~override~
 	SAY NAME1 @31
 	SAY UNIDENTIFIED_DESC @32
 
-COPY ~DSotSC/base/spl/SPPR645.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr645.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @33
 
-COPY ~DSotSC/base/spl/SPPR646.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr646.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @34
 
-COPY ~DSotSC/base/spl/SPPR647.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr647.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @35
 
-COPY ~DSotSC/base/spl/SPPR648.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr648.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @36
 
-COPY ~DSotSC/base/spl/SPPR649.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr649.spl~ ~override~
 	SAY NAME1 @37
 	SAY UNIDENTIFIED_DESC @38
 
-COPY ~DSotSC/base/spl/SPPR650.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr650.spl~ ~override~
 	SAY NAME1 @39
 	SAY UNIDENTIFIED_DESC @40
 
-COPY ~DSotSC/base/spl/SPPR738.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr738.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @41
 
-COPY ~DSotSC/base/spl/SPPR739.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr739.spl~ ~override~
 	SAY NAME1 @43
 	SAY UNIDENTIFIED_DESC @44
 
-COPY ~DSotSC/base/spl/SPPR740.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr740.spl~ ~override~
 	SAY NAME1 @45
 	SAY UNIDENTIFIED_DESC @46
 
@@ -581,105 +581,105 @@ COPY ~DSotSC/base/spl/sppr755.spl~ ~override~
 	SAY NAME1 @47
 	SAY UNIDENTIFIED_DESC @48
 
-COPY ~DSotSC/base/spl/SPPR756.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr756.spl~ ~override~
 	SAY NAME1 @49
 	SAY UNIDENTIFIED_DESC @50
 
-COPY ~DSotSC/base/spl/SPPR757.spl~ ~override~
+COPY ~DSotSC/base/spl/sppr757.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @51
 
-COPY ~DSotSC/base/spl/DSSPWI11.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi11.spl~ ~override~
 	SAY NAME1 @52
 	SAY UNIDENTIFIED_DESC @53
 
-COPY ~DSotSC/base/spl/DSSPWI21.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi21.spl~ ~override~
 	SAY NAME1 @54
 	SAY UNIDENTIFIED_DESC @55
 
-COPY ~DSotSC/base/spl/DSSPWI22.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi22.spl~ ~override~
 	SAY NAME1 @56
 	SAY UNIDENTIFIED_DESC @57
 
-COPY ~DSotSC/base/spl/DSSPWI23.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi23.spl~ ~override~
 	SAY NAME1 @58
 	SAY UNIDENTIFIED_DESC @59
 
-COPY ~DSotSC/base/spl/DSSPWI31.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi31.spl~ ~override~
 	SAY NAME1 @60
 	SAY UNIDENTIFIED_DESC @61
 
-COPY ~DSotSC/base/spl/DSSPWI32.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi32.spl~ ~override~
 	SAY NAME1 @62
 	SAY UNIDENTIFIED_DESC @63
 
-COPY ~DSotSC/base/spl/DSSPWI34.spl~ ~override~
+COPY ~DSotSC/base/spl/dsspwi34.spl~ ~override~
 	SAY UNIDENTIFIED_DESC @64
 
-COPY ~DSotSC/base/spl/DSSPWI41.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi41.spl~ ~override~
 	SAY NAME1 @65
 	SAY UNIDENTIFIED_DESC @66
 
-COPY ~DSotSC/base/spl/DSSPWI42.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi42.spl~ ~override~
 	SAY NAME1 @67
 	SAY UNIDENTIFIED_DESC @68
 
-COPY ~DSotSC/base/spl/DSSPWI51.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi51.spl~ ~override~
 	SAY NAME1 @69
 	SAY UNIDENTIFIED_DESC @70
 
-COPY ~DSotSC/base/spl/DSSPWI61.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi61.spl~ ~override~
 	SAY NAME1 @71
 	SAY UNIDENTIFIED_DESC @72
 
-COPY ~DSotSC/base/spl/DSSPWI62.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi62.spl~ ~override~
 	SAY NAME1 @73
 	SAY UNIDENTIFIED_DESC @74
 
-COPY ~DSotSC/base/spl/DSSPWI71.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi71.spl~ ~override~
 	SAY NAME1 @77
 	SAY UNIDENTIFIED_DESC @78
 
-COPY ~DSotSC/base/spl/DSSPWI72.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi72.spl~ ~override~
 	SAY NAME1 @79
 	SAY UNIDENTIFIED_DESC @80
 
-COPY ~DSotSC/base/spl/DSSPWI73.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi73.spl~ ~override~
 	SAY NAME1 @81
 	SAY UNIDENTIFIED_DESC @82
 
-COPY ~DSotSC/base/spl/DSSPWI74.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi74.spl~ ~override~
 	SAY NAME1 @83
 	SAY UNIDENTIFIED_DESC @84
 
-COPY ~DSotSC/base/spl/DSSPWI81.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi81.spl~ ~override~
 	SAY NAME1 @85
 	SAY UNIDENTIFIED_DESC @86
 
-COPY ~DSotSC/base/spl/DSSPWI82.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi82.spl~ ~override~
 	SAY NAME1 @87
 	SAY UNIDENTIFIED_DESC @88
 
-COPY ~DSotSC/base/spl/DSSPWI83.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi83.spl~ ~override~
 	SAY NAME1 @89
 	SAY UNIDENTIFIED_DESC @90
 
-COPY ~DSotSC/base/spl/DSSPWI84.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi84.spl~ ~override~
 	SAY NAME1 @49
 	SAY UNIDENTIFIED_DESC @91
 
-COPY ~DSotSC/base/spl/DSSPWI85.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi85.spl~ ~override~
 	SAY NAME1 @92
 	SAY UNIDENTIFIED_DESC @93
 
-COPY ~DSotSC/base/spl/DSSPWI91.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi91.spl~ ~override~
 	SAY NAME1 @94
 	SAY UNIDENTIFIED_DESC @95
 
-COPY ~DSotSC/base/spl/DSSPWI92.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi92.spl~ ~override~
 	SAY NAME1 @96
 	SAY UNIDENTIFIED_DESC @97
 
-COPY ~DSotSC/base/spl/DSSPWI93.SPL~ ~override~
+COPY ~DSotSC/base/spl/dsspwi93.spl~ ~override~
 	SAY NAME1 @98
 	SAY UNIDENTIFIED_DESC @99
 
@@ -689,51 +689,51 @@ COPY ~DSotSC/base/spl/DSSPWI93.SPL~ ~override~
 
 // Crowns, helm, etc.
 
-COPY ~DSotSC/base/itm/DSCDRUID.itm~ ~override~
+COPY ~DSotSC/base/itm/dscdruid.itm~ ~override~
 	SAY NAME1 @1000
 	SAY NAME2 @1001
 	SAY UNIDENTIFIED_DESC @1002
 	SAY DESC @1003
 
-COPY ~DSotSC/base/itm/DSCROWN1.itm~ ~override~
+COPY ~DSotSC/base/itm/dscrown1.itm~ ~override~
 	SAY NAME1 @1000
 	SAY NAME2 @1004
 	SAY UNIDENTIFIED_DESC @1002
 	SAY DESC @1005
 
-COPY ~DSotSC/base/itm/DSHAT01.itm~ ~override~
+COPY ~DSotSC/base/itm/dshat01.itm~ ~override~
 	SAY NAME1 @1006
 	SAY NAME2 @1007
 	SAY UNIDENTIFIED_DESC @1008
 	SAY DESC @1009
 
-COPY ~DSotSC/base/itm/DSTDRUID.itm~ ~override~
+COPY ~DSotSC/base/itm/dstdruid.itm~ ~override~
 	SAY NAME1 @1010
 	SAY NAME2 @1011
 	SAY UNIDENTIFIED_DESC @1012
 	SAY DESC @1013
 
-COPY ~DSotSC/base/itm/DSFEHELM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsfehelm.itm~ ~override~
 	SAY NAME2 @1015
 	SAY DESC @1017
 
-COPY ~DSotSC/base/itm/DSEBHELM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsebhelm.itm~ ~override~
 	SAY NAME2 @1018
 	SAY DESC @1019
 
-COPY ~DSotSC/base/itm/DSCOHELM.itm~ ~override~
+COPY ~DSotSC/base/itm/dscohelm.itm~ ~override~
 	SAY NAME2 @1020
 	SAY DESC @1021
 
-COPY ~DSotSC/base/itm/DSCRYHLM.itm~ ~override~
+COPY ~DSotSC/base/itm/dscryhlm.itm~ ~override~
 	SAY NAME2 @1022
 	SAY DESC @1023
 
-COPY ~DSotSC/base/itm/DSSKHELM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsskhelm.itm~ ~override~
 	SAY NAME2 @1024
 	SAY DESC @1025
 
-COPY ~DSotSC/base/itm/DSHELM01.itm~ ~override~
+COPY ~DSotSC/base/itm/dshelm01.itm~ ~override~
 	SAY NAME2 @1026
 	SAY DESC @1027
 
@@ -743,61 +743,61 @@ COPY ~DSotSC/base/itm/dshelm02.itm~ ~override~
 
 // Armor
 
-COPY ~DSotSC/base/itm/DSTHRARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsthrarm.itm~ ~override~
 	SAY NAME2 @1030
 	SAY DESC @1032
 
-COPY ~DSotSC/base/itm/DSWRKARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dswrkarm.itm~ ~override~
 	SAY NAME2 @1033
 	SAY DESC @1034
 
-COPY ~DSotSC/base/itm/DSFEARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsfearm.itm~ ~override~
 	SAY NAME2 @1036
 	SAY DESC @1038
 
-COPY ~DSotSC/base/itm/DSCOARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dscoarm.itm~ ~override~
 	SAY NAME2 @1039
 	SAY DESC @1040
 
-COPY ~DSotSC/base/itm/DSCRYARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dscryarm.itm~ ~override~
 	SAY NAME2 @1041
 	SAY DESC @1042
 
-COPY ~DSotSC/base/itm/DSEBPLAT.itm~ ~override~
+COPY ~DSotSC/base/itm/dsebplat.itm~ ~override~
 	SAY NAME2 @1044
 	SAY DESC @1046
 
-COPY ~DSotSC/base/itm/DSCHAN01.itm~ ~override~
+COPY ~DSotSC/base/itm/dschan01.itm~ ~override~
 
-COPY ~DSotSC/base/itm/DSCHAN02.itm~ ~override~
+COPY ~DSotSC/base/itm/dschan02.itm~ ~override~
 	SAY NAME2 @1052
 	SAY DESC @1054
 
-COPY ~DSotSC/base/itm/DSCHAN03.itm~ ~override~
+COPY ~DSotSC/base/itm/dschan03.itm~ ~override~
 	SAY NAME2 @1055
 	SAY DESC @1056
 
-COPY ~DSotSC/base/itm/DSCHAN04.itm~ ~override~
+COPY ~DSotSC/base/itm/dschan04.itm~ ~override~
 	SAY NAME2 @1057
 	SAY DESC @1058
 
-COPY ~DSotSC/base/itm/DSJEARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dsjearm.itm~ ~override~
 	SAY NAME2 @1059
 	SAY DESC @1060
 
-COPY ~DSotSC/base/itm/DSKORIM.itm~ ~override~
+COPY ~DSotSC/base/itm/dskorim.itm~ ~override~
 	SAY NAME2 @1061
 	SAY DESC @1062
 
-COPY ~DSotSC/base/itm/DSCUARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dscuarm.itm~ ~override~
 	SAY NAME2 @1063
 	SAY DESC @1064
 
-COPY ~DSotSC/base/itm/DSKEARM.itm~ ~override~
+COPY ~DSotSC/base/itm/dskearm.itm~ ~override~
 	SAY NAME2 @1065
 	SAY DESC @1066
 
-COPY ~DSotSC/base/itm/DSLEAT01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsleat01.itm~ ~override~
 	SAY NAME1 @1067
 	SAY NAME2 @1068
 	SAY UNIDENTIFIED_DESC @1069
@@ -807,140 +807,140 @@ COPY ~DSotSC/base/itm/dsleat02.itm~ ~override~
 	SAY NAME2 @1047
 	SAY DESC @1048
 
-COPY ~DSotSC/base/itm/DSSKROBE.itm~ ~override~
+COPY ~DSotSC/base/itm/dsskrobe.itm~ ~override~
 	SAY NAME2 @1072
 	SAY DESC @1074
 
-COPY ~DSotSC/base/itm/DSROBESO.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobeso.itm~ ~override~
 	SAY NAME2 @1075
 	SAY DESC @1076
 
-COPY ~DSotSC/base/itm/DSROBE02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe02.itm~ ~override~
 	SAY NAME2 @1077
 	SAY DESC @1078
 
-COPY ~DSotSC/base/itm/DSROBE03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe03.itm~ ~override~
 	SAY NAME2 @1079
 	SAY DESC @1080
 
-COPY ~DSotSC/base/itm/DSROBE04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe04.itm~ ~override~
 	SAY NAME2 @1081
 	SAY DESC @1082
 
-COPY ~DSotSC/base/itm/DSROBE05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe05.itm~ ~override~
 	SAY NAME2 @1083
 	SAY DESC @1084
 
-COPY ~DSotSC/base/itm/DSROBE06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe06.itm~ ~override~
 	SAY NAME2 @1085
 	SAY DESC @1086
 
-COPY ~DSotSC/base/itm/DSROBE07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe07.itm~ ~override~
 	SAY NAME2 @1087
 	SAY DESC @1088
 
-COPY ~DSotSC/base/itm/DSROBE08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe08.itm~ ~override~
 	SAY NAME2 @1089
 	SAY DESC @1090
 
 // Belts
 
-COPY ~DSotSC/base/itm/DSBELT01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbelt01.itm~ ~override~
 	SAY NAME2 @1092
 	SAY DESC @1094
 
-COPY ~DSotSC/base/itm/DSCLCK01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclck01.itm~ ~override~
 	SAY NAME2 @1096
 	SAY DESC @1098
 
-COPY ~DSotSC/base/itm/DSCLCK02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclck02.itm~ ~override~
 	SAY NAME2 @1099
 	SAY DESC @1100
 
-COPY ~DSotSC/base/itm/DSCLCK03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclck03.itm~ ~override~
 	SAY NAME2 @1101
 	SAY DESC @1102
 
-COPY ~DSotSC/base/itm/DSCLCK04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclck04.itm~ ~override~
 	SAY NAME2 @1103
 	SAY DESC @1104
 
 // Bracers, Gauntlets, Gloves
 
-COPY ~DSotSC/base/itm/DSDRGSKN.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdrgskn.itm~ ~override~
 	SAY NAME2 @1106
 	SAY DESC @1108
 
-COPY ~DSotSC/base/itm/DSBRACDX.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbracdx.itm~ ~override~
 	SAY NAME2 @1110
 	SAY DESC @1112
 
-COPY ~DSotSC/base/itm/DSBRAC01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbrac01.itm~ ~override~
 	SAY NAME2 @1113
 	SAY DESC @1114
 
-COPY ~DSotSC/base/itm/DSBRAC02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbrac02.itm~ ~override~
 	SAY NAME2 @1115
 	SAY DESC @1116
 
-COPY ~DSotSC/base/itm/DSBRAC03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbrac03.itm~ ~override~
 	SAY NAME2 @1117
 	SAY DESC @1118
 
-COPY ~DSotSC/base/itm/DSBRAC04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbrac04.itm~ ~override~
 	SAY NAME2 @1119
 	SAY DESC @1120
 
 // Rings
 
-COPY ~DSotSC/base/itm/DSZRNG03.itm~ ~override~
+COPY ~DSotSC/base/itm/dszrng03.itm~ ~override~
 	SAY DESC @1124
 
-COPY ~DSotSC/base/itm/DSRNG01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng01.itm~ ~override~
 	SAY NAME2 @1125
 	SAY DESC @1126
 
-COPY ~DSotSC/base/itm/DSRNG02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng02.itm~ ~override~
 	SAY NAME2 @1127
 	SAY DESC @1128
 
-COPY ~DSotSC/base/itm/DSRNG03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng03.itm~ ~override~
 	SAY NAME2 @1129
 	SAY DESC @1130
 
-COPY ~DSotSC/base/itm/DSRNG04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng04.itm~ ~override~
 	SAY NAME2 @1129
 	SAY DESC @1131
 
-COPY ~DSotSC/base/itm/DSRNG05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng05.itm~ ~override~
 	SAY NAME2 @1133
 	SAY DESC @1135
 
-COPY ~DSotSC/base/itm/DSRNG06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng06.itm~ ~override~
 	SAY NAME2 @1136
 	SAY DESC @1137
 
-COPY ~DSotSC/base/itm/DSRNG07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng07.itm~ ~override~
 	SAY NAME2 @1138
 	SAY DESC @1139
 
-COPY ~DSotSC/base/itm/DSRNG08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng08.itm~ ~override~
 	SAY NAME2 @1140
 	SAY DESC @1141
 
-COPY ~DSotSC/base/itm/DSBARDR.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbardr.itm~ ~override~
 	SAY NAME2 @1142
 	SAY DESC @1143
 
-COPY ~DSotSC/base/itm/DSRNG103.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng103.itm~ ~override~
 	SAY NAME2 @1144
 	SAY DESC @1145
 
-COPY ~DSotSC/base/itm/DSRNGFSH.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrngfsh.itm~ ~override~
 	SAY NAME2 @1146
 	SAY DESC @1147
 
-COPY ~DSotSC/base/itm/DSRNGJET.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrngjet.itm~ ~override~
 	SAY NAME1 @1148
 	SAY NAME2 @1148
 	SAY UNIDENTIFIED_DESC @1149
@@ -948,164 +948,164 @@ COPY ~DSotSC/base/itm/DSRNGJET.itm~ ~override~
 
 // Misc, books, scrolls, etc
 
-COPY ~DSotSC/base/itm/DSMISC01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1151
 	SAY DESC @1151
 
-COPY ~DSotSC/base/itm/DSMISC02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc02.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1152
 	SAY DESC @1152
 
-COPY ~DSotSC/base/itm/DSMISC03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc03.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1153
 	SAY DESC @1153
 
-COPY ~DSotSC/base/itm/DSMISC04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc04.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1154
 	SAY DESC @1154
 
-COPY ~DSotSC/base/itm/DSMISC05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc05.itm~ ~override~
 	SAY NAME1 @1155
 	SAY NAME2 @1155
 	SAY UNIDENTIFIED_DESC @1156
 	SAY DESC @1156
 
-COPY ~DSotSC/base/itm/DSMISC07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc07.itm~ ~override~
 	SAY NAME1 @1157
 	SAY NAME2 @1157
 	SAY UNIDENTIFIED_DESC @1157
 	SAY DESC @1157
 
-COPY ~DSotSC/base/itm/DSMISC08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc08.itm~ ~override~
 	SAY NAME1 @1158
 	SAY NAME2 @1158
 	SAY UNIDENTIFIED_DESC @1159
 	SAY DESC @1159
 
-COPY ~DSotSC/base/itm/DSMISC09.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc09.itm~ ~override~
 	SAY NAME1 @1160
 	SAY NAME2 @1160
 	SAY UNIDENTIFIED_DESC @1161
 	SAY DESC @1161
 
-COPY ~DSotSC/base/itm/DSMISC10.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc10.itm~ ~override~
 	SAY NAME1 @1162
 	SAY NAME2 @1162
 	SAY UNIDENTIFIED_DESC @1163
 	SAY DESC @1163
 
-COPY ~DSotSC/base/itm/DSMISC11.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc11.itm~ ~override~
 	SAY NAME1 @1164
 	SAY NAME2 @1165
 	SAY UNIDENTIFIED_DESC @1166
 	SAY DESC @1167
 
-COPY ~DSotSC/base/itm/DSHORN01.itm~ ~override~
+COPY ~DSotSC/base/itm/dshorn01.itm~ ~override~
 	SAY NAME2 @1169
 	SAY UNIDENTIFIED_DESC @1170
 	SAY DESC @1171
 
-COPY ~DSotSC/base/itm/DSBAG01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbag01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1173
 	SAY DESC @1173
 
-COPY ~DSotSC/base/itm/DSLUTE01.itm~ ~override~
+COPY ~DSotSC/base/itm/dslute01.itm~ ~override~
 	SAY NAME1 @1174
 	SAY NAME2 @1175
 	SAY UNIDENTIFIED_DESC @1176
 	SAY DESC @1177
 
-COPY ~DSotSC/base/itm/SCRLDS01.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds01.itm~ ~override~
 
-COPY ~DSotSC/base/itm/SCRLDS11.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds11.itm~ ~override~
 	SAY NAME1 @52
 	SAY NAME2 @52
 	SAY UNIDENTIFIED_DESC @53
 	SAY DESC @53
 
-COPY ~DSotSC/base/itm/SCRLDS21.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds21.itm~ ~override~
 	SAY NAME1 @54
 	SAY NAME2 @54
 	SAY UNIDENTIFIED_DESC @55
 	SAY DESC @55
 
-COPY ~DSotSC/base/itm/SCRLDS22.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds22.itm~ ~override~
 	SAY NAME1 @56
 	SAY NAME2 @56
 	SAY UNIDENTIFIED_DESC @57
 	SAY DESC @57
 
-COPY ~DSotSC/base/itm/SCRLDS23.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds23.itm~ ~override~
 	SAY NAME1 @58
 	SAY NAME2 @58
 	SAY UNIDENTIFIED_DESC @59
 	SAY DESC @59
 
-COPY ~DSotSC/base/itm/SCRLDS31.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds31.itm~ ~override~
 	SAY NAME1 @60
 	SAY NAME2 @60
 	SAY UNIDENTIFIED_DESC @61
 	SAY DESC @61
 
-COPY ~DSotSC/base/itm/SCRLDS32.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds32.itm~ ~override~
 	SAY NAME1 @62
 	SAY NAME2 @62
 	SAY UNIDENTIFIED_DESC @63
 	SAY DESC @63
 
-COPY ~DSotSC/base/itm/SCRLDS34.ITM~ ~override~
+COPY ~DSotSC/base/itm/scrlds34.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @64
 	SAY DESC @64
 
-COPY ~DSotSC/base/itm/SCRLDS41.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds41.itm~ ~override~
 	SAY NAME1 @65
 	SAY NAME2 @65
 	SAY UNIDENTIFIED_DESC @66
 	SAY DESC @66
 
-COPY ~DSotSC/base/itm/SCRLDS42.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds42.itm~ ~override~
 	SAY NAME1 @67
 	SAY NAME2 @67
 	SAY UNIDENTIFIED_DESC @68
 	SAY DESC @68
 
-COPY ~DSotSC/base/itm/SCRLDS51.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds51.itm~ ~override~
 	SAY NAME1 @69
 	SAY NAME2 @69
 	SAY UNIDENTIFIED_DESC @70
 	SAY DESC @70
 
-COPY ~DSotSC/base/itm/SCRLDS61.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds61.itm~ ~override~
 	SAY NAME1 @71
 	SAY NAME2 @71
 	SAY UNIDENTIFIED_DESC @72
 	SAY DESC @72
 
-COPY ~DSotSC/base/itm/SCRLDS62.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds62.itm~ ~override~
 	SAY NAME1 @73
 	SAY NAME2 @73
 	SAY UNIDENTIFIED_DESC @74
 	SAY DESC @74
 
-COPY ~DSotSC/base/itm/SCRLDS71.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds71.itm~ ~override~
 	SAY NAME1 @77
 	SAY NAME2 @77
 	SAY UNIDENTIFIED_DESC @78
 	SAY DESC @78
 
-COPY ~DSotSC/base/itm/SCRLDS72.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds72.itm~ ~override~
 	SAY NAME1 @79
 	SAY NAME2 @79
 	SAY UNIDENTIFIED_DESC @80
 	SAY DESC @80
 
-COPY ~DSotSC/base/itm/SCRLDS73.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds73.itm~ ~override~
 	SAY NAME1 @81
 	SAY NAME2 @81
 	SAY UNIDENTIFIED_DESC @82
 	SAY DESC @82
 
-COPY ~DSotSC/base/itm/SCRLDS74.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds74.itm~ ~override~
 	SAY NAME1 @83
 	SAY NAME2 @83
 	SAY UNIDENTIFIED_DESC @84
@@ -1127,50 +1127,50 @@ COPY ~DSotSC/base/itm/scrlds77.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @50
 	SAY DESC @50
 
-COPY ~DSotSC/base/itm/SCRLDS81.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds81.itm~ ~override~
 	SAY NAME2 @85
 	SAY DESC @86
 
-COPY ~DSotSC/base/itm/SCRLDS82.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds82.itm~ ~override~
 	SAY NAME2 @87
 	SAY DESC @88
 
-COPY ~DSotSC/base/itm/SCRLDS83.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds83.itm~ ~override~
 	SAY NAME2 @89
 	SAY DESC @90
 
-COPY ~DSotSC/base/itm/SCRLDS84.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds84.itm~ ~override~
 	SAY NAME2 @49
 	SAY DESC @91
 
-COPY ~DSotSC/base/itm/SCRLDS85.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds85.itm~ ~override~
 	SAY NAME2 @92
 	SAY DESC @93
 
-COPY ~DSotSC/base/itm/SCRLDS91.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds91.itm~ ~override~
 	SAY NAME2 @94
 	SAY DESC @95
 
-COPY ~DSotSC/base/itm/SCRLDS92.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds92.itm~ ~override~
 	SAY NAME2 @96
 	SAY DESC @97
 
-COPY ~DSotSC/base/itm/SCRLDS93.itm~ ~override~
+COPY ~DSotSC/base/itm/scrlds93.itm~ ~override~
 	SAY NAME2 @98
 	SAY DESC @99
 
-COPY ~DSotSC/base/itm/DSBOOK01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbook01.itm~ ~override~
 	SAY NAME2 @1239
 	SAY DESC @1241
 	SAY 0x10e @124100
 
-COPY ~DSotSC/base/itm/DSBOOK.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbook.itm~ ~override~
 	SAY NAME1 @1242
 	SAY NAME2 @1242
 	SAY UNIDENTIFIED_DESC @1243
 	SAY DESC @1243
 
-COPY ~DSotSC/base/itm/DSPOTN01.itm~ ~override~
+COPY ~DSotSC/base/itm/dspotn01.itm~ ~override~
 	SAY NAME1 @1244
 	SAY NAME2 @1244
 	SAY UNIDENTIFIED_DESC @1245
@@ -1178,76 +1178,76 @@ COPY ~DSotSC/base/itm/DSPOTN01.itm~ ~override~
 
 // Amulets, Necklaces
 
-COPY ~DSotSC/base/itm/DSAMUL01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul01.itm~ ~override~
 	SAY NAME2 @1247
 	SAY DESC @1249
 
-COPY ~DSotSC/base/itm/DSAMUL02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul02.itm~ ~override~
 	SAY NAME2 @1251
 	SAY DESC @1253
 
-COPY ~DSotSC/base/itm/DSAMUL03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul03.itm~ ~override~
 	SAY NAME2 @1254
 	SAY DESC @1255
 
-COPY ~DSotSC/base/itm/DSAMUL04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul04.itm~ ~override~
 	SAY DESC @1256
 
-COPY ~DSotSC/base/itm/DSAMUL06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul06.itm~ ~override~
 	SAY NAME2 @1257
 	SAY DESC @1258
 
-COPY ~DSotSC/base/itm/DSAMUL07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul07.itm~ ~override~
 	SAY NAME2 @1259
 	SAY DESC @1260
 
-COPY ~DSotSC/base/itm/DSAMUL08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul08.itm~ ~override~
 	SAY NAME2 @1261
 	SAY DESC @1262
 
-COPY ~DSotSC/base/itm/DSAMUL09.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul09.itm~ ~override~
 	SAY NAME2 @1263
 	SAY DESC @1263
 
-COPY ~DSotSC/base/itm/DSAMUL10.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul10.itm~ ~override~
 	SAY NAME2 @1264
 	SAY DESC @1265
 
-COPY ~DSotSC/base/itm/DSAMUL11.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul11.itm~ ~override~
 	SAY NAME2 @1266
 	SAY DESC @1267
 
-COPY ~DSotSC/base/itm/DSAMUL12.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul12.itm~ ~override~
 	SAY NAME2 @1268
 	SAY DESC @1269
 
 // Arrows, Bolts, Bullets, Darts, etc
 
-COPY ~DSotSC/base/itm/DSARROW1.itm~ ~override~
+COPY ~DSotSC/base/itm/dsarrow1.itm~ ~override~
 	SAY NAME2 @1271
 	SAY DESC @1273
 
-COPY ~DSotSC/base/itm/DSARROW2.itm~ ~override~
+COPY ~DSotSC/base/itm/dsarrow2.itm~ ~override~
 	SAY NAME2 @1275
 	SAY DESC @1277
 
-COPY ~DSotSC/base/itm/AROW50.itm~ ~override~
+COPY ~DSotSC/base/itm/arow50.itm~ ~override~
 	SAY NAME2 @1278
 	SAY DESC @1279
 
-COPY ~DSotSC/base/itm/DSBOLT01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbolt01.itm~ ~override~
 	SAY NAME2 @1281
 	SAY DESC @1283
 
-COPY ~DSotSC/base/itm/DSBULL01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbull01.itm~ ~override~
 	SAY NAME2 @1285
 	SAY DESC @1287
 
-COPY ~DSotSC/base/itm/DSBULL02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbull02.itm~ ~override~
 	SAY NAME2 @1288
 	SAY DESC @1289
 
-COPY ~DSotSC/base/itm/DSMETEOR.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmeteor.itm~ ~override~
 	SAY NAME1 @69
 	SAY NAME2 @69
 	SAY UNIDENTIFIED_DESC @69
@@ -1255,113 +1255,113 @@ COPY ~DSotSC/base/itm/DSMETEOR.itm~ ~override~
 
 // Boots
 
-COPY ~DSotSC/base/itm/DSBOOT01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsboot01.itm~ ~override~
 	SAY NAME2 @1292
 	SAY DESC @1294
 
-COPY ~DSotSC/base/itm/DSBOOT02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsboot02.itm~ ~override~
 	SAY NAME2 @1295
 	SAY DESC @1296
 
 // Cloaks
 
-COPY ~DSotSC/base/itm/DSCLCK23.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclck23.itm~ ~override~
 	SAY NAME2 @20440
 	SAY DESC @20441
 
 // Shields
 
-//COPY ~DSotSC/base/itm/DSSHLD01.itm~ ~override~
+//COPY ~DSotSC/base/itm/dsshld01.itm~ ~override~
 //	SAY NAME1 @1318
 //	SAY NAME2 @1319
 //	SAY UNIDENTIFIED_DESC @1320
 //	SAY DESC @1321
 
-COPY ~DSotSC/base/itm/DSSHLD02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsshld02.itm~ ~override~
 	SAY DESC @1300
 
-COPY ~DSotSC/base/itm/DSCUSHLD.itm~ ~override~
+COPY ~DSotSC/base/itm/dscushld.itm~ ~override~
 	SAY NAME2 @1302
 	SAY DESC @1304
 
-COPY ~DSotSC/base/itm/DSJESHLD.itm~ ~override~
+COPY ~DSotSC/base/itm/dsjeshld.itm~ ~override~
 	SAY NAME2 @1305
 	SAY DESC @1306
 
-COPY ~DSotSC/base/itm/DSSHLD51.itm~ ~override~
+COPY ~DSotSC/base/itm/dsshld51.itm~ ~override~
 	SAY NAME2 @1307
 	SAY DESC @1308
 
-COPY ~DSotSC/base/itm/DSSHLD52.itm~ ~override~
+COPY ~DSotSC/base/itm/dsshld52.itm~ ~override~
 	SAY DESC @1312
 
-COPY ~DSotSC/base/itm/DSSHLD53.itm~ ~override~
+COPY ~DSotSC/base/itm/dsshld53.itm~ ~override~
 	SAY NAME2 @1313
 	SAY DESC @1314
 
-COPY ~DSotSC/base/itm/DSSHLD54.itm~ ~override~
+COPY ~DSotSC/base/itm/dsshld54.itm~ ~override~
 	SAY NAME2 @1315
 	SAY DESC @1317
 
 // Weapons
 
-COPY ~DSotSC/base/itm/DSKATAN1.itm~ ~override~
+COPY ~DSotSC/base/itm/dskatan1.itm~ ~override~
 	SAY NAME2 @1323
 	SAY DESC @1325
 
-COPY ~DSotSC/base/itm/DSKATAN2.itm~ ~override~
+COPY ~DSotSC/base/itm/dskatan2.itm~ ~override~
 	SAY NAME2 @1326
 	SAY DESC @1328
 
-COPY ~DSotSC/base/itm/DSTEARS.itm~ ~override~
+COPY ~DSotSC/base/itm/dstears.itm~ ~override~
 	SAY NAME2 @1330
 	SAY DESC @1332
 
-COPY ~DSotSC/base/itm/DSCOSWD.itm~ ~override~
+COPY ~DSotSC/base/itm/dscoswd.itm~ ~override~
 	SAY NAME2 @1334
 	SAY DESC @1336
 
-COPY ~DSotSC/base/itm/DSSWD01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd01.itm~ ~override~
 	SAY NAME2 @1337
 	SAY DESC @1338
 
-COPY ~DSotSC/base/itm/DSSWD02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd02.itm~ ~override~
 	SAY NAME2 @1339
 	SAY DESC @1340
 
-COPY ~DSotSC/base/itm/DSSWD03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd03.itm~ ~override~
 	SAY NAME1 @1341
 	SAY NAME2 @1342
 	SAY UNIDENTIFIED_DESC @1343
 	SAY DESC @1344
 
-COPY ~DSotSC/base/itm/DSSWD04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd04.itm~ ~override~
 	SAY NAME1 @1341
 	SAY NAME2 @1345
 	SAY UNIDENTIFIED_DESC @1343
 	SAY DESC @1346
 
-COPY ~DSotSC/base/itm/DSSWD05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd05.itm~ ~override~
 	SAY NAME1 @1341
 	SAY NAME2 @1347
 	SAY UNIDENTIFIED_DESC @1343
 	SAY DESC @1348
 
-COPY ~DSotSC/base/itm/DSSWD06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd06.itm~ ~override~
 	SAY NAME1 @1341
 	SAY NAME2 @1349
 	SAY UNIDENTIFIED_DESC @1343
 	SAY DESC @1350
 
-COPY ~DSotSC/base/itm/DSSWD07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd07.itm~ ~override~
 	SAY NAME2 @1352
 	SAY DESC @1354
 
-COPY ~DSotSC/base/itm/DSSWD08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd08.itm~ ~override~
 	SAY NAME2 @1356
 	SAY DESC @1358
 
-COPY ~DSotSC/base/itm/DSSWD09.itm~ ~override~
+COPY ~DSotSC/base/itm/dsswd09.itm~ ~override~
 	SAY NAME2 @1359
 	SAY DESC @1360
 
@@ -1369,167 +1369,167 @@ COPY ~DSotSC/base/itm/dsswd10.itm~ ~override~
 	SAY NAME2 @1361
 	SAY DESC @1362
 
-COPY ~DSotSC/base/itm/DSCUSWD.itm~ ~override~
+COPY ~DSotSC/base/itm/dscuswd.itm~ ~override~
 	SAY NAME2 @1363
 	SAY DESC @1364
 
-COPY ~DSotSC/base/itm/DSNEMSTF.itm~ ~override~
+COPY ~DSotSC/base/itm/dsnemstf.itm~ ~override~
 	SAY NAME2 @1366
 	SAY DESC @1368
 
-COPY ~DSotSC/base/itm/DSVFLAIL.itm~ ~override~
+COPY ~DSotSC/base/itm/dsvflail.itm~ ~override~
 	SAY NAME2 @1370
 	SAY DESC @1372
 
-COPY ~DSotSC/base/itm/DSFLAIL1.itm~ ~override~
+COPY ~DSotSC/base/itm/dsflail1.itm~ ~override~
 	SAY NAME2 @1373
 	SAY DESC @1374
 
-COPY ~DSotSC/base/itm/DSFEAXE.itm~ ~override~
+COPY ~DSotSC/base/itm/dsfeaxe.itm~ ~override~
 	SAY NAME2 @1376
 	SAY DESC @1378
 
-COPY ~DSotSC/base/itm/DSAXE01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe01.itm~ ~override~
 	SAY NAME2 @1379
 	SAY DESC @1381
 
-COPY ~DSotSC/base/itm/DSAXE02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe02.itm~ ~override~
 	SAY NAME2 @1382
 	SAY DESC @1383
 
-COPY ~DSotSC/base/itm/DSAXE03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe03.itm~ ~override~
 	SAY NAME1 @1384
 	SAY NAME2 @1385
 	SAY UNIDENTIFIED_DESC @1386
 	SAY DESC @1387
 
-COPY ~DSotSC/base/itm/DSAXE04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe04.itm~ ~override~
 	SAY NAME2 @1388
 	SAY DESC @1389
 
-COPY ~DSotSC/base/itm/DSAXE05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe05.itm~ ~override~
 	SAY NAME1 @1384
 	SAY NAME2 @1390
 	SAY UNIDENTIFIED_DESC @1386
 	SAY DESC @1391
 
-COPY ~DSotSC/base/itm/DSAXE06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe06.itm~ ~override~
 	SAY NAME2 @1393
 	SAY DESC @1395
 
-COPY ~DSotSC/base/itm/DSSTAF01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~
 	SAY NAME2 @1396
 	SAY DESC @1398
 
-COPY ~DSotSC/base/itm/DSSTAF02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf02.itm~ ~override~
 	SAY NAME2 @1399
 	SAY DESC @1400
 
-COPY ~DSotSC/base/itm/DSSTAF03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf03.itm~ ~override~
 	SAY NAME2 @1401
 	SAY DESC @1402
 
-COPY ~DSotSC/base/itm/DSWRLSTF.itm~ ~override~
+COPY ~DSotSC/base/itm/dswrlstf.itm~ ~override~
 	SAY NAME2 @1403
 	SAY DESC @1404
 
-COPY ~DSotSC/base/itm/DSSTAF06.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf06.itm~ ~override~
 	SAY NAME2 @1407
 	SAY DESC @1408
 
-COPY ~DSotSC/base/itm/DSSTAF07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf07.itm~ ~override~
 	SAY NAME2 @1409
 	SAY DESC @1410
 
-COPY ~DSotSC/base/itm/DSSKSTAF.itm~ ~override~
+COPY ~DSotSC/base/itm/dsskstaf.itm~ ~override~
 	SAY NAME2 @1411
 	SAY DESC @1412
 
-COPY ~DSotSC/base/itm/DSHAMM01.itm~ ~override~
+COPY ~DSotSC/base/itm/dshamm01.itm~ ~override~
 	SAY NAME2 @1414
 	SAY DESC @1416
 
-COPY ~DSotSC/base/itm/DSHAMM02.itm~ ~override~
+COPY ~DSotSC/base/itm/dshamm02.itm~ ~override~
 	SAY NAME2 @1417
 	SAY DESC @1418
 
-COPY ~DSotSC/base/itm/DSSPERF.itm~ ~override~
+COPY ~DSotSC/base/itm/dssperf.itm~ ~override~
 	SAY NAME2 @1420
 	SAY DESC @1422
 
-COPY ~DSotSC/base/itm/DSSPERD.itm~ ~override~
+COPY ~DSotSC/base/itm/dssperd.itm~ ~override~
 	SAY NAME2 @1423
 	SAY DESC @1424
 
-COPY ~DSotSC/base/itm/DSMACE01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace01.itm~ ~override~
 	SAY NAME2 @1426
 	SAY DESC @1428
 
-COPY ~DSotSC/base/itm/DSMACE02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace02.itm~ ~override~
 	SAY NAME2 @1429
 	SAY DESC @1430
 
-COPY ~DSotSC/base/itm/DSMACE03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace03.itm~ ~override~
 	SAY NAME2 @1431
 	SAY DESC @1432
 
-COPY ~DSotSC/base/itm/DSMACE04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace04.itm~ ~override~
 	SAY NAME2 @1433
 	SAY DESC @1434
 
-COPY ~DSotSC/base/itm/DSDAGG01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdagg01.itm~ ~override~
 	SAY NAME2 @1436
 	SAY DESC @1438
 
-COPY ~DSotSC/base/itm/DSDAGG03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdagg03.itm~ ~override~
 	SAY NAME2 @1439
 	SAY DESC @1440
 
-COPY ~DSotSC/base/itm/DSDAGG02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdagg02.itm~ ~override~
 	SAY NAME2 @1441
 	SAY DESC @1442
 
-COPY ~DSotSC/base/itm/DSDAGG04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdagg04.itm~ ~override~
 	SAY NAME2 @1443
 	SAY DESC @1444
 
-COPY ~DSotSC/base/itm/DSKEXBOW.itm~ ~override~
+COPY ~DSotSC/base/itm/dskexbow.itm~ ~override~
 	SAY NAME2 @1446
 	SAY DESC @1448
 
-COPY ~DSotSC/base/itm/DSXBOW01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsxbow01.itm~ ~override~
 	SAY NAME2 @1449
 	SAY DESC @1450
 
-COPY ~DSotSC/base/itm/DSGBBOW.itm~ ~override~
+COPY ~DSotSC/base/itm/dsgbbow.itm~ ~override~
 	SAY NAME2 @1452
 	SAY DESC @1454
 
-COPY ~DSotSC/base/itm/DSBOW01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbow01.itm~ ~override~
 	SAY NAME2 @1456
 	SAY DESC @1458
 
-COPY ~DSotSC/base/itm/DSBOW02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbow02.itm~ ~override~
 	SAY NAME2 @1459
 	SAY DESC @1460
 
-COPY ~DSotSC/base/itm/DSWAND01.itm~ ~override~
+COPY ~DSotSC/base/itm/dswand01.itm~ ~override~
 	SAY NAME2 @1462
 	SAY DESC @1464
 
-COPY ~DSotSC/base/itm/DSWAND02.itm~ ~override~
+COPY ~DSotSC/base/itm/dswand02.itm~ ~override~
 	SAY NAME2 @1465
 	SAY DESC @1466
 
-COPY ~DSotSC/base/itm/DSWAND03.itm~ ~override~
+COPY ~DSotSC/base/itm/dswand03.itm~ ~override~
 	SAY NAME2 @1467
 	SAY DESC @1468
 
-COPY ~DSotSC/base/itm/DSCLUB01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclub01.itm~ ~override~
 	SAY NAME2 @1470
 	SAY DESC @1472
 
-COPY ~DSotSC/base/itm/DSCLUB02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsclub02.itm~ ~override~
 	SAY NAME2 @1473
 	SAY UNIDENTIFIED_DESC @1474
 	SAY DESC @1475
@@ -1548,14 +1548,14 @@ COPY ~DSotSC/base/itm/nostring~ ~override~
 
 //Install new stores
 
-COPY ~DSotSC/base/sto/DSTRUNGL.STO~ ~override~
+COPY ~DSotSC/base/sto/dstrungl.sto~ ~override~
 	SAY 0x0c @1477
 
-COPY ~DSotSC/base/sto/DSBAG01.STO~ ~override~
+COPY ~DSotSC/base/sto/dsbag01.sto~ ~override~
 
 //Modify existing stores
 
-COPY_EXISTING ~FRIEND.STO~ ~override~
+COPY_EXISTING ~friend.sto~ ~override~
 	ADD_STORE_ITEM ~DSLEAT01~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~LEAT05~ #0 #0 #0 ~IDENTIFIED~ #5
@@ -1563,7 +1563,7 @@ COPY_EXISTING ~FRIEND.STO~ ~override~
 	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~XBOW05~ #0 #0 #0 ~IDENTIFIED~ #2
 
-COPY_EXISTING ~HIGHHEDG.STO~ ~override~
+COPY_EXISTING ~highhedg.sto~ ~override~
 	ADD_STORE_ITEM ~DSROBE07~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~DSROBESO~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~DSZRNG03~ #0 #0 #0 ~IDENTIFIED~ #1
@@ -1579,14 +1579,14 @@ COPY_EXISTING ~HIGHHEDG.STO~ ~override~
 	ADD_STORE_ITEM ~SCRLDS41~ #0 #0 #0 ~IDENTIFIED~ #2
 	ADD_STORE_ITEM ~SCRLDS42~ #0 #0 #0 ~IDENTIFIED~ #2
 
-COPY_EXISTING ~INN3304.STO~ ~override~
+COPY_EXISTING ~inn3304.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 
-COPY_EXISTING ~INN3351.STO~ ~override~
+COPY_EXISTING ~inn3351.sto~ ~override~
 	ADD_STORE_ITEM ~XBOW02~ #0 #0 #0 ~IDENTIFIED~ #2
 
-COPY_EXISTING ~STO0703.STO~ ~override~
+COPY_EXISTING ~sto0703.sto~ ~override~
 	ADD_STORE_ITEM ~DSBOLT01~ #10 #0 #0 ~IDENTIFIED~ #10
 	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~DSWAND01~ #10 #0 #0 ~IDENTIFIED~ #1
@@ -1600,27 +1600,27 @@ COPY_EXISTING ~STO0703.STO~ ~override~
 	ADD_STORE_ITEM ~WAND09~ #20 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~WAND13~ #20 #0 #0 ~IDENTIFIED~ #1
 
-COPY_EXISTING ~STO4803.STO~ ~override~
+COPY_EXISTING ~sto4803.sto~ ~override~
 	ADD_STORE_ITEM ~BOW04~ #0 #0 #0 ~IDENTIFIED~ #2
 	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #2
 	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #2
 
-COPY_EXISTING ~STO4909.STO~ ~override~
+COPY_EXISTING ~sto4909.sto~ ~override~
 	ADD_STORE_ITEM ~AROW05~ #10 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
 
-COPY_EXISTING ~STOBLACK.STO~ ~override~
+COPY_EXISTING ~stoblack.sto~ ~override~
 	ADD_STORE_ITEM ~SPER02~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #2
 
-COPY_EXISTING ~STOSILEN.STO~ ~override~
+COPY_EXISTING ~stosilen.sto~ ~override~
 	ADD_STORE_ITEM ~DSHAT01~ #0 #0 #0 ~IDENTIFIED~ #2
-	PATCH_IF FILE_EXISTS_IN_GAME ~HELMSUN.itm~ BEGIN
+	PATCH_IF FILE_EXISTS_IN_GAME ~helmsun.itm~ BEGIN
 		ADD_STORE_ITEM ~HELMSUN~ #0 #0 #0 ~IDENTIFIED~ #1
 	END
 
-COPY_EXISTING ~TAERUM.STO~ ~override~
+COPY_EXISTING ~taerum.sto~ ~override~
 	ADD_STORE_ITEM ~AROW10~ #10 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~AX1H05~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #2
@@ -1628,7 +1628,7 @@ COPY_EXISTING ~TAERUM.STO~ ~override~
 	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #4
 
-COPY_EXISTING ~TEM0131.STO~ ~override~
+COPY_EXISTING ~tem0131.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
@@ -1638,25 +1638,25 @@ COPY_EXISTING ~TEM0131.STO~ ~override~
 	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
 
-COPY_EXISTING ~TEM0132.STO~ ~override~
+COPY_EXISTING ~tem0132.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
 
-COPY_EXISTING ~TEM2304.STO~ ~override~
+COPY_EXISTING ~tem2304.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
 
-COPY_EXISTING ~TEM2601.STO~ ~override~
+COPY_EXISTING ~tem2601.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
 	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
 
-COPY_EXISTING ~TEM3402.STO~ ~override~
+COPY_EXISTING ~tem3402.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #9
@@ -1669,7 +1669,7 @@ COPY_EXISTING ~TEM3402.STO~ ~override~
 	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
 
-COPY_EXISTING ~TEM4802.STO~ ~override~
+COPY_EXISTING ~tem4802.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
 	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
@@ -1682,15 +1682,15 @@ COPY_EXISTING ~TEM4802.STO~ ~override~
 
 //Install new creatures
 
-COPY ~DSotSC/base/cre/DSARCHDR.cre~ ~override~
+COPY ~DSotSC/base/cre/dsarchdr.cre~ ~override~
 	SAY NAME1 @2000
 	SAY NAME2 @2000
 
-COPY ~DSotSC/base/cre/DSBANSHE.cre~ ~override~
+COPY ~DSotSC/base/cre/dsbanshe.cre~ ~override~
 	SAY NAME1 @2001
 	SAY NAME2 @2001
 
-COPY ~DSotSC/base/cre/DSBARDO.cre~ ~override~
+COPY ~DSotSC/base/cre/dsbardo.cre~ ~override~
 	SAY NAME1 @2002
 	SAY NAME2 @2002
 	SAY 0xa4  @20301 //INITIAL_MEETING
@@ -1752,12 +1752,12 @@ COPY ~DSotSC/base/cre/DSBARDO.cre~ ~override~
 	SAY 0x1c4 @20354 //SET_A_TRAP
 	SAY 0x1cc @20358 //BIO
 
-COPY ~DSotSC/base/cre/DSBLANE.cre~ ~override~
+COPY ~DSotSC/base/cre/dsblane.cre~ ~override~
 	SAY NAME1 @2003
 	SAY NAME2 @2003
 
-COPY ~DSotSC/base/cre/DSBUB.cre~ ~override~
-	~DSotSC/base/cre/DSBUB6.cre~ ~override~
+COPY ~DSotSC/base/cre/dsbub.cre~ ~override~
+	~DSotSC/base/cre/dsbub6.cre~ ~override~
 	SAY NAME1 @2004
 	SAY NAME2 @2004
 	SAY 0xa4  @20601 //INITIAL_MEETING
@@ -1806,7 +1806,7 @@ COPY ~DSotSC/base/cre/DSBUB.cre~ ~override~
 	SAY 0x1a8 @20644 //CRITICAL_HIT
 	SAY 0x1cc @20645 //BIO
 
-COPY ~DSotSC/base/cre/DSCLARS.cre~ ~override~
+COPY ~DSotSC/base/cre/dsclars.cre~ ~override~
 	SAY NAME1 @2005
 	SAY NAME2 @2005
 	SAY 0xa4 @2006
@@ -1816,8 +1816,8 @@ COPY ~DSotSC/base/cre/DSCLARS.cre~ ~override~
 		//WRITE_ASCII 0x40c "RNDTRE3_" #8
 	END
 
-COPY ~DSotSC/base/cre/DSCONCH5.cre~ ~override~
-	~DSotSC/base/cre/DSCONCH7.cre~ ~override~
+COPY ~DSotSC/base/cre/dsconch5.cre~ ~override~
+	~DSotSC/base/cre/dsconch7.cre~ ~override~
 	SAY NAME1 @2008
 	SAY NAME2 @2008
 	SAY 0xa4  @20101 //INITIAL_MEETING
@@ -1859,12 +1859,12 @@ COPY ~DSotSC/base/cre/DSCONCH5.cre~ ~override~
 	SAY 0x1a4 @20126 //SELECT_RARE2
 	SAY 0x1cc @2046 //BIO
 
-COPY ~DSotSC/base/cre/DSCOOSHE.cre~ ~override~
+COPY ~DSotSC/base/cre/dscooshe.cre~ ~override~
 	SAY NAME1 @2047
 	SAY NAME2 @2047
 
-COPY ~DSotSC/base/cre/DSCUCH5.cre~ ~override~
-	~DSotSC/base/cre/DSCUCH7.cre~ ~override~
+COPY ~DSotSC/base/cre/dscuch5.cre~ ~override~
+	~DSotSC/base/cre/dscuch7.cre~ ~override~
 	SAY NAME1 @2048
 	SAY NAME2 @2048
 	SAY 0xa4  @20201 //INITIAL_MEETING
@@ -1898,59 +1898,59 @@ COPY ~DSotSC/base/cre/DSCUCH5.cre~ ~override~
 	SAY 0x1a4 @20226 //SELECT_RARE2
 	SAY 0x1cc @2077 //BIO
 
-/*COPY ~DSotSC/base/cre/DSDANCER.CRE~ ~override~
+/*COPY ~DSotSC/base/cre/dsdancer.cre~ ~override~
 	SAY NAME1 @2078
 	SAY NAME2 @2078*/
 
-COPY ~DSotSC/base/cre/DSDEAZLE.cre~ ~override~
+COPY ~DSotSC/base/cre/dsdeazle.cre~ ~override~
 	SAY NAME1 @2079
 	SAY NAME2 @2079
 
-COPY ~DSotSC/base/cre/DSDROW01.cre~ ~override~
+COPY ~DSotSC/base/cre/dsdrow01.cre~ ~override~
 	SAY NAME1 @2080
 	SAY NAME2 @2080
 
-COPY ~DSotSC/base/cre/DSDROW02.cre~ ~override~
+COPY ~DSotSC/base/cre/dsdrow02.cre~ ~override~
 	SAY NAME1 @2081
 	SAY NAME2 @2081
 
-COPY ~DSotSC/base/cre/DSDROW03.cre~ ~override~
+COPY ~DSotSC/base/cre/dsdrow03.cre~ ~override~
 	SAY NAME1 @2082
 	SAY NAME2 @2082
 
-COPY ~DSotSC/base/cre/DSDROW04.cre~ ~override~
+COPY ~DSotSC/base/cre/dsdrow04.cre~ ~override~
 	SAY NAME1 @2083
 	SAY NAME2 @2083
 
-COPY ~DSotSC/base/cre/DSDUEGM1.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduegm1.cre~ ~override~
 	SAY NAME1 @2084
 	SAY NAME2 @2084
 
-COPY ~DSotSC/base/cre/DSDUEGMA.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduegma.cre~ ~override~
 	SAY NAME1 @2085
 	SAY NAME2 @2085
 
-COPY ~DSotSC/base/cre/DSDUEGSK.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduegsk.cre~ ~override~
 	SAY NAME1 @2086
 	SAY NAME2 @2086
 
-COPY ~DSotSC/base/cre/DSDUERG1.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduerg1.cre~ ~override~
 	SAY NAME1 @2087
 	SAY NAME2 @2087
 
-COPY ~DSotSC/base/cre/DSDUERG2.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduerg2.cre~ ~override~
 	SAY NAME1 @2088
 	SAY NAME2 @2088
 
-COPY ~DSotSC/base/cre/DSDUERG3.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduerg3.cre~ ~override~
 	SAY NAME1 @2089
 	SAY NAME2 @2089
 
-COPY ~DSotSC/base/cre/DSDUERGA.cre~ ~override~
+COPY ~DSotSC/base/cre/dsduerga.cre~ ~override~
 	SAY NAME1 @2090
 	SAY NAME2 @2090
 
-COPY ~DSotSC/base/cre/DSFERTH.cre~ ~override~
+COPY ~DSotSC/base/cre/dsferth.cre~ ~override~
 	SAY NAME1 @2091
 	SAY NAME2 @2091
 	SAY 0xa4 @20801 //INITIAL_MEETING
@@ -1996,11 +1996,11 @@ COPY ~DSotSC/base/cre/DSFERTH.cre~ ~override~
 	SAY 0x1a4 @20823 //SELECT_RARE2
 	SAY 0x1cc @2133 //BIO
 
-COPY ~DSotSC/base/cre/DSFEYDO.cre~ ~override~
+COPY ~DSotSC/base/cre/dsfeydo.cre~ ~override~
 	SAY NAME1 @2134
 	SAY NAME2 @2134
 
-COPY ~DSotSC/base/cre/DSFORDRG.cre~ ~override~
+COPY ~DSotSC/base/cre/dsfordrg.cre~ ~override~
 	SAY NAME1 @2135
 	SAY NAME2 @2135
 	SAY 0xb8 ~~ [BAZDR306]
@@ -2010,15 +2010,15 @@ COPY ~DSotSC/base/cre/DSFORDRG.cre~ ~override~
 	SAY 0xf0 ~~ [BAZDR305]
 	SAY 0x10c ~~ [BAZDR301]
 
-COPY ~DSotSC/base/cre/DSFRDRGB.cre~ ~override~
+COPY ~DSotSC/base/cre/dsfrdrgb.cre~ ~override~
 	SAY NAME1 @2142
 	SAY NAME2 @2142
 
-COPY ~DSotSC/base/cre/DSGILIAN.cre~ ~override~
+COPY ~DSotSC/base/cre/dsgilian.cre~ ~override~
 	SAY NAME1 @2143
 	SAY NAME2 @2143
 
-COPY ~DSotSC/base/cre/DSGNOLLC.cre~ ~override~
+COPY ~DSotSC/base/cre/dsgnollc.cre~ ~override~
 	SAY NAME1 @2144
 	SAY NAME2 @2144
 	SAY 0xc8 ~~ [GNOLL03]
@@ -2028,17 +2028,17 @@ COPY ~DSotSC/base/cre/DSGNOLLC.cre~ ~override~
 	SAY 0x10c ~~ [GNOLL01]
 	SAY 0x110 ~~ [GNOLL02]
 
-COPY ~DSotSC/base/cre/DSGOBCHF.cre~ ~override~
+COPY ~DSotSC/base/cre/dsgobchf.cre~ ~override~
 	SAY NAME1 @2151
 	SAY NAME2 @2151
 
-COPY ~DSotSC/base/cre/DSGRUNK.cre~ ~override~
+COPY ~DSotSC/base/cre/dsgrunk.cre~ ~override~
 	SAY NAME1 @2152
 	SAY NAME2 @2152
 
-COPY ~DSotSC/base/cre/DSGUARD.cre~ ~override~
+COPY ~DSotSC/base/cre/dsguard.cre~ ~override~
 
-COPY ~DSotSC/base/cre/DSHALF01.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalf01.cre~ ~override~
 	SAY NAME1 @2153
 	SAY NAME2 @2153
 	SAY 0xa4 @2154
@@ -2046,44 +2046,44 @@ COPY ~DSotSC/base/cre/DSHALF01.cre~ ~override~
 	SAY 0xf0 ~~ [GANDL04]
 	SAY 0x10c @2157
 
-COPY ~DSotSC/base/cre/DSHALF02.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalf02.cre~ ~override~
 	SAY NAME1 @2158
 	SAY NAME2 @2158
 
-COPY ~DSotSC/base/cre/DSHALF03.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalf03.cre~ ~override~
 	SAY NAME1 @2158
 	SAY NAME2 @2158
 
-COPY ~DSotSC/base/cre/DSHALF04.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalf04.cre~ ~override~
 	SAY NAME1 @2159
 	SAY NAME2 @2159
 
-COPY ~DSotSC/base/cre/DSHALF05.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalf05.cre~ ~override~
 	SAY NAME1 @2159
 	SAY NAME2 @2159
 
-COPY ~DSotSC/base/cre/DSHALFD2.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalfd2.cre~ ~override~
 	SAY NAME1 @2158
 	SAY NAME2 @2158
 
-COPY ~DSotSC/base/cre/DSHALFDD.cre~ ~override~
+COPY ~DSotSC/base/cre/dshalfdd.cre~ ~override~
 	SAY NAME1 @2158
 	SAY NAME2 @2158
 
-COPY ~DSotSC/base/cre/DSJABB.cre~ ~override~
+COPY ~DSotSC/base/cre/dsjabb.cre~ ~override~
 	SAY NAME1 @2160
 	SAY NAME2 @2160
 
-COPY ~DSotSC/base/cre/DSJAREN.cre~ ~override~
+COPY ~DSotSC/base/cre/dsjaren.cre~ ~override~
 	SAY NAME1 @2161
 	SAY NAME2 @2161
 
-COPY ~DSotSC/base/cre/DSJEREMY.cre~ ~override~
+COPY ~DSotSC/base/cre/dsjeremy.cre~ ~override~
 	SAY NAME1 @2162
 	SAY NAME2 @2162
 
-COPY ~DSotSC/base/cre/DSJETLAY.cre~ ~override~
-	~DSotSC/base/cre/DSJETLA9.cre~ ~override~
+COPY ~DSotSC/base/cre/dsjetlay.cre~ ~override~
+	~DSotSC/base/cre/dsjetla9.cre~ ~override~
 	SAY NAME1 @2163
 	SAY NAME2 @2163
 	SAY 0xa4  @20401 //INITIAL_MEETING
@@ -2130,20 +2130,20 @@ COPY ~DSotSC/base/cre/DSJETLAY.cre~ ~override~
 	SAY 0x1cc @2202 //BIO
 	ADD_CRE_ITEM ~DSCLCK23~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
 
-COPY ~DSotSC/base/cre/DSJULES.cre~ ~override~
+COPY ~DSotSC/base/cre/dsjules.cre~ ~override~
 	SAY NAME1 @2203
 	SAY NAME2 @2203
 
-COPY ~DSotSC/base/cre/DSKALANN.cre~ ~override~
+COPY ~DSotSC/base/cre/dskalann.cre~ ~override~
 	SAY NAME1 @2204
 	SAY NAME2 @2204
 
-COPY ~DSotSC/base/cre/DSKATERI.cre~ ~override~
+COPY ~DSotSC/base/cre/dskateri.cre~ ~override~
 	SAY NAME1 @2205
 	SAY NAME2 @2205
 
-COPY ~DSotSC/base/cre/DSKEIRI5.cre~ ~override~
-	~DSotSC/base/cre/DSKEIRI7.cre~ ~override~
+COPY ~DSotSC/base/cre/dskeiri5.cre~ ~override~
+	~DSotSC/base/cre/dskeiri7.cre~ ~override~
 	SAY NAME1 @2206
 	SAY NAME2 @2206
 	SAY 0xa4 @20701 //INITIAL_MEETING
@@ -2187,97 +2187,97 @@ COPY ~DSotSC/base/cre/DSKEIRI5.cre~ ~override~
 	SAY 0x1ac @20738 //CRITICAL_MISS
 	SAY 0x1cc @2245 //BIO
 
-COPY ~DSotSC/base/cre/DSKENB.cre~ ~override~
+COPY ~DSotSC/base/cre/dskenb.cre~ ~override~
 	SAY NAME1 @2246
 	SAY NAME2 @2246
 
-COPY ~DSotSC/base/cre/DSLENNAN.cre~ ~override~
+COPY ~DSotSC/base/cre/dslennan.cre~ ~override~
 	SAY NAME1 @2247
 	SAY NAME2 @2247
 
-COPY ~DSotSC/base/cre/DSLICH.cre~ ~override~
+COPY ~DSotSC/base/cre/dslich.cre~ ~override~
 	SAY NAME1 @2248
 	SAY NAME2 @2248
 	SAY 0xa4 @20901
 	SAY 0x100 @20902
 
-COPY ~DSotSC/base/cre/DSLICH1.cre~ ~override~
+COPY ~DSotSC/base/cre/dslich1.cre~ ~override~
 	SAY NAME1 @2248
 	SAY NAME2 @2248
 	SAY 0x100 @20902
 
-COPY ~DSotSC/base/cre/DSLICH2.cre~ ~override~
+COPY ~DSotSC/base/cre/dslich2.cre~ ~override~
 	SAY NAME1 @2248
 	SAY NAME2 @2248
 	SAY 0x100 @20902
 
-COPY ~DSotSC/base/cre/DSLICH3.cre~ ~override~
+COPY ~DSotSC/base/cre/dslich3.cre~ ~override~
 	SAY NAME1 @2248
 	SAY NAME2 @2248
 	SAY 0x100 @20902
 
-COPY ~DSotSC/base/cre/DSMAID.cre~ ~override~
+COPY ~DSotSC/base/cre/dsmaid.cre~ ~override~
 	SAY NAME1 @2251
 	SAY NAME2 @2251
 
-COPY ~DSotSC/base/cre/DSMEGAN.cre~ ~override~
+COPY ~DSotSC/base/cre/dsmegan.cre~ ~override~
 	SAY NAME1 @2252
 	SAY NAME2 @2252
 
-COPY ~DSotSC/base/cre/DSMOPPY.cre~ ~override~
+COPY ~DSotSC/base/cre/dsmoppy.cre~ ~override~
 	SAY NAME1 @2253
 	SAY NAME2 @2253
 
-COPY ~DSotSC/base/cre/DSMORTUS.cre~ ~override~
+COPY ~DSotSC/base/cre/dsmortus.cre~ ~override~
 	SAY NAME1 @2254
 	SAY NAME2 @2254
 
-COPY ~DSotSC/base/cre/DSNORBY.cre~ ~override~
+COPY ~DSotSC/base/cre/dsnorby.cre~ ~override~
 	SAY NAME1 @2255
 	SAY NAME2 @2255
 
-COPY ~DSotSC/base/cre/DSORC01.cre~ ~override~
+COPY ~DSotSC/base/cre/dsorc01.cre~ ~override~
 	SAY NAME1 @2256
 	SAY NAME2 @2256
 
-COPY ~DSotSC/base/cre/DSOTHO.cre~ ~override~
+COPY ~DSotSC/base/cre/dsotho.cre~ ~override~
 	SAY NAME1 @2257
 	SAY NAME2 @2257
 
-COPY ~DSotSC/base/cre/DSPHANT1.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant1.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSPHANT2.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant2.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSPHANT3.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant3.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSPHANT4.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant4.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSPHANT5.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant5.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSPHANT6.cre~ ~override~
+COPY ~DSotSC/base/cre/dsphant6.cre~ ~override~
 	SAY NAME1 @2258
 	SAY NAME2 @2258
 
-COPY ~DSotSC/base/cre/DSROACH.cre~ ~override~
+COPY ~DSotSC/base/cre/dsroach.cre~ ~override~
 	SAY NAME1 @2259
 	SAY NAME2 @2259
 
-COPY ~DSotSC/base/cre/DSSHAR.cre~ ~override~
+COPY ~DSotSC/base/cre/dsshar.cre~ ~override~
 	SAY NAME1 @2260
 	SAY NAME2 @2260
 
-COPY ~DSotSC/base/cre/DSSKEEZ.cre~ ~override~
-	~DSotSC/base/cre/DSSKEEZ6.cre~ ~override~
+COPY ~DSotSC/base/cre/dsskeez.cre~ ~override~
+	~DSotSC/base/cre/dsskeez6.cre~ ~override~
 	SAY NAME1 @2261
 	SAY NAME2 @2261
 	SAY 0xa4  @20501 //INITIAL_MEETING
@@ -2316,11 +2316,11 @@ COPY ~DSotSC/base/cre/DSSKEEZ.cre~ ~override~
 	SAY 0x190 @20524 //RESPONSE_TO_INSULT2
 	SAY 0x1cc @2286 //BIO
 
-COPY ~DSotSC/base/cre/DSSPEC.cre~ ~override~
+COPY ~DSotSC/base/cre/dsspec.cre~ ~override~
 	SAY NAME1 @2287
 	SAY NAME2 @2287
 
-COPY ~DSotSC/base/cre/DSTHOMIC.cre~ ~override~
+COPY ~DSotSC/base/cre/dsthomic.cre~ ~override~
 	SAY NAME1 @2288
 	SAY NAME2 @2288
 
@@ -2377,47 +2377,47 @@ COPY ~DSotSC/base/cre/dsthorf2.cre~ ~override~
 	SAY 0x1a4 @21047 //SELECT_RARE2
 	SAY 0x1cc @21050 //BIO
 
-COPY ~DSotSC/base/cre/DSTORQUI.cre~ ~override~
+COPY ~DSotSC/base/cre/dstorqui.cre~ ~override~
 	SAY NAME1 @2289
 	SAY NAME2 @2289
 
-COPY ~DSotSC/base/cre/DSTRUNGL.cre~ ~override~
+COPY ~DSotSC/base/cre/dstrungl.cre~ ~override~
 	SAY NAME1 @2290
 	SAY NAME2 @2290
 
-COPY ~DSotSC/base/cre/DSVAMPF1.cre~ ~override~
+COPY ~DSotSC/base/cre/dsvampf1.cre~ ~override~
 	SAY NAME1 @2291
 	SAY NAME2 @2291
 
-COPY ~DSotSC/base/cre/DSVAMPF2.cre~ ~override~
+COPY ~DSotSC/base/cre/dsvampf2.cre~ ~override~
 	SAY NAME1 @2291
 	SAY NAME2 @2291
 
-COPY ~DSotSC/base/cre/DSVAMPM.cre~ ~override~
+COPY ~DSotSC/base/cre/dsvampm.cre~ ~override~
 	SAY NAME1 @2292
 	SAY NAME2 @2292
 
-COPY ~DSotSC/base/cre/DSWELF1.cre~ ~override~
+COPY ~DSotSC/base/cre/dswelf1.cre~ ~override~
 	SAY NAME1 @2293
 	SAY NAME2 @2293
 
-COPY ~DSotSC/base/cre/DSWELF1E.cre~ ~override~
+COPY ~DSotSC/base/cre/dswelf1e.cre~ ~override~
 	SAY NAME1 @2294
 	SAY NAME2 @2294
 
-COPY ~DSotSC/base/cre/DSWELF2.cre~ ~override~
+COPY ~DSotSC/base/cre/dswelf2.cre~ ~override~
 	SAY NAME1 @2293
 	SAY NAME2 @2293
 
-COPY ~DSotSC/base/cre/DSWELF2E.cre~ ~override~
+COPY ~DSotSC/base/cre/dswelf2e.cre~ ~override~
 	SAY NAME1 @2294
 	SAY NAME2 @2294
 
-COPY ~DSotSC/base/cre/DSWOLF1.cre~ ~override~
+COPY ~DSotSC/base/cre/dswolf1.cre~ ~override~
 	SAY NAME1 @2295
 	SAY NAME2 @2295
 
-COPY ~DSotSC/base/cre/XVART02.CRE~ ~override~
+COPY ~DSotSC/base/cre/xvart02.cre~ ~override~
 	SAY 0xc8 #5133
 	SAY 0xcc #5134
 	SAY 0xdc #5491
@@ -2427,7 +2427,7 @@ COPY ~DSotSC/base/cre/XVART02.CRE~ ~override~
 	SAY 0x10c #5002
 	SAY 0x110 #5004
 
-COPY ~DSotSC/base/cre/XVART03.CRE~ ~override~
+COPY ~DSotSC/base/cre/xvart03.cre~ ~override~
 	SAY 0xc8 #5133
 	SAY 0xcc #5134
 	SAY 0xdc #5491
@@ -2449,7 +2449,7 @@ COPY ~DSotSC/base/cre/xvartpre.cre~ ~override~
 	SAY 0x10c #5002
 	SAY 0x110 #5004
 
-COPY ~DSotSC/base/cre/XVART_D.CRE~ ~override~
+COPY ~DSotSC/base/cre/XVART_d.cre~ ~override~
 	SAY 0xc8 #5133
 	SAY 0xcc #5134
 	SAY 0xdc #5491
@@ -2459,31 +2459,31 @@ COPY ~DSotSC/base/cre/XVART_D.CRE~ ~override~
 	SAY 0x10c #5002
 	SAY 0x110 #5004
 
-COPY ~DSotSC/base/cre/DSZOMBLO.cre~ ~override~
+COPY ~DSotSC/base/cre/dszomblo.cre~ ~override~
 
-COPY ~DSotSC/base/cre/SKELLORD.cre~ ~override~
+COPY ~DSotSC/base/cre/skellord.cre~ ~override~
 	SAY NAME1 @2296
 	SAY NAME2 @2296
 
-COPY ~DSotSC/base/cre/KOBLDGD.cre~ ~override~
+COPY ~DSotSC/base/cre/kobldgd.cre~ ~override~
 	SAY NAME1 @2297
 	SAY NAME2 @2297
 
-COPY ~DSotSC/base/cre/GNOLL02.CRE~ ~override~
-	~DSotSC/base/cre/GNOLL03.CRE~ ~override~
-	~DSotSC/base/cre/GNOLL3.CRE~ ~override~
+COPY ~DSotSC/base/cre/gnoll02.cre~ ~override~
+	~DSotSC/base/cre/gnoll03.cre~ ~override~
+	~DSotSC/base/cre/gnoll3.cre~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
 		REPLACE_CRE_ITEM ~RNDTRE4_~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 		//WRITE_ASCII 0x3f8 "RNDTRE4_" #8
 	END
 
-COPY ~DSotSC/base/cre/SKELET02.CRE~ ~override~
-COPY ~DSotSC/base/cre/KOBOLD02.CRE~ ~override~
-COPY ~DSotSC/base/cre/KOBOLD11.CRE~ ~override~
+COPY ~DSotSC/base/cre/skelet02.cre~ ~override~
+COPY ~DSotSC/base/cre/kobold02.cre~ ~override~
+COPY ~DSotSC/base/cre/kobold11.cre~ ~override~
 
 // Modify existing creatures
 
-COPY_EXISTING ~AMARAN.cre~ ~override~
+COPY_EXISTING ~amaran.cre~ ~override~
 	WRITE_SHORT 0x14 ~4500~ //XP
 	WRITE_SHORT 0x24 ~85~
 	WRITE_SHORT 0x26 ~85~
@@ -2498,7 +2498,7 @@ COPY_EXISTING ~AMARAN.cre~ ~override~
 	ADD_CRE_ITEM ~DSWRLSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 
-COPY_EXISTING ~ANDRIS.cre~ ~override~
+COPY_EXISTING ~andris.cre~ ~override~
 	WRITE_SHORT 0x14 ~6500~ //XP
 	WRITE_SHORT 0x24 ~55~ //HP
 	WRITE_SHORT 0x26 ~55~
@@ -2511,7 +2511,7 @@ COPY_EXISTING ~ANDRIS.cre~ ~override~
 	ADD_CRE_ITEM ~SCRLDS91~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 	ADD_CRE_ITEM ~SCRLDS31~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
 
-COPY_EXISTING ~ARLIN.cre~ ~override~
+COPY_EXISTING ~arlin.cre~ ~override~
 	WRITE_SHORT 0x14 ~1800~ //XP
 	WRITE_SHORT 0x24 ~27~ //HP
 	WRITE_SHORT 0x26 ~27~ //max HP
@@ -2527,19 +2527,19 @@ COPY_EXISTING ~ARLIN.cre~ ~override~
 	ADD_CRE_ITEM ~SCRLDS91~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 	ADD_CRE_ITEM ~SCRLDS31~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
 
-COPY_EXISTING ~BOR.cre~ ~override~
+COPY_EXISTING ~bor.cre~ ~override~
 	REPLACE_CRE_ITEM ~HELM01~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
 	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	ADD_CRE_ITEM ~DSAXE01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~BRUNOS.cre~ ~override~
+COPY_EXISTING ~brunos.cre~ ~override~
 	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSSHLD54~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
 	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	REPLACE_CRE_ITEM ~DSBOOT02~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
 	ADD_CRE_ITEM ~DSKATAN1~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~COKSMTH.cre~ ~override~
+COPY_EXISTING ~coksmth.cre~ ~override~
 	WRITE_SHORT 0x24 ~61~ //HP
 	WRITE_SHORT 0x26 ~61~ //max HP
 	WRITE_SHORT 0x71 ~2~ //Spear Prof
@@ -2550,12 +2550,12 @@ COPY_EXISTING ~COKSMTH.cre~ ~override~
 	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
 	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 
-COPY_EXISTING ~CORSONE.cre~ ~override~
+COPY_EXISTING ~corsone.cre~ ~override~
 	REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~DENAK.cre~ ~override~
+COPY_EXISTING ~denak.cre~ ~override~
 	WRITE_SHORT 0x14 ~3750~ //XP
 	WRITE_SHORT 0x24 ~35~ //HP
 	WRITE_SHORT 0x26 ~35~ //max HP
@@ -2571,7 +2571,7 @@ COPY_EXISTING ~DENAK.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	ADD_CRE_ITEM ~STAF07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~DRAKAR.cre~ ~override~
+COPY_EXISTING ~drakar.cre~ ~override~
 	WRITE_SHORT 0x14 ~2200~ //XP
 	WRITE_SHORT 0x24 ~52~ //HP
 	WRITE_SHORT 0x26 ~52~ //max HP
@@ -2587,7 +2587,7 @@ COPY_EXISTING ~DRAKAR.cre~ ~override~
 	ADD_CRE_ITEM ~POTN14~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM2~
 
-COPY_EXISTING ~DRASUS.cre~ ~override~
+COPY_EXISTING ~drasus.cre~ ~override~
 	WRITE_SHORT 0x14 ~1700~ //XP
 	WRITE_SHORT 0x24 ~86~ //HP
 	WRITE_SHORT 0x26 ~86~ //max HP
@@ -2602,7 +2602,7 @@ COPY_EXISTING ~DRASUS.cre~ ~override~
 	ADD_CRE_ITEM ~DSVFLAIL~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 
-COPY_EXISTING ~GALDOR.cre~ ~override~
+COPY_EXISTING ~galdor.cre~ ~override~
 	WRITE_SHORT 0x14 ~12000~ //XP
 	WRITE_SHORT 0x24 ~112~ //HP
 	WRITE_SHORT 0x26 ~112~ //max HP
@@ -2616,7 +2616,7 @@ COPY_EXISTING ~GALDOR.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~IZEFIA.cre~ ~override~
+COPY_EXISTING ~izefia.cre~ ~override~
 	WRITE_SHORT 0x14 ~2000~ //XP
 	WRITE_SHORT 0x24 ~68~ //HP
 	WRITE_SHORT 0x26 ~68~ //max HP
@@ -2633,19 +2633,19 @@ COPY_EXISTING ~IZEFIA.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSAMUL01~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~KAHRK.cre~ ~override~
+COPY_EXISTING ~kahrk.cre~ ~override~
 	WRITE_ASCII 0x34 ~None~ #8 //Portrait
 	WRITE_ASCII 0x3c ~None~ #8 //Portrait
 	ADD_CRE_ITEM ~SCRL8Q~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
 
-COPY_EXISTING ~KESTOR.cre~ ~override~
+COPY_EXISTING ~kestor.cre~ ~override~
 	WRITE_SHORT 0x14 ~2300~ //XP
 	WRITE_SHORT 0x24 ~56~ //HP
 	WRITE_SHORT 0x26 ~56~ //max HP
 	WRITE_SHORT 0x234 ~12~ //first class level
 	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 
-COPY_EXISTING ~KRYSTI.cre~ ~override~
+COPY_EXISTING ~krysti.cre~ ~override~
 	WRITE_SHORT 0x14 ~4750~ //XP
 	WRITE_SHORT 0x24 ~63~ //HP
 	WRITE_SHORT 0x26 ~63~ //max HP
@@ -2655,10 +2655,10 @@ COPY_EXISTING ~KRYSTI.cre~ ~override~
 	ADD_CRE_ITEM ~DSBULL01~ #10 #0 #0 ~UNSTEALABLE~ ~QUIVER3~
 	ADD_CRE_ITEM ~SCRLA5~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
 
-COPY_EXISTING ~LAUREL.cre~ ~override~
+COPY_EXISTING ~laurel.cre~ ~override~
 	WRITE_ASCII 0x280 ~LAUREL~ #32 //death variable
 
-COPY_EXISTING ~LASALA.cre~ ~override~
+COPY_EXISTING ~lasala.cre~ ~override~
 	WRITE_SHORT 0x14 ~1350~ //XP
 	WRITE_SHORT 0x24 ~27~ //HP
 	WRITE_SHORT 0x26 ~27~ //max HP
@@ -2672,7 +2672,7 @@ COPY_EXISTING ~LASALA.cre~ ~override~
 	WRITE_BYTE 0x58 ~10~ //ST vs Spell
 	WRITE_SHORT 0x234 ~9~
 
-COPY_EXISTING ~LASKAL.cre~ ~override~
+COPY_EXISTING ~laskal.cre~ ~override~
 	WRITE_SHORT 0x14 ~2650~ //XP
 	WRITE_SHORT 0x24 ~71~ //HP
 	WRITE_SHORT 0x26 ~71~ //max HP
@@ -2689,7 +2689,7 @@ COPY_EXISTING ~LASKAL.cre~ ~override~
 	ADD_CRE_ITEM ~DSSTAF01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~DSSWD02~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
-COPY_EXISTING ~MOLKAR.cre~ ~override~
+COPY_EXISTING ~molkar.cre~ ~override~
 	WRITE_SHORT 0x14 ~1900~ //XP
 	WRITE_SHORT 0x24 ~70~ //HP
 	WRITE_SHORT 0x26 ~70~ //max HP
@@ -2702,7 +2702,7 @@ COPY_EXISTING ~MOLKAR.cre~ ~override~
 	WRITE_SHORT 0x234 ~9~
 	ADD_CRE_ITEM ~DSSWD03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~MORVIN.cre~ ~override~
+COPY_EXISTING ~morvin.cre~ ~override~
 	WRITE_SHORT 0x14 ~1250~ //XP
 	WRITE_SHORT 0x24 ~78~ //HP
 	WRITE_SHORT 0x26 ~78~ //max HP
@@ -2717,7 +2717,7 @@ COPY_EXISTING ~MORVIN.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	ADD_CRE_ITEM ~DSAXE03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~MULAHE.cre~ ~override~
+COPY_EXISTING ~mulahe.cre~ ~override~
 	WRITE_SHORT 0x14 ~750~ //XP
 	WRITE_SHORT 0x24 ~41~ //HP
 	WRITE_SHORT 0x26 ~41~ //max HP
@@ -2725,10 +2725,10 @@ COPY_EXISTING ~MULAHE.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSBRAC04~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	ADD_CRE_ITEM ~BLUN05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~OGRECO.cre~ ~override~
+COPY_EXISTING ~ogreco.cre~ ~override~
 	WRITE_ASCII 0x280 ~OGRECO~ #32
 
-COPY_EXISTING ~OSMADI.cre~ ~override~
+COPY_EXISTING ~osmadi.cre~ ~override~
 	WRITE_SHORT 0x14 ~2500~ //XP
 	WRITE_SHORT 0x24 ~59~ //HP
 	WRITE_SHORT 0x26 ~59~ //max HP
@@ -2744,7 +2744,7 @@ COPY_EXISTING ~OSMADI.cre~ ~override~
 	ADD_CRE_ITEM ~DSBRAC02~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	ADD_CRE_ITEM ~DSCLUB01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~RAGEFA.cre~ ~override~
+COPY_EXISTING ~ragefa.cre~ ~override~
 	WRITE_SHORT 0x14 ~4000~ //XP
 	WRITE_SHORT 0x24 ~42~ //HP
 	WRITE_SHORT 0x26 ~42~ //max HP
@@ -2760,7 +2760,7 @@ COPY_EXISTING ~RAGEFA.cre~ ~override~
 	ADD_CRE_ITEM ~DAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~SCRL9N~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
-COPY_EXISTING ~RIELTA.cre~ ~override~
+COPY_EXISTING ~rielta.cre~ ~override~
 	WRITE_SHORT 0x14 ~1200~ //XP
 	WRITE_SHORT 0x24 ~66~ //HP
 	WRITE_SHORT 0x26 ~66~ //max HP
@@ -2779,7 +2779,7 @@ COPY_EXISTING ~RIELTA.cre~ ~override~
 	ADD_CRE_ITEM ~DSDAGG03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
-COPY_EXISTING ~SEMAJ.cre~ ~override~
+COPY_EXISTING ~semaj.cre~ ~override~
 	WRITE_SHORT 0x14 ~1000~ //XP
 	WRITE_SHORT 0x24 ~62~ //HP
 	WRITE_SHORT 0x26 ~62~ //max HP
@@ -2796,7 +2796,7 @@ COPY_EXISTING ~SEMAJ.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	ADD_CRE_ITEM ~DSNEMSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~SLYTHE.cre~ ~override~
+COPY_EXISTING ~slythe.cre~ ~override~
 	WRITE_SHORT 0x14 ~6000~ //XP
 	WRITE_SHORT 0x24 ~115~ //HP
 	WRITE_SHORT 0x26 ~115~ //max HP
@@ -2813,7 +2813,7 @@ COPY_EXISTING ~SLYTHE.cre~ ~override~
 	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
 	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
 
-COPY_EXISTING ~TAKIYAH.cre~ ~override~
+COPY_EXISTING ~takiyah.cre~ ~override~
 	WRITE_SHORT 0x14 ~1000~ //XP
 	WRITE_SHORT 0x24 ~68~ //HP
 	WRITE_SHORT 0x26 ~68~ //max HP
@@ -2823,13 +2823,13 @@ COPY_EXISTING ~TAKIYAH.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~VAX.cre~ ~override~
+COPY_EXISTING ~vax.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSAXE02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-COPY_EXISTING ~ZAL.cre~  ~override~
+COPY_EXISTING ~zal.cre~  ~override~
 	ADD_CRE_ITEM ~DSSPERD~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON4~
 
-COPY_EXISTING ~ZEELA.cre~ ~override~
+COPY_EXISTING ~zeela.cre~ ~override~
 	PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
 		REMOVE_CRE_ITEM ~BLUN02~
 		REMOVE_CRE_ITEM ~BRAC02~
@@ -2853,7 +2853,7 @@ COPY ~DSotSC/base/wed~ ~override~
 
 COPY ~DSotSC/base/are/%platform%/nostring~ ~override~
 
-COPY ~DSotSC/base/are/%platform%/DSC010.are~ ~override~
+COPY ~DSotSC/base/are/%platform%/dsc010.are~ ~override~
 	SAY 0x1f4c @2302
 
 // Modify existing areas
@@ -3621,98 +3621,98 @@ COMPILE ~DSotSC/base/baf~ EVALUATE_BUFFER USING ~DSotSC/language/%LANGUAGE%/baf.
 
 //Modify existing scripts
 
-EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/AR3200.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/ar3200.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%FirewineBridge%.are~ ~override/%FirewineBridge%.are~
 	WRITE_ASCII 0x94 ~%FirewineBridge%~ #8
 BUT_ONLY
-EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/AR3400.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/ar3400.baf~ EVALUATE_BUFFER
 
 /*COPY_EXISTING ~%BearRiver%.are~ ~override~
 	WRITE_ASCII 0x94 ~%BearRiver%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%BearRiver_BCS%.bcs~ ~DSotSC/modify/bcs/AR3499.BAF~ EVALUATE_BUFFER*/
+EXTEND_BOTTOM ~%BearRiver_BCS%.bcs~ ~DSotSC/modify/bcs/ar3499.baf~ EVALUATE_BUFFER*/
 
-EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/AR3497.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/AR3498.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/ar3497.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/ar3498.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~DSotSC/modify/bcs/AR3700.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~DSotSC/modify/bcs/ar3700.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_Inn%.are~ ~override/%Nashkel_Inn%.are~
 	WRITE_ASCII 0x94 ~%Nashkel_Inn%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Nashkel_Inn_BCS%.bcs~ ~DSotSC/modify/bcs/AR3701.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Nashkel_Inn_BCS%.bcs~ ~DSotSC/modify/bcs/ar3701.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_ManorHouse_L1%.are~ ~override/%Nashkel_ManorHouse_L1%.are~
 	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L1%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Nashkel_ManorHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR3704.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Nashkel_ManorHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar3704.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_ManorHouse_L2%.are~ ~override/%Nashkel_ManorHouse_L2%.are~
 	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L2%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Nashkel_ManorHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR3705.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Nashkel_ManorHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar3705.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%NashkelCarnival_BCS%.BCS~ ~DSotSC/modify/bcs/AR3800.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NashkelCarnival_BCS%.BCS~ ~DSotSC/modify/bcs/ar3800.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%NashkelMines_L3%.are~ ~override/%NashkelMines_L3%.are~
 	WRITE_ASCII 0x94 ~%NashkelMines_L3%~ #8
 BUT_ONLY
-EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/AR4403.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/ar4403.baf~ EVALUATE_BUFFER
 
-EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/AR4405.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%GibberlingMountains_BCS%.bcs~ ~DSotSC/modify/bcs/AR4600.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/ar4405.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%GibberlingMountains_BCS%.bcs~ ~DSotSC/modify/bcs/ar4600.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Candlekeep_Catacombs_L1%.are~ ~override/%Candlekeep_Catacombs_L1%.are~
 	WRITE_ASCII 0x94 ~%Candlekeep_Catacombs_L1%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Candlekeep_Catacombs_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6515.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Candlekeep_Catacombs_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6515.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/AR6600.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~DSotSC/modify/bcs/AR6700.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/ar6600.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~DSotSC/modify/bcs/ar6700.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Beregost_ThunderhammerSmithy%.are~ ~override/%Beregost_ThunderhammerSmithy%.are~
 	WRITE_ASCII 0x94 ~%Beregost_ThunderhammerSmithy%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~DSotSC/modify/bcs/AR6701.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~DSotSC/modify/bcs/ar6701.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%Beregost_JovialJuggler_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6704.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_JovialJuggler_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6704.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Beregost_BurningWizard_L1%.are~ ~override/%Beregost_BurningWizard_L1%.are~
 	WRITE_ASCII 0x94 ~%Beregost_BurningWizard_L1%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6707.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6707.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%Beregost_RedSheaf_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR6757.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_RedSheaf_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6757.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%FriendlyArmInn_BCS%.bcs~ ~DSotSC/modify/bcs/AR6800.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%FriendlyArmInn_BCS%.bcs~ ~DSotSC/modify/bcs/ar6800.baf~ EVALUATE_BUFFER
  REPLACE ~999999~ @2304
 
-EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.bcs~ ~DSotSC/modify/bcs/AR7211.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR7407.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR7408.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodDruids_BCS%.bcs~ ~DSotSC/modify/bcs/AR8400.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR8401.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/AR8402.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~DSotSC/modify/bcs/AR8600.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_L3_BCS%.bcs~ ~DSotSC/modify/bcs/AR8602.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~DSotSC/modify/bcs/AR8603.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_Barracks_L1_BCS%.bcs~ ~DSotSC/modify/bcs/AR8605.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~DSotSC/modify/bcs/AR8900.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.bcs~ ~DSotSC/modify/bcs/ar7211.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar7407.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%NEBaldursGate_CountingHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar7408.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_BCS%.bcs~ ~DSotSC/modify/bcs/ar8400.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar8401.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar8402.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~DSotSC/modify/bcs/ar8600.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_L3_BCS%.bcs~ ~DSotSC/modify/bcs/ar8602.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~ ~DSotSC/modify/bcs/ar8603.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_Barracks_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar8605.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~DSotSC/modify/bcs/ar8900.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%ShipwrecksCoast%.are~ ~override/%ShipwrecksCoast%.are~
 	WRITE_ASCII 0x94 ~%ShipwrecksCoast%~ #8
 BUT_ONLY
-EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~DSotSC/modify/bcs/AR9200.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~DSotSC/modify/bcs/ar9200.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%Temple_SongoftheMorning_BCS%.bcs~ ~DSotSC/modify/bcs/AR9302.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~DSotSC/modify/bcs/AR9501.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%RedCanyons_BCS%.bcs~ ~DSotSC/modify/bcs/AR9600.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%SouthBeregostRoad_BCS%.BCS~ ~DSotSC/modify/bcs/AR9700.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Temple_SongoftheMorning_BCS%.bcs~ ~DSotSC/modify/bcs/ar9302.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~DSotSC/modify/bcs/ar9501.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%RedCanyons_BCS%.bcs~ ~DSotSC/modify/bcs/ar9600.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%SouthBeregostRoad_BCS%.BCS~ ~DSotSC/modify/bcs/ar9700.baf~ EVALUATE_BUFFER
 
 //drow item disintegration
-EXTEND_TOP ~%BanditCamp_BCS%.bcs~ ~DSotSC/modify/bcs/AR8700.BAF~ EVALUATE_BUFFER
-EXTEND_TOP ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/AR8700.BAF~ EVALUATE_BUFFER //entrance to UD
+EXTEND_TOP ~%BanditCamp_BCS%.bcs~ ~DSotSC/modify/bcs/ar8700.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/ar8700.baf~ EVALUATE_BUFFER //entrance to UD
 
 /////                                                  \\\\\
 ///// install dialogues                                \\\\\
@@ -3729,8 +3729,8 @@ COMPILE ~DSotSC/modify/dlg~ EVALUATE_BUFFER
 /////                                                  \\\\\
 
 ACTION_IF (GAME_IS ~eet~) BEGIN
-	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/BG5500sr.bmp~
-		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/BG2400sr.bmp~
+	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/bg5500sr.bmp~
+		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/bg2400sr.bmp~
 END
 
 COPY ~DSotSC/base/bam~ ~override~
