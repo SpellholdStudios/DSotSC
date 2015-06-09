@@ -15,7 +15,7 @@ LANGUAGE
 	~english~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/english/setup.tra~
-LANGUAGE
+/*LANGUAGE
 	~Castilian (translation updated by Lisandro)~
 	~spanish~
 	~DSotSC/language/english/prompts.tra~
@@ -39,7 +39,7 @@ LANGUAGE
 	~Russian (translation aVoddle, Alex, Badgert & aerie.ru & prowler)~
 	~russian~
 	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/russian/setup.tra~
+	~DSotSC/language/russian/setup.tra~*/
 
 BEGIN ~Dark Side of the Sword Coast (DSotSC)~
 REQUIRE_PREDICATE GAME_IS ~eet~ ~This mod is for Baldur's Gate: Enhanced Edition Trilogy (EET) only~
