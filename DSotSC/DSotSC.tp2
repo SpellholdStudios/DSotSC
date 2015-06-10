@@ -2861,7 +2861,7 @@ COPY ~DSotSC/base/are/%platform%/dsc010.are~ ~override~
 
 // %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020
 COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
-	WRITE_ASCII 0x94 ~%NorthNashkelRoad%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
+	WRITE_ASCIIE 0x94 ~%NorthNashkelRoad_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
 	READ_LONG  0x54  "actors_offset"
 	READ_SHORT 0x58  "actors_num"
 	READ_SHORT 0x5a  "infotrig_num"
@@ -3125,7 +3125,7 @@ BUT_ONLY //********************************************************  ~%NorthNash
 
 // %GibberlingMountains%.ARE gets new travel region and new entrance for DSC006
 COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
-	WRITE_ASCII 0x94 ~%GibberlingMountains%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
+	WRITE_ASCIIE 0x94 ~%GibberlingMountains_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
 	READ_LONG  0x54  "actors_offset"
 	READ_SHORT 0x58  "actors_num"
 	READ_SHORT 0x5a  "infotrig_num"
@@ -3625,12 +3625,12 @@ COMPILE ~DSotSC/base/baf~ EVALUATE_BUFFER USING ~DSotSC/language/%LANGUAGE%/baf.
 EXTEND_BOTTOM ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/ar3200.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%FirewineBridge%.are~ ~override/%FirewineBridge%.are~
-	WRITE_ASCII 0x94 ~%FirewineBridge%~ #8
+	WRITE_ASCIIE 0x94 ~%FirewineBridge%~ #8
 BUT_ONLY
 EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/ar3400.baf~ EVALUATE_BUFFER
 
 /*COPY_EXISTING ~%BearRiver%.are~ ~override~
-	WRITE_ASCII 0x94 ~%BearRiver%~ #8
+	WRITE_ASCIIE 0x94 ~%BearRiver%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%BearRiver_BCS%.bcs~ ~DSotSC/modify/bcs/ar3499.baf~ EVALUATE_BUFFER*/
 
@@ -3640,24 +3640,24 @@ EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/ar3498.baf~ EVALUATE_B
 EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~DSotSC/modify/bcs/ar3700.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_Inn%.are~ ~override/%Nashkel_Inn%.are~
-	WRITE_ASCII 0x94 ~%Nashkel_Inn%~ #8
+	WRITE_ASCIIE 0x94 ~%Nashkel_Inn%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_Inn_BCS%.bcs~ ~DSotSC/modify/bcs/ar3701.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_ManorHouse_L1%.are~ ~override/%Nashkel_ManorHouse_L1%.are~
-	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L1%~ #8
+	WRITE_ASCIIE 0x94 ~%Nashkel_ManorHouse_L1%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_ManorHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar3704.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Nashkel_ManorHouse_L2%.are~ ~override/%Nashkel_ManorHouse_L2%.are~
-	WRITE_ASCII 0x94 ~%Nashkel_ManorHouse_L2%~ #8
+	WRITE_ASCIIE 0x94 ~%Nashkel_ManorHouse_L2%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_ManorHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar3705.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%NashkelCarnival_BCS%.BCS~ ~DSotSC/modify/bcs/ar3800.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%NashkelMines_L3%.are~ ~override/%NashkelMines_L3%.are~
-	WRITE_ASCII 0x94 ~%NashkelMines_L3%~ #8
+	WRITE_ASCIIE 0x94 ~%NashkelMines_L3%~ #8
 BUT_ONLY
 EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/ar4403.baf~ EVALUATE_BUFFER
 
@@ -3665,7 +3665,7 @@ EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/ar4405.baf~ 
 EXTEND_BOTTOM ~%GibberlingMountains_BCS%.bcs~ ~DSotSC/modify/bcs/ar4600.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Candlekeep_Catacombs_L1%.are~ ~override/%Candlekeep_Catacombs_L1%.are~
-	WRITE_ASCII 0x94 ~%Candlekeep_Catacombs_L1%~ #8
+	WRITE_ASCIIE 0x94 ~%Candlekeep_Catacombs_L1%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Candlekeep_Catacombs_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6515.baf~ EVALUATE_BUFFER
 
@@ -3673,14 +3673,14 @@ EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/ar6600.baf~ EVALUATE_BUFFE
 EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~DSotSC/modify/bcs/ar6700.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Beregost_ThunderhammerSmithy%.are~ ~override/%Beregost_ThunderhammerSmithy%.are~
-	WRITE_ASCII 0x94 ~%Beregost_ThunderhammerSmithy%~ #8
+	WRITE_ASCIIE 0x94 ~%Beregost_ThunderhammerSmithy%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~DSotSC/modify/bcs/ar6701.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%Beregost_JovialJuggler_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6704.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%Beregost_BurningWizard_L1%.are~ ~override/%Beregost_BurningWizard_L1%.are~
-	WRITE_ASCII 0x94 ~%Beregost_BurningWizard_L1%~ #8
+	WRITE_ASCIIE 0x94 ~%Beregost_BurningWizard_L1%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6707.baf~ EVALUATE_BUFFER
 
@@ -3702,7 +3702,7 @@ EXTEND_BOTTOM ~%CloakwoodMines_Barracks_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar8605.b
 EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~DSotSC/modify/bcs/ar8900.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%ShipwrecksCoast%.are~ ~override/%ShipwrecksCoast%.are~
-	WRITE_ASCII 0x94 ~%ShipwrecksCoast%~ #8
+	WRITE_ASCIIE 0x94 ~%ShipwrecksCoast%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%ShipwrecksCoast_BCS%.bcs~ ~DSotSC/modify/bcs/ar9200.baf~ EVALUATE_BUFFER
 

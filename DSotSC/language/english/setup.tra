@@ -1234,12 +1234,10 @@ Not Usable By:
 
 STATISTICS:
 
-Armor Class: 2
-
 Special:
-  Increased Attacks
+  +1 attack per round
   +1 to all Saving Throws
-  +10% to Magic Resistance
+  +5% to Magic Resistance
 
 Weight: 2
 
@@ -3247,7 +3245,7 @@ the darkness of a great unknown. What lies ahead for you and your companions as 
 @20409 = ~*sigh*~ [JETLA09]
 @20410 = ~If ye need me, I'll be over here... bored.~ [JETLA10]
 @20411 = ~Oh please don't let me die here!~ [JETLA11]
-@20412 = ~Ye ever get the feeling ye're being watched? ~ [JETLA12]
+@20412 = ~Ye ever get the feeling ye're being watched?~ [JETLA12]
 @20413 = ~Now don't you trust anyone here, ye got me?~ [JETLA13]
 @20414 = ~Right. Let's get the work done and get out o' here.~ [JETLA14]
 @20415 = ~Ye ever get the feeling ye're being watched? Ye are.~ [JETLA15]
