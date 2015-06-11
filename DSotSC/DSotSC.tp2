@@ -1476,9 +1476,9 @@ COPY ~DSotSC/base/itm/dshamm01.itm~ ~override~
 	SAY NAME2 @1414
 	SAY DESC @1416
 
-COPY ~DSotSC/base/itm/dshamm02.itm~ ~override~
-	SAY NAME2 @1417
-	SAY DESC @1418
+//COPY ~DSotSC/base/itm/dshamm02.itm~ ~override~
+//	SAY NAME2 @1417
+//	SAY DESC @1418
 
 COPY ~DSotSC/base/itm/dssperf.itm~ ~override~
 	SAY NAME2 @1420
