@@ -52,16 +52,20 @@ FORBID_COMPONENT ~generalized_biffing.tp2~ ~0~ ~This mod should be installed BEF
 ///// pre-install preparations                         \\\\\
 /////                                                  \\\\\
 
-ACTION_IF GAME_IS ~eet~ BEGIN
-	INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
-	OUTER_SPRINT ~platform~ ~eet~
-	OUTER_SPRINT ~res~ ~ee~
-	OUTER_SPRINT door_Nashkel ~DOOR4804~ //used in ar3700.baf and megacut.baf
-END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
+ACTION_IF GAME_IS ~bgt~ BEGIN
 	INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
 	OUTER_SPRINT ~platform~ ~bgt~
 	OUTER_SPRINT ~res~ ~normal~
-	OUTER_SPRINT door_Nashkel ~DOOR3704~
+	OUTER_SPRINT Nashkel_door ~DOOR3704~ //used in ar3700.baf and megacut.baf
+	OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT4300~ //patching ARE
+	OUTER_SPRINT GibberlingMountains_entrance ~EXIT5500~ //patching ARE
+END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+	INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
+	OUTER_SPRINT ~platform~ ~eet~
+	OUTER_SPRINT ~res~ ~ee~
+	OUTER_SPRINT Nashkel_door ~DOOR4804~
+	OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT3200~
+	OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~
 END
 
 INCLUDE ~DSotSC/lib/macros.tpa~
@@ -163,6 +167,28 @@ UNLESS ~JETLAYA~
 COPY_EXISTING ~interdia.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
+
+ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
+	APPEND ~item_use.2da~
+~DSCLCK23 JETLAYA 9382 2
+DSCOSWD CONCHOBHAIR 9382 2
+DSCUARM CUCHOINNEACH 9382 2
+DSCUSHLD CUCHOINNEACH 9382 2
+DSCUSWD CUCHOINNEACH 9382 2
+DSFEAXE FERTHGIL 9382 2
+DSFEHELM FERTHGIL 9382 2
+DSJEARM JETLAYA 9382 2
+DSJESHLD JETLAYA 9382 2
+DSKEARM KEIRIA 9382 2
+DSKEXBOW KEIRIA 9382 2
+DSLEAT02 THORFINN 9382 2
+DSMACE04 JETLAYA 9382 2
+DSSKHELM SKEEZER 9382 2
+DSSKROBE SKEEZER 9382 2~
+	COPY_EXISTING ~interdia.2da~ ~override~
+		PRETTY_PRINT_2DA
+	BUT_ONLY
+END
 
 APPEND ~pdialog.2da~
 ~DSBARDO      BARDOP             BARDOJ            ***            ***                ***                ***                 ***
@@ -2905,7 +2931,7 @@ COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
 	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
 	WRITE_LONG  (offset+0x34) 34 //cursor
 	WRITE_ASCII (offset+0x38) ~DSC020~ //destination area
-	WRITE_ASCII (offset+0x40) ~EXIT3200~ //destination area's entrance name
+	WRITE_ASCIIE (offset+0x40) ~%NorthNashkelRoad_entrance%~ //destination area's entrance name
 	WRITE_LONG  (offset+0x60) 0x00000004 //flags - party required
 	WRITE_SHORT (offset+0x70) 3054 //Trap location X
 	WRITE_SHORT (offset+0x72) 687 //Trap location Y
@@ -3169,7 +3195,7 @@ COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
 	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
 	WRITE_LONG  (offset+0x34) 28 //cursor
 	WRITE_ASCII (offset+0x38) ~DSC006~ //destination area
-	WRITE_ASCII (offset+0x40) ~EXIT4600~ //destination area's entrance name
+	WRITE_ASCIIE (offset+0x40) ~%GibberlingMountains_entrance%~ //destination area's entrance name
 	WRITE_LONG  (offset+0x60) 0x000000000 //flags - none
 	WRITE_SHORT (offset+0x70) 3839 //Trap location X
 	WRITE_SHORT (offset+0x72) 622 //Trap location Y

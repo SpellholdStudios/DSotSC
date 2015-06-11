@@ -555,7 +555,7 @@ Armor Class Bonus: None
 Special: Protects Against Critical Hits
 Weight: 2
 
-Not Usable by:
+Not Usable By:
  Warrior
  Thief~
 
@@ -590,14 +590,14 @@ Special:
 
 Weight: 2
 
-Usable only By:
+Only usable by:
  Mage (Single, Dual, or Multi Class)~
 
 @1006 = ~Hat~
 @1007 = ~Rogue's Hat~
 @1008 = ~The felt hat is a favorite of the bards, though they offer little in the way of protection they are decorative at times. On rare occasions one is discovered that was enchanted with some magic.
 
-Usable Only By:
+Only usable by:
  Bard
  Thief~
 
@@ -612,7 +612,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Bard
  Thief~
 
@@ -637,7 +637,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Druid~
 
 @1015 = ~Ferthgil's Helmet~
@@ -653,7 +653,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Ferthgil Trollslayer~
 
 @1018 = ~Ebon Helm~
@@ -668,7 +668,7 @@ Special:
 
 Weight: 4
 
-Not usable by:
+Not Usable By:
  Mage
  Bard
  Thief
@@ -727,7 +727,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Skeezer Lumpkin VI~
 
 @1026 = ~Helm of the Holy Guard~
@@ -742,8 +742,8 @@ Special:
 
 Weight: 2
 
-Usable Only By:
-  Paladin~
+Only usable by:
+ Paladin~
 
 @1028 = ~Thorfinn's Helmet~
 @1029 = ~This helm grants immunity to all forms of fear and panic, be their origins natural or magical.
@@ -769,7 +769,7 @@ Armor Class: 5
 Saving Throws: +1 bonus
 Weight: 4
 
-Only Usable By:
+Only usable by:
  Druid (single, dual, & multi-class)~
 
 @1033 = ~Stormcloud 'Kraken's Bane'~
@@ -783,7 +783,7 @@ Special: Resist Electricity +25%
 Weight: 4
 Requires: 6 Strength
 
-Only Usable By:
+Only usable by:
  Druid~
 
 @1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
@@ -796,7 +796,7 @@ Armor Class: -1
 Weight: 30
 Requires: 14 Strength
 
-Usable Only By:
+Only usable by:
  Dwarves and Gnomes~
 
 @1039 = ~Conchobhair Strongblade's Blessed Plate Mail Armor~
@@ -860,7 +860,7 @@ STATISTICS:
 
 Armor Class: 6
 Weight: 3
-Only Usable By:
+Only usable by:
  Thorfinn Hauskluniff~
 
 @1052 = ~Crusader's Armor~
@@ -876,7 +876,7 @@ Special:
 Weight: 20
 Requires: 8 Strength
 
-Usable Only By:
+Only usable by:
  Paladin
  Cleric (Lawful Good Only)~
 
@@ -911,7 +911,7 @@ Special: Protection from Poison
 Weight: 18
 Requires: 11 Strength
 
-Usable Only By:
+Only usable by:
  Paladin~
 
 @1059 = ~Jet'laya's Chainmail~
@@ -922,8 +922,8 @@ STATISTICS:
 Armor Class: 4
 Weight: 15
 
-Usable Only By:
-  Jet'laya~
+Only usable by:
+ Jet'laya~
 
 @1061 = ~Splint Mail Armor 'Korim's Skin'~
 @1062 = ~Forged by the Netherese sorcerer/ranger Korim, this green tinged splint mail is imbued with strong enchantments. The strange metal (a copper and uranium mix) is light and supple, yet nearly impervious to blows of any kind. The mail allowed Korim to use his abilities to their fullest. Moreover, the strange metal has proven to have an extraordinary side-effect - it heals the wearer.
@@ -937,7 +937,7 @@ Special:
 
 Weight: 7
 
-Not usable by
+Not Usable By
  Druid
  Mage
  Thief
@@ -958,7 +958,7 @@ Special: +15% Hide in Shadows
 
 Weight: 8
 
-Only Usable By:
+Only usable by:
  CúChoinneach~
 
 @1065 = ~Keiria Silverstring's Studded Leather Bard Armor +1~
@@ -969,7 +969,7 @@ STATISTICS:
 Armor Class: 6
 Weight: 15
 
-Usable Only By:
+Only usable by:
  Keiria Silverstring~
 
 @1067 = ~Gnomish Workman's Leather~
@@ -982,7 +982,7 @@ Armor Class: 7
 Weight: 25
 Requires: 10 Strength
 
-Only Usable By:
+Only usable by:
  Thief~
 
 @1070 = ~This set of armor was created by a gnomish master craftsman and enchanted to offer better protection against unforeseen accidents. The tools and equipment stored in the armor makes finding and picking locks easier.
@@ -995,7 +995,7 @@ Requires: 6 Strength
 
 Special: +10% Find Traps/Pick Locks
 
-Only Usable By:
+Only usable by:
  Thief~
 
 @1072 = ~Skeezer Lumpkin's Mage Robe~
@@ -1008,7 +1008,7 @@ Magic Resistance: +5%
 Saving Throws: +1 bonus
 Weight: 6
 
-Only Usable By:
+Only usable by:
  Skeezer Lumpkin VI~
 
 @1075 = ~Sorcerer's Robe~
@@ -1021,7 +1021,7 @@ Special: 1 Bonus Spell on level 1 and level 2
 
 Weight: 3
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class]
  Bard~
 
@@ -1067,7 +1067,7 @@ Armor Class: +1 bonus
 Saving Throws: +1 bonus
 Weight: 3
 
-Only Usable By:
+Only usable by:
  Mages (Single, Dual, and Multi-class)~
 
 @1083 = ~Drow Mage Robe~
@@ -1085,7 +1085,7 @@ Special:
 
 Weight: 1
 
-Usable Only By:
+Only usable by:
  Evil Mage (Single, Dual, and Multi-classed)~
 
 @1085 = ~Robe of the Abyss~
@@ -1102,7 +1102,7 @@ Constitution: -30%
 
 Weight: 6
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class)
  Evil-aligned character~
 
@@ -1116,7 +1116,7 @@ Magic Resistance: +10%
 Saving Throw: +1 bonus
 Weight: 6
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class)
  Good-aligned character~
 
@@ -1130,7 +1130,7 @@ Magic Resistance: +10%
 Saving Throw: +1 bonus
 Weight: 6
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class)
  Neutral-aligned character~
 
@@ -1145,7 +1145,7 @@ Special: bonus 2nd level priest spell
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Paladin~
 
 @1096 = ~Morridin's Cloak~
@@ -1157,7 +1157,7 @@ Armor Class: +1 bonus
 Special: +1 charisma
 Weight: 3
 
-Usable Only By:
+Only usable by:
  Bard~
 
 @1099 = ~Faded Cloak~
@@ -1186,7 +1186,7 @@ Special:
 
 Weight: 3
 
-Usable Only By:
+Only usable by:
  Ranger~
 
 @1103 = ~Mystra's Cloak~
@@ -1201,7 +1201,7 @@ Special: Negative Plane Protection
 
 Weight: 3
 
-Only Usable By
+Only usable by
  Mage (Single, Dual, & Multiclass)~
 
 @1106 = ~Dragon Skin Bracers~
@@ -1241,7 +1241,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Mage (Single Class Only)~
 
 @1115 = ~Gift of the Woods~
@@ -1255,7 +1255,7 @@ Special:
 
 Weight: 2
 
-Usable Only By:
+Only usable by:
  Druids
  Rangers~
 
@@ -1284,7 +1284,7 @@ THAC0: +2 bonus
 Damage: +2 bonus
 Weight: 1
 
-Usable Only By:
+Only usable by:
  Cleric (single and multi-classed)~
 
 @1124 = ~This ring was given to the reef scavenger and hunter known only as Edventar, by a group of aquatic elves long his friends. His help in routing the "Pirate Queen" of Dambrath was instrumental in their survival, though Yenandra continues to be feared anywhere the water meets land.
@@ -1300,7 +1300,7 @@ STATISTICS:
 
 Adds one mage and one priest spell for levels 2 and 3
 
-Usable Only By:
+Only usable by:
  Cleric-Mage (multiclass only)~
 
 @1127 = ~Apprentice's Ring~
@@ -1382,7 +1382,7 @@ STATISTICS:
  Memorize 1 Additional 3rd Level Spell
  Memorize 1 Additional 4th Level Spell
 
-Usable Only By:
+Only usable by:
  Bards~
 
 @1144 = ~Signet Ring of the Sukien~
@@ -1394,7 +1394,7 @@ Armor Class: +1 bonus
 Saving Throws: +1 bonus
 Special: Protection from Petrification (1/day)
 
-Usable Only by:
+Only usable by:
  Paladin~
 
 @1146 = ~Ring of Fire Shielding~
@@ -1482,7 +1482,7 @@ Range: 100 ft
 Area: 20 ft radius
 Duration: 15 rounds
 
-Usable Only By:
+Only usable by:
  Bard~
 
 @1173 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
@@ -1498,7 +1498,7 @@ Special: Dire Charm (10 rounds)
 Range: 30 ft
 Area: 1 creature
 
-Usable Only By:
+Only usable by:
  Bard~
 
 
@@ -1559,7 +1559,7 @@ STATISTICS:
 
 Special: Gain 25% Protection from Acid
 
-Usable Only By:
+Only usable by:
  Neutral Alignment~
 
 @1251 = ~Ferium's Necklace~
@@ -1591,7 +1591,7 @@ STATISTICS:
 
 Special: Gain 25% Protection from Fire
 
-Usable Only By:
+Only usable by:
  Evil Alignment~
 
 @1259 = ~Bluestone Necklace of Dexterity~
@@ -1724,7 +1724,7 @@ Launcher: sling~
 
 STATISTICS:
 
-Usable Only By:
+Only usable by:
  Druid (Single Class Only)
  Ranger (Single Class Only)~
 
@@ -1771,7 +1771,7 @@ Special: No Missile Weapon Protection
 
 Weight: 3
 
-Only Usable By:
+Only usable by:
  CúChoinneach~
 
 @1305 = ~Small Shield +2~
@@ -1786,7 +1786,7 @@ Special:
 
 Weight: 3
 
-Usable Only By:
+Only usable by:
  Jet'laya~
 
 @1307 = ~Small Shield +2 'Sun Shield'~
@@ -1922,7 +1922,7 @@ Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: 1-handed
 Requires: 8 Strength
 
-Usable Only By:
+Only usable by:
  Druid~
 
 @1334 = ~Conchobhair's Dragonslayer~
@@ -1943,7 +1943,7 @@ Proficiency Type: Two Handed sword
 Type: 2-handed
 Requires: 14 Strength
 
-Usable Only By:
+Only usable by:
  Conchobhair~
 
 @1337 = ~Scimitar +1: 'The Jagged Lightning'~
@@ -1963,7 +1963,7 @@ Speed Factor: n/a
 Type: 1-handed
 Requires: 8 Strength
 
-Not usable by:
+Not Usable By:
  Mage
  Cleric
  Beast Master~
@@ -2113,7 +2113,7 @@ Proficiency Type: Long Sword
 Type: 1-handed
 Requires: 6 Strength
 
-Only Usable By:
+Only usable by:
  Bard~
 
 @1356 = ~Champion Sword~
@@ -2188,7 +2188,7 @@ Speed Factor: 3
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: 1-handed
 
-Only Usable By:
+Only usable by:
  CúChoinneach~
 
 @1366 = ~Nemmerle's Revenge~
@@ -2231,7 +2231,7 @@ Not Usable By:
  Monk
  Beast Master
 
-Only Usable By:
+Only usable by:
  Evil alignment~
 
 @1373 = ~Justice~
@@ -2269,7 +2269,7 @@ Speed Factor: 5
 Proficiency Type: Axe
 Type: 1-handed
 
-Only Usable By:
+Only usable by:
  Ferthgil Trollslayer~
 
 @1379 = ~Battle Axe +2 'Enrager'~
@@ -2352,7 +2352,7 @@ Proficiency Type: Axe
 Type: 2-handed
 Requires: 15 Strength
 
-Usable Only By:
+Only usable by:
  Dwarfs (Fighter or Fighter-Thief)~
 
 @1388 = ~Battle Axe +2 'Skull Splitter'~
@@ -2417,7 +2417,7 @@ Proficiency Type: Axe
 Type: 1-handed
 Requires: 4 Strength
 
-Only Usable By:
+Only usable by:
  Dwarves or Gnomes
  Warriors~
 
@@ -2437,7 +2437,7 @@ Speed Factor: 6
 Proficiency Type: Staff
 Type: 2-handed
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class)
  Good-aligned characters~
 
@@ -2474,7 +2474,7 @@ Speed Factor: 8
 Proficiency Type: Staff
 Type: 2-handed
 
-Only Usable By:
+Only usable by:
  Mage (single, dual, & multi-class)
  Evil-aligned character~
 
@@ -2493,7 +2493,7 @@ Speed Factor: 2
 Proficiency Type: Staff
 Type: 2-handed
 
-Usable Only By:
+Only usable by:
  Druids~
 
 @1407 = ~Quarter Staff +1 'Bonebreaker'~
@@ -2548,7 +2548,7 @@ Speed Factor: 1
 Proficiency Type: Staff
 Type: 2-handed
 
-Usable Only By:
+Only usable by:
  Gnome Magic Users~
 
 @1414 = ~Tearlac Truehammer's War Hammer 'Giant Feller'~
@@ -2713,7 +2713,7 @@ Speed Factor: 6
 Proficiency Type: Mace
 Type: 1-handed
 
-Usable Only By:
+Only usable by:
  Jet'laya~
 
 @1436 = ~Dagger +3: 'AdderSting'~
@@ -2809,7 +2809,7 @@ Speed Factor: 3
 Proficiency Type: Crossbow
 Type: 2-handed
 
-Usable Only By:
+Only usable by:
  Keiria Silverstring~
 
 @1449 = ~Shadow Crossbow~
@@ -2887,7 +2887,7 @@ Proficiency Type: Long Bow
 Type: 2-handed
 Requires: 6 Strength
 
-Usable Only By:
+Only usable by:
  Paladin~
 
 @1462 = ~Ettin's Wand~
@@ -2947,7 +2947,7 @@ Proficiency Type: Club
 Type: 1-handed
 Requires: 3 Strength
 
-Usable Only By:
+Only usable by:
  Druid (Single, Dual, & Multiclass)~
 
 @1473 = ~Ass' Jawbone~
@@ -3280,7 +3280,7 @@ STATISTICS:
 Armor Class Bonus: 1
 Equipped Ability: Electrical Resistance +10%
 Weight: 3
-Only Usable By:
+Only usable by:
  Jet'laya~
 @20442 = ~Are ye all right?~ [JETLA40]
 

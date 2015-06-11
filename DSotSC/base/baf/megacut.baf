@@ -65,8 +65,8 @@ THEN
   RESPONSE #100
     CutSceneId("DSMEGAN")  
     Wait(2)
-    Unlock("%door_Nashkel%")
-    OpenDoor("%door_Nashkel%")
+    Unlock("%Nashkel_door%")
+    OpenDoor("%Nashkel_door%")
     EscapeArea()
 END
 

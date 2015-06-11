@@ -39,7 +39,7 @@ IF
 	!Dead("DSMegan")
 THEN
 	RESPONSE #100
-		Unlock("%door_Nashkel%")
+		Unlock("%Nashkel_door%")
 		CreateCreature("DSMEGAN",[4246.1970],0)
 		SetGlobal("MeganSpawn","GLOBAL",1)
 		Continue()
