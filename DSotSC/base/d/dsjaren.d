@@ -52,7 +52,7 @@ IF ~PartyHasItem("DSMISC10")
 AreaCheck("%Beregost_BurningWizard_L1%")
 ~ THEN BEGIN 7
   SAY @20
-  IF ~~ THEN DO ~AddexperienceParty(4000)
+  IF ~~ THEN DO ~AddexperienceParty(1300)
 ReputationInc(1)
 TakePartyItem("DSMISC10")
 SetGlobal("RelicReturned","GLOBAL",1)

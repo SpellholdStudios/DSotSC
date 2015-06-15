@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN DO ~AddexperienceParty(3000)
+  IF ~~ THEN DO ~AddexperienceParty(1000)
 ReputationInc(1)
 TakePartyItem("DSAMUL02")
 GiveItem("DSMISC02",LastTalkedToBy(Myself))
@@ -18,7 +18,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~~ THEN DO ~AddexperienceParty(2000)
+  IF ~~ THEN DO ~AddexperienceParty(800)
 TakePartyItem("DSAMUL02")
 GiveItem("DSMISC02",LastTalkedToBy(Myself))
 EscapeArea()

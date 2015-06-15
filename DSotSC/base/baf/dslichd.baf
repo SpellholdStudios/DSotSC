@@ -37,7 +37,7 @@ IF
 THEN
   RESPONSE #100
     ReallyForceSpell(Myself,RED_SWIRL)
-    AddexperienceParty(9500)
+    AddexperienceParty(3200)
     SetGlobal("LichDead","GLOBAL",1)
 END
 

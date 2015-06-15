@@ -92,15 +92,6 @@ Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: Brak
 
 Bogini nocy Shar obdarza kap³anów moc¹ przywo³ania ca³unu mistycznej ciemnoœci która okrywa cel czaru. Kiedy cel jest obleczony ciemnoœci¹ jego poziom pancerza wzrasta o 2 a rzuty obronne przeciw czarom s¹ wykonywane z modyfikatorem +2. Cel posiada te¿ infrawizjê oraz nie dzia³a na niego oœlepienie. Z powodu z³ej natury tego czaru rzucaj¹cy otrzymuje 3 punkty obra¿eñ gdy rzuca to zaklêcie.~
-@21 = ~Kamienna Skóra (Przemiana)
-Poziom: 3
-Zasiêg: 0
-Czas Trwania: 12 Godzin
-Czas Rzucania: 1
-Zasiêg Dzia³ania: Rzucaj¹cy
-Rzut Obronny: Brak
-
-Kiedy druid rzuca ten potê¿ny czar, zewnêtrzna skóra z kamienia podniesie siê z ziemi kompletnie go okrywaj¹c. Skóra jest oczywiœcie magiczna i nie bêdzie w niczym przeszkadzaæ druidowi. Efektem jest ochrona druida przed atakami fizycznymi takimi jak zwyk³e bronie i pociski. Na ka¿de 2 poziomy rzucaj¹cy otrzymuje dodatkow¹ skórê, dla przyk³adu 10 poziomowy druid otrzyma 5 skór a 20 poziomowy druid dostanie 10. Za ka¿d¹ skórê któr¹ posiada driud Kamienna Skóra zatrzyma jeden atak ,wiêc 10 poziomowy druid bêdzie chroniony przed 5 atakami na niego, lecz szósty zadzia³a normalnie. Skóry pozostan¹ na druidzie do momentu kiedy zadzia³a na niego usuniêcie magii, wszystkie skóry zostan¹ usuniête przez ataki, lub przekroczony zostanie czas trwania. Wa¿ne jest aby powiedzieæ, ¿e Kamienna Skóra nie ochroni druida przed ¿adnymi atakami magicznymi jak Kula Ognista, ochroni jednak przed fizycznymi magicznymi atakami jak Magiczny Pocisk.~
 @22 = ~Rozpylenie Trucizny~
 @23 = ~Rozpylenie Trucizny (Nekromancja)
 Poziom: 4
@@ -166,47 +157,6 @@ Zasiêg Dzia³ania:Tylko Rzucaj¹cy
 Rzut Obronny: Brak
 
 Poprzez ten czar rzucaj¹cy mo¿e przenieœæ siê z dowolnego miejsca gdzie s¹ roœliny, i natychmiast pojawiæ sie w innym znajduj¹cym siê w zasiêgu wzroku.~
-@33 = ~Zatrzymaj Stworzenie (Urok/Urzeczenie)
-Poziom: 6
-Sfera: Urzeczenie, Prawo
-Zasiêg: Zasiêg Wzroku Rzucaj¹cego
-Czas Trwania: 1 Runda/Poziom
-Czas Rzucania: 5
-Zasiêg Dzia³ania: Szeœcian o boku 10 m
-Rzut Obronny: Neg
-
-Ten czar zatrzymuje 1k4 stworzeñ dowolnego typu na 9 lub wiêcej rund, chyba ¿e wykonany zostanie udany rzut przeciw magi z modyfikatorem -2.Centrum efektu znajduje siê na ofierze wybranej przez rzucaj¹cego. Ka¿dy przeciwnik w promieniu 5 stóp od celu tak¿e zostaje objêty dzia³aniem. Ci którym uda siê rzut obronny nie odczuwaj¹ ¿adnych efektów czaru. Nieumar³e stworzenia nie mog¹ byæ zatrzymane. atrzymane stworzenia nie mog¹ mówiæ ani poruszaæ siê,ale pozostaj¹ œwiadome zdarzeñ dziej¹cych siê wokó³ nich i mog¹ u¿ywaæ cech nie Wymagaj¹cych mowy ani ruchu. Czar nie powstrzymuje pogarszania siê stanu unieruchomionej istoty wskutek odniesionych obra¿eñ, choroby czy dzia³ania trucizny~
-@34 = ~Transformacja Tensera (Przemiana/Inwokacje)
-Poziom: 6
-Sfera: Ochrona
-Zasiêg: 0
-Czas Trwania: 1 Runda/Poziom
-Czas Rzucania: 6
-Zasiêg Dzia³ania:Tylko Rzucaj¹cy
-Rzut Obronny: Brak
-
-Kap³an rzucaj¹cy ten czar przechodzi wstrz¹saj¹c¹ transformacjê, jego rozmiar i si³a wsrastaj¹ do bohaterskich rozmiarów aby móg³ siê staæ straszliw¹ maszyn¹ bojow¹. Punkty ¿ycia kap³ana podwajaj¹ siê a jego klasa pancerza wzrasta o 4 pe³ne poziomy. Wszystkie ataki kap³ana s¹ wykonywane jakby by³ on wojownikiem na identycznym poziomie. Ka¿dy atak jest wykonywany z modyfikatorem +2 a ka¿dy trafiony cios zadaje dodatkowe 2 obra¿enia.Wszystki bonusy zostan¹ stracone kiedy czar przestanie dzia³aæ lub kiedy zostanie rozproszony(w³¹czaj¹c punkty ¿ycia).
-Pamiêtaj ¿e nie da to kap³anowi dodatkowych ataków~
-@35 = ~Cia³o w Kamieñ (Przemiana)
-Poziom: 6
-Sfera: ¯ywio³ Ziemi
-Zasiêg: Zasiêg Wzroku Rzucaj¹cego
-Czas Trwania: Sta³y
-Czas Rzucania: 6
-Zasiêg Dzia³ania: 1 stworzenie
-Rzut Obronny: Neg
-
-Cel tego czaru musi wykonaæ rzut obronny przeciw petryfikacji albo zostanie zamieniony w kamieñ. Podpobnie wszyskie przedmioty które posiada³a ta osoba zostan¹ zamienione w kamieñ i bêd¹ nienaruszaln¹ czêœci¹ pos¹gu chyba ¿e zostanie rzucony czar Kamieñ w Cia³o . Dowolne celne uderzenie w spetryfikowane stworzenie roztrzaska je niszcz¹c je bezpowrotnie.~
-@36 = ~Kamieñ w Cia³o (Przemiana)
-Poziom: 6
-Sfera: ¯ywio³ Ziemi
-Zasiêg: Dotyk
-Czas Trwania: Sta³y
-Czas Rzucania: 6
-Zasiêg Dzia³ania: 1 stworzenie
-Rzut Obronny: Brak
-
-U¿ywaj¹c tego czaru Rzucaj¹cy mo¿e przywróciæ spetryfikowane stworzenie do ¿ycia jeœli jego kamienne cia³o wci¹¿ istniejetact. Cel czaru nie bêdzie mia³ si³y - bêdzie posiada³ tylko 1 punkt ¿ycia w momencie przemiany. Czary lecz¹ce i odpoczynek normalnie przywróc¹ zdrowie.~
 @37 = ~Dusz¹ce Winoroœle~
 @38 = ~Dusz¹ce Winoroœle (Przemiana)
 Poziom: 6
@@ -229,16 +179,6 @@ Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: Neg
 
 Rzucaj¹cy modli siê o bosk¹ pomoc i próbuje wykraœæ si³ê ¿yciow¹ z wybranego stworzenia. Stworzenie to traci 6k5 punktów ¿ycia lub po³owê tego jeœli wykona udany rzut obronny. Rzucaj¹cy nastêpnie absorbuje si³y ¿yciowe lecz¹c do 27 punktów ¿ycia.~
-@41 = ~Zamêt (Urok/Urzeczenie)
-Poziom: 7
-Sfera: Urzeczenie, Prawo
-Zasiêg: Zasiêg Wzroku Rzucaj¹cego
-Czas Trwania: 5 Rund + 1 Runda/6
-Czas Rzucania: 4
-Zasiêg Dzia³ania: Kwadrat o boku do 60 stóp
-Rzut Obronny: Specjalny
-
-Ten czar wywo³uje dezorientacjê w jednym lub wiêcej stworzeniach w zasiêgu dzia³ania tworz¹c niezdecydowanie i niemo¿liwoœæ podjêcia efektywnych akcji. Wszystkie stworzenia w zasiêgu dzia³ania mog¹ wykonaæ rzut obronny przeciw czarom z modyfikatorem -2. Ci którym rzut siê uda nie odczuj¹ efektów czaru. Czar trwa przez 2 rundy plus dodatkow¹ na ka¿dy level rzucaj¹cego. Ci którym rzut siê nie powiedzie wpadn¹ w sza³, stan¹ w miejscu lub zaczn¹ chodziæ bez celu. Ci którzy zaczn¹ chodziæ bêd¹ oddalaæ siê od rzucaj¹cego tak daleko jak to mo¿liwe. Ka¿de zdezorientowane stworzenie które zostanie zaatakowane zdecyduje ¿e atakuj¹cy jest wrogiem i zacznie zachowywaæ siê zgodnie ze swoj¹ natur¹..~
 @43 = ~Aura Ochronna~
 @44 = ~Aura Ochronna (Sprowadzenie/Przyzwania)
 Poziom: 7
@@ -283,17 +223,6 @@ Zasiêg Dzia³ania: Specjalny
 Rzut Obronny: 1/2
 
 Czar ten jest podobobny do zaklêcia maga - B³yskawica - ka¿da trafiona ofiara otrzyma 12k4 obra¿eñ od elektrycznoœci, a rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê.~
-@51 = ~Przekleñstwo Selune (Inwokacje)
-Poziom: 7
-Sfera: Urzeczenie, Walka
-Zasiêg: Zasiêg Wzroku Rzucaj¹cego
-Czas Trwania: Natychmiastowe
-Czas Rzucania: 9
-Zasiêg Dzia³ania: K¹t 20 stopni
-Rzut Obronny: 1/2
-
-To zaklêcie przywo³uje furiê Selune przeciw wrogom kap³ana. Czar wywo³uje eksplozjê zimnych b³êkitnych p³omieni wywo³uj¹cych 6K10 obra¿eñ u istot znajduj¹cych siê w ich zasiêgu. Udany rzut obronny zmniejsza obra¿enia o po³owê..~
-
 @52 = ~Dym~
 @53 = ~Dym (Przemiana)
 Poziom: 1
@@ -354,14 +283,6 @@ Zasiêg Dzia³ania: Rzucaj¹cy
 Rzut Obronny: Neguje
 
 Znajduj¹cy siê pod wp³ywem tego zaklêcia mo¿e byæ pewien przekonania ofiar, ¿e maj¹ do czynienia z wieloma wrogami...~
-@64 = ~Przemiana w Upiora (Przemiana, Iluzja)
-Poziom: 3
-Zasiêg: 0
-Czas Trwania: 1 tur
-Czas Rzucania: 1
-Zasiêg Dzia³ania:Rzucaj¹cy
-Rzut Obronny: Brak
-Niematerialna forma jak¹ przyjmuje rzucaj¹cy ten czar, powoduje, ¿e tylko broñ magiczna lub magia mog¹ go zraniæ. Otrzymuje tak¿e 25 % odpornoœci na magiê, ale nie mo¿e rzucaæ czarów.~
 @65 = ~Leczenie Ettina~
 @66 = ~Leczenie Ettina(Nekromancja)
 Poziom: 4
@@ -372,16 +293,6 @@ Zasiêg Dzia³ania: Specjalny
 Rzut Obronny: Brak
 
 Ettin by³ mnichem, ¿yj¹cym w czasach rasy Staro¿ytnych, i s³yn¹³ ze swoich recept zio³owych. Na szczêœcie mia³ zwyczaj spisywania swych wynalazków na pergaminie.~
-@67 = ~Lodowy Od³amek Ajanduraha~
-@68 = ~Lodowy Od³amek Ajanduraha (Sprowadzenie/Przyzwania)
-Poziom: 4
-Zasiêg: Zasiêg Wzroku Rzucaj¹cego
-Czas Trwania: 1 Runda
-Czas Rzucania: 2
-Zasiêg Dzia³ania: Jedno stworzenie
-Rzut Obronny: Brak
-
-Czar ten przyzywa p³on¹ce od³amki lodu które wystrzeliwuj¹ w kierunku wroga zadaj¹c obra¿enia od zimna o mocy trzech lodowych strza³.~
 
 @69 = ~Exploduj¹ce Meteory Melfa~
 @70 = ~Exploduj¹ce Meteory Melfa (Inwokacje)
@@ -394,18 +305,6 @@ Rzut Obronny: Specjalny
 
 To zaklêcie jest podobne do czaru Miniaturowe meteory Melfa, przy czym wybuch jest du¿o groŸniejszy - pociski wybuchaj¹ wokó³ celu. Wszystkie istoty znajduj¹ce siê w obszarze dzia³ania eksplozji otrzymuj¹ 2-12 punktów obra¿eñ lub po³owê po rzucie obronnym.~
 
-
-@71 = ~Geas~
-@72 = ~Geas (Urok/Urzeczenie)
-Poziom: 6
-Sfera: Stworzenie
-Zasiêg: Zasiêg wzroku rzucaj¹cego
-Czas Trwania: Sta³y
-Czas Rzucania: 5
-Zasiêg Dzia³ania: Jeden Cel
-Rzut Obronny: Rzut przeciw magii
-
-W efekcie tego czaru, ofiara nim objêta staje siê bezwglêdnie pos³uszna, o ile nie powiedzie siê jej rzut obronny. Czar mo¿e dotkn¹æ dowoln¹ istotê, bez wzglêdu na pochodzenie.~
 @73 = ~Tarcza Antymagiczna~
 @74 = ~Tarcza Antymagiczna (Odrzucenie)
 Poziom: 6
@@ -417,18 +316,6 @@ Rzut Obronny: Brak
 
 To zaklêcie powo³uje migacz¹ca barierê wokó³ rzucaj¹cego, która porusza siê wraz z nim i czyni go ca³kowicie niewra¿liwym na wszelkie zaklêcia. Ochrona dotyczy równie¿ wszelkich zioniêæ oraz broni o podobnym dzia³aniu. Rozproszenie magii nie usuwa bariery.~
 
-@77 = ~Pole Ochronnej Energii~
-@78 = ~Pole Ochronnej Energii (Odrzucenie)
-Poziom: 7
-Zasiêg: 0
-Czas Trwania:180 sekund
-Czas Rzucania: 4
-Zasiêg Dzia³ania: Rzucaj¹cy
-Rzut Obronny: Brak
-
-
-Otiluke musi siê nie¿le bawiæ wiedz¹c do czego wykorzystywany jest jego czar, tym bardziej, ¿e by³ pomy³k¹ przy tworzeniu tego czaru. Stanowi doskona³¹ ochronê przed broni¹ i magi¹. Tylko najsilniejsze zaklêcia i bronie przebijaj¹ to zaklêcie.~
-
 @79 = ~Grupowe Zauroczenie~
 @80 = ~Grupowe Zauroczenie (Urok/Urzeczenie)
 Poziom: 7
@@ -439,16 +326,6 @@ Zasiêg Dzia³ania: Obszar w promieniu 20 metrów
 Rzut Obronny: Brak
 
 To zaklêcie oddzia³uje na ka¿dego humanoida z wyj¹tkiem du¿ych stworów, takie jak m.in. ogry na czas 30 sekund, o ile nie powiedzie siê rzut obronny.~
-@81 = ~Burza Ognia~
-@82 = ~Burza Ognia (Inwokacje)
-Poziom: 7
-Zasiêg: 80
-Czas Trwania: Natychmiast
-Czas Rzucania: 4
-Zasiêg Dzia³ania: Du¿y
-Rzut Obronny: Brak
-
-Dla doœwiadczonych arcymagów kula ognia to czar ma³o u¿yteczny. Du¿o bardziej wol¹ oni to zaklêcie, pomimo, ¿e Wymaga du¿ego doœwiadczenia i pewnoœci z racji swej niestabilnej formy. Ale efekty s¹ przera¿aj¹ce, poniewa¿ pierwszy wybuch inicjuje nastêpne zamieniaj¹c wybrany obszar w pole nieustannie wybuchaj¹cych p³omieni. Pocz¹wszy wiêc od ma³o szkodliwego pierwszego wybuchu nastêpne zadaj¹ sumê obra¿eñ pojedynczej kuli ognia.~
 @83 = ~Unasz¹ca Siê Kl¹twa Vestcakesa~
 @84 = ~Unasz¹ca Siê Kl¹twa Vestcakesa (Inwokacje)
 Poziom: 7
@@ -468,26 +345,6 @@ Zasiêg Dzia³ania: Promieñ 30 stóp
 Rzut Obronny: 1/2
 
 Piekielny Ogieñ Enigmy to wytwór szalonego Arcymaga, lepiej znanego jako Arcy-Astronom i pochodz¹cego z Nethril. By³ to zagorza³y piroman i podobno wkrótce po skompletowaniu zaklêcia zgin¹³... Stanowi ona potê¿n¹ mieszankê powszechnych czarów opartych na ogniu i jako ma³o przewidywalna, powinna byæ wypróbowana z dala od w³asnej osoby.~
-@87 = ~Szaleñstwo~
-@88 = ~Szaleñstwo (Urok/Urzeczenie)
-Poziom: 8
-Zasiêg: 50 stóp
-Czas Trwania: Ci¹g³e
-Czas Rzucania: 5
-Zasiêg Dzia³ania: Pojedynczy Cel
-Rzut Obronny: Brak
-
-Zaklêcie to umo¿liwia magowi wnikniêcie w umys³ ofiary i zniszczenie go pozostawiaj¹c og³upia³¹, ale wci¹¿ niebezpieczn¹. Ofiara mo¿e poruszaæ siê bez³adnie lub zaatakowaæ najbli¿sz¹ postaæ. Poniewa¿ nie zosta³o ono jeszcze w pe³ni ukszta³towane, istnieje 50% szans na niepowodzenie przy inkantacji.~
-@89 = ~Chmura Kwasu~
-@90 = ~Chmura Kwasu (Inwokacje)
-Poziom: 8
-Zasiêg: 100 metrów
-Czas Trwania: 30 sekund
-Czas Rzucania: 4
-Zasiêg Dzia³ania: Chmura 40x20x20 metrów
-Rzut Obronny: Kilka
-
-Czar ten uwalnia chmurê kwasu, która spada na obszar dzia³ania, zadaj¹c 7k6 punktów obra¿eñ co 5 sekund. Ucieczka z obszaru dzia³ania nie powoduje ustania obra¿eñ - kwas przylepia siê do skóry i jakakolwiek istota, która znajdowa³a siê w obszarze dzia³ania podczas rzucania czaru, odczuwa jego skutki przez ca³y okres dzia³ania czaru. Istoty, na które spad³ deszcz kwasu, musz¹ wykonywaæ rzut obronny przeciw czarom w ka¿dej rundzie i, jeœli im siê to uda, otrzymuj¹ po³owê obra¿eñ (ale tylko z danej rundy). Efekty czru mog¹ zostaæ rozproszone jeœli rozposzenie zostanie rzucone wystarczaj¹co szybko.Jeœli stworzenie jest uwiêzione wewn¹trz chumry istnieje 25% szans ¿e zamieni siê w œluz ze wglêdu na ¿r¹c¹ naturê kwasu.~
 @91 = ~Piorun (Inwokacje)
 Poziom: 8
 Zasiêg: 150 metrów
@@ -507,34 +364,6 @@ Zasiêg Dzia³ania: Jeden Cel
 Rzut Obronny: Brak
 
 To zaklêcie wyjaœnia 120-letni okres rz¹dów króla Varashara.~
-@94 = ~Kr¹g Œmierci~
-@95 = ~Kr¹g Œmierci (Nekromancja)
-Poziom: 9
-Zasiêg: 50 stóp
-Czas Trwania: Natychmiast
-Czas Rzucania: 8
-Zasiêg Dzia³ania: 1 stworzenie
-Rzut Obronny: Brak
-
-Rzucaj¹c tne czar mag zadaje olbrzymie obra¿enia jednemu celowi.~
-@96 = ~Runy ca³kowitej negacji~
-@97 = ~Runy ca³kowitej negacji (Inwokacje)
-Poziom: 9
-Cel: Jeden Cel
-Zasiêg Dzia³ania: Jedno stworzenie
-Zasiêg: 100 stóp
-Czas Rzucania: 7
-
-Zanim Mystra sta³ siê bogiem pozostawi³ po sobie to zaklêcie. Zaklêcie odwo³uje siê do innych sfer oraz mocy uniwersum, dlatego Wymagane jest skupienie maga o wysokim poziomie doœwiadczenia. Po³¹czone moce sp³ywaj¹ z niebios w postaci pioruna niszcz¹cego wskazany cel. Nie chroni przed nim ¿aden rzut ani nawet odpornoœæ na magiê.~
-@98 = ~Uzdrowienie~
-@99 = ~Uzdrowienie (Poznanie)
-Poziom: 9
-Zasiêg: 10 metrów
-Czas Trwania: Sta³e
-Zasiêg Dzia³ania: 1 Cel
-Rzut Obronny: Brak
-
-W efekcie tego zaklêcia przywrócone zostaj¹ ca³kowicie si³y ¿yciowe oraz usuniête wszelkie choroby, parali¿ i zaka¿enia.~
 
 ///////////
 //Przedmioty
@@ -581,7 +410,7 @@ Specjalny:
   Ochrona przed niektórymi atakami mentalnymi
   +1 Do rzutów obronnych
   +20% odpornoœci na ogieñ, zimno i elektrycznoœæ
-   Chroni przed trafieniami krytycznymi
+Chroni przed trafieniami krytycznymi
 Waga: 2
 
 Mo¿e u¿ywaæ:
@@ -1077,7 +906,7 @@ Klasa pancerza:+5
 Odpornoœæ na magiê: +25%
 Rzuty Obronne:+5
 Dodatkowe Czary: +3(Poziomy 1-5)
-   +1(Poziomy 6-8)
++1(Poziomy 6-8)
 Kondycja: -30%
 Specjalny:Nie potrzebuje Odpoczynku
 
@@ -1360,9 +1189,9 @@ Mo¿e Uzywaæ:
 
 STATYSTKI:
 
-   Dodatkowy czar 1 poziomu
-   Dodatkowy czar 3 poziomu
-   Dodatkowy czar 5 poziomu
+Dodatkowy czar 1 poziomu
+Dodatkowy czar 3 poziomu
+Dodatkowy czar 5 poziomu
 
 Mo¿e u¿ywaæ:
  Bardowie~
@@ -2093,9 +1922,9 @@ STATYSTKI:
 Obra¿enia: 1K8 + 1
 Trak0: +5
 Specjalny:
-   Zrêcznoœæ +2
-   Klasa Pancerza +3
-   1 dodatkowy atak na runde
+Zrêcznoœæ +2
+Klasa Pancerza +3
+1 dodatkowy atak na runde
 Typ obra¿eñ: Sieczne
 Waga: 4
 OpóŸnienie: 2
@@ -2570,27 +2399,6 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca Bestii~
 
-@1417 = ~M³ot Mageton~
-@1418 = ~Mówi sie, ¿e ten przedmiot by³ niegdyœ chlub¹ Myth Drannor i posiada³ go pewien potê¿ny kap³an. Pomimo swej du¿ej wagi, walka nim jest ³atwa i wyj¹tkowo skuteczna.
-
-STATYSTKI:
-
-Obra¿enia: 3K6 + 1
-Trak0: +4
-Typ obra¿eñ: Obuchowe
-Waga: 44
-OpóŸnienie: 2
-Rodzaj Bieg³oœci: M³ot Bojowy(Bronie Obuchowe)
-Typ: Jednorêczny
-Wymaga: 10 Si³y
-
-Nie mo¿e u¿ywaæ
- Mag
- Wojownik
- Z³odziej
- Bard
- Postacie o z³ym charakterze~
-
 @1420 = ~W³ócznia Ognia~
 @1422 = ~G³owica tej w³óczni p³onie nieustaj¹co co czyni j¹ œmiercionoœn¹ w czasie walki.
 
@@ -3003,7 +2811,6 @@ Nie mo¿e u¿ywaæ:
 @2048 = ~CúChoinneach~
 
 @2077 = ~Niewiele wiesz o CuChoinneachu i jego wilku cienia. Nie wiadomo sk¹d pochodzi, ani dok¹d zd¹¿a. Widaæ jednak, ¿e straci³ tak charakterystyczn¹ dla swojej rasy chêæ ¿ycia. Elf jest bardzo ma³omówny, ale z jego zdawkowych odpowiedzi wynika, ¿e podporz¹dkowa³ wszystko tylko jednemu celowi: Zniszczyæ Lorda Daerthmaca!.~
-//@2078 = ~Khal Abbil~
 @2079 = ~Deazle~
 @2080 = ~Drowi Mistrz Broni~
 @2081 = ~Drowi Mag~
@@ -3055,7 +2862,7 @@ Tearlac i Ferthgil byli przyjació³mi na dobre i z³e, a przyjaŸ³ ta pozwala³a Fer
 @2165 = ~Gdy orzeŸwiaj¹ce powietrze i blask s³oñca dosiêgaj¹ przedmiotów drowów, które niesiesz, te zmieniaj¹ siê w py³ i rozsypuj¹ na ziemi woko³o~
 
 @2202 = ~Wuj' Jet'layi, podobno szlachcic, wyruszy³ na poszukiwanie przygód. Podczas podró¿y spotka³ i kilkakrotnie zosta³ uratowany przez przysz³ego ojca Jet'layi, Torvina. Wówczas zostali przyjació³mi i powrócili do Cormanthor. Bêd¹c w mieœcie, Lennan (Le*non) przedstawi³ Torvina ojcu, znanemu arystokracie. W podziêce za opiekê nad synem Torvin, zosta³ przyjêty w mieœcie i sta³ siê popularn¹ postaci¹. Wkrótce tez pozna³ matkê Jet'layi, a po œlubie zamieszkali na skraju pobliskiej kniei.
-   Kiedy Jet'laya i jej brat mieli szeœæ lat, Cormanthor zosta³ zaatakowany przez watahê nieumar³ych, prowadzonych przez Vampire'a. Podczas gdy elfy broni³y miasta, dzieci zosta³y ukryte. Wrogowie zostali przegnani, ale wœród ofiar znaleŸli siê tak¿e rodzice Jet'layi. Atak wywo³al trwa³e kalectwo starszej siostry, a ca³oœæ wydarzeñ spowodowa³a nienawiœæ Jet'layi do wszelkich form nieumar³ych. Pomimo próœb pozosta³ej rodziny, gdy tylko osi¹gnê³a odpowiedni wiek, opuœci³a rodzinne strony.~
+Kiedy Jet'laya i jej brat mieli szeœæ lat, Cormanthor zosta³ zaatakowany przez watahê nieumar³ych, prowadzonych przez Vampire'a. Podczas gdy elfy broni³y miasta, dzieci zosta³y ukryte. Wrogowie zostali przegnani, ale wœród ofiar znaleŸli siê tak¿e rodzice Jet'layi. Atak wywo³al trwa³e kalectwo starszej siostry, a ca³oœæ wydarzeñ spowodowa³a nienawiœæ Jet'layi do wszelkich form nieumar³ych. Pomimo próœb pozosta³ej rodziny, gdy tylko osi¹gnê³a odpowiedni wiek, opuœci³a rodzinne strony.~
 @2203 = ~Jules~
 @2204 = ~Kalannar~
 @2205 = ~Katerin~
@@ -3092,7 +2899,6 @@ Tearlac i Ferthgil byli przyjació³mi na dobre i z³e, a przyjaŸ³ ta pozwala³a Fer
 @2294 = ~Elita Leœnych Elfów~
 @2295 = ~Madadh n'Sgàil~
 @2296 = ~Lord Szkieletów~
-@2297 = ~Kobold Stra¿nik~
 //@2300 = ~Las Ostrych K³ów~
 //@2301 = ~Wyjœcie~
 @2302 = ~Zamek Daerthmaca~

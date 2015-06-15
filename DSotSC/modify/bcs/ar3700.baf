@@ -3,7 +3,6 @@ IF
 THEN
 	RESPONSE #100
 		CreateCreature("DSMOPPY",[1654.1054],0)
-		ActionOverride("Container 7",CreateItem("DSCLCK02",0,0,0))
 		SetGlobal("MoppySpawn","GLOBAL",1)
 		Continue()
 END

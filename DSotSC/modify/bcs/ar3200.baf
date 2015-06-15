@@ -130,5 +130,3 @@ THEN
 		SetGlobal("CuChoinneach","GLOBAL",1)
 		Continue()
 END
-
-

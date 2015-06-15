@@ -92,16 +92,6 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Die dunkle Göttin Shar verlieh ihren Klerikern die Fähigkeit, einen mystischen dunklen Schleier um ein Zielwesen zu legen. Während das Ziel in diesen Schleier eingehüllt ist, verbessert sich seine Rüstungsklasse um 2 und Rettungswürfe gegen Zauber erfolgen mit einem +2 Bonus. Das Zielwesen erhält außerdem Infravision und ist vor Blindheit geschützt. Aufgrund der bösen Natur des Zaubers erleidet der Anwender 3 Schadenspunkte, wenn er den Zauber wirkt.~
-@21 = ~Steinhaut (Veränderung)
-
-Grad: 3
-Reichweite: 0
-Wirkungsdauer: 12 Stunden
-Zeitaufwand: 4
-Wirkungsbereich: Anwender
-Rettungswurf: Nein
-
-Durch diesen Zauberspruch verwandelt sich der Anwender in eine Art lebende Statue. Seine Haut wird so hart wie Stein und ist durch normale Waffen nur sehr schwer zu beschädigen. Die Rüstungsklasse wird während der Wirkungsdauer auf 0 gesetzt und alle Rettungswürfe werden mit einem Bonus von +2 ausgeführt. Da die Haut nicht so flexibel wie normale Haut ist, erhält der Anwender einen Malus von -3 auf seine Geschicklichkeit.~
 @22 = ~Gift schleudern~
 @23 = ~Gift schleudern (Herbeirufung/Beschwörung)
 
@@ -168,46 +158,6 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Durch Aussprechen dieses Zaubers kann sich der Anwender mit Hilfe einer lebenden Pflanze von einem Ort zum Anderen bewegen und so augenblicklich an einer anderen Stelle auftauchen.~
-@33 = ~Monster festhalten (Verzauberung/Bezauberung)
-
-Grad: 6
-Reichweite: Sichtweite
-Wirkungsdauer: 1 Runde/Stufe
-Zeitaufwand: 5
-Wirkungsbereich: Würfel mit 16 m Seitenlänge
-Rettungswurf: Nein
-
-Dieser Zauber hält 1W4 Wesen für mindestens neun Runden an einer Stelle fest. Den Opfern steht ein Rettungswurf -2 gegen Zauber zu, um den Auswirkungen zu entgehen. Alle Feinde, die sich innerhalb von 15 m Entfernung um das Ziel aufhalten, werden ebenfalls festgehalten. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. Die festgehaltenen Wesen können sich weder bewegen noch sprechen. Sie bekommen durchaus mit, was rund um sie geschieht, und sie können alle Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Der Zustand eines festgehaltenen Wesens kann sich aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
-@34 = ~Tensers Umwandlung (Veränderung)
-
-Grad: 6
-Reichweite: 0
-Wirkungsdauer: 1 Runde/Stufe
-Zeitaufwand: 6
-Wirkungsbereich: Anwender
-Rettungswurf: Nein
-
-Tensers Umwandlung sorgt für einen Anblick, der jedes Wesen, das den Zauber noch nie in Aktion gesehen hat, in Erstaunen versetzt. Der Anwender durchläuft nämlich eine erstaunliche Umwandlung. Seine Größe und Stärke nehmen heroische Ausmaße an, wodurch er zu einer richtigen Kampfmaschine wird. Die Trefferpunkte erhöhen sich um 20 und die Rüstungsklasse verbessert sich um -4 bis zu einem Maximum von -10. Alle Angriffe werden mit dem ETW0 eines Kriegers der gleichen Stufe ausgeführt. Außerdem erhält der Anwender +2 auf Trefferwürfe. Diese Auswirkungen halten an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
-@35 = ~Fleisch zu Stein (Veränderung)
-
-Grad: 6
-Reichweite: Sichtweite
-Wirkungsdauer: Permanent
-Zeitaufwand: 6
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Das Ziel dieses Zaubers muss einen erfolgreichen Rettungswurf gegen Versteinerung durchführen oder es wird versteinert. Es werden auch alle Besitztümer des Zielwesens versteinert und können danach nicht mehr entfernt werden. Falls ein derartig versteinertes Wesen angegriffen wird, zersplittert es in kleine Einzelteile und kann nie mehr zum Leben erweckt werden. Die einzige Möglichkeit, ein versteinertes Wesen wieder ins Leben zurück zu holen, besteht darin, die umgekehrte Version dieses Zaubers einzusetzen.~
-@36 = ~Stein zu Fleisch (Veränderung)
-
-Grad: 6
-Reichweite: Berührung
-Wirkungsdauer: Permanent
-Zeitaufwand: 6
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Der Zauber stellt die umgekehrte Version von "Fleisch zu Stein" dar und verwandelt ein versteinertes Wesen zurück in seine normale Gestalt. Alle Besitztümer des Wesens werden ebenfalls zurück verwandelt. Die Verwandlung geschieht augenblicklich. Es ist weder ein Rettungswurf, noch ein Wurf auf körperlichen Schock erforderlich.~
 @37 = ~Ranken~
 @38 = ~Ranken (Veränderung)
 
@@ -230,16 +180,6 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Der Anwender betet für göttlichen Segen und versucht, dem Zielwesen die Lebensenergie zu entziehen. Das Zielwesen erleidet 6W5 Schadenspunkte, die Hälfte bei erfolgreichem Rettungswurf. Der Anwender absorbiert die Lebensenergie und erhält so bis zu 27 Trefferpunkte zurück.~
-@41 = ~Verwirrung (Verzauberung/Bezauberung)
-
-Grad: 7
-Reichweite: Sichtweite
-Wirkungsdauer: 5 Runden + 1 Runde/6 Stufen
-Zeitaufwand: 4
-Wirkungsbereich: bis zu 20 x 20 m
-Rettungswurf: Speziell
-
-Dieser Zauber führt bei einem oder mehreren Wesen im Wirkungsbereich zu Verwirrung. Sie werden unschlüssig und können nicht mehr effektiv agieren. Alle Wesen im Wirkungsbereich erhalten einen Rettungswurf -2 gegen Zauber, um den Auswirkungen des Zaubers zu entgehen. Ein verwirrtes Wesen, das angegriffen wird, sieht in dem Angreifer einen Feind und handelt gemäß seinen Instinkten, um sich zu verteidigen.~
 @43 = ~Schutzaura~
 @44 = ~Schutzaura (Herbeirufung/Beschwörung)
 
@@ -284,16 +224,6 @@ Wirkungsbereich: Speziell
 Rettungswurf: 1/2
 
 In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
-@51 = ~Selunes Fluch (Hervorrufung)
-
-Grad: 7
-Reichweite: Sichtweite
-Wirkungsdauer: Sofort
-Zeitaufwand: 9
-Wirkungsbereich: 20 m Radius
-Rettungswurf: 1/2
-
-Dieser mächtige Spruch lässt den Zorn der Göttin Selune über alle Feinde im Wirkungsbereich kommen. Es entsteht eine Explosion bestehend aus kalten blauen Flammen, welche dem Gegner 6W10 Schadenspunkte zufügen. Ein gescheiterter Rettungswurf resultiert in dem Ergebnis, dass der Gegner die volle Wucht der Detonation abbekommt, während ein erfolgreicher Rettungswurf den Schaden um die Hälfte reduziert.~
 @52 = ~Luftorb~
 @53 = ~Luftorb (Veränderung)
 
@@ -360,16 +290,6 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Mit diesem Zauberspruch kann der Anwender die Stärke einer Armee in einer Person vereinen. Stärke, Konstitution und Geschicklichkeit des Empfängers werden um jeweils 2 Punkte erhöht.~
-@64 = ~Gespensterform (Veränderung, Illusion)
-
-Grad: 3
-Reichweite: 0
-Wirkungsdauer: 1 Runden
-Zeitaufwand: 1
-Wirkungsbereich: Anwender
-Rettungswurf: Nein
-
-Durch diesen Zauber verliert der Magier mitsamt seiner Ausrüstung jede feste Konsistenz. Er kann nur durch magische oder besondere Angriffe getroffen werden, einschließlich durch Waffen mit +1 oder besser, sowie Wesen, die in der Lage sind Geschöpfe zu verletzen, die sonst nur von magischen Waffen getroffen werden können. Der Magier erlangt ferner eine magische Widerstandskraft von 25%. Während er sich in Gespensterform befindet, kann er keine weiteren Zauber aussprechen.~
 @65 = ~Ettins Heilung~
 @66 = ~Ettins Heilung (Nekromantie)
 
@@ -381,16 +301,6 @@ Wirkungsbereich: Speziell
 Rettungswurf: Nein
 
 Ettin, ein Mönch aus der Zeit der Antiker, war ein erfahrener Kräuterkenner. Er fand viele neue Wege in der Heilung des humanoiden Körpers. Ettins Heilung erlaubt es dem Anwender 1 Trefferpunkt pro Runde zu regenerieren.~
-@67 = ~Ajandurahs Eisscherben~
-@68 = ~Ajandurahs Eisscherben (Hervorrufung)
-Grad: 4
-Reichweite: Sichtweite
-Wirkungsdauer: 1 Runde
-Zeitaufwand: 2
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Dieser Spruch zaubert Scherben aus Eis, die zielsicher auf das Ziel zufliegen und ihm Kälteschaden in der Größenordnung von drei treffenden Pfeile zufügt.~
 @69 = ~Melfs explosive Meteoriten~
 @70 = ~Melfs explosive Meteoriten (Hervorrufung)
 
@@ -402,16 +312,6 @@ Wirkungsbereich: Speziell
 Rettungswurf: 1/2
 
 Dieser Spruch ähnelt dem Zauber "Melfs magische Meteoriten" des 3. Grades, mit dem Unterschied, dass die Geschosse eine heftigere Explosion verursachen. Alle Kreaturen im Wirkungsbereich erleiden einen Schaden von 2W6 Punkten. Ein erfolgreicher Rettungswurf kann die schlimmsten Auswirkungen verhindern, indem der Schaden um die Hälfte reduziert wird.~
-@71 = ~Geas "Magische Bindung"~
-@72 = ~Geas (Verzauberung/Bezauberung)
-Grad: 6
-Wirkungsbereich: 1 Wesen
-Reichweite: Sichtweise
-Wirkungsdauer: Permanent
-Zeitaufwand: 5
-Rettungswurf: Gegen Zauber
-
-Dieser Spruch wirkt auf jedes betroffene Wese. Es gibt einen Rettungswurf gegen Zauber, um den Effekt des Spruches ohne Anpassung der Weisheit zu überstehen. Misslingt der Rettungswurf erkennt das Opfer den Sprecher des Spruches als seinen Herrn an. Dieser kann dem Opfer Befehle erteilen und die bezauberte Person wird diese so schnell wie möglich ausführen.~
 @73 = ~Antimagische Schutzhülle~
 @74 = ~Antimagische Schutzhülle (Bannzauber)
 
@@ -423,16 +323,6 @@ Wirkungsbereich: Anwender
 Rettungswurf: Nein
 
 Nach dem Ausspruch dieses Zaubers wird der Anwender von einer schimmernden Barriere umgeben. Diese Barriere ist für jegliche Magie und Zaubersprüche undurchdringlich, wodurch der Anwender vor allen Zaubern geschützt ist. Zusätzlich verhindert die Barriere das Aussprechen von Zaubern im Inneren und bannt alle magischen Auswirkungen, die auf dem Anwender liegen. Odemwaffen, Blick- oder Sprachattacken und ähnliche Spezialangriffe können die Barriere ebenfalls nicht durchdringen. Die Barriere kann auch durch "Magie bannen" nicht entfernt werden.~
-@77 = ~Sphäre der Dissipation~
-@78 = ~Sphäre der Dissipation (Bannzauber)
-Grad: 7
-Reichweite: 0
-Wirkungsdauer: 180 Sekunden
-Zeitaufwand: 4
-Wirkungsbereich: Selbst
-Rettungswurf: Nein
-
-Otiluke amüsierte sich an der Tatsache, dass viele Magier seinen robusten Sphärenzauber benutzten, obwohl dieser Spruch lediglich durch einen Fehler beim Testen eines anderen Spruches entstand. Es ist ein mächtiger Spruch für den umherwandernden Erzmagier, der Spruch erzeugt eine Sphäre aus Energie um den Magier, die die Energie von den Angreifern absorbiert. Nur die mächtigsten Sprüche oder besten magischen Waffen können hoffen, den Schild zu durchdringen. Deshalb ist es sehr nützlich, diesen Spruch bei Wanderungen durch die Ebenen von Toril zu verwenden.~
 @79 = ~Massenbezauberung~
 @80 = ~Massenbezauberung (Verzauberung/Bezauberung)
 
@@ -444,17 +334,6 @@ Wirkungsbereich: 20 m Radius
 Rettungswurf: Nein
 
 Dieser Zauberspruch wirkt auf alle Wesen im Wirkungsbereich um den vom Anwender gewählten Punkt. Es sind alle humanoiden Wesen für 30 Sekunden betroffen. Humanoide Wesen umfassen Menschen, Dryaden, Zwerge, Elfen, Erdwichte, Gnome, Goblins, Halbelfen, Hobgoblins und so weiter, allerdings keine größeren Kreaturen wie zum Beispiel Oger. Jedem Wesen muss ein Rettungswurf gegen Zauber gelingen, um dem Effekt zu entgehen.~
-@81 = ~Feuersturm~
-@82 = ~Feuersturm (Hervorrufung)
-
-Grad: 7
-Reichweite: 25 m
-Wirkungsdauer: Sofort
-Zeitaufwand: 4
-Wirkungsbereich: Großflächig
-Rettungswurf: Nein
-
-Für den durchschnittlichen Erzmagier ist der normale Feuerball einfach nicht genug. Dieser Zauber aus der Zeit von Nesseril füllt diese Lücke. Der Anwender muss sehr fähig sein, und selbst dann ist der Zauber noch labil. Die Auswirkungen sind trotzdem sehr zerstörerisch. Jedes Wesen, dass den Flammen dieses Zaubers ausgesetzt ist, erleidet 6W6 Schadenspunkte durch Feuer und weitere 2W6 SP, wenn ihm ein Rettungswurf misslingt.~
 @83 = ~Vestcakes schwebender Fluch~
 @84 = ~Vestcakes schwebender Fluch (Hervorrufung)
 
@@ -476,26 +355,6 @@ Rettungswurf: 1/2
 
 Dieser Zauberspruch ist das Werk eines verrückt gewordenen Erzmagiers, auch bekannt als Erz-Astronomer, der während der Zeit von Nesseril lebte. Dieser verrückte Magier war süchtig nach Feuer und erschuf diesen Zauber, um seine Sucht zu befriedigen. Er starb durch ihn kurz nach seiner Fertigstellung.
 Fast alle modernen Feuersprüche sind in diesem "Cocktail" enthalten, wodurch er fähig ist, so ziemlich jedes Wesen zu Asche zu verbrennen. Wie auch immer, es ist ein unberechenbarer Zauberspruch, somit ist es sicherer ihn aus großer Entfernung auszusprechen.~
-@87 = ~Wahnsinn~
-@88 = ~Wahnsinn (Verzauberung/Bezauberung)
-Grad: 8
-Reichweite: 16 m
-Wirkungsdauer: Permanent
-Zeitaufwand: 5
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Dieser Spruch verursacht, dass der Wille des Magiers in den Verstand des Zieles eindringt und diesen komplett zerstört. Dabei wird das Opfer komplett wahnsinnig, aber immer noch gefährlich. Die Dauer ist permanent und das Opfer geht benommen oder konfus umher oder stürzt sich wie verrückt mit dem nächst besten in den Kampf. Es gibt nur eine 50% Chance, dass der Spruch funktioniert.~
-@89 = ~Miasma~
-@90 = ~Miasma (Hervorrufung)
-Grad: 8
-Reichweite: 100 m
-Wirkungsdauer: 30 Sekunden
-Zeitaufwand: 4
-Wirkungsbereich: 40 m breite, 20 m hohe, 20 m tiefe Wolke
-Rettungswurf: Verschiedene
-
-Dieser mächtige Spruch erzeugt eine säurehaltige Wolke mit tödlichen Dampf, der alles um sich herum einhüllt. Die Säurehaltigkeit des Dampfes vergrößert sich im Laufe der Dauer des Spruches, so dass sich alle 5 Sekunden der Schaden bis zu einem Maximum von 7W6 erhöht. Jeder der sich in der Wolke befindet, selbst diese, die sie verlassen haben, sind mit Säure bedeckt und sind genauso von dem Effekt betroffen, als ob sie noch in der Wolke stehen würden. Der Effekt kann, wenn man schnell genug ist, auch aufgehoben werden. Der durch die Säsure verursachte Schaden ist relative leicht zu verhindern, aber die Wolke hat einen noch schlimmeren Effekt. Befindet sich eine Person in dieser Wolke, so besteht eine 25% Chance, dass sich die Person aufgrund der ätzenden Natur der Wolke in einen Pfuhl von Schleim verwandelt. (Kein Rettungswurf)~
 @91 = ~Donnerbolzen (Hervorrufung)
 
 Grad: 8
@@ -517,35 +376,6 @@ Wirkungsbereich: 1 Wesen
 Rettungswurf: Nein
 
 Den Gerüchten nach nutzte der Magierkönig Varashar diesen Zauber, um sein Leben während seiner 120-jährigen Herrschaft mehrfach zu verlängern. Das Opfer des Zaubers erleidet 5W4 Schadenspunkte, während der Anwender zusätzliche 25% seiner Trefferpunkte erhält. Solche Trefferpunkte, die über das Maximum des Anwenders hinausgehen, gehen nach 4 Runden verloren.~
-@94 = ~Funke des Todes~
-@95 = ~Funke des Todes (Nekromantie)
-Grad: 9
-Reichweite: 16 m
-Wirkungsdauer: Sofort
-Zeitaufwand: 8
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Indem er diesen Spruch spricht, verursacht der Magier enormen, aber auch in hohem Grade variablen Schaden an einem einzelnen Ziel.~
-@96 = ~Azuths Rune der negativen Beschaffenheit~
-@97 = ~Azuths Rune der negativen Beschaffenheit (Hervorrufung)
-Grad: 9
-Wirkungsbereich: 1 Wesen
-Reichweite: 33 m
-Zeitaufwand: 7
-
-Bevor der vielleicht mächtigste Magier alle Zeiten als Gottheit sich neben Mystra gesellte, kreierte er diesen Spruch. Ein verheerend mächtiger Spruch, welcher seinen Namen als göttlicher Todesspruch verdient und in keiner der Ebenen übertroffen wird. Der Erzmagier streckt seine Arme nach vorne und beschwört die große Macht des Seins, die das Universum zusammenhält. Riesige Bolzen Energie schwirren vor ihm und als er den Spruch loslässt, kräuselt sich ein Bolzen reinster Energie vom Himmel herab und zerstört das Ziel.
-
-Es gibt keien Rettungswurf und der Spruch durchdringt jeden magischen Schutz.~
-@98 = ~Heilung~
-@99 = ~Heilung (Erkenntnis)
-Grad: 9
-Reichweite: 10 m
-Wirkungsdauer: Permanent
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Nein
-
-Dieser Spruch entfernt Gift und stellt alle Lebenspunkte des betroffenen Wesens wieder her. Es gibt keinen Rettungswurf, so dass keinerlei magischer Schutz den Effekt des Heilens stoppen wird.~
 
 ////////////////////
 //Crowns, helm, etc.
@@ -2518,26 +2348,6 @@ Kann nicht verwendet werden von:
  Dieben
  Mönchen
  Tiermeistern~
-@1417 = ~Hammer der Megatonne~
-@1418 = ~Es wird angenommen, dass diese Waffe von Schmieden des einstigen Myth Drannor. Man glaubt auch, dass der Hammer von einem extrem mächtigen Priester für den Kampf gegen das Böse verzaubert wurde. Der Hammer ist überraschend leicht zu schwingen, trotz seines immensen Gewichtes.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 3W6 +1
-
-Schadensart: mit Hiebwaffe zertrümmern
-ETW0: -4
-Gewicht: 44
-Geschwindigkeitsfaktor: 2
-Fertigkeit: Stumpfe Waffe
-Waffentyp: einhändig
-Mindeststärke: 10
-Kann nicht verwendet werden von:
- Magiern
- Kämpfern
- Dieben
- Barden
- Charakteren böser Gesinnung~
 @1420 = ~Feuerlanze~
 @1422 = ~Die Spitze dieses Speeres brennt auf magische Weise, wodurch er im Kampf zu einer noch tödlicheren Waffe wird. Seine Herkunft bleibt ein Geheimnis.
 
@@ -2959,7 +2769,6 @@ einem Lebenswandel bewegte. Er bat Fergus ihn zu trainieren und ihm alles zu erz
 @2048 = ~CúChoinneach~
 
 @2077 = ~Ihr wisst sehr wenig über CúChoinneach und seinen Schattenwolf. Ihr wisst weder woher er kommt, noch wohin er geht. Er spricht nicht viel und stellt noch weniger Fragen. Ihr bemerkt, dass er eine für einen Elfen ungewöhnlich dunkle Seite hat. Er hat die normale Freude am Leben, die allen Elfen gemein ist, verloren, und scheint sich nur noch auf eine Sache zu konzentrieren: Die Zerstörung von Lord Daerthmac!~
-//@2078 = ~Khal Abbil~
 @2079 = ~Deazle~
 @2080 = ~Drow Waffenmeister~
 @2081 = ~Drow Magier~
@@ -3051,7 +2860,6 @@ Tor zu bestaunen.~
 @2294 = ~Waldelf-Elite~
 @2295 = ~Madadh n'Sgàil~
 @2296 = ~Skelett-Fürst~
-@2297 = ~Kobold-Wache~
 //@2300 = ~Scharfzahnwald~
 //@2301 = ~Ausgang~
 @2302 = ~Burg von Daerthmac~

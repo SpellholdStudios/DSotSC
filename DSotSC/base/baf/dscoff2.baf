@@ -17,7 +17,7 @@ THEN
   RESPONSE #100
     DisplayString(Myself,@1)
     SetGlobal("Coffin2","DSC009",2)
-    AddexperienceParty(9000)
+    AddexperienceParty(3000)
     PlaySound("VAMPP07")
     TakePartyItemNum("misc6w",1)
     DestroyItem("misc6w")  // ~Wooden Stake~

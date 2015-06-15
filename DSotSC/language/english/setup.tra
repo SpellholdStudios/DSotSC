@@ -92,15 +92,6 @@ Area of Effect: 1 creature
 Saving Throw: None
 
 The goddess of the night Shar grants clerics the power to call forth a shroud of mystical darkness that envelops the target of the spell. While encased in this the subject's Armor Class improves by 2 and saving throws vs. spells are made at a +2 bonus. The target also gains infravison and is unaffected by blindness. Due to the evil nature of this spell the caster takes 3 hit points of damage when the spell is cast.~
-@21 = ~Stoneskin (Alteration)
-Level: 3
-Range: 0
-Duration: 12 hours
-Casting Time: 1
-Area of Effect: Caster
-Saving Throw: None
-
-When a druid casts this powerful spell upon himself, an outer skin of stone will move up from the ground completely covering him. This skin is of course magical and will hinder the druid in no way. The effect of this is to protect the druid from physical attacks such as melee weapons and projectiles. For every 2 levels of the caster an additional skin is gained upon casting, for example a 10th level druid would receive 5 skins while a 20th level druid would receive 10. For each skin the druid possesses the spell will stop one attack, so a 10th level druid would be protected from the first 5 attacks made against him, but the sixth would affect him normally. The skins will remain on the druid until he is affected by a dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires. It is important to note that this will not protect the druid from any magical attacks such as fireball, however it will protect him from physical magical attacks such as magic missle.~
 @22 = ~Poison Spray~
 @23 = ~Poison Spray (Necromancy)
 Level: 4
@@ -166,47 +157,6 @@ Area of Effect: Caster only
 Saving Throw: None
 
 By means of this spell the caster can effectively teleport by stepping into any living plant, and emerging instantly from any other within visual range.~
-@33 = ~Hold Monster (Enchantment/Charm)
-Level: 6
-Sphere: Charm, Law
-Range: Visual range of caster
-Duration: 1 round/level
-Casting Time: 5
-Area of Effect: 60 foot cube
-Saving Throw: Neg
-
-This spell holds 1d4 creatures of any type rigidly immobile and in place for nine or more rounds, unless a save vs. spells is made with a -2 penalty. The effect is centered on the victim selected by the caster. Every enemy within 5 feet of the target is also effected. Those who succeed on their saving throws are totally unaffected by the spell. Undead creatures cannot be held. Held creatures cannot move or speak, but they remain aware of events around them and can use abilities not requiring motion or speech. Being held does not prevent the worsening of the subjects' condition due to wounds, disease, or poison.~
-@34 = ~Tenser's Transformation (Alteration/Evocation)
-Level: 6
-Sphere: Protection
-Range: 0
-Duration: 1 round/level
-Casting Time: 6
-Area of Effect: Caster only
-Saving Throw: None
-
-The priest casting this dweomer undergoes a startling transformation, their size and strength increasing to heroic proportions so they become a formidible fighting machine. The priests hit points double and their armor class improves a full 4 factors. All attacks are made as if the priest is a fighter of equal level. Each attack is made at +2 and each successful hit in combat inflicts an additional 2 points of damge. All bonuses will be lost when the spell ends or is dispelled including the hit point bonus.
-Note: This spell does not give the caster any extra attacks.~
-@35 = ~Flesh to Stone (Alteration)
-Level: 6
-Sphere: Elemental Earth
-Range: Sight of Caster
-Duration: Permanent
-Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: Neg
-
-The target of this spell must make a saving throw vs. petrification or be turned to stone. Likewise, all possessions on the person will be petrified and be rendered unremovable unless a Stone to Flesh spell is cast. Any successful hit on a petrified creature will shatter it, killing it irrevocably.~
-@36 = ~Stone to Flesh (Alteration)
-Level: 6
-Sphere: Elemental Earth
-Range: Touch
-Duration: Permanent
-Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: None
-
-By use of this spell the caster can restore a petrified creature to living flesh provided his stone body is still intact. The recipient will be physically drained by his time as a statue and will have only 1 hit point upon restoration. Cure spells or rest will recover the lost health.~
 @37 = ~Choking Vines~
 @38 = ~Choking Vines (Alteration)
 Level: 6
@@ -229,17 +179,6 @@ Area of Effect: 1 creature
 Saving Throw: Neg
 
 The caster prays for divine aid and attempts to steal the very life force from the target creature. The target creature suffers 6D5 points of damage, half with successful save. The caster then absorbs the life force healing up to 27 points.~
-@41 = ~Confusion (Enchantment/Charm)
-Level: 7
-Sphere: Charm, Law
-Range: Visual range of the caster
-Duration: 5 rounds + 1 round/6
-Casting Time: 4
-Area of Effect: Up to 60-feet cube
-Saving Throw: Special
-
-This spell causes confusion in one or more creatures within the area, creating indecision and the inability to take effective action. All creatures within the area of affect are allowed saving throws vs. spell with - 2 penalties. Those successfully saving are unaffected by the spell. The spell lasts for two rounds plus one round for each level of the caster. Those who fail their saving throws will either go berserk, stand confused or wander about for the duration of the spell.
-Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.~
 @43 = ~Aura of Protection~
 @44 = ~Aura of Protection (Conjuration/Summoning)
 Level: 7
@@ -284,17 +223,6 @@ Area of Effect: Special
 Saving Throw: 1/2
 
 This spell is similar to the Wizard level 3 spell Lighting Bolt but any creature hit by the bolt suffers 12d4 electrical damage with a saving throw for half.~
-@51 = ~Selune's Curse (Evocation)
-Level: 7
-Sphere: Charm, Combat
-Range: Visual range of caster
-Duration: Instantaneous
-Casting Time: 9
-Area of Effect: 20' radius
-Saving Throw: 1/2
-
-This powerful incantation calls down the wrath of Selune upon the cleric's enemies. The spell creates an explosion of cold blue flames that deal 6d10 damage to all creatures within the area of effect. A failed saving throw results in the victim suffering the full effects of the blast, while those who succeed manage to avoid the worst, only taking 1/2 damage.~
-
 @52 = ~Orb of Air~
 @53 = ~Orb of Air (Alteration)
 Level: 1
@@ -326,8 +254,8 @@ Area of Effect: One creature
 Saving Throw: None
 
 Upon uttering this dweomer a freezing ball of ice bursts from the caster's hands and streaks unerringly toward one target. The Icebolt deals 2d10 damage with no saving throw allowed, however magic or cold resistance can negate its effects.~
-@58 = ~Minor Globe of Darkness~
-@59 = ~Minor Globe of Darkness (Alteration)
+@58 = ~Globe of Darkness~
+@59 = ~Globe of Darkness (Alteration)
 Level: 2
 Range: 10 yds
 Duration: 1 turn
@@ -356,15 +284,6 @@ Area of Effect: Self
 Saving Throw: Neg.
 
 This spell causes the caster to seem to become an army unto himself: eight images of the caster are created, and the attributes Strength, Dexterity and Constitution are increased by 2.~
-@64 = ~Wraith Form (Alteration, Illusion)
-Level: 3
-Range: 0
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
-
-When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. The wizard also gains a 25% magic resistance. While in wraith form the caster is unable to cast spells.~
 @65 = ~Ettin's Healing~
 @66 = ~Ettin's Healing (Necromancy)
 Level: 4
@@ -375,16 +294,6 @@ Area of Effect: Special
 Saving Throw: None
 
 Ettin, a monk who lived during the Time of the Ancients, was also an adept herbalist who found many ways to heal the body. The caster gains regeneration (6 HP/round).~
-@67 = ~Ajandurah's Ice Shard~
-@68 = ~Ajandurah's Ice Shard (Conjuration/Summoning)
-Level: 4
-Range: Visual range of caster
-Duration: 1 round
-Casting Time: 2
-Area of Effect: One Creature
-Saving Throw: special
-
-This spell summons a burning shard of magical ice that flies unerringly toward its target inflicting cold damage on that target as if 3 arrows had in actual fact struck. Each arrow deals 2D6 of cold damage, for a total of 6D6 (4D6 if a save vs spells is made).~
 
 @69 = ~Melf's Explosive Meteors~
 @70 = ~Melf's Explosive Meteors (Evocation)
@@ -397,17 +306,6 @@ Saving Throw: Special
 
 This evocation is the same as the third level mage spell Melf's Minute Meteors, except that the missiles created explode violently on impact. All creatures within 20' of the point of impact will be showered with flaming shrapnel inflicting 2-12 points of damage. A successful saving throw will allow the affected creature to avoid the worst effects, reducing the damage taken by half.~
 
-@71 = ~Geas~
-@72 = ~Geas (Enchantment/Charm)
-Level: 6
-Sphere: Creature
-Range: Visual range of the caster
-Duration: Permanent
-Casting Time: 5
-Area of Effect: 1 single target
-Saving Throw: Save vs Spells
-
-This spell will effect any single creature cast upon. The targets include all known creatures upon the land. The person receives a Save vs. Spells roll to avoid the effect without adjustments of wisdom. If the saving throw fails, the target regards the caster as his/her new master. The caster may give the target orders, and the charmed character will carry them out as quickly as possible.~
 @73 = ~Anti-Magic Shell~
 @74 = ~Anti-Magic Shell (Abjuration)
 Level: 6
@@ -419,16 +317,6 @@ Saving Throw: None
 
 By means of this spell, the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spellcasting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
 
-@77 = ~Sphere of Dissipation~
-@78 = ~Sphere of Energy Dissipation (Abjuration)
-Level: 7
-Range: 0
-Duration:180 seconds
-Casting Time: 4
-Area of Effect: Self
-Saving Throw: None
-
-Otiluke derives great amusement from the fact that many mages use his resilient sphere spell when in fact it was merely a mistake test spell from the making of this spell his sphere of energy dissipation. A powerful spell for the adventuring arch mage it creates a powerful sphere of energy around the caster that absorbs the energy from all the attacks made against the caster rendering them harmless. Only the most potent of spells or magical weapons could hope to pierce this shield making it very useful when wandering the planes or backstreets of Toril.~
 @79 = ~Mass Charm~
 @80 = ~Mass Charm (Enchantment/Charm)
 Level: 7
@@ -439,18 +327,6 @@ Area of Effect: 20' radius sphere
 Saving Throw: None
 
 This spell affects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humans, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs. spells to negate the effects.~
-@81 = ~Fire Storm~
-@82 = ~Fire Storm (Invocation)
-Level: 7
-Range: 80
-Duration: Instant
-Casting Time: 4
-Area of Effect: Large
-Damage: 8D8 +20
-Saving Throw: vs breath (half damage)
-
-
-For the average Archmage a fireball is simply not enough. This spell from the time of Nethril fills this void. It requires a great deal of skill to cast and even then it is slightly unstable. The effects however are truly devastating. A initial spell is released that might appear to a fire ball however after its detonation there are many more explosions of equal or greater power consuming the battle field in a storm of fire.~
 @83 = ~Vestcakes Floating Curse~
 @84 = ~Vestcakes Floating Curse (Invocation)
 Level: 7
@@ -470,26 +346,6 @@ Area of Effect: 30-feet radius
 Saving Throw: 1/2
 
 The Infernal Combustion Enigma was the creation of the powerful yet insane ArchMage, better known as the Arch-Astronomer, in the time of Nethril. This mage had an addiction to fire and made this spell to accommodate to all of his needs (It is noted that this mage died shortly after completing the spell probably from its effects). Nearly all of modern fire spells are included in this cocktail of spells and as such this spell is capable incinerating many a noble adventurer. However, it is a unpredictable spell so it is considered a prime example of spells to be launched from afar.~
-@87 = ~Insanity~
-@88 = ~Insanity (Enchantment/Charm)
-Level: 8
-Range: 50 feet
-Duration: Permanent
-Casting Time: 5
-Area of Effect: Single Target
-Saving Throw: vs spells (-4)
-
-This spell causes the Mage to send forth his will into the mind of his target completely destroying that mind in the process leaving the victim completely insane but still dangerous. The effect is permanent and the victim will walk around dazed or confused or run madly into battle with anyone close to him. The process by which this spell works is iffy at best so there is a 50 percent chance the spell will work.~
-@89 = ~Miasma~
-@90 = ~Miasma (Evocation)
-Level: 8
-Range: 100 yards
-Duration: 30 seconds
-Casting Time: 4
-Area of Effect: 40' wide, 20' high, 20' deep cloud
-Saving Throw: poison negates
-
-This powerful spell summons forth a acidic cloud of deadly vapors that envelop all around them. The acidity of the vapors increases throughout the duration of this spell so the damage done every 5 seconds increases up to a max of 7d 6. Anyone caught in the cloud even if they leave it are covered in the acid and continue to suffer the effects as if they were still in the cloud. This effect can however be dispelled if done fast enough.~
 @91 = ~Thunder Bolt (Evocation)
 Level: 8
 Range: 60 yards
@@ -510,36 +366,6 @@ Saving Throw: None
 
 The Mage King Varashar, according to rumor, used this spell to extend his life many times during his 120 year reign.
 The target suffers 25 HP damage, while the caster is healed for the same amount. There's no saving throw.~
-@94 = ~Arc of Death~
-@95 = ~Arc of Death (Necromancy)
-Level: 9
-Range: 50 feet
-Duraation: Instant
-Casting Time: 8
-Area of Effect: 1 creature
-Damage:: 10D20 (piercing, no save) + 10D20 (electrical, save for none)
-
-By casting this spell, the wizard causes massive, but highly variable damage to a single target.~
-@96 = ~Azuth's Rune of Utter Negativity~
-@97 = ~Azuth's Rune of Utter Negativity (Invocation)
-Level: 9
-Target: One Target
-Area of effect: One Creature
-Range: 100 feet
-Casting time: 7
-
-Before perhaps the greatest mage of all time rose to godhood as Mystra's consort, he created this spell. A devastatingly powerful spell which can truly be called a deity kill spell for its power is unsurpassed in all the planes. The Archmage (for great power and skill is needed to cast this spell) stretches forth his hand and calls on the very powers of reality that hold the universe together. Huge bolts of energy spin in front of him and as he releases the spell a bolt of pure energy ripples down from the sky and destroys the spells target.
-
-No save, this spell will even overcome magic resistance.~
-@98 = ~Heal~
-@99 = ~Heal (Divination)
-Level: 9
-Range: 10 yards
-Duration: Permanent
-Area of Effect: 1 single target
-Saving Throw: None
-
-When cast, this spell removes poison and will restore all hit points of the current target. There is no saving throw so magical defense and protection will not stop the effects of the spell.~
 
 ///////////
 //Items
@@ -1715,7 +1541,7 @@ STATISTICS:
 Damage: 1D4 + 2
 THAC0: +1
 Special:
-  2D3 to undead creatures
+  additional 2D3 damage to undead creatures
 Damage type: missle (piercing)
 Launcher: sling~
 
@@ -1761,12 +1587,12 @@ Not Usable By:
  Monk
  Kensai~
 
-@1302 = ~CúChoinneach's Small Shield +3 'The Moon'~
+@1302 = ~CúChoinneach's Small Shield +2 'The Moon'~
 @1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanin Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
-Armor Class Bonus: +4
+Armor Class Bonus: +3
 Special: No Missile Weapon Protection
 
 Weight: 3
@@ -1774,12 +1600,12 @@ Weight: 3
 Only usable by:
  CúChoinneach~
 
-@1305 = ~Small Shield +2~
+@1305 = ~Jet'laya's Small Shield +1~
 @1306 = ~This is the personal shield of Jet'laya. The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water. Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
 
 STATISTICS:
 
-Armor Class Bonus: +3
+Armor Class Bonus: +2
 Special:
   No Missile Weapon Protection
   THAC0 +2 Bonus vs. Undead
@@ -1892,6 +1718,8 @@ STATISTICS:
 
 Damage: 2D5 + 3
 THAC0: +3 bonus
+Special:
+  33% chance of wielder go into berserk upon successful hit
 Damage type: Slashing
 Weight: 10
 Proficiency type: Katana
@@ -1930,8 +1758,8 @@ Only usable by:
 
 STATISTICS:
 
-Damage: 1D10 + 1 (+3 vs All Dragons)
-THAC0: +1 (+3 vs All Dragons)
+Damage: 1D10 + 1, +3 vs Dragons
+THAC0: +1, +3 vs Dragons
 Special:
   Has a slight chance of slaying any dragon on contact
   20% Resistance to Fire and Acid
@@ -1976,7 +1804,6 @@ STATISTICS:
 Damage: 1D10 + 1
 THAC0: +1 bonus
 Special:
-  bonus damage and THAC0 against undead
   Wielder may cast "Entangle" (1/day)
 Damage type: Slashing
 Weight: 9
@@ -2104,8 +1931,8 @@ STATISTICS:
 Damage: 1D8 + 1
 THAC0: +5 bonus
 Special:
-   Dexterity bonus +1
-   AC bonus +1
+Dexterity bonus +1
+AC bonus +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 2
@@ -2256,13 +2083,13 @@ Usable By:
  Paladin
  Lawful Good Cleric~
 
-@1376 = ~Ferthgil Trollslayer's Battle Axe +3~
+@1376 = ~Ferthgil Trollslayer's Battle Axe~
 @1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his father’s honor onto the battlefield.
 
 STATISTICS:
 
-Damage: 1D8 + 3 (+3 vs Giants, +2 vs all Monsters)
-THAC0: +3 bonus (+3 vs Giants, +2 vs all Monsters)
+Damage: 1D8 +3 vs Giants, +2 vs all Monsters
+THAC0: +3 vs Giants, +2 vs all Monsters
 Damage type: slashing
 Weight: 5
 Speed Factor: 5
@@ -2360,7 +2187,7 @@ Only usable by:
 
 STATISTICS:
 
-Damage: 1D8 (+3 vs. Undead)
+Damage: 1D8 +3 vs. Undead
 THAC0: +2 vs. Undead
 Damage type: slashing
 Weight: 5
@@ -2556,8 +2383,8 @@ Only usable by:
 
 STATISTICS:
 
-Damage: 1D4 + 2 (+3 vs. giant humanoids)
-THAC0: +1 Bonus (+3 vs. giant humanoids)
+Damage: 1D4 + 2, +4 vs. giant humanoids
+THAC0: +1 Bonus, +3 vs. giant humanoids
 Damage type: crushing
 Weight: 8
 Speed Factor: 2
@@ -2571,27 +2398,6 @@ Not Usable By:
  Thief
  Monk
  Beast Master~
-
-@1417 = ~Mageton Hammer~
-@1418 = ~It is believed that this weapon was crafted by the smiths of ancient Myth Drannor. It is also believed that it was enchanted by an extremely powerful cleric for the fight against evil. The hammer is surprisingly easy top swing despite its immense weight.
-
-STATISTICS:
-
-Damage: 2d6 + 1
-THAC0: +1
-Damage Type: Crushing
-Weight: 44
-Speed Factor: 2
-Proficiency Type: War Hammer
-Type: 1-Handed
-Requires: 10 Strength
-
-Not Usable By
- Mage
- Fighter
- Thief
- Bard
- Evil-aligned character~
 
 @1420 = ~Spear of Fire~
 @1422 = ~This Spear's head is magically burning, which make this spear very deadly in combat.
@@ -2659,8 +2465,8 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D6 + 2, +2 vs Undead
-THAC0: +1, +2 vs Undead
+Damage: 1D6 + 2, +4 vs Undead
+THAC0: +1
 Damage type: crushing
 Weight: 8
 Speed Factor: 6
@@ -2680,7 +2486,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D6 + 1, +2 vs Undead
+Damage: 1D6 + 2, +4 vs Undead
 THAC0: +1
 Special:
   Will destroy undead unless save
@@ -2703,10 +2509,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D6 + 3
-THAC0: +2
-Special:
-  Bonus Damage vs Undead
+Damage: 1D6 + 1, +3 vs. Undead
 Damage type: crushing
 Weight: 7
 Speed Factor: 6
@@ -3007,7 +2810,6 @@ and teach him everything that he knew. Conchobhair spent six years training with
 @2048 = ~CúChoinneach~
 
 @2077 = ~When asked about his past, CÚCHOINNEACH sighs and looks off into the distance. You know very little about CúChoinneach and his shadow wolf. You know not where he comes from or where he is going to. He says very little and asks far less. For an elf, he harbors a dark side. He has lost all the normal lust for life that most elves have and seems focused on one thing: the destruction of Lord Daerthmac!~
-//@2078 = ~Khal Abbil~
 @2079 = ~Deazle~
 @2080 = ~Drow Weapons Master~
 @2081 = ~Drow Mage~
@@ -3089,7 +2891,6 @@ in Baldur's Gate.~
 @2294 = ~Wood Elf Elite~
 @2295 = ~Madadh n'Sgàil~
 @2296 = ~Skeleton Lord~
-@2297 = ~Kobold Guard~
 //@2300 = ~Wood of Sharp Teeth~
 //@2301 = ~Exit~
 @2302 = ~Castle Daerthmac~

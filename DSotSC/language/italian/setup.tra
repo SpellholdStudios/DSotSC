@@ -92,16 +92,6 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Nessuno
 
 La Dea della notte Shar concede ai chierici il potere di creare un manto di oscurità mistica che avvolge il bersaglio dell'incantesimo. Finchè si è racchiusi in questo manto la Classe Armatura del bersaglio migliora di 2 e con un tiro salvezza contro incantesimi arriva ad un +2 bonus. Il bersaglio acquista anche l'infravisione ed è immune alla cecità. Vista la natura malvagia di questo incantesimo, il lanciatore perderà 3 punti ferita quando lancerà l'incantesimo.~
-@21 = ~Pelle di Pietra (Alterazione)
-Livello: 3
-Raggio di Azione: 0
-Durata: 12 ore
-Tempo di Lancio: 1
-Area d'effetto: Chi lo lancia
-Tiro Salvezza: Nessuno
-
-Quando un druido lancia questo potente incantesimo su se stesso, una pelle esterna di pietra sorge dal terreno, ricoprendolo completamente. Questa pelle, naturalmente, è magica, e non ostacola assolutamente il druido. L'effetto è di proteggere il druido da attacchi fisici come armi da mischia e proiettili. Per ogni 2 livelli del lanciatore si guadagna una pelle aggiuntiva ad ogni lancio: per esempio un druido di 10° livello riceve 5 pelli, mentre un druido di 20° livello ne riceve 10. Per ogni pelle che il druido possiede, l'incantesimo ferma 1 attacco: quindi un druido del 10° livello è protetto dai primi 5 attacchi contro di lui, ma il sesto lo colpisce normalmente. Le pelli rimangono sul druido fino a quando egli viene colpito da un incantesimo di dissipa magia, o tutte le pelli vengono rimosse a causa di attacchi fisici, o la durata dell'incantesimo ha termine. E' importante notare che questo non protegge il druido da attacchi magici quali la palla di fuoco, tuttavia lo protegge da attacchi magici fisici
-come il missile magico.~
 @22 = ~Spruzzo di Veleno~
 @23 = ~Spruzzo di Veleno (Negromanzia) Livello: 4
 Sfera: Vegetale
@@ -166,47 +156,6 @@ Area d'effetto: Solo il lanciatore
 Tiro Salvezza: Nessuno
 
 Per mezzo di questo incantesimo il lanciatore può spostarsi dentro una pianta vivente, apparendo da una pianta all'altra ma che sia all'interno del suo raggio di azione.~
-@33 = ~Bloccamostri (Incantamento/Charme)
-Livello: 6
-Sfera: Charme, Ordine
-Raggio di Azione: Campo visivo del lanciatore
-Durata: 1 round/Livello
-Tempo di Lancio: 5
-Area d'effetto: 18 metri cubi
-Tiro Salvezza: Neg
-
-Questo incantesimo blocca le creature 1d4 di qualsiasi tipo e le rende rigide e immobili per nove o più round, a meno che non si lanci una protezione dagli incantesimi con una penalità di -2. L'effetto si concentra sulla vittima selezionata dal lanciatore, ma sono influenzati anche i nemici che si trovano in un raggio di 1,5 m dal bersaglio. Coloro che manderanno a segno i tiri-salvezza non subiranno l'effetto dell'incantesimo. Le creature non morte non possono essere bloccate. Le creature bloccate non possono muoversi o parlare, ma si rendono conto degli eventi che si svolgono attorno a loro e possono avvalersi di funzioni che non richiedono di muoversi o di parlare. Essere bloccati non impedisce un peggioramento delle proprie condizioni in seguito a ferite, malattie o veleni.~
-@34 = ~Trasformazione di Tenser (Alterazione/Invocazione)
-Livello: 6
-Sfera: Protezione
-Raggio di Azione: 0
-Durata: 1 round/Livello
-Tempo di Lancio: 6
-Area d'effetto: Solo il lanciatore
-Tiro Salvezza: Nessuno
-
-Il lanciatore di questo incantesimo subisce una sorprendente trasformazione, aumentando le sue proporzioni e la sua forza diventando una vera macchina da guerra. I Punti Ferita del sacerdote raddoppiano e la sua Classe Armatura migliora di 4 punti. Tutti gli attacchi avvengono come se fossero effettuati da un guerriero di pari livello equivalente a quello del sacerdote. Ogni attacco ha un bonus di +2 ed ogni successivo tiro per colpire infligge 2 punti addizionali di danno. Tutti i bonus saranno persi quando l'incantesimo sarà dissolto.
-Nota: Questo incantesimo non dà al lanciatore alcun attacco extra.~
-@35 = ~Carne in Pietra (Alterazione)
-Livello: 6
-Sfera: Elemento Terra
-Raggio di Azione: Campo visivo del Lanciatore
-Durata: Permanente
-Tempo di Lancio: 6
-Area d'effetto: 1 creatura
-Tiro Salvezza: Neg
-
-Il bersaglio di questo incantesimo deve effettuare un Tiro Salvezza contro Pietrificazione o essere mutato in pietra. Nello stesso modo, tutto ciò che possiede la persona sarà pietrificato e trasformato in modo perenne a meno che non si lanci sul bersaglio l'incantesimo Pietra in Carne. Ogni colpo successivo su una creatura pietrificata la manderà in frantumi, uccidendola irrevocabilmente.~
-@36 = ~Pietra in Carne (Alterazione)
-Livello: 6
-Sfera: Elemento Terra
-Raggio di Azione: Tocco
-Durata: Permanente
-Tempo di Lancio: 6
-Area d'effetto: 1 creatura
-Tiro Salvezza: Nessuno
-
-Usando questo incantesimo il lanciatore può restituire ad una creatura pietrificata il proprio corpo purché il corpo pietrificato della creatura sia ancora intatto. Il destinatario sarà fisicamente esausto per essere rimasto simile ad una statua per un po' di tempo ed avrà solo 1 punto ferita subito dopo la sua ritrasformazione. Incantesimi di cura o del riposo faranno recuperare la salute perduta.~
 @37 = ~Piante rampicanti Soffocanti~
 @38 = ~Piante rampicanti Soffocanti (Alterazione)
 Livello: 6
@@ -228,17 +177,6 @@ Area d'effetto: 1 creatura
 Tiro Salvezza: Neg
 
 Il lanciatore prega per un aiuto divino e prova a sottrarre molta forza vitale dalla creatura bersaglio dell'incantesimo la quale subisce 6D5 punti di danno, dimezzati con un tiro salvezza. Il lanciatore di conseguenza assorbe la forza vitale fino a 27 punti.~
-@41 = ~Confusione (Incantamento/Charme)
-Livello: 7
-Sfera: Charme, Ordine
-Raggio di Azione: Campo visivo del lanciatore
-Durata: 5 round + 1 round/6
-Tempo di Lancio: 4
-Area d'effetto: Fino a 18 metri cubi
-Tiro Salvezza: Speciale
-
-Questo incantesimo causa confusione in una o più creature all'interno dell'area d'effetto, creando indecisione ed incapacità ad eseguire azioni efficaci. Tutte le creature all'interno dell'area d'effetto possono effettuare un Tiro Salvezza contro incantesimi con una penalità di - 2. Se va a buon fine il tiro salvezza l'incantesimo non ha effetto sul bersaglio. L'incantesimo dura per due round più un round per ogni livello del lanciatore. Se il bersaglio fallisce il Tiro Salvezza andrà in berserk, rimarrà confuso o vagherà senza meta per la durata dell'incantesimo.
-Le creature erranti si allontanano il più possibile dal lanciatore, muovendosi nel modo che più gli si confà (i personaggi camminano, i pesci nuotano, i pipistrelli volano, ecc.). Le creature confuse che vengono attaccate percepiscono l'attaccante come un nemico e reagiscono in base ai propri istinti.~
 @43 = ~Aura di Protezione~
 @44 = ~Aura di Protezione (Evocazione/Attrazione)
 Livello: 7
@@ -282,17 +220,6 @@ Tempo di Lancio: 5 Area d'effetto: Speciale
 Tiro Salvezza: 1/2
 
 Questo incantesimo è simile all'incantesimo Fulmine di Livello 3 del mago ma ogni creatura colpita dal dardo subisce 12d4 di danno elettrico ridotto a metà con un tiro salvezza andato a buon fine.~
-@51 = ~Maledizione di Selune (Invocazione)
-Livello: 7
-Sfera: Charme, Combattimento
-Raggio di Azione: Campo visivo del lanciatore
-Durata: Istantanea
-Tempo di Lancio: 9
-Area d'effetto: 6 metri di raggio
-Tiro Salvezza: 1/2
-
-Questa potente magia invoca la furia di Selune sui nemici del chierico. L'incantesimo crea un'esplosione di freddo dalle fiamme blue che causa 6d10 di danno a tutte le creature all'interno dell'area d'effetto. Un Tiro Salvezza fallito causa nelle vittime il danno del pieno effetto dell'esplosione, laddove invece il tiro salvezza non fallisce si avrà solo la metà del danno.~
-
 @52 = ~Globo d'Aria~
 @53 = ~Globo d'Aria (Alterazione)
 Livello: 1
@@ -354,15 +281,6 @@ Area d'effetto: Se stesso
 Tiro Salvezza: Neg.
 
 Questo incantesimo dà al lanciatore le sembianze di un esercito creato da lui, sono molti ma in realtà è uno solo.~
-@64 = ~Forma di Spettro (Alterazione, Illusione)
-Livello: 3
-Raggio di Azione: 0
-Durata: 1 turno
-Tempo di Lancio: 1
-Area d'effetto: Il lanciatore
-Tiro Salvezza: Nessuno
-
-Quando questo incantesimo viene lanciato, il mago e tutto il suo equipaggiamento diventano incorporei. Il lanciatore è soggetto solo alla magia, ad attacchi speciali, incluse armi +1 o superiori, o altrimenti da creature che sono capaci di colpirli solo con armi magiche. Il mago guadagna anche un 25% di resistenza alla magia. Finché il lanciatore ha la forma di spettro non può lanciare incantesimi.~
 @65 = ~Guarigione di Ettin~
 @66 = ~Guarigione di Ettin (Negromanzia)
 Livello: 4
@@ -373,16 +291,6 @@ Area d'effetto: Speciale
 Tiro Salvezza: Nessuno
 
 Ettin, un monaco che ha vissuto durante il Tempo degli Antichi, fu anche un abile erborista che trovò molte vie per guarire il corpo.~
-@67 = ~Frammento Ghiacciato di Ajandurah~
-@68 = ~Frammento Ghiacciato di Ajandurah (Evocazione/Attrazione)
-Livello: 4
-Raggio di Azione: Campo visivo del lanciatore
-Durata: 1 round
-Tempo di Lancio: 2
-Area d'effetto: Una Creatura
-Tiro Salvezza: Nessuno
-
-Questo incantesimo evoca un frammento di ghiaccio magico ardente che vola infallibilmente sul bersaglio infliggendogli danno da freddo come se fossero 3 frecce incantate.~
 @69 = ~Meteore Esplosive di Melf~
 @70 = ~Meteore Esplosive di Melf (Invocazione)
 Livello: 5
@@ -393,17 +301,6 @@ Area d'effetto: Speciale
 Tiro Salvezza: Speciale
 
 Questo incantesimo è paragonabile all'incantesimo di terzo livello del mago Piccole Meteore di Melf, eccetto che i missili creati esplodono violentemente nell'impatto. Tutte le creature nel raggio di 6 metri dal punto dell'impatto saranno colpite dai frammenti ardenti subendo 2-12 punti di danno. Un Tiro Salvezza andato a buon fine permetterà alla creatura colpita di evitare effetti peggiori, riducendo il danno della metà.~
-@71 = ~Costrizione~
-@72 = ~Costrizione (Incantamento/Charme)
-Livello: 6
-Sfera: Creatura
-Raggio di Azione: Campo visivo del lanciatore
-Durata: Permanente
-Tempo di Lancio: 5
-Area d'effetto: 1 singolo bersaglio
-Tiro Salvezza: Tiro salvezza contro Incantesimi
-
-Questo incantesimo avrà effetto sopra una singola creatura. Gli obiettivi sono tutte le creature umanoidi conosciute sulla faccia della terra. La persona riceve un Tiro Salvezza contro Incantesimi evitando l'effetto senza variamenti di saggezza. Se il Tiro Salvezza fallisce, il bersaglio considera il lanciatore come il suo nuovo padrone. Il lanciatore potrà dare al bersaglio ordini, e la persona charmata lo porterà con sé fuori dal pericolo il più velocemente possibile.~
 @73 = ~Corazza Anti-Magia~
 @74 = ~Corazza Anti-Magia (Scongiurazione)
 Livello: 6
@@ -414,16 +311,6 @@ Area d'effetto: Solo il lanciatore
 Tiro Salvezza: Nessuno
 
 Con questo incantesimo, il lanciatore viene circondato da una barriera luccicante che si muove con lui. L'area all'interno della barriera è totalmente impenetrabile a tutto il magico e a tutti gli effetti di incantesimi magici, in questo modo si impedirà il passaggio di ogni tipo di incantesimo, sia esso dannoso o che dia beneficio. Allo stesso modo la barriera ostacola ogni tipo di lancio di incantesimi all'interno dei suoi confini e i magici effetti dell'incantesimo eventualmente lanciato dal mago andranno immediatamente dispersi cioè saranno nulli. Neanche soffio, sguardi fissi, attacchi vocali, e attacchi simili dalle forme speciali possono penetrare la barriera. Neppure l'incantesimo Dissolvi Magie riesce a rimuovere la barriera.~
-@77 = ~Sfera di Dispersione~
-@78 = ~Sfera di Dispersione di Energia (Scongiurazione)
-Livello: 7
-Raggio di Azione: 0
-Durata:180 secondi
-Tempo di Lancio: 4
-Area d'effetto: Se stesso
-Tiro Salvezza: Nessuno
-
-Otiluke trae gran divertimento dal fatto che molti maghi usano il suo incantesimo della Sfera elastica quando infatti per lui era solo un test errato poiché in realtà voleva creare questa sua Sfera di dispersione di energia. Per agevolare tutti gli Arcimaghi avventurieri ha creato una potente Sfera di energia intorno al lanciatore che assorbe l'energia di tutti gli attacchi fatti contro il lanciatore rendendoli inoffensivi. Solo il più potente degli incantesimi o delle armi magiche potrebbero sperare di forare questa barriera che è molto utile per vagare nei piani o quando si cammina per qualche strada interna di Toril.~
 @79 = ~Charme di Massa~
 @80 = ~Charme di Massa (Incantamento/Charme)
 Livello: 7
@@ -434,16 +321,6 @@ Area d'effetto: Sfera di raggio 6 metri
 Tiro Salvezza: Nessuno
 
 L'incantesimo ha effetto su tutte le persone all'interno di un'area di 6 metri da dove viene lanciato. Tutte le creature umanoidi saranno charmate per 30 secondi. Le creature umanoidi comprendono: umani, driadi, nani, elfi, folletti, gnomi, goblin, mezzelfi, hobgoblin ecc. ma non include creature più grandi come ad esempio gli orchi. Tutte le creature eseguono un Tiro Salvezza contro incantesimi per annullarne gli effetti.~
-@81 = ~Tempesta di Fuoco~
-@82 = ~Tempesta di Fuoco (Invocazione)
-Livello: 7
-Raggio di Azione: 80
-Durata: Istantaneo
-Tempo di Lancio: 4
-Area d'effetto: Ampia
-Tiro Salvezza: Nessuno
-
-Per un Arcimago medio una Palla di fuoco non è sufficiente. Questo incantesimo dal tempo di Nethril riempie questo vuoto. Si richiede molta esperienza per lanciarlo in quanto risulta anche leggermente instabile. Gli effetti tuttavia sono veramente devastanti. All'inizio l'incantesimo potrebbe sembrare come una semplice palla di fuoco tuttavia le successive e multiple esplosioni, più o meno potenti, trasformano il campo di battaglia in una tempesta di fuoco.~
 @83 = ~Maledizione Errante di Vestcakes~
 @84 = ~Maledizione Errante di Vestcakes (Invocazione)
 Livello: 7
@@ -463,26 +340,6 @@ Area d'effetto: 9 metri di raggio
 Tiro Salvezza: 1/2
 
 La Combustione Infernale di Enigma è stata una creazione dello stesso potente ma folle Arcimago, meglio conosciuto come Arciastronomo, al tempo di Nethril. Questo mago aveva una passione per il fuoco e creò questo incantesimo per fornirsi di tutto ciò di cui aveva bisogno (é risaputo che questo mago è morto subito dopo aver portato a termine l'incantesimo probabilmente a seguito dei suoi effetti). Quasi tutti i moderni incantesimi di fuoco sono inclusi in questo incantesimo e come tale questa magia è in grado di incenerire molti e nobili avventurieri. Tuttavia, essendo un incantesimo imprevedibile, è considerato il primo esempio di magia che deve essere lanciata da lontano.~
-@87 = ~Follia~
-@88 = ~Follia (Incantamento/Charme)
-Livello: 8
-Raggio di Azione: 15 metri
-Durata: Permanente
-Tempo di Lancio: 5
-Area d'effetto: Bersaglio Singolo
-Tiro Salvezza: Nessuno
-
-Questo incantesimo fa in modo che il Mago entri nella mente del suo bersaglio distruggendola completamente lasciando poi la sua vittima completamente folle ma ancora pericolosa. L'effetto è permanente e la vittima camminerà stordita o confusa oppure correrà impazzita verso la battaglia contro chiunque gli sarà vicino. Il procedimento di questo incantesimo è molto complicato quindi ci sarà solo il 50 per cento di possibilità che l'incantesimo funzioni.~
-@89 = ~Nube acida dannosa~
-@90 = ~Nube acida dannosa (Invocazione)
-Livello: 8
-Raggio di Azione: 91 metri
-Durata: 30 secondi
-Tempo di Lancio: 4
-Area d'effetto: 12 metri di larghezza, 6 metri di altezza, 6 metri di profondità della nube
-Tiro Salvezza: Vari
-
-Questo potente incantesimo invoca una nuvola acida dai vapori mortali. L'acidità dei vapori si estende anche quando è terminata la durata dell'incantesimo così il danno fatto ogni 5 secondi aumenta fino ad un massimo di 7d6. Chiunque venga intrappolato nei vapori e poi ne esce rimane comunque ricoperto di acido e continua a subire gli effetti come se fosse ancora all'interno della nube tossica. Questo effetto tuttavia può essere disperso se si è sufficientemente rapidi. Dal danno da acido è normalmente piuttosto facile salvarsi mentre la nube provoca un danno maggiore. Se una persona rimane intrappolata nei vapori c'è un 25% di possibilità che sarà ridotta in una pozza di melma, ciò è dovuto alla natura corrosiva dei vapori acidi (senza Tiro Salvezza).~
 @91 = ~Dardo Tuonante (Invocazione)
 Livello: 8
 Raggio di Azione: 137 metri
@@ -502,36 +359,6 @@ Area d'effetto: Bersaglio Singolo
 Tiro Salvezza: Nessuno
 
 Il Re Varashar, un mago, secondo quanto si dice, ha usato questo incantesimo per allungarsi la vita tante volte durante i suoi 120 anni di regno.~
-@94 = ~Arco della Morte~
-@95 = ~Arco della Morte (Negromanzia)
-Livello: 9
-Raggio di Azione: 15 metri
-Durata: Istantanea
-Tempo di Lancio: 8
-Area d'effetto: 1 creatura
-Tiro Salvezza: Nessuno
-
-Lanciando questo incantesimo, il mago provoca un forte, ma variabile, danno ad un singolo bersaglio.~
-@96 = ~Runa della Totale Negatività di Azuth~
-@97 = ~Runa della Totale Negatività di Azuth (Invocazione)
-Livello: 9
-Bersaglio: Un Bersaglio
-Area d'effetto: Una Creatura
-Raggio di Azione: 30,5 metri
-Tempo di Lancio: 7
-
-E' probabile che, prima che fosse diventato il più grande mago di tutti i tempi, Azuth, il consorte della dea Mystra, creò questo incantesimo. Un devastante e potente incantesimo il quale può essere considerato più precisamente un incantesimo di distruzione divina per i suoi immensi poteri su tutti i piani. L'Arcimago (che deve avere un grande potere ed una notevole esperienza) distende la sua mano e richiama a sé molti poteri che comprendono l'intero universo. Enormi dardi di energia girano davanti ad esso e come il mago lancia l'incantesimo dei dardi di energia pura ondeggiano in alto andando poi a colpire e distruggere il bersaglio dell'incantesimo.
-
-Questo incantesimo supera la resistenza magica e non ha tiri salvezza.~
-@98 = ~Guarigione da veleno~
-@99 = ~Guarigione da veleno (Divinazione)
-Livello: 9
-Raggio di Azione: 9 metri
-Durata: Permanente
-Area d'effetto: 1 singolo bersaglio
-Tiro Salvezza: Nessuno
-
-Quando è lanciato, questo incantesimo guarisce dall'avvelenamento e restituirà tutti i Punti ferita al bersaglio. Non c'é Tiro Salvezza perciò la difesa magica e la protezione non fermeranno gli effetti dell'incantesimo.~
 
 ///////////
 //Oggetti
@@ -1065,7 +892,7 @@ Classe Armatura: +5 Bonus
 Resistenza alla Magia: +25%
 Tiro Salvezza: +5 bonus
 Incantesimi Bonus: +3(Lv 1-5)
-   +1(Lv 6-8)
++1(Lv 6-8)
 Costituzione: -30% Speciale: Chi lo indossa non ha mai bisogno di dormire
 
 Peso: 6
@@ -2055,9 +1882,9 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D8 + 1 THAC0: +5 bonus Speciale:
-   Bonus alla Destrezza +2
-   CA bonus +3
-   1 attacco extra per round
+Bonus alla Destrezza +2
+CA bonus +3
+1 attacco extra per round
 Tipo di danno: tagliente
 Peso: 4
 Fattore Velocità: 2
@@ -2520,27 +2347,6 @@ Non utilizzabile da:
  Monaco
  Addestratore di Animali~
 
-@1417 = ~Martello Pesante~
-@1418 = ~Si crede che quest'arma fu creata dal fabbro degli Antichi Myth Drannor. Si crede anche che fu incantata da sacerdoti estremamente potenti per combattere contro il male. Questo martello è sorprendentemente facile da maneggiare malgrado il suo enorme peso.
-
-STATISTICHE:
-
-Danno: 3d6 + 1
-THAC0: +4
-Tipo di danno: Schiacciamento
-Peso: 44
-Fattore Velocità: 2
-Tipo di Competenza: Armi Contundenti
-Tipo: ad una mano
-Richiede: 10 alla Forza
-
-Non utilizzabile da
- Mago
- Combattenti
- Ladro
- Bardo
- Personaggi con allineamento malvagio~
-
 @1420 = ~Lancia di Fuoco~
 @1422 = ~La punta di questa lancia arde magicamente e fa di questa lancia un'arma mortale in combattimento.
 
@@ -2913,7 +2719,7 @@ STATISTICHE:
 Danno: 1D6 + 3 THAC0: +3
 Speciale:
   +1 a tutti i tiri Salvezza
-   Subito dopo aver preso l'arma il personaggio è offuscato come per l'incantesimo di 2° livello del mago
+Subito dopo aver preso l'arma il personaggio è offuscato come per l'incantesimo di 2° livello del mago
 Tipo di danno: schiacciamento
 Peso: 3
 Fattore Velocità: 2
@@ -2946,7 +2752,6 @@ Passò sei anni addestrandosi con Fergus diventando così un esperto guerriero e l
 @2048 = ~CúChoinneach~
 
 @2077 = ~Sai molto poco delle vita di CúChoinneach e del suo lupo ombra. Non sai da dove viene e dove sta andando. Parla molto poco e non fa domande. Puoi notare che in lui alberga un lato oscuro. Ha perso tutta la voglia di vivere che ha la maggior parte degli elfi e sembra concentrato per ottenere una cosa sola. La distruzione di Lord Daerthmac!~
-//@2078 = ~Khal Abbil~
 @2079 = ~Deazle~
 @2080 = ~Maestro d'armi Drow~
 @2081 = ~Mago Drow~
@@ -3033,7 +2838,6 @@ che vedere queste Navi Volanti a Baldur's Gate.~
 @2294 = ~Elfo della Foresta d'Elite~
 @2295 = ~Madadh n'Sgàil~
 @2296 = ~Scheletro Lord~
-@2297 = ~Guardia Coboldo~
 
 //@2300 = ~Bosco dei Denti Aguzzi~
 //@2301 = ~Uscita~

@@ -74,7 +74,7 @@ IF ~Global("LichDead","GLOBAL",1)
 PartyHasItem("DSMISC09")
 ~ THEN BEGIN 13
   SAY @27
-  IF ~~ THEN DO ~AddexperienceParty(2000)
+  IF ~~ THEN DO ~AddexperienceParty(800)
 TakePartyItemAll("DSMISC08")
 TakePartyItem("DSMISC09")
 ActionOverride("DSPHANT1",ApplySpell(Myself,RED_HOLY_MIGHT))

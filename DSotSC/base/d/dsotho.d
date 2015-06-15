@@ -102,7 +102,7 @@ END
 IF ~PartyHasItem("DSHAMM01")
 ~ THEN BEGIN 15
   SAY @29
-  IF ~~ THEN DO ~AddexperienceParty(5000)
+  IF ~~ THEN DO ~AddexperienceParty(1700)
 ReputationInc(1)
 TakePartyItem("DSHAMM01")
 EscapeArea()
