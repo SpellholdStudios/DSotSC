@@ -112,7 +112,7 @@ FORBID_COMPONENT ~generalized_biffing.tp2~ ~0~ ~This mod should be installed BEF
 /////                                                  \\\\\
 
 ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-
+	//will be added later, not really important so lower in priority list
 END
 
 /////                                                  \\\\\
@@ -2473,7 +2473,7 @@ COPY ~DSotSC/base/are/%platform%/dsc010.are~ ~override~
 
 // Modify existing areas
 
-// %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020
+// %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020.ARE
 COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
 	WRITE_ASCIIE 0x94 ~%NorthNashkelRoad_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
 	READ_LONG  0x54  "actors_offset"
@@ -2737,7 +2737,7 @@ COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
 	END
 BUT_ONLY //********************************************************  ~%NorthNashkelRoad%.are~
 
-// %GibberlingMountains%.ARE gets new travel region and new entrance for DSC006
+// %GibberlingMountains%.ARE gets new travel region and new entrance for DSC006.ARE
 COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
 	WRITE_ASCIIE 0x94 ~%GibberlingMountains_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
 	READ_LONG  0x54  "actors_offset"
@@ -3016,7 +3016,7 @@ COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
 	END
 BUT_ONLY //********************************************************  ~%GibberlingMountains%.are~
 
-// %BanditCamp_GnollCave%.ARE gets new entrance from DSC037
+// %BanditCamp_GnollCave%.ARE gets new entrance from DSC037.ARE
 COPY_EXISTING ~%BanditCamp_GnollCave%.ARE~ ~override~
 	READ_LONG  0x54  "actors_offset"
 	READ_SHORT 0x58  "actors_num"
@@ -3121,7 +3121,7 @@ COPY_EXISTING ~%BanditCamp_GnollCave%.ARE~ ~override~
 	END
 BUT_ONLY //********************************************************  ~%BanditCamp_GnollCave%.are~
 
-// %Peldvale%.ARE gets new entrance from DSC001
+// %Peldvale%.ARE gets new entrance from DSC001.ARE
 COPY_EXISTING ~%Peldvale%.ARE~ ~override~
 	READ_LONG  0x54  "actors_offset"
 	READ_SHORT 0x58  "actors_num"
@@ -3494,156 +3494,142 @@ REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Swo
 ADD_SPELL ~DSotSC/base/spl/dsspwi11.spl~ 2 1 ~WIZARD_ORB_OF_AIR~
 	SAY NAME1 @52
 	SAY UNIDENTIFIED_DESC @53
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_ORB_OF_AIR~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds11.itm~ ~override~
 	SAY NAME2 @52
 	SAY DESC @53
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi21.spl~ 2 2 ~WIZARD_THUNDERSLAP~
 	SAY NAME1 @54
 	SAY UNIDENTIFIED_DESC @55
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_THUNDERSLAP~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds21.itm~ ~override~
 	SAY NAME2 @54
 	SAY DESC @55
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi22.spl~ 2 2 ~WIZARD_ICE_BOLT~
 	SAY NAME1 @56
 	SAY UNIDENTIFIED_DESC @57
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_ICE_BOLT~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds22.itm~ ~override~
 	SAY NAME2 @56
 	SAY DESC @57
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi23.spl~ 2 2 ~WIZARD_DARKNESS_15_FOOT~
 	SAY NAME1 @58
 	SAY UNIDENTIFIED_DESC @59
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_DARKNESS_15_FOOT~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds23.itm~ ~override~
 	SAY NAME2 @58
 	SAY DESC @59
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi31.spl~ 2 3 ~WIZARD_RAY_OF_FROST~
 	SAY NAME1 @60
 	SAY UNIDENTIFIED_DESC @61
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_RAY_OF_FROST~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds31.itm~ ~override~
 	SAY NAME2 @60
 	SAY DESC @61
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi32.spl~ 2 3 ~WIZARD_ARMY_OF_ONE~
 	SAY NAME1 @62
 	SAY UNIDENTIFIED_DESC @63
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_ARMY_OF_ONE~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds32.itm~ ~override~
 	SAY NAME2 @62
 	SAY DESC @63
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi41.spl~ 2 4 ~WIZARD_ETTINS_HEALING~
 	SAY NAME1 @65
 	SAY UNIDENTIFIED_DESC @66
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_ETTINS_HEALING~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds41.itm~ ~override~ //quest item?
 	SAY NAME2 @65
 	SAY DESC @66
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi51.spl~ 2 5 ~WIZARD_MELFS_EXPLOSIVE_METEORS~
 	SAY NAME1 @69
 	SAY UNIDENTIFIED_DESC @70
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_MELFS_EXPLOSIVE_METEORS~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds51.itm~ ~override~
 	SAY NAME2 @69
 	SAY DESC @70
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi62.spl~ 2 6 ~WIZARD_ANTIMAGIC_SHELL~
 	SAY NAME1 @73
 	SAY UNIDENTIFIED_DESC @74
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_ANTIMAGIC_SHELL~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds62.itm~ ~override~
 	SAY NAME2 @73
 	SAY DESC @74
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi72.spl~ 2 7 ~WIZARD_MASS_CHARM~ //should be level 8?
+ADD_SPELL ~DSotSC/base/spl/dsspwi72.spl~ 2 7 ~WIZARD_MASS_CHARM~
 	SAY NAME1 @79
 	SAY UNIDENTIFIED_DESC @80
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_MASS_CHARM~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds72.itm~ ~override~
 	SAY NAME2 @79
 	SAY DESC @80
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi74.spl~ 2 7 ~WIZARD_VESTCAKES_FLOATING_CURSE~
 	SAY NAME1 @83
 	SAY UNIDENTIFIED_DESC @84
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_VESTCAKES_FLOATING_CURSE~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds74.itm~ ~override~
 	SAY NAME2 @83
 	SAY DESC @84
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi81.spl~ 2 8 ~WIZARD_INFERNAL_COMBUSTION_ENIGMA~
 	SAY NAME1 @85
 	SAY UNIDENTIFIED_DESC @86
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_INFERNAL_COMBUSTION_ENIGMA~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds81.itm~ ~override~
 	SAY NAME2 @85
 	SAY DESC @86
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi84.spl~ 2 8 ~WIZARD_THUNDER_BOLT~
 	SAY NAME1 @49
 	SAY UNIDENTIFIED_DESC @91
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_THUNDER_BOLT~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds84.itm~ ~override~
 	SAY NAME2 @49
 	SAY DESC @91
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ADD_SPELL ~DSotSC/base/spl/dsspwi85.spl~ 2 8 ~WIZARD_VARASHARS_LIFE_DRAIN~
 	SAY NAME1 @92
 	SAY UNIDENTIFIED_DESC @93
-COPY_EXISTING - ~SPELL.IDS~ ~override~
-	REPLACE_EVALUATE CASE_INSENSITIVE ~[ 	]*[1-4]\([0-9]+\)[ 	]+WIZARD_VARASHARS_LIFE_DRAIN~ BEGIN SPRINT spell ~%MATCH1%~ END ~~
+	SPRINT spell ~%DEST_RES%~
 COPY ~DSotSC/base/itm/scrlds85.itm~ ~override~
 	SAY NAME2 @92
 	SAY DESC @93
-	WRITE_ASCIIE 0xf6 ~SPWI%spell%~ #8
-	WRITE_ASCIIE 0x126 ~SPWI%spell%~ #8
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
 
 ACTION_DEFINE_ASSOCIATIVE_ARRAY add_area_itemScrollsVanilla BEGIN
 	1 , "SCRLDS22" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L3%"
@@ -3780,6 +3766,7 @@ ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~
 	SAY UNIDENTIFIED_DESC @27
 
 ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~
+	WRITE_LONG 0x8 "34735"
 	SAY UNIDENTIFIED_DESC @28
 
 ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~
@@ -3794,7 +3781,7 @@ ADD_SPELL ~DSotSC/base/spl/sppr649.spl~ 1 6 ~CLERIC_CHOKING_VINES~
 	SAY NAME1 @37
 	SAY UNIDENTIFIED_DESC @38
 
-ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~ //should be level 5?
+ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~
 	SAY NAME1 @39
 	SAY UNIDENTIFIED_DESC @40
 
@@ -3828,15 +3815,15 @@ REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Swo
 
 //install creatures
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~kobold02.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/kobold02.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/kobold02.cre~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~kobold11.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/kobold11.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/kobold11.cre~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~XVART_d.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/XVART_d.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/XVART_d.cre~ ~override~
 		SAY 0xc8 #5133
 		SAY 0xcc #5134
 		SAY 0xdc #5491
@@ -3848,7 +3835,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~XVART_d.cre~ BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvart02.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/xvart02.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/xvart02.cre~ ~override~
 		SAY 0xc8 #5133
 		SAY 0xcc #5134
 		SAY 0xdc #5491
@@ -3860,7 +3847,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvart02.cre~ BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvart03.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/xvart03.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/xvart03.cre~ ~override~
 		SAY 0xc8 #5133
 		SAY 0xcc #5134
 		SAY 0xdc #5491
@@ -3872,7 +3859,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvart03.cre~ BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvartpre.cre~ BEGIN
-	COPY ~DSotSC/base/cre/MoreStooges/xvartpre.cre~ ~override~
+	COPY ~DSotSC/base/cre/morestooges/xvartpre.cre~ ~override~
 		SAY NAME1 @2164
 		SAY NAME2 @2164
 		SAY 0xc8 #5133
@@ -3889,17 +3876,17 @@ END
 COPY_EXISTING ~%FirewineBridge%.are~ ~override/%FirewineBridge%.are~
 	WRITE_ASCIIE 0x94 ~%FirewineBridge%~ #8
 BUT_ONLY
-EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/MoreStooges/ar3400.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar3400.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/MoreStooges/ar3497.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar3497.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/MoreStooges/ar3498.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar3498.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%NashkelMines_L3%.are~ ~override/%NashkelMines_L3%.are~
 	WRITE_ASCIIE 0x94 ~%NashkelMines_L3%~ #8
 BUT_ONLY
-EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/MoreStooges/ar4403.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar4403.baf~ EVALUATE_BUFFER
 
-EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/MoreStooges/ar4405.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar4405.baf~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/MoreStooges/ar6600.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar6600.baf~ EVALUATE_BUFFER

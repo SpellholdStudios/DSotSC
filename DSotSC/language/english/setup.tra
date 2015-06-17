@@ -5,7 +5,9 @@
 @1 = ~The Shadow Wolf~
 @2 = ~Disciple of Light~
 @3 = ~Cause Light Wounds~
-@4 = ~Cause Light Wounds (Necromancy)
+@4 = ~Cause Light Wounds
+(Necromancy)
+
 Level: 1
 Sphere: Healing
 Range: Touch
@@ -16,7 +18,9 @@ Saving Throw: Neg
 
 This is the reverse of the Cure Light Wounds spell. The creature touched loses 1-8 hit points unless a save vs. spells is made. Caused wounds may be healed or cured normally.~
 @5 = ~Fire Bolt~
-@6 = ~Fire Bolt (Evocation)
+@6 = ~Fire Bolt
+(Evocation)
+
 Level: 1
 Sphere: Elemental Fire
 Range: Line of Sight
@@ -25,9 +29,11 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: Special
 
-The caster summons fire and forms it into a small projectile which travels to the target causing 1D6 fire damage. The target creature must make a Save vs. spell or suffer a further 1D6 fire damge.~
+The caster summons fire and forms it into a small projectile which travels to the target causing 1D3 fire damage. The target creature must make a Save vs. spell at -2 or suffer a further 1D3 fire damge.~
 @7 = ~Armor Melt~
-@8 = ~Armor Melt (Alteration)
+@8 = ~Armor Melt
+(Alteration)
+
 Level: 1
 Sphere: Combat
 Range: Line of Sight
@@ -36,9 +42,11 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: 1/2
 
-Upon casting this spell the priest can cause a change in certain physical material. Armor and metal objects will start to melt. Any creature affected by the spell receives an 4 point loss in armor class. Save vs spells for 1/2.~
+Upon casting this spell the priest can cause a change in certain physical material. Armor and metal objects will start to melt. Any creature affected by the spell receives an 8 point loss in armor class. Save vs spells for 1/2.~
 @9 = ~Cure Moderate Wounds~
-@10 = ~Cure Moderate Wounds (Necromancy)
+@10 = ~Cure Moderate Wounds
+(Necromancy)
+
 Level: 2
 Sphere: Healing
 Range: Touch
@@ -49,7 +57,9 @@ Saving Throw: None
 
 When casting this spell and laying his hands upon a creature, the priest heals 12 hit points of damage to the creature's body. This spell has no effect on undead or extraplanar creatures.~
 @12 = ~Sparks~
-@13 = ~Sparks (Evocation)
+@13 = ~Sparks
+(Evocation)
+
 Level: 2
 Sphere: Combat, Weather
 Range: Line of Sight
@@ -60,7 +70,9 @@ Saving Throw: 1/2
 
 The druid summons up the electricity from the air around him and hurdles it at the target causing 4D6 electrical damage, save vs. spell to half.~
 @14 = ~Ward of Protection~
-@15 = ~Ward of Protection (Evocation)
+@15 = ~Ward of Protection
+(Evocation)
+
 Level: 2
 Sphere: Protection
 Range: Self
@@ -71,7 +83,9 @@ Saving Throw: None
 
 When this spell is cast, an invisible barrier comes into being in front of the caster. It sets the caster's base armor class to 3.~
 @17 = ~Pain~
-@18 = ~Pain (Enchantment/Charm)
+@18 = ~Pain
+(Enchantment/Charm)
+
 Level: 3
 Sphere: Charm
 Range: Visual range of caster
@@ -82,7 +96,9 @@ Saving Throw: Neg
 
 This spell causes excruciating pain in all hostile creatures within the area of effect. The spell does no damage, but those who fail a saving throw vs. spells at -2 will suffer a -2 to dexterity and a -2 to all attack rolls for one turn. Creatures that do not normally feel pain (such as undead) are unaffected by this spell.~
 @19 = ~Armor of Darkness~
-@20 = ~Armor of Darkness (Conjuration)
+@20 = ~Armor of Darkness
+(Conjuration)
+
 Level: 3
 Sphere: Protection, Sun
 Range: Touch
@@ -93,7 +109,9 @@ Saving Throw: None
 
 The goddess of the night Shar grants clerics the power to call forth a shroud of mystical darkness that envelops the target of the spell. While encased in this the subject's Armor Class improves by 2 and saving throws vs. spells are made at a +2 bonus. The target also gains infravison and is unaffected by blindness. Due to the evil nature of this spell the caster takes 3 hit points of damage when the spell is cast.~
 @22 = ~Poison Spray~
-@23 = ~Poison Spray (Necromancy)
+@23 = ~Poison Spray
+(Necromancy)
+
 Level: 4
 Sphere: Plant
 Range: 15 ft
@@ -104,7 +122,9 @@ Saving Throw: 1/2
 
 The Druid summons the poisons from the area around them and sprays them at the target creature bathing it in the spray doing 4 points of damage per round up to a total of 32, damage can be halved with a successful save vs. death.~
 @24 = ~Mielikki's Blade~
-@25 = ~Mielikki's Blade (Evocation)
+@25 = ~Mielikki's Blade
+(Evocation)
+
 Level: 4
 Sphere: Combat, Nature
 Range: Self
@@ -115,7 +135,9 @@ Saving Throw: None
 
 This spell conjures a magical weapon symbolic of the goddess Mielikki - a great scimitar that blazes with a cold blue fire. The blade is wielded as a +4 magical weapon dealing 1-8 points of damage, and any creature struck must make a saving throw or suffer an additional 1-6 cold damage from the flames. Mielikki's blade also grants the druid a resistance to fire for as long as it exists.~
 @26 = ~Blades~
-@27 = ~Blades (Alteration)
+@27 = ~Blades
+(Alteration)
+
 Level: 5
 Sphere: Combat
 Range: Line of Sight
@@ -125,18 +147,22 @@ Area of Effect: 1 creature
 Saving Throw: 1/2
 
 The Druid conjurers up a swarming circle of small sharp blades that are launched at the target creature slicing them for 4D8 damage, damage is reduced by half with a successful save.~
-@28 = ~Selune's Blessing (Abjuration)
+@28 = ~Selune's Blessing
+(Abjuration)
+
 Level: 5
 Sphere: Protection
 Range: 0
-Duration: 1 turn
-Casting Time: 5
+Duration: 2 turns
+Casting Time: 7
 Area of Effect: 5' radius sphere
 Saving Throw: None
 
-This spell invokes the power of the goddess Selune to protect the priest from physical or magical harm. The caster is surrounded by a shimmering field that improves his or her armor class by a full 4 factors, and also prevents the effects of any 1st through 3rd level spells. As with the mage spell Globe of Invulnerability, spells may still be cast out of the area of effect with no penalty. The spell is vulnerable to Dispel Magic, Pierce Magic and similar spells.~
+This spell invokes the power of the goddess Selune to protect the priest from physical or magical harm. The caster is surrounded by a shimmering field that improves his or her armor class by a full 4 factors, and also prevents the effects of any 1st through 4th level spells. As with the mage spell Globe of Invulnerability, spells may still be cast out of the area of effect with no penalty.~
 @29 = ~Call Undead~
-@30 = ~Call Undead (Necromancy)
+@30 = ~Call Undead
+(Necromancy)
+
 Level: 5
 Sphere: Necromantic, Summoning
 Range: 10 yards
@@ -147,7 +173,9 @@ Saving Throw: None
 
 Upon the casting of this spell 3 to 6 ghouls and 0 to 2 ghasts will claw their way out of the earth to serve the caster. The creatures can understand simple commands and will remain for 5 turns unless destroyed or turned.~
 @31 = ~Transport via Plants~
-@32 = ~Transport via Plants (Alteration)
+@32 = ~Transport via Plants
+(Alteration)
+
 Level: 5
 Sphere: Plant
 Range: Visual range of caster
@@ -158,7 +186,9 @@ Saving Throw: None
 
 By means of this spell the caster can effectively teleport by stepping into any living plant, and emerging instantly from any other within visual range.~
 @37 = ~Choking Vines~
-@38 = ~Choking Vines (Alteration)
+@38 = ~Choking Vines
+(Alteration)
+
 Level: 6
 Sphere: Plant
 Range: Line of Sight
@@ -169,7 +199,9 @@ Saving Throw: Special
 
 The Druid summons up the powers of the earth to form a vine which grabs all creatures in the target area crushing them for 3 rounds. Any creature caught by the vine will be slowed and takes 4D5 damage when the vine attacks and must make a saving throw at -2 or suffer the same damage one round later.~
 @39 = ~Life Steal~
-@40 = ~Life Steal (Necromancy)
+@40 = ~Life Steal
+(Necromancy)
+
 Level: 6
 Sphere: Necromantic, Healing
 Range: Line of Sight
@@ -180,29 +212,35 @@ Saving Throw: Neg
 
 The caster prays for divine aid and attempts to steal the very life force from the target creature. The target creature suffers 6D5 points of damage, half with successful save. The caster then absorbs the life force healing up to 27 points.~
 @43 = ~Aura of Protection~
-@44 = ~Aura of Protection (Conjuration/Summoning)
+@44 = ~Aura of Protection
+(Conjuration/Summoning)
+
 Level: 7
 Sphere: Protection
 Range: Party
-Duration: 1 turn
-Casting Time: 1
+Duration: 10 turns
+Casting Time: 7
 Area of Effect: 30' radius
 Saving Throw: None
 
-The caster calls favor from his God upon his party. While Aura of Protection is in effect all party members are granted a base armor class of 0 for 1 turn.~
+The caster calls favor from his God upon his party. While Aura of Protection is in effect all party members are granted a base armor class of 1.~
 @45 = ~Dark Ritual~
-@46 = ~Dark Ritual (Alteration)
+@46 = ~Dark Ritual
+(Alteration)
+
 Level: 7
 Sphere: Protection
 Range: Touch
 Duration: 15 rounds
 Casting Time: 7
 Area of Effect: 1 creature
-Saving Thow: None
+Saving Throw: None
 
 This spell provides the protection of the dark deities. This evil spell provides 12 full hit points and armor class lowered by 4. Due to the evil nature of this spell strength is reduced by 1 for the duration.~
 @47 = ~Summon Sirine~
-@48 = ~Summon Sirine (Conjuration/Summoning)
+@48 = ~Summon Sirine
+(Conjuration/Summoning)
+
 Level: 7
 Sphere: Summoning
 Range: Visual range of caster
@@ -211,9 +249,11 @@ Casting Time: 9
 Area of Effect: Special
 Saving Throw: None
 
-Once cast, four Sirine's will rise from the Ethereal Plane to serve the Druid with their most aggressive demeanor.~
+Once cast, four Sirine's will rise from the Ethereal Plane to serve the Druid with their most aggressive demeanor. They will stop at nothing to destroy all the opponents currently on the screen.~
 @49 = ~Thunder Bolt~
-@50 = ~Thunder Bolt (Evocation)
+@50 = ~Thunder Bolt
+(Evocation)
+
 Level: 7
 Sphere: Combat
 Range: 150 feet
@@ -222,50 +262,60 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: 1/2
 
-This spell is similar to the Wizard level 3 spell Lighting Bolt but any creature hit by the bolt suffers 12d4 electrical damage with a saving throw for half.~
+This spell is similar to the Wizard level 3 spell Lighting Bolt but any creature hit by the bolt suffers 12D4 electrical damage with a saving throw for half.~
 @52 = ~Orb of Air~
-@53 = ~Orb of Air (Alteration)
+@53 = ~Orb of Air
+(Alteration)
+
 Level: 1
-Range: 40 Feet
-Duration: 2 Rounds
+Range: 40 ft.
+Duration: 2 rounds
 Casting Time: 2
 Area of Effect: Special
-Saving throw: Save vs. Spell
+Saving throw: Negates
 
 This spell allows the mage to turn a target into a puff of smoke for a limited amount of time.~
 
 @54 = ~Thunderslap~
-@55 = ~Thunderslap (Conjuration/Summoning)
-Level: 2
-Range: 0
-Duration: 3 Rounds
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: special
+@55 = ~Thunderslap
+(Conjuration/Summoning)
 
-When the caster completes this spell, a green glow encompasses his hand. When the wizard makes a successful melee attack against a creature, that creature is Stunned for 3 rounds (save vs spells at -2) and takes 1D10 of electricity damage (no save).~
-@56 = ~Icebolt~
-@57 = ~Icebolt (Evocation)
 Level: 2
-Range: 10 yards
+Range: Touch
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell is similar to Shocking Grasp, but is more powerful. When the wizard makes a successful melee attack against a creature, that creature is stunned for 1 round and takes 2d6 damage.~
+@56 = ~Icebolt~
+@57 = ~Icebolt
+(Evocation)
+
+Level: 2
+Range: 15 ft.
 Duration: Instantaneous
 Casting Time: 2
 Area of Effect: One creature
 Saving Throw: None
 
-Upon uttering this dweomer a freezing ball of ice bursts from the caster's hands and streaks unerringly toward one target. The Icebolt deals 2d10 damage with no saving throw allowed, however magic or cold resistance can negate its effects.~
+When this dweomer is cast, a freezing ball of ice bursts from the caster's hands and streaks unerringly toward one target. The icebolt deals 2d10 damage with no saving throw allowed. However, magic or cold resistance can negate its effects.~
 @58 = ~Globe of Darkness~
-@59 = ~Globe of Darkness (Alteration)
+@59 = ~Globe of Darkness
+(Alteration)
+
 Level: 2
-Range: 10 yds
-Duration: 1 turn
-Area of Effect: 15-ft. radius
-Casting Time: 2 secs
+Range: 5 ft./level
+Duration: 1 turn + 3 rounds/level
+Area of Effect: 15 ft. radius
+Casting Time: 2
 Saving Throw: None
 
-This spell causes total, impenetrable darkness in the area of effect. Infravision is useless. Neither normal nor magical light works unless a "light" or "continual light" spell is used. In the former event, the Globe of Darkness spell is negated by the "light" spell, and vice versa.~
+This spell causes total, impenetrable darkness in the area of effect. Infravision is useless, and neither normal nor magical light works with the exception of the Light or Continual Light spells. If the former, the Globe of Darkness is negated by the light spell, and vice versa.~
 @60 = ~Ray of Frost~
-@61 = ~Ray of Frost (Evocation)
+@61 = ~Ray of Frost
+(Evocation)
+
 Level: 3
 Range: 20 yards
 Duration: Instantaneous
@@ -273,30 +323,36 @@ Casting Time: 3
 Area of Effect: 1 creature
 Saving Throw: Special
 
-Upon casting this spell a 2 foot by 60 foot jet of incredibly cold frost bursts from the caster's hands. The Ray inflicts 5d6 points of damage and is so cold that the target creature must save vs. spell or be unable to move or fight at full capacity until it shakes off the chill. Cold or magic resistance may negate these effects.~
+Upon casting this spell a, 2 foot by 60 foot jet of incredibly cold frost bursts from the caster's hands. The ray inflicts 5d6 points of damage and is so cold that the target creature must Save vs. Spell, or be unable to move or fight at full capacity until it shakes off the chill. Cold or magic resistance may negate these effects.~
 @62 = ~Army of One~
-@63 = ~Army of One (Illusion/Phantasm)
-Level: 3
-Range: 0
-Duration: 1 Turn
-Casting Time: 5
-Area of Effect: Self
-Saving Throw: Neg.
+@63 = ~Army of One
+(Illusion/Phantasm)
 
-This spell causes the caster to seem to become an army unto himself: eight images of the caster are created, and the attributes Strength, Dexterity and Constitution are increased by 2.~
+Level: 3
+Range: Touch
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: One person
+Saving Throw: Neg
+
+With this spell the caster can cause a person to become an army unto himself. Strength, constitution and dexterity are increased by 2, allowing the target to take on heroic proportions.~
 @65 = ~Ettin's Healing~
-@66 = ~Ettin's Healing (Necromancy)
+@66 = ~Ettin's Healing
+(Necromancy)
+
 Level: 4
 Range: Caster
-Duration: 10 rounds
-Casting Time: 7
+Duration: 16 turns
+Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-Ettin, a monk who lived during the Time of the Ancients, was also an adept herbalist who found many ways to heal the body. The caster gains regeneration (6 HP/round).~
+Ettin, a monk who lived near the city of Hillsfar, was also an adept herbalist who found many ways to heal the body, including this spell. When cast, the target can regenerate up to 16 hit points, 1 per turn.~
 
 @69 = ~Melf's Explosive Meteors~
-@70 = ~Melf's Explosive Meteors (Evocation)
+@70 = ~Melf's Explosive Meteors
+(Evocation)
+
 Level: 5
 Range: Caster only
 Duration: 1 minute
@@ -307,18 +363,22 @@ Saving Throw: Special
 This evocation is the same as the third level mage spell Melf's Minute Meteors, except that the missiles created explode violently on impact. All creatures within 20' of the point of impact will be showered with flaming shrapnel inflicting 2-12 points of damage. A successful saving throw will allow the affected creature to avoid the worst effects, reducing the damage taken by half.~
 
 @73 = ~Anti-Magic Shell~
-@74 = ~Anti-Magic Shell (Abjuration)
+@74 = ~Anti-Magic Shell
+(Abjuration)
+
 Level: 6
 Range: Caster only
-Duration: 5 rounds
+Duration: 2 turns
 Casting Time: 2
 Area of Effect: Caster only
 Saving Throw: None
 
-By means of this spell, the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spellcasting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
+By means of this spell the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spell casting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. Dispel Magic does not remove the spell.~
 
 @79 = ~Mass Charm~
-@80 = ~Mass Charm (Enchantment/Charm)
+@80 = ~Mass Charm
+(Enchantment/Charm)
+
 Level: 7
 Range: Visual range of caster
 Duration: 5 rounds
@@ -326,46 +386,53 @@ Casting Time: 2
 Area of Effect: 20' radius sphere
 Saving Throw: None
 
-This spell affects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humans, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs. spells to negate the effects.~
+This spell effects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humand, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs spells to negate the effects.~
 @83 = ~Vestcakes Floating Curse~
-@84 = ~Vestcakes Floating Curse (Invocation)
+@84 = ~Vestcakes Floating Curse
+(Invocation)
+
 Level: 7
-Target: Area
-Duration: 30 Seconds
+Range: 30
+Duration: 1 round/level
 Casting Time: 5
-Range: 150 feet
+Area of Effect: 30' circle
 
 This powerful curse creates a cloud of boiling gas that spreads around the battle ground. The cloud crackles with energy and small lightning bolts leap around in it. The cloud is so highly charged with electricity that any creature caught in the cloud will suffer continual detrimental effects as the energy discharges on to them over the clouds duration.~
 @85 = ~Infernal Combustion Enigma~
-@86 = ~Infernal Combustion Enigma (Invocation)
-Level: 8
-Range: 50 feet
-Duration: Instantaneous
-Casting Time: 3
-Area of Effect: 30-feet radius
-Saving Throw: 1/2
+@86 = ~Infernal Combustion Enigma
+(Evocation)
 
-The Infernal Combustion Enigma was the creation of the powerful yet insane ArchMage, better known as the Arch-Astronomer, in the time of Nethril. This mage had an addiction to fire and made this spell to accommodate to all of his needs (It is noted that this mage died shortly after completing the spell probably from its effects). Nearly all of modern fire spells are included in this cocktail of spells and as such this spell is capable incinerating many a noble adventurer. However, it is a unpredictable spell so it is considered a prime example of spells to be launched from afar.~
-@91 = ~Thunder Bolt (Evocation)
 Level: 8
-Range: 60 yards
+Range: 25 yards
+Duration: Instantaneous
+Casting Time: 5
+Area of Effect: 30ft radius
+Saving Throw: Special
+
+The Infernal Combustion Enigma was the creation of a powerful yet insane Archmage, better known in the time of Netheril as the Arch-Astronomer. This mage had an addiction to fire and made this spell to accommodate all of his needs (It is noted that this mage died shortly after completing the spell probably from its effects). Nearly all of the modern fire spells are included in this cocktail of spells and as such this spell is capable of incinerating many a noble adventurer. However, it is an unpredictable spell so it is considered a prime example of spells to be lauched from afar. Anyone caught within the area of the blast suffers 6D6 fire damage and a further 2D6 if a saving throw fails.~
+@91 = ~Thunder Bolt
+(Invocation)
+
+Level: 8
+Range: 150 yards
 Duration: Instantaneous
 Casting Time: 5
 Area of Effect: Special
-Saving Throw: none
+Saving Throw: 1/2
 
-In some circles of Archmages it is considered rather pathetic to cast a lightning bolt like a weak little mage. So the thunder bolt was developed. While looking to all intensive purposes like a lightning bolt it is however charged a great deal more and capable of doing vast amounts of damage to anything it strikes, including its caster! The bolt will rebound back and forth until all its power is lost and there are few beings which can withstand a hit from this spell.~
+In some circles of Archmages it is considered rather pathetic to cast a lightning bolt like a weak little mage. So the thunder bolt was developed. While looking to all intensive purposes like a lightning bolt it is however charged a great deal more and capable of doing vast amounts of damage to anything it strikes, including its caster! The bolt will rebound back and forth until all its power is lost and there are few beings which can withstand a hit from this spell. Any creature hit by the bolt suffers 12D4 electrical damage with a saving throw for half.~
 @92 = ~Varashar's Life Drain~
-@93 = ~Varashar's Life Drain (Necromancy)
+@93 = ~Varashar's Life Drain
+(Necromancy)
+
 Level: 8
 Range: 30 feet
-Duration: Instant
+Duration: Special
 Casting Time: 1
 Area of Effect: Single Target
 Saving Throw: None
 
-The Mage King Varashar, according to rumor, used this spell to extend his life many times during his 120 year reign.
-The target suffers 25 HP damage, while the caster is healed for the same amount. There's no saving throw.~
+The Mage King Varashar, according to rumor, used this spell to extend his life many times during his 120 year reign. Similar to the spell Larloch's Minor Drain the wizard drains the life force from a target and adds it to his own. The target creature suffers 5-20 damage, while the mage gains an increase of 25% in hit points. If the mage goes over his maximum hit point total with this spell, he loses it after 4 turns.~
 
 ///////////
 //Items
