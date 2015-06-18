@@ -930,20 +930,6 @@ Mo¿e u¿ywaæ:
  Mag (jedno,dwu,wielo - klasowiec)
  Postacie o dobrym charakterze~
 
-@1089 = ~Szata Czarów~
-@1090 = ~Wielu mieszkañców Faerunu uwa¿a ¿e nie wolno naruszaæ równowagi istniej¹cej w przyrodzie. Ta szata stanowi w³aœciwy wyraz tych przekonañ, a nosz¹ca j¹ postaæ mo¿e liczyæ na w³aœciw¹ ochronnne przed obra¿eniami fizycznymi, poprawê rzutów obronnych i odpornoœæ na magiê.
-
-STATYSTKI:
-
-Klasa pancerza:+2
-Odpornoœæ na magiê: +25%
-Rzuty Obronne:+3
-Waga: 6
-
-Mo¿e u¿ywaæ:
- Mag (jedno,dwu, wielo - klasowiec)
- Postacie o neutalnym charakterze~
-
 @1092 = ~Œwiêty Pas Szybkoœci~
 @1094 = ~Ten zdobiony pas ma znaki Œwiêtego Stra¿nika Sukien. Przez d³ugi czas pozostawa³a tajemnic¹ jego niezwyk³a szybkoœæ i odpornoœæ na ciosy. Z pewnoœci¹ Stra¿nik mia³ powody, by utrzymywaæ to w tajemnicy.
 
@@ -1127,14 +1113,6 @@ Mo¿e Uzywaæ:
  Bard~
 
 @1129 = ~Kap³añski pierœcieñ Ghaunadaura~
-@1130 = ~Specjalny pierœcieñ dla kap³ana. Daje odpornoœæ na truciznê.
-
-Mo¿e Uzywaæ:
- Kleryk
- Druid
- Palladyn
- £owca~
-
 @1131 = ~Ulepszona wersja Pierœcienia Ghaunadaura. Ten daje odpornoœæ na truciznê i kwas.
 
 Mo¿e Uzywaæ:
@@ -1374,8 +1352,8 @@ Postaæ o neutralnym charakterze~
 
 Jet'Laya zasugerowa³a, by przekazaæ go jej wujowi Lennanowi, który przebywa w Weso³ym ¯onglerze w Beregoœcie~
 
-@1254 = ~Œwiêty amulet Kiê¿ycowego £uku Sehanin~
-@1255 = ~To jest œwiêty amulet wyznawców Ksiê¿ycowego £uku Sehanin. Ksiê¿ycowy kamieñ w kszta³cie p³askiego dysku, na mitrylowym ³añcuszku.
+@1254 = ~Œwiêty amulet Kiê¿ycowego £uku Sehanine~
+@1255 = ~To jest œwiêty amulet wyznawców Ksiê¿ycowego £uku Sehanine. Ksiê¿ycowy kamieñ w kszta³cie p³askiego dysku, na mitrylowym ³añcuszku.
 
 STATYSTKI:
 
@@ -1436,16 +1414,6 @@ Mo¿e Uzywaæ:
  Mag
  Bard~
 
-@1266 = ~Amulet niewykrywalnoœci~
-@1267 = ~Ten amulet stanowi nieustannie cel po¿¹dania wszelkich z³odziei, rabusiów i zabójców z racji kwalifikacji, które s¹ wymagane w ich profesji.
-
-STATYSTKI:
-
-Zapewnia Niewykrywalnoœæ.
-
-Nie mo¿e u¿ywaæ:
-  Zabójca Magów~
-
 @1268 = ~Amulet Wielkiego Widzenia~
 @1269 = ~Amulet Wielkiego Widzenia poprawia zdolnoœci wzroku w³asciciela i jest poszukiwanym elementem uzbrojenia dowódców wojsk z uwagi na mo¿liwoœæ obserwacji odleg³ych zdarzeñ i planowania odpowiedniej strategii. Nie jest znane jego pochodzenie.
 
@@ -1473,20 +1441,7 @@ Specjalny:
 Waga: 0
 Wyrzutnia: £uk~
 
-@1275 = ~Strza³y "Zabójcze Patyki"~
-@1277 = ~Te strza³y nie wygl¹daj¹ na wyrób nadzwyczajnej jakoœci - raczej bardzo prymitywne. Jednak s¹ nas¹czone zabójcza toksyn¹, równie niebezpieczn¹ dla wrógów jak i ich w³aœciciela.
-
-STATYSTKI:
-
-15% Szans na to ¿e posiadacz otrzyma od 4 obra¿enia od trucizny
-
-Obra¿enia: 1K6, +6 od trucizny (rzut obronny na po³owe)
-Typ obra¿eñ: pocisk (k³óte)
-Waga: 0
-Wyrzutnia: £uk~
-
 @1278 = ~Strza³a Uderzenia~
-
 @1279 = ~Te wspania³e strza³y maj¹ lekko niebiesk¹ barwê i z³ocony grot. S¹ l¿ejsze i nieco smuklejsze od swych typowych wersji, ale promieniuje z nich magia, która podobno pochodzi od Œwiêtyc Stra¿ników Sukien, którzy podobno posiadaj¹ ³uk mog¹cy je tworzyæ.
 
 STATYSTKI:
@@ -1953,27 +1908,6 @@ Wymaga: 12 Si³y
 Mo¿e Uzywaæ:
  Palladyn~
 
-@1359 = ~Miecz Przeklêtego Z³a~
-@1360 = ~To mityczne ostrze z elfiej prowincji Hyilia ma z³e korzenie. Ostatecznie jednak s³u¿y³ potem szczytnym celom.
-
-STATYSTKI:
-
-Obra¿enia: 1K10 + 1
-Trak0: +1
-Typ obra¿eñ: Sieczne
-Waga: 7
-OpóŸnienie: 10
-Rodzaj Bieg³oœci: D³ugi Miecz
-Typ: Jednorêczny
-Wymaga: 11 Si³y
-
-Nie mo¿e u¿ywaæ:
- Druid
- Kleryk
- Mag
- Z³odziej
- W³adca Bestii~
-
 @1361 = ~Two Handed Sword +2~
 @1362 = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to swing the sword properly. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
 
@@ -1993,7 +1927,7 @@ Not Usable By:
  Thief~
 
 @1363 = ~Mairial '£owca Œmierci'~
-@1364 = ~To jest osobisty sejmitar CúChoinneacha. Wykonany z czystego mitrylu i wystawiony na o¿ywcze œwiat³o ksiê¿yca w pe³ni, pod nadzorem Sehanin Moonbow, elfickiej bogini. Sama bogini odwiedzi³a go we œnie, wkrótce po œmierci jego wybranki Fia'nny, zabitej przez hordê nieumar³ych. Sehanin powiedzia³a CúChoinneachowi, by sta³ siê ³owc¹, a bogini wybierze go jako sw¹ d³oñ karz¹c¹ wszystkie nieumar³e i pod³e kreatury Faerunu. Ostrze zaœ stanie siê symbolem ich przymierza. Ale nawet CúChoinneach nie zna prawdziwej mocy tej broni.
+@1364 = ~To jest osobisty sejmitar CúChoinneacha. Wykonany z czystego mitrylu i wystawiony na o¿ywcze œwiat³o ksiê¿yca w pe³ni, pod nadzorem Sehanine Moonbow, elfickiej bogini. Sama bogini odwiedzi³a go we œnie, wkrótce po œmierci jego wybranki Fia'nny, zabitej przez hordê nieumar³ych. Sehanine powiedzia³a CúChoinneachowi, by sta³ siê ³owc¹, a bogini wybierze go jako sw¹ d³oñ karz¹c¹ wszystkie nieumar³e i pod³e kreatury Faerunu. Ostrze zaœ stanie siê symbolem ich przymierza. Ale nawet CúChoinneach nie zna prawdziwej mocy tej broni.
 
 
 STATYSTKI:
@@ -2581,25 +2515,6 @@ Wymaga: 3 Si³y
 Mo¿e Uzywaæ:
  Nie-Kleryk
  Postacie o z³ym charakterze~
-
-@1443 = ~Sztylet "Nome Stikkah"~
-@1444 = ~Rzadko spotyka siê koboldy walcz¹ce zatrutymi sztyletami, wiêc tym bardziej wydaje siê pewne, ¿e ktoœ nakaza³ im u¿ywanie ich. Ich prymitywna jakoœæ w niczym nie umniejsza ich œmiercionoœnej si³y, która mo¿e byc równie¿ niebezpieczna dla w³aœciciela.
-
-STATYSTKI:
-
-Obra¿enia: 1D4 +6 od trucizny(rzut obronny na po³owe)
-Specjalny:
-  15% szansa zaciecia sie (4 obrazenia od trucizny bez rzutu obronnego)
-Typ obra¿eñ: k³óte
-Waga: 2
-OpóŸnienie: 0
-Rodzaj Bieg³oœci: Sztylet
-Typ: Jednorêczny
-Wymaga: 3 Si³y
-
-Nie mo¿e u¿ywaæ:
- Kleryk
- W³adca Bestii~
 
 @1446 = ~Lekka Kusza Szybkoœci Keirii Silverstring~
 @1448 = ~Jest to zwyczajna lekka Kusza szybkoœci, której jedynym wyró¿nieniem jest kolor. Keiria uzna³a, ¿e nawet w walce nale¿y prezentowaæ siê modnie.

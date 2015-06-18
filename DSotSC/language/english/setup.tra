@@ -29,7 +29,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: Special
 
-The caster summons fire and forms it into a small projectile which travels to the target causing 1D3 fire damage. The target creature must make a Save vs. spell at -2 or suffer a further 1D3 fire damge.~
+The caster summons fire and forms it into a small projectile which travels to the target causing 1D6 fire damage. The target creature must make a Save vs. spell or suffer a further 1D6 fire damage.~
 @7 = ~Armor Melt~
 @8 = ~Armor Melt
 (Alteration)
@@ -42,7 +42,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: 1/2
 
-Upon casting this spell the priest can cause a change in certain physical material. Armor and metal objects will start to melt. Any creature affected by the spell receives an 8 point loss in armor class. Save vs spells for 1/2.~
+Upon casting this spell the priest can cause a change in certain physical material. Armor and metal objects will start to melt. Any creature affected by the spell receives an 4 point loss in armor class. Save vs spells for 1/2.~
 @9 = ~Cure Moderate Wounds~
 @10 = ~Cure Moderate Wounds
 (Necromancy)
@@ -153,12 +153,12 @@ The Druid conjurers up a swarming circle of small sharp blades that are launched
 Level: 5
 Sphere: Protection
 Range: 0
-Duration: 2 turns
-Casting Time: 7
+Duration: 1 turn
+Casting Time: 5
 Area of Effect: 5' radius sphere
 Saving Throw: None
 
-This spell invokes the power of the goddess Selune to protect the priest from physical or magical harm. The caster is surrounded by a shimmering field that improves his or her armor class by a full 4 factors, and also prevents the effects of any 1st through 4th level spells. As with the mage spell Globe of Invulnerability, spells may still be cast out of the area of effect with no penalty.~
+This spell invokes the power of the goddess Selune to protect the priest from physical or magical harm. The caster is surrounded by a shimmering field that improves his or her armor class by a full 4 factors, and also prevents the effects of any 1st through 3rd level spells. As with the mage spell Globe of Invulnerability, spells may still be cast out of the area of effect with no penalty. The spell is vulnerable to Dispel Magic, Pierce Magic and similar spells.~
 @29 = ~Call Undead~
 @30 = ~Call Undead
 (Necromancy)
@@ -218,12 +218,12 @@ The caster prays for divine aid and attempts to steal the very life force from t
 Level: 7
 Sphere: Protection
 Range: Party
-Duration: 10 turns
-Casting Time: 7
+Duration: 1 turn
+Casting Time: 1
 Area of Effect: 30' radius
 Saving Throw: None
 
-The caster calls favor from his God upon his party. While Aura of Protection is in effect all party members are granted a base armor class of 1.~
+The caster calls favor from his God upon his party. While Aura of Protection is in effect all party members are granted a base armor class of 0.~
 @45 = ~Dark Ritual~
 @46 = ~Dark Ritual
 (Alteration)
@@ -249,7 +249,7 @@ Casting Time: 9
 Area of Effect: Special
 Saving Throw: None
 
-Once cast, four Sirine's will rise from the Ethereal Plane to serve the Druid with their most aggressive demeanor. They will stop at nothing to destroy all the opponents currently on the screen.~
+Once cast, four Sirine's will rise from the Ethereal Plane to serve the Druid with their most aggressive demeanor.~
 @49 = ~Thunder Bolt~
 @50 = ~Thunder Bolt
 (Evocation)
@@ -368,12 +368,12 @@ This evocation is the same as the third level mage spell Melf's Minute Meteors, 
 
 Level: 6
 Range: Caster only
-Duration: 2 turns
+Duration: 5 rounds
 Casting Time: 2
 Area of Effect: Caster only
 Saving Throw: None
 
-By means of this spell the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spell casting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. Dispel Magic does not remove the spell.~
+By means of this spell the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spell casting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
 
 @79 = ~Mass Charm~
 @80 = ~Mass Charm
@@ -386,7 +386,7 @@ Casting Time: 2
 Area of Effect: 20' radius sphere
 Saving Throw: None
 
-This spell effects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humand, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs spells to negate the effects.~
+This spell affects any people within an area of 20' from where it is cast. The term person in all humanoid creatures who will be charmed for 30 seconds. Humanoid creatures include: humans, dryads, dwarfs, elves, brownies, gnomes, goblins, half-elves, hobgoblins etc. but does not include larger creatures eg ogres. All creatures make a saving throw vs. spells to negate the effects.~
 @83 = ~Vestcakes Floating Curse~
 @84 = ~Vestcakes Floating Curse
 (Invocation)
@@ -919,13 +919,13 @@ Only usable by:
  Bard~
 
 @1077 = ~Robe of the Grand Wizard~
-@1078 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
+@1078 = ~This powerful robe is rumored to have a dark history. Supposedly created by the archmage Halaster to torment young magelings, it has sown chaos in its travels through the Realms, leaving murder and betrayal in its wake. Despite boasting potent protective enchantments, it has rarely remained with a single owner for long, and some whisper that the robe itself desires nothing less than the destruction of any who seek to claim it.
 
 STATISTICS:
 
-Armor Class: +2 Bonus
-Saving Throws: +2 bonus
-Magic Resistance: +15%
+Armor Class: +1 Bonus
+Saving Throws: +1 bonus
+Magic Resistance: +10%
 Weight: 6
 
 Only usable by:
@@ -1012,20 +1012,6 @@ Weight: 6
 Only usable by:
  Mage (single, dual, & multi-class)
  Good-aligned character~
-
-@1089 = ~Robes of Sorcery~
-@1090 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of neutral alignment.
-
-STATISTICS:
-
-Armor Class: +1 Bonus
-Magic Resistance: +10%
-Saving Throw: +1 bonus
-Weight: 6
-
-Only usable by:
- Mage (single, dual, & multi-class)
- Neutral-aligned character~
 
 @1092 = ~Holy Belt~
 @1094 = ~Ornate and holy this belt bears the mark of the Sukien Holy Guard. Long known to have the ability to attack with great fervor it was always believed to be a natural ability from within. How clever of the guard to hide their secret for so long.
@@ -1207,16 +1193,11 @@ Usable By:
  Mage
  Bard~
 
-@1129 = ~Ghaunadaur Priest Ring~
-@1130 = ~A special ring for any priest. Grants immunity to poison.
+@1129 = ~Ring of Ghaunadaur~
+@1131 = ~A highly unpredictable deity, Ghaunadaur often rewards his loyal followers with boons and gifts, including rings such as this. On the other hand, he just as often rewards those zealots with torture and death.
 
-Usable by:
- Cleric
- Druid
- Paladin
- Ranger~
-
-@1131 = ~An improved version of the Ghaunadaur Priest Ring. This one provides immunity to poison and acid.
+Equipped abilities:
+ Immunity to poison and acid
 
 Usable by:
  Cleric
@@ -1460,8 +1441,8 @@ Only usable by:
 
 Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.~
 
-@1254 = ~Holy Amulet of Sehanin Moonbow~
-@1255 = ~This is the holy amulet of followers of Sehanin Moonbow. A moonbar crystal in the shape of small flat disk, (aprox 3 inches in diameter) worn around neck on a mithril chain.
+@1254 = ~Holy Amulet of Sehanine Moonbow~
+@1255 = ~This is the holy amulet of followers of Sehanine Moonbow. A moonbar crystal in the shape of small flat disk, (aprox 3 inches in diameter) worn around neck on a mithril chain.
 
 STATISTICS:
 
@@ -1520,16 +1501,6 @@ Usable By:
  Mage
  Bard~
 
-@1266 = ~Amulet of Non-Detection~
-@1267 = ~A variation of the amulet of proof against detection and location this particular amulet is highly sought after, especially by spies, thieves, and assassins, almost as much as the amulet it was copied after.
-
-STATISTICS:
-
-Grants non-detection to its wearer
-
-Not Usable By:
- Wizardslayer~
-
 @1268 = ~Amulet of Great Foresight~
 @1269 = ~Amulet of Great Foresight Known for its ability to enhance the vision of its wearer, the Amulet of Great Foresight is highly sought after by leaders of great armies since they are able to see things from miles away and react to enemy strategies. Its origin and recent history are unknown.
 
@@ -1556,20 +1527,7 @@ Special:
 Weight: 0
 Launcher: Bow~
 
-@1275 = ~Arrows 'Deth Stik'~
-@1277 = ~These arrows, are not of an exceptional quality and in fact are quite crude in thier construction. However they have been soak in a deadly toxin that makes the arrow especially dangerous to victim and wielder alike.
-
-STATISTICS:
-
-15% Chance that wielder will stick self for 4 poison damage
-
-Damage: 1D6 (+6 poison save for half)
-Damage type: missile (piercing)
-Weight: 0
-Launcher: Bow~
-
 @1278 = ~Arrow of Striking~
-
 @1279 = ~This arrow is brilliant and blue with a bright gold tip. It radiates with magic and is lighter and smaller then normal arrows. It is the preferred arrow of the Holy Guard of the Sukien, who are rumored to possess a bow that can create them.
 
 STATISTICS:
@@ -1655,7 +1613,7 @@ Not Usable By:
  Kensai~
 
 @1302 = ~CúChoinneach's Small Shield +2 'The Moon'~
-@1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanin Moonbow. It is fashioned of mithril and the hardest wood of the forest.
+@1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
@@ -1761,7 +1719,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 2D5 + 2
+Damage: 1D10 + 2
 THAC0: +2 bonus
 Special:
   +1 Dexterity
@@ -1783,7 +1741,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 2D5 + 3
+Damage: 1D10 + 3
 THAC0: +3 bonus
 Special:
   33% chance of wielder go into berserk upon successful hit
@@ -1883,7 +1841,7 @@ Usable By:
  Rangers~
 
 @1341 = ~Cutlass~
-@1342 = ~Cutlass +1: 'O-Tokne's Fang'~
+@1342 = ~Cutlass +2: 'O-Tokne's Fang'~
 @1343 = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
 STATISTICS:
@@ -1904,15 +1862,15 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target. Its added grace gives new energy to the wielder enabling them to attack more often.
+@1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target. Its added grace gives new energy to the wielder enabling them to attack faster.
 
 STATISTICS:
 
-Damage: 3D3 + 1
-THAC0: +1 bonus
+Damage: 3D3 + 2
+THAC0: +2 bonus
 Damage type: slashing
 Weight: 3
-Speed Factor: 3
+Speed Factor: 2
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: 1-handed
 Requires: 10 Strength
@@ -1925,8 +1883,8 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1345 = ~Cutlass +1 'Scorcher'~
-@1346 = ~Wrinkled and red this cutlass is cold to the touch; the runic carvings only say 'Scorcher'. Its appearance has caused many an adventurer to mistaken it as worn-out, old, or useless. Those more inquisitive adventurers who carried it along just to be sure were always pleasantly surprised. You see scorcher does not get hot until swung, but once it is in motion heading for a target its name becomes clearly correct.
+@1345 = ~Cutlass +1: 'Scorcher'~
+@1346 = ~Forged of layers of red metal, laid upon one another so as to make it appear wrinkled, this cutlass is unusually cold to the touch. Runic carvings near the hilt, reminiscent of the tribal languages of the northern reaches of Vaasa, give the blade its name. Its appearance and apparent lack of enchantment have caused many an adventurer to mistake it as useless. Those more with more inquisitive minds, who carry it along just to be sure, are always pleasantly surprised. Once in motion in battle, swinging toward its target, Scorcher's name becomes clear, as it ignites with a burning flame.
 
 STATISTICS:
 
@@ -1947,7 +1905,7 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1347 = ~Cutlass +2 'Ghost Blade'~
+@1347 = ~Cutlass +2: 'Ghost Blade'~
 @1348 = ~Anytime a swordsman swings their blade they can see slight images of it tracing along behind. This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut. It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief. Given how well this blades enchantment works he might have been better served to stay a mage.
 
 STATISTICS:
@@ -1969,7 +1927,7 @@ Not Usable By:
  Paladin
  Beast Master~
 
-@1349 = ~Cutlass +1 'Sparks'~
+@1349 = ~Cutlass +1: 'Sparks'~
 @1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
 
 STATISTICS:
@@ -1998,8 +1956,8 @@ STATISTICS:
 Damage: 1D8 + 1
 THAC0: +5 bonus
 Special:
-Dexterity bonus +1
-AC bonus +1
+  Dexterity bonus +1
+  AC bonus +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 2
@@ -2028,27 +1986,6 @@ Requires: 12 Strength
 Usable By:
  Paladin~
 
-@1359 = ~Sword of Evil's Bane~
-@1360 = ~A mythical sword in the elven inhabited province of Hyilia, this sword was said to have vanquished the evil wizard Ganondorf. Legends say it was the sword that brought the tri-force back to the powers of good.
-
-STATISTICS:
-
-Damage: 1D10 +1
-THAC0: +1
-Damage type: slashing
-Weight: 7
-Speed Factor: 10
-Proficiency Type: Long Sword
-Type: 1-handed
-Requires: 11 Strength
-
-Not Usable By:
- Druid
- Cleric
- Mage
- Thief
- Beast Master~
-
 @1361 = ~Two Handed Sword +2~
 @1362 = ~The two-handed sword is a derivative of the long sword. Weapon smiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to swing the sword properly. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
 
@@ -2068,7 +2005,7 @@ Not Usable By:
  Thief~
 
 @1363 = ~Mairial 'The Death Hunter'~
-@1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanin Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanin told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanin's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
+@1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
 
 STATISTICS:
 
@@ -2114,7 +2051,7 @@ Special: vampiric effect
 Damage type: crushing
 Weight: 7
 Speed Factor: 3
-Proficiency Type: Flail
+Proficiency Type: Flail/Morning Star
 Type: 1-handed
 Requires: 13 Strength
 
@@ -2142,7 +2079,7 @@ Special:
 Damage Type: Crushing
 Weight: 12
 Speed Factor: 7
-Proficiency Type: Flail/Morningstar
+Proficiency Type: Flail/Morning Star
 Type: 1-Handed
 Requires: 13 Strength
 
@@ -2234,7 +2171,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D10 + 2
+Damage: 1D8 + 2
 THAC0: +2 bonus
 Special:
   1D6 Backswing Damage (Save v. death for half damage)
@@ -2629,12 +2566,12 @@ Usable By:
  Non-cleric
  Evil Aligned~
 
-@1441 = ~D'Raavhen's Fang~
+@1441 = ~D'Raavhen's Fang +2~
 @1442 = ~Vampiric dagger of Lorik D'Raavhen. The mere sight of this dark blade strikes a fear in you that is beyond description. It pulses with such an aura of pure evil, your first, and only thought is to run until your body collapses from exhaustion. Its blackened blade was apparently forged from the arcane substance of the Abyss, giving the weapon an appearance as dark and foreboding as its master.
 
 STATISTICS:
 
-Damage: 1D4 + 5
+Damage: 1D4 + 2
 THAC0: +2 bonus
 Special: Vampiric effect
 Weight: 1
@@ -2646,25 +2583,6 @@ Requires: 3 Strength
 Usable By:
  Non-cleric
  Evil Aligned~
-
-@1443 = ~Dagger "Nome Stikkah"~
-@1444 = ~Though kobolds do not normally wield poison daggers, it is evident that they have been given the means to make these. The crudeness of the construction of this weapon however, does not lessen the deadliness of it. In fact it can be just as deadly to the wielder as it is to the victim.
-
-STATISTICS:
-
-Damage: 1D4 (+6 poison, save for half)
-Special:
-  15% chance of nicking yourself (4 poison, no save)
-Damage type: Piercing
-Weight: 2
-Speed Factor: 0
-Proficiency Type: Dagger
-Type: 1-handed
-Requires: 3 Strength
-
-Not Usable By:
- Cleric
- Beast Master~
 
 @1446 = ~Keiria Silverstring's Light Crossbow of Speed~
 @1448 = ~This light crossbow has no more abilities than a normal Crossbow of Speed. The only difference is its color as Keiria strives always to remain fashionable, even on the battlefield.
@@ -2801,7 +2719,7 @@ Usable By:
  Bard
  Mage~
 
-@1470 = ~Elgenon's Bramble - 'The Branch of Many Thorns'~
+@1470 = ~Elgenon's Bramble: 'The Branch of Many Thorns'~
 @1472 = ~Crafted by nymphs for the keepers of the wood this bramble bush branch is enchanted with thorns that grow anew upon use. Originally gifted to Elgenon the Wise, protector of the Tree of Wisdom, it has since been passed on to druids who have proven their worth as protectors of the wood.
 
 STATISTICS:
@@ -2809,8 +2727,7 @@ STATISTICS:
 Damage: 1D8 + 1
 THAC0: +1
 Poison Damage: 1 point per round, up to a total of 5 damage (save negates)
-Special: can be thrown and returns to the hand of the wielder
- +1 attack
+Special: Can be thrown and returns to the hand of the wielder
 Weight: 4
 Speed Factor: 1
 Proficiency Type: Club
@@ -2895,7 +2812,7 @@ and teach him everything that he knew. Conchobhair spent six years training with
 Ferthgil left the haven and seclusion of Stonehearth Keep and went on his way. Ferthgil was clanless, homeless, and more importantly penniless, but on the way to Velen in the south, he met with someone who was to become his life long companion, Tearlac Truehammer, of Clan Truehammer in the north. Tearlac and Ferthgil became firm friends, and before long, Ferthgil began to feel he belonged somewhere. Although not officially, he was considered as part of the Truehammer clan. Ferthgil will on first meeting look average enough, and indeed will strike you as a particularly cantankerous dwarf, but through his training from Gulmoth, he has learned to channel his rage against the enemies of Clangeddin. For those who have never seen this, the change is startling. Ferthgil becomes a mighty adversary, and his battle cries have been known to reach the ears of Clangeddin himself all the way to his fortress in Arcadia.~
 
 @2134 = ~Fey'doch~
-@2135 = ~Forest Dragon~
+@2135 = ~Salandiaxarxes~
 
 @2138 = ~Burn and die, puny fools!~ [BAZDR303]
 

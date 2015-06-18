@@ -616,8 +616,6 @@ COPY ~DSotSC/base/itm/dsebplat.itm~ ~override~
 	SAY NAME2 @1044
 	SAY DESC @1046
 
-COPY ~DSotSC/base/itm/dschan01.itm~ ~override~
-
 COPY ~DSotSC/base/itm/dschan02.itm~ ~override~
 	SAY NAME2 @1052
 	SAY DESC @1054
@@ -638,7 +636,7 @@ COPY ~DSotSC/base/itm/dskorim.itm~ ~override~
 	SAY NAME2 @1061
 	SAY DESC @1062
 
-COPY ~DSotSC/base/itm/dscuarm.itm~ ~override~
+COPY ~DSotSC/base/itm/dscuarm.itm~ ~override~ //used in cuchoinj.d, cuchoinp.d, dsculeav.spl
 	SAY NAME2 @1063
 	SAY DESC @1064
 
@@ -676,7 +674,7 @@ COPY ~DSotSC/base/itm/dsrobe04.itm~ ~override~
 	SAY NAME2 @1081
 	SAY DESC @1082
 
-COPY ~DSotSC/base/itm/dsrobe05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrobe05.itm~ ~override~ //Drow item
 	SAY NAME2 @1083
 	SAY DESC @1084
 
@@ -688,13 +686,9 @@ COPY ~DSotSC/base/itm/dsrobe07.itm~ ~override~
 	SAY NAME2 @1087
 	SAY DESC @1088
 
-COPY ~DSotSC/base/itm/dsrobe08.itm~ ~override~
-	SAY NAME2 @1089
-	SAY DESC @1090
-
 // Belts
 
-COPY ~DSotSC/base/itm/dsbelt01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsbelt01.itm~ ~override~ //used only in NTotSC
 	SAY NAME2 @1092
 	SAY DESC @1094
 
@@ -753,15 +747,11 @@ COPY ~DSotSC/base/itm/dsrng02.itm~ ~override~
 	SAY NAME2 @1127
 	SAY DESC @1128
 
-COPY ~DSotSC/base/itm/dsrng03.itm~ ~override~
-	SAY NAME2 @1129
-	SAY DESC @1130
-
 COPY ~DSotSC/base/itm/dsrng04.itm~ ~override~
 	SAY NAME2 @1129
 	SAY DESC @1131
 
-COPY ~DSotSC/base/itm/dsrng05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsrng05.itm~ ~override~ //quest item
 	SAY NAME2 @1133
 	SAY DESC @1135
 
@@ -801,7 +791,7 @@ COPY ~DSotSC/base/itm/dsmisc01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1151
 	SAY DESC @1151
 
-COPY ~DSotSC/base/itm/dsmisc02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc02.itm~ ~override~ //quest item
 	SAY UNIDENTIFIED_DESC @1152
 	SAY DESC @1152
 
@@ -809,35 +799,35 @@ COPY ~DSotSC/base/itm/dsmisc03.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1153
 	SAY DESC @1153
 
-COPY ~DSotSC/base/itm/dsmisc04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc04.itm~ ~override~ //quest item
 	SAY UNIDENTIFIED_DESC @1154
 	SAY DESC @1154
 
-COPY ~DSotSC/base/itm/dsmisc05.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc05.itm~ ~override~ //quest item
 	SAY NAME1 @1155
 	SAY NAME2 @1155
 	SAY UNIDENTIFIED_DESC @1156
 	SAY DESC @1156
 
-COPY ~DSotSC/base/itm/dsmisc07.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc07.itm~ ~override~ //quest item
 	SAY NAME1 @1157
 	SAY NAME2 @1157
 	SAY UNIDENTIFIED_DESC @1157
 	SAY DESC @1157
 
-COPY ~DSotSC/base/itm/dsmisc08.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc08.itm~ ~override~ //quest item
 	SAY NAME1 @1158
 	SAY NAME2 @1158
 	SAY UNIDENTIFIED_DESC @1159
 	SAY DESC @1159
 
-COPY ~DSotSC/base/itm/dsmisc09.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc09.itm~ ~override~ //quest item
 	SAY NAME1 @1160
 	SAY NAME2 @1160
 	SAY UNIDENTIFIED_DESC @1161
 	SAY DESC @1161
 
-COPY ~DSotSC/base/itm/dsmisc10.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmisc10.itm~ ~override~ //quest item
 	SAY NAME1 @1162
 	SAY NAME2 @1162
 	SAY UNIDENTIFIED_DESC @1163
@@ -887,7 +877,7 @@ COPY ~DSotSC/base/itm/dsamul01.itm~ ~override~
 	SAY NAME2 @1247
 	SAY DESC @1249
 
-COPY ~DSotSC/base/itm/dsamul02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul02.itm~ ~override~ //quest item
 	SAY NAME2 @1251
 	SAY DESC @1253
 
@@ -910,17 +900,13 @@ COPY ~DSotSC/base/itm/dsamul08.itm~ ~override~
 	SAY NAME2 @1261
 	SAY DESC @1262
 
-COPY ~DSotSC/base/itm/dsamul09.itm~ ~override~
+COPY ~DSotSC/base/itm/dsamul09.itm~ ~override~ //quest item
 	SAY NAME2 @1263
 	SAY DESC @1263
 
 COPY ~DSotSC/base/itm/dsamul10.itm~ ~override~
 	SAY NAME2 @1264
 	SAY DESC @1265
-
-COPY ~DSotSC/base/itm/dsamul11.itm~ ~override~
-	SAY NAME2 @1266
-	SAY DESC @1267
 
 COPY ~DSotSC/base/itm/dsamul12.itm~ ~override~
 	SAY NAME2 @1268
@@ -932,11 +918,7 @@ COPY ~DSotSC/base/itm/dsarrow1.itm~ ~override~
 	SAY NAME2 @1271
 	SAY DESC @1273
 
-COPY ~DSotSC/base/itm/dsarrow2.itm~ ~override~
-	SAY NAME2 @1275
-	SAY DESC @1277
-
-COPY ~DSotSC/base/itm/arow50.itm~ ~override~
+COPY ~DSotSC/base/itm/dsarow50.itm~ ~override~
 	SAY NAME2 @1278
 	SAY DESC @1279
 
@@ -952,7 +934,7 @@ COPY ~DSotSC/base/itm/dsbull02.itm~ ~override~
 	SAY NAME2 @1288
 	SAY DESC @1289
 
-COPY ~DSotSC/base/itm/dsmeteor.itm~ ~override~
+COPY ~DSotSC/base/itm/dsspwi51.itm~ ~override~
 	SAY NAME1 @69
 	SAY NAME2 @69
 	SAY UNIDENTIFIED_DESC @69
@@ -979,7 +961,7 @@ COPY ~DSotSC/base/itm/dsclck23.itm~ ~override~
 COPY ~DSotSC/base/itm/dsshld02.itm~ ~override~
 	SAY DESC @1300
 
-COPY ~DSotSC/base/itm/dscushld.itm~ ~override~
+COPY ~DSotSC/base/itm/dscushld.itm~ ~override~ //used in cuchoinj.d, cuchoinp.d, dsculeav.spl
 	SAY NAME2 @1302
 	SAY DESC @1304
 
@@ -1060,15 +1042,11 @@ COPY ~DSotSC/base/itm/dsswd08.itm~ ~override~
 	SAY NAME2 @1356
 	SAY DESC @1358
 
-COPY ~DSotSC/base/itm/dsswd09.itm~ ~override~
-	SAY NAME2 @1359
-	SAY DESC @1360
-
 COPY ~DSotSC/base/itm/dsswd10.itm~ ~override~
 	SAY NAME2 @1361
 	SAY DESC @1362
 
-COPY ~DSotSC/base/itm/dscuswd.itm~ ~override~
+COPY ~DSotSC/base/itm/dscuswd.itm~ ~override~ //used in cuchoinj.d, cuchoinp.d, dsculeav.spl
 	SAY NAME2 @1363
 	SAY DESC @1364
 
@@ -1102,7 +1080,7 @@ COPY ~DSotSC/base/itm/dsaxe03.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1386
 	SAY DESC @1387
 
-COPY ~DSotSC/base/itm/dsaxe04.itm~ ~override~
+COPY ~DSotSC/base/itm/dsaxe04.itm~ ~override~ //used only in NTotSC
 	SAY NAME2 @1388
 	SAY DESC @1389
 
@@ -1116,7 +1094,7 @@ COPY ~DSotSC/base/itm/dsaxe06.itm~ ~override~
 	SAY NAME2 @1393
 	SAY DESC @1395
 
-COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~ //quest item
 	SAY NAME2 @1396
 	SAY DESC @1398
 
@@ -1144,7 +1122,7 @@ COPY ~DSotSC/base/itm/dsskstaf.itm~ ~override~
 	SAY NAME2 @1411
 	SAY DESC @1412
 
-COPY ~DSotSC/base/itm/dshamm01.itm~ ~override~
+COPY ~DSotSC/base/itm/dshamm01.itm~ ~override~ //quest item
 	SAY NAME2 @1414
 	SAY DESC @1416
 
@@ -1156,15 +1134,15 @@ COPY ~DSotSC/base/itm/dssperd.itm~ ~override~
 	SAY NAME2 @1423
 	SAY DESC @1424
 
-COPY ~DSotSC/base/itm/dsmace01.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace01.itm~ ~override~ //quest item
 	SAY NAME2 @1426
 	SAY DESC @1428
 
-COPY ~DSotSC/base/itm/dsmace02.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace02.itm~ ~override~ //quest item
 	SAY NAME2 @1429
 	SAY DESC @1430
 
-COPY ~DSotSC/base/itm/dsmace03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsmace03.itm~ ~override~ //quest item
 	SAY NAME2 @1431
 	SAY DESC @1432
 
@@ -1176,17 +1154,13 @@ COPY ~DSotSC/base/itm/dsdagg01.itm~ ~override~
 	SAY NAME2 @1436
 	SAY DESC @1438
 
-COPY ~DSotSC/base/itm/dsdagg03.itm~ ~override~
+COPY ~DSotSC/base/itm/dsdagg03.itm~ ~override~ //Drow Item
 	SAY NAME2 @1439
 	SAY DESC @1440
 
 COPY ~DSotSC/base/itm/dsdagg02.itm~ ~override~
 	SAY NAME2 @1441
 	SAY DESC @1442
-
-COPY ~DSotSC/base/itm/dsdagg04.itm~ ~override~
-	SAY NAME2 @1443
-	SAY DESC @1444
 
 COPY ~DSotSC/base/itm/dskexbow.itm~ ~override~
 	SAY NAME2 @1446
@@ -1216,7 +1190,7 @@ COPY ~DSotSC/base/itm/dswand02.itm~ ~override~
 	SAY NAME2 @1465
 	SAY DESC @1466
 
-COPY ~DSotSC/base/itm/dswand03.itm~ ~override~
+COPY ~DSotSC/base/itm/dswand03.itm~ ~override~ //used only in NTotSC
 	SAY NAME2 @1467
 	SAY DESC @1468
 
@@ -1229,7 +1203,7 @@ COPY ~DSotSC/base/itm/dsclub02.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1474
 	SAY DESC @1475
 
-COPY ~DSotSC/base/itm/miel.itm~ ~override~
+COPY ~DSotSC/base/itm/dssp446.itm~ ~override~
 	SAY NAME1 @1476
 	SAY NAME2 @1476
 
@@ -2170,6 +2144,10 @@ COPY_EXISTING ~corsone.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
+COPY_EXISTING ~davaeo.cre~ ~override~
+	REPLACE_CRE_ITEM ~DSROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~CLOAK~
+	ADD_CRE_ITEM ~DSMISC01~ #0 #0 #0 ~NONE~ ~INV15~
+
 COPY_EXISTING ~denak.cre~ ~override~
 	WRITE_SHORT 0x14 ~3750~ //XP
 	WRITE_SHORT 0x24 ~35~ //HP
@@ -2391,7 +2369,7 @@ COPY_EXISTING ~rielta.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSBRAC01~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	ADD_CRE_ITEM ~DSRNG06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
 	ADD_CRE_ITEM ~DSAMUL07~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSDAGG03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSDAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
 COPY_EXISTING ~semaj.cre~ ~override~
@@ -2423,7 +2401,6 @@ COPY_EXISTING ~slythe.cre~ ~override~
 	REMOVE_CRE_ITEM ~SHLD08~ ~LEAT04~ ~SW1H10~ ~XBOW04~
 	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSAMUL06~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSSWD01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~DSXBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
 	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
 	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
@@ -3721,83 +3698,83 @@ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
-ADD_SPELL ~DSotSC/base/spl/sppr145.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~
+ADD_SPELL ~DSotSC/base/spl/sppr145.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~ //Cleric and Druid
 	SAY NAME1 @3
 	SAY UNIDENTIFIED_DESC @4
 
-ADD_SPELL ~DSotSC/base/spl/sppr146.spl~ 1 1 ~CLERIC_FIRE_BOLT~
+ADD_SPELL ~DSotSC/base/spl/sppr146.spl~ 1 1 ~CLERIC_FIRE_BOLT~ //Druid
 	SAY NAME1 @5
 	SAY UNIDENTIFIED_DESC @6
 
-ADD_SPELL ~DSotSC/base/spl/sppr147.spl~ 1 1 ~CLERIC_ARMOR_MELT~
+ADD_SPELL ~DSotSC/base/spl/sppr147.spl~ 1 1 ~CLERIC_ARMOR_MELT~ //Cleric
 	SAY NAME1 @7
 	SAY UNIDENTIFIED_DESC @8
 
-ADD_SPELL ~DSotSC/base/spl/sppr245.spl~ 1 2 ~CLERIC_CAUSE_MODERATE_WOUNDS~
+ADD_SPELL ~DSotSC/base/spl/sppr245.spl~ 1 2 ~CLERIC_CAUSE_MODERATE_WOUNDS~ //Cleric and Druid
 	SAY NAME1 @9
 	SAY UNIDENTIFIED_DESC @10
 
-ADD_SPELL ~DSotSC/base/spl/sppr246.spl~ 1 2 ~CLERIC_SPARKS~
+ADD_SPELL ~DSotSC/base/spl/sppr246.spl~ 1 2 ~CLERIC_SPARKS~ //Druid
 	SAY NAME1 @12
 	SAY UNIDENTIFIED_DESC @13
 
-ADD_SPELL ~DSotSC/base/spl/sppr247.spl~ 1 2 ~CLERIC_WARD_OF_PROTECTION~
+ADD_SPELL ~DSotSC/base/spl/sppr247.spl~ 1 2 ~CLERIC_WARD_OF_PROTECTION~ //Cleric
 	SAY NAME1 @14
 	SAY UNIDENTIFIED_DESC @15
 
-ADD_SPELL ~DSotSC/base/spl/sppr345.spl~ 1 3 ~CLERIC_PAIN~
+ADD_SPELL ~DSotSC/base/spl/sppr345.spl~ 1 3 ~CLERIC_PAIN~ //Cleric and Druid
 	SAY NAME1 @17
 	SAY UNIDENTIFIED_DESC @18
 
-ADD_SPELL ~DSotSC/base/spl/sppr346.spl~ 1 3 ~CLERIC_ARMOR_OF_DARKNESS~
+ADD_SPELL ~DSotSC/base/spl/sppr346.spl~ 1 3 ~CLERIC_ARMOR_OF_DARKNESS~ //Cleric
 	SAY NAME1 @19
 	SAY UNIDENTIFIED_DESC @20
 
-ADD_SPELL ~DSotSC/base/spl/sppr445.spl~ 1 4 ~CLERIC_POISON_SPRAY~
+ADD_SPELL ~DSotSC/base/spl/sppr445.spl~ 1 4 ~CLERIC_POISON_SPRAY~ //Druid
 	SAY NAME1 @22
 	SAY UNIDENTIFIED_DESC @23
 
-ADD_SPELL ~DSotSC/base/spl/sppr446.spl~ 1 4 ~CLERIC_MIELIKKIS_BLADE~
+ADD_SPELL ~DSotSC/base/spl/sppr446.spl~ 1 4 ~CLERIC_MIELIKKIS_BLADE~ //Druid
 	SAY NAME1 @24
 	SAY UNIDENTIFIED_DESC @25
 
-ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~
+ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~ //Druid
 	SAY NAME1 @26
 	SAY UNIDENTIFIED_DESC @27
 
-ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~
+ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~ //Cleric
 	WRITE_LONG 0x8 "34735"
 	SAY UNIDENTIFIED_DESC @28
 
-ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~
+ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~ //Cleric
 	SAY NAME1 @29
 	SAY UNIDENTIFIED_DESC @30
 
-ADD_SPELL ~DSotSC/base/spl/sppr548.spl~ 1 5 ~CLERIC_TRANSPORT_VIA_PLANTS~
+ADD_SPELL ~DSotSC/base/spl/sppr548.spl~ 1 5 ~CLERIC_TRANSPORT_VIA_PLANTS~ //Druid
 	SAY NAME1 @31
 	SAY UNIDENTIFIED_DESC @32
 
-ADD_SPELL ~DSotSC/base/spl/sppr649.spl~ 1 6 ~CLERIC_CHOKING_VINES~
+ADD_SPELL ~DSotSC/base/spl/sppr649.spl~ 1 6 ~CLERIC_CHOKING_VINES~ //Druid
 	SAY NAME1 @37
 	SAY UNIDENTIFIED_DESC @38
 
-ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~
+ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~ //Cleric
 	SAY NAME1 @39
 	SAY UNIDENTIFIED_DESC @40
 
-ADD_SPELL ~DSotSC/base/spl/sppr739.spl~ 1 7 ~CLERIC_AURA_OF_PROTECTION~
+ADD_SPELL ~DSotSC/base/spl/sppr739.spl~ 1 7 ~CLERIC_AURA_OF_PROTECTION~ //Cleric
 	SAY NAME1 @43
 	SAY UNIDENTIFIED_DESC @44
 
-ADD_SPELL ~DSotSC/base/spl/sppr740.spl~ 1 7 ~CLERIC_DARK_RITUAL~
+ADD_SPELL ~DSotSC/base/spl/sppr740.spl~ 1 7 ~CLERIC_DARK_RITUAL~ //Cleric
 	SAY NAME1 @45
 	SAY UNIDENTIFIED_DESC @46
 
-ADD_SPELL ~DSotSC/base/spl/sppr755.spl~ 1 7 ~CLERIC_SUMMON_SIRINE~
+ADD_SPELL ~DSotSC/base/spl/sppr755.spl~ 1 7 ~CLERIC_SUMMON_SIRINE~ //Druid
 	SAY NAME1 @47
 	SAY UNIDENTIFIED_DESC @48
 
-ADD_SPELL ~DSotSC/base/spl/sppr756.spl~ 1 7 ~CLERIC_THUNDER_BOLT~
+ADD_SPELL ~DSotSC/base/spl/sppr756.spl~ 1 7 ~CLERIC_THUNDER_BOLT~ //Druid
 	SAY NAME1 @49
 	SAY UNIDENTIFIED_DESC @50
 

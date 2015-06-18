@@ -914,19 +914,6 @@ Utilizzabile solo da:
  Mago (singolo, duale e multiclasse)
  Personaggi con allineamento buono~
 
-@1089 = ~Abito della Stregoneria~
-@1090 = ~Questo potente abito da Mago offre protezione da tutte le forme di attacco fisico e nello stesso incrementa la resistenza alla magia e il Tiro Salvezza. Data la natura del suo incantesimo, questo abito può essere indossato solamente da maghi di allineamento neutrale.
-
-STATISTICHE:
-
-Classe Armatura: +2 Bonus
-Resistenza alla Magia: +25%
-Tiro Salvezza: +3 bonus
-Peso: 6
- Utilizzabile solo da:
- Mago (singolo, duale, e multiclasse)
- Personaggi con allineamento Neutrale~
-
 @1092 = ~Cintura Sacra della Velocità~
 @1094 = ~Riccamente ornata e sacra questa cintura porta il segno della Sacra Guardia di Sukien. E' molto famosa per avere l'abilità di attaccare con grande fervore e si è sempre creduto che fosse una naturale abilità che proveniva dall'interno della cintura stessa. La bravura della guardia ha permesso che il segreto della abilità della cintura sia rimasto nascosto per così molto tempo.
 
@@ -1107,14 +1094,6 @@ Utilizzabile da:
  Bardo~
 
 @1129 = ~Anello del Sacerdote Ghaunadaur~
-@1130 = ~Un anello speciale per qualsiasi sacerdote. Concede l'immunità al veleno.
-
-Utilizzabile da:
- Chierico
- Druido
- Paladino
- Ranger~
-
 @1131 = ~Una versione migliorata dell'Anello del Sacerdote Ghaunadaur. Quest'anello fornisce l'immunità al veleno e all'acido.
 
 Utilizzabile da:
@@ -1349,8 +1328,8 @@ Utilizzabile solo da:
 
 Jet'Laya ha suggerito di portarla a Lennan, lo zio di Ferium, che sta aspettando al Giocoliere Giocoso a Beregost.~
 
-@1254 = ~Amuleto Sacro di Sehanin Moonbow~
-@1255 = ~Questo è l'Amuleto Sacro dei seguaci di Sehanin Moonbow. E' formato da una collana di mithril e da un raggio di luna di cristallo, tipo ciondolo, dalla forma di un disco piatto, (circa 7,62 centimetri di diametro) da indossare intorno al collo.
+@1254 = ~Amuleto Sacro di Sehanine Moonbow~
+@1255 = ~Questo è l'Amuleto Sacro dei seguaci di Sehanine Moonbow. E' formato da una collana di mithril e da un raggio di luna di cristallo, tipo ciondolo, dalla forma di un disco piatto, (circa 7,62 centimetri di diametro) da indossare intorno al collo.
 
 STATISTICHE:
 
@@ -1406,16 +1385,6 @@ Utilizzabile da:
  Mago
  Bardo~
 
-@1266 = ~Amuleto della Non-Individuazione~
-@1267 = ~Una variante dell'amuleto di resistenza contro l'individuazione. I luoghi dove sono collocati questi particolari amuleti sono molto ricercati, specialmente dalle spie, dai ladri e dagli assassini, come anche gli amuleti come questo, che è stato riprodotto successivamente all'amuleto di resistenza contro l'individuazione.
-
-STATISTICHE:
-
-Garantisce la Non-Individuazione a chi lo indossa
-
-Non utilizzabile da:
-  Ammazzastregoni~
-
 @1268 = ~Amuleto della Visione Distante~
 @1269 = ~L'Amuleto della Visione Distante è conosciuto per le sue abilità di accrescere la capacità visiva di chi lo indossa, l'Amuleto della Visione Distante è molto ricercato dai capi dei grandi eserciti poiché ha la capacità di vedere cose lontane miglia e miglia potendo così rispondere alle eventuali strategie nemiche. Le sue origini e la sua recente storia sono sconosciute.
 
@@ -1440,18 +1409,6 @@ Speciale:
   +3 Danno/+3 Per Colpire tutti i Draghi
   10% di possibilità di uccidere tutti i Draghi
 
-Peso: 0
-Competenza: Arco~
-
-@1275 = ~Frecce 'Puntura mortale'~
-@1277 = ~Queste frecce non sono di una qualità eccezionale ed infatti la loro struttura è un po' grezza. Tuttavia sono state bagnate con un veleno mortale che rende queste frecce particolarmente pericolose sia per il bersaglio che per il possessore.
-
-STATISTICHE:
-
-15% di possibilità che il possessore si possa pungere ed avere un danno da veleno di 4
-
-Danno: 1D6 (+6 da veleno, tiro salvezza per dimezzare i danni)
-Tipo di danno: proiettile (perforante)
 Peso: 0
 Competenza: Arco~
 
@@ -1542,7 +1499,7 @@ Non utilizzabile da:
  Kensai~
 
 @1302 = ~Scudo Piccolo +3 di CúChoinneach 'La Luna'~
-@1304 = ~CúChoinneach ha costruito questo scudo per se stesso dopo aver ricevuto la scimitarra 'Mairail' da Sehanin Moonbow. Questo scudo è costituito da mithril e dal duro legno della foresta.
+@1304 = ~CúChoinneach ha costruito questo scudo per se stesso dopo aver ricevuto la scimitarra 'Mairail' da Sehanine Moonbow. Questo scudo è costituito da mithril e dal duro legno della foresta.
 
 STATISTICHE:
 
@@ -1913,27 +1870,6 @@ Richiede: 12 alla Forza
 Utilizzabile da:
  Paladino~
 
-@1359 = ~Spada della Rovina della Malvagità~
-@1360 = ~Una mitica spada della provincia elfica di Hyilia, questa spada è famosa per aver sconfitto il malvagio stregone Ganondorf. La leggenda narra che questa è la spada che ha portato il ritorno delle tre forze sotto l'influenza del bene.
-
-STATISTICHE:
-
-Danno: 1D10 + 1
-THAC0: +1
-Tipo di danno: tagliente
-Peso: 7
-Fattore Velocità: 10
-Tipo di Competenza: Spada Lunga
-Tipo: ad una mano
-Richiede: 11 alla Forza
-
-Non utilizzabile da:
- Druido
- Chierico
- Mago
- Ladro
- Addestratore di Animali~
-
 @1361 = ~Spada a due mani +2~
 @1362 = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
 
@@ -1953,7 +1889,7 @@ Non utilizzabile da:
  Ladro~
 
 @1363 = ~Mairial 'Il Cacciatore di Non Morti'~
-@1364 = ~Questa è la scimitarra personale di CúChoinneach. E' composta di puro mithril ed è stata toccata dal chiarore della luna piena, gli è stata donata da Sehanin Moonbow, la dea elfica del mistico, dei sogni, della morte, dei viaggi, della supremazia, della luna, delle stelle e dei cieli. La dea gli apparve in un sogno poco tempo dopo che la sua preferita, Fia'nna, fu uccisa da un esercito di Non Morti, con a capo un vampiro. Sehanin disse a CúChoinneach che avrebbe voluto che lui fosse il cacciatore, e che era stato scelto dalla dea per scacciare i più malvagi Non Morti dai reami. Quando si svegliò dal sogno si trovò al suo fianco questa scimitarra. Il simbolo di Sehanin è la luna crescente. Sehanin gli donò la lama come un segno e per ricordargli il sostegno della dea. I poteri di questa scimitarra sono sconosciuti perfino a CúChoinneach. I suoi poteri completi non si conoscono.
+@1364 = ~Questa è la scimitarra personale di CúChoinneach. E' composta di puro mithril ed è stata toccata dal chiarore della luna piena, gli è stata donata da Sehanine Moonbow, la dea elfica del mistico, dei sogni, della morte, dei viaggi, della supremazia, della luna, delle stelle e dei cieli. La dea gli apparve in un sogno poco tempo dopo che la sua preferita, Fia'nna, fu uccisa da un esercito di Non Morti, con a capo un vampiro. Sehanine disse a CúChoinneach che avrebbe voluto che lui fosse il cacciatore, e che era stato scelto dalla dea per scacciare i più malvagi Non Morti dai reami. Quando si svegliò dal sogno si trovò al suo fianco questa scimitarra. Il simbolo di Sehanine è la luna crescente. Sehanine gli donò la lama come un segno e per ricordargli il sostegno della dea. I poteri di questa scimitarra sono sconosciuti perfino a CúChoinneach. I suoi poteri completi non si conoscono.
 
 STATISTICHE:
 
@@ -2526,25 +2462,6 @@ Richiede: 3 alla Forza
 Utilizzabile da:
  Non dal Chierico
  Personaggi con allineamento malvagio~
-
-@1443 = ~Pugnale "Nome Stikkah"~
-@1444 = ~Benché i koboldi normalmente non posseggano pugnali avvelenati, è evidente che gli è stato dato modo di crearseli. La rozzezza della costruzione di quest'arma, tuttavia, non riduce la sua micidialità. Infatti può essere tanto mortale alla vittima quanto al suo possessore.
-
-STATISTICHE:
-
-Danno: 1D4 (+6 da veleno, tiro salvezza per dimezzare i danni)
-Speciale:
-  15% di possibilità che il possessore si graffi (4 danni da veleno, nessun tiro salvezza)
-Tipo di danno: Perforante
-Peso: 2
-Fattore Velocità: 0
-Tipo di Competenza: Pugnale
-Tipo: ad una mano
-Richiede: 3 alla Forza
-
-Non utilizzabile da:
- Chierico
- Addestratore di Animali~
 
 @1446 = ~Balestra della Velocità di Keiria Silverstring~
 @1448 = ~Questa balestra leggera non ha molte abilità in più rispetto ad una normale Balestra della Velocità. La sola differenza sta nel suo colore. Infatti Keiria si sforza sempre di essere alla moda, perfino sul campo di battaglia.

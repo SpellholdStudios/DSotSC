@@ -967,20 +967,6 @@ Utilizable sólo por:
  Mago (Solo, dual y multiclase)
  Personajes alineados con el bien~
 
-@1089 = ~Túnica de la Brujería~
-@1090 = ~Esta poderosa túnica de mago ofrece protección contra todas las formas de ataque físico, al tiempo que aumenta la resistencia mágica y los tiros de protección. Debido a la naturaleza de su encantamiento, sólo la pueden llevar los magos de alineamiento neutral.
-
-CARACTERÍSTICAS:
-
-Clase de armadura: Bonificador +2
-Resistencia mágica: +25%
-Tirada de salvación: Bonificador +3
-Peso: 6
-
-Utilizable sólo por:
- Mago (Solo, dual y multiclase)
- Personajes con alineación neutra~
-
 @1092 = ~Cinturón Sagrado de Velocidad~
 @1094 = ~Este cinturón decorado y sagrado lleva la marca de la Guardia Santa Sukien. Conocidos de tener la habilidad de atacar con gran fervor siempre se ha creído que es una habilidad natural interior. Muy astuto por parte de los guardias ocultar su secreto.
 
@@ -1164,14 +1150,6 @@ Utilizable sólo por:
  Bardo~
 
 @1129 = ~Anillo de Clérigo de Ghaunadaur~
-@1130 = ~Un anillo especial para cualquier sacerdote. Otorga inmunidad a veneno.
-
-Utilizable sólo por:
- Clérigo
- Druida
- Paladín
- Explorador~
-
 @1131 = ~Una versión mejorada del Anillo de Sacerdote de Ghaunadaur. Este provee de inmunidad al veneno y al ácido.
 
 Utilizable sólo por:
@@ -1418,8 +1396,8 @@ Utilizable sólo por:
 
 Jet'Laya ha sugerido llevarlo a Lennan, su tío, que está esperando en el Malabarista Jovial en Beregost.~
 
-@1254 = ~Amuleto Sagrado de Sehanin Arcolunar~
-@1255 = ~Este es el amuleto Sagrado de los seguidores de Sehanin Arcolunar. Un cristal de barra lunar con la forma de un pequeño disco plano (de unos 7.62 centímetros de diámetro) que se lleva alrededor del cuello con una cadena de mithril.
+@1254 = ~Amuleto Sagrado de Sehanine Arcolunar~
+@1255 = ~Este es el amuleto Sagrado de los seguidores de Sehanine Arcolunar. Un cristal de barra lunar con la forma de un pequeño disco plano (de unos 7.62 centímetros de diámetro) que se lleva alrededor del cuello con una cadena de mithril.
 
 CARACTERÍSTICAS:
 
@@ -1479,16 +1457,6 @@ Utilizable sólo por:
  Mago
  Bardo~
 
-@1266 = ~Amuleto de No Detección~
-@1267 = ~Este objeto es una variante del Amuleto de prevención de detección y localización, y es muy apreciado, especialmente por parte de espías, ladrones y asesinos, casi tanto como el amuleto original.
-
-CARACTERÍSTICAS:
-
-Proporciona No Detección a su usuario
-
-No lo puede usar:
- Asesino de magos~
-
 @1268 = ~Amuleto de Gran Providencia~
 @1269 = ~Amuleto de Gran Providencia Conocido por su habilidad de incrementar la visión del portador, el Amuleto de Gran Providencia es muy buscado por líderes de grandes armadas puesto que son capaces de ver al ejercito enemigo desde millas de distancia y así reaccionar a las estrategias enemigas. Su origen e historia recientes son desconocidos.
 
@@ -1513,18 +1481,6 @@ Especial:
  +3 Daño/+3 Golpe a todos los Dragones
  10% de posibilidades de matar a todos los Dragones
 
-Peso: 0
-Lanzada desde: Arco~
-
-@1275 = ~Flechas 'Deth Stik'~
-@1277 = ~Estas flechas, no son de una calidad excepcional y de echo algo rudas en su construcción. Sin embargo han sido empapadas con una toxina mortal que las hace realmente peligrosas a sus víctimas.
-
-CARACTERÍSTICAS:
-
-15% de posibilidades que el objetivo se envenene por 4 de daño por veneno
-
-Daño: 1d6 (+6 salvación contra veneno a la mitad)
-Tipo de daño: proyectil (perforación)
 Peso: 0
 Lanzada desde: Arco~
 
@@ -1616,7 +1572,7 @@ No lo puede usar:
  Kensái~
 
 @1302 = ~Escudo Pequeño +3 de CúChoinneach 'La Luna'~
-@1304 = ~CúChoinneach creó este escudo después de recibir la cimitarra 'Mairail' de Sehanin Arcolunar. Está hecho de mithril y las más duras maderas del bosque.
+@1304 = ~CúChoinneach creó este escudo después de recibir la cimitarra 'Mairail' de Sehanine Arcolunar. Está hecho de mithril y las más duras maderas del bosque.
 
 CARACTERÍSTICAS:
 
@@ -1997,27 +1953,6 @@ Requisito: 12 Fuerza
 Utilizable sólo por:
  Paladín~
 
-@1359 = ~Espada Plaga del Mal~
-@1360 = ~Una espada mítica en la habitada provincia élfica de Hyilia, se decía que esta espada había derrotado al mago malvado Ganondorf. Las leyendas dicen que la espada trajo a las tres-fuerzas de regreso a los poderes del bien.
-
-CARACTERÍSTICAS:
-
-Daño: 1d10+1
-THAC0: +1
-Tipo de daño: Cuchillada
-Peso: 7
-Factor de velocidad: 10
-Talento marcial: Espada larga
-Tipo: a una mano
-Requisito: 11 Fuerza
-
-No lo puede usar:
- Druida
- Clérigo
- Mago
- Ladrón
- Señor de las bestias~
-
 @1361 = ~Espada a dos puños +2~
 @1362 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.
 
@@ -2037,7 +1972,7 @@ No lo puede usar:
  Ladrón~
 
 @1363 = ~Mairial 'El Cazador de la Muerte'~
-@1364 = ~Esta es la cimitarra personal de CúChoinneach. Hecha de puro mithril ha sido bañada con la luz de la luna llena, y le fue dada por Sehanin Arcodeluna, la diosa élfica del misticismo, sueños, muerte, viajes, trascendencia, la luna, las estrellas y los cielos. Vino a él en un sueño poco después que, Fia'nna, había sido muerta por un ejército de no muertos liderados por un vampiro. Sehanin dijo a CúChoinneach que él sería el cazador, que había sido escogido por ella para cazar a los no muertos más malvados de los reinos. Cuando despertó, encontró esta cimitarra a su lado. El símbolo de Sehanin es la luna creciente. Le dio la espada como símbolo y para recordarle su soporte. Los poderes imbuidos en la espada son desconocidos, incluso a CúChoinneach. Sus poderes completos no se saben.
+@1364 = ~Esta es la cimitarra personal de CúChoinneach. Hecha de puro mithril ha sido bañada con la luz de la luna llena, y le fue dada por Sehanine Arcodeluna, la diosa élfica del misticismo, sueños, muerte, viajes, trascendencia, la luna, las estrellas y los cielos. Vino a él en un sueño poco después que, Fia'nna, había sido muerta por un ejército de no muertos liderados por un vampiro. Sehanine dijo a CúChoinneach que él sería el cazador, que había sido escogido por ella para cazar a los no muertos más malvados de los reinos. Cuando despertó, encontró esta cimitarra a su lado. El símbolo de Sehanine es la luna creciente. Le dio la espada como símbolo y para recordarle su soporte. Los poderes imbuidos en la espada son desconocidos, incluso a CúChoinneach. Sus poderes completos no se saben.
 
 CARACTERÍSTICAS:
 
@@ -2622,25 +2557,6 @@ Requisito: 3 Fuerza
 Utilizable sólo por:
  No Clérigo
  Personaje de alineación maligna~
-
-@1443 = ~Daga 'Nome Stikkah'~
-@1444 = ~Aunque los kobolds normalmente no envenenan las dagas que portan, es evidente que se las han apañado para realizar la labor con esta. La tosca manufactura de esta arma no debe engañarnos sobre su verdadera peligrosidad. De hecho es tan peligrosa para la víctima como para su portador.
-
-CARACTERÍSTICAS:
-
-Daño: 1d4 (+6 a veneno, salvación para la mitad)
-Especial:
- 15% de posibilidades de dañarse uno mismo (+4 de veneno, sin salvación)
-Tipo de daño: perforación
-Peso: 2
-Factor de velocidad: 0
-Talento marcial: Daga
-Tipo: a una mano
-Requisito: 3 Fuerza
-
-No lo puede usar:
- Clérigo
- Señor de las bestias~
 
 @1446 = ~Ballesta ligera de Velocidad de Keiria Hilodeplata~
 @1448 = ~Esta ballesta ligera no posee más habilidades que las de una ballesta de velocidad normal, la única diferencia radica en su color, ya que Keira siempre intenta ir a la moda, incluso en la batalla.

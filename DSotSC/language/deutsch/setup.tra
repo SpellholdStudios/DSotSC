@@ -905,18 +905,6 @@ Gewicht: 6
 
 Kann nur verwendet werden von:
  guten Magiern~
-@1089 = ~Robe der Zauberkunst~
-@1090 = ~Diese mächtige Robe bietet ihrem Träger nicht nur Schutz vor körperlichen Angriffen, sondern erhöht auch seine magische Widerstandsfähigkeit und gibt einen Bonus auf seine Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit neutraler Gesinnung getragen werden.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Rüstungsklasse-Bonus: -2
-Rettungswurf-Bonus: +3
-Magieresistenz: 25%
-Gewicht: 6
-
-Kann nur verwendet werden von:
- neutralen Magiern~
 
 ////////
 // Belts
@@ -1094,13 +1082,6 @@ Kann nur verwendet werden von:
  Magiern
 Barden~
 @1129 = ~Priesterring von Ghaunadaur~
-@1130 = ~Dieser Ring kann nur von Priestern der Stufe 5 oder höher verwendet werden. Er gewährt seinem Träger Immunität gegen Gift und Säure.
-
-Kann nur verwendet werden von:
- Klerikern
- Druiden
- Paladinen
- Waldläufern~
 @1131 = ~Dieser Ring kann nur von Priestern der Stufe 5 oder höher verwendet werden. Er gewährt seinem Träger Immunität gegen Gift.
 
 Kann nur verwendet werden von:
@@ -1326,8 +1307,8 @@ Kann nur verwendet werden von:
 @1253 = ~Diese Halskette erhielt Ferium von ihrem Auserwählten, Ken'lan. Die Gravur auf der Rückseite lautet: "Meine Liebe für Dich, bis der Mond verblasst".
 
 Jet'laya hat angemerkt, dass Ihr die Kette zu Lennan im Windigen Schwindler in Beregost bringen solltet.~
-@1254 = ~Heiliges Mondamulett von Sehanin Mondbogen~
-@1255 = ~Dies ist das heilige Amulett der Anhänger von Sehanin Mondbogen. Ein Mondriegel in der Form eines kleinen, flachen Steines (ca. 8 cm im Durchmesser) schmückt eine Halskette aus Mithril.
+@1254 = ~Heiliges Mondamulett von Sehanine Mondbogen~
+@1255 = ~Dies ist das heilige Amulett der Anhänger von Sehanine Mondbogen. Ein Mondriegel in der Form eines kleinen, flachen Steines (ca. 8 cm im Durchmesser) schmückt eine Halskette aus Mithril.
 
 
 SPEZIFISCHE EIGENSCHAFTEN:
@@ -1385,15 +1366,6 @@ Gewicht: 1
 Kann nur verwendet werden von:
  Magier
  Barde~
-@1266 = ~Amulett der Unauffindbarkeit~
-@1267 = ~Eine Änderung zum Amulett der Überprüfung gegen Auffindbarkeit und Lokalisierung. Dieses spezielle Amulett ist besonders bei Spionen, Dieben und Mördern begehrt, genauso viel wie das Amulett, nach dem es kopiert wurde.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Verleiht dem Träger Unauffindbarkeit.
-
-Kann nicht verwendet werden von:
- Magierkiller~
 @1268 = ~Amulett der weiten Voraussicht~
 @1269 = ~Amulett der weiten Voraussicht
 Ist bekannt für die Fähigkeit die Sicht des Trägers zu erweitern. Das Amulett ist bei den Führern von Armeen sehr begehrt, da sie Dinge erkennen können, die Kilometer weit entfernt sind und somit auf Strategien der Gegner reagieren können. Seine Herkunft und Geschichte ist gänzlich unbekannt.
@@ -1421,19 +1393,6 @@ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
 Besonderheit: Tötet kleine Drachen und Wyvern bei Kontakt
 Schadensbonus: +3 gegen Drachen
 ETW0-Bonus: -3 gegen Drachen
-Gewicht: 0
-Schusswaffe: Bogen~
-@1275 = ~Deth Stik~
-@1277 = ~Diese Pfeile sind nicht von besonderer Qualität und wurden auch nicht sehr fein verarbeitet. Sie wurden in einem tödlichen Gift getränkt und sind somit nicht nur für das Opfer, sondern auch für den Bogenschützen sehr gefährlich.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1W6
-Schadensart: mit Stichwaffe durchbohren (Fernkampf)
-Schadensbonus: +6 (Gift)
-(Hälfte bei Rettungswurf)
-Wahrscheinlichkeit sich zu verletzen: 15%
-(4 Schadenspunkte durch Gift)
 Gewicht: 0
 Schusswaffe: Bogen~
 @1278 = ~Pfeil des Angriffs~
@@ -1531,7 +1490,7 @@ Kann nicht verwendet werden von:
  Mönchen
  Kensai~
 @1302 = ~CúChoinneachs Schild +3 "Der Mond"~
-@1304 = ~CúChoinneach fertigte diesen Schild, nachdem er den Krummsäbel "Mairial" von Sehanin Mondbogen erhalten hatte. Der Schild besteht aus dem härtesten Holz und ist mit Mithril verziert.
+@1304 = ~CúChoinneach fertigte diesen Schild, nachdem er den Krummsäbel "Mairial" von Sehanine Mondbogen erhalten hatte. Der Schild besteht aus dem härtesten Holz und ist mit Mithril verziert.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
@@ -1917,27 +1876,6 @@ Waffentyp: einhändig
 
 Kann nur verwendet werden von:
  Paladinen~
-@1359 = ~Ruin des Bösen~
-@1360 = ~Dieses Schwert ist ein Mythos in der Elfen-Provinz von Hyilia. Es wird erzählt, dass damit der böse Zauberer Ganondorf verbannt werden konnte. Legenden zufolge brachte das Schwert das Tri-Force zurück zu den Mächten des Guten.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1W10 +1
-
-Schadensart: mit Klingenwaffe aufschlitzen
-ETW0-Bonus: -1
-Gewicht: 7
-Geschwindigkeitsfaktor: 10
-Mindeststärke: 11
-Fertigkeit: Großes Schwert
-Waffentyp: einhändig
-
-Kann nicht verwendet werden von:
- Druiden
- Klerikern
- Magiern
- Dieben
- Tiermeistern~
 @1361 = ~Zweihänder +2~
 @1362 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
 
@@ -1956,7 +1894,7 @@ Kann nicht verwendet werden von:
  Magiern
  Dieben~
 @1363 = ~Mairial "Der Todesjäger"~
-@1364 = ~Dies ist der persönliche Krummsäbel von CúChoinneach. Er wurde es purem Mithril gefertigt, welches der Sage nach aus dem Licht des Vollmondes entstanden ist. Das Schwert war ein Geschenk von Sehanin Mondbogen, der Elfengöttin der Mystik, Träume, Reisen, Sterne, des Mondes, des Himmels und des Todes. Sie erschien ihm in einem Traum, nachdem seine Angebetete, Fia'nna, von einer Armee Untoter unter der Führung eines Vampirs umgebracht wurde. Sehanin erzählte ihm, dass er der Auserwählte sei, der die Untoten jagen und zur Strecke bringen sollte. Als er erwachte lag dieser Krummsäbel neben ihm auf dem Bett, darauf Sehanins Symbol, der Halbmond. Sie gab ihm dieses Schwert als Erinnerung an ihre Unterstützung. Die Macht des Schwertes ist unbekannt, selbst CúChoinneach kennt sie nicht genau.
+@1364 = ~Dies ist der persönliche Krummsäbel von CúChoinneach. Er wurde es purem Mithril gefertigt, welches der Sage nach aus dem Licht des Vollmondes entstanden ist. Das Schwert war ein Geschenk von Sehanine Mondbogen, der Elfengöttin der Mystik, Träume, Reisen, Sterne, des Mondes, des Himmels und des Todes. Sie erschien ihm in einem Traum, nachdem seine Angebetete, Fia'nna, von einer Armee Untoter unter der Führung eines Vampirs umgebracht wurde. Sehanine erzählte ihm, dass er der Auserwählte sei, der die Untoten jagen und zur Strecke bringen sollte. Als er erwachte lag dieser Krummsäbel neben ihm auf dem Bett, darauf Sehanines Symbol, der Halbmond. Sie gab ihm dieses Schwert als Erinnerung an ihre Unterstützung. Die Macht des Schwertes ist unbekannt, selbst CúChoinneach kennt sie nicht genau.
 
 SPEZIFISCHE EIGENSCHAFTEN:
 
@@ -2539,26 +2477,6 @@ Mindeststärke: 3
 Kann verwendet werden von:
  Nicht-Klerikern
  Böser Gesinnung~
-@1443 = ~Dolch "Nome Stikkah"~
-@1444 = ~Kobolde benutzen zwar normalerweise keine Giftdolche, aber sie haben die Mittel dafür. Obwohl diese Waffe nicht sehr fein verarbeitet wurde, sollte man ihre Tödlichkeit nicht unterschätzen. Tatsache ist, dass sie für den Anwender genauso tödlich sein kann wie für das Opfer.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1W4
-
-Schadensart: mit Stichwaffe durchbohren
-Schadensbonus: +6 (Gift, Hälfte bei Rettungswurf)
-Chance sich zu verletzten: 15%
-(4 Schadenspunkte, kein Rettungswurf)
-Gewicht: 2
-Geschwindigkeitsfaktor: 0
-Fertigkeit: Dolch
-Waffentyp: einhändig
-Mindeststärke: 3
-
-Kann nicht verwendet werden von:
- Klerikern
- Tiermeistern~
 @1446 = ~Keirias Schnellschussarmbrust~
 @1448 = ~Diese leichte Armbrust hat nicht mehr Eigenschaften als eine normale Schnellschussarmbrust. Der einzige Unterschied liegt in der Farbe, da Keiria immer modisch auftreten will, selbst auf dem Schlachtfeld.
 
