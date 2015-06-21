@@ -1,25 +1,49 @@
 IF
-  Exists("BUB")
-  !Dead("BUB")
+	Exists("BUB")
+	!Dead("BUB")
 THEN
-  RESPONSE #100
-    ActionOverride("BUB",DestroySelf())
+	RESPONSE #100
+		ActionOverride("BUB",DestroySelf())
 END
 
 IF
-  Global("BP_BG1NPC9700","GLOBAL",0)
-  LevelLT(Player1,6)
+	Global("BubSpawn","%SouthBeregostRoad%",0)
+	Level(Player1,1)
 THEN
-  RESPONSE #100
-    SetGlobal("BP_BG1NPC9700","GLOBAL",1)
-    CreateCreature("DSBUB",[1364.1748],0)
+	RESPONSE #100
+		CreateCreature("DSBUB",[1364.1748],0)
+		SetGlobal("BubSpawn","%SouthBeregostRoad%",1)
 END
 
 IF
-  Global("BP_BG1NPC9700","GLOBAL",0)
-  LevelGT(Player1,5)
+	Global("BubSpawn","%SouthBeregostRoad%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
 THEN
-  RESPONSE #100
-    SetGlobal("BP_BG1NPC9700","GLOBAL",1)
-    CreateCreature("DSBUB6",[1364.1748],0)
+	RESPONSE #100
+		CreateCreature("DSBUB2",[1364.1748],0)
+		SetGlobal("BubSpawn","%SouthBeregostRoad%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BubSpawn","%SouthBeregostRoad%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBUB4",[1364.1748],0)
+		SetGlobal("BubSpawn","%SouthBeregostRoad%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BubSpawn","%SouthBeregostRoad%",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBUB6",[1364.1748],0)
+		SetGlobal("BubSpawn","%SouthBeregostRoad%",1)
 END

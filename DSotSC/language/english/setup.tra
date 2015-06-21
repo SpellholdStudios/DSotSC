@@ -568,25 +568,6 @@ Not Usable By:
  Monk
  Kensai~
 
-@1020 = ~Conchobhair Strongblade's Helmet of Courage~
-@1021 = ~This helmet has been enchanted to provide some protection against mind attacks and fear. It always boosts the courage of the wearer.
-
-STATISTICS:
-
-Armor Class Bonus: None
-Special:
-  Protects Against Critical Hits
-  Protects Against Fear and Certain Mind Attacks
-
-Weight: 2
-
-Not Usable By:
- Mage
- Bard
- Thief
- Monk
- Kensai~
-
 @1022 = ~Crystal Helm~
 @1023 = ~Crafted from magical crystals from a now abandoned Dwarven Mine. The crystals have a natural resistance to heat and cold.
 
@@ -693,14 +674,17 @@ Only usable by:
  Dwarves and Gnomes~
 
 @1039 = ~Conchobhair Strongblade's Blessed Plate Mail Armor~
-@1040 = ~This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair find's it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
+@1040 = ~Blessed Plate Mail Armor
+This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair finds it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
 
 STATISTICS:
 
-Armor Class: -1
-Weight: 50
+Armor Class: 2 (-1 vs. slashing)
 
-Usable By:
+Weight: 18
+Requires: 11 Strength
+
+Only usable by:
  Conchobhair~
 
 @1041 = ~Crystal Plate Mail~
@@ -841,12 +825,12 @@ Not Usable By
  Beast Master
  Shapeshifter~
 
-@1063 = ~CúChoinneach's Personal Leather Armor +4~
-@1064 = ~CúChoinneach made this armor for himself during his days as a ranger.
+@1063 = ~CúChoinneach's Personal Studded Leather Armor +2~
+@1064 = ~CúChoinneach constructed this armor for himself during his days as a ranger.
 
 STATISTICS:
 
-Armor Class: 3
+Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
 Special: +15% Hide in Shadows
 
 Weight: 8
@@ -1441,21 +1425,6 @@ Only usable by:
 
 Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.~
 
-@1254 = ~Holy Amulet of Sehanine Moonbow~
-@1255 = ~This is the holy amulet of followers of Sehanine Moonbow. A moonbar crystal in the shape of small flat disk, (aprox 3 inches in diameter) worn around neck on a mithril chain.
-
-STATISTICS:
-
-Special:
-  Bonus 1st and 2nd level priest spells
-
-Usable by:
- Cleric
- Druid
- Ranger
- Paladin
- Non-evil aligned~
-
 @1256 = ~The true nature of this amulet is unknown. It seems to be of great power.~
 
 @1257 = ~Segoy Signet Amulet~
@@ -1612,12 +1581,12 @@ Not Usable By:
  Monk
  Kensai~
 
-@1302 = ~CúChoinneach's Small Shield +2 'The Moon'~
+@1302 = ~CúChoinneach's Small Shield +1 'The Moon'~
 @1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
-Armor Class Bonus: +3
+Armor Class Bonus: +2
 Special: No Missile Weapon Protection
 
 Weight: 3
@@ -1778,20 +1747,20 @@ Requires: 8 Strength
 Only usable by:
  Druid~
 
-@1334 = ~Conchobhair's Dragonslayer~
-@1336 = ~This sword is imbued with a very strong enchantment and any attempts to see into the true nature of this sword is shielded by very strong magic. It's origin and history is unknown. The sword 'chooses' it handler, and thus will prevent any but the chosen to wield it. Any attempt to control the weapon will find themselves subdued by it or worse.
+@1334 = ~Dragonslayer~
+@1336 = ~Imbued with strong enchantments, this mighty blade is also shielded by a cloaking spell, preventing any attempts at discerning its true nature. Its origin and history are thus largely unknown, though it is rumored that the sword chooses its wielder, and will prevent any other from using it. Those who have attempted to forcibly control the weapon have found their wills sapped, or worse...
 
 STATISTICS:
 
 Damage: 1D10 + 1, +3 vs Dragons
 THAC0: +1, +3 vs Dragons
 Special:
-  Has a slight chance of slaying any dragon on contact
-  20% Resistance to Fire and Acid
-  +2 Bonus to Save vs. Breath Weapons
+  Acid Resistance: 20%
+  Fire Resistance: 20%
+  +1 Bonus to Save vs. Breath Weapons
 Damage type: slashing
 Weight: 15
-Speed Factor: 6
+Speed Factor: 8
 Proficiency Type: Two Handed sword
 Type: 2-handed
 Requires: 14 Strength
@@ -2004,17 +1973,17 @@ Not Usable By:
  Mage
  Thief~
 
-@1363 = ~Mairial 'The Death Hunter'~
+@1363 = ~Mairial +2: 'The Death Hunter'~
 @1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
 
 STATISTICS:
 
-Damage: 1D8 + 3
-THAC0: +3
+Damage: 1D8 + 2
+THAC0: +2
 Special:
   Negative Plane Protection
 Damage type: slashing
-Weight: 4
+Weight: 3
 Speed Factor: 3
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: 1-handed
@@ -3279,3 +3248,14 @@ take up a profession as a hired adventurer. He traveled first to Baldur's Gate t
 @21047 = ~La-la-la-la la-la-la.~ [THORF47]
 @21050 = ~When asked about his past, THORFINN HAUSKLUNIFF explains that his childhood got off to a bad start. Born on the island of Ruathym, he was offered as a sacrifice to Auriel. The priests of Auriel placed Thorfinn on a raft when he was just a babe, and launched him into the Trackless Sea. At that time, the weather was calm, but strong currents carried the raft south toward the west side of the Moonshae Isles. He drifted for several days until the raft reached the shores of the isle of Moray. Washed up on a pebble beach, Thorfinn was rescued by fishermen and raised in the presence of Northlanders. In his early years, he worked the boat with his adopted family, learning all there was to know about the sea. He became interested in the navy and when he turned sixteen, his request to join was granted by his family. During his late teens, he honed his seafaring skills and began learning the art of swordplay. He became adept with the axe, but his strength gave him the ability to swing a large sword with ease,
 an ability not lost on the marauding pirates and thieves of the Moonshaes. The two-handed sword became his weapon of choice. After five years, Thorfinn decided to leave the navy and travel. He worked as a mercenary and sword-for-hire protecting merchants as they traveled the caravan routes. Eventually, Thorfinn's travels brought him to the Sword Coast and into the city of Baldur's Gate.~
+
+//new strings added in v3
+@30001 = ~Lair of Salandiaxarxes~
+@30002 = ~Wardstone~
+@30003 = ~This wardstone will allow you to gain entry into the dragon's hoard.~
+
+@30004 = ~This pool is nice a warm. If you were not in a hurry, it would make for a relaxing warm bath.~
+@30005 = ~An invisible wall of force keeps you from entering the cavern. You shall have to find some way to dispel it before you can enter.~
+@30006 = ~To the Entrance.~
+@30007 = ~To the Dragon's Hoard.~
+@30008 = ~CúChoinneach refuse to part with his personal equipment.~

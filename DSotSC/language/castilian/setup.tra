@@ -533,25 +533,6 @@ No lo puede usar:
  Monje
  Kensái~
 
-@1020 = ~Yelmo del Coraje de Conchobhair Fuertefilo~
-@1021 = ~Este casco ha sido encantado para proporcionar ciertas protecciones contra ataques mentales y miedo. Siempre aumenta el coraje de su dueño.
-
-CARACTERÍSTICAS:
-
-Bonificador de clase de armadura: Ninguno
-Especial:
- Protege contra golpes críticos
- Protege contra Miedo y ciertos ataques mentales
-
-Peso: 2
-
-No lo puede usar:
- Mago
- Bardo
- Ladrón
- Monje
- Kensái~
-
 @1022 = ~Yelmo de Cristal~
 @1023 = ~Creado de cristales mágicos de ahora una Mina abandonada de Enanos. Los cristales tienen una resistencia natural al calor y al frío.
 
@@ -1395,22 +1376,6 @@ Utilizable sólo por:
 @1253 = ~Este collar fue entregado a Ferium por su prometida: Ken'lan. La inscripción en su reverso dice: "Os entrego mi amor hasta que la Luna desaparezca."
 
 Jet'Laya ha sugerido llevarlo a Lennan, su tío, que está esperando en el Malabarista Jovial en Beregost.~
-
-@1254 = ~Amuleto Sagrado de Sehanine Arcolunar~
-@1255 = ~Este es el amuleto Sagrado de los seguidores de Sehanine Arcolunar. Un cristal de barra lunar con la forma de un pequeño disco plano (de unos 7.62 centímetros de diámetro) que se lleva alrededor del cuello con una cadena de mithril.
-
-CARACTERÍSTICAS:
-
-Especial:
- Duplica todos los hechizos de nivel 1-3 de sacerdote
- +1 en todas las salvaciones
-
-Utilizable sólo por:
- Clérigo
- Druida
- Explorador
- Paladín
- Personaje de alineamiento no maligno~
 
 @1256 = ~La verdadera naturaleza de este amuleto es desconocida. Parece ser de gran poder.~
 

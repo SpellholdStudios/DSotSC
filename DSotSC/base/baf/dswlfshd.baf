@@ -1,139 +1,225 @@
 IF
-  Global("TalkedGillian","GLOBAL",1)
-  Global("CuChoinneach","GLOBAL",0)
+  Global("CuChoinneachLeaves","GLOBAL",2)
 THEN
   RESPONSE #100
-    Setglobal("CuChoinneach","GLOBAL",1)
+    Destroyself()
+    Continue()
 END
 
 IF
-  Global("CuChoinneach","GLOBAL",1)
-  Global("ShadowWolfStart","GLOBAL",0)
-  Global("ShadowWolf","GLOBAL",0)
+  !Exists("CuChoinneach")
 THEN
   RESPONSE #100
-    Setglobal("ShadowWolf","GLOBAL",1)
-    Setglobal("ShadowWolfStart","GLOBAL",1)
+    Destroyself()
+    Continue()
 END
 
 IF
-  Global("CuChoinneach","GLOBAL",1)
-  Globaltimerexpired("ShadowWolfDie","GLOBAL")
+  Dead("CuChoinneach")
+  !Exists(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    Destroyself()
+    Continue()
+END
+
+IF
+  !Inparty("CuChoinneach")
+  Allegiance("CuChoinneach",ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+    Equipmostdamagingmelee()
+    Attackreevaluate(Lasttargetedby,30)
+    Continue()
+END
+
+IF
+  Detect([ENEMY])
+  Statecheck([ENEMY],STATE_INVISIBLE)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_TRUE_SIGHT)
+    Continue()
+END
+
+IF
+  See([ENEMY])
+  Numcreaturegt([ENEMY],5)
+THEN
+  RESPONSE #20
+    Forcespellres("SPINDS2",Nearestenemyof(Myself))
+    Continue()
+END
+
+IF
+  Hitby([0],POISON)
+THEN
+  RESPONSE #100
+    Shout(ASSIST)
+    Continue()
+END
+
+IF
+  Hppercentlt(Myself,35)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  Delay(2)
+  Hppercentlt(Myself,35)
+THEN
+  RESPONSE #95
+    Shout(ASSIST)
+    Continue()
+  RESPONSE #5
+    Verbalconstant(Myself,HURT)
+    Shout(ASSIST)
+    Continue()
+END
+
+IF
+  Heard([PC],ASSIST)
+  Havespell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Lastheardby(Myself),CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  Attackedby([0],DEFAULT)
+  Inparty(Lastattackerof(Myself))
+  Statecheck(Lastattackerof(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Runawayfrom(Lastattackerof(Myself),75)
+    Continue()
+END
+
+IF
+  Attackedby([0],DEFAULT)
+  Inparty(Lastattackerof(Myself))
+  !Statecheck(Lastattackerof(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Shout(ALERT)
+    Equipmostdamagingmelee()
+    Attackreevaluate(Lastattackerof(Myself),30)
+    Continue()
+END
+
+IF
+  Attackedby([ENEMY],DEFAULT)
+  Range(Lastattackerof(Myself),5)
+  !Statecheck(Lastattackerof(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(ALERT)
+    Equipmostdamagingmelee()
+    Attackreevaluate(Lastattackerof(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([PC],ALERT)
+  See(Lastattackerof(Lastheardby(Myself)))
+  !Inparty(Lastattackerof(Lastheardby(Myself)))
+  Range(Lastattackerof(Lastheardby(Myself)),5)
+  !Statecheck(Lastattackerof(Lastheardby(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Equipmostdamagingmelee()
+    Attackreevaluate(Lastattackerof(Lastheardby(Myself)),30)
+    Continue()
+END
+
+IF
+  See([ENEMY])
+  !Inparty([ENEMY])
+  Range([ENEMY],5)
+  !Statecheck([ENEMY],STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(ALERT)
+    Equipmostdamagingmelee()
+    Attackreevaluate([ENEMY],30)
+    Continue()
+END
+
+IF
+  Heard([PC],ALERT)
+  See(Lasttargetedby(Lastheardby(Myself)))
+  !Inparty(Lasttargetedby(Lastheardby(Myself)))
+  Range(Lasttargetedby(Lastheardby(Myself)),5)
+  !Statecheck(Lasttargetedby(Lastheardby(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Equipmostdamagingmelee()
+    Attackreevaluate(Lasttargetedby(Lastheardby(Myself)),30)
+    Continue()
+END
+
+IF
+  !See([ENEMY])
+  Help([PC])
+  !Range(Lasthelp(Myself),5)
+THEN
+  RESPONSE #100
+    Movetoobject(Lasthelp(Myself))
+    Continue()
+END
+
+IF
+  Hppercentlt("CuChoinneach",50)
+  Exists(Lastattackerof)
+THEN
+  RESPONSE #100
+    Attackreevaluate(Lastattackerof,10)
+    Continue()
+END
+
+IF
+  Exists("CuChoinneach")
   Global("ShadowWolf","GLOBAL",2)
+  Global("ShadowWolfClaw","GLOBAL",0)
 THEN
   RESPONSE #100
-    Setglobal("ShadowWolf","GLOBAL",1)
+    Forcespellres("SPINDS1",Myself)
+    Setglobal("ShadowWolfClaw","GLOBAL",1)
+    Setglobal("GrowlEvil","GLOBAL",0)
+    Continue()
 END
 
 IF
-  Global("CuChoinneach","GLOBAL",1)
-  !Exists("BUBBA")
-  Global("ShadowWolf","GLOBAL",0)
-  Global("ShadowWolfClaw","GLOBAL",1)
   Exists("CuChoinneach")
+  !Exists(Nearestenemyof(Myself))
 THEN
   RESPONSE #100
+    Formation("CuChoinneach",[2.2])
+    Continue()
+END
+
+IF
+  !Exists(Nearestenemyof(Myself))
+  !Range("CuChoinneach",10)
+  Delay(10)
+THEN
+  RESPONSE #100
+    Destroyself()
+    Setglobal("ShadowWolfClaw","GLOBAL",0)
     Setglobal("ShadowWolf","GLOBAL",1)
-    Setglobal("ShadowWolfClaw","GLOBAL",0)
+    Continue()
 END
 
 IF
-  Global("CuChoinneach","GLOBAL",1)
-  !Exists("BUBBA")
-  Global("ShadowWolf","GLOBAL",2)
-  Global("ShadowWolfClaw","GLOBAL",1)
-  Exists("CuChoinneach")
+  Die()
 THEN
   RESPONSE #100
-    Setglobal("ShadowWolf","GLOBAL",1)
-    Setglobal("ShadowWolfClaw","GLOBAL",0)
+    Destroyself()
+    Continue()
 END
 
-IF
-  Global("CuChoinneach","GLOBAL",1)
-  Global("ShadowWolf","GLOBAL",1)
-  Exists("CuChoinneach")
-  Global("DSCuchClairs","GLOBAL",0)
-THEN
-  RESPONSE #100
-    Createcreature("DSWOLF1",[-1.-1],0)
-    Setglobal("ShadowWolf","GLOBAL",2)
-    Setglobal("ShadowWolfClaw","GLOBAL",0)
-END
-
-IF
-  Global("VampirDead","GLOBAL",0)
-  !Partyhasitem("DSMISC07")
-  Global("TalkedClairis","GLOBAL",0)
-  Global("CuChoinneachDelayed","GLOBAL",0)
-  Globaltimerexpired("CuChoin","GLOBAL")
-THEN
-  RESPONSE #100
-    Dialog([PC])
-    Setglobal("CuChoinneachDelayed","GLOBAL",1)
-END
-
-IF
-  Global("TalkedClairis","GLOBAL",0)
-  Global("VampirDead","GLOBAL",0)
-  !Partyhasitem("DSMISC07")
-  Global("CuChoinneachDelayed","GLOBAL",1)
-  Globaltimerexpired("Cu1st","GLOBAL")
-THEN
-  RESPONSE #100
-    Setglobal("CuChoinneachDelayed","GLOBAL",2)
-    Dialog([PC])
-END
-
-IF
-  Global("TalkedClairis","GLOBAL",0)
-  Global("VampirDead","GLOBAL",0)
-  !Partyhasitem("DSMISC07")
-  Global("CuChoinneachDelayed","GLOBAL",2)
-  Globaltimerexpired("Cu2nd","GLOBAL")
-THEN
-  RESPONSE #100
-    Setglobal("CuChoinneachDelayed","GLOBAL",3)
-    Dialog([PC])
-END
-
-IF
-  Global("CuChoinneachLeaves","GLOBAL",1)
-  !Hasitem("DSMISC07",Myself)
-//  Numinpartygt(4)
-THEN
-  RESPONSE #100
-    Dialog([PC])
-    Setglobal("CuChoinneachLeaves","GLOBAL",2)
-END
-
-IF
-  Global("CuChoinneachLeaves","GLOBAL",1)
-  Hasitem("DSMISC07",Myself)
-//  Numinpartygt(4)
-THEN
-  RESPONSE #100
-    Dialog([PC])
-    Setglobal("CuChoinneachLeaves","GLOBAL",2)
-END
-/*
-IF
-  Global("CuChoinneachLeaves","GLOBAL",1)
-  !Hasitem("DSMISC07",Myself)
-  Numinpartylt(4)
-THEN
-  RESPONSE #100
-    Dialog([PC])
-    Setglobal("CuChoinneachLeaves","GLOBAL",2)
-END
-
-IF
-  Global("CuChoinneachLeaves","GLOBAL",1)
-  Hasitem("DSMISC07",Myself)
-  Numinpartylt(4)
-THEN
-  RESPONSE #100
-    Dialog([PC])
-    Setglobal("CuChoinneachLeaves","GLOBAL",2)
-END
-*/

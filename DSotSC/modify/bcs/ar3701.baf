@@ -11,27 +11,47 @@ THEN
 END
 
 IF
-	Global("BP_BG1NPC3701","GLOBAL",0)
 	Global("TalkedJeremy","GLOBAL",1)
 	Global("ConchoSpawn","%Nashkel_Inn%",0)
-	LevelLT(Player1,6)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
+		CreateCreature("DSCONCH",[741.304],0)
 		SetGlobal("ConchoSpawn","%Nashkel_Inn%",1)
-		SetGlobal("BP_BG1NPC3701","GLOBAL",1)
-		CreateCreature("DSConch5",[741.304],0)
 END
 
 IF
-	Global("BP_BG1NPC3701","GLOBAL",0)
 	Global("TalkedJeremy","GLOBAL",1)
-	Global("DSConchoSpawn","%Nashkel_Inn%",0)
+	Global("ConchoSpawn","%Nashkel_Inn%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSCONCH2",[741.304],0)
+		SetGlobal("ConchoSpawn","%Nashkel_Inn%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("ConchoSpawn","%Nashkel_Inn%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSCONCH4",[741.304],0)
+		SetGlobal("ConchoSpawn","%Nashkel_Inn%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("ConchoSpawn","%Nashkel_Inn%",0)
 	LevelGT(Player1,5)
 THEN
 	RESPONSE #100
-		SetGlobal("DSConchoSpawn","%Nashkel_Inn%",1)
-		SetGlobal("BP_BG1NPC3701","GLOBAL",1)
-		CreateCreature("DSConch7",[741.304],0)
+		CreateCreature("DSCONCH6",[741.304],0)
+		SetGlobal("ConchoSpawn","%Nashkel_Inn%",1)
 END
 
 IF
@@ -43,5 +63,3 @@ THEN
 	RESPONSE #100
 		ActionOverride("Conchobhair",EscapeAreaDestroy(15))
 END
-
-

@@ -1,6 +1,6 @@
 IF
 	Global("TalkedJeremy","GLOBAL",1)
-	Global("HalfSpawn","GLOBAL",0)
+	Global("HalfSpawn","%GibberlingMountains%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSHALF01",[2044.1480],0)
@@ -13,32 +13,67 @@ THEN
 		CreateCreature("DSHALF04",[2200.1260],5)
 		CreateCreature("DSGNOLLC",[3888.1474],4)
 		CreateCreature("DSFORDRG",[4239.526],3)
-		CreateCreature("DSBARDO",[2990.1630],5)
-		SetGlobal("HalfSpawn","GLOBAL",1)
-		SetGlobal("DragonSpawn","GLOBAL",1)
+		SetGlobal("HalfSpawn","%GibberlingMountains%",1)
+		SetGlobal("DragonSpawn","%GibberlingMountains%",1)
+		Continue()
 END
 
 IF
-	Global("DragonDead","GLOBAL",0)
-	PartyHasItem("DSMISC10")
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BardoSpawn","%GibberlingMountains%",0)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
-		SetGlobal("DragonDead","GLOBAL",1)
-		Continue()
+		CreateCreature("DSBARDO",[2990.1630],5)
+		SetGlobal("BardoSpawn","%GibberlingMountains%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BardoSpawn","%GibberlingMountains%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBARDO2",[2990.1630],5)
+		SetGlobal("BardoSpawn","%GibberlingMountains%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BardoSpawn","%GibberlingMountains%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBARDO4",[2990.1630],5)
+		SetGlobal("BardoSpawn","%GibberlingMountains%",1)
+END
+
+IF
+	Global("TalkedJeremy","GLOBAL",1)
+	Global("BardoSpawn","%GibberlingMountains%",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSBARDO6",[2990.1630],5)
+		SetGlobal("BardoSpawn","%GibberlingMountains%",1)
 END
 
 IF
 	Global("DragonDead","GLOBAL",1)
-	Global("TorquilSpawn","GLOBAL",0)
+	Global("TorquilSpawn","%GibberlingMountains%",0)
 THEN
 	RESPONSE #100
-		CreateCreature("DSTORQUI",[2783.1581],0)
-		SetGlobal("TorquilSpawn","GLOBAL",1)
+		CreateCreature("DSTORQUI",[3980.1378],0)
+		SetGlobal("TorquilSpawn","%GibberlingMountains%",1)
 		Continue()
 END
 
 IF
-	Global("DragonSpawn","GLOBAL",0)
+	Global("DragonSpawn","%GibberlingMountains%",0)
 THEN
 	RESPONSE #100
 		TriggerActivation("TranC006",FALSE)
@@ -46,13 +81,14 @@ THEN
 END
 
 IF
-	Global("DragonSpawn","GLOBAL",1)
-	Global("DragonDoor","GLOBAL",0)
+	Global("DragonSpawn","%GibberlingMountains%",1)
+	Global("DragonDoor","%GibberlingMountains%",0)
+	GlobalGT("SPRITE_IS_DEADDSHALFD","GLOBAL",2)
 THEN
 	RESPONSE #100
+		ActionOverride("Salandiaxarxes",EscapeAreaDestroy(15)) //real fight takes place in DS2110.ARE
 		TriggerActivation("TranC006",TRUE)
-		SetGlobal("DragonDoor","GLOBAL",1)
+		AddMapNote([3824.575],@30001)
+		SetGlobal("DragonDoor","%GibberlingMountains%",1)
 		Continue()
 END
-
-

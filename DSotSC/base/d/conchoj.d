@@ -20,7 +20,7 @@ IF WEIGHT #4 ~True()~ THEN BEGIN 3
 END
 
 IF WEIGHT #2 ~GlobalTimerExpired("Conchob1","GLOBAL")
-!Dead("FORESTDRAGON")
+!Dead("Salandiaxarxes")
 ~ THEN BEGIN 4
   SAY @5
   IF ~~ THEN DO ~LeaveParty()

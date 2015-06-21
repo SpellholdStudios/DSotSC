@@ -498,25 +498,6 @@ Nie mo¿e u¿ywaæ:
  Mnich
  Kensai~
 
-@1020 = ~He³m odwagi Conchobhaira Strongblada~
-@1021 = ~Ten he³m zosta³ zaczarowany aby przynieœæ ochronê przd strachemi atakami mentalnymi. Zwiêksza odwagê nosz¹cego.
-
-STATYSTKI:
-
-Klasa Pancerza: Brak
-Specjalny:
-  Chroni przed trafieniami krytycznymi
-  Chroni przed strachem i niektórymi atakami mentalnymi
-
-Waga: 2
-
-Nie mo¿e u¿ywaæ:
- Mag
- Bard
- Z³odziej
- Mnich
- Kensai~
-
 @1022 = ~Kryszta³owy He³m~
 @1023 = ~Wykonany z magicznych kryszta³ów pochodz¹cych z zapomnianych kopalñ krasnoludów . Kryszta³y maj¹ naturaln¹ odpornoœæ na gor¹co i zimno.
 
@@ -1351,22 +1332,6 @@ Postaæ o neutralnym charakterze~
 @1253 = ~Ten naszejnik Ferium otrzyma³a od Ken'lana, swojego ukochanego. w iskrypcji wygrawerowano "Moja mi³oœæ ku tobie niczym ksiê¿yc poœród mroków"
 
 Jet'Laya zasugerowa³a, by przekazaæ go jej wujowi Lennanowi, który przebywa w Weso³ym ¯onglerze w Beregoœcie~
-
-@1254 = ~Œwiêty amulet Kiê¿ycowego £uku Sehanine~
-@1255 = ~To jest œwiêty amulet wyznawców Ksiê¿ycowego £uku Sehanine. Ksiê¿ycowy kamieñ w kszta³cie p³askiego dysku, na mitrylowym ³añcuszku.
-
-STATYSTKI:
-
-Specjalny:
- Podwaja iloœæ kap³añskich czarów z poziomów 1-3
-  +1 do wszystkich rzutów obronnych
-
-Mo¿e Uzywaæ:
- Kleryk
- Druid
- £owca
- Palladyn
- Postaæ która nie ma z³ego charakteru~
 
 @1256 = ~Prawdziwa natura tego amuletu jest nieznana ale wydaje siê posiadaæ wielk¹ moc.~
 

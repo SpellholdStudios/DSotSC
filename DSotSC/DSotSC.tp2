@@ -17,20 +17,33 @@ AUTO_TRA ~DSotSC/language/%s/D~ //%~
 /////                                                  \\\\\
 
 ALWAYS
+	ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
+		OUTER_SPRINT os_slash ~\~
+		OUTER_SPRINT exe ~.exe~
+		OUTER_SPRINT WEIDU_EXECUTABLE ~setup-DSotSC.exe~
+		OUTER_SPRINT bash_debug ~ 2>&1|DSotSC\bin\win32\mtee.exe DSotSC\bash.debug /A~
+	END ELSE ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ BEGIN
+		OUTER_SPRINT os_slash ~/~
+		OUTER_SPRINT exe ~~
+		OUTER_SPRINT WEIDU_EXECUTABLE ~./DSotSC/weidu~
+		OUTER_SPRINT bash_debug ~ 2>>DSotSC/bash.debug | tee -a DSotSC/bash.debug~
+	END
+	OUTER_SPRINT ~tileconv~ ~DSotSC%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
+
 	ACTION_IF GAME_IS ~bgt~ BEGIN
 		INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
 		OUTER_SPRINT ~platform~ ~bgt~
 		OUTER_SPRINT ~res~ ~normal~
 		OUTER_SPRINT Nashkel_door ~DOOR3704~ //used in ar3700.baf and megacut.baf
-		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT4300~ //patching ARE
-		OUTER_SPRINT GibberlingMountains_entrance ~EXIT5500~ //patching ARE
+		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT3200~ //patching ARE
+		OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~ //patching ARE
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
 		OUTER_SPRINT ~platform~ ~eet~
 		OUTER_SPRINT ~res~ ~ee~
 		OUTER_SPRINT Nashkel_door ~DOOR4804~
-		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT3200~
-		OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~
+		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT4300~
+		OUTER_SPRINT GibberlingMountains_entrance ~EXIT5500~
 	END
 
 	INCLUDE ~DSotSC/lib/macros.tpa~
@@ -54,6 +67,7 @@ ALWAYS
 			infer_charsets = 1
 			STR_VAR
 			tra_path = "DSotSC/language"
+			iconv_path = "DSotSC/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
 			charset_table = charsetsTable
 			reload_array = charsetsReloadArray
 			noconvert_array = charsetsNoConvertArray
@@ -179,13 +193,16 @@ COPY_EXISTING ~interdia.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
 
+OUTER_SET strref = RESOLVE_STR_REF (@30008)
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	APPEND ~item_use.2da~
 ~DSCLCK23 JETLAYA 9382 2
+DSCOARM CONCHOBHAIR 9382 2
 DSCOSWD CONCHOBHAIR 9382 2
 DSCUARM CUCHOINNEACH 9382 2
 DSCUSHLD CUCHOINNEACH 9382 2
 DSCUSWD CUCHOINNEACH 9382 2
+DSMADDIE CUCHOINNEACH %strref% 3
 DSFEAXE FERTHGIL 9382 2
 DSFEHELM FERTHGIL 9382 2
 DSJEARM JETLAYA 9382 2
@@ -570,10 +587,6 @@ COPY ~DSotSC/base/itm/dsebhelm.itm~ ~override~
 	SAY NAME2 @1018
 	SAY DESC @1019
 
-COPY ~DSotSC/base/itm/dscohelm.itm~ ~override~
-	SAY NAME2 @1020
-	SAY DESC @1021
-
 COPY ~DSotSC/base/itm/dscryhlm.itm~ ~override~
 	SAY NAME2 @1022
 	SAY DESC @1023
@@ -871,6 +884,12 @@ COPY ~DSotSC/base/itm/dspotn01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1245
 	SAY DESC @1245
 
+COPY ~DSotSC/base/itm/dsward1.ITM~ ~override~ //quest item
+	SAY NAME1 @30002
+	SAY NAME2 @30002
+	SAY UNIDENTIFIED_DESC @30003
+	SAY DESC @30003
+
 // Amulets, Necklaces
 
 COPY ~DSotSC/base/itm/dsamul01.itm~ ~override~
@@ -880,10 +899,6 @@ COPY ~DSotSC/base/itm/dsamul01.itm~ ~override~
 COPY ~DSotSC/base/itm/dsamul02.itm~ ~override~ //quest item
 	SAY NAME2 @1251
 	SAY DESC @1253
-
-COPY ~DSotSC/base/itm/dsamul03.itm~ ~override~
-	SAY NAME2 @1254
-	SAY DESC @1255
 
 COPY ~DSotSC/base/itm/dsamul04.itm~ ~override~
 	SAY DESC @1256
@@ -1348,6 +1363,9 @@ COPY ~DSotSC/base/cre/dsbanshe.cre~ ~override~
 	SAY NAME2 @2001
 
 COPY ~DSotSC/base/cre/dsbardo.cre~ ~override~
+	~DSotSC/base/cre/dsbardo2.cre~ ~override~
+	~DSotSC/base/cre/dsbardo4.cre~ ~override~
+	~DSotSC/base/cre/dsbardo6.cre~ ~override~
 	SAY NAME1 @2002
 	SAY NAME2 @2002
 	SAY 0xa4  @20301 //INITIAL_MEETING
@@ -1414,6 +1432,8 @@ COPY ~DSotSC/base/cre/dsblane.cre~ ~override~
 	SAY NAME2 @2003
 
 COPY ~DSotSC/base/cre/dsbub.cre~ ~override~
+	~DSotSC/base/cre/dsbub2.cre~ ~override~
+	~DSotSC/base/cre/dsbub4.cre~ ~override~
 	~DSotSC/base/cre/dsbub6.cre~ ~override~
 	SAY NAME1 @2004
 	SAY NAME2 @2004
@@ -1472,8 +1492,10 @@ COPY ~DSotSC/base/cre/dsclars.cre~ ~override~
 		REPLACE_CRE_ITEM ~RNDTRE3_~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 	END
 
-COPY ~DSotSC/base/cre/dsconch5.cre~ ~override~
-	~DSotSC/base/cre/dsconch7.cre~ ~override~
+COPY ~DSotSC/base/cre/dsconch.cre~ ~override~
+	~DSotSC/base/cre/dsconch2.cre~ ~override~
+	~DSotSC/base/cre/dsconch4.cre~ ~override~
+	~DSotSC/base/cre/dsconch6.cre~ ~override~
 	SAY NAME1 @2008
 	SAY NAME2 @2008
 	SAY 0xa4  @20101 //INITIAL_MEETING
@@ -1519,8 +1541,10 @@ COPY ~DSotSC/base/cre/dscooshe.cre~ ~override~
 	SAY NAME1 @2047
 	SAY NAME2 @2047
 
-COPY ~DSotSC/base/cre/dscuch5.cre~ ~override~
-	~DSotSC/base/cre/dscuch7.cre~ ~override~
+COPY ~DSotSC/base/cre/dscucho.cre~ ~override~
+	~DSotSC/base/cre/dscucho2.cre~ ~override~
+	~DSotSC/base/cre/dscucho4.cre~ ~override~
+	~DSotSC/base/cre/dscucho6.cre~ ~override~
 	SAY NAME1 @2048
 	SAY NAME2 @2048
 	SAY 0xa4  @20201 //INITIAL_MEETING
@@ -2448,6 +2472,16 @@ COPY ~DSotSC/base/are/%platform%/nostring~ ~override~
 COPY ~DSotSC/base/are/%platform%/dsc010.are~ ~override~
 	SAY 0x1f4c @2302
 
+COPY ~DSotSC/base/are/%platform%/dsc006.are~ ~override~
+	SAY 0x418 @30004
+	SAY 0x4DC @30004
+	SAY 0x5A0 @30004
+	SAY 0x664 @30004
+	SAY 0x728 @30004
+	SAY 0x7EC @30005
+	SAY 0x1D88 @30006
+	SAY 0x1DBC @30007
+
 // Modify existing areas
 
 // %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020.ARE
@@ -3358,10 +3392,8 @@ COPY ~DSotSC/base/bam~ ~override~
 ///// extract tilsets & audio                          \\\\\
 /////                                                  \\\\\
 
-LAF HANDLE_TILESETS
-	STR_VAR
-    tiz_path = ~DSotSC/base/tiz~
-	tisunpack_path = ~DSotSC/bin~
+ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
+	AT_NOW ~%tileconv% -e -o "override%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
 END
 
 LAF HANDLE_AUDIO
@@ -3439,7 +3471,7 @@ ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Nn]~ = 1) BEGIN //disable biffin
 
 	MKDIR ~DSotSC/biff~
 
-	ACTION_BASH_FOR ~DSotSC/base/tiz~ ~^.*$~ BEGIN
+	ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.*$~ BEGIN
 		MOVE ~override/%BASH_FOR_RES%.tis~ ~DSotSC/biff~
 	END
 	ACTION_BASH_FOR ~DSotSC/base/ogg~ ~^.*$~ BEGIN

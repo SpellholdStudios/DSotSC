@@ -1,0 +1,40 @@
+IF
+	Global("Tran2110Deactivated","DSC006",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Tran2110Deactivated","DSC006",1)
+		TriggerActivation("Tran2110",FALSE)
+		Continue()
+END
+
+IF
+	Dead("Salandiaxarxes")
+	Global("TBGDragonDead","DSC006",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TBGDragonDead","DSC006",1)
+		Continue()
+END
+
+IF
+	Global("Tran2110Deactivated","DSC006",1)
+	Global("TBGDragonDead","DSC006",1)
+	PartyHasItem("DSWARD1") // Wardstone
+THEN
+	RESPONSE #100
+		SetGlobal("Tran2110Deactivated","DSC006",2)
+		//SetGlobal("TBGDragonLairOpen","GLOBAL",1)
+		TriggerActivation("Tran2110",TRUE)
+		TriggerActivation("NoLair",FALSE)
+		Continue()
+END
+
+IF
+	Global("DragonDead","GLOBAL",0)
+	Global("TBGDragonDead","DSC006",1)
+	PartyHasItem("DSMISC10") // Ancient Relic of Lathander
+THEN
+	RESPONSE #100
+		SetGlobal("DragonDead","GLOBAL",1)
+		Continue()
+END

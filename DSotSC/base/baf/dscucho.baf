@@ -1,0 +1,139 @@
+IF
+  Global("TalkedGillian","GLOBAL",1)
+  Global("CuChoinneach","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CuChoinneach","GLOBAL",1)
+END
+
+IF
+  Global("CuChoinneach","GLOBAL",1)
+  Global("ShadowWolfStart","GLOBAL",0)
+  Global("ShadowWolf","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ShadowWolf","GLOBAL",1)
+    SetGlobal("ShadowWolfStart","GLOBAL",1)
+END
+
+IF
+  Global("CuChoinneach","GLOBAL",1)
+  GlobalTimerExpired("ShadowWolfDie","GLOBAL")
+  Global("ShadowWolf","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("ShadowWolf","GLOBAL",1)
+END
+
+IF
+  Global("CuChoinneach","GLOBAL",1)
+  !Exists("BUBBA")
+  Global("ShadowWolf","GLOBAL",0)
+  Global("ShadowWolfClaw","GLOBAL",1)
+  Exists("CuChoinneach")
+THEN
+  RESPONSE #100
+    SetGlobal("ShadowWolf","GLOBAL",1)
+    SetGlobal("ShadowWolfClaw","GLOBAL",0)
+END
+
+IF
+  Global("CuChoinneach","GLOBAL",1)
+  !Exists("BUBBA")
+  Global("ShadowWolf","GLOBAL",2)
+  Global("ShadowWolfClaw","GLOBAL",1)
+  Exists("CuChoinneach")
+THEN
+  RESPONSE #100
+    SetGlobal("ShadowWolf","GLOBAL",1)
+    SetGlobal("ShadowWolfClaw","GLOBAL",0)
+END
+
+IF
+  Global("CuChoinneach","GLOBAL",1)
+  Global("ShadowWolf","GLOBAL",1)
+  Exists("CuChoinneach")
+  Global("DSCuchClairs","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DSWLFSHD",[-1.-1],0)
+    SetGlobal("ShadowWolf","GLOBAL",2)
+    SetGlobal("ShadowWolfClaw","GLOBAL",0)
+END
+
+IF
+  Global("VampirDead","GLOBAL",0)
+  !PartyHasItem("DSMISC07")
+  Global("TalkedClairis","GLOBAL",0)
+  Global("CuChoinneachDelayed","GLOBAL",0)
+  GlobalTimerExpired("CuChoin","GLOBAL")
+THEN
+  RESPONSE #100
+    Dialog([PC])
+    SetGlobal("CuChoinneachDelayed","GLOBAL",1)
+END
+
+IF
+  Global("TalkedClairis","GLOBAL",0)
+  Global("VampirDead","GLOBAL",0)
+  !PartyHasItem("DSMISC07")
+  Global("CuChoinneachDelayed","GLOBAL",1)
+  GlobalTimerExpired("Cu1st","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CuChoinneachDelayed","GLOBAL",2)
+    Dialog([PC])
+END
+
+IF
+  Global("TalkedClairis","GLOBAL",0)
+  Global("VampirDead","GLOBAL",0)
+  !PartyHasItem("DSMISC07")
+  Global("CuChoinneachDelayed","GLOBAL",2)
+  GlobalTimerExpired("Cu2nd","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CuChoinneachDelayed","GLOBAL",3)
+    Dialog([PC])
+END
+
+IF
+  Global("CuChoinneachLeaves","GLOBAL",1)
+  !HasItem("DSMISC07",Myself)
+  //NumInPartyGT(4)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+    SetGlobal("CuChoinneachLeaves","GLOBAL",2)
+END
+
+IF
+  Global("CuChoinneachLeaves","GLOBAL",1)
+  HasItem("DSMISC07",Myself)
+  //NumInPartyGT(4)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+    SetGlobal("CuChoinneachLeaves","GLOBAL",2)
+END
+/*
+IF
+  Global("CuChoinneachLeaves","GLOBAL",1)
+  !HasItem("DSMISC07",Myself)
+  NumInPartyLT(4)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+    SetGlobal("CuChoinneachLeaves","GLOBAL",2)
+END
+
+IF
+  Global("CuChoinneachLeaves","GLOBAL",1)
+  HasItem("DSMISC07",Myself)
+  NumInPartyLT(4)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+    SetGlobal("CuChoinneachLeaves","GLOBAL",2)
+END
+*/

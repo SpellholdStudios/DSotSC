@@ -1,4 +1,5 @@
 IF
+  AreaCheck("%GibberlingMountains%")
   !See([GOODCUTOFF])
 THEN
   RESPONSE #100

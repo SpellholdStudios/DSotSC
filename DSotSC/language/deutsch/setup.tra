@@ -501,23 +501,6 @@ Kann nicht verwendet werden von:
  Dieben
  Mönchen
  Kensai~
-@1020 = ~Conchobhairs Helm des Mutes~
-@1021 = ~Dieser Helm wurde so verzaubert, dass er etwas Schutz gegen mentale Attacken und Furcht bietet. Er erhöht außerdem die Moral des Trägers.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Besonderheit:
- Schützt vor kritischen Treffern
- Schützt vor Furcht und verschiedenen geistigen Angriffen
-
-Gewicht: 2
-
-Kann nicht verwendet werden von:
- Magiern
- Barden
- Dieben
- Mönchen
- Kensai~
 @1022 = ~Kristallhelm~
 @1023 = ~Dieser Helm wurde aus magischen Kristallen hergestellt, welche in einer längst vergessenen Zwergenmine gefördert wurden. Die Kristalle haben eine natürliche Resistenz gegen Feuer und Kälte.
 
@@ -1307,22 +1290,6 @@ Kann nur verwendet werden von:
 @1253 = ~Diese Halskette erhielt Ferium von ihrem Auserwählten, Ken'lan. Die Gravur auf der Rückseite lautet: "Meine Liebe für Dich, bis der Mond verblasst".
 
 Jet'laya hat angemerkt, dass Ihr die Kette zu Lennan im Windigen Schwindler in Beregost bringen solltet.~
-@1254 = ~Heiliges Mondamulett von Sehanine Mondbogen~
-@1255 = ~Dies ist das heilige Amulett der Anhänger von Sehanine Mondbogen. Ein Mondriegel in der Form eines kleinen, flachen Steines (ca. 8 cm im Durchmesser) schmückt eine Halskette aus Mithril.
-
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Besonderheit:
- Verdoppelt alle Priestersprüche 1., 2. und 3. Grades
- +1 auf alle Rettungswürfe
-
-Kann verwendet werden von:
- Priestern
- Druiden
- Waldläufern
- Paladinen
- (Nicht-böse)~
 @1256 = ~Die wahre Natur dieses Amuletts bleibt Euch verborgen, doch Ihr könnt spüren, dass es sehr mächtig sein muss.~
 @1257 = ~Amulett der Segoy~
 @1258 = ~Dieses Amulett trägt das Erkennungszeichen der Segoy, einer unbarmherzigen Bande von Mördern. Das Böse scheint sich aus seinem Innern zu ergießen, während Ihr es in der Hand haltet.

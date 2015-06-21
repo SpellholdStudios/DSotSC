@@ -492,25 +492,6 @@ Non utilizzabile da:
  Ladro Monaco
  Kensai~
 
-@1020 = ~Elmo di Coraggio di Conchobhair Strongblade~
-@1021 = ~Questo Elmo è stato incantato per fornire qualche protezione contro la paura e gli attacchi mentali. Aiuta sempre chi lo indossa ad avere coraggio.
-
- STATISTICHE:
-
-Classe Armatura Bonus: Nessuno
-Speciale:
-  Protegge Contro i Colpi Critici
-  Protegge dalla Paura e dagli Attacchi Mentali
-
-Peso: 2
-
-Non utilizzabile da:
- Mago
- Bardo
- Ladro
- Monaco
- Kensai~
-
 @1022 = ~Elmo di Cristallo~
 @1023 = ~Creato con i magici cristalli di una Miniera Nanica ora abbandonata. I cristalli hanno una naturale protezione al caldo ed al freddo.
 
@@ -1327,22 +1308,6 @@ Utilizzabile solo da:
 @1253 = ~Questa collana è stata donata a Ferium dal suo amato, Ken'lan. L'iscrizione sul retro dice "Per te amore mio fino a quando la luna finisce di scolorire."
 
 Jet'Laya ha suggerito di portarla a Lennan, lo zio di Ferium, che sta aspettando al Giocoliere Giocoso a Beregost.~
-
-@1254 = ~Amuleto Sacro di Sehanine Moonbow~
-@1255 = ~Questo è l'Amuleto Sacro dei seguaci di Sehanine Moonbow. E' formato da una collana di mithril e da un raggio di luna di cristallo, tipo ciondolo, dalla forma di un disco piatto, (circa 7,62 centimetri di diametro) da indossare intorno al collo.
-
-STATISTICHE:
-
-Speciale:
-  Raddoppia tutti gli incantesimi del Sacerdote del 1°, 2° e 3° Livello
-  +1 a tutti i tiri salvezza
-
-Utilizzabile da:
- Chierico
- Druido
- Ranger
- Paladino
- Personaggi di Allineamento Non malvagio~
 
 @1256 = ~La vera natura di questo amuleto è sconosciuta. Sembra avere grandi poteri.~
 

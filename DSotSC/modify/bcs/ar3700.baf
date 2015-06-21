@@ -1,21 +1,21 @@
 IF
-	Global("MoppySpawn","GLOBAL",0)
+	Global("MoppySpawn","%Nashkel%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSMOPPY",[1654.1054],0)
-		SetGlobal("MoppySpawn","GLOBAL",1)
+		SetGlobal("MoppySpawn","%Nashkel%",1)
 		Continue()
 END
 
 IF
 	Global("FindRelic","GLOBAL",1)
-	Global("DeazleSpawn","GLOBAL",0)
+	Global("DeazleSpawn","%Nashkel%",0)
 	!Exists("DSDeazle")
 	!Dead("DSDeazle")
 THEN
 	RESPONSE #100
 		CreateCreature("DSDEAZLE",[1194.619],0)
-		SetGlobal("DeazleSpawn","GLOBAL",1)
+		SetGlobal("DeazleSpawn","%Nashkel%",1)
 		Continue()
 END
 
@@ -33,14 +33,14 @@ END
 
 IF
 	Global("DragonDead","GLOBAL",1)
-	Global("MeganSpawn","GLOBAL",0)
+	Global("MeganSpawn","%Nashkel%",0)
 	!Exists("DSMegan")
 	!Dead("DSMegan")
 THEN
 	RESPONSE #100
 		Unlock("%Nashkel_door%")
 		CreateCreature("DSMEGAN",[4246.1970],0)
-		SetGlobal("MeganSpawn","GLOBAL",1)
+		SetGlobal("MeganSpawn","%Nashkel%",1)
 		Continue()
 END
 
@@ -67,5 +67,3 @@ THEN
 		SetGlobal("KaterinSpawn","GLOBAL",1)
 		Continue()
 END
-
-
