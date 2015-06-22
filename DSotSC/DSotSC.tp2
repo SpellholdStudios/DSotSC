@@ -207,6 +207,7 @@ DSCUARM CUCHOINNEACH 9382 2
 DSCUSHLD CUCHOINNEACH 9382 2
 DSCUSWD CUCHOINNEACH 9382 2
 DSFEAXE FERTHGIL 9382 2
+DSFEARM FERTHGIL 9382 2
 DSFEHELM FERTHGIL 9382 2
 DSJEARM JETLAYA 9382 2
 DSJESHLD JETLAYA 9382 2
@@ -740,13 +741,6 @@ COPY ~DSotSC/base/itm/dsbrac04.itm~ ~override~
 
 // Rings
 
-COPY ~DSotSC/base/itm/dszrng03.itm~ ~override~
-	SAY DESC @1124
-
-COPY ~DSotSC/base/itm/dsrng01.itm~ ~override~
-	SAY NAME2 @1125
-	SAY DESC @1126
-
 COPY ~DSotSC/base/itm/dsrng02.itm~ ~override~
 	SAY NAME2 @1127
 	SAY DESC @1128
@@ -958,9 +952,6 @@ COPY ~DSotSC/base/itm/dsboot02.itm~ ~override~
 
 // Shields
 
-COPY ~DSotSC/base/itm/dsshld02.itm~ ~override~
-	SAY DESC @1300
-
 COPY ~DSotSC/base/itm/dscushld.itm~ ~override~ //used in cuchoinj.d, cuchoinp.d, dsculeav.spl
 	SAY NAME2 @1302
 	SAY DESC @1304
@@ -1041,10 +1032,6 @@ COPY ~DSotSC/base/itm/dsswd07.itm~ ~override~
 COPY ~DSotSC/base/itm/dsswd08.itm~ ~override~
 	SAY NAME2 @1356
 	SAY DESC @1358
-
-COPY ~DSotSC/base/itm/dsswd10.itm~ ~override~
-	SAY NAME2 @1361
-	SAY DESC @1362
 
 COPY ~DSotSC/base/itm/dscuswd.itm~ ~override~ //used in cuchoinj.d, cuchoinp.d, dsculeav.spl
 	SAY NAME2 @1363
@@ -1161,10 +1148,6 @@ COPY ~DSotSC/base/itm/dsdagg02.itm~ ~override~
 COPY ~DSotSC/base/itm/dskexbow.itm~ ~override~
 	SAY NAME2 @1446
 	SAY DESC @1448
-
-COPY ~DSotSC/base/itm/dsxbow01.itm~ ~override~
-	SAY NAME2 @1449
-	SAY DESC @1450
 
 COPY ~DSotSC/base/itm/dsgbbow.itm~ ~override~
 	SAY NAME2 @1452
@@ -2774,7 +2757,6 @@ COPY_EXISTING ~amaran.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSCDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
 	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSDRGSKN~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSZRNG03~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 	ADD_CRE_ITEM ~DSWRLSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
 
@@ -3064,7 +3046,6 @@ COPY_EXISTING ~slythe.cre~ ~override~
 	REMOVE_CRE_ITEM ~SHLD08~ ~LEAT04~ ~SW1H10~ ~XBOW04~
 	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSAMUL06~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSXBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
 	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
 	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
 
@@ -3164,7 +3145,6 @@ COPY_EXISTING ~friend.sto~ ~override~
 COPY_EXISTING ~highhedg.sto~ ~override~
 	ADD_STORE_ITEM ~DSROBE07~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~DSROBESO~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSZRNG03~ #0 #0 #0 ~IDENTIFIED~ #1
 	ADD_STORE_ITEM ~SCRL1J~ #0 #0 #0 ~IDENTIFIED~ #2
 	ADD_STORE_ITEM ~SCRL7G~ #0 #0 #0 ~IDENTIFIED~ #2
 	ADD_STORE_ITEM ~SCRLA5~ #0 #0 #0 ~IDENTIFIED~ #2

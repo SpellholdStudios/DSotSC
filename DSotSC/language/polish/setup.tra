@@ -1017,23 +1017,6 @@ Waga: 1
 Mo¿e u¿ywaæ:
  Kleryk (Jedno lub wieloklasowy)~
 
-@1123 = ~Pierœcieñ swobody ruchów~
-@1124 = ~Ten pierœcieñ otrzyma³ badacz raf i myœliwy - znany jedynie jako Edventar - od grupy morskich elfów, które przez d³ugi czas by³y jego przyjació³mi. Pomoc Edventar przy unikaniu "Królowej Piratów" z Dambrath by³a podstaw¹ przetrwania elfów. Mimo to Yenandry wci¹¿ obawiano siê wszêdzie tam, gdzie woda spotyka³a siê z l¹dem.
-
-STATYSTKI:
-
-Specjalne: nosz¹cy pierœcieñ jest odporny na ka¿de magiczne i naturalne dzia³anie, które w jakikolwiek sposób wp³ywa na swobodê ruchów; mimo to mo¿e zostaæ przyspieszony. Moc tego przedmiotu nie wp³ywa na dzia³anie butów szybkoœci lub innych przedmiotów.~
-
-@1125 = ~Pierœcien Pradawnych~
-@1126 = ~W czasach istnienia rasy Pradawnych stworzono wiele magicznych przedmiotów. Ale wiêkszoœæ wiedzy o ich ówczesnym przeznaczeniu pozostaje tajemnic¹ nawet dla ich spadkobierców.
-
-STATYSTKI:
-
-Dodaje po 1 zaklêciu z ksiêgi kap³ana i maga z poziomow 1-4
-
-Mo¿e u¿ywaæ:
- Kleryk-Mag (Tylko wielkoklasowiec)~
-
 @1127 = ~Pierœcieñ ucznia~
 @1128 = ~Podobne pierœcienie to czêste atrubuty m³odych, uzdolnionych adeptów sztuki czarnoksiêskiej.
 
@@ -1427,24 +1410,6 @@ Nie mo¿e u¿ywaæ:
  Z³odziej
  Zabójca Magów~
 
-@1300 = ~Pawê¿ +2
-Tê tarczê wykonali, najlepsi krasnoludzcy kowale na zamówienie Pellana, s³ynnego paladyna Tyra, znanego zarówno z wielkiej odwagi, jak i zupe³nego braku zdrowego rozs¹dku. Gdy us³ysza³ on, ¿e czerwony smok pustoszy okolicê, wsiad³ na konia i wyruszy³ na bitwê. Zarówno on jak i jego zbroja ³atwo strawieni, jednak ta tarcza wywo³a³a u smoka powa¿ne bóle brzucha.. Wykrztusi³ j¹ wiêc i przele¿a³a na jego stosie skarbów a¿ do czasu, gdy odzyska³ j¹ syn Pellana - paladyn, który potrafi³ siê skradaæ. Jej doskona³e wykonanie wspomagane jest sta³ym zaklêciem lekkoœci, przez co tarcza ta jest bardzo ³atwa w u¿yciu.
-
-STATYSTKI:
-
-Klasa Pancerza: + 3
-Specjalny: +1 przeciw pociskom
-Waga: 10
-Wymaga: 10 Si³y
-
-Nie mo¿e u¿ywaæ:
- Bard
- Druid
- Mag
- Z³odziej
- Mnich
- Kensai~
-
 @1302 = ~Ma³a tarcza CúChoinneacha +3 'The Moon'~
 @1304 = ~Posiadaj¹c swój sejmitar, CúChoinneach postanowi³ uzupe³niæ swoje wyposa¿enie o w³aœnie tak¹ tarczê. Jest wykonana z mitrylu i najtwardszego leœnego drewna.
 
@@ -1824,24 +1789,6 @@ Wymaga: 12 Si³y
 
 Mo¿e Uzywaæ:
  Palladyn~
-
-@1361 = ~Two Handed Sword +2~
-@1362 = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to swing the sword properly. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
-
-STATISTICS:
-
-THAC0: +2
-Damage: 1D10 + 2
-Damage type: slashing
-Weight: 15
-Speed Factor: 10
-Proficiency Type: Two Handed Sword
-Type: 2-handed
-Not Usable By:
- Druid
- Cleric
- Mage
- Thief~
 
 @1363 = ~Mairial '£owca Œmierci'~
 @1364 = ~To jest osobisty sejmitar CúChoinneacha. Wykonany z czystego mitrylu i wystawiony na o¿ywcze œwiat³o ksiê¿yca w pe³ni, pod nadzorem Sehanine Moonbow, elfickiej bogini. Sama bogini odwiedzi³a go we œnie, wkrótce po œmierci jego wybranki Fia'nny, zabitej przez hordê nieumar³ych. Sehanine powiedzia³a CúChoinneachowi, by sta³ siê ³owc¹, a bogini wybierze go jako sw¹ d³oñ karz¹c¹ wszystkie nieumar³e i pod³e kreatury Faerunu. Ostrze zaœ stanie siê symbolem ich przymierza. Ale nawet CúChoinneach nie zna prawdziwej mocy tej broni.
@@ -2426,27 +2373,6 @@ Typ: Dwurêczny
 
 Mo¿e u¿ywaæ:
  Keiria Silverstring~
-
-@1449 = ~Kusza Cienia~
-@1450 = ~Kusza jest ³ukiem zatkniêtym poprzecznie na drewnianym lub metalowym drzewcu. Zazwyczaj jest wykonana z jesionu albo cisu. Strzela pociskami, które zwane s¹ be³tami. Ten egzemplarz jest ulubionym atrybutem ³otrzyków w Krainach, a szczególnie tych pochodz¹cych z Calimportu, gdzie spotkaæ mo¿na naprawdê zabójcze wersje tej broni.
-
-STATYSTKI:
-
-Obra¿enia: +1 (pocisk)
-Trak0: +
-Waga: 6
-OpóŸnienie: 2
-Rodzaj Bieg³oœci: Kusza
-Typ: Dwurêczny
-Wymaga: 8 Si³y
-
-Nie mo¿e u¿ywaæ:
- Druid
- Kleryk
- Mag
- Mnich
- Kensai
- Kawaler~
 
 @1452 = ~Elfi £uk, Zguba Goblinów~
 @1454 = ~Elfy stwarza³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.

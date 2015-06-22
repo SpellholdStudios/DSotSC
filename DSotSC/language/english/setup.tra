@@ -469,7 +469,7 @@ Only usable by:
  Druid~
 
 @1004 = ~Crown of the Shar'DuKha~
-@1005 = ~Crown of the Shar'DuKha 'The Wizard's Helm'
+@1005 = ~Crown of the Shar'DuKha: 'The Wizard's Helm'
 This crown is from the Shar'DuKha, the Elemental Templers. Crafted for users of magic it offers them protections they usually have to abandon in pursuit of their art.
 
 STATISTICS:
@@ -641,17 +641,17 @@ Only usable by:
  Druid~
 
 @1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
-@1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +4 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
+@1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +2 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
 
 STATISTICS:
 
-Armor Class: -1
+Armor Class: 1 (-2 vs. slashing)
 
 Weight: 30
 Requires: 14 Strength
 
 Only usable by:
- Dwarves and Gnomes~
+ Ferthgil Trollslayer~
 
 @1039 = ~Conchobhair Strongblade's Blessed Plate Mail Armor~
 @1040 = ~Blessed Plate Mail Armor
@@ -720,7 +720,7 @@ Only usable by:
  Paladin
  Cleric (Lawful Good Only)~
 
-@1055 = ~Chain Mail +2 'Blessed Chain Mail'~
+@1055 = ~Chain Mail +2: 'Blessed Chain Mail'~
 @1056 = ~This +2 Chain Mail is often worn by priests who are on quests for their faiths. When worn, the priest is blessed with an aid spell.
 
 STATISTICS:
@@ -765,22 +765,20 @@ Weight: 15
 Only usable by:
  Jet'laya~
 
-@1061 = ~Splint Mail Armor 'Korim's Skin'~
-@1062 = ~Forged by the Netherese sorcerer/ranger Korim, this green tinged splint mail is imbued with strong enchantments. The strange metal (a copper and uranium mix) is light and supple, yet nearly impervious to blows of any kind. The mail allowed Korim to use his abilities to their fullest. Moreover, the strange metal has proven to have an extraordinary side-effect - it heals the wearer.
+@1061 = ~Splint Mail Armor: 'Korim's Skin'~
+@1062 = ~Curiously tinged with green, this heavily enchanted armor is unusually light and supple for splint mail. Constructed by the Netherese sorcerer and ranger Korim, it allowed him far greater protection than robes while also enabling him to take full advantage of his range of casting ability.
 
 STATISTICS:
 
-Armor Class: 4
+Armor Class: 4 (3 vs. piercing and missile, 2 vs. crushing)
 Special:
-  Regeneration 1HP every 2 rounds
-  Mage Skills Unimpaired
+  Does not impair casting ability
 
 Weight: 7
 
 Not Usable By
  Druid
  Mage
- Thief
  Monk
  Archer
  Stalker
@@ -910,8 +908,8 @@ Weight: 3
 Only usable by:
  Mages (Single, Dual, and Multi-class)~
 
-@1083 = ~Drow Mage Robe~
-@1084 = ~High level drow mages wear a robe that provides a 75% chance of remaining undetected in shadows. The material used to make these robes does not cut easily and is fire resistant; giving the robe a +6 bonus to saving throws vs. fire. These robes can only be worn by those of elven size and build.
+@1083 = ~Drow Mage Cloak~
+@1084 = ~Powerful drow mages are often seen wearing fine cloaks that cause them to blend into their surroundings, making it quite difficult to face them in battle. The material used to make these cloaks does not cut easily and is fire resistant.
 
 This item, like most drow equipment, is created using adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
 
@@ -1097,22 +1095,6 @@ Weight: 1
 Only usable by:
  Cleric (single and multi-classed)~
 
-@1124 = ~This ring was given to the reef scavenger and hunter known only as Edventar, by a group of aquatic elves long his friends. His help in routing the "Pirate Queen" of Dambrath was instrumental in their survival, though Yenandra continues to be feared anywhere the water meets land.
-
-STATISTICS:
-
-The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted. This ring has been enchanted so that beneficial effects such as those received from the boots of speed still function while wearing the ring.~
-
-@1125 = ~Ring of the Ancients~
-@1126 = ~Created by a race known as the Ancients. Many of the abilities and uses of the relics that remain from that time are unknown to even the descendants of the Ancients.
-
-STATISTICS:
-
-Adds one mage and one priest spell for levels 2 and 3
-
-Only usable by:
- Cleric-Mage (multiclass only)~
-
 @1127 = ~Apprentice's Ring~
 @1128 = ~Similar rings are often given to apprentice's that show exceptional skill or merit.
 
@@ -1137,7 +1119,7 @@ Usable by:
  Ranger~
 
 @1133 = ~Mopap's Lucky Rune Wardstone~
-@1135 = ~Many rumors have been passed around the Sword Coast about a chirping squirrel that has a lucky wardstone. However, no one has been able to confirm these rumors.
+@1135 = ~Many rumors are passed around the Sword Coast about a chirping squirrel that guards a lucky wardstone. However, no one had ever been able to confirm these rumors until now.
 
 STATISTICS:
 
@@ -1202,16 +1184,14 @@ Special: Protection from Petrification (1/day)
 Only usable by:
  Paladin~
 
-@1146 = ~Ring of Fire Shielding~
-@1147 = ~Ring of Fire Shielding, "Charvirak's Glow"
-Since the dawn of time Warlocks have used the elements around them to both attack and defend. This ring was the handiwork of a great warlock Charvirak of Corymer. It is said that he stole the essence of a fire golem and trapped it within the ring.
+@1146 = ~Ring of Fire Shielding: 'Charvirak's Glow'~
+@1147 = ~During the invasion of the Black Horde, in which even the southern nations were overrun, the druid Charvirak sought desperately to protect the Forest of Tethir from the fires started by rampaging orcs and goblins. Capturing the essence of an efreeti in this ring, he used it to walk directly through the flames of the burning trees, putting them out before they could cause any lasting damage.
 
 STATISTICS:
 
 Armor Class Bonus +1
 Special:
-  Resistance to Non-Magical Weapons (1/day, 1 turn)
-  25% Resistance to Fire
+  30% Resistance to Fire
 
 Only usable by:
  Druid~
@@ -1220,37 +1200,38 @@ Only usable by:
 @1149 = ~This ring belonged to Jet'laya's mother.~
 
 @1151 = ~Davaeorn,
-My sources have told me that a small band of mercenaries, some of which may be members of the Harpers were in the area of the Friendly Arm Inn. I sent Tarnesh to investigate and stop whoever it is, but I have not heard back from him. I suggest you send Drasus and Genthore to the Friendly Arm Inn immediately. Notify Tazok of the situation.
 
-Reiltar~
+My sources have told me that a small band of mercenaries, some of whom may be members of the Harpers, were in the area of the Friendly Arm Inn. I sent Tarnesh to investigate and stop them, but I have not heard back from him. I suggest you send Drasus and Genthore to the Friendly Arm Inn immediately, and notify Tazok of the situation.
+
+Rieltar~
 @1152 = ~Otho my friend,
 
-Here are the brave adventurers that I told ye about. I would appreciate it if you would create for them a mace of the finest quality and strength. They performed a great service for me and have proved themselves worthy. The weapon will be very important to them in the very near future.
+These are the brave adventurers I spoke of whom I spoke. I would be grateful if you would create for them a mace of the finest quality and strength. They performed a great service for me and have proved themselves worthy. The weapon will be very important to them in the very near future.
 
 Your friend,
- Lennan~
+Lennan~
 @1153 = ~Lord Daerthmac,
 
 I devote my body, soul and mind to serve ye and love thee as I have never known.
 
 Yours for eternity,
- Clairis~
+Clairis~
 @1154 = ~Friends,
-You acted bravely and honorable. With your help we stopped Lord Daerthmac from spreading terror any further. I regret that so many of you have lost your lives. I should have never endangered you in a fight that was mine alone. I leave now because that is the way of my life. However, if I were to ever adventure with a group again, I would hope that they are as brave and honorable as you.
+
+You acted bravely and honorably. With your help we stopped Daerthmac from spreading terror any further. But I must now depart, for my mission is not yet ended. Other evils still threaten the Sword Coast and beyond, and I fear that we may not have heard the last of the vampire or his ilk. However, if I were to ever adventure with a group again, I would hope that they are as brave and honorable as you.
 
 Fare thee well,
- CúChoinneach agus Madadh n'Sgàil~
+CúChoinneach agus Madadh n'Sgail~
 @1155 = ~Letter to Thomic~
 @1156 = ~Thomic,
-You left the shopping list at home again. Do not forget to bring these goods with you when you come home.
+
+You left the shopping list at home again. Don't forget to bring these goods with you when you come home:
 
 Bread
 Milk
 Chicken
 
-Make sure they are fresh. Also did you bring your rain tunic? It looks like it may rain.
-
-Hurry back and try no to stop at every bar between here and there.
+Make sure they are fresh. Also, did you bring your rain tunic? It looks like it may rain. Hurry back and try not to stop at every bar between here and there.
 
 Katerin~
 @1157 = ~Berrto Ghaskill~
@@ -1511,24 +1492,7 @@ Not Usable By:
  Thief
  Wizardslayer~
 
-@1300 = ~This shield was commissioned from the finest dwarven smiths by Pellan of Tyr, a renowned paladin who was known for his unquestioning courage and total lack of common sense. Upon hearing that a red dragon was ravaging the countryside, Pellan mounted his horse and rode off to do battle. Pellan and his armor digested readily but the shield gave the dragon severe stomach cramps. He coughed it up and it lay in his treasure pile for several years until it was retrieved by Pellan's son, a paladin who knew when to sneak. The superior craftsmanship is supplemented by a permanent lightness spell, which makes the shield very easy to wield.
-
-STATISTICS:
-
-Armor Class Bonus: 3
-Special: +1 vs. Missile Weapons
-Weight: 10
-Requires: 10 Strength
-
-Not Usable By:
- Bard
- Druid
- Mage
- Thief
- Monk
- Kensai~
-
-@1302 = ~CúChoinneach's Small Shield +1 'The Moon'~
+@1302 = ~CúChoinneach's Small Shield +1: 'The Moon'~
 @1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
@@ -1556,15 +1520,15 @@ Weight: 3
 Only usable by:
  Jet'laya~
 
-@1307 = ~Small Shield +2 'Sun Shield'~
+@1307 = ~Small Shield +2: 'Sun Shield'~
 @1308 = ~This shield is warm to the touch as if a fire was burning deep within it. The origins of the shield are unknown and much of its secrets remain just that.
 
 STATISTICS:
 
 Armor Class Bonus: 3
 Special:
-  Increased Resistance to Cold
-  Decreased Resistance to Fire
+  Increased Resistance to Cold: +30%
+  Decreased Resistance to Fire: -25%
 
 Weight: 3
 
@@ -1592,14 +1556,14 @@ Not Usable By:
  Monk
  Kensai~
 
-@1313 = ~Medium Shield +2 'Heart of the Dragon'~
+@1313 = ~Medium Shield +2: 'Heart of the Dragon'~
 @1314 = ~A relatively unknown knight, Neshum was never to swift of the mind. When traveling through the north he came upon a battle, before him were several warriors and a dragon. Neshum decided that the battle was unfair, and took arms in defense of the dragon. Neshum's aid was the turning point and the warriors were defeated. Benderesk, the dragon, repaid the knight's aid by giving him a shield which he bestowed with the strength of a dragon's heart. Benderesk retrieved his gift some years later when Neshum was hired by the same village as the warrior to rid them of this troublesome dragon.
 
 STATISTICS:
 
 Armor Class Bonus: 3
 Special:
-  Increased Hit Points
+  Hit Points: +10
   Magic Resistance: +5%
 
 Weight: 6
@@ -1612,8 +1576,8 @@ Not Usable By:
  Monk
  Kensai~
 
-@1315 = ~Large Shield +2, +7 vs. Missiles~
-@1317 = ~Large shield +2, +7 vs. missiles: 'The Wall'
+@1315 = ~Large shield +2: 'The Wall'~
+@1317 = ~The Wall
 In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies. Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught. The smiths worked feverishly and produced a dozen of these shields. They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
 
 STATISTICS:
@@ -1630,7 +1594,7 @@ Not Usable By:
  Monk
  Kensai~
 
-@1323 = ~Katana +2 'Masamune'~
+@1323 = ~Katana +2: 'Masamune'~
 @1325 = ~This katana was forged by famous katana-creater Masamune. Just like any katanas made by him, you can easily understand this is a "Masterpiece", the King of all Blades.
 
 STATISTICS:
@@ -1652,7 +1616,7 @@ Not Usable By:
  Mage
  Beast Master~
 
-@1326 = ~Katana +3, 'Muramasa'~
+@1326 = ~Katana +3: 'Muramasa'~
 @1328 = ~This is an excellent katana. However, some say it's "cursed", and others think this sword has its own mind, no doubt a dark brood thirsty mind.
 
 STATISTICS:
@@ -1674,7 +1638,7 @@ Not Usable By:
  Mage
  Beast Master~
 
-@1330 = ~Scimitar +1, 'Yarrow's Tears'~
+@1330 = ~Scimitar +1: 'Yarrow's Tears'~
 @1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence. The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar. The tears empowered his scimitar with his grief and longing for revenge.
 
 STATISTICS:
@@ -1902,24 +1866,6 @@ Requires: 12 Strength
 Usable By:
  Paladin~
 
-@1361 = ~Two Handed Sword +2~
-@1362 = ~The two-handed sword is a derivative of the long sword. Weapon smiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to swing the sword properly. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
-
-STATISTICS:
-
-THAC0: +2
-Damage: 1D10 + 2
-Damage type: slashing
-Weight: 15
-Speed Factor: 10
-Proficiency Type: Two Handed Sword
-Type: 2-handed
-Not Usable By:
- Druid
- Cleric
- Mage
- Thief~
-
 @1363 = ~Mairial +2: 'The Death Hunter'~
 @1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
 
@@ -2019,7 +1965,7 @@ Type: 1-handed
 Only usable by:
  Ferthgil Trollslayer~
 
-@1379 = ~Battle Axe +2 'Enrager'~
+@1379 = ~Battle Axe +2: 'Enrager'~
 @1381 = ~The history of this weapon is unknown, but one look at it and it is easy to tell that it is a very fine axe created by dwarven hands. The weapon seems to call to you to wield it and charge into battle.
 
 STATISTICS:
@@ -2062,7 +2008,8 @@ Not Usable By:
  Thief~
 
 @1384 = ~Pole Axe~
-@1385 = ~Dwarven War Axe +2 'Screaming Death'~
+@1385 = ~Dwarven War Axe +2: 'Screaming Death'~
+
 @1386 = ~Like the Halberd, pole axes is created as an anti-horseman weapon. However, pole axes have no tip. They are behemoths on the battlefield, which can deal great damage.
 
 STATISTICS:
@@ -2102,7 +2049,7 @@ Requires: 15 Strength
 Only usable by:
  Dwarfs (Fighter or Fighter-Thief)~
 
-@1390 = ~Pole axe +2 'Kilther'~
+@1390 = ~Pole Axe +2: 'Kilther'~
 @1391 = ~Kilther was the general of "Silver Knights". When they were invaded by a Huge Orc Cavalry, all of his knights wanted to ride mounts into the orc hoards. But, Kilther banned this. He forced his men to walk on foot, equipped with bow, halberd or pole axe. He chose this particular one. When fighting began, the poles stopped the orcs advance. Showers of arrows were launched and the axes brought the Orcs mounts to a halt. The Orcs lost thousands while the Silver Knights lost only 19 men, including Kilther.
 
 STATISTICS:
@@ -2124,7 +2071,7 @@ Not Usable By:
  Monk
  Beast Master~
 
-@1393 = ~Dwarven Throwing Axe +1 'The Furnace'~
+@1393 = ~Dwarven Throwing Axe +1: 'The Furnace'~
 @1395 = ~This throwing axe has not only been finely balanced for use as a missile weapon but has also been the subject of significant magical enhancement. As a result, it is both more damaging and more accurate than any non-magical weapon of a similar style.
 
 STATISTICS:
@@ -2221,7 +2168,7 @@ Type: 2-handed
 Only usable by:
  Druids~
 
-@1407 = ~Quarter Staff +1 'Bonebreaker'~
+@1407 = ~Quarter Staff +1: 'Bonebreaker'~
 @1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master’s gift. It has not been seen since.
 
 STATISTICS:
@@ -2276,7 +2223,7 @@ Type: 2-handed
 Only usable by:
  Gnome Magic Users~
 
-@1414 = ~Tearlac Truehammer's War Hammer 'Giant Feller'~
+@1414 = ~Tearlac Truehammer's War Hammer: 'Giant Feller'~
 @1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is made of very strong oak and is about 18 inches long.
 
 STATISTICS:
@@ -2496,27 +2443,6 @@ Type: 2-handed
 Only usable by:
  Keiria Silverstring~
 
-@1449 = ~Shadow Crossbow~
-@1450 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. The crossbow fires a quarrel (also called a bolt). This particular crossbow is used by thieves of the realms. But no place, like Calimport, city of intrigue! Beware the deadliness of these crossbows.
-
-STATISTICS:
-
-Damage: +1 (missile)
-THAC0: +1 bonus
-Weight: 6
-Speed Factor: 2
-Proficiency Type: Crossbow
-Type: 2-handed
-Requires: 8 Strength
-
-Not Usable By:
- Druid
- Cleric
- Mage
- Monk
- Kensai
- Cavalier~
-
 @1452 = ~Elven Bow, Goblin Bane~
 @1454 = ~This bow was created to be used by elves in defense of their forests from goblins and hobgoblins, though there is no special ability against goblins or hobgoblins.
 
@@ -2534,7 +2460,7 @@ Not Usable By:
  anyone except Elves
  Evil or Chaotic Alignment~
 
-@1456 = ~Strength Long Bow +1 'Vibradeath'~
+@1456 = ~Strength Long Bow +1: 'Vibradeath'~
 @1458 = ~Crafted by forest elves for the Snow Barbarian Prince, Corbus Denox, this bow provides increased strength, damage and accuracy. The resonant low hum after it is shot gave birth to its name.
 
 STATISTICS:
@@ -2557,7 +2483,7 @@ Not Usable By:
  Kensai
  Cavalier~
 
-@1459 = ~Holy Bow of the Sukien 'Saw Tooth'~
+@1459 = ~Holy Bow of the Sukien: 'Saw Tooth'~
 @1460 = ~Saw Tooth, probably so named from its appearance, sporting an array of tooth like barbs along its outer length. Only seen in the temple of the Sukien, this is the weapon of a Holy Guard. Runic carvings indicate a command word that when activated creates a block of 5 Arrows of Striking.
 
 STATISTICS:

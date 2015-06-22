@@ -1000,22 +1000,6 @@ Peso: 1
 Utilizzabile solo da:
  Chierico (singolo e multiclasse)~
 
-@1124 = ~Questo anello è stato dato al predone costiero e cacciatore conosciuto come Edventar da un gruppo di elfi acquatici suoi vecchi amici. Il suo aiuto nel respingere la "Regina dei Pirati" Yenandra di Dambrath è stato fondamentale per la loro sopravvivenza, anche se Yenandra continua ad essere temuta su ogni altra costa.
-
-STATISTICHE:
-
-Il portatore è immune ad ogni cosa, di natura magica o meno, che influenzi in qualsiasi modo la mobilità, sebbene può, tuttavia, essere affrettato. Questo anello è stato incantato in modo tale che gli effetti benefici, come ad esempio quelli ricevuti dagli stivali di velocità, funzionano finché si indossa l'anello.~
-
-@1125 = ~Anello degli Antichi~
-@1126 = ~Creato da una razza sconosciuta chiamata gli Antichi. Molte delle abilità, degli usi e dei cimeli che rimangono di quella razza antica sono sconosciuti persino ai discendenti diretti degli Antichi.
-
-STATISTICHE:
-
-Aggiunge un incantesimo da mago ed uno da chierico per Livello per i Livelli tra 1 e 4
-
-Utilizzabile solo da:
- Chierico-Mago (solo multiclasse)~
-
 @1127 = ~Anello dell'Apprendista~
 @1128 = ~Simili anelli sono spesso dati agli apprendisti che dimostrano un eccezionale talento o sono meritevoli.
 
@@ -1398,24 +1382,6 @@ Non utilizzabile da:
  Ladro
  Ammazzastregoni~
 
-@1300 = ~Questo scudo fu commissionato ad alcuni tra i più abili fabbri nani da Pellan di Tyr, un paladino famoso per un indiscutibile coraggio e una totale mancanza di buon senso. Avendo saputo che un drago rosso si aggirava nella campagna, Pellan montò sul suo cavallo e si precipitò per combatterlo. Il drago digerì benissimo sia Pellan che la sua corazza, mentre lo scudo gli provocò crampi fortissimi allo stomaco. Con un colpo di tosse riuscì a espellerlo, ma finì in mezzo alla sua pila di monete d'oro. Lì rimase nascosto per molti anni, finché il figlio di Pellan, un paladino piuttosto sveglio, lo ritrovò.
-La maestria con cui è costruito è esaltata da un incantesimo permanente di leggerezza, che rende lo scudo molto facile da indossare.
-
-STATISTICHE:
-
-Classe Armatura Bonus: 3
-Speciale: +1 contro le Armi da Lancio
-Peso: 10
-Richiede: 10 alla Forza
-
-Non utilizzabile da:
- Bardo
- Druido
- Mago
- Ladro
- Monaco
- Kensai~
-
 @1302 = ~Scudo Piccolo +3 di CúChoinneach 'La Luna'~
 @1304 = ~CúChoinneach ha costruito questo scudo per se stesso dopo aver ricevuto la scimitarra 'Mairail' da Sehanine Moonbow. Questo scudo è costituito da mithril e dal duro legno della foresta.
 
@@ -1787,24 +1753,6 @@ Richiede: 12 alla Forza
 
 Utilizzabile da:
  Paladino~
-
-@1361 = ~Spada a due mani +2~
-@1362 = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
-
-STATISTICHE:
-
-THAC0: +2
-Danno: 1D10 + 2
-Tipo di danno: tagliente
-Peso: 15
-Fattore velocità: 10
-Tipo di competenza: Spada a due mani
-Tipo: a due mani
-Non utilizzabile da:
- Druido
- Chierico
- Mago
- Ladro~
 
 @1363 = ~Mairial 'Il Cacciatore di Non Morti'~
 @1364 = ~Questa è la scimitarra personale di CúChoinneach. E' composta di puro mithril ed è stata toccata dal chiarore della luna piena, gli è stata donata da Sehanine Moonbow, la dea elfica del mistico, dei sogni, della morte, dei viaggi, della supremazia, della luna, delle stelle e dei cieli. La dea gli apparve in un sogno poco tempo dopo che la sua preferita, Fia'nna, fu uccisa da un esercito di Non Morti, con a capo un vampiro. Sehanine disse a CúChoinneach che avrebbe voluto che lui fosse il cacciatore, e che era stato scelto dalla dea per scacciare i più malvagi Non Morti dai reami. Quando si svegliò dal sogno si trovò al suo fianco questa scimitarra. Il simbolo di Sehanine è la luna crescente. Sehanine gli donò la lama come un segno e per ricordargli il sostegno della dea. I poteri di questa scimitarra sono sconosciuti perfino a CúChoinneach. I suoi poteri completi non si conoscono.
@@ -2373,27 +2321,6 @@ Tipo: a due mani
 
 Utilizzabile solo da:
  Keiria Silverstring~
-
-@1449 = ~Balestra dell'Ombra~
-@1450 = ~Una balestra è un arco montato a croce su un'asta di legno o di metallo e su un'impugnatura chiamata calcio. L'arco di solito è fatto in pioppo o in tasso. La balestra spara un dardo (solitamente chiamato quadrello). Questa balestra in particolare è usata dai ladri dei reami. Soprattutto a Calimport, città di intrighi! Bisogna fare molta attenzione alla micidialità di queste balestre.
-
-STATISTICHE:
-
-Danno: +1 (da proiettile)
-THAC0: +1 bonus
-Peso: 6
-Fattore Velocità: 2
-Tipo di Competenza: Balestra
-Tipo: a due mani
-Richiede: 8 alla Forza
-
-Non utilizzabile da:
- Druido
- Chierico
- Mago
- Monaco
- Kensai
- Cavaliere~
 
 @1452 = ~Arco Elfico, la sventura dei Goblin~
 @1454 = ~Questo arco è stato creato dagli elfi per difendere le loro foreste dai goblin e dagli hobgoblin, tuttavia non è fornito di abilità speciali contro i goblin o gli hobgoblin.

@@ -997,20 +997,6 @@ Kann nur verwendet werden von:
 // Rings
 ////////
 
-@1124 = ~Der Ring wurde dem berühmten Jäger und Plünderer der Riffe, der nur unter dem Namen Edventar bekannt war, von einer Gruppe Meereselfen überreicht, die schon lange mit ihm befreundet waren. Er hatte geholfen, die "Piratenkönigin" Yenandra von Dambrath zu vertreiben und so das Überleben der Elfen zu sichern. Yenandra wurde jedoch keineswegs endgültig besiegt und wird noch immer an jeder Küste gefürchtet.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Der Träger ist gegen alle Einflüsse immun, die seine Bewegungsfreiheit beeinflussen. Dies gilt allerdings nicht für "Hast". Dieser Ring wurde auch so verzaubert, dass der zusätzliche Effekt der Siebenmeilenstiefel erhalten bleibt.~
-@1125 = ~Ring der Ahnen~
-@1126 = ~Dieser Ring wurde von einem Volk erschaffen, dass unter den Gelehrten als "Antiker" bekannt ist. Es existieren nur noch wenige Relikte aus dieser Zeit, und selbst die Nachfahren der Antiker wissen sehr wenig darüber.
-
-EIGENSCAFTEN:
-
-Fügt ein Zauber- und ein Priesterspruch pro Stufe zwischen der Stuf 1 und 4 hinzu.
-
-Kann verwendet werden:
- Magiern/Priestern (nur mehrklassig)~
 @1127 = ~Lehrlingsring~
 @1128 = ~Ähnliche Ringe werden häufig an Zauberlehrlinge vergeben, die außergewöhnliche Fähigkeiten, Fachwissen oder besondere Verdienste vorweisen können.
 
@@ -1396,23 +1382,6 @@ Können nicht verwendet werden von:
 // Shields
 //////////
 
-@1300 = ~Dieser Schild wurde von Zwergenhand gefertigt und von einem gewissen Pellan von Tyr in Auftrag gegeben. Pellan war ein hitzköpfiger Paladin, der für seinen unglaublichen Mut und seinen völligen Mangel an gesundem Menschenverstand bekannt war. Er hörte davon, dass ein Roter Drache das Land verwüstete und sattelte natürlich sofort sein Pferd, um gegen ihn in die Schlacht zu reiten. Der Paladin und seine Rüstung mundeten dem Drachen recht vorzüglich, doch der Schild lag ihm ziemlich schwer im Magen. Er würgte ihn daher wieder aus und lagerte ihn in seinem Schatzhort. Dort verblieb er viele Jahre, bis Pellans Sohn ihn wiederbeschaffen konnte. Er war ein kluger Krieger, der wusste, wann es besser war zu schleichen statt zu kämpfen.
-Der Schild ist nicht nur von vorzüglicher Fertigkeit, sondern durch den Einsatz von Magie auch besonders leicht.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Rüstungsklasse-Bonus: -3
-(-4 gegen Fernkampfwaffen)
-Gewicht: 10
-Mindeststärke: 10
-
-Kann nicht verwendet werden von:
- Druiden
- Barden
- Magiern
- Dieben
- Mönchen
- Kensai~
 @1302 = ~CúChoinneachs Schild +3 "Der Mond"~
 @1304 = ~CúChoinneach fertigte diesen Schild, nachdem er den Krummsäbel "Mairial" von Sehanine Mondbogen erhalten hatte. Der Schild besteht aus dem härtesten Holz und ist mit Mithril verziert.
 
@@ -1800,23 +1769,6 @@ Waffentyp: einhändig
 
 Kann nur verwendet werden von:
  Paladinen~
-@1361 = ~Zweihänder +2~
-@1362 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
-
-EIGENSCHAFTEN:
-
-Schaden: 1W10 +2 (Klinge)
-ETW0-Bonus: -2
-Gewicht: 15
-Initiativefaktor: 10
-Fertigkeit: Zweihänder-Schwert
-Typ: 2-händig
-
-Kann nicht verwendet werden von:
- Druiden
- Klerikern
- Magiern
- Dieben~
 @1363 = ~Mairial "Der Todesjäger"~
 @1364 = ~Dies ist der persönliche Krummsäbel von CúChoinneach. Er wurde es purem Mithril gefertigt, welches der Sage nach aus dem Licht des Vollmondes entstanden ist. Das Schwert war ein Geschenk von Sehanine Mondbogen, der Elfengöttin der Mystik, Träume, Reisen, Sterne, des Mondes, des Himmels und des Todes. Sie erschien ihm in einem Traum, nachdem seine Angebetete, Fia'nna, von einer Armee Untoter unter der Führung eines Vampirs umgebracht wurde. Sehanine erzählte ihm, dass er der Auserwählte sei, der die Untoten jagen und zur Strecke bringen sollte. Als er erwachte lag dieser Krummsäbel neben ihm auf dem Bett, darauf Sehanines Symbol, der Halbmond. Sie gab ihm dieses Schwert als Erinnerung an ihre Unterstützung. Die Macht des Schwertes ist unbekannt, selbst CúChoinneach kennt sie nicht genau.
 
@@ -2398,30 +2350,6 @@ Waffentyp: beidhändig
 
 Kann nur verwendet werden von:
  Keiria Silbersaite~
-@1449 = ~Schattenarmbrust~
-@1450 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Diese spezielle Armbrust wird wie die Schattenrüstung gerne von Dieben genutzt.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1
-
-Schadensart: mit Stichwaffe durchbohren (Fernkampf)
-
-ETW0-Bonus: -1
-Schadensbonus: +1
-Gewicht: 6
-Geschwindigkeitsfaktor: 2
-Mindeststärke: 8
-Fertigkeit: Geschosswaffe
-Waffentyp: beidhändig
-
-Kann nicht verwendet werden von:
- Druiden
- Klerikern
- Magiern
- Mönchen
- Kensai
- Rittern~
 @1452 = ~Elfenbogen "Goblins Verderben"~
 @1454 = ~Dieser Bogen wurde von Elfen geschaffen, die ihre Wälder besser gegen Überfälle durch Goblins und Hobgoblins schützen wollten. Allerdings besitzt er keine magischen Eigenschaften gegen diese Kreaturen.
 

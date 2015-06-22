@@ -1055,22 +1055,6 @@ Peso: 1
 Utilizable sólo por:
  Clérigo (solo y multiclase)~
 
-@1124 = ~Un grupo de elfos acuáticos regaló este anillo al cazador y carroñero de las grietas conocido como Edventar por la larga amistad que les unía. Ayudó a la 'Reina Pirata' a fugarse de Dambrath, hecho crucial en la supervivencia de esta raza; aunque Yenandra sigue siendo temida dondequiera que el mar se junte con la tierra.
-
-CARACTERÍSTICAS:
-
-El que lo lleva es inmune a cualquier cosa, mágica o no, que afecte a la movilidad de cualquier forma, aunque puede seguir acelerado. Este anillo ha sido encantado para que los efectos beneficiosos como los que ofrecen las botas de velocidad todavía funcionen mientras se lleva.~
-
-@1125 = ~Anillo de los Antiguos~
-@1126 = ~Creado por una raza conocida como Los Antiguos. La mayoría de las habilidades y usos de las reliquias que se conservan de aquella época son ignoradas incluso por los mismos descendientes de los Antiguos.
-
-CARACTERÍSTICAS:
-
-Añade un conjuro de nivel 1 al 4 de mago y de sacerdote por nivel
-
-Utilizable sólo por:
- Clérigo-Mago (multiclase)~
-
 @1127 = ~Anillo del Aprendiz~
 @1128 = ~Anillos como este son, a menudo, regalados a aprendices que poseen una habilidad excepcional o algún tipo de mérito.
 
@@ -1471,23 +1455,6 @@ No lo puede usar:
  Ladrón
  Asesino de magos~
 
-@1300 = ~Este escudo de manufactura enana fue encargado por Pellan de Tyr, un imprudente paladín conocido por su incuestionable valor y una total falta de sentido común. Tras escuchar que un dragón rojo estaba asolando la campiña, Pellan montó en su caballo y cabalgó hacia la batalla. Lo que ocurrió es que Pellan y su armadura fueron digeridos fácilmente, pero el escudo produjo al dragón graves problemas de estómago. Fue regurgitado con posterioridad y permaneció entre el tesoro durante años, hasta que fue recuperado por el hijo de Pellan, un guerrero que sabía cuándo moverse en silencio.
-
-CARACTERÍSTICAS:
-
-Bonificador de clase de armadura: 3
-Especial: +1 contra armas de proyectiles
-Peso: 10
-Requisito: 10 Fuerza
-
-No lo puede usar:
- Bardo
- Druida
- Mago
- Ladrón
- Monje
- Kensái~
-
 @1302 = ~Escudo Pequeño +3 de CúChoinneach 'La Luna'~
 @1304 = ~CúChoinneach creó este escudo después de recibir la cimitarra 'Mairail' de Sehanine Arcolunar. Está hecho de mithril y las más duras maderas del bosque.
 
@@ -1869,24 +1836,6 @@ Requisito: 12 Fuerza
 
 Utilizable sólo por:
  Paladín~
-
-@1361 = ~Espada a dos puños +2~
-@1362 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.
-
-CARACTERÍSTICAS:
-
-THAC0: +2
-Daño: 1d10+2
-Tipo de daño: Cuchillada
-Peso: 15
-Factor de velocidad: 10
-Talento marcial: Espada a dos puños
-Tipo: a dos manos
-No lo puede usar:
- Druida
- Clérigo
- Mago
- Ladrón~
 
 @1363 = ~Mairial 'El Cazador de la Muerte'~
 @1364 = ~Esta es la cimitarra personal de CúChoinneach. Hecha de puro mithril ha sido bañada con la luz de la luna llena, y le fue dada por Sehanine Arcodeluna, la diosa élfica del misticismo, sueños, muerte, viajes, trascendencia, la luna, las estrellas y los cielos. Vino a él en un sueño poco después que, Fia'nna, había sido muerta por un ejército de no muertos liderados por un vampiro. Sehanine dijo a CúChoinneach que él sería el cazador, que había sido escogido por ella para cazar a los no muertos más malvados de los reinos. Cuando despertó, encontró esta cimitarra a su lado. El símbolo de Sehanine es la luna creciente. Le dio la espada como símbolo y para recordarle su soporte. Los poderes imbuidos en la espada son desconocidos, incluso a CúChoinneach. Sus poderes completos no se saben.
@@ -2468,27 +2417,6 @@ Tipo: a dos manos
 
 Utilizable sólo por:
  Keiria Hilodeplata~
-
-@1449 = ~Ballesta de las Sombras~
-@1450 = ~Una ballesta es un arco que se monta transversalmente sobre un fuste de madera o de metal. El último recibe el nombre de timón. El arco se suele hacer de madera de fresno o de tejo. La ballesta dispara cuadrillos (también llamados virotes). Esta ballesta en particular la usan los ladrones del reino. ¡Pero no hay lugar, como Calimport, ciudad de la intriga! Cuidado con estas ballestas mortíferas.
-
-CARACTERÍSTICAS:
-
-Daño: +1 (proyectil)
-THAC0: Bonificador +1
-Peso: 6
-Factor de velocidad: 2
-Talento marcial: Ballesta
-Tipo: a dos manos
-Requisito: 8 Fuerza
-
-No lo puede usar:
- Druida
- Clérigo
- Mago
- Monje
- Kensái
- Caballero~
 
 @1452 = ~Arco élfico, Plaga de Trasgos~
 @1454 = ~Este arco fue creado para ser usado por los elfos como defensa en sus bosques de trasgos y grandes trasgos, aunque no tiene ninguna habilidad especial contra ellos.

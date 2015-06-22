@@ -1,0 +1,39 @@
+IF
+	Global("FerthSpawn","DSC027",0)
+	Level(Player1,1)
+THEN
+	RESPONSE #100
+		CreateCreature("DSFERTH",[925.667],2)
+		SetGlobal("FerthSpawn","DSC027",1)
+END
+
+IF
+	Global("FerthSpawn","DSC027",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSFERTH2",[925.667],2)
+		SetGlobal("FerthSpawn","DSC027",1)
+END
+
+IF
+	Global("FerthSpawn","DSC027",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSFERTH4",[925.667],2)
+		SetGlobal("FerthSpawn","DSC027",1)
+END
+
+IF
+	Global("FerthSpawn","DSC027",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSFERTH6",[925.667],2)
+		SetGlobal("FerthSpawn","DSC027",1)
+END
