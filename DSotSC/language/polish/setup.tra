@@ -479,25 +479,6 @@ Waga: 2
 Mo¿e u¿ywaæ:
  Ferthgil Trollslayer~
 
-@1018 = ~He³m z Ebonu~
-@1019 = ~Standardowe okrycie g³owy ¿o³nierzy D³oni Ebon zabezpiecza³o ich przed niepo¿¹dan¹ ingerencj¹ nieczystych si³ w ich umys³y.
-
-STATYSTKI:
-
-Klasa Pancerza: Brak
-Specjalny:
-  Chroni przed trafieniami krytycznymi
-  Nosz¹cy jest chroniony przed zauroczeniami.
-
-Waga: 4
-
-Nie mo¿e u¿ywaæ:
- Mag
- Bard
- Z³odziej
- Mnich
- Kensai~
-
 @1022 = ~Kryszta³owy He³m~
 @1023 = ~Wykonany z magicznych kryszta³ów pochodz¹cych z zapomnianych kopalñ krasnoludów . Kryszta³y maj¹ naturaln¹ odpornoœæ na gor¹co i zimno.
 
@@ -638,21 +619,6 @@ Nie mo¿e u¿ywaæ:
  W³adca Bestii
  Kensai
  Zmiennokszta³tny~
-
-@1044 = ~Pe³na Zbroja P³ytowa +1: 'P³yta z Ebonu'~
-@1046 = ~Lord Scrakin, naczelny wódz wojsk D³oni Ebon, nosi³ tê zbrojê przez blisko 50 lat i prze¿y³ dziêki niej nie jedno niebezpieczne spotkanie.
-
-STATYSTKI:
-
-Klasa pancerza: 1
-Waga: 35
-Wymaga: 14 Si³y
-
-Nie mo¿e u¿ywaæ:
- Bard
- Druid
- Mag
- Z³odziej~
 
 @1047 = ~Thorfinn's Hide Armor~
 @1048 = ~This is the personal armor of Thorfinn Hauskluniff. The armor's special construction of interlocking hide plates makes it much lighter than normal hide armor.
@@ -910,20 +876,6 @@ Waga: 6
 Mo¿e u¿ywaæ:
  Mag (jedno,dwu,wielo - klasowiec)
  Postacie o dobrym charakterze~
-
-@1092 = ~Œwiêty Pas Szybkoœci~
-@1094 = ~Ten zdobiony pas ma znaki Œwiêtego Stra¿nika Sukien. Przez d³ugi czas pozostawa³a tajemnic¹ jego niezwyk³a szybkoœæ i odpornoœæ na ciosy. Z pewnoœci¹ Stra¿nik mia³ powody, by utrzymywaæ to w tajemnicy.
-
-STATYSTKI:
-
-Klasa Pancerza:
-  +3 przeciw broniom k³utym i pociskom
-Specjalny: Przyspieszenie
-
-Waga: 2
-
-Mo¿e u¿ywaæ:
- Palladyn~
 
 @1096 = ~P³aszcz Morridina~
 @1098 = ~P³aszcz niegdyœ nale¿a³ do barda Morridina. Pytany o jego w³asnoœci zawsze powtarza³: "...po prostu chroni przed krewkimi ¿ywio³ami". P³aszcz, jak i reszta jego przedmiotów stanowi³ temat niekoñcz¹cych siê dyskusji.
@@ -2076,28 +2028,6 @@ Wymaga: 15 Si³y
 Mo¿e u¿ywaæ:
  Krasnolud (Wojownik lub Z³odziej-Wojownik)~
 
-@1388 = ~Topór Bojowy +3 'Roz³upywacz Czaszek'~
-@1389 = ~Podczas pewnej bitwy krasnoludów z nekromantami liczba nieumar³ych pojawiaj¹cych siê na polu walki zaniepokoi³a przywódcê klanu na tyle, ¿e z pomoc¹ zaprzyjaŸnionego elfiego maga stworzy³ broñ zdoln¹ powstrzymaæ zarówno magów, jak i ich oddanych sojuszników.
-
-STATYSTKI:
-
-Obra¿enia: 1K8 + 3 (+5 przeciw Nieumar³ym)
-Trak0: +3 (+5 przeciw Nieumar³ym)
-Typ obra¿eñ: Sieczne
-Waga: 5
-OpóŸnienie: 5
-Rodzaj Bieg³oœci: Topór
-Typ: Jednorêczny
-Wymaga: 10 Si³y
-
-Nie mo¿e u¿ywaæ:
- Druid
- Kleryk
- Mag
- Z³odziej
- Mnich
- W³adca Bestii~
-
 @1390 = ~Topór Oburêczny +2 'Kilther'~
 @1391 = ~Kilther by³ genera³em "Srebrzystych Rycerzy" . Kiedy ich ziemie zosta³y zaatakowane przez Krwaw¹ Kawaleriê Orków, wszyscy jego ludzie chcieli dosi¹œæ koni i siê rzuciæ na najeŸd¿ców, ale genera³ powstrzyma³ ich. Zmusi³ te¿, by poszli pieszo uzbrojeni w miecze, topory i halabardy, a sam wybra³ ten topór. Grad strza³ powstrzyma³ konie orków, a topory dokoñczy³y dzie³a. Orki zosta³y unicestwione, podczas gdy rycerze stracili ledwie 19 ludzi, w tym Kilthera.
 
@@ -2961,16 +2891,6 @@ Elfka Jet'Laya, z Cormanthor... Sk¹d siê wziê³a? Byæ mo¿e mia³o dojœæ do tego sp
 @20432 = ~~ [JETLA32]
 @20433 = ~~ [JETLA33]
 @20434 = ~~ [JETLA34]
-@20440 = ~Jet'laya's Cloak~
-@20441 = ~Jet'laya's mother gained this azure cloak while in the service of the elven goddess Aerdrie Faenya. Blessed by the priestesses of the Lady of Air and Wind, the cloak provides some protection from the elements. Although it appears to be a solid blue from a distance, a closer inspection reveals an ornate pattern of interlocking feathers woven through the fabric.
-
-STATISTICS:
-
-Armor Class Bonus: 1
-Equipped Ability: Electrical Resistance +10%
-Weight: 3
-Only Usable By:
- Jet'laya~
 @20442 = ~~ [JETLA40]
 
 

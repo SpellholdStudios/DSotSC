@@ -1,98 +1,32 @@
 IF
-	Global("BP_BG1NPC6800","GLOBAL",0)
 	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
 	Global("JetlayaSpawn","%FriendlyArmInn%",0)
 	LevelLT(Player1,8)
 THEN
 	RESPONSE #100
-		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
-		SetGlobal("BP_BG1NPC6800","GLOBAL",1)
 		CreateCreature("DSJetlay",[1204.3341],0)
 		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
 END
 
 IF
-	Global("BP_BG1NPC6800","GLOBAL",0)
 	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
 	Global("JetlayaSpawn","%FriendlyArmInn%",0)
 	LevelGT(Player1,7)
 THEN
 	RESPONSE #100
-		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
-		SetGlobal("BP_BG1NPC6800","GLOBAL",1)
 		CreateCreature("DSJetla9",[1204.3341],0)
 		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
 END
 
 IF
 	Global("TalkedJet","GLOBAL",1)
-	Global("Chapter","GLOBAL",%tutu_chapter_4%)
 	Global("DSOTSC","GLOBAL",0)
 THEN
 	RESPONSE #100
-		SetGlobal("DSOTSC","GLOBAL",5)
-		SetGlobal("Chapter","GLOBAL",%tutu_chapter_6%)
-END
-
-IF
-	Global("TalkedJet","GLOBAL",1)
-	Global("Chapter","GLOBAL",%tutu_chapter_5%)
-	Global("DSOTSC","GLOBAL",0)
-THEN
-	RESPONSE #100
-		SetGlobal("DSOTSC","GLOBAL",6)
-		SetGlobal("Chapter","GLOBAL",%tutu_chapter_6%)
-END
-
-IF
-	Global("TalkedJet","GLOBAL",1)
-	Global("Chapter","GLOBAL",%tutu_chapter_6%)
-	Global("DSOTSC","GLOBAL",0)
-THEN
-	RESPONSE #100
-		SetGlobal("DSOTSC","GLOBAL",7)
-END
-
-IF
-	Global("TalkedJet","GLOBAL",1)
-	Global("DSOTSC","GLOBAL",5)
-THEN
-	RESPONSE #100
 		SetInterrupt(FALSE)
-		IncrementChapter("CHPTXT-9")
+		TextScreen("DSOTSC")
 		Wait(2)
 		SetInterrupt(TRUE)
-		SetGlobal("Chapter","GLOBAL",%tutu_chapter_4%)
-		AddJournalEntry(999999,USER) // No such index
+		AddJournalEntry(@2304,USER)
 		SetGlobal("DSOTSC","GLOBAL",1)
 END
-
-IF
-	Global("TalkedJet","GLOBAL",1)
-	Global("DSOTSC","GLOBAL",6)
-THEN
-	RESPONSE #100
-		SetInterrupt(FALSE)
-		IncrementChapter("CHPTXT-9")
-		Wait(2)
-		SetInterrupt(TRUE)
-		SetGlobal("Chapter","GLOBAL",%tutu_chapter_5%)
-		AddJournalEntry(999999,USER) // No such index
-		SetGlobal("DSOTSC","GLOBAL",1)
-END
-
-IF
-	Global("TalkedJet","GLOBAL",1)
-	Global("DSOTSC","GLOBAL",7)
-THEN
-	RESPONSE #100
-		SetInterrupt(FALSE)
-		IncrementChapter("CHPTXT-9")
-		Wait(2)
-		SetInterrupt(TRUE)
-		SetGlobal("Chapter","GLOBAL",%tutu_chapter_6%)
-		AddJournalEntry(999999,USER) // No such index
-		SetGlobal("DSOTSC","GLOBAL",1)
-END
-
-

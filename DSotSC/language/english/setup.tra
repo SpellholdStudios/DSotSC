@@ -478,7 +478,6 @@ Armor Class Bonus: +1
 Special:
   Resists charm and panic
   +1 Saving Throws
-  +10% to protection against Fire, Acid, Cold and Electricity
   Protects Against Critical Hits
 
 Weight: 2
@@ -548,25 +547,6 @@ Weight: 2
 
 Only usable by:
  Ferthgil Trollslayer~
-
-@1018 = ~Ebon Helm~
-@1019 = ~Part of the standard equipment given to the soldiers of the cult of The Ebon Hand. The helm allowed one of the Hand to perform their prescribed duties without external interference.
-
-STATISTICS:
-
-Armor Class Bonus: none
-Special:
-  Protects Against Critical Hits
-  Wearer is immune to Charm
-
-Weight: 4
-
-Not Usable By:
- Mage
- Bard
- Thief
- Monk
- Kensai~
 
 @1022 = ~Crystal Helm~
 @1023 = ~Crafted from magical crystals from a now abandoned Dwarven Mine. The crystals have a natural resistance to heat and cold.
@@ -712,23 +692,6 @@ Not Usable By:
  Beast Master
  Kensai
  Shapeshifter~
-
-@1044 = ~Full plate armor: 'Ebon Plate'~
-@1046 = ~Lord Scrakin, Chief General of the Ebon Hand, wore this piece of armor for nearly 50 years. During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains. How his armor moved to other lands without him is not certain, though the separation of the two was surely unusual.
-
-STATISTICS:
-
-Armor Class: 1
-Weight: 35
-Requires: 14 Strength
-Special:
-  Wearer is immune to Confusion
-
-Not Usable By:
- Bard
- Druid
- Mage
- Thief~
 
 @1047 = ~Thorfinn's Hide Armor~
 @1048 = ~This is the personal armor of Thorfinn Hauskluniff. The armor's special construction of interlocking hide plates makes it much lighter than normal hide armor.
@@ -948,7 +911,9 @@ Only usable by:
  Mages (Single, Dual, and Multi-class)~
 
 @1083 = ~Drow Mage Robe~
-@1084 = ~High level drow mages wear a robe that provides a 75% chance of remaining undetected in shadows. The material used to make these robes does not cut easily and is fire resistant; giving the robe a +6 bonus to saving throws vs. fire. These robes can only be worn by those of elven size and build. Because of the nature of drow cloth, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
+@1084 = ~High level drow mages wear a robe that provides a 75% chance of remaining undetected in shadows. The material used to make these robes does not cut easily and is fire resistant; giving the robe a +6 bonus to saving throws vs. fire. These robes can only be worn by those of elven size and build.
+
+This item, like most drow equipment, is created using adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
 
 STATISTICS:
 
@@ -958,7 +923,7 @@ Special:
   Memorize one extra 6th and 7th level spell
   +6 Save vs. Breath Weapon
   +50% to Fire Resistance
-  Non-Detection
+  Non-detection
 
 Weight: 1
 
@@ -997,20 +962,6 @@ Only usable by:
  Mage (single, dual, & multi-class)
  Good-aligned character~
 
-@1092 = ~Holy Belt~
-@1094 = ~Ornate and holy this belt bears the mark of the Sukien Holy Guard. Long known to have the ability to attack with great fervor it was always believed to be a natural ability from within. How clever of the guard to hide their secret for so long.
-
-STATISTICS:
-
-Armor Class Bonus:
-  +3 vs. piercing and missile weapons
-Special: bonus 2nd level priest spell
-
-Weight: 2
-
-Only usable by:
- Paladin~
-
 @1096 = ~Morridin's Cloak~
 @1098 = ~This cloak once belonging to the famous bard Morridin. The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements". The cloak, along with many other personal items of Morridin became a topic of discussion among many.
 
@@ -1041,11 +992,9 @@ Not Usable By:
 
 STATISTICS:
 
-Armor Class: +1
-
 Special:
-  Increased Stealth
-  Non Detection
+  Move Silently: +20%
+  Non-detection
 
 Weight: 3
 
@@ -1100,7 +1049,6 @@ STATISTICS:
 Special:
   +1 attack per round
   +1 to all Saving Throws
-  +5% to Magic Resistance
 
 Weight: 2
 
@@ -1114,7 +1062,7 @@ STATISTICS:
 
 Armor Class: +3 vs missiles
 Special:
-  Increased Resistance to Petrification
+  +3 to Saving Throws against Petrification
 
 Weight: 2
 
@@ -1128,7 +1076,6 @@ Only usable by:
 STATISTICS:
 
 Base AC: set to 7
-Armor Class Bonus: +1
 Special:
   Increase Spell Casting Speed by 1
 
@@ -1535,7 +1482,7 @@ STATISTICS:
 Damage: 1D4 + 2
 THAC0: +1
 Special:
-  additional 2D3 damage to undead creatures
+  Additional 2D3 damage to undead creatures
 Damage type: missle (piercing)
 Launcher: sling~
 
@@ -2155,28 +2102,6 @@ Requires: 15 Strength
 Only usable by:
  Dwarfs (Fighter or Fighter-Thief)~
 
-@1388 = ~Battle Axe +2 'Skull Splitter'~
-@1389 = ~In the battle over Skull Pass, the necromancers brought out all of the zombies they could gather, even taking control of fallen warriors on the battlefield. Farley Malistone, the high priest of the clan, used all of the magic and prayer he could muster up and enchanted the axe of the clans most reverent warrior with a gift to do greater damage against the undead. In a cruel twist of fate Farley was slain on the battlefield, taken under control by the necromancers, and then slain again by the axe of his own creation.
-
-STATISTICS:
-
-Damage: 1D8 +3 vs. Undead
-THAC0: +2 vs. Undead
-Damage type: slashing
-Weight: 5
-Speed Factor: 5
-Proficiency Type: Axe
-Type: 1-handed
-Requires: 10 Strength
-
-Not Usable By:
- Druid
- Cleric
- Mage
- Thief
- Monk
- Beast Master~
-
 @1390 = ~Pole axe +2 'Kilther'~
 @1391 = ~Kilther was the general of "Silver Knights". When they were invaded by a Huge Orc Cavalry, all of his knights wanted to ride mounts into the orc hoards. But, Kilther banned this. He forced his men to walk on foot, equipped with bow, halberd or pole axe. He chose this particular one. When fighting began, the poles stopped the orcs advance. Showers of arrows were launched and the axes brought the Orcs mounts to a halt. The Orcs lost thousands while the Silver Knights lost only 19 men, including Kilther.
 
@@ -2492,7 +2417,7 @@ Type: 1-handed
 Only usable by:
  Jet'laya~
 
-@1436 = ~Dagger +3: 'AdderSting'~
+@1436 = ~Dagger +2: 'AdderSting'~
 @1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator. The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin. This jet black blade is split in the middle and ends in two razor sharp points. In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches. Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
 
 STATISTICS:
@@ -2515,7 +2440,9 @@ Not Usable By:
  Beast Master~
 
 @1439 = ~Drow Adamantite Dagger +3~
-@1440 = ~Most drow carry daggers made of adamantite alloy. These daggers can have a +1 to +3 bonus. This particular one is coated with a powerful sleep poison. Because of the nature of adamantite, if exposed to sunlight, irreversible decay begins. Within 2 to 12 days, it will lose all its protective properties and rot, becoming totally worthless.
+@1440 = ~Most drow carry daggers forged from adamantite alloy and reinforced with enchantments. Some are even coated with one of the several types of drow poisons, allowing them to be well-prepared to deal with assassins, a constant danger in drow society. Of course, the daggers are also used just as frequently by the assassins themselves...
+
+This item, like most drow equipment, is created using adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
 
 STATISTICS:
 
@@ -3026,16 +2953,6 @@ the darkness of a great unknown. What lies ahead for you and your companions as 
 @20436 = ~Ye might want to strike out on yer own.~ [JETLA36]
 @20438 = ~Damn it!~ [JETLA38]
 @20439 = ~Damn it... 's nicked me guid!~ [JETLA39]
-@20440 = ~Jet'laya's Cloak~
-@20441 = ~Jet'laya's mother gained this azure cloak while in the service of the elven goddess Aerdrie Faenya. Blessed by the priestesses of the Lady of Air and Wind, the cloak provides some protection from the elements. Although it appears to be a solid blue from a distance, a closer inspection reveals an ornate pattern of interlocking feathers woven through the fabric.
-
-STATISTICS:
-
-Armor Class Bonus: 1
-Equipped Ability: Electrical Resistance +10%
-Weight: 3
-Only usable by:
- Jet'laya~
 @20442 = ~Are ye all right?~ [JETLA40]
 
 
@@ -3258,4 +3175,3 @@ an ability not lost on the marauding pirates and thieves of the Moonshaes. The t
 @30005 = ~An invisible wall of force keeps you from entering the cavern. You shall have to find some way to dispel it before you can enter.~
 @30006 = ~To the Entrance.~
 @30007 = ~To the Dragon's Hoard.~
-@30008 = ~CúChoinneach refuse to part with his personal equipment.~

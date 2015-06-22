@@ -514,25 +514,6 @@ Peso: 2
 Utilizable sólo por:
  Ferthgil Matatrolls~
 
-@1018 = ~Yelmo de Eban~
-@1019 = ~Parte del equipo básico entregado a los soldados del culto de La Mano de Eban. El yelmo permitió a uno de la Mano realizar sus tareas indicadas sin interferencias externas.
-
-CARACTERÍSTICAS:
-
-Bonificador de clase de armadura: Ninguno
-Especial:
- Protege contra golpes críticos
- Portador inmune a Encanto
-
-Peso: 4
-
-No lo puede usar:
- Mago
- Bardo
- Ladrón
- Monje
- Kensái~
-
 @1022 = ~Yelmo de Cristal~
 @1023 = ~Creado de cristales mágicos de ahora una Mina abandonada de Enanos. Los cristales tienen una resistencia natural al calor y al frío.
 
@@ -674,21 +655,6 @@ No lo puede usar:
  Señor de las bestias
  Kensái
  Cambiaformas~
-
-@1044 = ~Armadura completa +1: 'Armadura de Eban'~
-@1046 = ~Lord Scrakin, Jefe General de la Mano Eban, llevó esta armadura casi durante 50 años. En este tiempo se rumoreaba que estaba en un castillo de las Montañas de Tierra Veloz. Como se movió su armadura a otras tierras sin él es incierto, aunque su separación tampoco fue nada normal.
-
-CARACTERÍSTICAS:
-
-Clase de armadura: 1
-Peso: 35
-Requisito: 14 Fuerza
-
-No lo puede usar:
- Bardo
- Druida
- Mago
- Ladrón~
 
 @1047 = ~Armadura de pieles de Thorfinn~
 @1048 = ~Esta es la armadura personal de Thorfinn Hauskluniff. La fabricación especial de la armadura con placas de piel entrelazadas la hacen mucho más ligera que la armadura de pieles normal.
@@ -947,20 +913,6 @@ Peso: 6
 Utilizable sólo por:
  Mago (Solo, dual y multiclase)
  Personajes alineados con el bien~
-
-@1092 = ~Cinturón Sagrado de Velocidad~
-@1094 = ~Este cinturón decorado y sagrado lleva la marca de la Guardia Santa Sukien. Conocidos de tener la habilidad de atacar con gran fervor siempre se ha creído que es una habilidad natural interior. Muy astuto por parte de los guardias ocultar su secreto.
-
-CARACTERÍSTICAS:
-
-Bonificador de clase de armadura:
- +3 contra penetración y armas proyectiles
-Especial: Apresurar
-
-Peso: 2
-
-Utilizable sólo por:
- Paladín~
 
 @1096 = ~Manto de Morridin~
 @1098 = ~Este manto perteneció en su momento al famoso Morridin. A pesar de las filigranas de oro que lo adornan, Morridin solía decir de él que: "... no es más que un simple manto para guarecerme de los elementos". Éste manto, al igual que muchos otros objetos personales suyos, se ha convertido en un objeto de debate en muchos círculos.
@@ -2119,28 +2071,6 @@ Requisito: 15 Fuerza
 Utilizable sólo por:
  Enanos (Guerrero o Guerrero-Ladrón)~
 
-@1388 = ~Hacha de Batalla +3 'Rompecráneos'~
-@1389 = ~En la batalla del Paso del Cráneo, los nigromantes trajeron todos los zombis que pudieron, incluso tomando control de los guerreros caídos del campo de batalla. Farley Malistone, el alto sacerdote del clan, usó toda la magia y encantó todo lo que pudo como la hacha del guerrero más reverenciado de los clanes con el regalo de hacer un gran daño contra no muertos. En un giro cruel del destino, Farley fue acuchillado en la batalla, cogido bajo control de los nigromantes, y de nuevo derrotado por el hacha de su propia creación.
-
-CARACTERÍSTICAS:
-
-Daño: 1d8+3 (+5 contra no muertos)
-THAC0: Bonificador +3 (+5 contra no muertos)
-Tipo de daño: Cuchillada
-Peso: 5
-Factor de velocidad: 5
-Talento marcial: Hacha
-Tipo: a una mano
-Requisito: 10 Fuerza
-
-No lo puede usar:
- Druida
- Clérigo
- Mago
- Ladrón
- Monje
- Señor de las bestias~
-
 @1390 = ~Hacha enastada +2, 'Kilther'~
 @1391 = ~Kilther era el general de los "Caballeros plateados". Cuando sus tierras fueron invadidas por un gran destacamento de caballería orca, sus caballeros se dispusieron a montar en sus caballos para enfrentarse a ellos. Kilther se lo impidió, les ordenó que luchasen a pie, armados con arcos, alabardas o hachas largas siendo una de estas últimas la que eligió para él. Cuando se inició el combate, las hachas largas contuvieron el avance del enemigo, sobre el que empezó a caer una lluvia de flechas. Miles de orcos murieron mientras que los "Caballeros plateados" tan sólo perdieron a 19 hombres, incluyendo al mismo Kilther.
 
@@ -3005,16 +2935,6 @@ A primera vista Ferhgil parece bastante normal, y realmente podría confundírsele
 @20436 = ~Puede que queráis daros de cabeza contra la pared.~ [JETLA36]
 @20438 = ~¡Maldición!~ [JETLA38]
 @20439 = ~Maldición... ¡Ya me he echo un rasguño!~ [JETLA39]
-@20440 = ~Manto de Jet'laya~
-@20441 = ~La madre de Jet'laya ganó este manto de color índigo mientras estaba al servicio de la diosa elfa Aerdrie Faenya. Bendecido por las sacerdotisas de la Dama del Aire y el Viento, el manto otorga alguna protección contra los elementos. Aunque parece ser de un color azul liso desde la distancia, al acercarse se observa un patrón ornamental de plumas entrelazadas insertadas en su fabricación.
-
-CARACTERÍSTICAS:
-
-Bonificador a la CA: 1
-Habilidad al equipar: Resistencia al daño eléctrico +10%
-Peso: 3
-Sólo lo puede usar:
- Jet'laya~
 @20442 = ~¿Estáis bien?~ [JETLA40]
 
 

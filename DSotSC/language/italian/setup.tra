@@ -474,24 +474,6 @@ Peso: 2
 Utilizzabile solo da:
  Ferthgil Trollslayer~
 
-@1018 = ~Elmo di Ebano~
-@1019 = ~Fa parte dell'equipaggiamento standard dato ai soldati del culto della Mano d'Ebano. L'Elmo permette ai cultisti della Mano d'Ebano di eseguire i loro doveri senza interferenze esterne.
-
-STATISTICHE:
-
-Classe Armatura Bonus: nessuno
-Speciale:
-  Protegge Contro i Colpi Critici
-  Chi lo indossa è immune allo Charme
-
-Peso: 4
-
-Non utilizzabile da:
- Mago
- Bardo
- Ladro Monaco
- Kensai~
-
 @1022 = ~Elmo di Cristallo~
 @1023 = ~Creato con i magici cristalli di una Miniera Nanica ora abbandonata. I cristalli hanno una naturale protezione al caldo ed al freddo.
 
@@ -625,21 +607,6 @@ Non utilizzabile da:
  Barbaro
  Addestratore di Animali
  Kensai Mutaforma~
-
-@1044 = ~Armatura di Piastre Completa +1: 'Armatura d'Ebano'~
-@1046 = ~Lord Scrakin, Sommo Capo della Mano d'Ebano, portò questa armatura per quasi 50 anni. Si dice che in questo periodo abitasse in un castello nei pressi delle Montagne Ripide. Non si sa come la sua armatura sia arrivata in altre terre senza di lui, anche se la separazione dai due fu sicuramente insolita.
-
-STATISTICHE:
-
-Classe Armatura: 1
-Peso: 35
-Richiede: 14 alla Forza
-
-Non utilizzabile da:
- Bardo
- Druido
- Mago
- Ladro~
 
 @1047 = ~Armatura di Pelle di Thorfinn~
 @1048 = ~Questa è l'armatura personale di Thorfinn Hauskluniff. La sua speciale struttura di pelle intrecciata la rende più leggera di una semplice armatura di pelle.
@@ -894,20 +861,6 @@ Peso: 6
 Utilizzabile solo da:
  Mago (singolo, duale e multiclasse)
  Personaggi con allineamento buono~
-
-@1092 = ~Cintura Sacra della Velocità~
-@1094 = ~Riccamente ornata e sacra questa cintura porta il segno della Sacra Guardia di Sukien. E' molto famosa per avere l'abilità di attaccare con grande fervore e si è sempre creduto che fosse una naturale abilità che proveniva dall'interno della cintura stessa. La bravura della guardia ha permesso che il segreto della abilità della cintura sia rimasto nascosto per così molto tempo.
-
-STATISTICHE:
-
-Classe Armatura Bonus:
-  +3 contro armi perforanti e armi da lancio
-Speciale: Velocità
-
-Peso: 2
-
-Utilizzabile solo da:
- Paladino~
 
 @1096 = ~Il Mantello di Morridin~
 @1098 = ~Questo mantello una volta apparteneva al famoso bardo Morridin. Di questo mantello, malgrado sia intrecciato abbondantemente d'oro al suo interno, Morridin diceva che era solo "...un semplice mantello che offriva una modesta protezione dagli elementi". Il mantello, insieme a molti altri oggetti personali di Morridin sono divenuti argomento di discussione per molti.
@@ -2033,28 +1986,6 @@ Richiede: 15 alla Forza
 Utilizzabile solo da:
  Nani (Guerriero o Guerriero-Ladro)~
 
-@1388 = ~Ascia da Battaglia +3 'Il Frammento del Teschio'~
-@1389 = ~Durante la battaglia del Passo del Teschio, i necromanti fecero uscire alla luce tutti gli zombi che riuscirono a trovare e presero anche il controllo di tutti i guerrieri caduti sul campo di battaglia. Farley Malistone, l'alto sacerdote del clan, si adoperò usando tutta la magia e la preghiera di cui poteva fare appello ed incantò l'ascia dei più religiosi guerrieri del clan con la possibilità di fare grandi danni contro i Non Morti. Per un crudele gioco del destino Farley fu ucciso sul campo di battaglia e, preso sotto il controllo dei negromanti, fu ucciso con la stessa ascia che aveva creato.
-
-STATISTICHE:
-
-Danno: 1D8 + 3 (+5 contro i Non Morti)
-THAC0: +3 bonus (+5 contro i Non Morti)
-Tipo di danno: tagliente
-Peso: 5
-Fattore Velocità: 5
-Tipo di Competenza: Ascia
-Tipo: ad una mano
-Richiede: 10 alla Forza
-
-Non utilizzabile da:
- Druido
- Chierico
- Mago
- Ladro
- Monaco
- Addestratore di Animali~
-
 @1390 = ~Il Palo-Ascia +2 'Kilther'~
 @1391 = ~Kilther fu il generale dei "Cavalieri d'Argento". Quando furono presi sotto il controllo di un'immensa cavalleria di Orchi, tutti i cavalieri volevano cavalcare contro gli orchi. Ma Kilther glielo proibì. Forzò i suoi uomini ad agire a piedi, equipaggiati con l'arco, l'alabarda o il palo-ascia. Kilther scelse questa particolare stratagemma. Quando il combattimento iniziò, i pali-asce contennero l'avanzata degli orchi. Una pioggia di frecce furono lanciate e le asce indussero gli orchi a fermarsi. Mille Orchi persero la vita mentre i Cavalieri d'Argento ebbero una perdita di soli diciannove uomini, compreso Kilther.
 
@@ -2902,17 +2833,6 @@ incontrerete ancora tu e i tuoi compagni durante i vostri viaggi. Hai paura che 
 @20436 = ~Forse vorresti poterti picchiare da solo.~ [JETLA36]
 @20438 = ~Dannazione!~ [JETLA38]
 @20439 = ~Dannazione... mi ha fatto un graffio!~ [JETLA39]
-@20440 = ~Mantello di Jet'laya~
-@20441 = ~La madre di Jet'laya ricevette questo mantello azzurro quando era al servizio della dea degli elfi Aerdrie Faenya. Benedetto dalle sacerdotesse della Signora dell'Aria e del Vento, questo mantello dona protezione dagli elementi. Benché sembri, in lontananza, avere solo un colore blu intenso, da un esame più approfondito risultano esserci dei disegni ornati sul suo tessuto.
-
-STATISTICHE:
-
-Bonus di Classe Armatura: 1
-Abilità durante l'uso: Resistenza all'Elettricità +10%
-Peso: 3
-Utilizzabile solo da:
- Jet'laya~
-
 @20442 = ~Stai bene?~ [JETLA40]
 
 

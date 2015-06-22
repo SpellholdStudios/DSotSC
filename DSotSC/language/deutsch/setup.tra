@@ -485,22 +485,6 @@ Gewicht: 2
 
 Kann nur verwendet werden von:
  Ferthgil Trolltöter~
-@1018 = ~Ebener Helm~
-@1019 = ~Ein solcher Helm gehörte zur Standardausrüstung der Soldaten der Ebenen Hand. Der Helm erlaubte es den Mitgliedern der Hand, ihren Pflichten ohne externe Störungen nachzugehen.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Besonderheit:
- Schützt vor kritischen Treffern
- Träger ist immun gegen Bezauberung
-Gewicht: 4
-
-Kann nicht verwendet werden von:
- Magiern
- Barden
- Dieben
- Mönchen
- Kensai~
 @1022 = ~Kristallhelm~
 @1023 = ~Dieser Helm wurde aus magischen Kristallen hergestellt, welche in einer längst vergessenen Zwergenmine gefördert wurden. Die Kristalle haben eine natürliche Resistenz gegen Feuer und Kälte.
 
@@ -636,22 +620,6 @@ Kann nicht verwendet werden von:
  Tiermeister
  Kensai
  Gestaltwandler~
-@1044 = ~Ebener Prunkharnisch~
-@1046 = ~Prunkharnisch +1: Ebene Rüstung
-
-Lord Scrakin, Oberster General der Ebenen Hand, trug diese Rüstung fast 50 Jahre lang. Gerüchte besagen, dass er während dieser Zeit in einer Burg irgendwo in den Weltbeständig-Bergen lebte. Wie seine Rüstung ohne ihn in andere Länder gelangen konnte ist nicht bekannt, sicher ist nur, dass die Trennung der beiden nicht sehr angenehm gewesen sein muss.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Rüstungsklasse: 1
-Gewicht: 35
-Mindeststärke: 14
-
-Kann nicht verwendet werden von:
- Barden
- Druiden
- Magiern
- Dieben~
 
 @1047 = ~Thorfinns Lederharnisch~
 @1048 = ~Dies ist der persönliche Lederharnisch von Thorfinn Hauskluniff. Die besondere Machart der Rüstung aus ineinander greifenden Lederplatten macht sie viel leichter als eine normale Lederrüstung.
@@ -893,17 +861,6 @@ Kann nur verwendet werden von:
 // Belts
 ////////
 
-@1092 = ~Heiliger Gürtel der Geschwindigkeit~
-@1094 = ~Heiliger Gürtel der Geschwindigkeit
-Kunstvolle und heilige Markierungen heben den Gürtel der Heiligen Wache der Sukien hervor. Lange ist es schon bekannt, dass sie mit großen Eifer kämpfen und man glaubte, dass die Fähigkeit in der Natur der Wesen lag. Wie schlau war es von den Wachen, dieses Geheimnis so lange zu bewahren.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Rüstungsklasse-Bonus: -3 gegen Stichwaffen und Geschosswaffen
-Bonus: Hast
-Gewicht: 2
-Kann nur verwendet werden von:
- Paladinen~
 @1096 = ~Morridins Umhang~
 @1098 = ~Dieser Umhang war einst der Besitz des berühmten Barden Morridin. Obwohl der Umhang nur so vor eingewebtem Gold trotzt, ist er "... nur ein einfacher Umhang, der mäßigen Schutz vor den Elementen bietet", so Morridin. Der Umhang und viele andere Dinge, die Morridin gehörten, wurden für lange Zeit zum Thema vieler Diskussionen.
 
@@ -2042,28 +1999,6 @@ Mindeststärke: 15
 
 Kann nur verwendet werden von:
  Zwergenkämpfern oder Zwergendieb~
-@1388 = ~Streitaxt +3 "Schädelspalter"~
-@1389 = ~Während des Kampfes am Totenkopfpass, zauberten die Nekromanten so viele Zombies herbei, wie nur möglich. Dabei wurden auch die gefallenen Kämpfer, die auf dem Schlachtfeld lagen, verzaubert. Falrey Malistone, der Hohe Priester des Clans, sammelte alle Magier und Priester um sich und verzauberten die Axt des mächtigsten Kämpfers mit der Eigenschaft, dass gegen Untote sich der Schaden erhöht. Durch eine grausamen Laune des Schicksals wurde Farley auf dem Schlachtfeld erschlagen und wurde unter der Kontrolle der Nekromanten von seiner Axt erneut erschlagen.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1W8 +3 (+5 gegen Untote)
-
-Schadensart: mit Klingenwaffe aufschlitzen
-ETW0: -3 (-5 gegen Untote)
-Gewicht: 10
-Geschwindigkeitsfaktor: 9
-Fertigkeit: Axt
-Type: 2-händig
-Mindeststärke: 12
-
-Kann nicht verwendet werden von:
- Druiden
- Priestern
- Magiern
- Dieben
- Mönchen
- Tiermeistern~
 @1390 = ~Stangenaxt +2 "Kilther"~
 @1391 = ~Kilther war einst der General der "Silbernen Ritter". Als sie von einer riesigen Ork-Kavallerie angegriffen wurden, wollten die Ritter zu Pferd gegen die Angreifer kämpfen. Kilther allerdings befahl seinen Männern die Orks zu Fuß anzugreifen, ausgerüstet mit Bogen, Hellebarde oder Stangenaxt. Als der Kampf begann erkannten die Orks, dass sie keine Chance hatten, aber da war es schon zu spät. Die Pfeile regneten auf die Orks herab und die Äxte brachten sie schließlich zu Fall. Unter den Orks gab es Verluste zu Tausenden, während die Silbernen Ritter nur 19 Opfer zu beklagen hatten, unter ihnen auch Kilther.
 
@@ -2924,16 +2859,6 @@ Eines Tages wurde in dem sonst friedlichen Dorf ein Tumult entfacht, als die Bew
 @20436 = ~Vielleicht wollt Ihr Euch ja alleine durchschlagen?~ [JETLA36]
 @20438 = ~Verdammt!!~ [JETLA38]
 @20439 = ~Verdammt... kalt erwischt...~ [JETLA39]
-@20440 = ~Jet'layas Umhang~
-@20441 = ~Jet'layas Mutter bekam diesen himmelblauen Umhang, als sie in den Diensten der Elfengöttin Aerdrie Faenya stand. Von den Priesterinnen der Dame der Luft und des Windes gesegnet, bietet dieser Umhang Schutz vor den Elementen. Auch wenn es aus der Ferne wie ein einfaches Blau aussieht, fördert ein genauerer Blick ein kunstvolles Muster von ineinandergreifenden, mit dem Stoff verwobenen Federn zutage.
-
-EIGENSCHAFTEN:
-
-RK-Bonus: -1
-Elektrizitätsresistenz: +10%
-Gewicht: 3
-Kann nur verwendet werden von:
- Jet'laya~
 @20442 = ~Seid Ihr in Ordnung?~ [JETLA40]
 
 

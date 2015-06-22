@@ -11,6 +11,7 @@ AUTHOR ~~
 VERSION ~v3.0~
 README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
 AUTO_TRA ~DSotSC/language/%s/D~ //%~
+ASK_EVERY_COMPONENT
 
 /////                                                  \\\\\
 ///// pre-install preparations                         \\\\\
@@ -135,7 +136,7 @@ END
 
 // Install new 2da files
 
-COPY ~DSotSC/base/2da/chptxt-9.2da~ ~override~
+COPY ~DSotSC/base/2da/dsotsc.2da~ ~override~
 	REPLACE ~99990~ @2305
 	REPLACE ~99991~ @2306
 
@@ -193,16 +194,18 @@ COPY_EXISTING ~interdia.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
 
-OUTER_SET strref = RESOLVE_STR_REF (@30008)
+//future update:
+//OUTER_SET strref = RESOLVE_STR_REF (@40000)
+//@40000 = ~CúChoinneach refuse to part with his personal equipment.~
+//DSMADDIE CUCHOINNEACH %strref% 3
+
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	APPEND ~item_use.2da~
-~DSCLCK23 JETLAYA 9382 2
-DSCOARM CONCHOBHAIR 9382 2
+~DSCOARM CONCHOBHAIR 9382 2
 DSCOSWD CONCHOBHAIR 9382 2
 DSCUARM CUCHOINNEACH 9382 2
 DSCUSHLD CUCHOINNEACH 9382 2
 DSCUSWD CUCHOINNEACH 9382 2
-DSMADDIE CUCHOINNEACH %strref% 3
 DSFEAXE FERTHGIL 9382 2
 DSFEHELM FERTHGIL 9382 2
 DSJEARM JETLAYA 9382 2
@@ -583,10 +586,6 @@ COPY ~DSotSC/base/itm/dsfehelm.itm~ ~override~
 	SAY NAME2 @1015
 	SAY DESC @1017
 
-COPY ~DSotSC/base/itm/dsebhelm.itm~ ~override~
-	SAY NAME2 @1018
-	SAY DESC @1019
-
 COPY ~DSotSC/base/itm/dscryhlm.itm~ ~override~
 	SAY NAME2 @1022
 	SAY DESC @1023
@@ -624,10 +623,6 @@ COPY ~DSotSC/base/itm/dscoarm.itm~ ~override~
 COPY ~DSotSC/base/itm/dscryarm.itm~ ~override~
 	SAY NAME2 @1041
 	SAY DESC @1042
-
-COPY ~DSotSC/base/itm/dsebplat.itm~ ~override~
-	SAY NAME2 @1044
-	SAY DESC @1046
 
 COPY ~DSotSC/base/itm/dschan02.itm~ ~override~
 	SAY NAME2 @1052
@@ -699,11 +694,7 @@ COPY ~DSotSC/base/itm/dsrobe07.itm~ ~override~
 	SAY NAME2 @1087
 	SAY DESC @1088
 
-// Belts
-
-COPY ~DSotSC/base/itm/dsbelt01.itm~ ~override~ //used only in NTotSC
-	SAY NAME2 @1092
-	SAY DESC @1094
+// Cloaks
 
 COPY ~DSotSC/base/itm/dsclck01.itm~ ~override~
 	SAY NAME2 @1096
@@ -965,12 +956,6 @@ COPY ~DSotSC/base/itm/dsboot02.itm~ ~override~
 	SAY NAME2 @1295
 	SAY DESC @1296
 
-// Cloaks
-
-COPY ~DSotSC/base/itm/dsclck23.itm~ ~override~
-	SAY NAME2 @20440
-	SAY DESC @20441
-
 // Shields
 
 COPY ~DSotSC/base/itm/dsshld02.itm~ ~override~
@@ -1095,10 +1080,6 @@ COPY ~DSotSC/base/itm/dsaxe03.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1386
 	SAY DESC @1387
 
-COPY ~DSotSC/base/itm/dsaxe04.itm~ ~override~ //used only in NTotSC
-	SAY NAME2 @1388
-	SAY DESC @1389
-
 COPY ~DSotSC/base/itm/dsaxe05.itm~ ~override~
 	SAY NAME1 @1384
 	SAY NAME2 @1390
@@ -1109,7 +1090,7 @@ COPY ~DSotSC/base/itm/dsaxe06.itm~ ~override~
 	SAY NAME2 @1393
 	SAY DESC @1395
 
-COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~ //quest item
+COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~ //quest item (but only with optional component)
 	SAY NAME2 @1396
 	SAY DESC @1398
 
@@ -1205,7 +1186,7 @@ COPY ~DSotSC/base/itm/dswand02.itm~ ~override~
 	SAY NAME2 @1465
 	SAY DESC @1466
 
-COPY ~DSotSC/base/itm/dswand03.itm~ ~override~ //used only in NTotSC
+COPY ~DSotSC/base/itm/dswand03.itm~ ~override~
 	SAY NAME2 @1467
 	SAY DESC @1468
 
@@ -1222,7 +1203,7 @@ COPY ~DSotSC/base/itm/dssp446.itm~ ~override~
 	SAY NAME1 @1476
 	SAY NAME2 @1476
 
-// Items needed by creatures
+//Items needed by creatures
 
 COPY ~DSotSC/base/itm/nostring~ ~override~
 
@@ -1236,117 +1217,6 @@ COPY ~DSotSC/base/sto/dstrungl.sto~ ~override~
 	SAY 0x0c @1477
 
 COPY ~DSotSC/base/sto/dsbag01.sto~ ~override~
-
-//Modify existing stores
-
-COPY_EXISTING ~friend.sto~ ~override~
-	ADD_STORE_ITEM ~DSLEAT01~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~LEAT05~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~XBOW05~ #0 #0 #0 ~IDENTIFIED~ #2
-
-COPY_EXISTING ~highhedg.sto~ ~override~
-	ADD_STORE_ITEM ~DSROBE07~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSROBESO~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSZRNG03~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~SCRL1J~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~SCRL7G~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~SCRLA5~ #0 #0 #0 ~IDENTIFIED~ #2
-
-COPY_EXISTING ~inn3304.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-
-COPY_EXISTING ~inn3351.sto~ ~override~
-	ADD_STORE_ITEM ~XBOW02~ #0 #0 #0 ~IDENTIFIED~ #2
-
-COPY_EXISTING ~sto0703.sto~ ~override~
-	ADD_STORE_ITEM ~DSBOLT01~ #10 #0 #0 ~IDENTIFIED~ #10
-	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSWAND01~ #10 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~QUIVER05~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~SCRL8P~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~SCRL9J~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~WAND09~ #20 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~WAND13~ #20 #0 #0 ~IDENTIFIED~ #1
-
-COPY_EXISTING ~sto4803.sto~ ~override~
-	ADD_STORE_ITEM ~BOW04~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #2
-
-COPY_EXISTING ~sto4909.sto~ ~override~
-	ADD_STORE_ITEM ~AROW05~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
-
-COPY_EXISTING ~stoblack.sto~ ~override~
-	ADD_STORE_ITEM ~SPER02~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #2
-
-COPY_EXISTING ~stosilen.sto~ ~override~
-	ADD_STORE_ITEM ~DSHAT01~ #0 #0 #0 ~IDENTIFIED~ #2
-	PATCH_IF FILE_EXISTS_IN_GAME ~helmsun.itm~ BEGIN
-		ADD_STORE_ITEM ~HELMSUN~ #0 #0 #0 ~IDENTIFIED~ #1
-	END
-
-COPY_EXISTING ~taerum.sto~ ~override~
-	ADD_STORE_ITEM ~AROW10~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~AX1H05~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #2
-	ADD_STORE_ITEM ~HELM06~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #4
-
-COPY_EXISTING ~tem0131.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSCHAN02~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-
-COPY_EXISTING ~tem0132.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-
-COPY_EXISTING ~tem2304.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-
-COPY_EXISTING ~tem2601.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-
-COPY_EXISTING ~tem3402.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #9
-	ADD_STORE_ITEM ~DSBOW02~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSCHAN04~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSRNG103~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-
-COPY_EXISTING ~tem4802.sto~ ~override~
-	READ_BYTE "0x10" "buy_flags"
-	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
-	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
-	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
 
 /////                                                  \\\\\
 ///// install creatures                                \\\\\
@@ -1804,7 +1674,6 @@ COPY ~DSotSC/base/cre/dsjetlay.cre~ ~override~
 	SAY 0x1a0 @20421 //SELECT_RARE1
 	SAY 0x1a4 @20429 //SELECT_RARE2
 	SAY 0x1cc @2202 //BIO
-	ADD_CRE_ITEM ~DSCLCK23~ #0 #0 #0 ~IDENTIFIED~ ~CLOAK~
 
 COPY ~DSotSC/base/cre/dsjules.cre~ ~override~
 	SAY NAME1 @2203
@@ -2089,7 +1958,7 @@ COPY ~DSotSC/base/cre/dswelf2e.cre~ ~override~
 	SAY NAME1 @2294
 	SAY NAME2 @2294
 
-COPY ~DSotSC/base/cre/dswolf1.cre~ ~override~
+COPY ~DSotSC/base/cre/dswlfshd.cre~ ~override~
 	SAY NAME1 @2295
 	SAY NAME2 @2295
 
@@ -2101,363 +1970,17 @@ COPY ~DSotSC/base/cre/skellord.cre~ ~override~
 
 // Modify existing creatures
 
-COPY_EXISTING ~amaran.cre~ ~override~
-	WRITE_SHORT 0x14 ~4500~ //XP
-	WRITE_SHORT 0x24 ~85~
-	WRITE_SHORT 0x26 ~85~
-	WRITE_SHORT 0x52 ~13~
-	WRITE_SHORT 0x234 ~14~
-	WRITE_ASCII 0x250 ~druid12a~ #8
-	WRITE_ASCII 0x280 ~AMARAN~ #32
-	REPLACE_CRE_ITEM ~DSCDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSDRGSKN~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSZRNG03~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
-	ADD_CRE_ITEM ~DSWRLSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-
-COPY_EXISTING ~andris.cre~ ~override~
-	WRITE_SHORT 0x14 ~6500~ //XP
-	WRITE_SHORT 0x24 ~55~ //HP
-	WRITE_SHORT 0x26 ~55~
-	WRITE_SHORT 0x52 ~15~
-	WRITE_SHORT 0x234 ~15~ //first class level
-	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~MAGEBRAC~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSSTAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-
-COPY_EXISTING ~arlin.cre~ ~override~
-	WRITE_SHORT 0x14 ~1800~ //XP
-	WRITE_SHORT 0x24 ~27~ //HP
-	WRITE_SHORT 0x26 ~27~ //max HP
-	WRITE_SHORT 0x52 ~15~ //THAC0
-	WRITE_BYTE 0x54 ~10~ //ST vs Death
-	WRITE_BYTE 0x55 ~5~ //ST vs Wands
-	WRITE_BYTE 0x56 ~7~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~6~ //ST vs Spell
-	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~STAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-
-COPY_EXISTING ~bor.cre~ ~override~
-	REPLACE_CRE_ITEM ~HELM01~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSAXE01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-COPY_EXISTING ~brunos.cre~ ~override~
-	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSSHLD54~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
-	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	REPLACE_CRE_ITEM ~DSBOOT02~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
-	ADD_CRE_ITEM ~DSKATAN1~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~coksmth.cre~ ~override~
-	WRITE_SHORT 0x24 ~61~ //HP
-	WRITE_SHORT 0x26 ~61~ //max HP
-	WRITE_SHORT 0x71 ~2~ //Spear Prof
-	WRITE_SHORT 0x74 ~2~ //Axe Prof
-	WRITE_SHORT 0x234 ~9~ //first class level
-	REPLACE_CRE_ITEM ~LEAT09~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSAXE05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
-	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-
-COPY_EXISTING ~corsone.cre~ ~override~
-	REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
-	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~davaeo.cre~ ~override~
-	REPLACE_CRE_ITEM ~DSROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~CLOAK~
-	ADD_CRE_ITEM ~DSMISC01~ #0 #0 #0 ~NONE~ ~INV15~
-
-COPY_EXISTING ~denak.cre~ ~override~
-	WRITE_SHORT 0x14 ~3750~ //XP
-	WRITE_SHORT 0x24 ~35~ //HP
-	WRITE_SHORT 0x26 ~35~ //max HP
-	WRITE_ASCII 0x34 ~None~ #8 //Portrait
-	WRITE_ASCII 0x3c ~None~ #8 //Portrait
-	WRITE_SHORT 0x52 ~17~ //THAC0
-	WRITE_BYTE 0x54 ~11~ //ST vs Death
-	WRITE_BYTE 0x55 ~7~ //ST vs Wands
-	WRITE_BYTE 0x56 ~9~ //ST vs Poly
-	WRITE_BYTE 0x57 ~13~ //ST vs Breath
-	WRITE_BYTE 0x58 ~3~ //ST vs Spell
-	WRITE_SHORT 0x234 ~11~ //first class level
-	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~STAF07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~drakar.cre~ ~override~
-	WRITE_SHORT 0x14 ~2200~ //XP
-	WRITE_SHORT 0x24 ~52~ //HP
-	WRITE_SHORT 0x26 ~52~ //max HP
-	WRITE_SHORT 0x52 ~13~ //THAC0
-	WRITE_BYTE 0x54 ~9~ //ST vs Death
-	WRITE_BYTE 0x55 ~10~ //ST vs Wands
-	WRITE_BYTE 0x56 ~9~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~10~ //ST vs Spell
-	REPLACE_CRE_ITEM ~DSEBHELM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSEBPLAT~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSSHLD51~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
-	ADD_CRE_ITEM ~POTN14~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM2~
-
-COPY_EXISTING ~drasus.cre~ ~override~
-	WRITE_SHORT 0x14 ~1700~ //XP
-	WRITE_SHORT 0x24 ~86~ //HP
-	WRITE_SHORT 0x26 ~86~ //max HP
-	WRITE_SHORT 0x52 ~10~ //THAC0
-	WRITE_BYTE 0x54 ~7~ //ST vs Death
-	WRITE_BYTE 0x55 ~9~ //ST vs Wands
-	WRITE_BYTE 0x56 ~8~ //ST vs Poly
-	WRITE_BYTE 0x57 ~8~ //ST vs Breath
-	WRITE_BYTE 0x58 ~10~ //ST vs Spell
-	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSSHLD53~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
-	ADD_CRE_ITEM ~DSVFLAIL~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
-
-COPY_EXISTING ~galdor.cre~ ~override~
-	WRITE_SHORT 0x14 ~12000~ //XP
-	WRITE_SHORT 0x24 ~112~ //HP
-	WRITE_SHORT 0x26 ~112~ //max HP
-	WRITE_SHORT 0x52 ~6~ //THAC0
-	WRITE_BYTE 0x54 ~9~ //ST vs Death
-	WRITE_BYTE 0x55 ~5~ //ST vs Wands
-	WRITE_BYTE 0x56 ~6~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~5~ //ST vs Spell
-	WRITE_SHORT 0x234 ~18~
-	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
 COPY_EXISTING ~izefia.cre~ ~override~
-	WRITE_SHORT 0x14 ~2000~ //XP
-	WRITE_SHORT 0x24 ~68~ //HP
-	WRITE_SHORT 0x26 ~68~ //max HP
-	WRITE_SHORT 0x52 ~11~ //THAC0
-	WRITE_BYTE 0x54 ~6~ //ST vs Death
-	WRITE_BYTE 0x55 ~10~ //ST vs Wands
-	WRITE_BYTE 0x56 ~9~ //ST vs Poly
-	WRITE_BYTE 0x57 ~12~ //ST vs Breath
-	WRITE_BYTE 0x58 ~11~ //ST vs Spell
-	WRITE_SHORT 0x234 ~10~
-	WRITE_ASCII 0x250 ~DRUID14T~ #8
-	WRITE_ASCII 0x280 ~IZEFIA~ #32
-	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSAMUL01~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~kahrk.cre~ ~override~
-	WRITE_ASCII 0x34 ~None~ #8 //Portrait
-	WRITE_ASCII 0x3c ~None~ #8 //Portrait
-	ADD_CRE_ITEM ~SCRL8Q~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
-
-COPY_EXISTING ~kestor.cre~ ~override~
-	WRITE_SHORT 0x14 ~2300~ //XP
-	WRITE_SHORT 0x24 ~56~ //HP
-	WRITE_SHORT 0x26 ~56~ //max HP
-	WRITE_SHORT 0x234 ~12~ //first class level
-	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-
-COPY_EXISTING ~krysti.cre~ ~override~
-	WRITE_SHORT 0x14 ~4750~ //XP
-	WRITE_SHORT 0x24 ~63~ //HP
-	WRITE_SHORT 0x26 ~63~ //max HP
-	WRITE_SHORT 0x52 ~12~ //THAC0
-	WRITE_SHORT 0x234 ~16~ //first class level
-	ADD_CRE_ITEM ~DSDAGG01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~DSBULL01~ #10 #0 #0 ~UNSTEALABLE~ ~QUIVER3~
-	ADD_CRE_ITEM ~SCRLA5~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+	WRITE_ASCII 0x280 ~IZEFIA~ #32 //death variable
 
 COPY_EXISTING ~laurel.cre~ ~override~
 	WRITE_ASCII 0x280 ~LAUREL~ #32 //death variable
 
-COPY_EXISTING ~lasala.cre~ ~override~
-	WRITE_SHORT 0x14 ~1350~ //XP
-	WRITE_SHORT 0x24 ~27~ //HP
-	WRITE_SHORT 0x26 ~27~ //max HP
-	WRITE_ASCII 0x34 ~None~ #8
-	WRITE_ASCII 0x3c ~None~ #8
-	WRITE_SHORT 0x52 ~16~ //THAC0
-	WRITE_BYTE 0x54 ~13~ //ST vs Death
-	WRITE_BYTE 0x55 ~9~ //ST vs Wands
-	WRITE_BYTE 0x56 ~11~ //ST vs Poly
-	WRITE_BYTE 0x57 ~13~ //ST vs Breath
-	WRITE_BYTE 0x58 ~10~ //ST vs Spell
-	WRITE_SHORT 0x234 ~9~
-
-COPY_EXISTING ~laskal.cre~ ~override~
-	WRITE_SHORT 0x14 ~2650~ //XP
-	WRITE_SHORT 0x24 ~71~ //HP
-	WRITE_SHORT 0x26 ~71~ //max HP
-	WRITE_SHORT 0x52 ~15~ //THAC0
-	WRITE_BYTE 0x54 ~5~ //ST vs Death
-	WRITE_BYTE 0x55 ~9~ //ST vs Wands
-	WRITE_BYTE 0x56 ~8~ //ST vs Poly
-	WRITE_BYTE 0x57 ~11~ //ST vs Breath
-	WRITE_BYTE 0x58 ~10~ //ST vs Spell
-	WRITE_SHORT 0x234 ~12~
-	WRITE_ASCII 0x258 ~DRUID14T~ #8
-	REPLACE_CRE_ITEM ~DSTDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSSTAF01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~DSSWD02~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
-
-COPY_EXISTING ~molkar.cre~ ~override~
-	WRITE_SHORT 0x14 ~1900~ //XP
-	WRITE_SHORT 0x24 ~70~ //HP
-	WRITE_SHORT 0x26 ~70~ //max HP
-	WRITE_SHORT 0x52 ~13~ //THAC0
-	WRITE_BYTE 0x54 ~8~ //ST vs Death
-	WRITE_BYTE 0x55 ~10~ //ST vs Wands
-	WRITE_BYTE 0x56 ~9~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~11~ //ST vs Spell
-	WRITE_SHORT 0x234 ~9~
-	ADD_CRE_ITEM ~DSSWD03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~morvin.cre~ ~override~
-	WRITE_SHORT 0x14 ~1250~ //XP
-	WRITE_SHORT 0x24 ~78~ //HP
-	WRITE_SHORT 0x26 ~78~ //max HP
-	WRITE_BYTE 0x54 ~7~ //ST vs Death
-	WRITE_BYTE 0x55 ~11~ //ST vs Wands
-	WRITE_BYTE 0x56 ~10~ //ST vs Poly
-	WRITE_BYTE 0x57 ~13~ //ST vs Breath
-	WRITE_BYTE 0x58 ~12~ //ST vs Spell
-	WRITE_SHORT 0x234 ~9~
-	REPLACE_CRE_ITEM ~DSCRYHLM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSCRYARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSAXE03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~mulahe.cre~ ~override~
-	WRITE_SHORT 0x14 ~750~ //XP
-	WRITE_SHORT 0x24 ~41~ //HP
-	WRITE_SHORT 0x26 ~41~ //max HP
-	REPLACE_CRE_ITEM ~CHAN04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSBRAC04~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~BLUN05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
 COPY_EXISTING ~ogreco.cre~ ~override~
-	WRITE_ASCII 0x280 ~OGRECO~ #32
-
-COPY_EXISTING ~osmadi.cre~ ~override~
-	WRITE_SHORT 0x14 ~2500~ //XP
-	WRITE_SHORT 0x24 ~59~ //HP
-	WRITE_SHORT 0x26 ~59~ //max HP
-	WRITE_SHORT 0x52 ~16~ //THAC0
-	WRITE_BYTE 0x54 ~5~ //ST vs Death
-	WRITE_BYTE 0x55 ~9~ //ST vs Wands
-	WRITE_BYTE 0x56 ~8~ //ST vs Poly
-	WRITE_BYTE 0x57 ~11~ //ST vs Breath
-	WRITE_BYTE 0x58 ~10~ //ST vs Spell
-	WRITE_SHORT 0x234 ~11~
-	WRITE_ASCII 0x258 ~DRUID14T~ #8
-	REPLACE_CRE_ITEM ~LEAT15~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSBRAC02~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSCLUB01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~ragefa.cre~ ~override~
-	WRITE_SHORT 0x14 ~4000~ //XP
-	WRITE_SHORT 0x24 ~42~ //HP
-	WRITE_SHORT 0x26 ~42~ //max HP
-	WRITE_SHORT 0x52 ~15~ //THAC0
-	WRITE_BYTE 0x54 ~10~ //ST vs Death
-	WRITE_BYTE 0x55 ~5~ //ST vs Wands
-	WRITE_BYTE 0x56 ~7~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~6~ //ST vs Spell
-	WRITE_SHORT 0x234 ~14~
-	REPLACE_CRE_ITEM ~DSROBE04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSAMUL10~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~SCRL9N~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
-
-COPY_EXISTING ~rielta.cre~ ~override~
-	WRITE_SHORT 0x14 ~1200~ //XP
-	WRITE_SHORT 0x24 ~66~ //HP
-	WRITE_SHORT 0x26 ~66~ //max HP
-	WRITE_SHORT 0x52 ~16~ //THAC0
-	WRITE_BYTE 0x54 ~10~ //ST vs Death
-	WRITE_BYTE 0x55 ~5~ //ST vs Wands
-	WRITE_BYTE 0x56 ~7~ //ST vs Poly
-	WRITE_BYTE 0x57 ~9~ //ST vs Breath
-	WRITE_BYTE 0x58 ~6~ //ST vs Spell
-	WRITE_SHORT 0x234 ~16~
-	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSBRAC01~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	ADD_CRE_ITEM ~DSRNG06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
-	ADD_CRE_ITEM ~DSAMUL07~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSDAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
-
-COPY_EXISTING ~semaj.cre~ ~override~
-	WRITE_SHORT 0x14 ~1000~ //XP
-	WRITE_SHORT 0x24 ~62~ //HP
-	WRITE_SHORT 0x26 ~62~ //max HP
-	WRITE_ASCII 0x34 ~None~ #8
-	WRITE_ASCII 0x3c ~None~ #8
-	WRITE_SHORT 0x52 ~13~ //THAC0
-	WRITE_BYTE 0x54 ~3~ //ST vs Death
-	WRITE_BYTE 0x55 ~1~ //ST vs Wands
-	WRITE_BYTE 0x56 ~1~ //ST vs Poly
-	WRITE_BYTE 0x57 ~2~ //ST vs Breath
-	WRITE_BYTE 0x58 ~4~ //ST vs Spell
-	WRITE_SHORT 0x234 ~14~
-	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	ADD_CRE_ITEM ~DSNEMSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~slythe.cre~ ~override~
-	WRITE_SHORT 0x14 ~6000~ //XP
-	WRITE_SHORT 0x24 ~115~ //HP
-	WRITE_SHORT 0x26 ~115~ //max HP
-	WRITE_BYTE 0x54 ~5~ //ST vs Death
-	WRITE_BYTE 0x55 ~6~ //ST vs Wands
-	WRITE_BYTE 0x56 ~6~ //ST vs Poly
-	WRITE_BYTE 0x57 ~5~ //ST vs Breath
-	WRITE_BYTE 0x58 ~6~ //ST vs Spell
-	REMOVE_CRE_ITEM ~SHLD08~ ~LEAT04~ ~SW1H10~ ~XBOW04~
-	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSAMUL06~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
-	ADD_CRE_ITEM ~DSXBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
-	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
-	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
+	WRITE_ASCII 0x280 ~OGRECO~ #32 //death variable
 
 COPY_EXISTING ~takiyah.cre~ ~override~
-	WRITE_SHORT 0x14 ~1000~ //XP
-	WRITE_SHORT 0x24 ~68~ //HP
-	WRITE_SHORT 0x26 ~68~ //max HP
-	WRITE_SHORT 0x234 ~10~
-	WRITE_ASCII 0x280 ~TAKIYAH~ #32
-	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
-	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~vax.cre~ ~override~
-	REPLACE_CRE_ITEM ~DSAXE02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-
-COPY_EXISTING ~zal.cre~  ~override~
-	ADD_CRE_ITEM ~DSSPERD~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON4~
-
-COPY_EXISTING ~zeela.cre~ ~override~
-	PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
-		REMOVE_CRE_ITEM ~BLUN02~
-		REMOVE_CRE_ITEM ~BRAC02~
-		REMOVE_CRE_ITEM ~SHLD03~
-		REMOVE_CRE_ITEM ~PLAT01~
-		REMOVE_CRE_ITEM ~CHAN04~
-		REPLACE_CRE_ITEM ~PLAT04~	#0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
-		ADD_CRE_ITEM ~DSSTAF06~	#0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
-		ADD_CRE_ITEM ~POTN52~	#3 #0 #0 ~UNSTEALABLE~ ~QITEM2~
-		REPLACE_CRE_ITEM ~BRAC03~	#0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
-	END
-BUT_ONLY
+	WRITE_ASCII 0x280 ~TAKIYAH~ #32 //death variable
 
 /////                                                  \\\\\
 ///// install areas (ARE, WED)                         \\\\\
@@ -2484,810 +2007,136 @@ COPY ~DSotSC/base/are/%platform%/dsc006.are~ ~override~
 
 // Modify existing areas
 
-// %NorthNashkelRoad%.ARE gets new travel region and new entrance for DSC020.ARE
 COPY_EXISTING ~%NorthNashkelRoad%.ARE~ ~override~
-	WRITE_ASCIIE 0x94 ~%NorthNashkelRoad_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
-	READ_LONG  0x54  "actors_offset"
-	READ_SHORT 0x58  "actors_num"
-	READ_SHORT 0x5a  "infotrig_num"
-	READ_LONG  0x5c  "infotrig_offset"
-	READ_LONG  0x60  "spawns_offset"
-	READ_LONG  0x64  "spawns_num"
-	READ_LONG  0x68  "entrances_offset"
-	READ_LONG  0x6c  "entrances_num"
-	READ_LONG  0x70  "cont_offset"
-	READ_SHORT 0x74  "cont_num"
-	READ_SHORT 0x76  "items_num"
-	READ_LONG  0x78  "items_offset"
-	READ_LONG  0x7c  "vert_offset"
-	READ_SHORT 0x80  "vert_num"
-	READ_SHORT 0x82  "amb_num"
-	READ_LONG  0x84  "amb_offset"
-	READ_LONG  0x88  "vars_offset"
-	READ_LONG  0x8c  "vars_num"
-	READ_LONG  0xa0  "expbmp_offset"
-	READ_LONG  0xa4  "doors_num"
-	READ_LONG  0xa8  "doors_offset"
-	READ_LONG  0xac  "anim_num"
-	READ_LONG  0xb0  "anim_offset"
-	READ_LONG  0xb4  "tiled_num"
-	READ_LONG  0xb8  "tiled_offset"
-	READ_LONG  0xbc  "songs_offset"
-	READ_LONG  0xc0  "rest_spawns_offset"
-	READ_LONG  0xc4  "automap_offset"
-	READ_LONG  0xc8  "automap_num"
+	//new travel region to DSC020.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         = 2    //travel
+		fj_box_left     = 3018
+		fj_box_top      = 640
+		fj_box_right    = 3101
+		fj_box_bottom   = 721
+		fj_cursor_idx   = 34
+		fj_flags        = 0x00000004
+		//fj_info_point_strref
+		//fj_trap_detect
+		//fj_trap_remove
+		//fj_trap_active
+		//fj_trap_status
+		fj_loc_x        = 3054
+		fj_loc_y        = 687
+		//fj_alt_x
+		//fj_alt_y
+		fj_vertex_0     = 3018 + (721 << 16)
+		fj_vertex_1     = 3101 + (721 << 16)
+		fj_vertex_2     = 3101 + (640 << 16)
+		fj_vertex_3     = 3018 + (640 << 16)
+		STR_VAR
+		fj_structure_type   = region
+		fj_name             = Tranc020
+		fj_destination_area = DSC020
+		fj_destination_name = EVAL ~%NorthNashkelRoad_entrance%~
+		//fj_key_resref
+		//fj_reg_script
+		//fj_dialog
+	END
+	//new entrance from DSC020.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 3071
+		fj_loc_y       = 771
+		fj_orientation = 15
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exitc020
+	END
+BUT_ONLY
 
-	//adding new trigger
-	SET offset = ("%infotrig_offset%"+0xc4*"%infotrig_num%")
-	INSERT_BYTES offset 0xc4
-	WRITE_ASCII offset ~Tranc020~
-	WRITE_SHORT (offset+0x20) 2 //travel trigger
-	WRITE_SHORT (offset+0x22) 3018 //bounding box
-	WRITE_SHORT (offset+0x24) 640 //bounding box
-	WRITE_SHORT (offset+0x26) 3101 //bounding box
-	WRITE_SHORT (offset+0x28) 721 //bounding box
-	WRITE_SHORT (offset+0x2a) 4 //vertices number
-	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
-	WRITE_LONG  (offset+0x34) 34 //cursor
-	WRITE_ASCII (offset+0x38) ~DSC020~ //destination area
-	WRITE_ASCIIE (offset+0x40) ~%NorthNashkelRoad_entrance%~ //destination area's entrance name
-	WRITE_LONG  (offset+0x60) 0x00000004 //flags - party required
-	WRITE_SHORT (offset+0x70) 3054 //Trap location X
-	WRITE_SHORT (offset+0x72) 687 //Trap location Y
-	SET "infotrig_num"="%infotrig_num%"+1
-	WRITE_SHORT 0x5a  "%infotrig_num%"
-
-	SET "info_ext"=0xc4
-	PATCH_IF ("%actors_offset%">="%infotrig_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%infotrig_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%entrances_offset%">="%infotrig_offset%") BEGIN
-		"entrances_offset"="%entrances_offset%"+"%info_ext%"
-		WRITE_LONG  0x68  "%entrances_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%infotrig_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%infotrig_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%infotrig_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%infotrig_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%infotrig_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%infotrig_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%infotrig_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%infotrig_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%infotrig_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%infotrig_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%infotrig_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%infotrig_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-
-	//adding 4 new vertices for triggers
-	SET offset = ("%vert_offset%"+0x04*"%vert_num%")
-	INSERT_BYTES offset (0x04*4)
-	WRITE_SHORT  offset      3018
-	WRITE_SHORT  (offset+2)  721
-	WRITE_SHORT  (offset+4)  3101
-	WRITE_SHORT  (offset+6)  721
-	WRITE_SHORT  (offset+8)  3101
-	WRITE_SHORT  (offset+10) 640
-	WRITE_SHORT  (offset+12) 3018
-	WRITE_SHORT  (offset+14) 640
-	SET "vert_num"="%vert_num%"+4
-	WRITE_SHORT 0x80  "%vert_num%"
-
-	SET "info_ext"=0x04*4
-	PATCH_IF ("%actors_offset%">="%vert_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%vert_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%entrances_offset%">="%vert_offset%") BEGIN
-		"entrances_offset"="%entrances_offset%"+"%info_ext%"
-		WRITE_LONG  0x68  "%entrances_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%vert_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%vert_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%vert_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%vert_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%vert_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%vert_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%vert_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%vert_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%vert_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%vert_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%vert_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%vert_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-
-	//adding 1 new entrance
-	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
-	INSERT_BYTES offset 0x68
-	WRITE_ASCII  offset ~Exitc020~
-	WRITE_SHORT  (offset+0x20)  3071 //X
-	WRITE_SHORT  (offset+0x22)  771 //Y
-	WRITE_LONG   (offset+0x24)  "15" // facing
-	SET "entrances_num"="%entrances_num%"+1
-	WRITE_LONG 0x6c  "%entrances_num%"
-
-	SET "info_ext"=0x68
-	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-BUT_ONLY //********************************************************  ~%NorthNashkelRoad%.are~
-
-// %GibberlingMountains%.ARE gets new travel region and new entrance for DSC006.ARE
 COPY_EXISTING ~%GibberlingMountains%.ARE~ ~override~
-	WRITE_ASCIIE 0x94 ~%GibberlingMountains_BCS%~ #8 //area script - just to make sure it's set 'cuz we need it anyway
-	READ_LONG  0x54  "actors_offset"
-	READ_SHORT 0x58  "actors_num"
-	READ_SHORT 0x5a  "infotrig_num"
-	READ_LONG  0x5c  "infotrig_offset"
-	READ_LONG  0x60  "spawns_offset"
-	READ_LONG  0x64  "spawns_num"
-	READ_LONG  0x68  "entrances_offset"
-	READ_LONG  0x6c  "entrances_num"
-	READ_LONG  0x70  "cont_offset"
-	READ_SHORT 0x74  "cont_num"
-	READ_SHORT 0x76  "items_num"
-	READ_LONG  0x78  "items_offset"
-	READ_LONG  0x7c  "vert_offset"
-	READ_SHORT 0x80  "vert_num"
-	READ_SHORT 0x82  "amb_num"
-	READ_LONG  0x84  "amb_offset"
-	READ_LONG  0x88  "vars_offset"
-	READ_LONG  0x8c  "vars_num"
-	READ_LONG  0xa0  "expbmp_offset"
-	READ_LONG  0xa4  "doors_num"
-	READ_LONG  0xa8  "doors_offset"
-	READ_LONG  0xac  "anim_num"
-	READ_LONG  0xb0  "anim_offset"
-	READ_LONG  0xb4  "tiled_num"
-	READ_LONG  0xb8  "tiled_offset"
-	READ_LONG  0xbc  "songs_offset"
-	READ_LONG  0xc0  "rest_spawns_offset"
-	READ_LONG  0xc4  "automap_offset"
-	READ_LONG  0xc8  "automap_num"
+	//new travel region to DSC006.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         = 2    //travel
+		fj_box_left     = 3803
+		fj_box_top      = 547
+		fj_box_right    = 3895
+		fj_box_bottom   = 669
+		fj_cursor_idx   = 28
+		fj_flags        = 0x000000000
+		//fj_info_point_strref
+		//fj_trap_detect
+		//fj_trap_remove
+		//fj_trap_active
+		//fj_trap_status
+		fj_loc_x        = 3839
+		fj_loc_y        = 622
+		//fj_alt_x
+		//fj_alt_y
+		fj_vertex_0     = 3840 + (669 << 16)
+		fj_vertex_1     = 3895 + (609 << 16)
+		fj_vertex_2     = 3868 + (571 << 16)
+		fj_vertex_3     = 3840 + (547 << 16)
+		fj_vertex_4     = 3822 + (548 << 16)
+		fj_vertex_5     = 3804 + (558 << 16)
+		fj_vertex_6     = 3803 + (593 << 16)
+		fj_vertex_7     = 3815 + (623 << 16)
+		fj_vertex_8     = 3823 + (639 << 16)
+		STR_VAR
+		fj_structure_type   = region
+		fj_name             = Tranc006
+		fj_destination_area = DSC006
+		fj_destination_name = EVAL ~%GibberlingMountains_entrance%~
+		//fj_key_resref
+		//fj_reg_script
+		//fj_dialog
+	END
+	//new entrance from DSC006.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 3923
+		fj_loc_y       = 680
+		fj_orientation = 14
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exitc006
+	END
+	//new entrance from DSC010.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 5018
+		fj_loc_y       = 1283
+		fj_orientation = 4
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exitc010
+	END
+BUT_ONLY
 
-	//adding new trigger
-	SET offset = ("%infotrig_offset%"+0xc4*"%infotrig_num%")
-	INSERT_BYTES offset 0xc4
-	WRITE_ASCII offset ~Tranc006~
-	WRITE_SHORT (offset+0x20) 2 //travel trigger
-	WRITE_SHORT (offset+0x22) 3803 //bounding box
-	WRITE_SHORT (offset+0x24) 547 //bounding box
-	WRITE_SHORT (offset+0x26) 3895 //bounding box
-	WRITE_SHORT (offset+0x28) 669 //bounding box
-	WRITE_SHORT (offset+0x2a) 9 //vertices number
-	WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
-	WRITE_LONG  (offset+0x34) 28 //cursor
-	WRITE_ASCII (offset+0x38) ~DSC006~ //destination area
-	WRITE_ASCIIE (offset+0x40) ~%GibberlingMountains_entrance%~ //destination area's entrance name
-	WRITE_LONG  (offset+0x60) 0x000000000 //flags - none
-	WRITE_SHORT (offset+0x70) 3839 //Trap location X
-	WRITE_SHORT (offset+0x72) 622 //Trap location Y
-	SET "infotrig_num"="%infotrig_num%"+1
-	WRITE_SHORT 0x5a  "%infotrig_num%"
-
-	SET "info_ext"=0xc4
-	PATCH_IF ("%actors_offset%">="%infotrig_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%infotrig_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%entrances_offset%">="%infotrig_offset%") BEGIN
-		"entrances_offset"="%entrances_offset%"+"%info_ext%"
-		WRITE_LONG  0x68  "%entrances_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%infotrig_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%infotrig_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%infotrig_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%infotrig_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%infotrig_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%infotrig_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%infotrig_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%infotrig_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%infotrig_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%infotrig_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%infotrig_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%infotrig_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-
-	//adding 9 new vertices for triggers
-	SET offset = ("%vert_offset%"+0x04*"%vert_num%")
-	INSERT_BYTES offset (0x04*9)
-	WRITE_SHORT  offset      3840
-	WRITE_SHORT  (offset+2)  669
-	WRITE_SHORT  (offset+4)  3895
-	WRITE_SHORT  (offset+6)  609
-	WRITE_SHORT  (offset+8)  3868
-	WRITE_SHORT  (offset+10) 571
-	WRITE_SHORT  (offset+12) 3840
-	WRITE_SHORT  (offset+14) 547
-	WRITE_SHORT  (offset+16) 3822
-	WRITE_SHORT  (offset+18) 548
-	WRITE_SHORT  (offset+20) 3804
-	WRITE_SHORT  (offset+22) 558
-	WRITE_SHORT  (offset+24) 3803
-	WRITE_SHORT  (offset+26) 593
-	WRITE_SHORT  (offset+28) 3815
-	WRITE_SHORT  (offset+30) 623
-	WRITE_SHORT  (offset+32) 3823
-	WRITE_SHORT  (offset+34) 639
-	SET "vert_num"="%vert_num%"+9
-	WRITE_SHORT 0x80  "%vert_num%"
-
-	SET "info_ext"=0x04*9
-	PATCH_IF ("%actors_offset%">="%vert_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%vert_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%entrances_offset%">="%vert_offset%") BEGIN
-		"entrances_offset"="%entrances_offset%"+"%info_ext%"
-		WRITE_LONG  0x68  "%entrances_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%vert_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%vert_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%vert_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%vert_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%vert_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%vert_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%vert_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%vert_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%vert_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%vert_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%vert_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%vert_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-
-	//adding 2 new entrance
-	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
-	INSERT_BYTES offset 0x68
-	WRITE_ASCII  offset ~Exitc006~
-	WRITE_SHORT  (offset+0x20)  3923 //X
-	WRITE_SHORT  (offset+0x22)  680 //Y
-	WRITE_LONG   (offset+0x24)  "14" // facing
-	INSERT_BYTES offset 0x68
-	WRITE_ASCII  offset ~Exitc010~
-	WRITE_SHORT  (offset+0x20)  5018 //X
-	WRITE_SHORT  (offset+0x22)  1283 //Y
-	WRITE_LONG   (offset+0x24)  "4" // facing
-	SET "entrances_num"="%entrances_num%"+2
-	WRITE_LONG 0x6c  "%entrances_num%"
-
-	SET "info_ext"=0x68*2
-	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-BUT_ONLY //********************************************************  ~%GibberlingMountains%.are~
-
-// %BanditCamp_GnollCave%.ARE gets new entrance from DSC037.ARE
 COPY_EXISTING ~%BanditCamp_GnollCave%.ARE~ ~override~
-	READ_LONG  0x54  "actors_offset"
-	READ_SHORT 0x58  "actors_num"
-	READ_SHORT 0x5a  "infotrig_num"
-	READ_LONG  0x5c  "infotrig_offset"
-	READ_LONG  0x60  "spawns_offset"
-	READ_LONG  0x64  "spawns_num"
-	READ_LONG  0x68  "entrances_offset"
-	READ_LONG  0x6c  "entrances_num"
-	READ_LONG  0x70  "cont_offset"
-	READ_SHORT 0x74  "cont_num"
-	READ_SHORT 0x76  "items_num"
-	READ_LONG  0x78  "items_offset"
-	READ_LONG  0x7c  "vert_offset"
-	READ_SHORT 0x80  "vert_num"
-	READ_SHORT 0x82  "amb_num"
-	READ_LONG  0x84  "amb_offset"
-	READ_LONG  0x88  "vars_offset"
-	READ_LONG  0x8c  "vars_num"
-	READ_LONG  0xa0  "expbmp_offset"
-	READ_LONG  0xa4  "doors_num"
-	READ_LONG  0xa8  "doors_offset"
-	READ_LONG  0xac  "anim_num"
-	READ_LONG  0xb0  "anim_offset"
-	READ_LONG  0xb4  "tiled_num"
-	READ_LONG  0xb8  "tiled_offset"
-	READ_LONG  0xbc  "songs_offset"
-	READ_LONG  0xc0  "rest_spawns_offset"
-	READ_LONG  0xc4  "automap_offset"
-	READ_LONG  0xc8  "automap_num"
+	//new entrance from DSC037.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 991
+		fj_loc_y       = 370
+		fj_orientation = 4
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exitc037
+	END
+BUT_ONLY
 
-	//adding 1 new entrance
-	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
-	INSERT_BYTES offset 0x68
-	WRITE_ASCII  offset ~Exitc037~
-	WRITE_SHORT  (offset+0x20)  991 //X
-	WRITE_SHORT  (offset+0x22)  370 //Y
-	WRITE_LONG   (offset+0x24)  "4" // facing
-	SET "entrances_num"="%entrances_num%"+1
-	WRITE_LONG 0x6c  "%entrances_num%"
-
-	SET "info_ext"=0x68
-	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
-	END
-	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-BUT_ONLY //********************************************************  ~%BanditCamp_GnollCave%.are~
-
-// %Peldvale%.ARE gets new entrance from DSC001.ARE
 COPY_EXISTING ~%Peldvale%.ARE~ ~override~
-	READ_LONG  0x54  "actors_offset"
-	READ_SHORT 0x58  "actors_num"
-	READ_SHORT 0x5a  "infotrig_num"
-	READ_LONG  0x5c  "infotrig_offset"
-	READ_LONG  0x60  "spawns_offset"
-	READ_LONG  0x64  "spawns_num"
-	READ_LONG  0x68  "entrances_offset"
-	READ_LONG  0x6c  "entrances_num"
-	READ_LONG  0x70  "cont_offset"
-	READ_SHORT 0x74  "cont_num"
-	READ_SHORT 0x76  "items_num"
-	READ_LONG  0x78  "items_offset"
-	READ_LONG  0x7c  "vert_offset"
-	READ_SHORT 0x80  "vert_num"
-	READ_SHORT 0x82  "amb_num"
-	READ_LONG  0x84  "amb_offset"
-	READ_LONG  0x88  "vars_offset"
-	READ_LONG  0x8c  "vars_num"
-	READ_LONG  0xa0  "expbmp_offset"
-	READ_LONG  0xa4  "doors_num"
-	READ_LONG  0xa8  "doors_offset"
-	READ_LONG  0xac  "anim_num"
-	READ_LONG  0xb0  "anim_offset"
-	READ_LONG  0xb4  "tiled_num"
-	READ_LONG  0xb8  "tiled_offset"
-	READ_LONG  0xbc  "songs_offset"
-	READ_LONG  0xc0  "rest_spawns_offset"
-	READ_LONG  0xc4  "automap_offset"
-	READ_LONG  0xc8  "automap_num"
-
-	//adding 1 new entrance
-	SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
-	INSERT_BYTES offset 0x68
-	WRITE_ASCII  offset ~Exitc001~
-	WRITE_SHORT  (offset+0x20)  4702 //X
-	WRITE_SHORT  (offset+0x22)  873 //Y
-	WRITE_LONG   (offset+0x24)  "3" // facing
-	SET "entrances_num"="%entrances_num%"+1
-	WRITE_LONG 0x6c  "%entrances_num%"
-
-	SET "info_ext"=0x68
-	PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
-		"actors_offset"="%actors_offset%"+"%info_ext%"
-		WRITE_LONG  0x54 "%actors_offset%"
+	//new entrance from DSC001.ARE
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 4702
+		fj_loc_y       = 873
+		fj_orientation = 3
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exitc001
 	END
-	PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
-		"spawns_offset"="%spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0x60  "%spawns_offset%"
-	END
-	PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
-		"vert_offset"="%vert_offset%"+"%info_ext%"
-		WRITE_LONG  0x7c  "%vert_offset%"
-	END
-	PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
-		"cont_offset"="%cont_offset%"+"%info_ext%"
-		WRITE_LONG  0x70  "%cont_offset%"
-	END
-	PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
-		"items_offset"="%items_offset%"+"%info_ext%"
-		WRITE_LONG  0x78  "%items_offset%"
-	END
-	PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
-		"infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-		WRITE_LONG  0x5c  "%infotrig_offset%"
-	END
-	PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
-		"amb_offset"="%amb_offset%"+"%info_ext%"
-		WRITE_LONG  0x84  "%amb_offset%"
-	END
-	PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
-		"vars_offset"="%vars_offset%"+"%info_ext%"
-		WRITE_LONG  0x88  "%vars_offset%"
-	END
-	PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
-		"expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-		WRITE_LONG  0xa0  "%expbmp_offset%"
-	END
-	PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
-		"doors_offset"="%doors_offset%"+"%info_ext%"
-		WRITE_LONG  0xa8  "%doors_offset%"
-	END
-	PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
-		"anim_offset"="%anim_offset%"+"%info_ext%"
-		WRITE_LONG  0xb0  "%anim_offset%"
-	END
-	PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
-		"tiled_offset"="%tiled_offset%"+"%info_ext%"
-		WRITE_LONG  0xb8  "%tiled_offset%"
-	END
-	PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
-		"songs_offset"="%songs_offset%"+"%info_ext%"
-		WRITE_LONG  0xbc  "%songs_offset%"
-	END
-	PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
-		"rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-		WRITE_LONG  0xc0  "%rest_spawns_offset%"
-	END
-	PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
-		"automap_offset"="%automap_offset%"+"%info_ext%"
-		WRITE_LONG  0xc4  "%automap_offset%"
-	END
-BUT_ONLY //********************************************************  ~%Peldvale%.are~
-
-//patch in additional items into containers
-ACTION_DEFINE_ASSOCIATIVE_ARRAY add_area_items BEGIN
-	1 , "POTN55" , 3 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
-	2 , "DSRNG08" , 0 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
-	3 , "DSCLCK01" , 0 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
-	4 , "DSWAND01" , 0 , 0 , 0 , 1 => "%ShipwrecksCoast%"
-	5 , "DSSWD07" , 0 , 0 , 0 , 1 => "%ShipwrecksCoast%"
-	6 , "SCRL7F" , 0 , 0 , 0 , 3 => "%Peldvale%" // Globe of Invulnerability
-	7 , "DSSPERD" , 0 , 0 , 0 , 2 => "%CloakwoodMines_Barracks_L1%"
-	8 , "DSRNG07" , 0 , 0 , 0 , 21 => "%CloakwoodMines_L3%"
-	9 , "DSSPERF" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
-	10 , "DSAMUL12" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
-	11 , "POTN55" , 2 , 0 , 0 , 4 => "%CloakwoodMines_L3%" // Potion of Superior Healing
-	12 , "DSSHLD52" , 0 , 0 , 0 , 41 => "%CloakwoodMines_L3%"
-	13 , "DSAXE01" , 0 , 0 , 0 , 5 => "%CloakwoodMines_L3%"
-	14 , "DSAXE05" , 0 , 0 , 0 , 6 => "%CloakwoodMines_L3%"
-	15 , "DSCLCK03" , 0 , 0 , 0 , 1 => "%CloakwoodDruids_Treehouse_L1%"
-	16 , "POTN25" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Healing
-	17 , "MISC07" , 44 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
-	18 , "SCRL5C" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Protection from Lightning
-	19 , "SCRL5P" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Chaos
-	20 , "MISC07" , 22 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
-	21 , "POTN02" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Fire Resistance
-	22 , "BOOK33" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L1%" // History of the Bell in the Depths
-	23 , "BOOK39" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L1%" // History of the Drow
-	24 , "MISC17" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Lynx Eye Gem
-	25 , "POTN08" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Potion of Healing
-	26 , "BOOK45" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L1%" // History of the North
-	27 , "MISC07" , 64 , 0 , 0 , 6 => "%NEBaldursGate_CountingHouse_L1%" // Gold Piece
-	28 , "SW1H23" , 0 , 0 , 0 , 1 => "%NBaldursGate_DucalPalace_Cellar%" // Scimitar +2, Rashad's Talon
-	29 , "DSMISC11" , 0 , 0 , 0 , 2 => "%Candlekeep_Catacombs_L1%"
-	30 , "DSCLCK02" , 0 , 0 , 0 , 7 => "%Nashkel_BCS%"
-	31 , "POTN55" , 0 , 0 , 0 , 1 => "%CloakwoodMines_L4%" // Potion of Superior Healing
-	32 , "SCRLA5" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Melf's Minute Meteor
-	33 , "SCRL7F" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Globe of Invulnerability
-END
-
-ACTION_PHP_EACH ~add_area_items~ AS ~item~ => ~area~ BEGIN
-	OUTER_SPRINT area ~%area%~
-	COPY_EXISTING ~%area%.are~ ~override~
-		LPF ADD_AREA_ITEM
-			INT_VAR
-			charges1 = ~item_2~
-			charges2 = ~item_3~
-			charges3 = ~item_4~
-			container_to_add_to = ~item_5~
-			STR_VAR
-			item_to_add = EVAL ~%item_1%~
-		END
-	BUT_ONLY
-END
+BUT_ONLY
 
 /////                                                  \\\\\
 ///// install scripts                                  \\\\\
@@ -3344,11 +2193,8 @@ EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6707.ba
 EXTEND_BOTTOM ~%Beregost_RedSheaf_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6757.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%FriendlyArmInn_BCS%.bcs~ ~DSotSC/modify/bcs/ar6800.baf~ EVALUATE_BUFFER
-	REPLACE ~999999~ @2304
 
 EXTEND_BOTTOM ~%CloakwoodDruids_BCS%.bcs~ ~DSotSC/modify/bcs/ar8400.baf~ EVALUATE_BUFFER
-
-EXTEND_BOTTOM ~%CloakwoodDruids_Treehouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar8402.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~DSotSC/modify/bcs/ar8600.baf~ EVALUATE_BUFFER
 
@@ -3371,7 +2217,9 @@ EXTEND_TOP ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/ar8700.baf~ EVALUATE_
 COMPILE ~DSotSC/base/d~ EVALUATE_BUFFER
 
 //Modify existing dialogues
-COMPILE ~DSotSC/modify/dlg~ EVALUATE_BUFFER
+COMPILE ~DSotSC/modify/dlg/blane.d~ EVALUATE_BUFFER
+COMPILE ~DSotSC/modify/dlg/ds#laurel.d~ EVALUATE_BUFFER
+COMPILE ~DSotSC/modify/dlg/elmin3.d~ EVALUATE_BUFFER
 
 /////                                                  \\\\\
 ///// install images (BAM, BMP, MOS)                   \\\\\
@@ -3899,3 +2747,514 @@ EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar4403.baf
 EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar4405.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar6600.baf~ EVALUATE_BUFFER
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Distribute DSotSC items also in vanilla content  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN ~Distribute DSotSC items also in vanilla content~
+REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+
+// Modify existing creatures
+
+COPY_EXISTING ~amaran.cre~ ~override~
+	WRITE_SHORT 0x14 ~4500~ //XP
+	WRITE_SHORT 0x24 ~85~
+	WRITE_SHORT 0x26 ~85~
+	WRITE_SHORT 0x52 ~13~
+	WRITE_SHORT 0x234 ~14~
+	WRITE_ASCII 0x250 ~druid12a~ #8 //Class script
+	WRITE_BYTE 0x273 ~11~ //Druid
+	//WRITE_ASCII 0x280 ~AMARAN~ #32
+	REPLACE_CRE_ITEM ~DSCDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSDRGSKN~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSZRNG03~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+	ADD_CRE_ITEM ~DSWRLSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~andris.cre~ ~override~
+	WRITE_SHORT 0x14 ~6500~ //XP
+	WRITE_SHORT 0x24 ~55~ //HP
+	WRITE_SHORT 0x26 ~55~
+	WRITE_SHORT 0x52 ~15~
+	WRITE_SHORT 0x234 ~15~ //first class level
+	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~MAGEBRAC~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSSTAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~arlin.cre~ ~override~
+	WRITE_SHORT 0x14 ~1800~ //XP
+	WRITE_SHORT 0x24 ~27~ //HP
+	WRITE_SHORT 0x26 ~27~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~STAF02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN02~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~bor.cre~ ~override~
+	REPLACE_CRE_ITEM ~HELM01~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAXE01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~brunos.cre~ ~override~
+	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSSHLD54~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	REPLACE_CRE_ITEM ~DSBOOT02~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSKATAN1~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~coksmth.cre~ ~override~
+	WRITE_SHORT 0x24 ~61~ //HP
+	WRITE_SHORT 0x26 ~61~ //max HP
+	WRITE_SHORT 0x71 ~2~ //Spear Prof
+	WRITE_SHORT 0x74 ~2~ //Axe Prof
+	WRITE_SHORT 0x234 ~9~ //first class level
+	REPLACE_CRE_ITEM ~LEAT09~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAXE05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~corsone.cre~ ~override~
+	REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~davaeo.cre~ ~override~
+	REPLACE_CRE_ITEM ~DSROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~CLOAK~
+	ADD_CRE_ITEM ~DSMISC01~ #0 #0 #0 ~NONE~ ~INV15~
+
+COPY_EXISTING ~denak.cre~ ~override~
+	WRITE_SHORT 0x14 ~3750~ //XP
+	WRITE_SHORT 0x24 ~35~ //HP
+	WRITE_SHORT 0x26 ~35~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8 //Portrait
+	WRITE_ASCII 0x3c ~None~ #8 //Portrait
+	WRITE_SHORT 0x52 ~17~ //THAC0
+	WRITE_BYTE 0x54 ~11~ //ST vs Death
+	WRITE_BYTE 0x55 ~7~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~3~ //ST vs Spell
+	WRITE_SHORT 0x234 ~11~ //first class level
+	REPLACE_CRE_ITEM ~DSROBESO~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~STAF07~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~drasus.cre~ ~override~
+	WRITE_SHORT 0x14 ~1700~ //XP
+	WRITE_SHORT 0x24 ~86~ //HP
+	WRITE_SHORT 0x26 ~86~ //max HP
+	WRITE_SHORT 0x52 ~10~ //THAC0
+	WRITE_BYTE 0x54 ~7~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~8~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSSHLD53~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+	ADD_CRE_ITEM ~DSVFLAIL~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~POTN52~ #0 #0 #0 ~UNSTEALABLE~ ~QITEM1~
+
+COPY_EXISTING ~galdor.cre~ ~override~
+	WRITE_SHORT 0x14 ~12000~ //XP
+	WRITE_SHORT 0x24 ~112~ //HP
+	WRITE_SHORT 0x26 ~112~ //max HP
+	WRITE_SHORT 0x52 ~6~ //THAC0
+	WRITE_BYTE 0x54 ~9~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~6~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~5~ //ST vs Spell
+	WRITE_SHORT 0x234 ~18~
+	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~izefia.cre~ ~override~
+	WRITE_SHORT 0x14 ~2000~ //XP
+	WRITE_SHORT 0x24 ~68~ //HP
+	WRITE_SHORT 0x26 ~68~ //max HP
+	WRITE_SHORT 0x52 ~11~ //THAC0
+	WRITE_BYTE 0x54 ~6~ //ST vs Death
+	WRITE_BYTE 0x55 ~10~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~12~ //ST vs Breath
+	WRITE_BYTE 0x58 ~11~ //ST vs Spell
+	WRITE_SHORT 0x234 ~10~
+	WRITE_ASCII 0x250 ~DRUID14T~ #8 //Class script
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSAMUL01~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~kahrk.cre~ ~override~
+	WRITE_ASCII 0x34 ~None~ #8 //Portrait
+	WRITE_ASCII 0x3c ~None~ #8 //Portrait
+	ADD_CRE_ITEM ~SCRL8Q~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
+
+COPY_EXISTING ~kestor.cre~ ~override~
+	WRITE_SHORT 0x14 ~2300~ //XP
+	WRITE_SHORT 0x24 ~56~ //HP
+	WRITE_SHORT 0x26 ~56~ //max HP
+	WRITE_SHORT 0x234 ~12~ //first class level
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+
+COPY_EXISTING ~krysti.cre~ ~override~
+	WRITE_SHORT 0x14 ~4750~ //XP
+	WRITE_SHORT 0x24 ~63~ //HP
+	WRITE_SHORT 0x26 ~63~ //max HP
+	WRITE_SHORT 0x52 ~12~ //THAC0
+	WRITE_SHORT 0x234 ~16~ //first class level
+	ADD_CRE_ITEM ~DSDAGG01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSBULL01~ #10 #0 #0 ~UNSTEALABLE~ ~QUIVER3~
+
+COPY_EXISTING ~lasala.cre~ ~override~
+	WRITE_SHORT 0x14 ~1350~ //XP
+	WRITE_SHORT 0x24 ~27~ //HP
+	WRITE_SHORT 0x26 ~27~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8
+	WRITE_ASCII 0x3c ~None~ #8
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~13~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~11~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+
+COPY_EXISTING ~laskal.cre~ ~override~
+	WRITE_SHORT 0x14 ~2650~ //XP
+	WRITE_SHORT 0x24 ~71~ //HP
+	WRITE_SHORT 0x26 ~71~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~11~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~12~
+	WRITE_ASCII 0x258 ~DRUID14T~ #8 //Race script
+	REPLACE_CRE_ITEM ~DSTDRUID~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSSTAF01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~DSSWD02~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~molkar.cre~ ~override~
+	WRITE_SHORT 0x14 ~1900~ //XP
+	WRITE_SHORT 0x24 ~70~ //HP
+	WRITE_SHORT 0x26 ~70~ //max HP
+	WRITE_SHORT 0x52 ~13~ //THAC0
+	WRITE_BYTE 0x54 ~8~ //ST vs Death
+	WRITE_BYTE 0x55 ~10~ //ST vs Wands
+	WRITE_BYTE 0x56 ~9~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~11~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+	ADD_CRE_ITEM ~DSSWD03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~morvin.cre~ ~override~
+	WRITE_SHORT 0x14 ~1250~ //XP
+	WRITE_SHORT 0x24 ~78~ //HP
+	WRITE_SHORT 0x26 ~78~ //max HP
+	WRITE_BYTE 0x54 ~7~ //ST vs Death
+	WRITE_BYTE 0x55 ~11~ //ST vs Wands
+	WRITE_BYTE 0x56 ~10~ //ST vs Poly
+	WRITE_BYTE 0x57 ~13~ //ST vs Breath
+	WRITE_BYTE 0x58 ~12~ //ST vs Spell
+	WRITE_SHORT 0x234 ~9~
+	REPLACE_CRE_ITEM ~DSCRYHLM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSCRYARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRACDX~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSAXE03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~mulahe.cre~ ~override~
+	WRITE_SHORT 0x14 ~750~ //XP
+	WRITE_SHORT 0x24 ~41~ //HP
+	WRITE_SHORT 0x26 ~41~ //max HP
+	REPLACE_CRE_ITEM ~CHAN04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRAC04~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~BLUN05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~osmadi.cre~ ~override~
+	WRITE_SHORT 0x14 ~2500~ //XP
+	WRITE_SHORT 0x24 ~59~ //HP
+	WRITE_SHORT 0x26 ~59~ //max HP
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~9~ //ST vs Wands
+	WRITE_BYTE 0x56 ~8~ //ST vs Poly
+	WRITE_BYTE 0x57 ~11~ //ST vs Breath
+	WRITE_BYTE 0x58 ~10~ //ST vs Spell
+	WRITE_SHORT 0x234 ~11~
+	WRITE_ASCII 0x258 ~DRUID14T~ #8 //Race script
+	REPLACE_CRE_ITEM ~LEAT15~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSBRAC02~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSCLUB01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~ragefa.cre~ ~override~
+	WRITE_SHORT 0x14 ~4000~ //XP
+	WRITE_SHORT 0x24 ~42~ //HP
+	WRITE_SHORT 0x26 ~42~ //max HP
+	WRITE_SHORT 0x52 ~15~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	WRITE_SHORT 0x234 ~14~
+	REPLACE_CRE_ITEM ~DSROBE04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSAMUL10~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~SCRL9N~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~rielta.cre~ ~override~
+	WRITE_SHORT 0x14 ~1200~ //XP
+	WRITE_SHORT 0x24 ~66~ //HP
+	WRITE_SHORT 0x26 ~66~ //max HP
+	WRITE_SHORT 0x52 ~16~ //THAC0
+	WRITE_BYTE 0x54 ~10~ //ST vs Death
+	WRITE_BYTE 0x55 ~5~ //ST vs Wands
+	WRITE_BYTE 0x56 ~7~ //ST vs Poly
+	WRITE_BYTE 0x57 ~9~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	WRITE_SHORT 0x234 ~16~
+	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBRAC01~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+	ADD_CRE_ITEM ~DSRNG06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
+	ADD_CRE_ITEM ~DSAMUL07~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSDAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+COPY_EXISTING ~semaj.cre~ ~override~
+	WRITE_SHORT 0x14 ~1000~ //XP
+	WRITE_SHORT 0x24 ~62~ //HP
+	WRITE_SHORT 0x26 ~62~ //max HP
+	WRITE_ASCII 0x34 ~None~ #8
+	WRITE_ASCII 0x3c ~None~ #8
+	WRITE_SHORT 0x52 ~13~ //THAC0
+	WRITE_BYTE 0x54 ~3~ //ST vs Death
+	WRITE_BYTE 0x55 ~1~ //ST vs Wands
+	WRITE_BYTE 0x56 ~1~ //ST vs Poly
+	WRITE_BYTE 0x57 ~2~ //ST vs Breath
+	WRITE_BYTE 0x58 ~4~ //ST vs Spell
+	WRITE_SHORT 0x234 ~14~
+	REPLACE_CRE_ITEM ~DSCROWN1~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
+	REPLACE_CRE_ITEM ~DSROBE06~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSNEMSTF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~slythe.cre~ ~override~
+	WRITE_SHORT 0x14 ~6000~ //XP
+	WRITE_SHORT 0x24 ~115~ //HP
+	WRITE_SHORT 0x26 ~115~ //max HP
+	WRITE_BYTE 0x54 ~5~ //ST vs Death
+	WRITE_BYTE 0x55 ~6~ //ST vs Wands
+	WRITE_BYTE 0x56 ~6~ //ST vs Poly
+	WRITE_BYTE 0x57 ~5~ //ST vs Breath
+	WRITE_BYTE 0x58 ~6~ //ST vs Spell
+	REMOVE_CRE_ITEM ~SHLD08~ ~LEAT04~ ~SW1H10~ ~XBOW04~
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSAMUL06~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
+	ADD_CRE_ITEM ~DSXBOW01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~
+	ADD_CRE_ITEM ~BOLT04~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
+	ADD_CRE_ITEM ~DSBOLT01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER2~
+
+COPY_EXISTING ~takiyah.cre~ ~override~
+	WRITE_SHORT 0x14 ~1000~ //XP
+	WRITE_SHORT 0x24 ~68~ //HP
+	WRITE_SHORT 0x26 ~68~ //max HP
+	WRITE_SHORT 0x234 ~10~
+	REPLACE_CRE_ITEM ~DSTHRARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REPLACE_CRE_ITEM ~DSBOOT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~
+	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~vax.cre~ ~override~
+	REPLACE_CRE_ITEM ~DSAXE02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~zal.cre~  ~override~
+	ADD_CRE_ITEM ~DSSPERD~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON4~
+
+COPY_EXISTING ~zeela.cre~ ~override~
+	REMOVE_CRE_ITEM ~BLUN02~
+	REMOVE_CRE_ITEM ~BRAC02~
+	REMOVE_CRE_ITEM ~SHLD03~
+	REMOVE_CRE_ITEM ~PLAT01~
+	REMOVE_CRE_ITEM ~CHAN04~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	ADD_CRE_ITEM ~DSSTAF06~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
+	ADD_CRE_ITEM ~POTN52~ #3 #0 #0 ~UNSTEALABLE~ ~QITEM2~
+	REPLACE_CRE_ITEM ~BRAC03~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
+
+//Modify existing dialogues
+
+COMPILE ~DSotSC/modify/dlg/ds#laskal.d~ EVALUATE_BUFFER
+
+//patch in additional items into containers
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY add_area_items BEGIN
+	1 , "POTN55" , 3 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
+	2 , "DSRNG08" , 0 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
+	3 , "DSCLCK01" , 0 , 0 , 0 , 1 => "%Lighthouse_BlackAlaricsCave%"
+	4 , "DSWAND01" , 0 , 0 , 0 , 1 => "%ShipwrecksCoast%"
+	5 , "DSSWD07" , 0 , 0 , 0 , 1 => "%ShipwrecksCoast%"
+	6 , "SCRL7F" , 0 , 0 , 0 , 3 => "%Peldvale%" // Globe of Invulnerability
+	7 , "DSSPERD" , 0 , 0 , 0 , 2 => "%CloakwoodMines_Barracks_L1%"
+	8 , "DSRNG07" , 0 , 0 , 0 , 21 => "%CloakwoodMines_L3%"
+	9 , "DSSPERF" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
+	10 , "DSAMUL12" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
+	11 , "POTN55" , 2 , 0 , 0 , 4 => "%CloakwoodMines_L3%" // Potion of Superior Healing
+	12 , "DSSHLD52" , 0 , 0 , 0 , 41 => "%CloakwoodMines_L3%"
+	13 , "DSAXE01" , 0 , 0 , 0 , 5 => "%CloakwoodMines_L3%"
+	14 , "DSAXE05" , 0 , 0 , 0 , 6 => "%CloakwoodMines_L3%"
+	15 , "DSCLCK03" , 0 , 0 , 0 , 1 => "%CloakwoodDruids_Treehouse_L1%"
+	16 , "POTN25" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Healing
+	17 , "MISC07" , 44 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
+	18 , "SCRL5C" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Protection from Lightning
+	19 , "SCRL5P" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Chaos
+	20 , "MISC07" , 22 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
+	21 , "POTN02" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Fire Resistance
+	22 , "BOOK33" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L1%" // History of the Bell in the Depths
+	23 , "BOOK39" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L1%" // History of the Drow
+	24 , "MISC17" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Lynx Eye Gem
+	25 , "POTN08" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Potion of Healing
+	26 , "BOOK45" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L1%" // History of the North
+	27 , "MISC07" , 64 , 0 , 0 , 6 => "%NEBaldursGate_CountingHouse_L1%" // Gold Piece
+	28 , "SW1H23" , 0 , 0 , 0 , 1 => "%NBaldursGate_DucalPalace_Cellar%" // Scimitar +2, Rashad's Talon
+	29 , "DSMISC11" , 0 , 0 , 0 , 2 => "%Candlekeep_Catacombs_L1%"
+	30 , "DSCLCK02" , 0 , 0 , 0 , 7 => "%Nashkel_BCS%"
+	31 , "POTN55" , 0 , 0 , 0 , 1 => "%CloakwoodMines_L4%" // Potion of Superior Healing
+	32 , "SCRLA5" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Melf's Minute Meteor
+	33 , "SCRL7F" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Globe of Invulnerability
+END
+
+ACTION_PHP_EACH ~add_area_items~ AS ~item~ => ~area~ BEGIN
+	OUTER_SPRINT area ~%area%~
+	COPY_EXISTING ~%area%.are~ ~override~
+		LPF ADD_AREA_ITEM
+			INT_VAR
+			charges1 = ~item_2~
+			charges2 = ~item_3~
+			charges3 = ~item_4~
+			container_to_add_to = ~item_5~
+			STR_VAR
+			item_to_add = EVAL ~%item_1%~
+		END
+	BUT_ONLY
+END
+
+//Modify existing stores
+
+COPY_EXISTING ~friend.sto~ ~override~
+	ADD_STORE_ITEM ~DSLEAT01~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~LEAT05~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~XBOW05~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~highhedg.sto~ ~override~
+	ADD_STORE_ITEM ~DSROBE07~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSROBESO~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSZRNG03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SCRL1J~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRL7G~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRLA5~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~inn3304.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+
+COPY_EXISTING ~inn3351.sto~ ~override~
+	ADD_STORE_ITEM ~XBOW02~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~sto0703.sto~ ~override~
+	ADD_STORE_ITEM ~DSBOLT01~ #10 #0 #0 ~IDENTIFIED~ #10
+	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSWAND01~ #10 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~QUIVER05~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SCRL8P~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SCRL9J~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~WAND09~ #20 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~WAND13~ #20 #0 #0 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~sto4803.sto~ ~override~
+	ADD_STORE_ITEM ~BOW04~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SLNG02~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~sto4909.sto~ ~override~
+	ADD_STORE_ITEM ~AROW05~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSBULL01~ #5 #0 #0 ~IDENTIFIED~ #5
+
+COPY_EXISTING ~stoblack.sto~ ~override~
+	ADD_STORE_ITEM ~SPER02~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~stosilen.sto~ ~override~
+	ADD_STORE_ITEM ~DSHAT01~ #0 #0 #0 ~IDENTIFIED~ #2
+
+COPY_EXISTING ~taerum.sto~ ~override~
+	ADD_STORE_ITEM ~AROW10~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~AX1H05~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~CHAN05~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~HELM06~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~SW1H20~ #0 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~SW1H22~ #0 #0 #0 ~IDENTIFIED~ #4
+
+COPY_EXISTING ~tem0131.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSCHAN02~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~tem0132.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~tem2304.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~tem2601.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~tem3402.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #9
+	ADD_STORE_ITEM ~DSBOW02~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN03~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSCHAN04~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSHELM01~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSRNG103~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSSWD08~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+
+COPY_EXISTING ~tem4802.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~DSBULL02~ #10 #0 #0 ~IDENTIFIED~ #5
+	ADD_STORE_ITEM ~DSPOTN01~ #0 #0 #0 ~IDENTIFIED~ #9
+	ADD_STORE_ITEM ~DSFLAIL1~ #0 #0 #0 ~IDENTIFIED~ #1
