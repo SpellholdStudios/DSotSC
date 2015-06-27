@@ -3,7 +3,6 @@ IF
   See(NearestEnemyOf(Myself))
 THEN
   RESPONSE #100
-    PlaySound("Lich2")
     ForceSpell(NearestEnemyOf(Myself),WIZARD_HORROR)
     SmallWait(5)
     ForceSpell(Myself,WIZARD_MINOR_SPELL_TURNING)
@@ -19,7 +18,7 @@ IF
   See(NearestEnemyOf(Myself(Myself)))
 THEN
   RESPONSE #100
-    PlaySound("Ghost1")
+    PlaySound("DSGHOST1")
     ForceSpell(NearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
     SmallWait(5)
     ForceSpell(NearestEnemyOf(Myself),WIZARD_HORROR)
@@ -34,7 +33,7 @@ IF
   Global("Lich","GLOBAL",2)
 THEN
   RESPONSE #100
-    PlaySound("Ghost2")
+    PlaySound("DSGHOST2")
     ForceSpell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON)
     Wait(1)
     ForceSpell(SecondNearestEnemyOf(Myself),WIZARD_SLOW)
@@ -87,7 +86,7 @@ IF
   Global("Lich","GLOBAL",6)
 THEN
   RESPONSE #100
-    PlaySound("Ghost3")
+    PlaySound("DSGHOST3")
     ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_EMOTION_HOPELESSNESS)
     SmallWait(5)
     ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),CLERIC_SLAY_LIVING)
@@ -100,24 +99,24 @@ IF
   GlobalLT("Lich","GLOBAL",12)
 THEN
   RESPONSE #20
-    PlaySound("Ghost5")
+    PlaySound("DSGHOST5")
     EquipMostDamagingMelee()
     AttackOneRound(NearestEnemyOf(Myself))
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #20
-    PlaySound("Ghost1")
+    PlaySound("DSGHOST1")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE)
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #20
-    PlaySound("Ghost2")
+    PlaySound("DSGHOST2")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_SEEDS)
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #20
-    PlaySound("Ghost3")
+    PlaySound("DSGHOST3")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_DEATH_WARD)
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #20
-    PlaySound("Ghost5")
+    PlaySound("DSGHOST5")
     ForceSpell(Myself,CLERIC_MAGIC_RESISTANCE)
     IncrementGlobal("Lich","GLOBAL",1)
 END

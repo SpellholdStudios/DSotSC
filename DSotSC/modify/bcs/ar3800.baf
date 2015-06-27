@@ -1,37 +1,79 @@
 IF
-	Global("SkeezerSpawn","GLOBAL",0)
-	LevelLT(Player1,6)
+	Global("SkeezerSpawn","%NashkelCarnival%",0)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
-		SetGlobal("SkeezerSpawn","GLOBAL",1)
 		CreateCreature("DSSKEEZ",[4042.2204],1)
+		SetGlobal("SkeezerSpawn","%NashkelCarnival%",1)
 END
 
 IF
-	Global("SkeezerSpawn","GLOBAL",0)
+	Global("SkeezerSpawn","%NashkelCarnival%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSSKEEZ2",[4042.2204],1)
+		SetGlobal("SkeezerSpawn","%NashkelCarnival%",1)
+END
+
+IF
+	Global("SkeezerSpawn","%NashkelCarnival%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSSKEEZ4",[4042.2204],1)
+		SetGlobal("SkeezerSpawn","%NashkelCarnival%",1)
+END
+
+IF
+	Global("SkeezerSpawn","%NashkelCarnival%",0)
 	LevelGT(Player1,5)
 THEN
 	RESPONSE #100
-		SetGlobal("SkeezerSpawn","GLOBAL",1)
 		CreateCreature("DSSKEEZ6",[4042.2204],1)
+		SetGlobal("SkeezerSpawn","%NashkelCarnival%",1)
 END
 
 IF
-	Global("KeiriaSpawn","GLOBAL",0)
-	LevelLT(Player1,6)
+	Global("KeiriaSpawn","%NashkelCarnival%",0)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
-		SetGlobal("KeiriaSpawn","GLOBAL",1)
-		CreateCreature("DSKEIRI5",[3281.2714],3)
+		CreateCreature("DSKEIRI",[3281.2714],3)
+		SetGlobal("KeiriaSpawn","%NashkelCarnival%",1)
 END
 
 IF
-	Global("KeiriaSpawn","GLOBAL",0)
+	Global("KeiriaSpawn","%NashkelCarnival%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSKEIRI2",[3281.2714],3)
+		SetGlobal("KeiriaSpawn","%NashkelCarnival%",1)
+END
+
+IF
+	Global("KeiriaSpawn","%NashkelCarnival%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSKEIRI4",[3281.2714],3)
+		SetGlobal("KeiriaSpawn","%NashkelCarnival%",1)
+END
+
+IF
+	Global("KeiriaSpawn","%NashkelCarnival%",0)
 	LevelGT(Player1,5)
 THEN
 	RESPONSE #100
-		SetGlobal("KeiriaSpawn","GLOBAL",1)
-		CreateCreature("DSKEIRI7",[3281.2714],3)
+		CreateCreature("DSKEIRI6",[3281.2714],3)
+		SetGlobal("KeiriaSpawn","%NashkelCarnival%",1)
 END
-
-

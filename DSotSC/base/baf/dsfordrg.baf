@@ -22,14 +22,14 @@ END
 IF
   !Allegiance(Myself,ENEMY)
   OR(8)
-    SpellCast([GOODCUTOFF],WIZARD_PROTECTION_FROM_ENERGY)
-    SpellCastPriest([GOODCUTOFF],CLERIC_DRAW_UPON_HOLY_MIGHT)
-    SpellCastPriest([GOODCUTOFF],CLERIC_STRENGTH_OF_ONE)
-    SpellCastInnate([GOODCUTOFF],SET_SNARE_TRAP)
-    SpellCastInnate([GOODCUTOFF],SET_SPECIAL_SNARE_TRAP)
-    SpellCastInnate([GOODCUTOFF],ROGUE_SET_SPIKE_TRAP)
-    SpellCastInnate([GOODCUTOFF],ROGUE_SET_EXPLODING_TRAP)
-    SpellCastInnate([GOODCUTOFF],ROGUE_SET_TIME_TRAP)
+    SpellCast([GOODCUTOFF],WIZARD_PROTECTION_FROM_ENERGY) // SPWI803.SPL (Protection From Energy)
+    SpellCastPriest([GOODCUTOFF],CLERIC_DRAW_UPON_HOLY_MIGHT) // SPPR214.SPL (Draw Upon Holy Might)
+    SpellCastPriest([GOODCUTOFF],CLERIC_STRENGTH_OF_ONE) // SPPR312.SPL (Strength of One)
+    SpellCastInnateRES("SPCL412",[GOODCUTOFF]) // Set Snare
+    SpellCastInnateRES("SPCL414",[GOODCUTOFF]) // Set Special Snare
+    SpellCastInnateRES("SPCL910",[GOODCUTOFF]) // Set Spike Trap
+    SpellCastInnateRES("SPCL911",[GOODCUTOFF]) // Set Exploding Trap
+    SpellCastInnateRES("SPCL912",[GOODCUTOFF]) // Set Time Trap
 THEN
   RESPONSE #100
     Enemy()
@@ -42,9 +42,9 @@ THEN
   RESPONSE #100
     SetGlobalTimer("SpSequencer","LOCALS",1000)
     SetGlobal("SeqUsed","LOCALS",1)
-    DisplayString(Myself,39969)
-    ReallyForceSpell(Myself,DRAGON_STONE_SKIN)
-    ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+    DisplayString(Myself,39969) // Spell Sequencer—Fired
+    ReallyForceSpell(Myself,DRAGON_STONE_SKIN) // SPIN694.SPL (Stoneskin)
+    ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC) // SPWI302.SPL (Remove Magic)
 END
 
 IF
@@ -54,27 +54,27 @@ THEN
   RESPONSE #100
     SetGlobalTimer("DRAGONFEAR","LOCALS",100)
     PlaySound("BLACK01")
-    ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_FEAR)
-    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+    ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_FEAR) // SPIN895.SPL (Dragon Fear)
+    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET) // SPIN695.SPL (Wing Buffet)
 END
 
 IF
   OR(3)
-    SpellCast([GOODCUTOFF],WIZARD_INCENDIARY_CLOUD)
-    SpellCast([GOODCUTOFF],WIZARD_STINKING_CLOUD)
-    SpellCast([GOODCUTOFF],WIZARD_DEATH_FOG)
+    SpellCast([GOODCUTOFF],WIZARD_INCENDIARY_CLOUD) // SPWI810.SPL (Incendiary Cloud)
+    SpellCast([GOODCUTOFF],WIZARD_STINKING_CLOUD) // SPWI213.SPL (Stinking Cloud)
+    SpellCast([GOODCUTOFF],WIZARD_DEATH_FOG) // SPWI614.SPL (Death Fog)
   !GlobalTimerNotExpired("WINGBUFFET","LOCALS")
 THEN
   RESPONSE #100
     SetGlobalTimer("WINGBUFFET","LOCALS",8)
-    ForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET)
+    ForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET) // SPIN695.SPL (Wing Buffet)
 END
 
 IF
   Race(NearestEnemyOf(Myself),HALFLING)
 THEN
   RESPONSE #100
-    ForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET)
+    ForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET) // SPIN695.SPL (Wing Buffet)
 END
 
 IF
@@ -91,7 +91,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("DragonSight","LOCALS",ONE_TURN)
-    ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT)
+    ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT) // SPWI609.SPL (True Sight)
 END
 
 IF
@@ -103,7 +103,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("DragonStoneSkin","LOCALS",FIVE_ROUNDS)
-    ForceSpell(Myself,DRAGON_STONE_SKIN)
+    ForceSpell(Myself,DRAGON_STONE_SKIN) // SPIN694.SPL (Stoneskin)
 END
 
 IF
@@ -225,7 +225,7 @@ IF
   HPPercentLT(Myself,50)
 THEN
   RESPONSE #100
-    ForceSpell(Myself,CLERIC_HEAL)
+    ForceSpell(Myself,CLERIC_HEAL) // SPPR607.SPL (Heal)
 END
 
 IF
@@ -245,7 +245,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("WINGBUFFET","LOCALS",8)
-    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+    ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET) // SPIN695.SPL (Wing Buffet)
     Wait(1)
 END
 
@@ -255,8 +255,8 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("GREENDRAGONBREATH","LOCALS",TWO_ROUNDS)
-    ForceSpell(LastSeenBy(Myself),GREEN_DRAGON_BREATH)
-    ReallyForceSpellRES("DrGrBrHt",LastSeenBy(Myself))
+    ForceSpell(LastSeenBy(Myself),GREEN_DRAGON_BREATH) // SPIN535.SPL (Green Dragon Breath)
+    ReallyForceSpellRES("DrGrBrHt",LastSeenBy(Myself)) // No such index
 END
 
 IF
@@ -267,7 +267,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("dbPlant","LOCALS",1000)
-    ForceSpell(Myself,BLACK_DRAGON_PLANT)
+    ForceSpell(Myself,BLACK_DRAGON_PLANT) // SPIN688.SPL (Plant Growth)
 END
 
 IF
@@ -282,7 +282,7 @@ IF
   !CheckStatGT(LastSeenBy(Myself),50,RESISTMAGIC)
 THEN
   RESPONSE #100
-    ForceSpell(LastSeenBy(Myself),BLACK_DRAGON_INSECT)
+    ForceSpell(LastSeenBy(Myself),BLACK_DRAGON_INSECT) // SPIN689.SPL (Summon Insects)
     SetGlobalTimer("dbOffense1","LOCALS",1000)
 END
 
@@ -295,7 +295,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("dbCharm","LOCALS",FIVE_ROUNDS)
-    ForceSpell(LastSeenBy(Myself),WIZARD_DIRE_CHARM)
+    ForceSpell(LastSeenBy(Myself),WIZARD_DIRE_CHARM) // SPWI316.SPL (Dire Charm)
 END
 
 IF
@@ -305,4 +305,3 @@ THEN
     EquipMostDamagingMelee()
     AttackReevaluate(LastSeenBy(Myself),30)
 END
-

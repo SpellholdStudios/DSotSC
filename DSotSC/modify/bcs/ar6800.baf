@@ -1,20 +1,44 @@
 IF
 	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
 	Global("JetlayaSpawn","%FriendlyArmInn%",0)
-	LevelLT(Player1,8)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
-		CreateCreature("DSJetlay",[1204.3341],0)
+		CreateCreature("DSJETLA",[1204.3341],0)
 		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
 END
 
 IF
 	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
 	Global("JetlayaSpawn","%FriendlyArmInn%",0)
-	LevelGT(Player1,7)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
 THEN
 	RESPONSE #100
-		CreateCreature("DSJetla9",[1204.3341],0)
+		CreateCreature("DSJETLA2",[1204.3341],0)
+		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
+	Global("JetlayaSpawn","%FriendlyArmInn%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSJETLA4",[1204.3341],0)
+		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
+	Global("JetlayaSpawn","%FriendlyArmInn%",0)
+	LevelGT(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSJETLA6",[1204.3341],0)
 		SetGlobal("JetlayaSpawn","%FriendlyArmInn%",1)
 END
 

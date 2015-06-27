@@ -1,0 +1,108 @@
+IF
+  Global("ArchDruid","LOCALS",0)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_FAERIE_FIRE)
+    SmallWait(5)
+    ForceSpellPoint([538.428],CLERIC_TRANSPORT_VIA_PLANTS)
+    Wait(1)
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_SPARKS)
+  RESPONSE #100
+    Wait(2)
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Call Lightning)
+    SetGlobal("ArchDruid","LOCALS",1)
+END
+
+IF
+  Global("ArchDruid","LOCALS",1)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_FIRE_BOLT)
+    SetGlobal("ArchDruid","LOCALS",2)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",2)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_SPARKS)
+  RESPONSE #100
+    Wait(2)
+    ForceSpellPoint([638.729],CLERIC_TRANSPORT_VIA_PLANTS)
+    Wait(1)
+    ForceSpell(SecondNearestEnemyOf(Myself(Myself)),CLERIC_CAUSE_DISEASE)
+    SetGlobal("ArchDruid","LOCALS",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",3)
+THEN
+  RESPONSE #100
+    ForceSpell(LeaderOf(NearestEnemyOf(Myself)),CLERIC_THUNDER_BOLT)
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_CONFUSION) // SPPR709.SPL (Confusion)
+    SetGlobal("ArchDruid","LOCALS",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",4)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),CLERIC_BLADES)
+    SetGlobal("ArchDruid","LOCALS",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",5)
+THEN
+  RESPONSE #100
+    ForceSpell(StrongestOf(NearestEnemyOf(Myself)),CLERIC_ANIMAL_SUMMONING_2) // SPPR501.SPL (Animal Summoning II)
+    SetGlobal("ArchDruid","LOCALS",6)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",6)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CAUSE_DISEASE)
+    SetGlobal("ArchDruid","LOCALS",7)
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  HPPercentLT(Myself(Myself),75)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself(Myself),CLERIC_HEAL) // SPPR607.SPL (Heal)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  Global("ArchDruid","LOCALS",7)
+THEN
+  RESPONSE #75
+    EquipMostDamagingMelee()
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+    AttackOneRound(NearestEnemyOf(Myself(Myself)))
+    Continue()
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_SPARKS)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself(Myself)))
+  NumCreatureGT(NearestEnemyOf(Myself),6)
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CONFUSION) // SPPR709.SPL (Confusion)
+    Continue()
+END

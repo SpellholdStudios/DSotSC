@@ -1,6 +1,6 @@
 IF
 	GlobalGT("BP_MoreStooges","%XvartVillage%",10)
-	Global("HelpCaveBear","Global",0)
+	Global("HelpCaveBear","GLOBAL",0)
 THEN
 	RESPONSE #100
 		CreateCreature("XVART_D",[216.146],12) // Xvart Protector
@@ -9,5 +9,5 @@ THEN
 		CreateCreature("XVARTPRE",[82.267],12) // Xvart Shaman
 		CreateCreature("XVART_D",[210.220],12) // Xvart Protector
 		CreateCreature("XVART_D",[210.220],12) // Xvart Protector
-		SetGlobal("HelpCaveBear","Global",1)
+		SetGlobal("HelpCaveBear","GLOBAL",1)
 END

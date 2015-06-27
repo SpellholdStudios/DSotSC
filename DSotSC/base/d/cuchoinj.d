@@ -29,16 +29,7 @@ IF WEIGHT #3 ~Global("CuChoinneachLeaves","GLOBAL",1)
   IF ~~ THEN DO ~LeaveParty()
 GiveItemCreate("DSMISC04",LastTalkedToBy,1,0,0)
 ActionOverride("BUBBA",ChangeEnemyAlly("BUBBA",NEUTRAL))
-//destroy his own items: he mustn't give them to the party
-TakePartyItemAll("DSCUARM")
-DestroyItem("DSCUARM")
-TakePartyItemAll("DSCUSHLD")
-DestroyItem("DSCUSHLD")
-TakePartyItemAll("DSCUSWD")
-DestroyItem("DSCUSWD")
-DropInventory()//return all other items
-ReallyForceSpellRES("DSCULEAV",Myself) //otherwise, he'll go away "naked"
-EquipMostDamagingMelee() //he'll wield hes weapon!
+DropInventory()
 ActionOverride("BUBBA",EscapeArea())
 EscapeArea()~ EXIT
 END
@@ -51,15 +42,7 @@ HasItem("DSMISC07",Myself)
 GiveItemCreate("DSMISC04",LastTalkedToBy,1,0,0)
 GiveItem("DSMISC07",LastTalkedToBy)
 ActionOverride("BUBBA",ChangeEnemyAlly("BUBBA",NEUTRAL))
-TakePartyItemAll("DSCUARM")
-DestroyItem("DSCUARM")
-TakePartyItemAll("DSCUSHLD")
-DestroyItem("DSCUSHLD")
-TakePartyItemAll("DSCUSWD")
-DestroyItem("DSCUSWD")
 DropInventory()
-ReallyForceSpellRES("DSCULEAV",Myself)
-EquipMostDamagingMelee()
 ActionOverride("BUBBA",EscapeArea())
 EscapeArea()~ EXIT
 END
@@ -71,15 +54,7 @@ NumInPartyLT(4)~ THEN BEGIN 7
   IF ~~ THEN DO ~LeaveParty()
 GiveItemCreate("DSMISC04",LastTalkedToBy,1,0,0)
 ActionOverride("BUBBA",ChangeEnemyAlly("BUBBA",NEUTRAL))
-TakePartyItemAll("DSCUARM")
-DestroyItem("DSCUARM")
-TakePartyItemAll("DSCUSHLD")
-DestroyItem("DSCUSHLD")
-TakePartyItemAll("DSCUSWD")
-DestroyItem("DSCUSWD")
 DropInventory()
-ReallyForceSpellRES("DSCULEAV",Myself)
-EquipMostDamagingMelee()
 ActionOverride("BUBBA",EscapeArea())
 EscapeArea()~ EXIT
 END
@@ -92,15 +67,7 @@ NumInPartyLT(4)~ THEN BEGIN 8
 GiveItemCreate("DSMISC04",LastTalkedToBy,1,0,0)
 GiveItem("DSMISC07",LastTalkedToBy)
 ActionOverride("BUBBA",ChangeEnemyAlly("BUBBA",NEUTRAL))
-TakePartyItemAll("DSCUARM")
-DestroyItem("DSCUARM")
-TakePartyItemAll("DSCUSHLD")
-DestroyItem("DSCUSHLD")
-TakePartyItemAll("DSCUSWD")
-DestroyItem("DSCUSWD")
 DropInventory()
-ReallyForceSpellRES("DSCULEAV",Myself)
-EquipMostDamagingMelee()
 ActionOverride("BUBBA",EscapeArea())
 EscapeArea()~ EXIT
 END

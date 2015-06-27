@@ -1,8 +1,8 @@
 IF
-	Global("EnteredAR3499","GLOBAL",0)
+	Global("EnteredAR3499","%BearRiver%",0)
 THEN
 	RESPONSE #100
-		SetGlobal("EnteredAR3499","GLOBAL",1)
+		SetGlobal("EnteredAR3499","%BearRiver%",1)
 		ActionOverride("OGRECO",JumpToPoint([905.3567]))
 		CreateCreature("DSFEYDO",[404.916],0)
 		CreateCreature("DSCOOSHE",[410.921],5)
@@ -16,5 +16,3 @@ THEN
 		ActionOverride("LAUREL",JumpToPoint([1060.2718]))
 		CreateCreature("DSWELF2E",[1277.1110],0)
 END
-
-

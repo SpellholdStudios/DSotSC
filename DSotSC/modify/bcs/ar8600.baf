@@ -1,5 +1,5 @@
 IF
-	Global("ARCHDR","GLOBAL",0)
+	Global("ARCHDR","%CloakwoodMines%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSARCHDR",[638.729],0)
@@ -8,7 +8,5 @@ THEN
 		CreateCreature("BEARBL",[621.648],0) // Black Bear
 		CreateCreature("BEARCA",[551.688],0) // Cave Bear
 		CreateCreature("BEARBR",[697.614],0) // Brown Bear
-		SetGlobal("ARCHDR","GLOBAL",1)
+		SetGlobal("ARCHDR","%CloakwoodMines%",1)
 END
-
-

@@ -2246,23 +2246,6 @@ Kann nicht verwendet werden von:
  Dieben
  Mönchen
  Tiermeistern~
-@1433 = ~Streitkolben der Reue +3~
-@1434 = ~Dieser Streitkolben wurde von einem Fanatiker namens Parias erschaffen, der damit die "Ungläubigen" bekehren wollte. Er war so besessen von seinem Plan, dass er seine Familie tötete, nur weil sie sich nicht bekehren lassen wollte. Nachdem er seine schreckliche Tat realisierte und bitter bereute, vergrub er den Streitkolben und beichtete seine Sünden. Parias verhungerte auf dem Grab seiner Frau. Der Streitkolben wurde später wieder ausgegraben und erhielt seinen Namen aufgrund seiner traurigen Geschichte.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Schaden: 1W6 +4
-
-Schadensart: mit Hiebwaffe zertrümmern
-Besonderheit: Bonusschaden gegen Untote
-ETW0-Bonus: -3
-Gewicht: 7
-Geschwindigkeitsfaktor: 6
-Fertigkeit: Streitkolben
-Waffentyp: einhändig
-
-Kann nur verwendet werden von:
- Jet'laya~
 @1436 = ~Dolch +3: "Schlangenzunge"~
 @1438 = ~Schlangenzunge
 

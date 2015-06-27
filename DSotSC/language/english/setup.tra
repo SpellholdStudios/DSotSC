@@ -533,7 +533,7 @@ Only usable by:
  Druid~
 
 @1015 = ~Ferthgil's Helmet~
-@1017 = ~This is the helmet worn by Ferthgil Trollslayer, son of Breachin Trollslayer. This helmet was given to Ferthgil by the Stoneheath Clan during his stay with them after his father died. Gulmoth Stonehearth, Ferthgil's mentor placed the blessing of Clanngedin upon it, to help Ferthgil channel all of his thoughts at the times that he really needs to, especially in battle.
+@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stoneheath Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
 
 STATISTICS:
 
@@ -541,9 +541,8 @@ Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
   Protects Against all forms of charms, panic and holds
-  +5% to Magic resistance
 
-Weight: 2
+Weight: 4
 
 Only usable by:
  Ferthgil Trollslayer~
@@ -569,7 +568,9 @@ Not Usable By:
  Kensai~
 
 @1024 = ~Skeezer Lumpkin's 'Dwarven' War Helmet~
-@1025 = ~Skeezer was given this helmet by his good friend, Gothmog Stonehearth, a dwarven skald of the Stonehearth clan. Skeezer and Gothmog became good friends after Skeezer had saved Gothmog's life one night. Gothmog was ambushed by a patrol of duergar, who made their way to the surface one moonless night to seek out prey. When Skeezer saw this, he thrust his staff onto the ground, causing the sky to become as bright as any brightly lit midday sky. This of course sent the duergar running. From that day on, Gothmog and Skeezer became close friends, and Gothmog had even become interested in his Gnomish friends magical abilities, and perhaps in secret has tried out a few small spells, knowing of course that his clan would frown upon such activities.
+@1025 = ~Skeezer was given this helmet by his good friend, Gothmog Stonehearth, a dwarven skald of the Stonehearth clan. Skeezer and Gothmog became good friends after the gnome saved Gothmog's life. Gothmog was ambushed by a patrol of duergar, who made their way to the surface one moonless night to seek out prey. Skeezer, camping nearby, witnessed the attack and thrust his staff into the ground, causing the sky to become as bright as any midday and sending the duergar running. From that day on, Gothmog and Skeezer became close friends. Gothmog even became interested in his gnomish friend's magical abilities, and in secret tried out a few small spells when making the helm, knowing of course that his clan would frown upon such activities.
+
+Though Skeezer claims the helm is blessed with all the powers of Clangeddin himself, the prominent horns jutting from its sides impress you far more, particularly when one nearly pierces your arm. Thankfully, he seems to don it only when anticipating battle.
 
 STATISTICS:
 
@@ -600,7 +601,7 @@ Only usable by:
  Paladin~
 
 @1028 = ~Thorfinn's Helmet~
-@1029 = ~This helm grants immunity to all forms of fear and panic, be their origins natural or magical.
+@1029 = ~This helm grants immunity to all forms of fear and panic, whether natural or magical.
 
 STATISTICS:
 
@@ -694,11 +695,11 @@ Not Usable By:
  Shapeshifter~
 
 @1047 = ~Thorfinn's Hide Armor~
-@1048 = ~This is the personal armor of Thorfinn Hauskluniff. The armor's special construction of interlocking hide plates makes it much lighter than normal hide armor.
+@1048 = ~This is the personal hide armor of Thorfinn Hauskluniff. Though it does not possess any magical abilities, it is a well-constructed piece, almost appearing to be traditional leather due to its cut and design. A snarling wolf emblazoned on the breast evokes its wilder origins.
 
 STATISTICS:
 
-Armor Class: 6
+Armor Class: 6 (8 vs. piercing and missile)
 Weight: 3
 Only usable by:
  Thorfinn Hauskluniff~
@@ -755,11 +756,12 @@ Only usable by:
  Paladin~
 
 @1059 = ~Jet'laya's Chainmail~
-@1060 = ~This is Jet'laya's personal set of chainmail. It was forged for her by her twin brother, Rennar. Despite the unusual coloration, it appears to be a normal set of elven chainmail.
+@1060 = ~This is Jet'laya's personal set of chainmail. This extremely light chainmail is made of very fine mithral links and was forged for her by her twin brother, Rennar.
 
 STATISTICS:
 
-Armor Class: 4
+Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
+Special: Spellcasting is not disabled
 Weight: 15
 
 Only usable by:
@@ -799,13 +801,13 @@ Weight: 8
 Only usable by:
  CúChoinneach~
 
-@1065 = ~Keiria Silverstring's Studded Leather Bard Armor +1~
-@1066 = ~Keiria has maintained close ties to her elven heritage and as a result has been able to obtain a few elven enchanted items by her kin. One of those items is this leather armor. It provides her with good leather +1 protection and allows her the ability to cast spells while being worn.
+@1065 = ~Keiria's Bard Armor~
+@1066 = ~Keiria has maintained close ties to her elven heritage, and as a result has been able to obtain a few enchanted items from her long-lived kin. Among them is this studded leather armor, magically imbued with protective spells and in turn designed to allow the wearer more freedom when casting spells.
 
 STATISTICS:
 
-Armor Class: 6
-Weight: 15
+Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile) 
+Weight: 10
 
 Only usable by:
  Keiria Silverstring~
@@ -837,13 +839,14 @@ Only usable by:
  Thief~
 
 @1072 = ~Skeezer Lumpkin's Mage Robe~
-@1074 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws.
+@1074 = ~Colorful, bright and... colorful... Skeezer's robe could aptly be described as a riot of red, particularly when adorned with the many trinkets he holds in high regard. The gnome claims that he invented a new kind of fabric when creating it, one that protects from the withering breath of dragons, the insidious tentacles of mind flayers and the magical blasts of beholders. From what you can tell, the robe would have a difficult time stopping the dagger of a lame kobold. Nonetheless, given Skeezer's skill as a mage, you have no doubt that it carries at least some magical protection.
 
 STATISTICS:
 
-Armor Class: 5
-Magic Resistance: +5%
-Saving Throws: +1 bonus
+Armor Class: 7
+Special:
+  Magic Resistance: +5%
+  Saving Throws: +1 bonus
 Weight: 6
 
 Only usable by:
@@ -1159,18 +1162,15 @@ Unknown
 Usable By:
  Bard Only~
 
-@1142 = ~Bard's Ring~
-@1143 = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago.
-
-It is set with a single stone of an unknown type that radiates a slight glow. Though the ring is cold to the touch, the chill is strangely comforting.
+@1142 = ~Keiria's Bard Ring~
+@1143 = ~This ring once belonged to the famous bard Morridin. The Mage King Varashar, a descendent of the Netherese mages, held a seven-year contest to find the most accomplished bard in both magic and music. When Morridin finally overcame his competitors with his own variation of a simple cantrip, Varashar awarded him with the title of Court Bard and this ring.
 
 STATISTICS:
 
- Memorize 1 Additional 3rd Level Spell
- Memorize 1 Additional 4th Level Spell
+Special: Grants 1 extra bard spell from 1st to 3rd levels
 
 Only usable by:
- Bards~
+ Keiria Silverstring~
 
 @1144 = ~Signet Ring of the Sukien~
 @1145 = ~Enchanted with magic by the High Priests of the Sukien Temple, this ring is worn by all those who protect the temple from evil.
@@ -1197,7 +1197,12 @@ Only usable by:
  Druid~
 
 @1148 = ~Jet'laya's Ring~
-@1149 = ~This ring belonged to Jet'laya's mother.~
+@1149 = ~This ring belonged to Jet'laya's mother. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
+
+STATISTICS: 
+
+Special:
+  Immunity from Charm and Dire Charm~
 
 @1151 = ~Davaeorn,
 
@@ -1505,17 +1510,17 @@ Weight: 3
 Only usable by:
  CúChoinneach~
 
-@1305 = ~Jet'laya's Small Shield +1~
+@1305 = ~Jet'laya's Small Shield~
 @1306 = ~This is the personal shield of Jet'laya. The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water. Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
 
 STATISTICS:
 
-Armor Class Bonus: +2
+Armor Class Bonus: +1
 Special:
   No Missile Weapon Protection
   THAC0 +2 Bonus vs. Undead
 
-Weight: 3
+Weight: 4
 
 Only usable by:
  Jet'laya~
@@ -2206,8 +2211,8 @@ Type: 2-handed
 Usable By:
  Druid Only~
 
-@1411 = ~Skeezer's Staff of Unpredicability~
-@1412 = ~Skeezer created this staff to aid him in his travels. While in the process of creating it he became distracted and lost track of the enchantments that he had placed on the staff. This resulted in a staff that has a very random effect on anything that Skeezer uses it on.
+@1411 = ~Skeezer Lumpkin's Staff of Unpredicability +1~
+@1412 = ~Skeezer created this staff to aid him in his travels. While in the process of creating it, he became distracted and lost track of the enchantments that he had placed on the staff. The result is a weapon that produces an entirely random effect on anything that Skeezer uses it on.
 
 STATISTICS:
 
@@ -2216,12 +2221,12 @@ THAC0: +1
 Special: Unknown
 Damage type: crushing
 Weight: 4
-Speed Factor: 1
+Speed Factor: 3
 Proficiency Type: Staff
 Type: 2-handed
 
 Only usable by:
- Gnome Magic Users~
+ Skeezer Lumpkin VI~
 
 @1414 = ~Tearlac Truehammer's War Hammer: 'Giant Feller'~
 @1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is made of very strong oak and is about 18 inches long.
@@ -2349,21 +2354,6 @@ Not Usable By:
  Monk
  Beast Master~
 
-@1433 = ~Mace of Contrition~
-@1434 = ~This mace was crafted by a zealot named Parias. With it he planned to "bring the heathens into the light." However, he was so over zealous in his quest that he killed his wife and family for not "walking in the light." After realizing what he had done, he buried the mace, confessed his sins, and starved himself weeping at his wife’s grave. The mace was later found and named the Mace of Contrition since his sins had grieved Parias so.
-
-STATISTICS:
-
-Damage: 1D6 + 1, +3 vs. Undead
-Damage type: crushing
-Weight: 7
-Speed Factor: 6
-Proficiency Type: Mace
-Type: 1-handed
-
-Only usable by:
- Jet'laya~
-
 @1436 = ~Dagger +2: 'AdderSting'~
 @1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator. The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin. This jet black blade is split in the middle and ends in two razor sharp points. In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches. Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
 
@@ -2427,8 +2417,8 @@ Usable By:
  Non-cleric
  Evil Aligned~
 
-@1446 = ~Keiria Silverstring's Light Crossbow of Speed~
-@1448 = ~This light crossbow has no more abilities than a normal Crossbow of Speed. The only difference is its color as Keiria strives always to remain fashionable, even on the battlefield.
+@1446 = ~Keiria's Light Crossbow of Speed~
+@1448 = ~This light crossbow has no extra enchantments to distinguish it from others of its type. The only difference is its color, as Keiria strives always to remain fashionable, even on the battlefield.
 
 STATISTICS:
 
@@ -3099,5 +3089,5 @@ an ability not lost on the marauding pirates and thieves of the Moonshaes. The t
 
 @30004 = ~This pool is nice a warm. If you were not in a hurry, it would make for a relaxing warm bath.~
 @30005 = ~An invisible wall of force keeps you from entering the cavern. You shall have to find some way to dispel it before you can enter.~
-@30006 = ~To the Entrance.~
-@30007 = ~To the Dragon's Hoard.~
+@30006 = ~Entrance~
+@30007 = ~Dragon's Hoard~

@@ -1,33 +1,33 @@
 IF
 	Global("OthoMace","GLOBAL",1)
-	Global("BlaneSpawn","GLOBAL",0)
+	Global("BlaneSpawn","%Beregost%",0)
 	!Exists("DSBlane")
 	!Dead("DSBlane")
 THEN
 	RESPONSE #100
 		CreateCreature("DSBLANE",[4601.3033],6)
-		SetGlobal("BlaneSpawn","GLOBAL",1)
-		ActionOverride("DSBLANE",SetDialog("BLANE"))
+		SetGlobal("BlaneSpawn","%Beregost%",1)
+		ActionOverride("DSBLANE",SetDialog("BLANE")) //why?
 END
 
 IF
 	Global("FindRelic","GLOBAL",1)
-	Global("NorbySpawn","GLOBAL",0)
+	Global("NorbySpawn","%Beregost%",0)
 	!Exists("DSNorby")
 	!Dead("DSNorby")
 THEN
 	RESPONSE #100
 		CreateCreature("DSNORBY",[2861.2367],0)
-		SetGlobal("NorbySpawn","GLOBAL",1)
+		SetGlobal("NorbySpawn","%Beregost%",1)
 END
 
 IF
 	Global("OthoMace","GLOBAL",2)
-	Global("DSElminSpawn","GLOBAL",0)
+	Global("DSElminSpawn","%Beregost%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("Elmin3",[4754.3239],0) // Elminster
-		SetGlobal("DSElminSpawn","GLOBAL",1)
+		SetGlobal("DSElminSpawn","%Beregost%",1)
 END
 
 IF
@@ -38,5 +38,3 @@ THEN
 		CreateCreature("DSOTHO",[4317.3425],0)
 		SetGlobal("OthoSpawn","GLOBAL",2)
 END
-
-

@@ -1,10 +1,10 @@
 IF
 	Global("TalkedBlane","GLOBAL",1)
-	Global("JarentSpawn","GLOBAL",0)
+	Global("JarentSpawn","%Beregost_BurningWizard_L1%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSJAREN",[231.176],0)
-		SetGlobal("JarentSpawn","GLOBAL",1)
+		SetGlobal("JarentSpawn","%Beregost_BurningWizard_L1%",1)
 END
 
 

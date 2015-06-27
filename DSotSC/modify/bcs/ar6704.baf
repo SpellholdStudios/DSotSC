@@ -1,10 +1,10 @@
 IF
 	Global("TalkedJet","GLOBAL",1)
-	Global("LennanSpawn","GLOBAL",0)
+	Global("LennanSpawn","%Beregost_JovialJuggler_L1%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSLENNAN",[464.844],0)
-		SetGlobal("LennanSpawn","GLOBAL",1)
+		SetGlobal("LennanSpawn","%Beregost_JovialJuggler_L1%",1)
 END
 
 IF
@@ -28,32 +28,45 @@ THEN
 END
 
 IF
-	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
-	Global("ThorfinnSpawn","GLOBAL",0)
-	LevelLT(Player1,4)
+	Global("TalkedJet","GLOBAL",1)
+	Global("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",0)
+	Level(Player1,1)
 THEN
 	RESPONSE #100
-		CreateCreature("DSTHORF2",[160.910],0)
-		SetGlobal("ThorfinnSpawn","GLOBAL",1)
-END
-
-IF
-	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
-	Global("ThorfinnSpawn","GLOBAL",0)
-	LevelGT(Player1,3)
-	LevelLT(Player1,6)
-THEN
-	RESPONSE #100
-		CreateCreature("DSTHORF4",[160.910],0)
-		SetGlobal("ThorfinnSpawn","GLOBAL",1)
+		CreateCreature("DSTHORF",[160.910],0)
+		SetGlobal("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",1)
 END
 
 IF
 	Global("TalkedJet","GLOBAL",1)
-	Global("ThorfinnSpawn","GLOBAL",0)
+	Global("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",0)
+	OR(2)
+		Level(Player1,2)
+		Level(Player1,3)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHORF2",[160.910],0)
+		SetGlobal("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",1)
+END
+
+IF
+	Global("TalkedJet","GLOBAL",1)
+	Global("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",0)
+	OR(2)
+		Level(Player1,4)
+		Level(Player1,5)
+THEN
+	RESPONSE #100
+		CreateCreature("DSTHORF4",[160.910],0)
+		SetGlobal("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",1)
+END
+
+IF
+	Global("TalkedJet","GLOBAL",1)
+	Global("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",0)
 	LevelGT(Player1,5)
 THEN
 	RESPONSE #100
 		CreateCreature("DSTHORF6",[160.910],0)
-		SetGlobal("ThorfinnSpawn","GLOBAL",1)
+		SetGlobal("ThorfinnSpawn","%Beregost_JovialJuggler_L1%",1)
 END

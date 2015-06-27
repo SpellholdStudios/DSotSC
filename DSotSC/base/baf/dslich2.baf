@@ -15,7 +15,7 @@ IF
   See(NearestEnemyOf(Myself(Myself)))
 THEN
   RESPONSE #100
-    PlaySound("Ghost5")
+    PlaySound("DSGHOST5")
     ForceSpell(NearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR3)
     SmallWait(5)
     ForceSpell(SecondNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR2)
@@ -33,7 +33,6 @@ IF
   See(NearestEnemyOf(Myself))
 THEN
   RESPONSE #100
-    PlaySound("Lich2")
     ForceSpell(FourthNearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
     SmallWait(5)
     ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_HORROR)
@@ -50,7 +49,7 @@ THEN
   RESPONSE #100
     ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_HOLD_PERSON)
   RESPONSE #100
-    PlaySound("Ghost1")
+    PlaySound("DSGHOST1")
     Wait(1)
     ForceSpell(SecondNearestEnemyOf(Myself(Myself)),WIZARD_SLOW)
     SetGlobal("Lich","GLOBAL",4)
@@ -79,7 +78,7 @@ IF
   Global("Lich","GLOBAL",6)
 THEN
   RESPONSE #100
-    PlaySound("Ghost3")
+    PlaySound("DSGHOST3")
     ForceSpell(StrongestOf(NearestEnemyOf(Myself)),WIZARD_DEATH_SPELL)
     SmallWait(5)
     ForceSpell(StrongestOf(NearestEnemyOf(Myself)),SPIDER_SUMMON)
@@ -114,14 +113,14 @@ THEN
     AttackOneRound(NearestEnemyOf(Myself))
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #25
-    PlaySound("Ghost5")
+    PlaySound("DSGHOST5")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_SEEDS)
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #25
     ForceSpell(NearestEnemyOf(Myself),CLERIC_CIRCLE_OF_PROTECTION)
     IncrementGlobal("Lich","GLOBAL",1)
   RESPONSE #25
-    PlaySound("Ghost2")
+    PlaySound("DSGHOST2")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_MAGIC_RESISTANCE)
     IncrementGlobal("Lich","GLOBAL",1)
 END

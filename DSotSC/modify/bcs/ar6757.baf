@@ -1,10 +1,8 @@
 IF
 	Global("KaterinSpawn","GLOBAL",1)
-	Global("ThomicSpawn","GLOBAL",0)
+	Global("ThomicSpawn","%Beregost_RedSheaf_L1%",0)
 THEN
 	RESPONSE #100
 		CreateCreature("DSTHOMIC",[653.310],0)
-		SetGlobal("ThomicSpawn","GLOBAL",1)
+		SetGlobal("ThomicSpawn","%Beregost_RedSheaf_L1%",1)
 END
-
-
