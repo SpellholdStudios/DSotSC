@@ -1473,9 +1473,15 @@ Damage type: missle (piercing)
 Launcher: sling~
 
 @1292 = ~Boots of the Forest~
-@1294 = ~One of the many gifts bestowed upon the protectors of the forests, these boots provide the wearer with a little extra speed, stealth, and an ability to avoid getting trapped(web, grease or entangle).
+@1294 = ~These boots, woven from slim, supple branches with such expertise so as to appear made of leather, the Boots of the Forest are one of the many gifts bestowed upon the protectors of the forests. Such individuals swear that the boots not only allow them to travel at a greater pace, but also provide them with a much greater sensitivity to their surroundings.
 
 STATISTICS:
+
+Special:
+  Move Silently: +15%
+  Immunity to Web, Grease and Entangle
+
+Weight: 4
 
 Only usable by:
  Druid (Single Class Only)
@@ -3091,3 +3097,31 @@ an ability not lost on the marauding pirates and thieves of the Moonshaes. The t
 @30005 = ~An invisible wall of force keeps you from entering the cavern. You shall have to find some way to dispel it before you can enter.~
 @30006 = ~Entrance~
 @30007 = ~Dragon's Hoard~
+
+@30008 = ~Faerie Fire~
+@30009 = ~Faerie Fire
+(Alteration)
+
+Level: 1
+Sphere: Weather
+Range: 240 Feet
+Duration: 4 rounds + 1 round/level
+Casting Time: 4
+Area Of Effect: 15' radius
+Saving Throw: None
+
+This spell enables the caster to outline one or more creatures with a pale glowing light. Outlined objects are visible for 240 feet. Outlined creatures are easier to strike; thus opponents gain a +2 bonus to attack rolls. The Faerie Fire does not harm the creature.~
+
+@30010 = ~Cause Disease~
+@30011 = ~Cause Disease
+(Necromancy)
+
+Level: 3
+Sphere: Healing
+Range: Touch
+Duration: 8 hours
+Casting Time: 1 round
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+This spell afflicts one creature the priest touches with a disease that saps the target of 5-20 points of strength. A saving throw vs. spell will negate the effects. This spell has no affect on undead, constructs, or extraplanar creatures.~

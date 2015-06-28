@@ -4,7 +4,8 @@
 // BG:EE version by Solaufein
 // EET version and tp2 code revamp by K4thos
 // ITM/SPL/CRE balancing revision by Vlar
-// vanilla items and XP rebalancing by Manduran
+// NPC suggestions for NPC balancing by WithinAmnesia
+// vanilla items and XP balancing by Manduran
 
 BACKUP ~DSotSC/backup~
 AUTHOR ~~
@@ -231,7 +232,6 @@ DSC033  value
 DSC034  value
 DSC035  value
 DSC036  value~
-UNLESS ~DSC001~
 
 APPEND ~interdia.2da~
 ~DSBARDO       BBARDO    NONE
@@ -243,7 +243,6 @@ JETLAYA       BJETLA    NONE
 KEIRIA        BKEIRIA   NONE
 SKEEZER       BSKEEZE   NONE
 THORFINN      BTHORF    NONE~
-UNLESS ~JETLAYA~
 COPY_EXISTING ~interdia.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
@@ -279,6 +278,37 @@ DSSKSTAF SKEEZER 9382 2~
 	BUT_ONLY
 END
 
+// general rule: cloaks/rings/amulets with AC bonus should not stack with magical armours
+APPEND ~itemexcl.2da~
+~DSTHRARM 1
+DSWRKARM 1
+DSCOARM 1
+DSCRYARM 1
+DSCHAN02 1
+DSCHAN03 1
+DSCHAN04 1
+DSJEARM 1
+DSKORIM 1
+DSCUARM 1
+DSKEARM 1
+DSLEAT01 1
+DSSKROBE 1
+DSROBESO 1
+DSROBE02 1
+DSROBE03 1
+DSROBE04 1
+DSROBE05 1
+DSROBE06 1
+DSROBE07 1
+DSCLCK01 1
+DSCLCK04 1
+DSRNG103 1
+DSRNGFSH 1
+DSAMUL08 1~
+COPY_EXISTING ~itemexcl.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
+
 APPEND ~pdialog.2da~
 ~DSBARDO      BARDOP             BARDOJ            ***            ***                ***                ***                 ***
 DSBUB        BUBP               BUBJ              ***            ***                ***                ***                 ***
@@ -289,7 +319,6 @@ JETLAYA      JETLAP             JETLAJ            ***            ***            
 KEIRIA       KEIRIP             KEIRIJ            ***            ***                ***                ***                 ***
 SKEEZER      SKEEZP             SKEEZJ            ***            ***                ***                ***                 ***
 THORFINN     THORFP             THORFJ            ***            ***                ***                ***                 ***~
-UNLESS ~JETLAYA~
 COPY_EXISTING ~pdialog.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
@@ -1130,7 +1159,7 @@ COPY ~DSotSC/base/itm/dsaxe06.itm~ ~override~
 	SAY NAME2 @1393
 	SAY DESC @1395
 
-COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~ //quest item (but only with optional component)
+COPY ~DSotSC/base/itm/dsstaf01.itm~ ~override~ //quest item (reward when optional component in installed)
 	SAY NAME2 @1396
 	SAY DESC @1398
 
@@ -2266,6 +2295,11 @@ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
+
+ADD_SPELL ~DSotSC/base/spl/sppr143.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ //Druid
+	SAY NAME1 @30008
+	SAY UNIDENTIFIED_DESC @30009
+
 ADD_SPELL ~DSotSC/base/spl/sppr145.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~ //Cleric and Druid
 	SAY NAME1 @3
 	SAY UNIDENTIFIED_DESC @4
@@ -2289,6 +2323,10 @@ ADD_SPELL ~DSotSC/base/spl/sppr246.spl~ 1 2 ~CLERIC_SPARKS~ //Druid
 ADD_SPELL ~DSotSC/base/spl/sppr247.spl~ 1 2 ~CLERIC_WARD_OF_PROTECTION~ //Cleric
 	SAY NAME1 @14
 	SAY UNIDENTIFIED_DESC @15
+
+ADD_SPELL ~DSotSC/base/spl/sppr316.spl~ 1 3 ~CLERIC_CAUSE_DISEASE~ //Cleric and Druid
+	SAY NAME1 @30010
+	SAY UNIDENTIFIED_DESC @30011
 
 ADD_SPELL ~DSotSC/base/spl/sppr345.spl~ 1 3 ~CLERIC_PAIN~ //Cleric and Druid
 	SAY NAME1 @17
@@ -2346,10 +2384,10 @@ ADD_SPELL ~DSotSC/base/spl/sppr756.spl~ 1 7 ~CLERIC_THUNDER_BOLT~ //Druid
 	SAY NAME1 @49
 	SAY UNIDENTIFIED_DESC @50
 
+COMPILE ~DSotSC/base/baf/spell_cleric~ EVALUATE_BUFFER USING ~DSotSC/language/%LANGUAGE%/baf.tra~
+
 COPY_EXISTING ~dsarchdr.cre~ ~override~
 	WRITE_ASCII SCRIPT_CLASS ~DSARCHDR~ #8
-
-//!!! 2 missing spells used in DSARCHDR.bcs - add them before release
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -2524,7 +2562,7 @@ COPY_EXISTING ~corsone.cre~ ~override~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 COPY_EXISTING ~davaeo.cre~ ~override~
-	ADD_CRE_ITEM ~DSROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~CLOAK~
+	ADD_CRE_ITEM ~DSROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	ADD_CRE_ITEM ~DSMISC01~ #0 #0 #0 ~NONE~ ~INV15~
 
 COPY_EXISTING ~denak.cre~ ~override~

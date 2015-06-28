@@ -8,15 +8,6 @@ DSSWD04.ITM
 DSSWD06.ITM
 DSDAGG01.ITM
 
-3. Add 2 spells used in restored DSARCHDR.BCS:
-CLERIC_CAUSE_DISEASE
-CLERIC_BLADES
+3. Readme file
 
-4. Fix icon transparency problem:
-add them to store and check which ones are problematic
-
-5. Translations
-
-6. Readme file
-
-7. Release candidate topic
+4. Release candidate topic and call for translations
