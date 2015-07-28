@@ -3,35 +3,17 @@ IF
   NumberOfTimesTalkedTo(0)
 THEN
   RESPONSE #100
-    SetGlobal("FerthgilFight","GLOBAL",1)
     Dialog([PC])
     Wait(10)
-    SetGlobal("HelpFerthg","GLOBAL",1)
 END
 
 IF
+  Global("FerthgilFight","LOCALS",0)
   See([PC])
   GlobalGT("FerthgDuergr","GLOBAL",5)
 THEN
   RESPONSE #100
-    Dialog([PC])
-END
-
-IF
-  See([PC])
-  Global("HelpFerthg","GLOBAL",0)
-  GlobalGT("FerthgDuergr","GLOBAL",5)
-THEN
-  RESPONSE #100
-    Dialog([PC])
-END
-
-IF
-  See([PC])
-  Global("HelpFerthg","GLOBAL",1)
-  GlobalGT("FerthgDuergr","GLOBAL",5)
-THEN
-  RESPONSE #100
+    SetGlobal("FerthgilFight","LOCALS",1)
     Dialog([PC])
 END
 
@@ -49,4 +31,3 @@ THEN
   RESPONSE #100
     AttackReevaluate(NearestEnemyOf(Myself),15)
 END
-

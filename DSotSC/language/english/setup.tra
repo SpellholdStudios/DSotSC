@@ -275,7 +275,6 @@ Area of Effect: Special
 Saving throw: Negates
 
 This spell allows the mage to turn a target into a puff of smoke for a limited amount of time.~
-
 @54 = ~Thunderslap~
 @55 = ~Thunderslap
 (Conjuration/Summoning)
@@ -348,7 +347,6 @@ Area of Effect: Special
 Saving Throw: None
 
 Ettin, a monk who lived near the city of Hillsfar, was also an adept herbalist who found many ways to heal the body, including this spell. When cast, the target can regenerate up to 16 hit points, 1 per turn.~
-
 @69 = ~Melf's Explosive Meteors~
 @70 = ~Melf's Explosive Meteors
 (Evocation)
@@ -361,7 +359,6 @@ Area of Effect: Special
 Saving Throw: Special
 
 This evocation is the same as the third level mage spell Melf's Minute Meteors, except that the missiles created explode violently on impact. All creatures within 20' of the point of impact will be showered with flaming shrapnel inflicting 2-12 points of damage. A successful saving throw will allow the affected creature to avoid the worst effects, reducing the damage taken by half.~
-
 @73 = ~Anti-Magic Shell~
 @74 = ~Anti-Magic Shell
 (Abjuration)
@@ -374,7 +371,6 @@ Area of Effect: Caster only
 Saving Throw: None
 
 By means of this spell the caster surrounds himself with a shimmering barrier that moves with him. The area within this barrier is totally impervious to all magic and magical spell effects, thus preventing the passage of any and all spells, harmful or beneficial alike. Likewise it prevents any spell casting within its confines and magic affecting the wizard when this spell is cast is immediately dispelled. Breath weapons, gaze or voice attacks, and similar special attack forms also cannot penetrate the barrier. It isn't affected by Dispel Magic, but the shell can be pierced by spells such as Spellstrike.~
-
 @79 = ~Mass Charm~
 @80 = ~Mass Charm
 (Enchantment/Charm)
@@ -440,7 +436,7 @@ The Mage King Varashar, according to rumor, used this spell to extend his life m
 
 @1000 = ~Crown~
 @1001 = ~Crown of the Archdruid~
-@1002 = ~Crowns not only exist for decoration, some of them offer head protection as well.
+@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages
 
 STATISTICS:
 
@@ -452,31 +448,30 @@ Not Usable By:
  Warrior
  Thief~
 
-@1003 = ~This crown was owned by the Leader of the "Druids of The Black Woods" over 13 generations ago. However after an orc invasion crushed this druidic community, this crown has changed its owner very often.
+@1003 = ~Worn by the leader of the druids of the Black Woods over thirteen generations ago, this artifact was lost when an orcish invasion crushed the druidic community. It has since changed owners often, usually through violent means.
 
 STATISTICS:
 
 Special:
   Protection against critical hits
-  1 extra spell for level 1 and 2
-  Charm Animal unless save vs. wands (1/day)
-Range: 40 ft
-Area: 1 animal
-Duration: 10 turns
+  Grants 1 druid spell for level 1 and 2
+  Charm animal once per day (Save vs. Wands negates)
+   Range: 40 ft
+   Area of Effect: 1 animal
+   Duration: 10 turns
 Weight: 2
 
 Only usable by:
  Druid~
 
-@1004 = ~Crown of the Shar'DuKha~
-@1005 = ~Crown of the Shar'DuKha: 'The Wizard's Helm'
-This crown is from the Shar'DuKha, the Elemental Templers. Crafted for users of magic it offers them protections they usually have to abandon in pursuit of their art.
+@1004 = ~Crown of the Alarphon~
+@1005 = ~Within the ranks of the famed War Wizards of Corymr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
 
 STATISTICS:
 
 Armor Class Bonus: +1
 Special:
-  Resists charm and panic
+  Immunity to charm and fear
   +1 Saving Throws
   Protects Against Critical Hits
 
@@ -487,20 +482,24 @@ Only usable by:
 
 @1006 = ~Hat~
 @1007 = ~Rogue's Hat~
-@1008 = ~The felt hat is a favorite of the bards, though they offer little in the way of protection they are decorative at times. On rare occasions one is discovered that was enchanted with some magic.
+@1008 = ~Felt hats such as this are favorites of bards. Though they offer little in the way of protection, their fashionable appearance matters more to those who wear them. On rare occasions one is discovered that bears enchantments.
+
+STATISTICS:
+
+Armor Class Bonus: None
+Weight: 2
 
 Only usable by:
  Bard
  Thief~
 
-@1009 = ~This hat has been enchanted, though it appears as flimsy as the typical cloth or felt cap, it has the resilience to withstand a good blow.
+@1009 = ~Though it appears as flimsy as a common felt cap, this hat has the resilience to withstand a good blow, and it also instill confidence in the wearer.
 
 STATISTICS:
 
 Armor Class Bonus: None
 Special:
-  Protects Against Critical Hits
-  Protection from Fear effects
+  Immunity to fear
 
 Weight: 2
 
@@ -510,21 +509,20 @@ Only usable by:
 
 @1010 = ~Tiara~
 @1011 = ~Tiara of the Chanah'Rea~
-@1012 = ~This class of decorative tiara, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and commonly worn by Warlocks.
+@1012 = ~This class of decorative tiara, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items, and are commonly worn by warlocks.
 
 STATISTICS:
 
 Armor Class Bonus: None
 Weight: 2~
 
-@1013 = ~Where most tiaras are ornamental items, this one is enchanted by the High Priests of the Chanah'Rea. It is believed that the stone that graces its front is from Stone Hedge itself.
+@1013 = ~Where most tiaras are simply ornamental items, this powerful artifact was worn by the High Priests of the Chanah'Rea. It is believed that the stone that graces its center is a fragment of the Standing Stone in the Dalelands.
 
 STATISTICS:
 
 Special:
-  Immune to charm
+  Immunity to charm
   +1 Saving Throws
-  +10% to elemental resistances
   Protects Against Critical Hits
 
 Weight: 2
@@ -548,15 +546,15 @@ Only usable by:
  Ferthgil Trollslayer~
 
 @1022 = ~Crystal Helm~
-@1023 = ~Crafted from magical crystals from a now abandoned Dwarven Mine. The crystals have a natural resistance to heat and cold.
+@1023 = ~Crafted from magical crystals mined from a now-abandoned dwarven mine, armor such as this is exceedingly rare, as the location of the mine itself has long since been lost. The crystals, found only in a single vein, possess a natural resistance to the elements.
 
 STATISTICS:
 
 Armor Class Bonus: +1
 Special:
   Protects Against Critical Hits
-  +10% Fire Resistance
-  +10% Cold Resistance
+  Fire Resistance: +10%
+  Cold Resistance: +10%
 
 Weight: 2
 
@@ -577,15 +575,14 @@ STATISTICS:
 Armor Class Bonus: None
 Special:
   Protects Against Critical Hits
-  Protects Against all forms of panic and boosts morale
-  Intelligence Bonus +2
+  Protects against all forms of panic and boosts morale
 
 Weight: 2
 
 Only usable by:
  Skeezer Lumpkin VI~
 
-@1026 = ~Helm of the Holy Guard~
+@1026 = ~Helm of the Falcon~
 @1027 = ~Bold and ornamental this helm looks to be more of a show piece then a source of protection; looks however can be very deceiving. Enchanted by the high priests of the Sukien, it provides the wearer with the strength of mind to resist all forms of temptation.
 
 STATISTICS:
@@ -608,7 +605,7 @@ STATISTICS:
 Armor Class Bonus: None
 Equipped Abilities:
  Protects Against Critical Hits
- Protection from Fear
+ Protects against all forms of panic and fear
 Weight: 2
 Not Usable By:
  Mage
@@ -616,27 +613,28 @@ Not Usable By:
  Thief~
 
 @1030 = ~Armor of Thorns~
-@1032 = ~Upon closer inspection, one discovers that the armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches. The armor is a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
+@1032 = ~Upon closer inspection, one discovers that this armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches. The armor was a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
 
 STATISTICS:
 
-Armor Class: 5
+Armor Class: 5 (4 vs. missile, 7 vs. slashing)
 Saving Throws: +1 bonus
 Weight: 4
+Requires: 6 Strength
 
 Only usable by:
  Druid (single, dual, & multi-class)~
 
-@1033 = ~Stormcloud 'Kraken's Bane'~
-@1034 = ~This leather was fashioned from the charred remains of a dragon struck down by lightning. Last known to be worn by Shrethu Reogher, the warlock. One must hope that he is dead, for if it were removed from him while he was still alive he is sure to come looking for it.
+@1033 = ~Leather Armor +2: Bhaelros' Bane~
+@1034 = ~Though druidic orders were traditionally rare in the harsh climate of Calimshan, a small number could be found near the Marching Mountains. Persecuted and ridiculed by the Calishites, they often came under attack by priests of Bhaelros. To protect the members of their order, suits of armor such as these were created, allowing the druids to brush aside the lightning spells of the evil clerics. Unfortunately, they could not provide the same protection for the trees, and they fled when their home was destroyed.
 
 STATISTICS:
 
-Armor Class: 3 (0 vs missiles)
+Armor Class: 6 (8 vs. piercing and missile)
 Saving Throws: +1 bonus
 Special: Resist Electricity +25%
-Weight: 4
-Requires: 6 Strength
+Weight: 6
+Requires: 4 Strength
 
 Only usable by:
  Druid~
@@ -3088,7 +3086,9 @@ take up a profession as a hired adventurer. He traveled first to Baldur's Gate t
 @21050 = ~When asked about his past, THORFINN HAUSKLUNIFF explains that his childhood got off to a bad start. Born on the island of Ruathym, he was offered as a sacrifice to Auriel. The priests of Auriel placed Thorfinn on a raft when he was just a babe, and launched him into the Trackless Sea. At that time, the weather was calm, but strong currents carried the raft south toward the west side of the Moonshae Isles. He drifted for several days until the raft reached the shores of the isle of Moray. Washed up on a pebble beach, Thorfinn was rescued by fishermen and raised in the presence of Northlanders. In his early years, he worked the boat with his adopted family, learning all there was to know about the sea. He became interested in the navy and when he turned sixteen, his request to join was granted by his family. During his late teens, he honed his seafaring skills and began learning the art of swordplay. He became adept with the axe, but his strength gave him the ability to swing a large sword with ease,
 an ability not lost on the marauding pirates and thieves of the Moonshaes. The two-handed sword became his weapon of choice. After five years, Thorfinn decided to leave the navy and travel. He worked as a mercenary and sword-for-hire protecting merchants as they traveled the caravan routes. Eventually, Thorfinn's travels brought him to the Sword Coast and into the city of Baldur's Gate.~
 
+/////////////////////////
 //new strings added in v3
+/////////////////////////
 @30001 = ~Lair of Salandiaxarxes~
 @30002 = ~Wardstone~
 @30003 = ~This wardstone will allow you to gain entry into the dragon's hoard.~

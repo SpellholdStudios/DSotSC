@@ -8,9 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN DO ~SetGlobal("FerthgilFight","GLOBAL",1)
-SetGlobal("HelpFerthg","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("HelpFerthg","GLOBAL",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 2

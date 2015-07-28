@@ -150,22 +150,14 @@ OUTER_WHILE (valid_answer = 0) BEGIN
 		OUTER_SPRINT wav_version ~revised~
 		OUTER_SET valid_answer = 1
 	END ELSE BEGIN
-		PRINT ~Choose which voice pack should be used for NPCs:
- 1] English voices from original version of DSotSC
+		PRINT ~Choose which voice pack should be used for joinable NPCs:
+ 1] voices from original version of DSotSC (supported languages: English, partial German)
  2] new voice sets from IWD1 and IWD2 (supported languages: English, Polish, more in future)~
 		ACTION_READLN ~button~
 		ACTION_IF NOT (IS_AN_INT %button%) BEGIN
 			OUTER_SET button = 0
 		END
 	END
-END
-
-ACTION_IF ~%wav_version%~ STRING_EQUAL_CASE ~original~ BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg_original~
-END ELSE ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
-END ELSE BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
 END
 
 /////                                                  \\\\\
@@ -1958,11 +1950,31 @@ LAF HANDLE_AUDIO
     sox_path = ~DSotSC/bin/osx~
 END
 
-LAF HANDLE_AUDIO
-	STR_VAR
-	audio_path = EVAL ~%ogg_dir%~
-	oggdec_path = ~DSotSC/bin/win32~
-	sox_path = ~DSotSC/bin/osx~
+ACTION_IF ~%wav_version%~ STRING_EQUAL_CASE ~original~ BEGIN
+	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg_original~
+	ACTION_BASH_FOR ~DSotSC/language/english/ogg_original~ ~^.*\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS ~%ogg_dir%/%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~%ogg_dir%~
+		END
+	END
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = EVAL ~%ogg_dir%~
+		oggdec_path = ~DSotSC/bin/win32~
+		sox_path = ~DSotSC/bin/osx~
+	END
+END ELSE BEGIN
+	ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
+		OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
+	END ELSE BEGIN
+		OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
+	END
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = EVAL ~%ogg_dir%~
+		oggdec_path = ~DSotSC/bin/win32~
+		sox_path = ~DSotSC/bin/osx~
+	END
 END
 
 /////                                                  \\\\\
