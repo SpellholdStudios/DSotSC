@@ -59,7 +59,7 @@ ALWAYS
 		COPY - ~weidu.conf~ ~weidu.conf~
 			READ_2DA_ENTRY 0 2 3 "lang_dir"
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
-			"deutsch" => "CP1252"
+			"german" => "CP1252"
 			"english" => "CP1252"
 			"french" => "CP1252"
 			"italian" => "CP1252"
@@ -95,10 +95,10 @@ LANGUAGE
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/spanish/setup.tra~
 LANGUAGE
-	~Deutsch (translation Leonard Watson & Jastey)~
-	~deutsch~
+	~German (translation Leonard Watson & Jastey)~
+	~german~
 	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/deutsch/setup.tra~
+	~DSotSC/language/german/setup.tra~
 LANGUAGE
 	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net) & Turambar)~
 	~italian~

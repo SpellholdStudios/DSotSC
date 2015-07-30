@@ -33,11 +33,11 @@ END
 
 IF
 //	OnCreation()
-	Global("BansheeMap2","GLOBAL",0)
+	Global("BansheeMap2","DSC002",0)
 THEN
 	RESPONSE #100
 		Weather(RAIN)
-		SetGlobal("BansheeMap2","GLOBAL",1)
+		SetGlobal("BansheeMap2","DSC002",1)
 		Continue()
 END
 
@@ -89,21 +89,21 @@ END
 
 IF
 	Global("LichResurect","GLOBAL",0)
-	Global("LichDoorDead","GLOBAL",0)
+	Global("LichDoor","DSC002",0)
 THEN
 	RESPONSE #100
 		TriggerActivation("TranC003",FALSE)
-		SetGlobal("LichDoor","GLOBAL",1)
+		SetGlobal("LichDoor","DSC002",1)
 		Continue()
 END
 
 IF
 	Global("LichResurect","GLOBAL",2)
-	Global("LichDoor","GLOBAL",1)
+	Global("LichDoor","DSC002",1)
 THEN
 	RESPONSE #100
 		TriggerActivation("TranC003",TRUE)
-		SetGlobal("LichDoor","GLOBAL",2)
+		SetGlobal("LichDoor","DSC002",2)
 END
 
 IF
@@ -175,6 +175,6 @@ THEN
 	RESPONSE #100
 		AddexperienceParty(6500)
 		SetGlobal("LichDead","GLOBAL",1)
-		SetGlobal("LichTired","GLOBAL",1)
+		//SetGlobal("LichTired","GLOBAL",1)
 		GiveItemCreate("DSMISC08",Player1,6,0,0) // Magic Jar
 END
