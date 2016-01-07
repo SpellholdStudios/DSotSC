@@ -1,4 +1,4 @@
-// Dark Side of the Sword Coast for EET
+// Dark Side of the Sword Coast for BGT/EET
 // Original creator of DSotSC: CuChoinneach and his team
 // BGT version by SirBillyBob, updated by erebusant (up to version 215) and Turambar (v216)
 // BG:EE version by Solaufein
@@ -39,18 +39,19 @@ ALWAYS
 
 	ACTION_IF GAME_IS ~bgt~ BEGIN
 		INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
-		OUTER_SPRINT ~platform~ ~bgt~
-		OUTER_SPRINT ~res~ ~normal~
+		OUTER_SPRINT platform ~bgt~
+		OUTER_SPRINT engine ~vanilla~
 		OUTER_SPRINT Nashkel_door ~DOOR3704~ //used in ar3700.baf and megacut.baf
 		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT3200~ //patching ARE
 		OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~ //patching ARE
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
-		OUTER_SPRINT ~platform~ ~eet~
-		OUTER_SPRINT ~res~ ~ee~
+		OUTER_SPRINT platform ~eet~
+		OUTER_SPRINT engine ~ee~
 		OUTER_SPRINT Nashkel_door ~DOOR4804~
 		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT4300~
 		OUTER_SPRINT GibberlingMountains_entrance ~EXIT5500~
+		OUTER_SET BG1AREA = IDS_OF_SYMBOL (~areatype~ ~BG1AREA~)
 	END
 
 	INCLUDE ~DSotSC/lib/macros.tpa~
@@ -65,13 +66,13 @@ ALWAYS
 			"italian" => "CP1252"
 			"polish" => "CP1250"
 			"russian" => "CP1251"
-			"spanish" => "CP1252"
+			"castilian" => "CP1252"
 		END
 		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc END
 		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
 		LAF ~HANDLE_CHARSETS~
 			INT_VAR
-			infer_charsets = 1
+			infer_charsets = 0
 			STR_VAR
 			tra_path = "DSotSC/language"
 			iconv_path = "DSotSC/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
@@ -91,9 +92,9 @@ LANGUAGE
 	~DSotSC/language/english/soundsets_dsotsc.tra~
 /*LANGUAGE
 	~Castilian (translation updated by Lisandro)~
-	~spanish~
+	~castilian~
 	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/spanish/setup.tra~
+	~DSotSC/language/castilian/setup.tra~
 LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
 	~german~
@@ -428,7 +429,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY interact_patch_table BEGIN
 	93 , VICONIA , CUCHOINNEACH => s
 	94 , VICONIA , JETLAYA => i
 	95 , VICONIA , SKEEZER => c
-	//96 , IMOEN2 ,  => 
+	//96 , IMOEN2 ,  =>
 	97 , DSBARDO , KIVAN => c
 	98 , DSBARDO , ALORA => i
 	99 , DSBARDO , DYNAHEIR => s
@@ -1690,11 +1691,20 @@ INCLUDE ~DSotSC/lib/soundsets_%wav_version%.tpa~
 COPY ~DSotSC/base/wed~ ~override~
 
 COPY ~DSotSC/base/are/%platform%/nostring~ ~override~
+	PATCH_IF (GAME_IS ~eet~) BEGIN
+		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+	END
 
 COPY ~DSotSC/base/are/%platform%/dsc010.are~ ~override~
+	PATCH_IF (GAME_IS ~eet~) BEGIN
+		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+	END
 	SAY 0x1f4c @2302
 
 COPY ~DSotSC/base/are/%platform%/dsc006.are~ ~override~
+	PATCH_IF (GAME_IS ~eet~) BEGIN
+		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+	END
 	SAY 0x418 @30004
 	SAY 0x4DC @30004
 	SAY 0x5A0 @30004
@@ -1856,17 +1866,17 @@ EXTEND_BOTTOM ~%BearRiver_BCS%.bcs~ ~DSotSC/modify/bcs/ar3499.baf~ EVALUATE_BUFF
 
 EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~DSotSC/modify/bcs/ar3700.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%Nashkel_Inn%.are~ ~override/%Nashkel_Inn%.are~
+COPY_EXISTING ~%Nashkel_Inn%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%Nashkel_Inn%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_Inn_BCS%.bcs~ ~DSotSC/modify/bcs/ar3701.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%Nashkel_ManorHouse_L1%.are~ ~override/%Nashkel_ManorHouse_L1%.are~
+COPY_EXISTING ~%Nashkel_ManorHouse_L1%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%Nashkel_ManorHouse_L1%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_ManorHouse_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar3704.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%Nashkel_ManorHouse_L2%.are~ ~override/%Nashkel_ManorHouse_L2%.are~
+COPY_EXISTING ~%Nashkel_ManorHouse_L2%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%Nashkel_ManorHouse_L2%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Nashkel_ManorHouse_L2_BCS%.bcs~ ~DSotSC/modify/bcs/ar3705.baf~ EVALUATE_BUFFER
@@ -1877,14 +1887,14 @@ EXTEND_BOTTOM ~%GibberlingMountains_BCS%.bcs~ ~DSotSC/modify/bcs/ar4600.baf~ EVA
 
 EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~DSotSC/modify/bcs/ar6700.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%Beregost_ThunderhammerSmithy%.are~ ~override/%Beregost_ThunderhammerSmithy%.are~
+COPY_EXISTING ~%Beregost_ThunderhammerSmithy%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%Beregost_ThunderhammerSmithy%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~DSotSC/modify/bcs/ar6701.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%Beregost_JovialJuggler_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6704.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%Beregost_BurningWizard_L1%.are~ ~override/%Beregost_BurningWizard_L1%.are~
+COPY_EXISTING ~%Beregost_BurningWizard_L1%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%Beregost_BurningWizard_L1%~ #8
 BUT_ONLY
 EXTEND_BOTTOM ~%Beregost_BurningWizard_L1_BCS%.bcs~ ~DSotSC/modify/bcs/ar6707.baf~ EVALUATE_BUFFER
@@ -1931,9 +1941,9 @@ END
 
 COPY ~DSotSC/base/bam~ ~override~
 	~DSotSC/base/bmp~ ~override~
-	~DSotSC/base/mos/%res%~ ~override~
-	~DSotSC/base/portraits/%res%~ ~override~
-	~DSotSC/base/portraits/L~ ~override~
+	~DSotSC/base/mos/%engine%~ ~override~
+	~DSotSC/base/portraits/%engine%~ ~override~
+	~DSotSC/base/portraits/l~ ~override~
 
 /////                                                  \\\\\
 ///// extract tilsets & audio                          \\\\\
@@ -2001,38 +2011,82 @@ END
 
 //add areas to EET Worldmap, BGT one is too small to have them, but both platforms are compatible with BP-BGT Worldmap
 ACTION_IF (GAME_IS ~eet~) BEGIN
-
-	COPY_EXISTING - ~worldmap.wmp~ ~override~
-		LPF ~dump_wmp~
-		STR_VAR
-			output_areas = "DSotSC/Worldmap/eet_areas.tbl"
-			output_links = "DSotSC/Worldmap/eet_links.tbl"
-			output_strings = "DSotSC/Worldmap/eet_worldmap.tra"
-		END
-
-	COPY ~DSotSC/Worldmap/eet_areas.tbl~ ~DSotSC/Worldmap~
-		APPEND_FILE ~DSotSC/Worldmap/areas.tbl~
-		REPLACE_TEXTUALLY ~^\(.*DSC001.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 956     362\2~
-		REPLACE_TEXTUALLY ~^\(.*DSC002.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 1056    350\2~
-		REPLACE_TEXTUALLY ~^\(.*DSC004.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 975     285\2~
-		REPLACE_TEXTUALLY ~^\(.*DSC010.+[0-9]+[ 	]+[0-9]+[ 	]+\)[ 	][0-9]+[ 	]+[0-9]+\(.+$\)~ ~\1 1040    780 \2~
-		LPF fix_table END
-		LPM read_area_array_from_2da
-
-	COPY ~DSotSC/Worldmap/eet_links.tbl~ ~DSotSC/Worldmap~
-		APPEND_FILE ~DSotSC/Worldmap/%platform%/links.tbl~
-		LPF fix_table END
-		LPM read_link_array_from_2da
-
-	COPY ~DSotSC/Worldmap/eet_worldmap.tra~ ~DSotSC/Worldmap~
-		APPEND_FILE ~DSotSC/language/%LANGUAGE%/worldmap.tra~
-		LPF fix_table END
-		LPM read_trans_array_from_2da
-
-	LAM merge_in_translations
-
-	INCLUDE ~DSotSC/lib/build_worldmap.tpa~
-
+	COPY - ~DSotSC/Worldmap/%platform%/areas.tbl~ ~DSotSC/Worldmap/%platform%~
+		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([A-Z0-9#_@]+\)[ %TAB%]+\([A-Z0-9#_@]+\)~ BEGIN
+			SPRINT are_areName ~%MATCH1%~
+			PATCH_IF ~%MATCH8%~ STRING_EQUAL_CASE ~N~ BEGIN
+				SPRINT are_strName ~~
+				SPRINT are_strDesc ~~
+			END ELSE BEGIN
+				INNER_ACTION BEGIN
+					COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~DSotSC/language/%LANGUAGE%~
+						REPLACE_EVALUATE CASE_INSENSITIVE ~~~~~^\([ %TAB%]*%MATCH8%[ %TAB%]*=[ %TAB%]*[~"]\)\([^~^"]+\)\([~"]\)~~~~~ BEGIN
+							INNER_PATCH_SAVE string "%MATCH2%" BEGIN
+								REPLACE_TEXTUALLY "###" " "
+							END
+							SPRINT are_strName ~%string%~
+							SPRINT are_strDesc ~%string%~
+						END ~~
+				END
+			END
+			SET are_visible = 0
+			SET are_visibleAdjacent = 0
+			SET are_reachable = 0
+			SET are_visited = 0
+			PATCH_IF (MATCH4 BAND 1) BEGIN
+				SET are_visible = 1
+			END ELSE PATCH_IF (MATCH4 BAND 2) BEGIN
+				SET are_visibleAdjacent = 1
+			END ELSE PATCH_IF (MATCH4 BAND 3) BEGIN
+				SET are_reachable = 1
+			END ELSE PATCH_IF (MATCH4 BAND 4) BEGIN
+				SET are_visited = 1
+			END
+			INNER_ACTION BEGIN
+				LAF sc#addWmpAre
+					INT_VAR
+					mapIcon = MATCH5
+					xCoord  = MATCH6
+					yCoord  = MATCH7
+					visible = are_visible
+					visibleAdjacent = are_visibleAdjacent
+					reachable = are_reachable
+					visited = are_visited
+					STR_VAR
+					areName = EVAL "%are_areName%"
+					strName = EVAL "%are_strName%"
+					strDesc = EVAL "%are_strDesc%"
+				END
+			END
+		END ~~
+	COPY - ~DSotSC/Worldmap/%platform%/links.tbl~ ~DSotSC/Worldmap/%platform%~
+		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)~ BEGIN
+			PATCH_FOR_EACH var IN MATCH7 MATCH8 MATCH9 MATCH10 MATCH11 BEGIN
+				PATCH_IF ~%var%~ STRING_EQUAL_CASE ~N~ BEGIN
+					SPRINT EVAL ~%var%~ ~~
+				END
+			END
+			INNER_ACTION BEGIN
+				COPY_EXISTING ~worldmap.wmp~ ~override~
+					LPF ADD_WORLDMAP_LINKS
+						INT_VAR
+						distance_scale = MATCH5
+						default_entry = MATCH6
+						encounter_probability = MATCH12
+						STR_VAR
+						from_area = EVAL ~%MATCH1%~
+						from_node = EVAL ~%MATCH2%~
+						to_area = EVAL ~%MATCH3%~
+						entry = EVAL ~%MATCH4%~
+						random_area1 = EVAL ~%MATCH7%~
+						random_area2 = EVAL ~%MATCH8%~
+						random_area3 = EVAL ~%MATCH9%~
+						random_area4 = EVAL ~%MATCH10%~
+						random_area5 = EVAL ~%MATCH11%~
+					END
+				BUT_ONLY
+			END
+		END ~~
 END
 
 /////                                                  \\\\\
@@ -2054,7 +2108,7 @@ ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Nn]~ = 1) BEGIN //disable biffin
 	ACTION_BASH_FOR ~%ogg_dir%~ ~^.*$~ BEGIN
 		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
 	END
-	ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%res%~ ~portraits/%res%~ ~portraits/L~ ~wed~ BEGIN
+	ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%engine%~ ~portraits/%engine%~ ~portraits/l~ ~wed~ BEGIN
 		ACTION_BASH_FOR ~DSotSC/base/%dir%~ ~^.*$~ BEGIN
 			MOVE ~override/%BASH_FOR_FILE%~ ~DSotSC/biff~
 		END
@@ -2473,7 +2527,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~xvartpre.cre~ BEGIN
 END
 
 //update vanilla scripts
-COPY_EXISTING ~%FirewineBridge%.are~ ~override/%FirewineBridge%.are~
+COPY_EXISTING ~%FirewineBridge%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%FirewineBridge%~ #8
 BUT_ONLY
 EXTEND_TOP ~%FirewineBridge_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar3400.baf~ EVALUATE_BUFFER
@@ -2482,7 +2536,7 @@ EXTEND_BOTTOM ~%XvartVillage_Cave_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar349
 
 EXTEND_BOTTOM ~%XvartVillage_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar3498.baf~ EVALUATE_BUFFER
 
-COPY_EXISTING ~%NashkelMines_L3%.are~ ~override/%NashkelMines_L3%.are~
+COPY_EXISTING ~%NashkelMines_L3%.are~ ~override~
 	WRITE_ASCIIE AREA_SCRIPT ~%NashkelMines_L3%~ #8
 BUT_ONLY
 EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~DSotSC/modify/bcs/morestooges/ar4403.baf~ EVALUATE_BUFFER
