@@ -11,13 +11,11 @@ DSC001    S         BG3500      Exit3000    1         2          BG5601   BG5701
 DSC001    E         DSC002      EXITC001    1         2          BG6000   BG5601   BG5701   BG6001   BG5801   10
 
 DSC002    S         BG0500      Exit0400    2         1          BG6001   BG5801   BG6000   BG5601   BG5701   10
-DSC002    E         AR60PB      Exit2900    4         2          BG6001   BG5801   BG6000   BG5601   BG5701   10
 DSC002    W         DSC001      EXITC002    1         2          BG5801   BG6000   BG5601   BG5701   BG6001   10
 DSC002    N         DSC004      EXITC002    1         2          BG6001   BG5801   BG6000   BG5601   BG5701   10
 DSC002    S         DSC010      Exit5500    8         1          BG5801   BG6000   BG5601   BG5701   BG6001   10
 
 DSC004    W         BG1900      Exit2400    4         1          BG5701   BG6001   BG5801   BG6000   BG5601   10
-DSC004    E         AR60PB      EXITC004    3         2          BG5701   BG6001   BG5801   BG6000   BG5601   10
 DSC004    S         DSC002      EXITC004    1         2          BG6000   BG5601   BG5701   BG6001   BG5801   10
 
 DSC010    E         BG4500      Exit5000    2         3          BG5701   BG6001   BG5801   BG6000   BG5601   10

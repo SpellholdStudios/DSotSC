@@ -57,7 +57,7 @@ ALWAYS
 	INCLUDE ~DSotSC/lib/macros.tpa~
 
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-		COPY - ~weidu.conf~ ~weidu.conf~
+		COPY - ~weidu.conf~ ~.../weidu.conf~
 			READ_2DA_ENTRY 0 2 3 "lang_dir"
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
 			"german" => "CP1252"
@@ -136,7 +136,7 @@ FORBID_COMPONENT ~generalized_biffing.tp2~ ~0~ ~This mod should be installed BEF
 /////                                                  \\\\\
 
 ACTION_IF FILE_EXISTS ~DSotSC/wav_version.txt~ BEGIN //for easier BWS implementation
-	COPY - ~DSotSC/wav_version.txt~ ~DSotSC~
+	COPY - ~DSotSC/wav_version.txt~ ~.../DSotSC~
 		READ_ASCII 0x0 wav_version (%SOURCE_SIZE%)
 	ACTION_IF (~%wav_version%~ STRING_EQUAL_CASE ~original~) OR (~%wav_version%~ STRING_EQUAL_CASE ~revised~) BEGIN
 		OUTER_SET valid_answer = 1
@@ -2054,52 +2054,66 @@ END
 PRINT ~Updating Worldmap....~
 
 //BP-BGT Worldmap
+MKDIR ~Worldmap~
+
 ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
 	COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
 		APPEND_FILE ~DSotSC/Worldmap/areas.tbl~
+END ELSE BEGIN
+	COPY ~DSotSC/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+END
+
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_links.tbl~ BEGIN
 	COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
 		APPEND_FILE ~DSotSC/Worldmap/%platform%/links.tbl~
-	COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
-	COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
-		APPEND_FILE ~tmp_worldmap.tra~
 END ELSE BEGIN
-	MKDIR ~Worldmap~
-	COPY ~DSotSC/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
 	COPY ~DSotSC/Worldmap/%platform%/links.tbl~ ~Worldmap/map_mods_links.tbl~
+END
+
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_trans.tra~ BEGIN
+	COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
+		APPEND_FILE ~DSotSC/language/%LANGUAGE%/worldmap.tra~
+END ELSE BEGIN
 	COPY ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
-//add areas to EET Worldmap, BGT one is too small to have them, but both platforms are compatible with BP-BGT Worldmap
+//EET Worldmap, BGT one is too small to have them natively, but both platforms are compatible with BP-BGT Worldmap
 ACTION_IF (GAME_IS ~eet~) BEGIN
-	COPY - ~DSotSC/Worldmap/%platform%/areas.tbl~ ~DSotSC/Worldmap/%platform%~
+	COPY - ~DSotSC/Worldmap/%platform%/areas.tbl~ ~.../DSotSC/Worldmap/%platform%~
 		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([A-Z0-9#_@]+\)[ %TAB%]+\([A-Z0-9#_@]+\)~ BEGIN
 			SPRINT are_areName ~%MATCH1%~
-			PATCH_IF ~%MATCH8%~ STRING_EQUAL_CASE ~N~ BEGIN
-				SPRINT are_strName ~~
-				SPRINT are_strDesc ~~
-			END ELSE BEGIN
-				INNER_ACTION BEGIN
-					COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~DSotSC/language/%LANGUAGE%~
-						REPLACE_EVALUATE CASE_INSENSITIVE ~~~~~^\([ %TAB%]*%MATCH8%[ %TAB%]*=[ %TAB%]*[~"]\)\([^~^"]+\)\([~"]\)~~~~~ BEGIN
-							INNER_PATCH_SAVE string "%MATCH2%" BEGIN
-								REPLACE_TEXTUALLY "###" " "
-							END
-							SPRINT are_strName ~%string%~
-							SPRINT are_strDesc ~%string%~
-						END ~~
+			PATCH_FOR_EACH var IN MATCH8 MATCH9 BEGIN
+				SPRINT match EVAL ~%%var%%~
+				PATCH_IF ~%match%~ STRING_EQUAL_CASE ~N~ BEGIN
+					SPRINT EVAL ~%var%~ ~~
+				END ELSE BEGIN
+					INNER_ACTION BEGIN
+						COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~.../DSotSC/language/%LANGUAGE%~
+							REPLACE_EVALUATE CASE_INSENSITIVE ~~~~~^\([ %TAB%]*%match%[ %TAB%]*=[ %TAB%]*[~"]\)\([^~^"]+\)\([~"]\)~~~~~ BEGIN
+								INNER_PATCH_SAVE string "%MATCH2%" BEGIN
+									REPLACE_TEXTUALLY "###" " "
+								END
+								SPRINT EVAL ~%var%~ ~%string%~
+							END ~~
+					END
 				END
 			END
+			SPRINT are_strName ~%MATCH8%~
+			SPRINT are_strDesc ~%MATCH9%~
 			SET are_visible = 0
 			SET are_visibleAdjacent = 0
 			SET are_reachable = 0
 			SET are_visited = 0
-			PATCH_IF (MATCH4 BAND 1) BEGIN
+			PATCH_IF (MATCH4 BAND BIT0) BEGIN
 				SET are_visible = 1
-			END ELSE PATCH_IF (MATCH4 BAND 2) BEGIN
+			END
+			PATCH_IF (MATCH4 BAND BIT1) BEGIN
 				SET are_visibleAdjacent = 1
-			END ELSE PATCH_IF (MATCH4 BAND 3) BEGIN
+			END
+			PATCH_IF (MATCH4 BAND BIT2) BEGIN
 				SET are_reachable = 1
-			END ELSE PATCH_IF (MATCH4 BAND 4) BEGIN
+			END
+			PATCH_IF (MATCH4 BAND BIT3) BEGIN
 				SET are_visited = 1
 			END
 			INNER_ACTION BEGIN
@@ -2119,10 +2133,11 @@ ACTION_IF (GAME_IS ~eet~) BEGIN
 				END
 			END
 		END ~~
-	COPY - ~DSotSC/Worldmap/%platform%/links.tbl~ ~DSotSC/Worldmap/%platform%~
+	COPY - ~DSotSC/Worldmap/%platform%/links.tbl~ ~.../DSotSC/Worldmap/%platform%~
 		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)~ BEGIN
 			PATCH_FOR_EACH var IN MATCH7 MATCH8 MATCH9 MATCH10 MATCH11 BEGIN
-				PATCH_IF ~%var%~ STRING_EQUAL_CASE ~N~ BEGIN
+				SPRINT match EVAL ~%%var%%~
+				PATCH_IF ~%match%~ STRING_EQUAL_CASE ~N~ BEGIN
 					SPRINT EVAL ~%var%~ ~~
 				END
 			END

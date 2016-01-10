@@ -11,13 +11,11 @@ DSC001    S         AR9400      EXIT9100    1         2          AR4701   AR4801
 DSC001    E         DSC002      EXITC001    1         2          AR5300   AR4701   AR4801   AR5301   AR4901   10
 
 DSC002    S         ARD000      EXIT7500    2         1          AR5301   AR4901   AR5300   AR4701   AR4801   10
-DSC002    E         AR60PB      EXIT9000    4         2          AR5301   AR4901   AR5300   AR4701   AR4801   10
 DSC002    W         DSC001      EXITC002    1         2          AR4901   AR5300   AR4701   AR4801   AR5301   10
 DSC002    N         DSC004      EXITC002    1         2          AR5301   AR4901   AR5300   AR4701   AR4801   10
 DSC002    S         DSC010      EXIT4600    8         1          AR4901   AR5300   AR4701   AR4801   AR5301   10
 
 DSC004    W         AR8700      EXIT8900    4         1          AR4801   AR5301   AR4901   AR5300   AR4701   10
-DSC004    E         AR60PB      EXITC004    3         2          AR4801   AR5301   AR4901   AR5300   AR4701   10
 DSC004    S         DSC002      EXITC004    1         2          AR5300   AR4701   AR4801   AR5301   AR4901   10
 
 DSC010    E         AR3400      EXIT3900    2         3          AR4801   AR5301   AR4901   AR5300   AR4701   10
