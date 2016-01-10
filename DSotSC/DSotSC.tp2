@@ -246,7 +246,15 @@ BUT_ONLY
 //DSMADDIE CUCHOINNEACH %strref% 3
 
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
-	APPEND ~item_use.2da~
+	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+		APPEND ~item_use.2da~ 
+~DSCUARM CUCHOINNEACH 4414 3
+DSCUSHLD CUCHOINNEACH 4414 3
+DSCUSWD CUCHOINNEACH 4414 3
+DSJERNG JETLAYA 4414 3
+DSKERNG KEIRIA 4414 3~
+	END ELSE BEGIN
+		APPEND ~item_use.2da~
 ~DSCOARM CONCHOBHAIR 9382 2
 DSCOSWD CONCHOBHAIR 9382 2
 DSCUARM CUCHOINNEACH 4414 3
@@ -266,6 +274,7 @@ DSTHLEAT THORFINN 9382 2
 DSSKHELM SKEEZER 9382 2
 DSSKROBE SKEEZER 9382 2
 DSSKSTAF SKEEZER 9382 2~
+	END
 	COPY_EXISTING ~interdia.2da~ ~override~
 		PRETTY_PRINT_2DA
 	BUT_ONLY
@@ -1681,6 +1690,57 @@ COPY_EXISTING ~takiyah.cre~ ~override~
 // Soundsets
 
 INCLUDE ~DSotSC/lib/soundsets_%wav_version%.tpa~
+
+/////                                                  \\\\\
+///// item usability                                   \\\\\
+/////                                                  \\\\\
+
+ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_item_use BEGIN
+		~DSCOARM~ => ~dsconch~
+		~DSCOSWD~ => ~dsconch~
+		~DSCUARM~ => ~dscucho~
+		~DSCUSHLD~ => ~dscucho~
+		~DSCUSWD~ => ~dscucho~
+		~DSFEAXE~ => ~dsferth~
+		~DSFEARM~ => ~dsferth~
+		~DSFEHELM~ => ~dsferth~
+		~DSJEARM~ => ~dsjetla~
+		~DSJESHLD~ => ~dsjetla~
+		~DSJERNG~ => ~dsjetla~
+		~DSKEARM~ => ~dskeiri~
+		~DSKERNG~ => ~dskeiri~
+		~DSKEXBOW~ => ~dskeiri~
+		~DSTHHELM~ => ~dsthorf~
+		~DSTHLEAT~ => ~dsthorf~
+		~DSSKHELM~ => ~dsskeez~
+		~DSSKROBE~ => ~dsskeez~
+		~DSSKSTAF~ => ~dsskeez~
+	END
+	ACTION_PHP_EACH table_item_use AS item => cre BEGIN
+		COPY_EXISTING - ~%cre%.cre~ ~override~
+			READ_LONG NAME1 name
+			READ_ASCII DEATHVAR dv
+		COPY_EXISTING ~%item%.itm~ ~override~
+			WRITE_LONG 0x1e 0
+			WRITE_BYTE 0x29 0
+			WRITE_BYTE 0x2b 0
+			WRITE_BYTE 0x2d 0
+			WRITE_BYTE 0x2f 0
+			LPF ADD_ITEM_EQEFFECT
+				INT_VAR
+				opcode = 319 //Item Usability
+				target = 1
+				timing = 2
+				parameter2 = 11
+				power = 1 //Usable by
+				probability1 = 100
+				special = name
+				STR_VAR
+				resource = EVAL "%dv%"
+			END
+	END
+END
 
 /////                                                  \\\\\
 ///// install areas (ARE, WED)                         \\\\\
