@@ -5,9 +5,13 @@ Patching EET_modConverter/Input/bgt/dsc006.are: MUSIC = 17 => 121 - 0x1c10
 Patching EET_modConverter/Input/bgt/dsc006.are: MUSIC = 17 => 121 - 0x1c14
 Patching EET_modConverter/Input/bgt/dsc010.are: are = ARD000 => BG0500 - 0x8
 Patching EET_modConverter/Input/bgt/dsc010.are: door = DOORD0 => DOOR05 - 0x1b14
+Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x1b54
 Patching EET_modConverter/Input/bgt/dsc010.are: door = DOORD0 => DOOR05 - 0x1bd8
+Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x1c18
 Patching EET_modConverter/Input/bgt/dsc010.are: door = DOORD0 => DOOR05 - 0x1c9c
+Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x1cdc
 Patching EET_modConverter/Input/bgt/dsc010.are: door = DOORD0 => DOOR05 - 0x1d60
+Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x1da0
 Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXIT46 => EXIT55 - 0x2204
 Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x233c
 Patching EET_modConverter/Input/bgt/dsc010.are: exit = EXITD0 => EXIT05 - 0x23a4
