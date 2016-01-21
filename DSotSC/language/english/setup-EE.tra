@@ -149,7 +149,7 @@ Requires:
 
 Weight: 4~
 
-@1033 = ~Leather Armor +2: Bhaelros' Bane~
+@1033 = ~Bhaelros' Bane +2~
 @1034 = ~Though druidic orders were traditionally rare in the harsh climate of Calimshan, a small number could be found near the Marching Mountains. Persecuted and ridiculed by the Calishites, they often came under attack by priests of Bhaelros. To protect the members of their order, suits of armor such as these were created, allowing the druids to brush aside the lightning spells of the evil clerics. Unfortunately, they could not provide the same protection for the trees, and they fled when their home was destroyed.
 
 STATISTICS:
@@ -162,7 +162,7 @@ Armor Class: 6 (8 vs. piercing and missile)
 Requires:
  4 Strength
 
-Weight: 6~
+Weight: 6~ //%~
 
 @1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
 @1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +2 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
@@ -172,24 +172,17 @@ STATISTICS:
 Armor Class: 1 (-2 vs. slashing)
 
 Weight: 30
-Requires: 14 Strength
+Requires: 14 Strength~
 
-Only usable by:
- Ferthgil Trollslayer~
-
-@1039 = ~Conchobhair Strongblade's Blessed Plate Mail Armor~
-@1040 = ~Blessed Plate Mail Armor
-This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair finds it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
+@1039 = ~Conchobhair's Blessed Plate Mail Armor~
+@1040 = ~This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair finds it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
 
 STATISTICS:
 
 Armor Class: 2 (-1 vs. slashing)
 
 Weight: 18
-Requires: 11 Strength
-
-Only usable by:
- Conchobhair~
+Requires: 11 Strength~
 
 @1041 = ~Crystal Plate Mail~
 @1042 = ~Forged from magical crystals mined from a now abandoned Dwarven mine. The crystals have a natural resistance to fire and cold.
@@ -242,7 +235,7 @@ Requires: 8 Strength
 
 Only usable by:
  Paladin
- Cleric (Lawful Good Only)~
+ Cleric (Lawful Good Only)~ //%~
 
 @1055 = ~Chain Mail +2: 'Blessed Chain Mail'~
 @1056 = ~This +2 Chain Mail is often worn by priests who are on quests for their faiths. When worn, the priest is blessed with an aid spell.
@@ -322,7 +315,7 @@ Special: +15% Hide in Shadows
 Weight: 8
 
 Only usable by:
- CúChoinneach~
+ CúChoinneach~ //%~
 
 @1065 = ~Keiria's Bard Armor~
 @1066 = ~Keiria has maintained close ties to her elven heritage, and as a result has been able to obtain a few enchanted items from her long-lived kin. Among them is this studded leather armor, magically imbued with protective spells and in turn designed to allow the wearer more freedom when casting spells.
@@ -359,7 +352,7 @@ Requires: 6 Strength
 Special: +10% Find Traps/Pick Locks
 
 Only usable by:
- Thief~
+ Thief~ //%~
 
 @1072 = ~Skeezer Lumpkin's Mage Robe~
 @1074 = ~Colorful, bright and... colorful... Skeezer's robe could aptly be described as a riot of red, particularly when adorned with the many trinkets he holds in high regard. The gnome claims that he invented a new kind of fabric when creating it, one that protects from the withering breath of dragons, the insidious tentacles of mind flayers and the magical blasts of beholders. From what you can tell, the robe would have a difficult time stopping the dagger of a lame kobold. Nonetheless, given Skeezer's skill as a mage, you have no doubt that it carries at least some magical protection.
@@ -373,7 +366,7 @@ Special:
 Weight: 6
 
 Only usable by:
- Skeezer Lumpkin VI~
+ Skeezer Lumpkin VI~ //%~
 
 @1075 = ~Sorcerer's Robe~
 @1076 = ~This Mage Robe has been made for the more advanced mage who has ended his apprentice time and goes at it alone. Its armor class and spell bonus make him better equipped for traveling.
@@ -401,7 +394,7 @@ Weight: 6
 
 Only usable by:
  Mage (single, dual, & multi-class)
- Evil-aligned character~
+ Evil-aligned character~ //%~
 
 @1079 = ~Robe of Dh'arlo'me~
 @1080 = ~This powerful robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance. Due to the nature of its enchantment, it can only be removed by remove curse.
@@ -420,7 +413,7 @@ Special:
 Weight: 6
 
 Usable by:
- All~
+ All~ //%~
 
 @1081 = ~Drakelor's Robe~
 @1082 = ~This robe was originally a present from the famous mage Drakelor to a friend, who had to go on a long and dangerous journey. Unfortunately, the robe was stolen as the friend rested in an inn after a tiring walk. The thief, who knew well about his loot's value, but not about its origin, arranged a meeting with the most powerful mage he knew. Drakelor, however, recognized his work and immediately understood what had happened. The thief's fate does not need further description.
@@ -452,7 +445,7 @@ Special:
 Weight: 1
 
 Only usable by:
- Evil Mage (Single, Dual, and Multi-classed)~
+ Evil Mage (Single, Dual, and Multi-classed)~ //%~
 
 @1085 = ~Robe of the Abyss~
 @1086 = ~A foul artifact indeed. Woven from the fabric of the Abyss itself, these powerful robes offer protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its origin, it can only be worn by mages of evil alignment.
@@ -484,7 +477,7 @@ Weight: 6
 
 Only usable by:
  Mage (single, dual, & multi-class)
- Good-aligned character~
+ Good-aligned character~ //%~
 
 @1096 = ~Morridin's Cloak~
 @1098 = ~This cloak once belonging to the famous bard Morridin. The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements". The cloak, along with many other personal items of Morridin became a topic of discussion among many.
@@ -509,7 +502,7 @@ Special:
 Weight: 3
 
 Not Usable By:
- Wizardslayer~
+ Wizardslayer~ //%~
 
 @1101 = ~Cloak of the Woods~
 @1102 = ~Stolen from the temple of Erreth-Akbe, the cloak was recovered by Archdruid Yarrow when he sought out his revenge against those who defaced his temple. It was rumored that the cloak was given to his son Shephesh as a gift.
@@ -523,7 +516,7 @@ Special:
 Weight: 3
 
 Only usable by:
- Ranger~
+ Ranger~ //%~
 
 @1103 = ~Mystra's Cloak~
 @1104 = ~Cloak of Protection: 'Mystra's Cloak'
@@ -717,7 +710,7 @@ Special:
   30% Resistance to Fire
 
 Only usable by:
- Druid~
+ Druid~ //%~
 
 @1148 = ~Jet'laya's Ring~
 @1149 = ~This ring belonged to Jet'laya's mother. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
@@ -874,7 +867,7 @@ STATISTICS:
 Special: Gain 25% Protection from Acid
 
 Only usable by:
- Neutral Alignment~
+ Neutral Alignment~ //%~
 
 @1251 = ~Ferium's Necklace~
 @1253 = ~This necklace was given to Ferium by her chosen, Ken'lan. The inscription on the back reads "My love to thee 'til the moon doth fade."
@@ -891,7 +884,7 @@ STATISTICS:
 Special: Gain 25% Protection from Fire
 
 Only usable by:
- Evil Alignment~
+ Evil Alignment~ //%~
 
 @1259 = ~Bluestone Necklace of Dexterity~
 @1260 = ~You are a very lucky adventurer indeed. This Bluestone Necklace increases your Dexterity and gives you a +1 THAC0 bonus! Just don't let it fall into the wrong hands.....
@@ -1008,7 +1001,7 @@ Weight: 4
 
 Only usable by:
  Druid (Single Class Only)
- Ranger (Single Class Only)~
+ Ranger (Single Class Only)~ //%~
 
 @1295 = ~Boots of Valor~
 @1296 = ~Boots of Valor: 'Thunderfoot'
@@ -1108,7 +1101,7 @@ Not Usable By:
  Mage
  Thief
  Monk
- Kensai~
+ Kensai~ //%~
 
 @1315 = ~Large shield +2: 'The Wall'~
 @1317 = ~The Wall
@@ -1170,7 +1163,7 @@ Not Usable By:
  Druid
  Cleric
  Mage
- Beast Master~
+ Beast Master~ //%~
 
 @1330 = ~Scimitar +1: 'Yarrow's Tears'~
 @1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence. The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar. The tears empowered his scimitar with his grief and longing for revenge.
@@ -1190,7 +1183,7 @@ Type: 1-handed
 Requires: 8 Strength
 
 Only usable by:
- Druid~
+ Druid~ //%~
 
 @1334 = ~Dragonslayer~
 @1336 = ~Imbued with strong enchantments, this mighty blade is also shielded by a cloaking spell, preventing any attempts at discerning its true nature. Its origin and history are thus largely unknown, though it is rumored that the sword chooses its wielder, and will prevent any other from using it. Those who have attempted to forcibly control the weapon have found their wills sapped, or worse...
@@ -1233,7 +1226,7 @@ Requires: 8 Strength
 Not Usable By:
  Mage
  Cleric
- Beast Master~
+ Beast Master~ //%~
 
 @1339 = ~Thorn - Sword of the 'Champion of the Green'~
 @1340 = ~In the lost days of Netheril, the necromancer J'K'Voorkan attempted to engender a reign of undeath. Onslaught after onslaught of the walking dead threatened to engulf the Realms, until the Hierophant Druid, L'Orax, called to the gods for aid. They caused the Tree of Life to produce a single thorn, which L'Orax took. In a grueling ordeal of fasting, prayer, meditation, and spellcasting from one new moon to the next, the Great Circle produced Thorn. Thorn was presented to one of the key leaders of the forces of Light and Life - S'Mokye, called "The Bear" by his troops for his relentless resistance to the dead. He became the first Ranger, and the first Champion of the Green. Thorn is passed to each new Champion upon his ascension. Such is the power of Thorn that the very plants of the earth may be called upon for aid by the wielder.
@@ -1717,7 +1710,7 @@ Proficiency Type: Staff
 Type: 2-handed
 
 Not Usable By:
- Monk~
+ Monk~ //%~
 
 @1409 = ~Staff Of Nature~
 @1410 = ~Staff Of Nature: 'Natures Protector'
@@ -1903,7 +1896,7 @@ Requires: 3 Strength
 
 Not Usable By:
  Cleric
- Beast Master~
+ Beast Master~ //%~
 
 @1439 = ~Drow Adamantite Dagger +3~
 @1440 = ~Most drow carry daggers forged from adamantite alloy and reinforced with enchantments. Some are even coated with one of the several types of drow poisons, allowing them to be well-prepared to deal with assassins, a constant danger in drow society. Of course, the daggers are also used just as frequently by the assassins themselves...
@@ -2032,7 +2025,7 @@ Area: 1 creature
 
 Usable By:
  Bard
- Mage~
+ Mage~ //%~
 
 @1465 = ~Sapphire Wand~
 @1466 = ~Used by the Mage King Varashar while he was holding audience, or court. He used the wand as a form of punishment after he had past judgment. According to most stories he said "Your amount of guilt will determine your amount of pain."
