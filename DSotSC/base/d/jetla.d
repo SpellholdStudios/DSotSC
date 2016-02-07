@@ -41,7 +41,7 @@ IF ~~ THEN BEGIN 5
 SetGlobal("TalkedJet","GLOBAL",1)
 RevealAreaOnMap("DSC001")
 JoinParty()
-~ JOURNAL @11 EXIT
+~ UNSOLVED_JOURNAL @90800 EXIT
 END
 
 IF ~~ THEN BEGIN 6

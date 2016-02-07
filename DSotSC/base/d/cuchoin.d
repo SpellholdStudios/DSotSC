@@ -11,7 +11,7 @@ IF ~~ THEN BEGIN 1
   SAY @5
   IF ~~ THEN REPLY @6 DO ~SetGlobalTimer("CuChoin","GLOBAL",SIX_DAYS)
 RevealAreaOnMap("DSC010")
-JoinParty()~ JOURNAL @7 EXIT
+JoinParty()~ UNSOLVED_JOURNAL @90000 EXIT
   IF ~~ THEN REPLY @8 GOTO 3
 END
 
@@ -39,7 +39,7 @@ IF ~~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN REPLY @6 DO ~SetGlobalTimer("CuChoin","GLOBAL",SIX_DAYS)
 RevealAreaOnMap("DSC010")
-JoinParty()~ JOURNAL @7 EXIT
+JoinParty()~ UNSOLVED_JOURNAL @90000 EXIT
   IF ~~ THEN REPLY @8 GOTO 3
 END
 

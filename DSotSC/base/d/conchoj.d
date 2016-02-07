@@ -14,11 +14,6 @@ Global("DragonDead","GLOBAL",0)~ THEN BEGIN 2
 ~ EXIT
 END
 
-IF WEIGHT #4 ~True()~ THEN BEGIN 3
-  SAY @4
-  IF ~~ THEN EXIT
-END
-
 IF WEIGHT #2 ~GlobalTimerExpired("Conchob1","GLOBAL")
 !Dead("Salandiaxarxes")
 ~ THEN BEGIN 4

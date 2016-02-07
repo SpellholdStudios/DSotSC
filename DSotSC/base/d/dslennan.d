@@ -8,21 +8,23 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~EraseJournalEntry(@90800)
+AddexperienceParty(1000)
 ReputationInc(1)
 TakePartyItem("DSAMUL02")
 GiveItem("DSMISC02",LastTalkedToBy(Myself))
 EscapeArea()
-~ JOURNAL @5 EXIT
+~ SOLVED_JOURNAL @90400 EXIT
 END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~~ THEN DO ~AddexperienceParty(800)
+  IF ~~ THEN DO ~EraseJournalEntry(@90800)
+AddexperienceParty(800)
 TakePartyItem("DSAMUL02")
 GiveItem("DSMISC02",LastTalkedToBy(Myself))
 EscapeArea()
-~ JOURNAL @7 EXIT
+~ SOLVED_JOURNAL @90401 EXIT
 END
 
 IF ~True()~ THEN BEGIN 3

@@ -33,7 +33,7 @@ IF ~~ THEN BEGIN 4
   SAY @16
   IF ~~ THEN DO ~SetGlobal("TalkedJeremy","GLOBAL",1)
 EscapeArea()
-~ JOURNAL @17 EXIT
+~ UNSOLVED_JOURNAL @90300 EXIT
 END
 
 IF ~~ THEN BEGIN 5
@@ -54,14 +54,14 @@ Global("JeremyPay","GLOBAL",0)
   SAY @22
   IF ~~ THEN DO ~ReputationInc(2)
 EscapeArea()
-~ JOURNAL @23 EXIT
+~ UNSOLVED_JOURNAL @90301 EXIT
 END
 
 IF ~~ THEN BEGIN 8
   SAY @24
   IF ~~ THEN DO ~SetGlobal("TalkedJeremy","GLOBAL",1)
 EscapeArea()
-~ JOURNAL @17 EXIT
+~ UNSOLVED_JOURNAL @90300 EXIT
 END
 
 IF ~~ THEN BEGIN 9
@@ -74,14 +74,24 @@ IF ~~ THEN BEGIN 10
   SAY @26
   IF ~~ THEN DO ~SetGlobal("JeremyPay","GLOBAL",1)
 SetGlobal("TalkedJeremy","GLOBAL",1)
-~ JOURNAL @17 EXIT
+~ UNSOLVED_JOURNAL @90300 EXIT
 END
 
 IF ~Global("DragonDead","GLOBAL",1)
 Global("JeremyPay","GLOBAL",1)
+Global("RelicReturned","GLOBAL",0)
 ~ THEN BEGIN 11
   SAY @22
   IF ~~ THEN DO ~GivePartyGold(5000)
 EscapeArea()
-~ JOURNAL @23 EXIT
+~ UNSOLVED_JOURNAL @90301 EXIT
+END
+
+IF ~Global("DragonDead","GLOBAL",1)
+Global("JeremyPay","GLOBAL",1)
+~ THEN BEGIN 12
+  SAY @22
+  IF ~~ THEN DO ~GivePartyGold(5000)
+EscapeArea()
+~ JOURNAL @90301 EXIT
 END

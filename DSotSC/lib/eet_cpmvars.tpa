@@ -1,9 +1,8 @@
 /* Declaration of EET Platform Variables */
 ACTION_IF GAME_IS "eet" BEGIN
 	/* tp2, d, and baf parsing variables */
-	OUTER_SPRINT "tutorbgt" ""
-	OUTER_SPRINT "tutubgtbgee" ""
-	OUTER_SPRINT "tutubgteetbgee" "eet"
+	OUTER_SPRINT "tutorbgt" "eet"
+	OUTER_SPRINT "tutubgtbgee" "eet"
 	OUTER_SPRINT "bgdreams" "BG1DREAM"
 	OUTER_SPRINT "bgdream1" "2"
 	OUTER_SPRINT "bgdream2" "3"
@@ -50,11 +49,11 @@ ACTION_IF GAME_IS "eet" BEGIN
 
 	/* EET Worldmap*/
 	OUTER_SET wmp_xCoord_BG1 = 373 //in relation to BG1/Tutu WORLDMAP.WMP add 373 px correction to X coordinate
-	OUTER_SET wmp_yCoord_BG1 = 0
-	OUTER_SET wmp_xCoord_SoA = 0
-	OUTER_SET wmp_yCoord_SoA = 953 //in relation to BG2/BG2:EE WORLDMAP.WMP add 953 px correction to X coordinate
+	OUTER_SET wmp_yCoord_BG1 = 1330 //in relation to BG1/Tutu WORLDMAP.WMP add 1330 px correction to Y coordinate
+	OUTER_SET wmp_xCoord_SoA = 0 //in relation to BG2/BG2:EE WORLDMAP.WMP add 0 px correction to X coordinate
+	OUTER_SET wmp_yCoord_SoA = 2283 //in relation to BG2/BG2:EE WORLDMAP.WMP add 2283 px correction to Y coordinate
 	OUTER_SET wmp_xCoord_ToB = 893 //in relation to BG2/BG2:EE WORLDM25.WMP add 893 px correction to X coordinate
-	OUTER_SET wmp_yCoord_ToB = 1681 //in relation to BG2/BG2:EE WORLDM25.WMP add 1681 px correction to Y coordinate
+	OUTER_SET wmp_yCoord_ToB = 3011 //in relation to BG2/BG2:EE WORLDM25.WMP add 3011 px correction to Y coordinate
 	OUTER_SET wmp_mapIcon_BG1 = 29 //in relation to BG1/Tutu MAPICONS.BAM add 29 cycles correction to map icon
 	OUTER_SET wmp_mapIcon_ToB = 85 //in relation to BG2 25MAPIC.BAM add 85 cycles correction to map icon
 	OUTER_SPRINT wmp_worldmap_ToB "worldmap" //when editing ToB worldmap use WORLDMAP.WMP instead of WORLDM25.WMP
@@ -152,13 +151,6 @@ ACTION_IF GAME_IS "eet" BEGIN
 	OUTER_SET BGTDYNAHJState0 = 0
 	OUTER_SET BGTDYNAHPState0 = 0
 
-	/* EET FluidStates */
-	ACTION_IF FILE_EXISTS ~EET/FluidStates.tpa~ THEN BEGIN
-		INCLUDE ~EET/FluidStates.tpa~
-	END ELSE BEGIN //there is no point in installing the mod that needs these variables if this file has not been generated or has been deleted
-		FAIL ~EET/FluidStates.tpa has not been detected~
-	END
-
 	/* Post Dialogue Files */
 	OUTER_SPRINT "AJANTIS_POST" "AJANTP"
 	OUTER_SPRINT "ALORA_POST" "ALORAP"
@@ -197,26 +189,31 @@ ACTION_IF GAME_IS "eet" BEGIN
 	OUTER_SPRINT "BRANWEN_BANTER" "BBRANW"
 	OUTER_SPRINT "CORAN_BANTER" "BCORAN"
 	OUTER_SPRINT "DYNAHEIR_BANTER" "BDYNAH"
-	OUTER_SPRINT "EDWIN_BANTER" "BEDWIN"
+	OUTER_SPRINT "EDWIN_BANTER" "BEDWIN_"
 	OUTER_SPRINT "ELDOTH_BANTER" "BELDOT"
 	OUTER_SPRINT "FALDORN_BANTER" "BFALDO"
 	OUTER_SPRINT "GARRICK_BANTER" "BGARRI"
-	OUTER_SPRINT "IMOEN_BANTER" "BIMOEN2"
-	OUTER_SPRINT "JAHEIRA_BANTER" "BJAHEIR"
+	OUTER_SPRINT "IMOEN_BANTER" "BIMOEN"
+	OUTER_SPRINT "JAHEIRA_BANTER" "BJAHEI"
 	OUTER_SPRINT "KAGAIN_BANTER" "BKAGAI"
 	OUTER_SPRINT "KHALID_BANTER" "BKHALI"
 	OUTER_SPRINT "KIVAN_BANTER" "BKIVAN"
-	OUTER_SPRINT "MINSC_BANTER" "BMINSC"
+	OUTER_SPRINT "MINSC_BANTER" "BMINSC_"
 	OUTER_SPRINT "MONTARON_BANTER" "BMONTA"
 	OUTER_SPRINT "QUAYLE_BANTER" "BQUAYL"
 	OUTER_SPRINT "SAFANA_BANTER" "BSAFAN"
 	OUTER_SPRINT "SHARTEEL_BANTER" "BSHART"
 	OUTER_SPRINT "SKIE_BANTER" "BSKIE"
 	OUTER_SPRINT "TIAX_BANTER" "BTIAX"
-	OUTER_SPRINT "VICONIA_BANTER" "BVICONI"
+	OUTER_SPRINT "VICONIA_BANTER" "BVICON"
 	OUTER_SPRINT "XAN_BANTER" "BXANNN"
 	OUTER_SPRINT "XZAR_BANTER" "BXZAR"
 	OUTER_SPRINT "YESLICK_BANTER" "BYESLI"
+
+	/* BG:EE Banter Files */
+	OUTER_SPRINT "DORN_BANTER" "BDORN_"
+	OUTER_SPRINT "NEERA_BANTER" "BNEERA_"
+	OUTER_SPRINT "RASAAD_BANTER" "BRASAAD_"
 
 	/* Joined Dialogue Files */
 	OUTER_SPRINT "AJANTIS_JOINED" "AJANTJ"

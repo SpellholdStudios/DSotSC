@@ -3,7 +3,6 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 	/* tp2, d, and baf parsing variables */
 	OUTER_SPRINT "tutorbgt" "bgt"
 	OUTER_SPRINT "tutubgtbgee" "bgt"
-	OUTER_SPRINT "tutubgteetbgee" "bgt"
 	OUTER_SPRINT "bgdreams" "BG1Dream"
 	OUTER_SPRINT "bgdream1" "1"
 	OUTER_SPRINT "bgdream2" "2"
@@ -194,6 +193,11 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 	OUTER_SPRINT "XAN_BANTER" "BXANNN"
 	OUTER_SPRINT "XZAR_BANTER" "BXZAR"
 	OUTER_SPRINT "YESLICK_BANTER" "BYESLI"
+
+	/* BG:EE Banter Files */
+	OUTER_SPRINT "DORN_BANTER" "BDORN"
+	OUTER_SPRINT "NEERA_BANTER" "BNEERA"
+	OUTER_SPRINT "RASAAD_BANTER" "BRASAAD"
 
 	/* Joined Dialogue Files */
 	OUTER_SPRINT "AJANTIS_JOINED" "AJANTJ"

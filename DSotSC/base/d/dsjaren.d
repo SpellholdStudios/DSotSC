@@ -32,7 +32,7 @@ END
 IF ~~ THEN BEGIN 4
   SAY @14
   IF ~~ THEN DO ~SetGlobal("FindRelic","GLOBAL",1)
-~ JOURNAL @15 EXIT
+~ UNSOLVED_JOURNAL @90200 EXIT
 END
 
 IF ~~ THEN BEGIN 5
@@ -52,12 +52,16 @@ IF ~PartyHasItem("DSMISC10")
 AreaCheck("%Beregost_BurningWizard_L1%")
 ~ THEN BEGIN 7
   SAY @20
-  IF ~~ THEN DO ~AddexperienceParty(1300)
+  IF ~~ THEN DO ~EraseJournalEntry(@90200)
+EraseJournalEntry(@90300)
+EraseJournalEntry(@90301)
+EraseJournalEntry(@90500)
+AddexperienceParty(1300)
 ReputationInc(1)
 TakePartyItem("DSMISC10")
 SetGlobal("RelicReturned","GLOBAL",1)
 EscapeArea()
-~ JOURNAL @21 EXIT
+~ SOLVED_JOURNAL @90201 EXIT
 END
 
 IF ~PartyHasItem("DSMACE02")
@@ -75,7 +79,7 @@ SmallWait(5)
 ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
 Wait(2)
 GiveItemCreate("DSMACE03",LastTalkedToBy(Myself),1,1,0)
-~ JOURNAL @26 EXIT
+~ JOURNAL @90202 EXIT
 END
 
 IF ~!PartyHasItem("DSMACE02")

@@ -15,8 +15,3 @@ IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN EXIT
 END
-
-IF ~True()~ THEN BEGIN 3
-  SAY @6
-  IF ~~ THEN EXIT
-END

@@ -15,7 +15,7 @@ SmallWait(5)
 ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
 SmallWait(5)
 GiveItemCreate("DSMACE02",LastTalkedToBy(),1,1,0)
-EscapeArea()~ JOURNAL @5 EXIT
+EscapeArea()~ JOURNAL @91000 EXIT
 END
 
 IF ~~ THEN BEGIN EL8
@@ -25,7 +25,7 @@ SmallWait(5)
 ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
 SmallWait(5)
 GiveItemCreate("DSMACE02",LastTalkedToBy(),1,1,0)
-EscapeArea()~ JOURNAL @7 EXIT
+EscapeArea()~ JOURNAL @91001 EXIT
 END
 
 END

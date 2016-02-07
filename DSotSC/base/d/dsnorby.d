@@ -2,5 +2,5 @@ BEGIN ~DSNORBY~
 
 IF ~True()~ THEN BEGIN 0
   SAY @1
-  IF ~~ THEN DO ~EscapeArea()~ JOURNAL @2 EXIT
+  IF ~~ THEN DO ~EscapeArea()~ UNSOLVED_JOURNAL @90500 EXIT
 END

@@ -9,7 +9,7 @@
 STATISTICS:
 
 Equipped abilities:
-– Protects against critical hits
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -18,12 +18,12 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Grants 1 druid spell for level 1 and 2
-– Charm animal once per day (Save vs. Wands negates)
+â€“ Grants 1 druid spell for level 1 and 2
+â€“ Charm animal once per day (Save vs. Wands negates)
   Range: 40 ft
   Area of Effect: 1 animal
   Duration: 10 turns
-– Protection against critical hits
+â€“ Protection against critical hits
 
 Weight: 2~
 
@@ -33,10 +33,10 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
-– Immunity to charm and fear
-– Protects against critical hits
+â€“ Armor Class: +1
+â€“ Saving Throws: +1
+â€“ Immunity to charm and fear
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -53,7 +53,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Immunity to fear
+â€“ Immunity to fear
 
 Weight: 2~
 
@@ -70,9 +70,9 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Saving Throws: +1
-– Immunity to charm
-– Protects against critical hits
+â€“ Saving Throws: +1
+â€“ Immunity to charm
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -82,8 +82,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Protects against all forms of charms, panic and holds
-– Protects against critical hits
+â€“ Protects against all forms of charms, panic and holds
+â€“ Protects against critical hits
 
 Weight: 4~
 
@@ -93,10 +93,10 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-– Armor Class: +1
-– Fire Resistance: +10%
-– Cold Resistance: +10%
-– Protects against critical hits
+â€“ Armor Class: +1
+â€“ Fire Resistance: +10%
+â€“ Cold Resistance: +10%
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -108,8 +108,8 @@ Though Skeezer claims the helm is blessed with all the powers of Clangeddin hims
 STATISTICS:
 
 Equipped abilities:
-– Protects against all forms of panic and boosts morale
-– Protects against critical hits
+â€“ Protects against all forms of panic and boosts morale
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -119,8 +119,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Protects against mental attacks (except hold)
-– Protects against critical hits
+â€“ Protects against mental attacks (except hold)
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -130,8 +130,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Protects against all forms of panic and fear
-– Protects against critical hits
+â€“ Protects against all forms of panic and fear
+â€“ Protects against critical hits
 
 Weight: 2~
 
@@ -141,7 +141,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– Saving Throws: +1
+â€“ Saving Throws: +1
 
 Armor Class: 5 (4 vs. missile, 7 vs. slashing)
 Requires:
@@ -155,8 +155,8 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-– Saving Throws: +1
-– Electricity Resistance: +25%
+â€“ Saving Throws: +1
+â€“ Electricity Resistance: +25%
 
 Armor Class: 6 (8 vs. piercing and missile)
 Requires:
@@ -304,8 +304,8 @@ Not Usable By
  Beast Master
  Shapeshifter~
 
-@1063 = ~CúChoinneach's Personal Studded Leather Armor +2~
-@1064 = ~CúChoinneach constructed this armor for himself during his days as a ranger.
+@1063 = ~CÃºChoinneach's Personal Studded Leather Armor +2~
+@1064 = ~CÃºChoinneach constructed this armor for himself during his days as a ranger.
 
 STATISTICS:
 
@@ -315,7 +315,7 @@ Special: +15% Hide in Shadows
 Weight: 8
 
 Only usable by:
- CúChoinneach~ //%~
+ CÃºChoinneach~ //%~
 
 @1065 = ~Keiria's Bard Armor~
 @1066 = ~Keiria has maintained close ties to her elven heritage, and as a result has been able to obtain a few enchanted items from her long-lived kin. Among them is this studded leather armor, magically imbued with protective spells and in turn designed to allow the wearer more freedom when casting spells.
@@ -668,8 +668,8 @@ Special: Gives the wearer complete protection from non-magic missile weapons.
 Not Usable By:
  Wizardslayer~
 
-@1140 = ~Traveler’s Ring~
-@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Traveler’s ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
+@1140 = ~Travelerâ€™s Ring~
+@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Travelerâ€™s ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
 
 STATISTICS:
 
@@ -742,7 +742,7 @@ Clairis~
 You acted bravely and honorably. With your help we stopped Daerthmac from spreading terror any further. But I must now depart, for my mission is not yet ended. Other evils still threaten the Sword Coast and beyond, and I fear that we may not have heard the last of the vampire or his ilk. However, if I were to ever adventure with a group again, I would hope that they are as brave and honorable as you.
 
 Fare thee well,
-CúChoinneach agus Madadh n'Sgail~
+CÃºChoinneach agus Madadh n'Sgail~
 @1155 = ~Letter to Thomic~
 @1156 = ~Thomic,
 
@@ -825,23 +825,23 @@ Usable by:
 @1242 = ~History of the Dark Side~
 @1243 = ~History of the Dark Side
 
-A long time ago a wise mage by the name Roach happened upon the young elf CúChoinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, CúChoinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, CúChoinneach paid them no mind and continued the search.
+A long time ago a wise mage by the name Roach happened upon the young elf CÃºChoinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, CÃºChoinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, CÃºChoinneach paid them no mind and continued the search.
 
-During his journey, CúChoinneach met a range of unique individuals that, in thier own way, had contributed to Roach and CúChoinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
+During his journey, CÃºChoinneach met a range of unique individuals that, in thier own way, had contributed to Roach and CÃºChoinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
 
-One of these individuals went simply by the name of Banelord. He was able to show CúChoinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
+One of these individuals went simply by the name of Banelord. He was able to show CÃºChoinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
 
 The list continues to grow as the journey continues...
 
 Credits:
 Original Concept by Roach
-Story Development by CúChoinneach and Roach
-Areas and Creatures Designed and Hexed by CúChoinneach
+Story Development by CÃºChoinneach and Roach
+Areas and Creatures Designed and Hexed by CÃºChoinneach
 Darkside Logo created WoRm
-Items created by a large number of hexers that is too numerous to list here....(Also, CúChoinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
+Items created by a large number of hexers that is too numerous to list here....(Also, CÃºChoinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
 Sounds for Jet'Laya, Keiria Silverstring and Conchobhair Strongblade, edited by Grog
 NPC Jet'Laya was created by Grog
-All other NPC's were created by CúChoinneach
+All other NPC's were created by CÃºChoinneach
 Voice and Bio for Ferthgil Trollslayer provided by Gothmog of the Stonehearth Clan.
 Original Iconsfor some of the items were created by WoRm Website and Publicity by Ken Baker.
 
@@ -853,14 +853,14 @@ Special thanks to Black Isle Studios, Bioware Corp., Interplay Productions, and 
 
 My last thank you goes to you! The adventurer that who is reading this and was able to find it stashed in a bookcase somewhere in the Dark Side of the Sword Coast. Now get out there and bust some heads ye "Greedy Goblins!"
 
-CúChoinneach~
+CÃºChoinneach~
 
 @1244 = ~Holy Water~
 @1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.~
 
 @1247 = ~Heart of the Woods~
 
-@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid’s temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
+@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druidâ€™s temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
 
 STATISTICS:
 
@@ -1005,7 +1005,7 @@ Only usable by:
 
 @1295 = ~Boots of Valor~
 @1296 = ~Boots of Valor: 'Thunderfoot'
-The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearer’s feet firmly on the ground giving them the ability to withstand the blow.
+The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearerâ€™s feet firmly on the ground giving them the ability to withstand the blow.
 
 STATISTICS:
 
@@ -1019,8 +1019,8 @@ Not Usable By:
  Thief
  Wizardslayer~
 
-@1302 = ~CúChoinneach's Small Shield +1: 'The Moon'~
-@1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
+@1302 = ~CÃºChoinneach's Small Shield +1: 'The Moon'~
+@1304 = ~CÃºChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
@@ -1030,7 +1030,7 @@ Special: No Missile Weapon Protection
 Weight: 3
 
 Only usable by:
- CúChoinneach~
+ CÃºChoinneach~
 
 @1305 = ~Jet'laya's Small Shield~
 @1306 = ~This is the personal shield of Jet'laya. The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water. Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
@@ -1394,7 +1394,7 @@ Usable By:
  Paladin~
 
 @1363 = ~Mairial +2: 'The Death Hunter'~
-@1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
+@1364 = ~This is the personal scimitar of CÃºChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CÃºChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CÃºChoinneach. Its complete powers are unknown.
 
 STATISTICS:
 
@@ -1409,7 +1409,7 @@ Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: 1-handed
 
 Only usable by:
- CúChoinneach~
+ CÃºChoinneach~
 
 @1366 = ~Nemmerle's Revenge~
 @1368 = ~In a classic battle of good vs. evil the Archmage Nemmerle saw his defeat was inevitable and summoned what was left of his dark magic to enchant his staff and teleported it to his fledgling apprentice. Only in the end did he realize what was needed to win the day, and lacking the strength to accomplish it himself, he saw to it that even in defeat he might grasp some small victory. Gensher had enchanted his robes to withstand any crushing blows, evenly matched in magic he knew the battle would end in close combat and had outwitted the evil sage. The staff gives off a very faint aura of alteration magic. Upon identification of the command word, the staff takes on the attributes of a halberd, which allows it to do slashing damage.
@@ -1430,7 +1430,7 @@ Not Usable By:
  Good or Neutral Alignment~
 
 @1370 = ~Chaos Flail~
-@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent’s life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon!
+@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponentâ€™s life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon!
 
 STATISTICS:
 
@@ -1477,7 +1477,7 @@ Usable By:
  Lawful Good Cleric~
 
 @1376 = ~Ferthgil Trollslayer's Battle Axe~
-@1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his father’s honor onto the battlefield.
+@1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his fatherâ€™s honor onto the battlefield.
 
 STATISTICS:
 
@@ -1696,7 +1696,7 @@ Only usable by:
  Druids~
 
 @1407 = ~Quarter Staff +1: 'Bonebreaker'~
-@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master’s gift. It has not been seen since.
+@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former masterâ€™s gift. It has not been seen since.
 
 STATISTICS:
 

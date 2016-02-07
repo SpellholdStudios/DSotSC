@@ -5,7 +5,7 @@
 @1 = ~Wilk Cienia~
 @2 = ~Uczeñ Œwiat³oœci~
 @3 = ~Zadawanie Lekkich Ran~
-@4 = ~Zadawnaie Lekkich Ran (Nekromancja)
+@4 = ~Zadawanie Lekkich Ran (Nekromancja)
 Poziom: 1
 Sfera: Leczenie
 Zasiêg: Dotyk
@@ -47,7 +47,7 @@ Czas Rzucania: 5
 Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: Brak
 
-Rzucaj¹c ten czar z rêkami na stworzeniu, kap³an leczy 12 punktów ¿ycia wybranemu stworzeniu. To zaklêcie nie odniesie efektu na nieumar³ych lub stworzeia z innych sfer.~
+Rzucaj¹c ten czar z rêkami na stworzeniu, kap³an leczy 12 punktów ¿ycia wybranemu stworzeniu. To zaklêcie nie odniesie efektu na nieumar³ych lub stworzenia z innych sfer.~
 @12 = ~Iskry~
 @13 = ~Iskry (Inwokacje)
 Poziom: 2
@@ -58,7 +58,7 @@ Czas Rzucania: 5
 Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: 1/2
 
-Druid przyzywa elektrycznoœæ i ciska ni¹ w cel wyrz¹dzaj¹æ 4k6 obra¿eñ od elektrycznoœci. Udany rzut obronny przciw magii dla po³owy .~
+Druid przyzywa elektrycznoœæ i ciska ni¹ w cel wyrz¹dzaj¹c 4k6 obra¿eñ od elektrycznoœci. Udany rzut obronny przeciw magii dla po³owy .~
 @14 = ~Znak Ochronny~
 @15 = ~Znak Ochronny (Inwokacje)
 Poziom: 2
@@ -102,7 +102,7 @@ Czas Rzucania: 4
 Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: 1/2
 
-Druid przyzywa trucizny z obszaru na którym siê znajduje i rozpyla je na cel zadaj¹c 4 punkty obra¿eñ przez runde do w sumie 32, jeœli ofiara wykona rzut obronny przeciw œmierci, odniesie po³owê obra¿eñ.~
+Druid przyzywa trucizny z obszaru na którym siê znajduje i rozpyla je na cel zadaj¹c 4 punkty obra¿eñ przez rundê do w sumie 32, jeœli ofiara wykona rzut obronny przeciw œmierci, odniesie po³owê obra¿eñ.~
 @24 = ~Ostrze Mielikki~
 @25 = ~Ostrze Mielikki (Inwokacje)
 Poziom: 4
@@ -113,7 +113,7 @@ Czas Rzucania: 4
 Zasiêg Dzia³ania: 3 m d³ugie ostrze
 Rzut Obronny: Brak
 
-Czar przyzywa magiczne ostrze, symbol bogini Mielikki - ogromny Sejmtar p³on¹cy zimnym niebieskim ogniem. Ostrze jest u¿ywane jak magiczna bron +4 zadaj¹ca 1-8 punktów obra¿eñ, i ka¿de stworzenie trafine musi wykonaæ rzut obronny albo ucierpi kolejne 1-6 obra¿eñ od zimna.Ostrze Mielikki daje tak¿e druidowi odpornoœæ na ogieñ na czas trwania zaklêcia.~
+Czar przyzywa magiczne ostrze, symbol bogini Mielikki - ogromny Sejmtar p³on¹cy zimnym niebieskim ogniem. Ostrze jest u¿ywane jak magiczna bron +4 zadaj¹ca 1-8 punktów obra¿eñ, i ka¿de stworzenie trafione musi wykonaæ rzut obronny albo ucierpi kolejne 1-6 obra¿eñ od zimna.Ostrze Mielikki daje tak¿e druidowi odpornoœæ na ogieñ na czas trwania zaklêcia.~
 @26 = ~Ostrza~
 @27 = ~Ostrza (Przemiana)
 Poziom: 5
@@ -124,7 +124,7 @@ Czas Rzucania: 6
 Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: 1/2
 
-Druid przyzywa rój ma³ych ostrzy któe s¹ wystrzelone w kierunku wybranego stworzenia tn¹c je za 4k8 obra¿eñ, Obra¿enia s¹ zmniejszone o po³owe przy udanym rzucie obronnym..~
+Druid przyzywa rój ma³ych ostrzy które s¹ wystrzelone w kierunku wybranego stworzenia tn¹c je za 4k8 obra¿eñ, Obra¿enia s¹ zmniejszone o po³owê przy udanym rzucie obronnym.~
 @28 = ~B³ogos³awieñstwo Selune (Odrzucenie)
 Poziom: 5
 Sfera: Ochrona
@@ -134,7 +134,7 @@ Czas Rzucania: 7
 Zasiêg Dzia³ania: Sfera o Promieniu 5m
 Rzut Obronny: Brak
 
-Czar wzywa potêgê bogini Selune aby chroni³a kap³ana przed fizyczn¹ i magiczn¹ szkod¹. Rzucaj¹cy jest otoczony przez lœni¹ce pole które poprawia jej lub jego pancerz o 4 pe³ne klasy i zapobiega efektom czarów z poziomów 1-4. Tak jak czar maga Klosz Niewra¿liwoœæi, czary wci¹¿ mog¹ byæ rzucane bez ujemnych modyfikatorów.~
+Czar wzywa potêgê bogini Selune aby chroni³a kap³ana przed fizyczn¹ i magiczn¹ szkod¹. Rzucaj¹cy jest otoczony przez lœni¹ce pole które poprawia jej lub jego pancerz o 4 pe³ne klasy i zapobiega efektom czarów z poziomów 1-4. Tak jak czar maga Klosz Niewra¿liwoœci, czary wci¹¿ mog¹ byæ rzucane bez ujemnych modyfikatorów.~
 @29 = ~Sprowadzenie nieumar³ych~
 @30 = ~Sprowadzenie nieumar³ych(Nekromancja)
 Poziom: 5
@@ -145,7 +145,7 @@ Czas Rzucania: 5
 Zasiêg Dzia³ania: Specjalny
 Rzut Obronny: Brak
 
-Przy rzucaniu tego czaru 3 do 6 ghouli i 0 do 2 ghastów powstanie spod ziemii aby s³u¿yæ rzucaj¹cemu. Stworzenia potrafi¹ zrozumieæ proste rozkazy i pozostan¹ przez 5 tur chyba ¿e zostan¹ zniszczone lub odes³ane.~
+Przy rzucaniu tego czaru 3 do 6 ghouli i 0 do 2 ghastów powstanie spod ziemi aby s³u¿yæ rzucaj¹cemu. Stworzenia potrafi¹ zrozumieæ proste rozkazy i pozostan¹ przez 5 tur chyba ¿e zostan¹ zniszczone lub odes³ane.~
 @31 = ~Transport przez Roœliny~
 @32 = ~Transport przez Roœliny (Przemiana)
 Poziom: 5
@@ -156,7 +156,7 @@ Czas Rzucania: 1
 Zasiêg Dzia³ania:Tylko Rzucaj¹cy
 Rzut Obronny: Brak
 
-Poprzez ten czar rzucaj¹cy mo¿e przenieœæ siê z dowolnego miejsca gdzie s¹ roœliny, i natychmiast pojawiæ sie w innym znajduj¹cym siê w zasiêgu wzroku.~
+Poprzez ten czar rzucaj¹cy mo¿e przenieœæ siê z dowolnego miejsca gdzie s¹ roœliny, i natychmiast pojawiæ siê w innym znajduj¹cym siê w zasiêgu wzroku.~
 @37 = ~Dusz¹ce Winoroœle~
 @38 = ~Dusz¹ce Winoroœle (Przemiana)
 Poziom: 6
@@ -167,7 +167,7 @@ Czas Rzucania: 7
 Zasiêg Dzia³ania: 20 metrów kwadratowych
 Rzut Obronny: Specjalny
 
-Druid przyzywa moce ziemi aby stworzyæ winoroœle które chwytaj¹ wszystkie stworzenia w wybranym obszarze miarzd¿¹c je przez 3 rundy. Ka¿de stworzenie z³apane przez winoroœl zostanie spowolnione i otrzyma 4k5 obra¿eñ kiedy winoroœl atakuje oraz musi wykonaæ rzut obronny z modyfikatorem -2 albo otzyma takie same obra¿enia w nastêpnej rundzie.~
+Druid przyzywa moce ziemi aby stworzyæ winoroœle które chwytaj¹ wszystkie stworzenia w wybranym obszarze mia¿d¿¹c je przez 3 rundy. Ka¿de stworzenie z³apane przez winoroœl zostanie spowolnione i otrzyma 4k5 obra¿eñ kiedy winoroœl atakuje oraz musi wykonaæ rzut obronny z modyfikatorem -2 albo otrzyma takie same obra¿enia w nastêpnej rundzie.~
 @39 = ~Kradzie¿ ¯ycia~
 @40 = ~Kradzie¿ ¯ycia (Nekromancja)
 Poziom: 6
@@ -222,7 +222,7 @@ Czas Rzucania: 5
 Zasiêg Dzia³ania: Specjalny
 Rzut Obronny: 1/2
 
-Czar ten jest podobobny do zaklêcia maga - B³yskawica - ka¿da trafiona ofiara otrzyma 12k4 obra¿eñ od elektrycznoœci, a rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê.~
+Czar ten jest podobny do zaklêcia maga - B³yskawica - ka¿da trafiona ofiara otrzyma 12k4 obra¿eñ od elektrycznoœci, a rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê.~
 @52 = ~Dym~
 @53 = ~Dym (Przemiana)
 Poziom: 1
@@ -272,7 +272,7 @@ Czas Rzucania: 3
 Zasiêg Dzia³ania: 1 stworzenie
 Rzut Obronny: Specjalny
 
-Na skutek tego czaru z r¹k rzucaj¹cego wystrzela strumie³ przera¿liwego zimna o d³ugoœci do 20 metrów, który zadaje 5k6 pkt. obra¿eñ i o ile nie uda siê rzut obronny zostaje sparali¿owana. Odpornoœæ na zimno lub magiê mog¹ zatrzymaæ dzia³anie czaru~
+Na skutek tego czaru z r¹k rzucaj¹cego wystrzela strumieñ przeraŸliwego zimna o d³ugoœci do 20 metrów, który zadaje 5k6 pkt. obra¿eñ i o ile nie uda siê rzut obronny zostaje sparali¿owana. Odpornoœæ na zimno lub magiê mog¹ zatrzymaæ dzia³anie czaru~
 @62 = ~Army of One~
 @63 = ~Army of One (Iluzja/Urojenia)
 Poziom: 3
@@ -314,7 +314,7 @@ Czas Rzucania: 2
 Zasiêg Dzia³ania: Tylko Rzucaj¹cy
 Rzut Obronny: Brak
 
-To zaklêcie powo³uje migacz¹ca barierê wokó³ rzucaj¹cego, która porusza siê wraz z nim i czyni go ca³kowicie niewra¿liwym na wszelkie zaklêcia. Ochrona dotyczy równie¿ wszelkich zioniêæ oraz broni o podobnym dzia³aniu. Rozproszenie magii nie usuwa bariery.~
+To zaklêcie powo³uje migocz¹c¹ barierê wokó³ rzucaj¹cego, która porusza siê wraz z nim i czyni go ca³kowicie niewra¿liwym na wszelkie zaklêcia. Ochrona dotyczy równie¿ wszelkich zioniêæ oraz broni o podobnym dzia³aniu. Rozproszenie magii nie usuwa bariery.~
 
 @79 = ~Grupowe Zauroczenie~
 @80 = ~Grupowe Zauroczenie (Urok/Urzeczenie)
@@ -376,7 +376,7 @@ To zaklêcie wyjaœnia 120-letni okres rz¹dów króla Varashara.~
 STATYSTKI:
 
 Klasa Pancerza: Brak
-Specjalny: Chroni przed trafieniami krytycznymi
+Specjalne: Chroni przed trafieniami krytycznymi
 Waga: 2
 
 Nie mo¿e u¿ywaæ:
@@ -387,7 +387,7 @@ Nie mo¿e u¿ywaæ:
 
 STATYSTKI:
 
-Specjalny:
+Specjalne:
   Ochrona przed obra¿eniami krytycznymi.
   Dodatkowy czar z poziomów 1-3
   Zauroczenie zwierzêcia przy nieudanym rzucie przeciw ró¿d¿kom
@@ -406,7 +406,7 @@ Przedmiot ten pochodzi zapewne ze Œwi¹tyni ¿ywio³ów Shar'DuKha. Przygotowywano j
 STATYSTKI:
 
 Klasa Pancerza: +1
-Specjalny:
+Specjalne:
   Ochrona przed niektórymi atakami mentalnymi
   +1 Do rzutów obronnych
   +20% odpornoœci na ogieñ, zimno i elektrycznoœæ
@@ -429,7 +429,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: Brak
-Specjalny:
+Specjalne:
   Chroni przed trafieniami krytycznymi
   Ochrona przed efektami strachu
 
@@ -452,7 +452,7 @@ Waga: 2~
 
 STATYSTKI:
 
-Specjalny:
+Specjalne:
   Ochrona przed niektórymi atakami mentalnymi
   +1 do Rzutów Obronnych
   +20% do odpornoœci na Kwas, Zimno, Ogieñ i Elektrycznoœæ
@@ -469,7 +469,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: Brak
-Specjalny:
+Specjalne:
   Chroni przed trafieniami krytycznymi
   Chroni przed wszystkimi formami zauroczenia, paniki i zatrzymania
   +50% do odpornoœci na magiê
@@ -485,7 +485,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +1
-Specjalny:
+Specjalne:
   Chroni przed trafieniami krytycznymi
   +20% do odpornoœci na ogieñ
   +20% do odpornoœci na zimno
@@ -505,7 +505,7 @@ Nie mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: Brak
-Specjalny:
+Specjalne:
   Chroni przed trafieniami krytycznymi
   Chroni przed wszystkimi formami paniki i poprawia morale
   Bonus do Inteligencji +2
@@ -520,14 +520,14 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: Brak
-Specjalny:
+Specjalne:
   Chroni przed trafieniami krytycznymi
   Chroni przed niektórymi atakami mentalnymi
 
 Waga: 2
 
 Mo¿e u¿ywaæ:
-  Palladyn~
+  Paladyn~
 
 @1028 = ~Thorfinn's Helmet~
 @1029 = ~This helm grants immunity to all forms of fear and panic, be their origins natural or magical.
@@ -563,7 +563,7 @@ STATYSTKI:
 
 Klasa pancerza: 0
 Rzuty Obronne:+3
-Specjalny: Odpornoœæ na elektrycznoœæ
+Specjalne: Odpornoœæ na elektrycznoœæ
 Waga: 4
 Wymaga: 6 Si³y
 
@@ -571,7 +571,7 @@ Mo¿e u¿ywaæ:
  Druid~
 
 @1036 = ~Krasnoludzka Bojowa Zbroja P³ytowa Ferthgila~
-@1038 = ~Ta mitrylowa zbroja stworzona zosta³a przez Ferthgila pod okiem Otho Truehammera. Ferthgil okaza³ siê wiêc przyzwoitym kowalem, ale zdecydowanie woli przygody. Zbroja jest nad podziw wytrzyma³a choæ nie u¿yto do jej stworzenia ¿adnych zaklêæ.
+@1038 = ~Ta mitrylowa zbroja stworzona zosta³a przez Ferthgila pod okiem Otho „Prawdziwego M³ota”. Ferthgil okaza³ siê wiêc przyzwoitym kowalem, ale zdecydowanie woli przygody. Zbroja jest nad podziw wytrzyma³a choæ nie u¿yto do jej stworzenia ¿adnych zaklêæ.
 
 STATYSTKI:
 
@@ -591,7 +591,7 @@ STATYSTKI:
 Klasa pancerza: -2
 Waga: 50
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Conchobhair~
 
 @1041 = ~Kryszta³owa Zbroja P³ytowa~
@@ -600,7 +600,7 @@ Mo¿e Uzywaæ:
 STATYSTKI:
 
 Klasa pancerza: 1
-Specjalny:
+Specjalne:
   +20% do odpornoœci na ogieñ
   +20% do odpornoœci na zimno
 
@@ -636,7 +636,7 @@ Only Usable By:
 STATYSTKI:
 
 Klasa pancerza: 0
-Specjalny:
+Specjalne:
   +2 do wszystkich Rzutów Obronnych
   +25% do wszystkich odpornoœci
 
@@ -644,11 +644,11 @@ Waga: 20
 Wymaga: 8 Si³y
 
 Mo¿e u¿ywaæ:
- Palladyn
- Kleryk (Tylko Prawowity Dobry)~
+ Paladyn
+ Kap³an (Tylko Prawowity Dobry)~
 
 @1055 = ~Kolczuga +2 'Poœwiêcona Kolczuga'~
-@1056 = ~Ta kolczuga czesto u¿ywana jest przez kap³anów w czasie ich podró¿y. Jej poœwiêcona moc zapewnia B³ogos³awieñstwo i dodatkowe zdrowie.
+@1056 = ~Ta kolczuga czêsto u¿ywana jest przez kap³anów w czasie ich podró¿y. Jej poœwiêcona moc zapewnia B³ogos³awieñstwo i dodatkowe zdrowie.
 
 STATYSTKI:
 
@@ -674,11 +674,11 @@ Nie mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa pancerza: -1
-Specjalny: Ochrona przed trucizn¹
+Specjalne: Ochrona przed trucizn¹
 Waga: 18
 Wymaga: 11 Si³y
 Mo¿e u¿ywaæ:
- Palladyn~
+ Paladyn~
 
 @1059 = ~Kolczuga Jet'layi~
 @1060 = ~To jest osobista kolczuga Jet'layi. Wykona³ j¹ jej brat, Rennar. Poza niezwyk³¹ kolorystyk¹, jest to tradycyjna kolczuga noszona przez elfy.
@@ -697,7 +697,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa pancerza: 0
-Specjalny:
+Specjalne:
   Regeneracja 1 Punktu ¿ycia co 2 rundy
   Nosz¹c j¹ mo¿na rzucaæ czary maga
 
@@ -713,7 +713,7 @@ Nie mo¿e u¿ywaæ
 STATYSTKI:
 
 Klasa pancerza: 3
-Specjalny: +15% Krycia siê w cieniu
+Specjalne: +15% Krycia siê w cieniu
 
 Waga: 8
 
@@ -744,7 +744,7 @@ Wymaga: 10 Si³y
 Mo¿e u¿ywaæ:
  Z³odziej~
 
-@1070 = ~Sztuka gnomów w tworzeniu uzbrojenia nie jest powszechna, ale akurat to dzie³o wydaje siê byæ barzdo udane i oferuje znacz¹c¹ ochrone przed nieprzewidzianymi wypadkami. Dodatkowo zbroja u³atwia poszukiwanie i wykrywanie pu³apek oraz otwieranie zamków.
+@1070 = ~Sztuka gnomów w tworzeniu uzbrojenia nie jest powszechna, ale akurat to dzie³o wydaje siê byæ bardzo udane i oferuje znacz¹c¹ ochronê przed nieprzewidzianymi wypadkami. Dodatkowo zbroja u³atwia poszukiwanie i wykrywanie pu³apek oraz otwieranie zamków.
 
 STATYSTKI:
 
@@ -769,12 +769,12 @@ Mo¿e u¿ywaæ:
  Skeezer Lumpkin VI~
 
 @1075 = ~Czarodziejska Szata~
-@1076 = ~Ta szata, z uwagi na swoj¹ klasê pancerza i zdolnoœci magiczne wydaje siê dobrym strojem podró¿nika, któremu nie wystarczaja zwyk³e szaty magiczne.
+@1076 = ~Ta szata, z uwagi na swoj¹ klasê pancerza i zdolnoœci magiczne wydaje siê dobrym strojem podró¿nika, któremu nie wystarczaj¹ zwyk³e szaty magiczne.
 
 STATYSTKI:
 
 Klasa pancerza: 8
-Specjalny: Dodatkowy czar na poziomach 1 i 2
+Specjalne: Dodatkowy czar na poziomach 1 i 2
 
 Waga: 3
 
@@ -783,7 +783,7 @@ Mo¿e u¿ywaæ:
  Bard~
 
 @1077 = ~Szaty Wielkiego Maga~
-@1078 = ~Ta potê¿na szata oferuje ochronê przed atakami fizycznymi jednoczeœnie zwiêkszaj¹æ odpornoœ na magiê i rzuty obronne. Mo¿e byæ u¿ywana tylko przez z³ych magów.
+@1078 = ~Ta potê¿na szata oferuje ochronê przed atakami fizycznymi jednoczeœnie zwiêkszaj¹c odpornoœæ na magiê i rzuty obronne. Mo¿e byæ u¿ywana tylko przez z³ych magów.
 
 STATYSTKI:
 
@@ -802,7 +802,7 @@ STATYSTKI:
 
 Klasa pancerza: 3
 Odpornoœæ na magiê: +50%
-Specjalny:
+Specjalne:
   Odpornoœæ na czary poziomów 1-3
   Dodatkowe 4 czary poziomow 1-3
   Ustawia Inteligencje i M¹droœæ na 19
@@ -811,7 +811,7 @@ Specjalny:
 
 Waga: 6
 
-Mog¹ Uzywaæ:
+Mog¹ U¿ywaæ:
  Wszyscy~
 
 @1081 = ~Szata Drakelora~
@@ -824,15 +824,15 @@ Rzuty Obronne:+2
 Waga: 3
 
 Mo¿e u¿ywaæ:
- Mag (Jedno, Dwu, Wielo - klasowiec)~
+ Mag~
 
 @1083 = ~Szata Maga Drowów~
-@1084 = ~Najpotê¿niejsci magowie drowów posiadaj¹ p³aszcze pozwalaj¹ce na skuteczne ukrywanie siê w cieniu, a u¿yty do ich wykonania materia³ dodatkowo uodparnia na ogieñ. Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, kiedy zostanie wystawiony na promienie s³oñca.
+@1084 = ~Najpotê¿niejsi magowie drowów posiadaj¹ p³aszcze pozwalaj¹ce na skuteczne ukrywanie siê w cieniu, a u¿yty do ich wykonania materia³ dodatkowo uodparnia na ogieñ. Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, kiedy zostanie wystawiony na promienie s³oñca.
 
 STATYSTKI:
 
 Klasa pancerza: 3
-Specjalny:
+Specjalne:
   Zwiêksza Inteligencjê o 2
   Dodatkowy czar na poziomach 1-9
   Rzut obronny przeciw zioniêciom +6
@@ -842,9 +842,9 @@ Specjalny:
 Waga: 1
 
 Mo¿e u¿ywaæ:
- Mag (Jedno, Dwu, Wielo - klasowiec)~
+ Mag~
 
-@1085 = ~Szata Otcha³ni~
+@1085 = ~Szata Otch³ani~
 @1086 = ~Jest to wyj¹tkowo dziwaczny przedmiot. Pochodzi z mroków Otch³ani i zapewnia ochronê przed wszelkimi atakami fizycznymi, podnosz¹c jednoczeœnie odpornoœæ na magiê i rzuty obronne i zdolnoœci magiczne. Mo¿e byæ u¿ywany tylko przez tych o z³ym charakterze.
 
 STATYSTKI:
@@ -855,12 +855,12 @@ Rzuty Obronne:+5
 Dodatkowe Czary: +3(Poziomy 1-5)
 +1(Poziomy 6-8)
 Kondycja: -30%
-Specjalny:Nie potrzebuje Odpoczynku
+Specjalne:Nie potrzebuje Odpoczynku
 
 Waga: 6
 
 Mo¿e u¿ywaæ:
-  Mag (jedno,dwu lub wielo - klasowiec)
+  Mag
   Postacie o z³ym charakterze~
 
 @1087 = ~Szaty Wysokiego Diakona~
@@ -874,7 +874,7 @@ Rzut Obronny:+3
 Waga: 6
 
 Mo¿e u¿ywaæ:
- Mag (jedno,dwu,wielo - klasowiec)
+ Mag
  Postacie o dobrym charakterze~
 
 @1096 = ~P³aszcz Morridina~
@@ -883,7 +883,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa pancerza:+1
-Specjalny: +1 do charyzmy
+Specjalne: +1 do charyzmy
 Waga: 3
 
 Mo¿e u¿ywaæ:
@@ -894,7 +894,7 @@ Mo¿e u¿ywaæ:
 
 STATYSTKI:
 
-Specjalny:
+Specjalne:
   Niewykrywalnoœæ 75% (podobne do niewidzialnoœci)
 
 Waga: 3
@@ -909,7 +909,7 @@ STATYSTKI:
 
 Klasa pancerza:+2
 
-Specjalny:
+Specjalne:
   Zwiêkszenie umiejêtnoœci krycia siê w cieniu
   Niewykrywalnoœæ
 
@@ -926,7 +926,7 @@ STATYSTKI:
 
 Klasa pancerza: +3
 Rzut Obronny:+2
-Specjalny: Ochrona przed nieumarlymi
+Specjalne: Ochrona przed nieumarlymi
 
 Waga: 3
 
@@ -951,7 +951,7 @@ Te rêkawice stworzono w Kara-Tur z myœl¹ o mistrzach sztuk walki, których potêgê
 
 STATYSTKI:
 
-Specjalny: +2 do Zrêcznoœci
+Specjalne: +2 do Zrêcznoœci
 
 Waga: 2
 
@@ -965,7 +965,7 @@ STATYSTKI:
 
 Klasa pancerza: 0
 
-Specjalny:
+Specjalne:
   Zwiêkszona liczba ataków
   Zwiêkszone rzuty obronne
   +25% do odpornoœci na magiê
@@ -975,13 +975,13 @@ Waga: 2
 Mo¿e u¿ywaæ:
  Mag (Tylko Jednoklasowiec)~
 
-@1115 = ~Podarunek Knieji~
+@1115 = ~Podarunek Kniei~
 @1116 = ~Od czasów, gdy druidzi i ³owcy staraj¹ siê chroniæ przyrodê przed zakusami cywilizacji, znane s¹ przypadki dawania podarków swoim najwiêkszym przyjacio³om i towarzyszom przez mieszkañców lasów.
 
 STATYSTKI:
 
 Klasa pancerza: 2
-Specjalny:
+Specjalne:
   Zwiêkszona liczba ataków
   Zwiêkszona odpornoœæ na petryfikacjê
 
@@ -997,7 +997,7 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +2
-Specjalny:
+Specjalne:
  Zwiêkszona szybkoœæ rzucania czarów
 
 Waga: 2
@@ -1007,7 +1007,7 @@ Mo¿e u¿ywaæ:
  Bard~
 
 @1119 = ~Rêkawice Wiernego Wojownika~
-@1120 = ~Od niepamiêtnych czasów potê¿ne padarunki stanowi³y zwyczajowo skutek gorliwej lojalnoœci oddanych wyznawców i s³ug. Choæ nie wiadomo sk¹d pochodz¹ te przedmioty, to na pewno by³y w³aœnie dowodem wdziêcznoœci.
+@1120 = ~Od niepamiêtnych czasów potê¿ne podarunki stanowi³y zwyczajowo skutek gorliwej lojalnoœci oddanych wyznawców i s³ug. Choæ nie wiadomo sk¹d pochodz¹ te przedmioty, to na pewno by³y w³aœnie dowodem wdziêcznoœci.
 STATYSTKI:
 
 Trak0: +3
@@ -1015,26 +1015,26 @@ Obra¿enia: +3
 Waga: 1
 
 Mo¿e u¿ywaæ:
- Kleryk (Jedno lub wieloklasowy)~
+ Kap³an~
 
 @1127 = ~Pierœcieñ ucznia~
-@1128 = ~Podobne pierœcienie to czêste atrubuty m³odych, uzdolnionych adeptów sztuki czarnoksiêskiej.
+@1128 = ~Podobne pierœcienie to czêste atrybuty m³odych, uzdolnionych adeptów sztuki czarnoksiêskiej.
 
 STATYSTKI:
 
-Specjalny: Dodaje 2 czary 1 poziomu i po jedny 2 i 3
+Specjalne: Dodaje 2 czary 1 poziomu i po jednym 2 i 3
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Mag
  Bard~
 
 @1129 = ~Kap³añski pierœcieñ Ghaunadaura~
 @1131 = ~Ulepszona wersja Pierœcienia Ghaunadaura. Ten daje odpornoœæ na truciznê i kwas.
 
-Mo¿e Uzywaæ:
- Kleryk
+Mo¿e u¿ywaæ:
+ Kap³an
  Druid
- Palladyn
+ Paladyn
  £owca~
 
 @1133 = ~Szczêœliwy Kamieñ Stra¿niczy Mopapa~
@@ -1045,7 +1045,7 @@ STATYSTKI:
 +1 do szczêœcia
 
 Nie mo¿e u¿ywaæ:
-  Zabójca Magów~
+ Zabójca Magów~
 
 @1136 = ~Mistyczny Pierœcieñ~
 @1137 = ~Nie ma ¿adnych pewnych wiadomoœci na temat tego pierœcienia, ponad t¹, ¿e nosi³ go pewien mag mieszkaj¹cy w ma³ej wiosce.
@@ -1054,7 +1054,7 @@ STATYSTKI:
 
 Spells: dodaje jeden czar z poziomów 2-4
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Mag
  Bard~
 
@@ -1063,10 +1063,10 @@ Mo¿e Uzywaæ:
 
 STATYSTKI:
 
-Specjalny: Niewra¿liwoœæ na zwyk³e pociski.
+Specjalne: Niewra¿liwoœæ na zwyk³e pociski.
 
 Nie mo¿e u¿ywaæ:
-  Zabójca Magów~
+ Zabójca Magów~
 
 @1140 = ~Pierœcieñ Podró¿nego~
 @1141 = ~Osobisty pierœcieñ barda Morridina. Brak w nim kamienia. Morridin zapytany o kamieñ i w³aœciwoœci pierœcienia, odpowiada³ z uœmiechem: "Stracony w czasie podró¿y...". Tak te¿ nazwano go, a jego w³aœciwoœci pozosta³y nieznane.
@@ -1075,8 +1075,8 @@ STATYSTKI:
 
 Nieznane
 
-Mo¿e Uzywaæ:
- Tylko bard~
+Mo¿e u¿ywaæ:
+ Bard~
 
 @1142 = ~Pierœcieñ Barda~
 @1143 = ~Nienzane jest dok³adne pochodzenie tego pierœcienia ale wielu wierzy ¿e powsta³ okolo 2000 lat temu.
@@ -1088,7 +1088,7 @@ Dodatkowy czar 3 poziomu
 Dodatkowy czar 5 poziomu
 
 Mo¿e u¿ywaæ:
- Bardowie~
+ Bard~
 
 @1144 = ~Sygnet Sukien~
 @1145 = ~Pob³ogows³awiony przez kap³anke sukien pierœcieñ jest noczony przez wszystkich którzy broni¹ œwi¹tyni przed z³em.
@@ -1097,10 +1097,10 @@ STATYSTKI:
 
 Klasa pancerza: +1
 Rzuty Obronne: +2
-Specjalny: Ochrona przed petryfikacj¹
+Specjalne: Ochrona przed petryfikacj¹
 
 Mo¿e u¿ywaæ:
- Palladyn~
+ Paladyn~
 
 @1146 = ~Pierœcieñ Ognistej Tarczy~
 @1147 = ~Pierœcieñ Ognistej Tarczy "¯ar Charviraka"
@@ -1109,7 +1109,7 @@ Od zarania dziejów szamani jest wykorzystuj¹ ¿ywio³y zarówno w celach obronnych 
 STATYSTKI:
 
 Klasa Pancerza +4
-Specjalny:
+Specjalne:
   Odpornoœæ na niemagiczne bronie
   Odpornoœæ na ogieñ
 
@@ -1120,12 +1120,12 @@ Mo¿e u¿ywaæ:
 @1149 = ~Ten pierœcieñ nale¿a³ do matki Jet'layi~
 
 @1151 = ~Davaeornie,
-Moje Ÿród³a donosz¹ o grupie najemników w okolicach gospody Pod Pomocn¹ Dloni¹. Czêœæ z nich mo¿e byæ harfiarzami. Wys³a³em Taranesha ¿eby to sprawdzi³ i powstrzyma³ ich kimkolwiek s¹ lecz od tej pory nie mam od niego wieœci. Proponuje abyœ natychmiast wys³a³ Drasusa i Genthorna do gospody Pod Pomocn¹ D³onia. Powiadom Tazoka o sytuacji.
+Moje Ÿród³a donosz¹ o grupie najemników w okolicach gospody Pod Pomocn¹ D³oni¹. Czêœæ z nich mo¿e byæ harfiarzami. Wys³a³em Taranesha ¿eby to sprawdzi³ i powstrzyma³ ich kimkolwiek s¹ lecz od tej pory nie mam od niego wieœci. Proponuje abyœ natychmiast wys³a³ Drasusa i Genthorna do gospody Pod Pomocn¹ D³onia. Powiadom Tazoka o sytuacji.
 
 Reiltar~
 @1152 = ~Otho mój przyjacielu,
 
-Oto nasi bohaterowie, o których ci wspomina³em. Wdzieczny by³bym ci, gdybyœ wykona³ dla nich broñ, myslê, ¿e wiekierê, najlepszej jakoœci jak to mo¿liwe. S¹ godni, bowiem wyœwiadczyli mi ogromn¹ przys³ugê.Ta broñ ma dla nich wielkie znaczenie. Wkrótce przyjdzie im siê o tym przekonaæ
+Oto nasi bohaterowie, o których ci wspomina³em. Wdziêczny by³bym ci, gdybyœ wykona³ dla nich broñ, myœlê, ¿e wiekierê, najlepszej jakoœci jak to mo¿liwe. S¹ godni, bowiem wyœwiadczyli mi ogromn¹ przys³ugê. Ta broñ ma dla nich wielkie znaczenie. Wkrótce przyjdzie im siê o tym przekonaæ.
 
 Pozdrawiam,
 Lennan~
@@ -1134,7 +1134,7 @@ Lennan~
 Poœwiêcam me cia³o, duszê i umys³ twej s³u¿bie i mi³oœci ku tobie jak nikomu innemu.
 
 Twoja na wiecznoœæ
- Clairis~
+Clairis~
 @1154 = ~Przyjaciele,
 Post¹piliœcie godnie i odwa¿nie. Z wasz¹ pomoc¹ powstrzymany zosta³ Lord Daerthmac i jego zbrodnicze plany. ¯al mi tych, którzy odeszli w imiê sprawiedliwoœci. Nie powinienem by³ nara¿aæ was w imiê mojej w³asnej sprawy. Teraz odchodzê, bo tak byæ powinno. Jednak jeœli przyjdzie mi jeszcze walczyæ ramiê w ramiê z kimkolwiek, oby byli to bohaterowie wam podobni.
 
@@ -1169,9 +1169,9 @@ By zniszczyæ lisza nale¿y mieæ j¹ przy sobie, uniemo¿liwia mu to odrodzenie siê.
 
 Specjalne: Zdolnoœæ specjalna: 'Uczeñ Œwiat³oœci'
 
-Mo¿e Uzywaæ:
- Palladyn
- Kleryk (Tylko o dobrym charakterze)~
+Mo¿e u¿ywaæ:
+ Paladyn
+ Kap³an (tylko o dobrym charakterze)~
 
 @1169 = ~Okrzyk Bitewny~
 @1170 = ~Ten delikatny róg pokryty jest znakami runicznymi i przepasany czerwonymi wst¹¿kami.~
@@ -1179,7 +1179,7 @@ Mo¿e Uzywaæ:
 
 STATYSTKI:
 
-Specjalny: przeciwnik ucieka w panice, o ile nie powiedzie siê rzut obronny
+Specjalne: przeciwnik ucieka w panice, o ile nie powiedzie siê rzut obronny
 Zasiêg: 100 stóp
 Area: promieñ 20 stóp
 Czas Trwania: 15 Rund
@@ -1196,7 +1196,7 @@ Mo¿e u¿ywaæ:
 
 STATYSTKI:
 
-Specjalny: Zauroczenie celu
+Specjalne: Zauroczenie celu
 Zasiêg: 100 stóp
 Obszar: 1 stworzenie
 
@@ -1210,11 +1210,11 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Podwaja iloœæ punktów doœwiadczenia
-Specjalny: Ksiêga znika po u¿yciu
-U¿ywanie: W³ó¿ w pasek szybiego u¿ywania
+Specjalne: Ksiêga znika po u¿yciu
+U¿ywanie: W³ó¿ w pasek szybkiego u¿ywania
 
-Mo¿e Uzywaæ:
- Mag (Tylko jednoklasowiec)~
+Mo¿e u¿ywaæ:
+ Mag (tylko jednoklasowy)~
 @124100 = ~Experience points doubled~
 
 @1242 = ~Historia Ciemnej Strony Wybrze¿a Mieczy~
@@ -1224,7 +1224,7 @@ Dawno temu mêdrzec o imieniu Roach spotka³ m³odego elfa CúChoinneacha. Roach zau
 
 W ci¹gu swoich podró¿y, CúChoinneach spotka³ wiele niepowtarza³nych osobistoœci które przyczyni³y siê do odkryæ Roacha i CúChoinneacha. Wœród tych ró¿norodnych t³umów znajdowa³ siê cz³owiek znany jako Ken Piekarz mimo, ¿e nie by³ piekarzem wiêc nikt nie wie sk¹d siê wzi¹³ jego przydomek. Mo¿na go czêsto spotkaæ w gospodzie Weso³y ¯ongler w Beregoœcie zwykle po jakimœ wielkim zwyciêstwie dru¿yny Baldur`s Gate. Ken jak niektórzy go nazywaj¹ równie¿ wierzy³ w to , ¿e wiele tajemnic by³o ukrytych na wybrze¿u mieczy w zwi¹zku z czym zapocz¹tkowa³ sw¹ dru¿ynê "Zaklinaczy". Wœród nich byli przedstawiciele wszystkich szkó³ magii.
 
-Jedne z nich by³ nazywany po prostu W³adc¹ Zguby. By³ w stanie nauczyæ CúChoinneacha kilku z bardziej wyszukancyh metod zaklinania, lecz krótko po tym znikn¹³ on bez podwodu. S¹ plotki na temat jego dziwnego znikniêcia ale nic nie jest potwierdzone.
+Jedne z nich by³ nazywany po prostu W³adc¹ Zguby. By³ w stanie nauczyæ CúChoinneacha kilku z bardziej wyszukanych metod zaklinania, lecz krótko po tym znikn¹³ on bez powodu. S¹ plotki na temat jego dziwnego znikniêcia ale nic nie jest potwierdzone.
 
 Lista wci¹¿ roœnie wraz z kolejnymi wêdrówkami...
 
@@ -1233,12 +1233,12 @@ Orginalny pomys³:Roach
 Opracowanie Historii:CúChoinneach i Roach
 Stowrzenia i lokacje zrobione przez CúChoinneacha
 Logo Ciemnej Strony zrobione przez: WoRma
-Przedmioty stworzone przez zbyt wielk¹ liczbê osób aby je wypisaæ....(CúChoinneach nie chce nikogo pomijaæ. Jeœli udasz siê na strone TeamBG i odwiedzisz strony ich wspó³pracowników znajdziesz stwórce swojego ulubionego przedmiotu)
+Przedmioty stworzone przez zbyt wielk¹ liczbê osób aby je wypisaæ....(CúChoinneach nie chce nikogo pomijaæ. Jeœli udasz siê na stronê TeamBG i odwiedzisz strony ich wspó³pracowników znajdziesz stwórce swojego ulubionego przedmiotu)
 DŸwiêki dla Jet'Layi, Keiry Silverstring i Conchobhaira Strongblada, zmienione przez Groga
 NPC Jet'Laya stworzona przez Groga
 Wszyscy inni NPCowie stworzeni przez CúChoinneacha
-G³os i biografia Ferthgila Trollslayera dostarczona przez Gothmoga z kalnu Stonehearth .
-Orginalne ikony zosta³y stworzone przez stronê WoRma i opublikowne przez Kena Bakera.
+G³os i biografia Ferthgila Trollslayera dostarczona przez Gothmoga z klanu Stonehearth .
+Oryginalne ikony zosta³y stworzone przez stronê WoRma i opublikowane przez Kena Bakera.
 
 Nic z tego nie by³oby mo¿liwe gdyby nie Ken i stworzenie TeamBG. Pozwoli³ on na zebranie czêœci potrzebnych do stworzenia dobrej gry!
 
@@ -1253,18 +1253,18 @@ CúChoinneach~
 @1244 = ~Woda Œwiêcona~
 @1245 = ~Woda w tej fiolce zosta³a poœwiêcona i kiedy zostanie rzucona w cel, zadaje 1K8 obra¿eñ od kwasu. Skuteczna przeciw nieumar³ym..~
 
-@1247 = ~Serce Knieji~
+@1247 = ~Serce Kniei~
 
-@1249 = ~Bogini Matka natchnê³a ten amulet moca ¿ycia. Zawiera symbol runiczny pó³nocnych druidów Erreth-Akbe. Pomimo staroœci, znaki wci¹¿ lœni¹ jak nowe i mo¿na wyczuæ ich moc. Szczegó³owe oglêdziny ujawniaja jednak oznaki zu¿ycia; byc mo¿e jego moc nie jest tak wieczna, jak bogini, której jest poœwiêcony.
+@1249 = ~Bogini Matka natchnê³a ten amulet moc¹ ¿ycia. Zawiera symbol runiczny pó³nocnych druidów Erreth-Akbe. Pomimo staroœci, znaki wci¹¿ lœni¹ jak nowe i mo¿na wyczuæ ich moc. Szczegó³owe oglêdziny ujawniaj¹ jednak oznaki zu¿ycia; byæ mo¿e jego moc nie jest tak wieczna, jak bogini, której jest poœwiêcony.
 
 STATYSTKI:
 
-Specjalny: Odpornoœæ na kwas
+Specjalne: Odpornoœæ na kwas
 
 Mo¿e u¿ywaæ:
 Postaæ o neutralnym charakterze~
 @1251 = ~Naszyjnik Feriuma~
-@1253 = ~Ten naszejnik Ferium otrzyma³a od Ken'lana, swojego ukochanego. w iskrypcji wygrawerowano "Moja mi³oœæ ku tobie niczym ksiê¿yc poœród mroków"
+@1253 = ~Ten naszyjnik Ferium otrzyma³a od Ken'lana, swojego ukochanego. W inskrypcji wygrawerowano "Moja mi³oœæ ku tobie niczym ksiê¿yc poœród mroków"
 
 Jet'Laya zasugerowa³a, by przekazaæ go jej wujowi Lennanowi, który przebywa w Weso³ym ¯onglerze w Beregoœcie~
 
@@ -1275,7 +1275,7 @@ Jet'Laya zasugerowa³a, by przekazaæ go jej wujowi Lennanowi, który przebywa w We
 
 STATYSTKI:
 
-Specjalny: Ochrona przed ogniem
+Specjalne: Ochrona przed ogniem
 
 Mo¿e u¿ywaæ:
  Postacie o z³ym charakterze~
@@ -1283,7 +1283,7 @@ Mo¿e u¿ywaæ:
 @1259 = ~Amulet zrêcznoœci z niebieskiego kamienia~
 @1260 = ~Masz wiele szczêœcia, ¿e znalaz³eœ ten amulet.Nie pozwól by wpad³ w niepowo³ane rêce...
 
-Specjalny:
+Specjalne:
   +3 do Zrêcznoœci
   +3 do Trak0
 
@@ -1297,7 +1297,7 @@ STATYSTKI:
 
 Klasa Pancerza: 1
 Rzut obronny przeciw œmierci: +1
-Specjalny: Dodatkowy czar pierwszego poziomu
+Specjalne: Dodatkowy czar pierwszego poziomu
 
 Nie mo¿e u¿ywaæ:
   Zabójca Magów~
@@ -1310,7 +1310,7 @@ STATYSTKI:
 
 Czary: dodaje jeden czar poziomu 1, dwa czary poziomu 2, trzy czary poziomu 3
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Mag
  Bard~
 
@@ -1319,7 +1319,7 @@ Mo¿e Uzywaæ:
 
 STATYSTKI:
 
-Specjalny:
+Specjalne:
   Jasnowidzenie
 
 Nie mo¿e u¿ywaæ:
@@ -1331,9 +1331,9 @@ Nie mo¿e u¿ywaæ:
 STATYSTKI:
 
 Obra¿enia: 1K6
-Typ Obra¿eñ: pocisk (k³óte)
+Typ Obra¿eñ: pocisk
 
-Specjalny:
+Specjalne:
   Zabija mniejsze smoki i wywerny przy trafieniu
  +3 Obra¿enia/+3 Do trafienia przeciw Smokom
   10% szansa na zabicie dowolnego Smoka
@@ -1342,12 +1342,12 @@ Waga: 0
 Wyrzutnia: £uk~
 
 @1278 = ~Strza³a Uderzenia~
-@1279 = ~Te wspania³e strza³y maj¹ lekko niebiesk¹ barwê i z³ocony grot. S¹ l¿ejsze i nieco smuklejsze od swych typowych wersji, ale promieniuje z nich magia, która podobno pochodzi od Œwiêtyc Stra¿ników Sukien, którzy podobno posiadaj¹ ³uk mog¹cy je tworzyæ.
+@1279 = ~Te wspania³e strza³y maj¹ lekko niebiesk¹ barwê i z³ocony grot. S¹ l¿ejsze i nieco smuklejsze od swych typowych wersji, ale promieniuje z nich magia, która podobno pochodzi od Œwiêtych Stra¿ników Sukien, którzy podobno posiadaj¹ ³uk mog¹cy je tworzyæ.
 
 STATYSTKI:
 
 Obra¿enia: 1K6 + 2, +2K3 Obra¿eñ od magii
-Typ obra¿eñ: pocisk (k³óte)
+Typ obra¿eñ: pocisk
 Waga: 0
 Wyrzutnia: £uk~
 
@@ -1358,8 +1358,8 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 1
 Trak0: +1
-Specjalny: Rzoproszenie Magii
-Typ obra¿eñ: pocisk (k³óte)
+Specjalne: Rozproszenie Magii
+Typ obra¿eñ: pocisk
 Wyrzutnia: Kusza~
 
 @1285 = ~Pocisk Detonacji~
@@ -1368,9 +1368,9 @@ Wyrzutnia: Kusza~
 STATYSTKI:
 
 Obra¿enia: 1K4 + 1
-Specjalny:
-  Explozja za 6K6 punktów obra¿eñ(rzut obronny na po³owê)
-Typ obra¿eñ: pocisk (k³óte)
+Specjalne:
+  Eksplozja za 6K6 punktów obra¿eñ(rzut obronny na po³owê)
+Typ obra¿eñ: pocisk
 Wyrzutnia: Proca~
 
 @1288 = ~Pocisk Œwiêconej Wody~
@@ -1380,19 +1380,19 @@ STATYSTKI:
 
 Obra¿enia: 1K4 + 2
 Trak0: +1
-Specjalny:
+Specjalne:
   2K3 Nieumar³ym
-Typ obra¿eñ: missle (k³óte)
+Typ obra¿eñ: pocisk
 Wyrzutnia: Proca~
 
-@1292 = ~Buty Knieji~
+@1292 = ~Buty Kniei~
 @1294 = ~Buty Lasu, z regu³y otrzymuj¹ znani obroñcy leœnych ostêpów. Zapewniaj¹ one dodatkowe przyspieszenie ruchów, chroni¹ przed magi¹ wp³ywaj¹c¹ na swobodê ruchów i daj¹ pewne zdolnoœci z³odziejskie.
 
 STATYSTKI:
 
 Mo¿e u¿ywaæ:
- Druid (Tylko jednoklasowiec)
- £owca (Tylko jednoklasowiec)~
+ Druid (tylko jednoklasowy)
+ £owca (tylko jednoklasowy)~
 
 @1295 = ~Buty Mêstwa~
 @1296 = ~Buty Mêstwa: 'Niewra¿liwe stopy
@@ -1416,7 +1416,7 @@ Nie mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +4
-Specjalny: Nie chroni przed pociskami.
+Specjalne: Nie chroni przed pociskami.
 
 Waga: 3
 
@@ -1429,8 +1429,8 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +3
-Specjalny:
-  Nie chroni przed pociksami
+Specjalne:
+  Nie chroni przed pociskami
   Trak0 +2 przeciw Nieumar³ym
 
 Waga: 3
@@ -1443,8 +1443,8 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +3
-Specjalny:
-  Zwiêkszona odpornoœc na Zimno
+Specjalne:
+  Zwiêkszona odpornoœæ na Zimno
   Zmniejszona odpornoœæ na Ogieñ
 
 Waga: 3
@@ -1479,7 +1479,7 @@ Nie mo¿e u¿ywaæ:
 STATYSTKI:
 
 Klasa Pancerza: +3
-Specjalny:
+Specjalne:
   Zwiêkszona iloœæ punktów ¿ycia
   Odpornoœæ na magiê: +5%
 
@@ -1518,7 +1518,7 @@ STATYSTKI:
 
 Obra¿enia: 2K5 + 2
 Trak0: +2
-Specjalny:
+Specjalne:
   +1 Klasa Pancerza
   +1 Zrêcznoœæ
 Typ obra¿eñ: Sieczne
@@ -1530,7 +1530,7 @@ Wymaga: 6 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  W³adca Bestii~
 
@@ -1541,7 +1541,7 @@ STATYSTKI:
 
 Obra¿enia: 2K5 + 3
 Trak0: +3
-Specjalny:
+Specjalne:
   40% szansa na szaleñstwo po trafieniu.
 Typ obra¿eñ: Sieczne
 Waga: 10
@@ -1552,7 +1552,7 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  W³adca Bestii~
 
@@ -1564,7 +1564,7 @@ STATYSTKI:
 Obra¿enia: 1K8 + 3
 Trak0: +3
 Klasa pancerza: +2
-Specjalny:
+Specjalne:
   Trzy razy dziennie pozwala rzuciæ zaklecie 'Zauroczenie osoby lub ssaka'
   Og³uszenie celu (rzut obronny przeciw czarom przeciwdzia³a)
 Typ obra¿eñ: Sieczne
@@ -1584,7 +1584,7 @@ STATYSTKI:
 
 Obra¿enia: 1K10 + 4 (+3 przeciw Smokom)
 Trak0: +4 (+3 przeciw Smokom)
-Specjalny:
+Specjalne:
   Klasa pnacerza +1
   Ma³a szansa na zabicie smoka przy trafieniu
   50% Odpornoœæ na ogieñ i kwas
@@ -1607,7 +1607,7 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 2
 Trak0: +2
-Specjalny:
+Specjalne:
   + 40% odpornoœci na elektrycznoœæ
   1K4 obra¿eñ od elektrycznoœci
 Typ obra¿eñ: Sieczne
@@ -1619,7 +1619,7 @@ Wymaga: 8 Si³y
 
 Nie mo¿e u¿ywaæ:
  Mag
- Kleryk
+ Kap³an
  W³adca Bestii~
 
 @1339 = ~Ciernisty Miecz 'Mistrz Zieleni'~
@@ -1629,7 +1629,7 @@ STATYSTKI:
 
 Obra¿enia: 1K10 + 2
 Trak0: +2
-Specjalny:
+Specjalne:
   Dodatkowe obra¿enia i Trak0 przeciw nieumar³ym
   Nosz¹cy mo¿e rzucaæ 'Opl¹tanie' w dowolnym momencie
   Niewra¿liwoœæ na trucizny
@@ -1640,7 +1640,7 @@ OpóŸnienie: 6
 Typ: Dwurêczny
 Wymaga: 14 Si³y
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  £owcy~
 
 @1341 = ~Karabela~
@@ -1659,10 +1659,10 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard
- Kleryk
+ Kap³an
  Druid
  Mag
- Palladyn
+ Paladyn
  W³adca Bestii~
 
 @1344 = ~Wykonana z k³a smoka wydaje siê niemal sama kierowaæ w przeciwnika. Takie zachowanie broni wywo³uje u w³aœciciela nowe chêci do walki, przyspieszaj¹c w ten sposób nastêpny atak.
@@ -1671,7 +1671,7 @@ STATYSTKI:
 
 Obra¿enia: 3K3 + 2
 Trak0: +2
-Specjalny: Zwiêkszona szybkoœc ataku
+Specjalne: Zwiêkszona szybkoœc ataku
 Typ obra¿eñ: Sieczne
 Waga: 3
 OpóŸnienie: 3
@@ -1681,10 +1681,10 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard
- Kleryk
+ Kap³an
  Druid
  Mag
- Palladyn
+ Paladyn
  W³adca Bestii~
 
 @1345 = ~Karabela +2 'Spiekota'~
@@ -1703,10 +1703,10 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard
- Kleryk
+ Kap³an
  Druid
  Mag
- Palladyn
+ Paladyn
  W³adca Bestii~
 
 @1347 = ~Karabela +3 'Ostrze Ducha'~
@@ -1725,10 +1725,10 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard
- Kleryk
+ Kap³an
  Druid
  Mag
- Palladyn
+ Paladyn
  W³adca Bestii~
 
 @1349 = ~Karabela +2 'Iskry'~
@@ -1746,10 +1746,10 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard
- Kleryk
+ Kap³an
  Druid
  Mag
- Palladyn~
+ Paladyn~
 
 @1352 = ~Ostrze Oszusta~
 @1354 = ~Denat "oszust" by³ niegdyœ znanym bardem. Oprócz opowieœci o bohaterach, mia³ zwyczaj przechwalaæ siê w³asn¹ bieg³oœci¹ w pos³ugiwaniu siê mieczem, a ka¿da taka przechwa³ka z regu³y koñczy³a siê pojedynkiem. Koniec nast¹pi³ wtedy, gdy podczas jednego z wielu pojedynków bard chwyci³ nie swój miecz i poleg³.
@@ -1758,7 +1758,7 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 1
 Trak0: +5
-Specjalny:
+Specjalne:
 Zrêcznoœæ +2
 Klasa Pancerza +3
 1 dodatkowy atak na runde
@@ -1779,7 +1779,7 @@ STATYSTKI:
 
 Obra¿enia: 2K4 + 2
 Trak0: +2
-Specjalny: Nosz¹cy u¿ywa czaru "Pomoc"
+Specjalne: Nosz¹cy u¿ywa czaru "Pomoc"
 Typ obra¿eñ: Sieczne
 Waga: 12
 OpóŸnienie: 5
@@ -1787,8 +1787,8 @@ Rodzaj Bieg³oœci: Miecz Pó³torarêczny
 Typ: Jednorêczny
 Wymaga: 12 Si³y
 
-Mo¿e Uzywaæ:
- Palladyn~
+Mo¿e u¿ywaæ:
+ Paladyn~
 
 @1363 = ~Mairial '£owca Œmierci'~
 @1364 = ~To jest osobisty sejmitar CúChoinneacha. Wykonany z czystego mitrylu i wystawiony na o¿ywcze œwiat³o ksiê¿yca w pe³ni, pod nadzorem Sehanine Moonbow, elfickiej bogini. Sama bogini odwiedzi³a go we œnie, wkrótce po œmierci jego wybranki Fia'nny, zabitej przez hordê nieumar³ych. Sehanine powiedzia³a CúChoinneachowi, by sta³ siê ³owc¹, a bogini wybierze go jako sw¹ d³oñ karz¹c¹ wszystkie nieumar³e i pod³e kreatury Faerunu. Ostrze zaœ stanie siê symbolem ich przymierza. Ale nawet CúChoinneach nie zna prawdziwej mocy tej broni.
@@ -1798,7 +1798,7 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 4
 Trak0: +4
-Specjalny:
+Specjalne:
   Specjalne moce przeciw nieumar³ym
 Typ obra¿eñ: Sieczne
 Waga: 4
@@ -1858,7 +1858,7 @@ STATYSTKI:
 
 Obra¿enia: 2K4 + 4
 Trak0: +4
-Specjalny:
+Specjalne:
   +4 punkty zycia
   +1 do wszystkich rzutów obronnych
 
@@ -1869,9 +1869,9 @@ Rodzaj Bieg³oœci: Cep Bojowy/Morgensztern
 Typ: Jednorêczny
 Wymaga: 13 Si³y
 
-Mo¿e Uzywaæ:
- Palladyn
- Praworz¹dny Dobry Kleryk~
+Mo¿e u¿ywaæ:
+ Paladyn
+ Praworz¹dny Dobry Kap³an~
 
 @1376 = ~Topór Bojowy +3 Ferthgila Trollslayera~
 @1378 = ~Ten topór nale¿a³ wczeœniej do ojca Ferthgila, Breachina Trollslayera. Breachin zgin¹³ w potyczce z Veebergami, kiedy jeszcze Ferthgil by³ m³ody. Z uwagi na honor ojca rzadko u¿ywa on innej broni.
@@ -1905,7 +1905,7 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
@@ -1918,7 +1918,7 @@ STATYSTKI:
 
 Obra¿enia: 2K4 + 2
 Trak0: +2
-Specjalny: +1 atak na runde
+Specjalne: +1 atak na runde
 Typ obra¿eñ: Sieczne
 Waga: 5
 OpóŸnienie: 2
@@ -1928,7 +1928,7 @@ Wymaga: 10 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  Z³odziej~
 
@@ -1948,7 +1948,7 @@ Wymaga: 13 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
@@ -1960,7 +1960,7 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 2
 Trak0: +2
-Specjalny:
+Specjalne:
   1K6 Obra¿eñ (Rzut obronny przeciw œmierci na po³owê)
   +1 do zrêcznoœci
   Zwiêkszona szybkoœæ ataku
@@ -1992,7 +1992,7 @@ Wymaga: 12 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
@@ -2006,8 +2006,8 @@ STATYSTKI:
 Obra¿enia: 1K6 + 1
 Trak0: +2
 Typ obra¿eñ(Walka Wrêcz): Sieczne
-Typ obra¿eñ(Rzut): pocisk (k³óte)
-Specjalny:
+Typ obra¿eñ(Rzut): pocisk
+Specjalne:
  Wraca do u¿ytkownika po rzuceniu i daje dodatkwoy atak w rundzie
  2K6 Obra¿eñ od ognia
 Waga: 3
@@ -2028,7 +2028,7 @@ STATYSTKI:
 Obra¿enia: 2K2 + 2
 Trak0: +2
 Klasa pancerza: +2
-Specjalny:
+Specjalne:
   Tworzy Mikstury Uzdrowienia i Antidota
   Ochrona przed czarami pierwszego poziomu
 Typ obra¿eñ: Obuchowe
@@ -2049,16 +2049,16 @@ STATYSTKI:
 
 Obra¿enia: 2K4 + 3
 Trak0: +3
-Specjalny:Klasa Pancerza +1
+Specjalne:Klasa Pancerza +1
 Waga: 3
 OpóŸnienie: 1
 Typ obra¿eñ: Obuchowe
 Rodzaj Bieg³oœci: Kij
 Typ: Dwurêczny
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Mag
- Kleryk~
+ Kap³an~
 
 @1401 = ~Ethric~
 @1402 = ~Ten kij zapewnia ochronê przed zwyk³¹ broni¹. Na tej broni ci¹¿y potê¿na i z³a kl¹twa. Wszystkie jej w³aœciwoœci nie s¹ znane.
@@ -2067,7 +2067,7 @@ STATYSTKI:
 
 Obra¿enia: 2K8 + 1
 Trak0: +1
-Specjalny:
+Specjalne:
   Niewra¿liwoœæ na niemagiczne bronie
 Typ obra¿eñ: k³óte
 Waga: 5
@@ -2086,7 +2086,7 @@ STATYSTKI:
 
 Obra¿enia: 1K8 + 3, + 6K6 obra¿eñ od elektrycznoœci (Rzut przeciw ró¿d¿kom na po³owê)
 Trak0: +3
-Specjalny:
+Specjalne:
   Klasa Pancerza +2
   Rzuca czar "B³yskawica" 3 razy dziennie
 Typ obra¿eñ: Obuchowe
@@ -2106,7 +2106,7 @@ STATYSTKI:
 
 Obra¿enia: 1K6 + 2
 Trak0: +2
-Specjalny: Cel jest spowolniony chyba ¿e wykona udany rzut obronny przeciw czarom
+Specjalne: Cel jest spowolniony chyba ¿e wykona udany rzut obronny przeciw czarom
 Typ obra¿eñ: Obuchowe
 Waga: 4
 OpóŸnienie: 3
@@ -2124,7 +2124,7 @@ STATYSTKI:
 
 Obra¿enia: 2K3 + 2
 Trak0: +2
-Specjalny:
+Specjalne:
   +15 maksymalnych punktów ¿ycia
   +20 do wiedzy
   +3 czary kap³añskie pierwszego poziomu
@@ -2134,7 +2134,7 @@ Typ obra¿eñ: Obuchowe
 Rodzaj Bieg³oœci: Kij
 Typ: Dwurêczny
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Tylko Druid~
 
 @1411 = ~Nieprzewidywalny Kij Skeezera~
@@ -2144,7 +2144,7 @@ STATYSTKI:
 
 Obra¿enia: 1K6 + 3
 Trak0: +2
-Specjalny: Nieznane
+Specjalne: Nieznane
 Typ obra¿eñ: Obuchowe
 Waga: 4
 OpóŸnienie: 1
@@ -2154,8 +2154,8 @@ Typ: Dwurêczny
 Mo¿e u¿ywaæ:
  Gnomi u¿ytkownicy magii~
 
-@1414 = ~M³ot bojowy Tearlaca Truehammera "Upadek Gigantów"~
-@1416 = ~To jest m³ot bojowy u¿ywany przez Tearlaca Truehammera. Stworzy³ on ten m³ot pod czujnym okiem ojca. Niektórzy uwa¿aj¹, ¿e niezrównane rzemios³o ojca odziedziczy³ m³ody krasnolud. Tearlac z dum¹ pokry³ mitrylowy m³ot runami, a trzonek wzmocni³, by ³atwo go dzier¿yæ.
+@1414 = ~Upadek Gigantów~
+@1416 = ~To jest m³ot bojowy u¿ywany przez Tearlaca „Prawdziwego M³ota”. Stworzy³ on ten m³ot pod czujnym okiem ojca. Niektórzy uwa¿aj¹, ¿e niezrównane rzemios³o ojca odziedziczy³ m³ody krasnolud. Tearlac z dum¹ pokry³ mitrylowy m³ot runami, a trzonek wzmocni³, by ³atwo go dzier¿yæ.
 
 STATYSTKI:
 
@@ -2189,7 +2189,7 @@ Rodzaj Bieg³oœci: W³ócznia
 Typ: Dwurêczny
 
 Nie mo¿e u¿ywaæ:
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
@@ -2209,13 +2209,13 @@ Rodzaj Bieg³oœci: W³ócznia
 Typ: Dwurêczny
 
 Nie mo¿e u¿ywaæ:
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
  W³adca Bestii~
 
-@1426 = ~Wiekiera +1 Otha Truehammera~
+@1426 = ~Wiekiera +1 Otha „Prawdziwego M³ota”~
 @1428 = ~Tê wiekierê wykona³ Otho. Wiekiera jest w prostej linii spadkobierczyni¹ zwyk³ej maczugi, bêd¹c po prostu drewnianym trzonem, na którym zosta³a osadzona kamienna lub metalowa g³owa o ró¿nym kszta³cie i ró¿nej jakoœci. Pomimo wystêpuj¹cych k³opotów z ¿elazem, ka¿dy kowal zawsze trzyma pewien zapas na "czarn¹ godzinê".
 
 STATYSTKI:
@@ -2236,7 +2236,7 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca Bestii~
 
-@1429 = ~Wiekiera +1 Otha Truehammera~
+@1429 = ~Wiekiera +1 Otha „Prawdziwego M³ota”~
 @1430 = ~Jest to wiekiera Otho, która zosta³a dodatkowo wzmocniona czarem Elminstera przeciw nieumar³ym. Teraz otacza j¹ b³êkitna poœwiata.
 
 STATYSTKI:
@@ -2258,13 +2258,13 @@ Nie mo¿e u¿ywaæ:
  W³adca Bestii~
 
 @1431 = ~B³ogos³awiona Wiekiera Zaburzeñ~
-@1432 = ~Kap³an Poranka Lathandera, Jarent pob³ogos³awi³ tê broñ tak, ¿e mo¿esz wyczuæ niemal¿e jej moc ¿ycia i pragnienie unicestwiania o¿ywieñców.
+@1432 = ~Kap³an Poranka Lathandera, Jarent pob³ogos³awi³ tê broñ tak, ¿e mo¿esz wyczuæ niemal¿e jej moc ¿ycia i pragnienie unicestwiania nieumar³ych.
 
 STATYSTKI:
 
 Obra¿enia: 1K6 + 2, +2 przeciw nieumar³ym
 Trak0: +2
-Specjalny:
+Specjalne:
   Zniszczy wiêkszoœæ nieumar³ych przy trafieniu.
 Typ obra¿eñ: Obuchowe
 Waga: 8
@@ -2281,14 +2281,14 @@ Nie mo¿e u¿ywaæ:
  W³adca Bestii~
 
 @1436 = ~Sztylet +3: 'Zdradliwe ¯¹d³o'~
-@1438 = ~Taki sztylet móg³a stworzyæ tylko wyj¹tkowo szalona i opêtana istota. Nie s¹ znane szczegó³y historii tej broni, ale pewne jest, ¿e doœæ d³ugo znajdowa³a siê w rêkach znanego zabójcy. Z uwagi na niebezpieczn¹ naturê sztyletu zarówno dla ofiary jak i napastnika, nietrudno domyœliæ siê losu tego zabójcy.
+@1438 = ~Taki sztylet mogla stworzyæ tylko wyj¹tkowo szalona i opêtana istota. Nie s¹ znane szczegó³y historii tej broni, ale pewne jest, ¿e doœæ d³ugo znajdowa³a siê w rêkach znanego zabójcy. Z uwagi na niebezpieczn¹ naturê sztyletu zarówno dla ofiary jak i napastnika, nietrudno domyœliæ siê losu tego zabójcy.
 
 STATYSTKI:
 
 Obra¿enia (walka wrêcz): 1K4 + 3, +8 od trucizny(rzut obronny na po³owê)
 Obra¿enia (pocisk): 1K4 + 3, +8 od trucizny(rzut obronny na po³owê)
 Trak0: +3
-Specjalny:
+Specjalne:
   5% chance na zaciêcie rzucaj¹cego(4 obra¿enia od trucizny bez rzutu obronnego
   Powraca po rzucie
 Typ obra¿eñ: k³óte
@@ -2299,7 +2299,7 @@ Typ: Jednorêczny
 Wymaga: 3 Si³y
 
 Nie mo¿e u¿ywaæ:
- Kleryk
+ Kap³an
  W³adca Bestii~
 
 @1439 = ~Drowi Sztylet z Adamantium +3~
@@ -2309,7 +2309,7 @@ STATYSTKI:
 
 Obra¿enia: 1K4 + 3
 Trak0: +3
-Specjalny:
+Specjalne:
   Trucizna, 30 Obra¿eñ w ci¹gu 15 sekund i uœpienie na 30 sekund chyba, ¿e zostanie wykonany udany rzut przeciw truciznie z modyfikatorem -4
 Waga: 1
 OpóŸnienie: 2
@@ -2317,8 +2317,8 @@ Rodzaj Bieg³oœci: Sztylet
 Typ: Jednorêczny
 Wymaga: 3 Si³y
 
-Mo¿e Uzywaæ:
- Nie-Kleryk
+Mo¿e u¿ywaæ:
+ Nie-Kap³an
  Postacie o z³ym charakterze~
 
 @1441 = ~Kie³ D'Raavhena~
@@ -2328,15 +2328,15 @@ STATYSTKI:
 
 Obra¿enia: 1DK + 4
 Trak0: +4
-Specjalny: Vampiryczny
+Specjalne: Vampiryczny
 Waga: 1
 OpóŸnienie: 0
 Rodzaj Bieg³oœci: Sztylet
 Typ: Jednorêczny
 Wymaga: 3 Si³y
 
-Mo¿e Uzywaæ:
- Nie-Kleryk
+Mo¿e u¿ywaæ:
+ Nie-Kap³an
  Postacie o z³ym charakterze~
 
 @1446 = ~Lekka Kusza Szybkoœci Keirii Silverstring~
@@ -2346,7 +2346,7 @@ STATYSTKI:
 
 Obra¿enia: +1 (pocisk)
 Trak0: +1
-Specjalny: 1 dodatkowy atak na runde
+Specjalne: 1 dodatkowy atak na runde
 Waga: 5
 OpóŸnienie: 3
 Rodzaj Bieg³oœci: Kusza
@@ -2379,7 +2379,7 @@ STATYSTKI:
 
 Obra¿enia: +3
 Trak0: +3
-Specjalny: +1 Si³y
+Specjalne: +1 Si³y
 Waga: 2
 OpóŸnienie: 5
 Rodzaj Bieg³oœci: D³ugi £uk
@@ -2388,7 +2388,7 @@ Wymaga: 6 Si³y
 
 Nie mo¿e u¿ywaæ:
  Druid
- Kleryk
+ Kap³an
  Mag
  Z³odziej
  Mnich
@@ -2402,7 +2402,7 @@ STATYSTKI:
 
 Obra¿enia: +3
 Trak0: +2
-Specjalny: Tworzy strza³y uderzenia
+Specjalne: Tworzy strza³y uderzenia
 Waga: 2
 OpóŸnienie: 5
 Rodzaj Bieg³oœci: D³ugi £uk
@@ -2410,7 +2410,7 @@ Typ: Dwurêczny
 Wymaga: 6 Si³y
 
 Mo¿e u¿ywaæ:
- Palladyn~
+ Paladyn~
 
 @1462 = ~Ró¿d¿ka Ettina~
 @1464 = ~Ettin by³ mnichem, ¿yj¹cym w czasach rasy Staro¿ytnych. oprócz swoich znanych receptur, odkry³ tak¿e pewne zio³a wywo³uj¹ce parali¿. Wiedza o tych w³asnoœciach pos³u¿y³a nastêpnie stworzeniu tej magicznej ró¿d¿ki.
@@ -2418,12 +2418,12 @@ Mo¿e u¿ywaæ:
 STATYSTKI:
 
 Efekt: Og³usza Cel
-Specjalny: 30% szansa na zatrucie przeciwnika
+Specjalne: 30% szansa na zatrucie przeciwnika
 Zasiêg: 100 stóp
 Obszar: 1 stworzenie
 Czas Trwania: 10 Rund
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Bard
  Mag~
 
@@ -2433,9 +2433,9 @@ Mo¿e Uzywaæ:
 STATYSTKI:
 
 Obra¿enia: 2k4
-Specjalny: Szansa na dodatkowe obra¿enia przez nastêpne 3 rundy.
+Specjalne: Szansa na dodatkowe obra¿enia przez nastêpne 3 rundy.
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Bard
  Mag~
 
@@ -2444,12 +2444,12 @@ Mo¿e Uzywaæ:
 
 STATYSTKI:
 
-Specjalny: Kula Energii Elektrycznej
+Specjalne: Kula Energii Elektrycznej
 Obra¿enia: 6k6 + 6
 Zasiêg: 100 stóp
 Area: 20 metrów
 
-Mo¿e Uzywaæ:
+Mo¿e u¿ywaæ:
  Bard
  Mag~
 
@@ -2493,7 +2493,7 @@ STATYSTKI:
 
 Obra¿enia: 1K6 + 3
 Trak0: +3
-Specjalny:
+Specjalne:
   +1 do rzutów obronnych
   U¿ywajacy ulega rozmyciu
 Typ obra¿eñ: Obuchowe
@@ -2523,23 +2523,23 @@ Nie mo¿e u¿ywaæ:
 @2007 = ~[GLANMARIE 3]~ [GLANM03]
 @2008 = ~Conchobhair Strongblade~
 
-@2046 = ~Conchobhair pochodzi z Waterdeep. Jest najm³odszym z czworga synów wp³ywowej rodziny w Waterdeep. Jednak jako najm³odszy w rodzinie nie liczy³ na zbytni¹ troskê innych i dlatego w wieku 20 lat opóœci³ dom. Na pocz¹tku zosta³ paladynem, jednak nu¿y³a go dyscyplina œwi¹tynna. Podzcas jednej z wypraw z Waterdeep do Wrót Badur spotka³ wojownika Fergusa Ravenskilla. Fergus by³ porywczy i wiêkszoœæ ze swego ponad piêædzisiêcioletniego ¿ycia spêdzi³ na polach walki. Razem spêdzili kilka miesiêcy na szlaku, gdzie opowieœci Ravenskilla zaintrygowa³y m³odzieñca. Jednak opowieœæ o potyczce z niebieskim smokiem zawa¿y³a na dalszych losach Conchobhaira, który przy swoim towarzyszu przez nastêpne 6 lat poznawa³ wszystkie mo¿liwe aspekty sztuki wojennej. I tak pewnego dnia stanêli oko w oko z czerwonym smokiem, który ju¿ wczeœniejsze spotkanie z Fergusem przyp³aci³ strat¹ oka. Niestety w bitwie Fergus zgin¹³, a Conchobhair poprzysi¹g³ œmieræ wszystkim napotkanym smokom.~
+@2046 = ~Conchobhair pochodzi z Waterdeep. Jest najm³odszym z czworga synów wp³ywowej rodziny w Waterdeep. Jednak jako najm³odszy w rodzinie nie liczy³ na zbytni¹ troskê innych i dlatego w wieku 20 lat opóœci³ dom. Na pocz¹tku zosta³ paladynem, jednak nu¿y³a go dyscyplina œwi¹tynna. Podzcas jednej z wypraw z Waterdeep do Wrót Badur spotka³ wojownika Fergusa Ravenskilla. Fergus by³ porywczy i wiêkszoœæ ze swego ponad piêædziesiêcioletniego ¿ycia spêdzi³ na polach walki. Razem spêdzili kilka miesiêcy na szlaku, gdzie opowieœci Ravenskilla zaintrygowa³y m³odzieñca. Jednak opowieœæ o potyczce z niebieskim smokiem zawa¿y³a na dalszych losach Conchobhaira, który przy swoim towarzyszu przez nastêpne 6 lat poznawa³ wszystkie mo¿liwe aspekty sztuki wojennej. I tak pewnego dnia stanêli oko w oko z czerwonym smokiem, który ju¿ wczeœniejsze spotkanie z Fergusem przyp³aci³ strat¹ oka. Niestety w bitwie Fergus zgin¹³, a Conchobhair poprzysi¹g³ œmieræ wszystkim napotkanym smokom.~
 @2047 = ~Cooshee~
 @2048 = ~CúChoinneach~
 
 @2077 = ~Niewiele wiesz o CuChoinneachu i jego wilku cienia. Nie wiadomo sk¹d pochodzi, ani dok¹d zd¹¿a. Widaæ jednak, ¿e straci³ tak charakterystyczn¹ dla swojej rasy chêæ ¿ycia. Elf jest bardzo ma³omówny, ale z jego zdawkowych odpowiedzi wynika, ¿e podporz¹dkowa³ wszystko tylko jednemu celowi: Zniszczyæ Lorda Daerthmaca!.~
 @2079 = ~Deazle~
-@2080 = ~Drowi Mistrz Broni~
-@2081 = ~Drowi Mag~
-@2082 = ~Drowi Wojownik~
-@2083 = ~Drowia Elita~
-@2084 = ~Duergar Wojownik~
-@2085 = ~Duergar Mag~
-@2086 = ~Duergar Przywo³ywacz Szkieletów~
-@2087 = ~Duergar Z³odziej~
-@2088 = ~Duergar Stra¿nik~
-@2089 = ~Duergar Kap³an~
-@2090 = ~Duergar Górnik~
+@2080 = ~Drowi mistrz broni~
+@2081 = ~Drowi mag~
+@2082 = ~Drowi wojownik~
+@2083 = ~Drowia elita~
+@2084 = ~Duergar wojownik~
+@2085 = ~Duergar mag~
+@2086 = ~Duergar przywo³ywacz szkieletów~
+@2087 = ~Duergar z³odziej~
+@2088 = ~Duergar stra¿nik~
+@2089 = ~Duergar kap³an~
+@2090 = ~Duergar górnik~
 @2091 = ~Ferthgil Trollslayer~
 
 @2133 = ~FERTHGIL TROLLSLAYER
@@ -2548,7 +2548,7 @@ Ferthgil wychowa³ siê w Chmurnych Szczytach, a jego ojciec, Breachin Zabójca Tro
 Wtedy w³aœnie spotka³ Gulmotha Stoneheartha an Alaghor, kap³ana Clanggedin Srebrnobrodego.
 Gulmoth dostrzeg³ zdolnoœci Ferthgila i wychowa³ go na oddanego s³ugê dobra w imiê krasnoludzkiego boga wojny.
 Potem, wiedziony wewnêtrzn¹ potrzeb¹, Ferthgil wyruszy³ w podró¿ po ziemiach Faerunu.
-W czasie tych podró¿y zaprzyjaŸni³ siê z innym gor¹cokrwistym, m³odym krasnoludem Tearlacem Truehammerem.
+W czasie tych podró¿y zaprzyjaŸni³ siê z innym gor¹cokrwistym, m³odym krasnoludem Tearlacem „Prawdziwym M³otem”.
 Tearlac i Ferthgil byli przyjació³mi na dobre i z³e, a przyjaŸ³ ta pozwala³a Ferthgilowi znowu poczuæ rodzinne wiêzy.~
 
 @2134 = ~Fey'doch~
@@ -2558,24 +2558,24 @@ Tearlac i Ferthgil byli przyjació³mi na dobre i z³e, a przyjaŸ³ ta pozwala³a Fer
 
 @2142 = ~Ma³y Leœny Smok~
 @2143 = ~Gillian Ghastkill~
-@2144 = ~Kapitan Gnolli~
+@2144 = ~Kapitan gnolli~
 
 @2146 = ~Giñ szumowino !~ [GNOLL04]
 
 @2151 = ~Szef Goblinów~
 @2152 = ~Grog~
 @2153 = ~Gandolar Luckyfoot~
-@2154 = ~Dobrze ciê spotkaæ, podró¿niku. Gandolar Luckyfoot do twojej dyspozycji..~ [GANDL01]
+@2154 = ~Witaj, wêdrowcze. Gandolar Szczêœliwa Stopa, do us³ug.~ [GANDL01]
 
 
-@2157 = ~Gullykin jest nasz¹ dum¹ i radoœci¹. Traktuj j¹ dobrze.~ [GANDL02]
-@2158 = ~Nizio³ek Wojownik~
-@2159 = ~Nizio³ek Z³odziej~
+@2157 = ~Gullykin to nasza duma i radoœæ. Dobrze j¹ traktuj.~ [GANDL02]
+@2158 = ~Nizio³ek wojownik~
+@2159 = ~Nizio³ek z³odziej~
 @2160 = ~Jabress Xaendrassa Auvryndar~
 @2161 = ~Kap³an Brzasku Lathandera Jarent~
 @2162 = ~Jeremy~
 @2163 = ~Jet'laya~
-@2164 = ~Szaman Xvartów~
+@2164 = ~Szaman xvartów~
 @2165 = ~Gdy orzeŸwiaj¹ce powietrze i blask s³oñca dosiêgaj¹ przedmiotów drowów, które niesiesz, te zmieniaj¹ siê w py³ i rozsypuj¹ na ziemi woko³o~
 
 @2202 = ~Wuj' Jet'layi, podobno szlachcic, wyruszy³ na poszukiwanie przygód. Podczas podró¿y spotka³ i kilkakrotnie zosta³ uratowany przez przysz³ego ojca Jet'layi, Torvina. Wówczas zostali przyjació³mi i powrócili do Cormanthor. Bêd¹c w mieœcie, Lennan (Le*non) przedstawi³ Torvina ojcu, znanemu arystokracie. W podziêce za opiekê nad synem Torvin, zosta³ przyjêty w mieœcie i sta³ siê popularn¹ postaci¹. Wkrótce tez pozna³ matkê Jet'layi, a po œlubie zamieszkali na skraju pobliskiej kniei.
@@ -2599,7 +2599,7 @@ Kiedy Jet'laya i jej brat mieli szeœæ lat, Cormanthor zosta³ zaatakowany przez w
 @2254 = ~Mortius~
 @2255 = ~Lord Norby Boozluck~
 @2256 = ~Ork~
-@2257 = ~Otho Truehammer~
+@2257 = ~Otho „Prawdziwy M³ot”~
 @2258 = ~Fantom~
 @2259 = ~Atr'Jkslad'Roa'CH~
 @2260 = ~Shar Nadal~
@@ -2610,12 +2610,12 @@ Kiedy Jet'laya i jej brat mieli szeœæ lat, Cormanthor zosta³ zaatakowany przez w
 @2288 = ~Thomic~
 @2289 = ~Torquil~
 @2290 = ~Trungle~
-@2291 = ~M³ody Vampir~
+@2291 = ~M³ody wampir~
 @2292 = ~Lord Daerthmac~
-@2293 = ~Wojownik Leœnych Elfów~
-@2294 = ~Elita Leœnych Elfów~
+@2293 = ~Wojownik leœnych elfów~
+@2294 = ~Elita leœnych elfów~
 @2295 = ~Madadh n'Sgàil~
-@2296 = ~Lord Szkieletów~
+@2296 = ~Lord szkieletów~
 //@2300 = ~Las Ostrych K³ów~
 //@2301 = ~Wyjœcie~
 @2302 = ~Zamek Daerthmaca~

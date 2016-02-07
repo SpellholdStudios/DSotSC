@@ -10,7 +10,7 @@ IF ~~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN DO ~TakePartyItem("DSMISC02")
 SetGlobalTimer("MakeMace","GLOBAL",FIVE_DAYS)
-SetGlobal("OthoMace","GLOBAL",1)~ JOURNAL @4 EXIT
+SetGlobal("OthoMace","GLOBAL",1)~ JOURNAL @90600 EXIT
 END
 
 IF ~GlobalTimerExpired("MakeMace","GLOBAL")
@@ -19,7 +19,7 @@ AreaCheck("%Beregost_ThunderhammerSmithy%")~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN DO ~GiveItem("DSMACE01",LastTalkedToBy)
 SetGlobal("OthoMace","GLOBAL",2)
-~ JOURNAL @6 EXIT
+~ JOURNAL @90601 EXIT
 END
 
 IF ~!GlobalTimerExpired("MakeMace","GLOBAL")
@@ -83,7 +83,7 @@ IF ~~ THEN BEGIN 12
   SAY @23
   IF ~~ THEN DO ~SetGlobal("FindTearlac","GLOBAL",1)
 EscapeArea()
-~ JOURNAL @24 EXIT
+~ UNSOLVED_JOURNAL @90602 EXIT
 END
 
 IF ~~ THEN BEGIN 13
@@ -102,9 +102,11 @@ END
 IF ~PartyHasItem("DSHAMM01")
 ~ THEN BEGIN 15
   SAY @29
-  IF ~~ THEN DO ~AddexperienceParty(1700)
+  IF ~~ THEN DO ~EraseJournalEntry(@90602)
+EraseJournalEntry(@90700)
+AddexperienceParty(1700)
 ReputationInc(1)
 TakePartyItem("DSHAMM01")
 EscapeArea()
-~ JOURNAL @30 EXIT
+~ SOLVED_JOURNAL @90603 EXIT
 END

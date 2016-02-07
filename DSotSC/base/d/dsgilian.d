@@ -63,7 +63,7 @@ END
 IF ~~ THEN BEGIN 9
   SAY @24
   IF ~~ THEN DO ~SetGlobal("TalkedGillian","GLOBAL",1)
-~ JOURNAL @25 EXIT
+~ UNSOLVED_JOURNAL @90100 EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -71,14 +71,14 @@ IF ~~ THEN BEGIN 10
   IF ~~ THEN REPLY @27 GOTO 11
   IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillia","GLOBAL",1)
 SetGlobal("GilliaPay","GLOBAL",1)
-~ JOURNAL @25 EXIT
+~ UNSOLVED_JOURNAL @90100 EXIT
 END
 
 IF ~~ THEN BEGIN 11
   SAY @29
   IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillian","GLOBAL",1)
 SetGlobal("GilliaPay","GLOBAL",1)
-~ JOURNAL @25 EXIT
+~ UNSOLVED_JOURNAL @90100 EXIT
   IF ~~ THEN REPLY @30 GOTO 12
 END
 
@@ -86,7 +86,7 @@ IF ~~ THEN BEGIN 12
   SAY @31
   IF ~~ THEN DO ~SetGlobal("TalkedGillian","GLOBAL",1)
 SetGlobal("GilliaPay","GLOBAL",2)
-~ JOURNAL @25 EXIT
+~ UNSOLVED_JOURNAL @90100 EXIT
 END
 
 IF ~!PartyHasItem("DSMISC07")
@@ -98,29 +98,35 @@ END
 IF ~PartyHasItem("DSMISC07")
 ~ THEN BEGIN 14
   SAY @34
-  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+  IF ~~ THEN DO ~EraseJournalEntry(@90000)
+EraseJournalEntry(@90100)
+TakePartyItem("DSMISC07")
 ReputationInc(2)
 EscapeArea()
-~ JOURNAL @35 EXIT
+~ SOLVED_JOURNAL @90101 EXIT
 END
 
 IF ~PartyHasItem("DSMISC07")
 Global("GilliaPay","GLOBAL",1)
 ~ THEN BEGIN 15
   SAY @34
-  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+  IF ~~ THEN DO ~EraseJournalEntry(@90000)
+EraseJournalEntry(@90100)
+TakePartyItem("DSMISC07")
 GivePartyGold(1000)
 EscapeArea()
-~ JOURNAL @35 EXIT
+~ SOLVED_JOURNAL @90101 EXIT
 END
 
 IF ~PartyHasItem("DSMISC07")
 Global("GilliaPay","GLOBAL",2)
 ~ THEN BEGIN 16
   SAY @34
-  IF ~~ THEN DO ~TakePartyItem("DSMISC07")
+  IF ~~ THEN DO ~EraseJournalEntry(@90000)
+EraseJournalEntry(@90100)
+TakePartyItem("DSMISC07")
 GivePartyGold(5000)
 ReputationInc(-2)
 EscapeArea()
-~ JOURNAL @35 EXIT
+~ SOLVED_JOURNAL @90101 EXIT
 END

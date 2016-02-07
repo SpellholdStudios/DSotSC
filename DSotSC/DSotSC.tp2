@@ -68,7 +68,7 @@ ALWAYS
 			"russian" => "CP1251"
 			"castilian" => "CP1252"
 		END
-		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc END
+		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc journal END
 		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
 		LAF ~HANDLE_CHARSETS~
 			INT_VAR
@@ -90,32 +90,38 @@ LANGUAGE
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/english/setup.tra~
 	~DSotSC/language/english/soundsets_dsotsc.tra~
+	~DSotSC/language/english/journal.tra~
 /*LANGUAGE
 	~Castilian (translation updated by Lisandro)~
 	~castilian~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/castilian/setup.tra~
+	~DSotSC/language/castilian/journal.tra~
 LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
 	~german~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/german/setup.tra~
+	~DSotSC/language/german/journal.tra~
 LANGUAGE
 	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net) & Turambar)~
 	~italian~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/italian/setup.tra~
+	~DSotSC/language/italian/journal.tra~
 LANGUAGE
 	~Polish (translation Black Dragon & Promilus)~
 	~polish~
 	~DSotSC/language/polish/prompts.tra~
 	~DSotSC/language/polish/setup.tra~
-	~DSotSC/language/english/soundsets_dsotsc.tra~
+	~DSotSC/language/polish/soundsets_dsotsc.tra~
+	~DSotSC/language/polish/journal.tra~
 LANGUAGE
 	~Russian (translation aVoddle, Alex, Badgert & aerie.ru & prowler)~
 	~russian~
 	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/russian/setup.tra~*/
+	~DSotSC/language/russian/setup.tra~
+	~DSotSC/language/russian/journal.tra~*/
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -166,7 +172,7 @@ END
 /////                                                  \\\\\
 
 ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-	//will be added later, not really important so lower in priority list
+	ADD_JOURNAL @90000 @90100 @90101 @90200 @90201 @90300 @90301 @90400 @90401 @90500 @90602 @90603 @90700 @90800 USING ~DSotSC/language/%LANGUAGE%/journal.tra~
 END
 
 /////                                                  \\\\\
@@ -1720,25 +1726,38 @@ ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 	ACTION_PHP_EACH table_item_use AS item => cre BEGIN
 		COPY_EXISTING - ~%cre%.cre~ ~override~
 			READ_LONG NAME1 name
-			READ_ASCII DEATHVAR dv
+			READ_ASCII DEATHVAR dv (32) NULL
 		COPY_EXISTING ~%item%.itm~ ~override~
 			WRITE_LONG 0x1e 0
 			WRITE_BYTE 0x29 0
 			WRITE_BYTE 0x2b 0
 			WRITE_BYTE 0x2d 0
 			WRITE_BYTE 0x2f 0
-			LPF ADD_ITEM_EQEFFECT
-				INT_VAR
-				opcode = 319 //Item Usability
-				target = 1
-				timing = 2
-				parameter2 = 11
-				power = 1 //Usable by
-				probability1 = 100
-				special = name
-				STR_VAR
-				resource = EVAL "%dv%"
+			PATCH_IF (STRING_LENGTH ~%dv%~ > 8) BEGIN
+				LPF ADD_ITEM_EQEFFECT
+					INT_VAR
+					opcode = 319 //Item Usability
+					target = 1
+					timing = 2
+					parameter1 = name
+					parameter2 = 10
+					power = 1 //Usable by
+					special = name
+				END
+			END ELSE BEGIN
+				LPF ADD_ITEM_EQEFFECT
+					INT_VAR
+					opcode = 319 //Item Usability
+					target = 1
+					timing = 2
+					parameter2 = 11
+					power = 1 //Usable by
+					special = name
+					STR_VAR
+					resource = EVAL "%dv%"
+				END
 			END
+		BUT_ONLY
 	END
 END
 

@@ -21,7 +21,7 @@ CreateCreature("GIBBER",[900.2600],0)
 Wait(15)
 SetNumTimesTalkedTo(10)
 SetInterrupt(TRUE)
-~ JOURNAL @2 EXIT
+~ JOURNAL @90900 EXIT
 END
 
 IF ~~ THEN BEGIN 8
@@ -43,7 +43,7 @@ CreateCreature("GIBBER",[900.2600],0)
 Wait(15)
 SetNumTimesTalkedTo(10)
 SetInterrupt(TRUE)
-~ JOURNAL @4 EXIT
+~ JOURNAL @90901 EXIT
 END
 
 END
