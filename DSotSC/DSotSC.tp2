@@ -2184,34 +2184,44 @@ ACTION_IF (GAME_IS ~eet~) BEGIN
 		END ~~
 END
 
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
-///// Biffing                                          \\\\\
+///// Biff DSotSC sound and graphic files              \\\\\
 /////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Nn]~ = 1) BEGIN //disable biffing if "n" character is detected as –args argument
+BEGIN ~Biff DSotSC sound and graphic files~
+REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
-	PRINT ~Biffing files....~
+PRINT ~Biffing files....~
 
-	MKDIR ~DSotSC/biff~
+MKDIR ~DSotSC/biff~
 
-	ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.*$~ BEGIN
+ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.*$~ BEGIN
+	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.tis~ BEGIN
 		MOVE ~override/%BASH_FOR_RES%.tis~ ~DSotSC/biff~
 	END
-	ACTION_BASH_FOR ~DSotSC/base/ogg~ ~^.*$~ BEGIN
-		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
-	END
-	ACTION_BASH_FOR ~%ogg_dir%~ ~^.*$~ BEGIN
-		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
-	END
-	ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%engine%~ ~portraits/%engine%~ ~portraits/l~ ~wed~ BEGIN
-		ACTION_BASH_FOR ~DSotSC/base/%dir%~ ~^.*$~ BEGIN
-			MOVE ~override/%BASH_FOR_FILE%~ ~DSotSC/biff~
-		END
-	END
-
-	MAKE_BIFF ~DSotSC~ BEGIN ~DSotSC/biff~ ~^.*$~ END
-
 END
+ACTION_BASH_FOR ~DSotSC/base/ogg~ ~^.*$~ BEGIN
+	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.wav~ BEGIN
+		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
+	END
+END
+ACTION_BASH_FOR ~%ogg_dir%~ ~^.*$~ BEGIN
+	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.wav~ BEGIN
+		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
+	END
+END
+ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%engine%~ ~portraits/%engine%~ ~portraits/l~ BEGIN
+	ACTION_BASH_FOR ~DSotSC/base/%dir%~ ~^.*$~ BEGIN
+		MOVE ~override/%BASH_FOR_FILE%~ ~DSotSC/biff~
+	END
+END
+
+MAKE_BIFF ~DSotSC~ BEGIN ~DSotSC/biff~ ~^.*$~ END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
