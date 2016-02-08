@@ -134,8 +134,6 @@ LANGUAGE
 BEGIN ~Dark Side of the Sword Coast (DSotSC)~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
-FORBID_COMPONENT ~setup-infinityanimations.tp2~ ~0~ ~This mod should be installed BEFORE Infinity Animations - core~
-FORBID_COMPONENT ~generalized_biffing.tp2~ ~0~ ~This mod should be installed BEFORE Generalized Biffing~
 
 /////                                                  \\\\\
 ///// sound sets menu                                  \\\\\
@@ -2010,63 +2008,6 @@ COMPILE ~DSotSC/modify/dlg/ds#laurel.d~ EVALUATE_BUFFER
 COMPILE ~DSotSC/modify/dlg/elmin3.d~ EVALUATE_BUFFER
 
 /////                                                  \\\\\
-///// install images (BAM, BMP, MOS)                   \\\\\
-/////                                                  \\\\\
-
-ACTION_IF (GAME_IS ~eet~) BEGIN
-	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/bg5500sr.bmp~
-		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/bg2400sr.bmp~
-END
-
-COPY ~DSotSC/base/bam~ ~override~
-	~DSotSC/base/bmp~ ~override~
-	~DSotSC/base/mos/%engine%~ ~override~
-	~DSotSC/base/portraits/%engine%~ ~override~
-	~DSotSC/base/portraits/l~ ~override~
-
-/////                                                  \\\\\
-///// extract tilsets & audio                          \\\\\
-/////                                                  \\\\\
-
-ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
-	AT_NOW ~%tileconv% -e -o "override%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
-END
-
-LAF HANDLE_AUDIO
-	STR_VAR
-    audio_path = ~DSotSC/base/ogg~
-    oggdec_path = ~DSotSC/bin/win32~
-    sox_path = ~DSotSC/bin/osx~
-END
-
-ACTION_IF ~%wav_version%~ STRING_EQUAL_CASE ~original~ BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg_original~
-	ACTION_BASH_FOR ~DSotSC/language/english/ogg_original~ ~^.*\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS ~%ogg_dir%/%BASH_FOR_FILE%~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%ogg_dir%~
-		END
-	END
-	LAF HANDLE_AUDIO
-		STR_VAR
-		audio_path = EVAL ~%ogg_dir%~
-		oggdec_path = ~DSotSC/bin/win32~
-		sox_path = ~DSotSC/bin/osx~
-	END
-END ELSE BEGIN
-	ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
-		OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
-	END ELSE BEGIN
-		OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
-	END
-	LAF HANDLE_AUDIO
-		STR_VAR
-		audio_path = EVAL ~%ogg_dir%~
-		oggdec_path = ~DSotSC/bin/win32~
-		sox_path = ~DSotSC/bin/osx~
-	END
-END
-
-/////                                                  \\\\\
 ///// Worldmap                                         \\\\\
 /////                                                  \\\\\
 
@@ -2184,44 +2125,71 @@ ACTION_IF (GAME_IS ~eet~) BEGIN
 		END ~~
 END
 
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
-///// Biff DSotSC sound and graphic files              \\\\\
+///// Decompressing and buffing                        \\\\\
 /////                                                  \\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-
-BEGIN ~Biff DSotSC sound and graphic files~
-REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
-REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
-
-PRINT ~Biffing files....~
 
 MKDIR ~DSotSC/biff~
 
-ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.*$~ BEGIN
-	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.tis~ BEGIN
-		MOVE ~override/%BASH_FOR_RES%.tis~ ~DSotSC/biff~
-	END
+ACTION_IF GAME_IS ~eet~ BEGIN
+	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/bg5500sr.bmp~
+		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/bg2400sr.bmp~
+END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN //not used
+	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/ar5500sr.bmp~
+		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/ar2400sr.bmp~
 END
-ACTION_BASH_FOR ~DSotSC/base/ogg~ ~^.*$~ BEGIN
-	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.wav~ BEGIN
-		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
-	END
+
+ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
+	AT_NOW ~%tileconv% -e -o "DSotSC%os_slash%biff%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
 END
-ACTION_BASH_FOR ~%ogg_dir%~ ~^.*$~ BEGIN
-	ACTION_IF FILE_EXISTS ~override/%BASH_FOR_RES%.wav~ BEGIN
-		MOVE ~override/%BASH_FOR_RES%.wav~ ~DSotSC/biff~
-	END
+
+LAF HANDLE_AUDIO
+	STR_VAR
+    audio_path = ~DSotSC/base/ogg~
+    oggdec_path = ~DSotSC/bin/win32~
+    sox_path = ~DSotSC/bin/osx~
+	output_path = ~DSotSC/biff~
 END
-ACTION_FOR_EACH dir IN ~bam~ ~bmp~ ~mos/%engine%~ ~portraits/%engine%~ ~portraits/l~ BEGIN
-	ACTION_BASH_FOR ~DSotSC/base/%dir%~ ~^.*$~ BEGIN
-		MOVE ~override/%BASH_FOR_FILE%~ ~DSotSC/biff~
+
+ACTION_IF ~%wav_version%~ STRING_EQUAL_CASE ~original~ BEGIN
+	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg_original~
+	ACTION_BASH_FOR ~DSotSC/language/english/ogg_original~ ~^.*\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS ~%ogg_dir%/%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~%ogg_dir%~
+		END
+	END
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = EVAL ~%ogg_dir%~
+		oggdec_path = ~DSotSC/bin/win32~
+		sox_path = ~DSotSC/bin/osx~
+		output_path = ~DSotSC/biff~
+	END
+END ELSE BEGIN
+	ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
+		OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
+	END ELSE BEGIN
+		OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
+	END
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = EVAL ~%ogg_dir%~
+		oggdec_path = ~DSotSC/bin/win32~
+		sox_path = ~DSotSC/bin/osx~
+		output_path = ~DSotSC/biff~
 	END
 END
 
-MAKE_BIFF ~DSotSC~ BEGIN ~DSotSC/biff~ ~^.*$~ END
+PRINT ~Biffing files....~
+
+MAKE_BIFF ~DSotSC~ BEGIN
+	~DSotSC/biff~ ~^.*$~
+	~DSotSC/base/bam~ ~^.*$~
+	~DSotSC/base/bmp~ ~^.*$~
+	~DSotSC/base/mos/%engine%~ ~^.*$~
+	~DSotSC/base/portraits/%engine%~ ~^.*$~
+	~DSotSC/base/portraits/l~ ~^.*$~
+END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
