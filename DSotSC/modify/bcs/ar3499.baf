@@ -3,16 +3,16 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("EnteredAR3499","%BearRiver%",1)
-		ActionOverride("OGRECO",JumpToPoint([905.3567]))
+		//ActionOverride("OGRECO",JumpToPoint([905.3567]))
 		CreateCreature("DSFEYDO",[404.916],0)
 		CreateCreature("DSCOOSHE",[410.921],5)
-		ActionOverride("JARED",JumpToPoint([4874.3599]))
+		//ActionOverride("JARED",JumpToPoint([4874.3599]))
 		CreateCreature("DSWELF1",[4666.3703],12)
 		CreateCreature("DSWELF1E",[4528.3627],0)
 		CreateCreature("DSWELF2",[4408.3633],0)
 		CreateCreature("DSWELF2E",[4239.3631],0)
 		CreateCreature("DSWELF1E",[3871.3633],0)
 		CreateCreature("DSWELF1",[3084.2954],0)
-		ActionOverride("LAUREL",JumpToPoint([1060.2718]))
+		//ActionOverride("LAUREL",JumpToPoint([1060.2718]))
 		CreateCreature("DSWELF2E",[1277.1110],0)
 END

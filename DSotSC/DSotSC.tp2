@@ -59,26 +59,28 @@ ALWAYS
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		COPY - ~weidu.conf~ ~.../weidu.conf~
 			READ_2DA_ENTRY 0 2 3 "lang_dir"
-		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
-			"german" => "CP1252"
-			"english" => "CP1252"
-			"french" => "CP1252"
-			"italian" => "CP1252"
-			"polish" => "CP1250"
-			"russian" => "CP1251"
-			"castilian" => "CP1252"
-		END
-		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc journal END
-		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
-		LAF ~HANDLE_CHARSETS~
-			INT_VAR
-			infer_charsets = 0
-			STR_VAR
-			tra_path = "DSotSC/language"
-			iconv_path = "DSotSC/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
-			charset_table = charsetsTable
-			reload_array = charsetsReloadArray
-			noconvert_array = charsetsNoConvertArray
+		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
+			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+				"german" => "CP1252"
+				"english" => "CP1252"
+				"french" => "CP1252"
+				"italian" => "CP1252"
+				"polish" => "CP1250"
+				"russian" => "CP1251"
+				"castilian" => "CP1252"
+			END
+			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc journal END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
+			LAF ~HANDLE_CHARSETS~
+				INT_VAR
+				infer_charsets = 0
+				STR_VAR
+				tra_path = "DSotSC/language"
+				iconv_path = "DSotSC/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
+				charset_table = charsetsTable
+				reload_array = charsetsReloadArray
+				noconvert_array = charsetsNoConvertArray
+			END
 		END
 		LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-ee.tra~
 	END
@@ -2004,7 +2006,6 @@ COMPILE ~DSotSC/base/d~ EVALUATE_BUFFER
 
 //Modify existing dialogues
 COMPILE ~DSotSC/modify/dlg/blane.d~ EVALUATE_BUFFER
-COMPILE ~DSotSC/modify/dlg/ds#laurel.d~ EVALUATE_BUFFER
 COMPILE ~DSotSC/modify/dlg/elmin3.d~ EVALUATE_BUFFER
 
 /////                                                  \\\\\
@@ -2037,92 +2038,19 @@ END ELSE BEGIN
 	COPY ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
-//EET Worldmap, BGT one is too small to have them natively, but both platforms are compatible with BP-BGT Worldmap
-ACTION_IF (GAME_IS ~eet~) BEGIN
-	COPY - ~DSotSC/Worldmap/%platform%/areas.tbl~ ~.../DSotSC/Worldmap/%platform%~
-		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([0-9\-]+\)[ %TAB%]+\([A-Z0-9#_@]+\)[ %TAB%]+\([A-Z0-9#_@]+\)~ BEGIN
-			SPRINT are_areName ~%MATCH1%~
-			PATCH_FOR_EACH var IN MATCH8 MATCH9 BEGIN
-				SPRINT match EVAL ~%%var%%~
-				PATCH_IF ~%match%~ STRING_EQUAL_CASE ~N~ BEGIN
-					SPRINT EVAL ~%var%~ ~~
-				END ELSE BEGIN
-					INNER_ACTION BEGIN
-						COPY - ~DSotSC/language/%LANGUAGE%/worldmap.tra~ ~.../DSotSC/language/%LANGUAGE%~
-							REPLACE_EVALUATE CASE_INSENSITIVE ~~~~~^\([ %TAB%]*%match%[ %TAB%]*=[ %TAB%]*[~"]\)\([^~^"]+\)\([~"]\)~~~~~ BEGIN
-								INNER_PATCH_SAVE string "%MATCH2%" BEGIN
-									REPLACE_TEXTUALLY "###" " "
-								END
-								SPRINT EVAL ~%var%~ ~%string%~
-							END ~~
-					END
-				END
-			END
-			SPRINT are_strName ~%MATCH8%~
-			SPRINT are_strDesc ~%MATCH9%~
-			SET are_visible = 0
-			SET are_visibleAdjacent = 0
-			SET are_reachable = 0
-			SET are_visited = 0
-			PATCH_IF (MATCH4 BAND BIT0) BEGIN
-				SET are_visible = 1
-			END
-			PATCH_IF (MATCH4 BAND BIT1) BEGIN
-				SET are_visibleAdjacent = 1
-			END
-			PATCH_IF (MATCH4 BAND BIT2) BEGIN
-				SET are_reachable = 1
-			END
-			PATCH_IF (MATCH4 BAND BIT3) BEGIN
-				SET are_visited = 1
-			END
-			INNER_ACTION BEGIN
-				LAF sc#addWmpAre
-					INT_VAR
-					mapIcon = MATCH5 //BAM_ANIM
-					xCoord  = MATCH6 //X_POS
-					yCoord  = MATCH7 //Y_POS
-					//FLAGS
-					visible = are_visible
-					visibleAdjacent = are_visibleAdjacent
-					reachable = are_reachable
-					visited = are_visited
-					STR_VAR
-					areName = EVAL "%are_areName%" //SHORT_NAME, CONTENT, LONG_NAME
-					strName = EVAL "%are_strName%" //NAME (string)
-					strDesc = EVAL "%are_strDesc%" //TOOLTIP (string)
-				END
-			END
-		END ~~
-	COPY - ~DSotSC/Worldmap/%platform%/links.tbl~ ~.../DSotSC/Worldmap/%platform%~
-		REPLACE_EVALUATE CASE_INSENSITIVE ~^\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([0-9]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([A-Z0-9#_]+\)[ %TAB%]+\([0-9]+\)~ BEGIN
-			PATCH_FOR_EACH var IN MATCH4 MATCH7 MATCH8 MATCH9 MATCH10 MATCH11 BEGIN
-				SPRINT match EVAL ~%%var%%~
-				PATCH_IF ~%match%~ STRING_EQUAL_CASE ~N~ BEGIN
-					SPRINT EVAL ~%var%~ ~~
-				END
-			END
-			INNER_ACTION BEGIN
-				COPY_EXISTING ~worldmap.wmp~ ~override~
-					LPF ADD_WORLDMAP_LINKS
-						INT_VAR
-						distance_scale = MATCH5 //TRV_TIME
-						default_entry = MATCH6 //DEF_ENTRY
-						encounter_probability = MATCH12 //ENC_PROB
-						STR_VAR
-						from_area = EVAL ~%MATCH1%~ //SRC_AREA
-						from_node = EVAL ~%MATCH2%~ //SRC_NWSE
-						to_area = EVAL ~%MATCH3%~ //TARGET_ARE
-						entry = EVAL ~%MATCH4%~ //ENTRY_NAME
-						random_area1 = EVAL ~%MATCH7%~ //ENC1
-						random_area2 = EVAL ~%MATCH8%~ //ENC2
-						random_area3 = EVAL ~%MATCH9%~ //ENC3
-						random_area4 = EVAL ~%MATCH10%~ //ENC4
-						random_area5 = EVAL ~%MATCH11%~ //ENC5
-					END
-				BUT_ONLY
-			END
-		END ~~
+//EET Worldmap, BGT one is not large enough to have them natively, but both platforms are compatible with BP-BGT Worldmap
+ACTION_IF GAME_IS ~eet~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
+	LAF ADD_WORLDMAP_TBL
+		INT_VAR
+		verbose = 1
+		inclSv = 0
+		STR_VAR
+		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/%platform%/areas.tbl~
+		path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
+		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/%platform%/links.tbl~
+		path_to_trans = EVAL ~%MOD_FOLDER%/language/%LANGUAGE%/worldmap.tra~
+	END
 END
 
 /////                                                  \\\\\
