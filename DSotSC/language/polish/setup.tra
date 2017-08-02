@@ -1162,16 +1162,6 @@ Katerin~
 By zniszczyæ lisza nale¿y mieæ j¹ przy sobie, uniemo¿liwia mu to odrodzenie siê.~
 @1162 = ~Staro¿ytna Relikwia Lathandera~
 @1163 = ~To jest relikwia której szukasz.~
-@1164 = ~Staro¿ytny Kielich~
-@1165 = ~Œwiêty Kielich~
-@1166 = ~Ten kielich wydaj siê byæ doœæ stary.~
-@1167 = ~Pij¹cy z tego kielicha mog¹ liczyæ na szczególne b³ogos³awieñstwo. Na kielichu wygrawerowano: "B³ogos³awieñstwo tym, co krocz¹ w Œwietle"
-
-Specjalne: Zdolnoœæ specjalna: 'Uczeñ Œwiat³oœci'
-
-Mo¿e u¿ywaæ:
- Paladyn
- Kap³an (tylko o dobrym charakterze)~
 
 @1169 = ~Okrzyk Bitewny~
 @1170 = ~Ten delikatny róg pokryty jest znakami runicznymi i przepasany czerwonymi wst¹¿kami.~
@@ -1279,16 +1269,6 @@ Specjalne: Ochrona przed ogniem
 
 Mo¿e u¿ywaæ:
  Postacie o z³ym charakterze~
-
-@1259 = ~Amulet zrêcznoœci z niebieskiego kamienia~
-@1260 = ~Masz wiele szczêœcia, ¿e znalaz³eœ ten amulet.Nie pozwól by wpad³ w niepowo³ane rêce...
-
-Specjalne:
-  +3 do Zrêcznoœci
-  +3 do Trak0
-
-Nie mo¿e u¿ywaæ:
-  Zabójca Magów~
 
 @1261 = ~Amulet Wiary~
 @1262 = ~Takie przedmioty s¹ czêsto spotykane w Krainach i z regu³y stanowi¹ czêœciej symbol oddania pewnej sprawie, ni¿ przedstawiaj¹ wartoœæ praktyczn¹.
@@ -1448,22 +1428,6 @@ Specjalne:
   Zmniejszona odpornoœæ na Ogieñ
 
 Waga: 3
-
-Nie mo¿e u¿ywaæ:
- Bard
- Druid
- Mag
- Z³odziej
- Mnich
- Kensai~
-
-@1312 = ~Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³.
-
-STATYSTKI:
-
-Klasa Pancerza: +3
-Waga: 6
-Wymaga: 12 Si³y
 
 Nie mo¿e u¿ywaæ:
  Bard

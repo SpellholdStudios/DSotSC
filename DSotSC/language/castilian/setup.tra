@@ -1204,17 +1204,6 @@ Devolved estos frascos a los fantasmas para darles su libertad.~
 Para destruir al Liche conocido como el Oscuro, debéis poseer esta vasija. Esto impedirá que el Liche resurja de su destrucción, una vez que acabéis con él.~
 @1162 = ~Antigua Reliquia de Lathander~
 @1163 = ~Esta es la reliquia que estáis buscando.~
-@1164 = ~Copa Antigua~
-@1165 = ~Copa Sagrada~
-@1166 = ~Esta copa parece verdaderamente antigua.~
-@1167 = ~Se dice que aquéllos que beben de esta sagrada copa son verdaderamente bendecidos. El grabado de la copa dice: "Aquellos que caminan por la Luz son ciertamente benditos"
-
-Especial:
- Concede la habilidad innata: 'Discípulo de la Luz'
-
-Utilizable sólo por:
- Paladín
- Clérigo (Alineamiento bueno)~
 
 @1169 = ~Lamento de la Batalla~
 @1170 = ~Este delicado cuerno está decorado con lazos rojos y grabados rúnicos.~
@@ -1324,15 +1313,6 @@ Especial: Protección contra el fuego
 
 Utilizable sólo por:
  Personaje de alineamiento maligno~
-
-@1259 = ~Collar de Destreza Piedrazul~
-@1260 = ~De hecho sois un aventurero muy afortunado. Este Collar de Piedrazul aumenta vuestra Destreza y ¡os da un bonificador THAC0 +3! Solamente no dejéis que caiga en malas manos...
-
-Especial:
- +3 Destreza y THAC0 +3 mientras se lleva
-
-No lo puede usar:
- Asesino de magos~
 
 @1261 = ~Amuleto de Fe~
 @1262 = ~Hay muchos objetos similares a lo largo y ancho de los reinos, como aquellos que tienen una utilidad más simbólica que práctica. En general tales objetos se utilizan para expresar la creencia en determinada deidad.
@@ -1494,22 +1474,6 @@ Especial:
  Resistencia al Fuego disminuida
 
 Peso: 3
-
-No lo puede usar:
- Bardo
- Druida
- Mago
- Ladrón
- Monje
- Kensái~
-
-@1312 = ~El escudo mediano se lleva del mismo modo que el pequeño, aunque su peso impide que se puedan llevar otras armas además del escudo. Suele estar hecho de metal, tiene un diámetro de 90 a 120 centímetros y puede tener diferentes formas, desde redondos a cuadrados, pasando por la forma de las alas extendidas de un dragón. Uno de los escudos medievales más habituales tiene la forma de un triángulo con uno de sus ángulos hacia abajo.
-
-CARACTERÍSTICAS:
-
-Bonificador de clase de armadura: 3
-Peso: 6
-Requisito: 12 Fuerza
 
 No lo puede usar:
  Bardo

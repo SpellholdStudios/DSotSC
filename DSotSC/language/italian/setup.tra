@@ -1145,17 +1145,6 @@ Per distruggere il Lich conosciuto come l'Essere Oscuro, devi essere in possesso
 
 @1162 = ~Antica Reliquia di Lathander~
 @1163 = ~Questa è la reliquia che cerchi.~
-@1164 = ~Calice Antico~
-@1165 = ~Calice Sacro~
-@1166 = ~Questo Calice sembra essere piuttosto antico.~
-@1167 = ~Si dice che chi beve da questo sacro calice ottenga una grande benedizione. L'incisione sul calice dice: "Quelli che berranno nella Luce otterranno una grande benedizione".
-
-Speciale:
-  Concede l'abilità innata 'Seguace della Luce'
-
-Utilizzabile da:
- Paladino
- Chierico (Solo di allineamento Buono)~
 
 @1169 = ~Grido di Battaglia~
 @1170 = ~Questo raffinato corno è fatto a mano e decorato con strisce rosse e intagli runici.~
@@ -1256,14 +1245,6 @@ STATISTICHE:
 Speciale: Dà protezone dal Fuoco
  Utilizzabile solo da:
  Personaggi di Allineamento Malvagio~
-
-@1259 = ~Collana di Solfato di Rame della Destrezza~
-@1260 = ~Sei veramente un avventuriero molto fortunato. Questa Collana di Solfato di Rame incrementa la tua Destrezza e ti dà un +3 di bonus al THAC0! Non farla cadere in mani sbagliate.....
- Speciale:
-  +3 di Bonus alla Destrezza e +3 al THAC0 finché è indossata
-
-Non utilizzabile da:
-  Ammazzastregoni~
 
 @1261 = ~Amuleto della Fede~
 @1262 = ~Sparsi per i reami ci sono molti oggetti simili, ma lo scopo di questi amuleti è più simbolico che pratico. Più comunemente questi oggetti sono usati per rivelare la fede per certe divinità.
@@ -1421,22 +1402,6 @@ Speciale:
   Diminuisce la resistenza al Fuoco
 
 Peso: 3
-
-Non utilizzabile da:
- Bardo
- Druido
- Mago
- Ladro
- Monaco
- Kensai~
-
-@1312 = ~Uno scudo medio si porta come uno scudo piccolo, tuttavia, al contrario di quanto avviene con lo scudo piccolo, il suo peso non consente al personaggio di utilizzare la mano che lo sostiene per nessun altro scopo. Gli scudi medi sono in genere fatti di metallo, il loro diametro va da 90 a 120 cm e possono avere qualsiasi forma, dalla rotonda alla quadrata, a quella delle ali spiegate di un drago. Un tipico scudo medievale ricorda un triangolo con uno dei vertici rivolto verso il basso.
-
-STATISTICHE:
-
-Classe Armatura Bonus: 3
-Peso: 6
-Richiede: 12 alla Forza
 
 Non utilizzabile da:
  Bardo

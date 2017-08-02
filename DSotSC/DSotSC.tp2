@@ -921,12 +921,6 @@ COPY ~DSotSC/base/itm/dsmisc10.itm~ ~override~ //quest item
 	SAY UNIDENTIFIED_DESC @1163
 	SAY DESC @1163
 
-COPY ~DSotSC/base/itm/dsmisc11.itm~ ~override~
-	SAY NAME1 @1164
-	SAY NAME2 @1165
-	SAY UNIDENTIFIED_DESC @1166
-	SAY DESC @1167
-
 COPY ~DSotSC/base/itm/dshorn01.itm~ ~override~
 	SAY NAME2 @1169
 	SAY UNIDENTIFIED_DESC @1170
@@ -981,10 +975,6 @@ COPY ~DSotSC/base/itm/dsamul04.itm~ ~override~
 COPY ~DSotSC/base/itm/dsamul06.itm~ ~override~
 	SAY NAME2 @1257
 	SAY DESC @1258
-
-COPY ~DSotSC/base/itm/dsamul07.itm~ ~override~
-	SAY NAME2 @1259
-	SAY DESC @1260
 
 COPY ~DSotSC/base/itm/dsamul08.itm~ ~override~
 	SAY NAME2 @1261
@@ -1053,9 +1043,6 @@ COPY ~DSotSC/base/itm/dsjeshld.itm~ ~override~
 COPY ~DSotSC/base/itm/dsshld51.itm~ ~override~
 	SAY NAME2 @1307
 	SAY DESC @1308
-
-COPY ~DSotSC/base/itm/dsshld52.itm~ ~override~
-	SAY DESC @1312
 
 COPY ~DSotSC/base/itm/dsshld53.itm~ ~override~
 	SAY NAME2 @1313
@@ -2825,7 +2812,6 @@ COPY_EXISTING ~rielta.cre~ ~override~
 	REPLACE_CRE_ITEM ~DSKORIM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 	REPLACE_CRE_ITEM ~DSBRAC01~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~
 	ADD_CRE_ITEM ~DSRNG06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
-	ADD_CRE_ITEM ~DSAMUL07~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~
 	ADD_CRE_ITEM ~DSDAGG02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 	ADD_CRE_ITEM ~SCRL9U~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
@@ -2905,28 +2891,26 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY add_area_items BEGIN
 	9 , "DSSPERF" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
 	10 , "DSAMUL12" , 0 , 0 , 0 , 3 => "%CloakwoodMines_L3%"
 	11 , "POTN55" , 2 , 0 , 0 , 4 => "%CloakwoodMines_L3%" // Potion of Superior Healing
-	12 , "DSSHLD52" , 0 , 0 , 0 , 41 => "%CloakwoodMines_L3%"
-	13 , "DSAXE01" , 0 , 0 , 0 , 5 => "%CloakwoodMines_L3%"
-	14 , "DSAXE05" , 0 , 0 , 0 , 6 => "%CloakwoodMines_L3%"
-	15 , "DSCLCK03" , 0 , 0 , 0 , 1 => "%CloakwoodDruids_Treehouse_L1%"
-	16 , "POTN25" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Healing
-	17 , "MISC07" , 44 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
-	18 , "SCRL5C" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Protection from Lightning
-	19 , "SCRL5P" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Chaos
-	20 , "MISC07" , 22 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
-	21 , "POTN02" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Fire Resistance
-	22 , "BOOK33" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L1%" // History of the Bell in the Depths
-	23 , "BOOK39" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L1%" // History of the Drow
-	24 , "MISC17" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Lynx Eye Gem
-	25 , "POTN08" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Potion of Healing
-	26 , "BOOK45" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L1%" // History of the North
-	27 , "MISC07" , 64 , 0 , 0 , 6 => "%NEBaldursGate_CountingHouse_L1%" // Gold Piece
-	28 , "SW1H23" , 0 , 0 , 0 , 1 => "%NBaldursGate_DucalPalace_Cellar%" // Scimitar +2, Rashad's Talon
-	29 , "DSMISC11" , 0 , 0 , 0 , 2 => "%Candlekeep_Catacombs_L1%"
-	30 , "DSCLCK02" , 0 , 0 , 0 , 7 => "%Nashkel_BCS%"
-	31 , "POTN55" , 0 , 0 , 0 , 1 => "%CloakwoodMines_L4%" // Potion of Superior Healing
-	32 , "SCRLA5" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Melf's Minute Meteor
-	33 , "SCRL7F" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Globe of Invulnerability
+	12 , "DSAXE01" , 0 , 0 , 0 , 5 => "%CloakwoodMines_L3%"
+	13 , "DSAXE05" , 0 , 0 , 0 , 6 => "%CloakwoodMines_L3%"
+	14 , "DSCLCK03" , 0 , 0 , 0 , 1 => "%CloakwoodDruids_Treehouse_L1%"
+	15 , "POTN25" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Healing
+	16 , "MISC07" , 44 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
+	17 , "SCRL5C" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Protection from Lightning
+	18 , "SCRL5P" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L2%" // Chaos
+	19 , "MISC07" , 22 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L2%" // Gold Piece
+	20 , "POTN02" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L2%" // Potion of Fire Resistance
+	21 , "BOOK33" , 0 , 0 , 0 , 1 => "%NEBaldursGate_CountingHouse_L1%" // History of the Bell in the Depths
+	22 , "BOOK39" , 0 , 0 , 0 , 2 => "%NEBaldursGate_CountingHouse_L1%" // History of the Drow
+	23 , "MISC17" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Lynx Eye Gem
+	24 , "POTN08" , 0 , 0 , 0 , 3 => "%NEBaldursGate_CountingHouse_L1%" // Potion of Healing
+	25 , "BOOK45" , 0 , 0 , 0 , 4 => "%NEBaldursGate_CountingHouse_L1%" // History of the North
+	26 , "MISC07" , 64 , 0 , 0 , 6 => "%NEBaldursGate_CountingHouse_L1%" // Gold Piece
+	27 , "SW1H23" , 0 , 0 , 0 , 1 => "%NBaldursGate_DucalPalace_Cellar%" // Scimitar +2, Rashad's Talon
+	28 , "DSCLCK02" , 0 , 0 , 0 , 7 => "%Nashkel_BCS%"
+	29 , "POTN55" , 0 , 0 , 0 , 1 => "%CloakwoodMines_L4%" // Potion of Superior Healing
+	30 , "SCRLA5" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Melf's Minute Meteor
+	31 , "SCRL7F" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L4%" // Globe of Invulnerability
 END
 
 ACTION_PHP_EACH ~add_area_items~ AS ~item~ => ~area~ BEGIN

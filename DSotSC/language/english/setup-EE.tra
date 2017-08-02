@@ -20,10 +20,10 @@ STATISTICS:
 Equipped abilities:
 – Grants 1 druid spell for level 1 and 2
 – Charm animal once per day (Save vs. Wands negates)
-  Range: 40 ft
+  Range: 40 ft.
   Area of Effect: 1 animal
   Duration: 10 turns
-– Protection against critical hits
+– Protects against critical hits
 
 Weight: 2~
 
@@ -162,7 +162,7 @@ Armor Class: 6 (8 vs. piercing and missile)
 Requires:
  4 Strength
 
-Weight: 6~ //%~
+Weight: 6~
 
 @1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
 @1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +2 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
@@ -170,9 +170,10 @@ Weight: 6~ //%~
 STATISTICS:
 
 Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 14 Strength
 
-Weight: 30
-Requires: 14 Strength~
+Weight: 30~
 
 @1039 = ~Conchobhair's Blessed Plate Mail Armor~
 @1040 = ~This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair finds it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
@@ -180,22 +181,25 @@ Requires: 14 Strength~
 STATISTICS:
 
 Armor Class: 2 (-1 vs. slashing)
+Requires:
+ 11 Strength
 
-Weight: 18
-Requires: 11 Strength~
+Weight: 18~
 
 @1041 = ~Crystal Plate Mail~
 @1042 = ~Forged from magical crystals mined from a now abandoned Dwarven mine. The crystals have a natural resistance to fire and cold.
 
 STATISTICS:
 
-Armor Class: 2
-Special:
-  +15% Fire Resistance
-  +15% Cold Resistance
+Equipped abilities:
+– Fire Resistance: +15%
+– Cold Resistance: +15%
 
-Weight: 20
-Requires: 11 Strength~
+Armor Class: 2
+Requires:
+ 11 Strength
+
+Weight: 20~
 
 @1047 = ~Thorfinn's Hide Armor~
 @1048 = ~This is the personal hide armor of Thorfinn Hauskluniff. Though it does not possess any magical abilities, it is a well-constructed piece, almost appearing to be traditional leather due to its cut and design. A snarling wolf emblazoned on the breast evokes its wilder origins.
@@ -203,6 +207,9 @@ Requires: 11 Strength~
 STATISTICS:
 
 Armor Class: 6 (8 vs. piercing and missile)
+Requires:
+ 9 Strength
+
 Weight: 3~
 
 @1052 = ~Crusader's Armor~
@@ -210,70 +217,95 @@ Weight: 3~
 
 STATISTICS:
 
-Armor Class: 2
-Special:
-  +1 to all saving throws
-  +20% max HP
+Equipped abilities:
+– Saving Throws: +1
+– Hit Points: +20%
 
-Weight: 20
-Requires: 8 Strength~ //%~
+Armor Class: 2 (1 vs. piercing and missile, 0 vs. crushing)
+Requires:
+ 8 Strength
 
-@1055 = ~Chain Mail +2: 'Blessed Chain Mail'~
-@1056 = ~This +2 Chain Mail is often worn by priests who are on quests for their faiths. When worn, the priest is blessed with an aid spell.
+Weight: 20~
+
+@1055 = ~Blessed Chain Mail +2~
+@1056 = ~This +2 Chain Mail is often worn by priests who are on quests for their faiths. When worn, the priest is blessed with an Aid spell.
 
 STATISTICS:
 
-Armor Class: 3
-Special: Aid
-Weight: 10
-Requires: 7 Strength~
+Equipped abilities:
+– Aid: The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 7 Strength
+
+Weight: 10~
 
 @1057 = ~Sukien Holy Armor~
 @1058 = ~Sukien Holy Armor, worn by the Holy Guard of the Sukien Temple, this mail possess great magic. Boasting of never being defeated in battle, the Holy Guard are staunch zealots with a will to win that is believed by many to be a gift from the very heavens. This trademark armor with its emblem proudly displayed on the chest is as brash and bold as its wearers.
 
 STATISTICS:
 
-Armor Class: 0
-Special: Protection from Poison
-Weight: 18
-Requires: 11 Strength~
+Equipped abilities:
+– Immunity to poison
+
+Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
+Requires:
+ 11 Strength
+
+Weight: 18~
 
 @1059 = ~Jet'laya's Chainmail~
 @1060 = ~This is Jet'laya's personal set of chainmail. This extremely light chainmail is made of very fine mithral links and was forged for her by her twin brother, Rennar.
 
 STATISTICS:
 
+Equipped abilities:
+– Spellcasting is not disabled
+
 Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
-Special: Spellcasting is not disabled
+Requires:
+ 5 Strength
+
 Weight: 15~
 
-@1061 = ~Splint Mail Armor: 'Korim's Skin'~
+@1061 = ~Korim's Skin~
 @1062 = ~Curiously tinged with green, this heavily enchanted armor is unusually light and supple for splint mail. Constructed by the Netherese sorcerer and ranger Korim, it allowed him far greater protection than robes while also enabling him to take full advantage of his range of casting ability.
 
 STATISTICS:
 
+Equipped abilities:
+– Spellcasting is not disabled
+
 Armor Class: 4 (3 vs. piercing and missile, 2 vs. crushing)
-Special:
-  Does not impair casting ability
+Requires:
+ 7 Strength
 
 Weight: 7~
 
-@1063 = ~CúChoinneach's Personal Studded Leather Armor +2~
+@1063 = ~CúChoinneach's Studded Leather Armor +2~
 @1064 = ~CúChoinneach constructed this armor for himself during his days as a ranger.
 
 STATISTICS:
 
-Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
-Special: +15% Hide in Shadows
+Equipped abilities:
+– Hide In Shadows: +15%
 
-Weight: 8~ //%~
+Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 8~
 
 @1065 = ~Keiria's Bard Armor~
 @1066 = ~Keiria has maintained close ties to her elven heritage, and as a result has been able to obtain a few enchanted items from her long-lived kin. Among them is this studded leather armor, magically imbued with protective spells and in turn designed to allow the wearer more freedom when casting spells.
 
 STATISTICS:
 
-Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile) 
+Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile)
+Requires:
+ 6 Strength
+
 Weight: 10~
 
 @1067 = ~Gnomish Workman's Leather~
@@ -282,38 +314,46 @@ Weight: 10~
 
 STATISTICS:
 
-Armor Class: 7
-Weight: 25
-Requires: 10 Strength~
+Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile)
+Requires:
+ 10 Strength
+
+Weight: 25~
 
 @1070 = ~This set of armor was created by a gnomish master craftsman and enchanted to offer better protection against unforeseen accidents. The tools and equipment stored in the armor makes finding and picking locks easier.
 
 STATISTICS:
 
-Armor Class: 5
-Weight: 8
-Requires: 6 Strength
+Equipped abilities:
+– Open Locks: +10%
+– Find Traps: +10%
 
-Special: +10% Find Traps/Pick Locks~ //%~
+Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 8~
 
 @1072 = ~Skeezer Lumpkin's Mage Robe~
 @1074 = ~Colorful, bright and... colorful... Skeezer's robe could aptly be described as a riot of red, particularly when adorned with the many trinkets he holds in high regard. The gnome claims that he invented a new kind of fabric when creating it, one that protects from the withering breath of dragons, the insidious tentacles of mind flayers and the magical blasts of beholders. From what you can tell, the robe would have a difficult time stopping the dagger of a lame kobold. Nonetheless, given Skeezer's skill as a mage, you have no doubt that it carries at least some magical protection.
 
 STATISTICS:
 
-Armor Class: 7
-Special:
-  Magic Resistance: +5%
-  Saving Throws: +1 bonus
-Weight: 6~ //%~
+Equipped abilities:
+– Armor Class: 7
+– Saving Throws: +1
+– Magic Resistance: +5%
+
+Weight: 6~
 
 @1075 = ~Sorcerer's Robe~
 @1076 = ~This Mage Robe has been made for the more advanced mage who has ended his apprentice time and goes at it alone. Its armor class and spell bonus make him better equipped for traveling.
 
 STATISTICS:
 
-Armor Class: 8
-Special: 1 Bonus Spell on level 1 and level 2
+Equipped abilities:
+– Armor Class: 8
+– Can memorize one extra 1st- and 2nd-level wizard spell
 
 Weight: 3~
 
@@ -322,34 +362,39 @@ Weight: 3~
 
 STATISTICS:
 
-Armor Class: +1 Bonus
-Saving Throws: +1 bonus
-Magic Resistance: +10%
-Weight: 6~ //%~
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+– Magic Resistance: +10%
+
+Weight: 6~
 
 @1079 = ~Robe of Dh'arlo'me~
 @1080 = ~This powerful robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance. Due to the nature of its enchantment, it can only be removed by remove curse.
 
 STATISTICS:
 
-Armor Class: 4
-Magic Resistance: +10%
-Special:
-  Immune to 1st & 2nd level spells
-  Immune to all non-magical weapons
-  One extra 3rd and 4th level spell (arcane & divine)
-  +1 to Intelligence and Wisdom
-  Increases spell casting speed by 1
+Equipped abilities:
+– Armor Class: 4
+– Intelligence: +1
+– Wisdom: +1
+– Magic Resistance: +10%
+– Protection From Normal Weapons
+– Immunity to 1st and 2nd-level spells
+– Can memorize one extra 3rd- and 4th-level wizard spell
+– Improves casting speed by 1
 
-Weight: 6~ //%~
+Weight: 6~
 
 @1081 = ~Drakelor's Robe~
 @1082 = ~This robe was originally a present from the famous mage Drakelor to a friend, who had to go on a long and dangerous journey. Unfortunately, the robe was stolen as the friend rested in an inn after a tiring walk. The thief, who knew well about his loot's value, but not about its origin, arranged a meeting with the most powerful mage he knew. Drakelor, however, recognized his work and immediately understood what had happened. The thief's fate does not need further description.
 
 STATISTICS:
 
-Armor Class: +1 bonus
-Saving Throws: +1 bonus
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+
 Weight: 3~
 
 @1083 = ~Drow Mage Cloak~
@@ -359,27 +404,27 @@ This item, like most drow equipment, is created using adamantine, an alloy of ad
 
 STATISTICS:
 
-Armor Class: 3
-Special:
-  Raises Intelligence by 2
-  Memorize one extra 6th and 7th level spell
-  +6 Save vs. Breath Weapon
-  +50% to Fire Resistance
-  Non-detection
+Equipped abilities:
+– Armor Class: 3
+– Save vs. Breath: +6
+– Intelligence: +2
+– Fire Resistance: +50%
+– Non-detection
+– Can memorize one extra 6th- and 7th-level wizard spell
 
-Weight: 1~ //%~
+Weight: 1~
 
 @1085 = ~Robe of the Abyss~
 @1086 = ~A foul artifact indeed. Woven from the fabric of the Abyss itself, these powerful robes offer protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its origin, it can only be worn by mages of evil alignment.
 
 STATISTICS:
 
-Armor Class: +2 Bonus
-Magic Resistance: +10%
-Saving Throw: +2 bonus
-Bonus Spells: +1(Lv 5-7)
-
-Constitution: -30%
+Equipped abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Magic Resistance: +10%
+– Can memorize one extra 5th-, 6th- and 7th-level wizard spell
+– Constitution: -30%
 
 Weight: 6~
 
@@ -388,18 +433,22 @@ Weight: 6~
 
 STATISTICS:
 
-Armor Class: +1 Bonus
-Magic Resistance: +10%
-Saving Throw: +1 bonus
-Weight: 6~ //%~
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+– Magic Resistance: +10%
+
+Weight: 6~
 
 @1096 = ~Morridin's Cloak~
 @1098 = ~This cloak once belonging to the famous bard Morridin. The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements". The cloak, along with many other personal items of Morridin became a topic of discussion among many.
 
 STATISTICS:
 
-Armor Class: +1 bonus
-Special: +1 charisma
+Equipped abilities:
+– Armor Class: +1
+– Charisma: +1
+
 Weight: 3~
 
 @1099 = ~Faded Cloak~
@@ -407,31 +456,31 @@ Weight: 3~
 
 STATISTICS:
 
-Special:
-  Fades wearer 75% (similar to invisibility)
+Equipped abilities:
+– Fades wearer: 75%
 
-Weight: 3~ //%~
+Weight: 3~
 
 @1101 = ~Cloak of the Woods~
 @1102 = ~Stolen from the temple of Erreth-Akbe, the cloak was recovered by Archdruid Yarrow when he sought out his revenge against those who defaced his temple. It was rumored that the cloak was given to his son Shephesh as a gift.
 
 STATISTICS:
 
-Special:
-  Move Silently: +20%
-  Non-detection
+Equipped abilities:
+– Move Silently: +20%
+– Non-detection
 
-Weight: 3~ //%~
+Weight: 3~
 
 @1103 = ~Mystra's Cloak~
-@1104 = ~Cloak of Protection: 'Mystra's Cloak'
-These cloaks are said to be given only to a chosen few of Mystra's most worthy priests. Although, due to some of these priests 'untimely' demise, a few cloaks have been seen outside the ranks of this religious organization. The cloak gives the wearer bonuses to physical and magical attacks as well as protection from undead attacks.
+@1104 = ~These cloaks are said to be given only to a chosen few of Mystra's most worthy priests. Although, due to some of these priests 'untimely' demise, a few cloaks have been seen outside the ranks of this religious organization. The cloak gives the wearer bonuses to physical and magical attacks as well as protection from undead attacks.
 
 STATISTICS:
 
-Armor Class: +2 bonus
-Saving Throw: +1 bonus
-Special: Negative Plane Protection
+Equipped abilities:
+– Armor Class: +2
+– Saving Throws: +1
+– Negative Plane Protection
 
 Weight: 3~
 
@@ -440,27 +489,31 @@ Weight: 3~
 
 STATISTICS:
 
-Armor Class: 4
+Equipped abilities:
+– Armor Class: 4
+
 Weight: 2~
 
-@1110 = ~Gauntlets of Dexterity~
-@1112 = ~Gauntlets of dexterity: 'The Brawling Hands'
-This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy.
+@1110 = ~The Brawling Hands~
+@1112 = ~This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy.
 
 STATISTICS:
 
-Special: +2 Bonus to Dexterity
+Equipped abilities:
+– Dexterity: +2
 
 Weight: 2~
 
-@1113 = ~Otrad Atwah: 'Gloves of the Magi'~
+@1113 = ~Gloves of the Magi~
 @1114 = ~Even the most powerful of sages can at times find themselves unprepared for a battle and without the magic to defeat an opponent. It was for just these times that Sharga commissioned these gloves to be made. They provide a practitioner of magic with a little extra help when the fight degenerates to direct combat.
 
 STATISTICS:
 
-Special:
-  +1 attack per round
-  +1 to all Saving Throws
+Combat abilities:
+– 1 extra attack per round
+
+Equipped abilities:
+– Saving Throws: +1
 
 Weight: 2~
 
@@ -469,9 +522,9 @@ Weight: 2~
 
 STATISTICS:
 
-Armor Class: +3 vs missiles
-Special:
-  +3 to Saving Throws against Petrification
+Equipped abilities:
+– Armor Class: +3 vs. missiles
+– Save vs. Petrification/Polymorph: +3
 
 Weight: 2~
 
@@ -480,9 +533,9 @@ Weight: 2~
 
 STATISTICS:
 
-Base AC: set to 7
-Special:
-  Increase Spell Casting Speed by 1
+Equipped abilities:
+– Armor Class: 7
+– Improves casting speed by 1
 
 Weight: 2~
 
@@ -491,8 +544,10 @@ Weight: 2~
 
 STATISTICS:
 
-THAC0: +2 bonus
-Damage: +2 bonus
+Equipped abilities:
+– THAC0: +2
+– Damage: +2
+
 Weight: 1~
 
 @1127 = ~Apprentice's Ring~
@@ -500,74 +555,105 @@ Weight: 1~
 
 STATISTICS:
 
-Special: adds one 1st and one 2nd level spells~
+Equipped abilities:
+– Can memorize one extra 1st- and 2nd-level wizard spell
+
+Weight: 0~
 
 @1129 = ~Ring of Ghaunadaur~
 @1131 = ~A highly unpredictable deity, Ghaunadaur often rewards his loyal followers with boons and gifts, including rings such as this. On the other hand, he just as often rewards those zealots with torture and death.
 
 Equipped abilities:
- Immunity to poison and acid~
+– Immunity to poison and acid
+
+Weight: 0~
 
 @1133 = ~Mopap's Lucky Rune Wardstone~
 @1135 = ~Many rumors are passed around the Sword Coast about a chirping squirrel that guards a lucky wardstone. However, no one had ever been able to confirm these rumors until now.
 
 STATISTICS:
 
-+1 to Luck~
+Equipped abilities:
+– Luck: +1
+
+Weight: 0~
 
 @1136 = ~Mystic Ring~
 @1137 = ~The exact origins of this ring are unknown, however, it is believed that this ring was in the possession of an older mage living in a small village and acting as their 'wise man' before he died.
 
 STATISTICS:
 
-Spells: adds one 3rd and 4th level spell~
+Equipped abilities:
+– Can memorize one extra 3rd- and 4th-level wizard spell
 
-@1138 = ~'The Unfailing Missile Deflector'~
+Weight: 0~
+
+@1138 = ~The Unfailing Missile Deflector~
 @1139 = ~This ring creates an invisible force field around its wearer that deflects missiles. Even a perfectly aimed missile will deflect to miss the ringwearer or even stop in mid-flight and drop to the ground.
 
 STATISTICS:
 
-Special: Gives the wearer complete protection from non-magic missile weapons.~
+Equipped abilities:
+– Protection from non-magic missile weapons
 
-@1140 = ~Traveler’s Ring~
-@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Traveler’s ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
+Weight: 0~
+
+@1140 = ~Traveler's Ring~
+@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Traveler's ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
 
 STATISTICS:
 
-Unknown~
+Unknown
+
+Weight: 0~
 
 @1142 = ~Keiria's Bard Ring~
 @1143 = ~This ring once belonged to the famous bard Morridin. The Mage King Varashar, a descendent of the Netherese mages, held a seven-year contest to find the most accomplished bard in both magic and music. When Morridin finally overcame his competitors with his own variation of a simple cantrip, Varashar awarded him with the title of Court Bard and this ring.
 
 STATISTICS:
 
-Special: Grants 1 extra bard spell from 1st to 3rd levels~
+Equipped abilities:
+– Can memorize one extra 1st-, 2nd-, and 3rd-level bard spell
+
+Weight: 0~
 
 @1144 = ~Signet Ring of the Sukien~
 @1145 = ~Enchanted with magic by the High Priests of the Sukien Temple, this ring is worn by all those who protect the temple from evil.
 
 STATISTICS:
 
-Armor Class: +1 bonus
-Saving Throws: +1 bonus
-Special: Protection from Petrification (1/day)~
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
 
-@1146 = ~Ring of Fire Shielding: 'Charvirak's Glow'~
+Charge abilities:
+– Protection From Petrification once per day
+  Range: 30 ft.
+  Area of Effect: 1 creature
+  Duration: 6 hours
+
+Weight: 0~
+
+@1146 = ~Charvirak's Glow~
 @1147 = ~During the invasion of the Black Horde, in which even the southern nations were overrun, the druid Charvirak sought desperately to protect the Forest of Tethir from the fires started by rampaging orcs and goblins. Capturing the essence of an efreeti in this ring, he used it to walk directly through the flames of the burning trees, putting them out before they could cause any lasting damage.
 
 STATISTICS:
 
-Armor Class Bonus +1
-Special:
-  30% Resistance to Fire~ //%~
+Equipped abilities:
+– Armor Class: +1
+– Fire Resistance: +30%
+
+Weight: 0~
 
 @1148 = ~Jet'laya's Ring~
 @1149 = ~This ring belonged to Jet'laya's mother. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
 
 STATISTICS: 
 
-Special:
-  Immunity from Charm and Dire Charm~
+Equipped abilities:
+– Immunity to Charm and Dire Charm
+
+Weight: 0~
 
 @1151 = ~Davaeorn,
 
@@ -615,13 +701,6 @@ Return these vials to the phantoms to give them their freedom.~
 To destroy the Lich known as the Dark One, you must have possession of this Phylactery. This will prohibit the lich from resurrecting himself.~
 @1162 = ~Ancient Relic of Lathander~
 @1163 = ~This is the relic that you seek.~
-@1164 = ~Ancient Goblet~
-@1165 = ~Holy Goblet~
-@1166 = ~This goblet appears to be quite old.~
-@1167 = ~It is said that those who drink from this most holy goblet are truly blessed. The engraving on the goblet reads: "Those who walketh in the Light are most surely blessed"
-
-Special:
-  Grants innate ability 'Disciple of Light'~
 
 @1169 = ~Battle Cry~
 @1170 = ~This delicately crafted horn is decorated with reb ribbons and runic carvings.~
@@ -629,10 +708,13 @@ Special:
 
 STATISTICS:
 
-Special: Cause enemies to run in fear unless they save vs. spells (+2)
-Range: 100 ft
-Area: 20 ft radius
-Duration: 15 rounds~
+Charge abilities:
+– Battle Cry once per day
+  Special: Fear for 15 rounds (Save vs. Spells at +2 bonus negates)
+  Range: 100 ft.
+  Area of Effect: 20-ft. radius
+ 
+Weight: 1~
 
 @1173 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
 
@@ -643,19 +725,24 @@ Duration: 15 rounds~
 
 STATISTICS:
 
-Special: Dire Charm (10 rounds)
-Range: 30 ft
-Area: 1 creature~
+Charge abilities:
+– Dire Charm once per day (Save vs. Spell at -2 penalty negates)
+  Range: 30 ft.
+  Duration: 1 turn
+  Area of Effect: 1 creature
 
+Weight: 1~
 
 @1239 = ~Grun'lerthkin's Tome of the Greater Wizard~
 @1241 = ~This tome contains within the finely leather bound cover, the magical runes and notes of the great mage Grun'lerthkin. Grun'lerthkin was a resident of Myth Drannor during its peak. As you read the magical scribbles and notes you begin to become more knowledgeable and somehow feel that you have the abilities of a mage with twice the experience of your former self.
 
 STATISTICS:
 
-The character gains 10000 experience points upon reading
+Experience: Raised by 10000 points
 Special: The book is consumed upon use
-Usage: Place into quick item slot~
+Usage: Place into quick item slot
+
+Weight: 25~
 @124100 = ~10000 Experience points gained~
 
 @1242 = ~History of the Dark Side~
@@ -674,7 +761,7 @@ Original Concept by Roach
 Story Development by CúChoinneach and Roach
 Areas and Creatures Designed and Hexed by CúChoinneach
 Darkside Logo created WoRm
-Items created by a large number of hexers that is too numerous to list here....(Also, CúChoinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
+Items created by a large number of hexers that is too numerous to list here... (Also, CúChoinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
 Sounds for Jet'Laya, Keiria Silverstring and Conchobhair Strongblade, edited by Grog
 NPC Jet'Laya was created by Grog
 All other NPC's were created by CúChoinneach
@@ -692,44 +779,58 @@ My last thank you goes to you! The adventurer that who is reading this and was a
 CúChoinneach~
 
 @1244 = ~Holy Water~
-@1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.~
-
-@1247 = ~Heart of the Woods~
-
-@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid’s temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
+@1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.
 
 STATISTICS:
 
-Special: Gain 25% Protection from Acid~ //%~
+Weight: 1~
+
+@1247 = ~Heart of the Woods~
+@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid's temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
+
+STATISTICS:
+
+Equipped abilities:
+– Acid Resistance: +25%
+
+Weight: 1~
 
 @1251 = ~Ferium's Necklace~
 @1253 = ~This necklace was given to Ferium by her chosen, Ken'lan. The inscription on the back reads "My love to thee 'til the moon doth fade."
 
-Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.~
+Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.
 
-@1256 = ~The true nature of this amulet is unknown. It seems to be of great power.~
+STATISTICS:
+
+Weight: 1~
+
+@1256 = ~The true nature of this amulet is unknown. It seems to be of great power.
+
+STATISTICS:
+
+Weight: 1~
 
 @1257 = ~Segoy Signet Amulet~
 @1258 = ~This amulet bares the trademark symbol of the Segoy, a ruthless band of assassins. The evil seems almost to radiate from the amulet as you hold it in your hands. This particular one is enchanted with magics providing a protective charm, although you can sense that there is a limit to its powers.
 
 STATISTICS:
 
-Special: Gain 25% Protection from Fire~ //%~
+Equipped abilities:
+– Fire Resistance: +25%
 
-@1259 = ~Bluestone Necklace of Dexterity~
-@1260 = ~You are a very lucky adventurer indeed. This Bluestone Necklace increases your Dexterity and gives you a +1 THAC0 bonus! Just don't let it fall into the wrong hands.....
-
-Special:
-  +1 Dexterity Bonus and +1 THAC0 while wearing~
+Weight: 1~
 
 @1261 = ~Amulet of Faith~
 @1262 = ~There are many similar items throughout the realms, those that have a more symbolic purpose rather than a practical one. Most commonly such items are used to express one's belief in a certain deity.
 
 STATISTICS:
 
-Armor Class Bonus: 1
-Save vs Death: +1
-Special: +1 first level priest spell~
+Equipped abilities:
+– Armor Class: +1
+– Save vs. Death: +1
+– Can memorize one extra 1st-level priest spell
+
+Weight: 1~
 
 @1263 = ~Jules Antique Pearl Necklace~
 @1264 = ~Amulet of the Learned~
@@ -737,101 +838,111 @@ Special: +1 first level priest spell~
 
 STATISTICS:
 
-Spells: bonus 3rd level spell~
+Equipped abilities:
+– Can memorize one extra 3rd-level wizard spell
+
+Weight: 1~
 
 @1268 = ~Amulet of Great Foresight~
 @1269 = ~Amulet of Great Foresight Known for its ability to enhance the vision of its wearer, the Amulet of Great Foresight is highly sought after by leaders of great armies since they are able to see things from miles away and react to enemy strategies. Its origin and recent history are unknown.
 
 STATISTICS:
 
-Special:
-  Provides the user with improved vision (Clairvoyance)~
+Equipped abilities:
+– Clairvoyance
+
+Weight: 1~
 
 @1271 = ~Arrow of Dragon Slaying~
 @1273 = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger then itself. It was made specifically to pierce the mighty armor-like scales to kill one type of creature and one type only. In this case the ever feared dragon. This arrow will kill any wyvern outright and does extra damage to dragons.
 
 STATISTICS:
 
-Damage: 1D6
-Damage type: missile (piercing)
+Combat abilities:
+– Slay wyverns upon touch (Save vs. Spell negates)
 
-Special:
-  Slays Wyverns upon contact (save negates)
-  +3 Damage/+3 To Hit all Dragons
+THAC0: +3 vs. dragons
+Damage: 1d6 (missile), +3 vs. dragons
+Launcher: Bow
 
-Weight: 0
-Launcher: Bow~
+Weight: 0~
 
 @1278 = ~Arrow of Striking~
 @1279 = ~This arrow is brilliant and blue with a bright gold tip. It radiates with magic and is lighter and smaller then normal arrows. It is the preferred arrow of the Holy Guard of the Sukien, who are rumored to possess a bow that can create them.
 
 STATISTICS:
 
-Damage: 1D6 + 2, +2D3 magic damage
-Damage type: missile (piercing)
-Weight: 0
-Launcher: Bow~
+Damage: 1d6+2 (missile), +2d3 magic damage
+Launcher: Bow
+
+Weight: 0~
 
 @1281 = ~Bolt +1 of Dispelling~
 @1283 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size. However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
 
 STATISTICS:
 
-Damage: 1D8
-Special: dispel magic (save vs spells at +2)
-Damage type: missile (piercing)
-Launcher: Crossbow~
+Combat abilities:
+– Dispel Magic on target when hit (Save vs. Spell at +2 bonus negates)
+
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
 
 @1285 = ~Bullet of Detonation~
 @1287 = ~This bullet has a particularly debilitating effect on its victims as, upon impact, it explodes into a huge ball of fire and shrapnel effecting all within the area.
 
 STATISTICS:
 
-Damage: 1D4 + 1
-Special:
-  6D6 explosion upon impact (save vs. spells for half)
-Damage type: missile (piercing)
-Launcher: sling~
+Damage: 1d4+1 (missile), +6d6 fire damage (Save vs. Spell for half)
+Launcher: Sling
+
+Weight: 0~
 
 @1288 = ~Bullet of Holy Water~
 @1289 = ~This bullet not only embedded with magical currents so to be a little more balanced and lighter as it jumps towards an opponent, but it is also soaked in holy water, thus providing extra damage to undead creatures.
 
 STATISTICS:
 
-Damage: 1D4 + 2
 THAC0: +1
-Special:
-  Additional 2D3 damage to undead creatures
-Damage type: missle (piercing)
-Launcher: sling~
+Damage: 1d4+2 (missile), +2d3 damage vs. undead
+Launcher: Sling
+
+Weight: 0~
 
 @1292 = ~Boots of the Forest~
 @1294 = ~These boots, woven from slim, supple branches with such expertise so as to appear made of leather, the Boots of the Forest are one of the many gifts bestowed upon the protectors of the forests. Such individuals swear that the boots not only allow them to travel at a greater pace, but also provide them with a much greater sensitivity to their surroundings.
 
 STATISTICS:
 
-Special:
-  Move Silently: +15%
-  Immunity to Web, Grease and Entangle
+Equipped abilities:
+– Move Silently: +15%
+– Immunity to Web, Grease and Entangle
 
-Weight: 4~ //%~
+Weight: 4~
 
 @1295 = ~Boots of Valor~
-@1296 = ~Boots of Valor: 'Thunderfoot'
-The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearer’s feet firmly on the ground giving them the ability to withstand the blow.
+@1296 = ~The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearer's feet firmly on the ground giving them the ability to withstand the blow.
 
 STATISTICS:
 
-Armor Class bonus: +3 vs. blunt weapons
+Equipped abilities:
+– Armor Class: +3 vs. blunt attacks
+
 Weight: 18~
 
-@1302 = ~CúChoinneach's Small Shield +1: 'The Moon'~
+@1302 = ~CúChoinneach's Small Shield +1~
 @1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
-Armor Class Bonus: +2
-Special: No Missile Weapon Protection
+Equipped abilities:
+– Armor Class: +2
+– No protection against missile attacks
+
+Requires:
+ 4 Strength
 
 Weight: 3~
 
@@ -840,628 +951,716 @@ Weight: 3~
 
 STATISTICS:
 
-Armor Class Bonus: +1
-Special:
-  No Missile Weapon Protection
-  THAC0 +2 Bonus vs. Undead
+Equipped abilities:
+– Armor Class: +1
+– THAC0: +2 vs. undead
+– No protection against missile attacks
+
+Requires:
+ 4 Strength
 
 Weight: 4~
 
-@1307 = ~Small Shield +2: 'Sun Shield'~
+@1307 = ~Sun Shield +2~
 @1308 = ~This shield is warm to the touch as if a fire was burning deep within it. The origins of the shield are unknown and much of its secrets remain just that.
 
 STATISTICS:
 
-Armor Class Bonus: 3
-Special:
-  Increased Resistance to Cold: +30%
-  Decreased Resistance to Fire: -25%
+Equipped abilities:
+– Armor Class: +3
+– Cold Resistance: +30%
+– Fire Resistance: -25%
+
+Requires:
+ 4 Strength
 
 Weight: 3~
 
-@1312 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward.
-
-STATISTICS:
-
-Armor Class Bonus: 3
-Weight: 6
-Requires: 12 Strength~
-
-@1313 = ~Medium Shield +2: 'Heart of the Dragon'~
+@1313 = ~Heart of the Dragon +2~
 @1314 = ~A relatively unknown knight, Neshum was never to swift of the mind. When traveling through the north he came upon a battle, before him were several warriors and a dragon. Neshum decided that the battle was unfair, and took arms in defense of the dragon. Neshum's aid was the turning point and the warriors were defeated. Benderesk, the dragon, repaid the knight's aid by giving him a shield which he bestowed with the strength of a dragon's heart. Benderesk retrieved his gift some years later when Neshum was hired by the same village as the warrior to rid them of this troublesome dragon.
 
 STATISTICS:
 
-Armor Class Bonus: 3
-Special:
-  Hit Points: +10
-  Magic Resistance: +5%
+Equipped abilities:
+– Armor Class: +3
+– Magic Resistance: +5%
+– Hit Points: +10
 
-Weight: 6~ //%~
+Requires:
+ 12 Strength
 
-@1315 = ~Large shield +2: 'The Wall'~
-@1317 = ~The Wall
-In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies. Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught. The smiths worked feverishly and produced a dozen of these shields. They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
+Weight: 6~
+
+@1315 = ~The Wall + 2~
+@1317 = ~In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies. Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught. The smiths worked feverishly and produced a dozen of these shields. They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
 
 STATISTICS:
 
-Armor Class: +3 bonus, +7 vs. Missile Weapons
-Weight: 20
-Requires: 13 Strength~
+Equipped abilities:
+– Armor Class: +3, +7 vs. missile attacks
 
-@1323 = ~Katana +2: 'Masamune'~
+Requires:
+ 13 Strength
+
+Weight: 20~
+
+@1323 = ~Katana +2, Masamune~
 @1325 = ~This katana was forged by famous katana-creater Masamune. Just like any katanas made by him, you can easily understand this is a "Masterpiece", the King of all Blades.
 
 STATISTICS:
 
-Damage: 1D10 + 2
-THAC0: +2 bonus
-Special:
-  +1 Dexterity
-Damage type: Slashing
-Weight: 8
-Proficiency type: Katana
-Speed Factor: 2
-Type: 1-handed
-Requires: 6 Strength~
+Equipped abilities:
+– Dexterity: +1
 
-@1326 = ~Katana +3: 'Muramasa'~
+THAC0: +2
+Damage: 1d10+2 (slashing)
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 8~
+
+@1326 = ~Katana +3, Muramasa~
 @1328 = ~This is an excellent katana. However, some say it's "cursed", and others think this sword has its own mind, no doubt a dark brood thirsty mind.
 
 STATISTICS:
 
-Damage: 1D10 + 3
-THAC0: +3 bonus
-Special:
-  33% chance of wielder go into berserk upon successful hit
-Damage type: Slashing
-Weight: 10
-Proficiency type: Katana
-Speed Factor: 3
-Type: 1-handed
-Requires: 10 Strength~ //%~
+Combat abilities:
+– 33% chance of wielder go into Berserk upon successful hit
 
-@1330 = ~Scimitar +1: 'Yarrow's Tears'~
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 10~
+
+@1330 = ~Scimitar +1, Yarrow's Tears~
 @1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence. The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar. The tears empowered his scimitar with his grief and longing for revenge.
 
 STATISTICS:
 
-Damage: 1D8 + 1
-THAC0: +1 bonus
-Special:
-  Cast Charm Person or Mammal 1/day (save at +2)
-  20% Stun target unless save vs. spells
-Damage type: slashing
-Weight: 3
+Combat abilities:
+– 20% chance per hit that target is stunned (Save vs. Spell negates)
+
+Charge abilities:
+– Charm Person or Mammal once per day
+
+THAC0: +1
+Damage: 1d8+1 (slashing)
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 8 Strength~ //%~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 8 Strength
+
+Weight: 3~
 
 @1334 = ~Dragonslayer~
 @1336 = ~Imbued with strong enchantments, this mighty blade is also shielded by a cloaking spell, preventing any attempts at discerning its true nature. Its origin and history are thus largely unknown, though it is rumored that the sword chooses its wielder, and will prevent any other from using it. Those who have attempted to forcibly control the weapon have found their wills sapped, or worse...
 
 STATISTICS:
 
-Damage: 1D10 + 1, +3 vs Dragons
-THAC0: +1, +3 vs Dragons
-Special:
-  Acid Resistance: 20%
-  Fire Resistance: 20%
-  +1 Bonus to Save vs. Breath Weapons
-Damage type: slashing
-Weight: 15
-Speed Factor: 8
-Proficiency Type: Two Handed sword
-Type: 2-handed
-Requires: 14 Strength~
+Equipped abilities:
+– Acid Resistance: 20%
+– Fire Resistance: 20%
+– Save vs. Breath: +1
 
-@1337 = ~Scimitar +1: 'The Jagged Lightning'~
+THAC0: +1, +3 vs. dragons
+Damage: 1d10+1 (slashing), +3 vs. dragons
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 15~
+
+@1337 = ~Scimitar +1, The Jagged Lightning~
 @1338 = ~The mithril blade of this scimitar is serrated so that it resembles a slightly curved lightning bolt. The scimitar was created in Calimshan in ancient times by a religious cult worshipping a thunder god. It was used by holy warriors of the cult on special, holy missions. Electricity flows through the blade and small surges of energy cause little lightning bolts to flicker along its serrated edge. Some of the electric energy directed at its wielder will be absorbed by the scimitar. The magic of the scimitar also allows its wielder to strike first in any combat situation.
 
 STATISTICS:
 
-Damage: 1D8 + 1
-THAC0: +1 bonus
-Special:
-  It grants 30% resistance to electricity
-  Does +1d4 Lightning damage
-Damage type: Slashing
-Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Speed Factor: n/a
-Type: 1-handed
-Requires: 8 Strength~ //%~
+Equipped abilities:
+– Electricity Resistance: +30%
 
-@1339 = ~Thorn - Sword of the 'Champion of the Green'~
+THAC0: +1
+Damage: 1d8+1 (slashing), +1d4 lightning damage
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Speed Factor: n/a
+Type: One-handed
+Requires:
+ 8 Strength
+
+Weight: 4~
+
+@1339 = ~Sword of the 'Champion of the Green'~
 @1340 = ~In the lost days of Netheril, the necromancer J'K'Voorkan attempted to engender a reign of undeath. Onslaught after onslaught of the walking dead threatened to engulf the Realms, until the Hierophant Druid, L'Orax, called to the gods for aid. They caused the Tree of Life to produce a single thorn, which L'Orax took. In a grueling ordeal of fasting, prayer, meditation, and spellcasting from one new moon to the next, the Great Circle produced Thorn. Thorn was presented to one of the key leaders of the forces of Light and Life - S'Mokye, called "The Bear" by his troops for his relentless resistance to the dead. He became the first Ranger, and the first Champion of the Green. Thorn is passed to each new Champion upon his ascension. Such is the power of Thorn that the very plants of the earth may be called upon for aid by the wielder.
 
 STATISTICS:
 
-Damage: 1D10 + 1
-THAC0: +1 bonus
-Special:
-  Wielder may cast "Entangle" (1/day)
-Damage type: Slashing
-Weight: 9
-Proficiency type: Two Handed Sword
+Charge abilities:
+– Entangle once per day
+
+THAC0: +1
+Damage: 1d10+1 (slashing)
+Proficiency Type: Two-handed Sword
 Speed Factor: 6
-Type: 2-handed
-Requires: 14 Strength~
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 9~
 
 @1341 = ~Cutlass~
-@1342 = ~Cutlass +2: 'O-Tokne's Fang'~
+@1342 = ~Cutlass +2, O-Tokne's Fang~
 @1343 = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
 STATISTICS:
 
-Damage: 3D3
-Damage type: slashing
-Weight: 4
+Damage: 3d3 (slashing)
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 10 Strength~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 4~
 
 @1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target. Its added grace gives new energy to the wielder enabling them to attack faster.
 
 STATISTICS:
 
-Damage: 3D3 + 2
-THAC0: +2 bonus
-Damage type: slashing
-Weight: 3
+THAC0: +2
+Damage: 3d3+2 (slashing)
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 10 Strength~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
 
-@1345 = ~Cutlass +1: 'Scorcher'~
+Weight: 3~
+
+@1345 = ~Cutlass +1, Scorcher~
 @1346 = ~Forged of layers of red metal, laid upon one another so as to make it appear wrinkled, this cutlass is unusually cold to the touch. Runic carvings near the hilt, reminiscent of the tribal languages of the northern reaches of Vaasa, give the blade its name. Its appearance and apparent lack of enchantment have caused many an adventurer to mistake it as useless. Those more with more inquisitive minds, who carry it along just to be sure, are always pleasantly surprised. Once in motion in battle, swinging toward its target, Scorcher's name becomes clear, as it ignites with a burning flame.
 
 STATISTICS:
 
-Damage: 3D3 + 1, +2D3 Fire Damage
-THAC0: +1 bonus
-Damage type: slashing
-Weight: 3
+THAC0: +1
+Damage: 3d3+1 (slashing), +2d3 fire damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 10 Strength~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
 
-@1347 = ~Cutlass +2: 'Ghost Blade'~
+Weight: 3~
+
+@1347 = ~Cutlass +2, Ghost Blade~
 @1348 = ~Anytime a swordsman swings their blade they can see slight images of it tracing along behind. This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut. It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief. Given how well this blades enchantment works he might have been better served to stay a mage.
 
 STATISTICS:
 
-Damage: 3D2 +2, +2D3 Slashing Damage
-THAC0: +2 bonus
-Damage type: slashing
-Weight: 3
+THAC0: +2
+Damage: 3d2+2 (slashing), +2d3 slashing damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 10 Strength~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
 
-@1349 = ~Cutlass +1: 'Sparks'~
+Weight: 3~
+
+@1349 = ~Cutlass +1, Sparks~
 @1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
 
 STATISTICS:
 
-Damage: 3D3 +1, +2D3 Electrical Damage
-THAC0: +1 bonus
-Damage type: slashing
-Weight: 3
+THAC0: +1
+Damage: 3d3+1 (slashing), +2d3 electrical damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 10 Strength~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 3~
 
 @1352 = ~Deceiver's Blade~
 @1354 = ~Denat "The Deceiver" was once a very famous bard. He told not only tales of heroes, but also his adventures, he always claimed he was the best swordsman in the realm. At the end of his tales he would dual the best swordsman of his listeners and always wins. His downfall came when he mistakenly used a normal sword instead of this heavily enchanted one.
 
 STATISTICS:
 
-Damage: 1D8 + 1
-THAC0: +5 bonus
-Special:
-  Dexterity bonus +1
-  AC bonus +1
-Damage type: slashing
-Weight: 4
+Equipped abilities:
+– Dexterity: +1
+– Armor Class: +1
+
+THAC0: +5
+Damage: 1d8+1 (slashing)
 Speed Factor: 2
 Proficiency Type: Long Sword
-Type: 1-handed
-Requires: 6 Strength~
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
 
 @1356 = ~Champion Sword~
 @1358 = ~This is the golden sword given to the highest ranking members of the 'Order of the Most Radiant Heart' by Helm.
 
 STATISTICS:
 
-Damage: 2D4 +1
+Equipped abilities:
+– Bless
+
 THAC0: +1
-Special: wielder is under effect of "Bless" spell
-Damage type: slashing
-Weight: 12
+Damage: 2d4 +1 (slashing)
 Speed Factor: 5
 Proficiency Type: Bastard Sword
-Type: 1-handed
-Requires: 12 Strength~
+Type: One-handed
+Requires:
+ 12 Strength
 
-@1363 = ~Mairial +2: 'The Death Hunter'~
+Weight: 12~
+
+@1363 = ~Mairial +2, The Death Hunter~
 @1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
 
 STATISTICS:
 
-Damage: 1D8 + 2
+Equipped abilities:
+– Negative Plane Protection
+
 THAC0: +2
-Special:
-  Negative Plane Protection
-Damage type: slashing
-Weight: 3
+Damage: 1d8+2 (slashing)
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed~
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 3~
 
 @1366 = ~Nemmerle's Revenge~
 @1368 = ~In a classic battle of good vs. evil the Archmage Nemmerle saw his defeat was inevitable and summoned what was left of his dark magic to enchant his staff and teleported it to his fledgling apprentice. Only in the end did he realize what was needed to win the day, and lacking the strength to accomplish it himself, he saw to it that even in defeat he might grasp some small victory. Gensher had enchanted his robes to withstand any crushing blows, evenly matched in magic he knew the battle would end in close combat and had outwitted the evil sage. The staff gives off a very faint aura of alteration magic. Upon identification of the command word, the staff takes on the attributes of a halberd, which allows it to do slashing damage.
 
 STATISTICS:
 
-Damage: 2D6 + 2
-THAC0: +2 bonus
-Special: causes panic on hit (save +2)
-Weight: 4
+Combat abilities:
+– Each successful hit casts Panic on the target (Save vs. Spell at +2 bonus negates)
+
+THAC0: +2
+Damage: 2d6+2 (slashing)
 Speed Factor: 2
-Damage type: Slashing
-Proficiency Type: Staff
-Type: 2-handed~
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 3 Strength
+
+Weight: 4~
 
 @1370 = ~Chaos Flail~
-@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent’s life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon!
+@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent's life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon.
 
 STATISTICS:
 
-Damage: 1D6 + 2
+Combat abilities:
+– Each successful hit restored 2 Hit Points
+
 THAC0: +1
-Special: vampiric effect
-Damage type: crushing
-Weight: 7
+Damage: 1d6+2 (crushing)
 Speed Factor: 3
 Proficiency Type: Flail/Morning Star
-Type: 1-handed
-Requires: 13 Strength~
+Type: One-handed
+Requires:
+ 13 Strength
+
+Weight: 7~
 
 @1373 = ~Justice~
 @1374 = ~Given to a High Priest during the time of the Ancients, Justice has been a paladin or cleric's most powerful weapon in the fight against evil. Justice is as an ordinary flail to most, but when equipped by "one pure of heart" the entire weapon shines with a golden light. It was believed that Justice's wielder was blessed of the gods.
 
 STATISTICS:
 
-Damage: 2d4 + 2
-THAC0: +2
-Special:
-  +4 HP Bonus
-  1 Bonus to all Saving Throws
+Equipped abilities:
+– Hit Points: +4
+– Saving Throws: +1
 
-Damage Type: Crushing
-Weight: 12
+THAC0: +2
+Damage: 2d4+2 (crushing)
 Speed Factor: 7
 Proficiency Type: Flail/Morning Star
-Type: 1-Handed
-Requires: 13 Strength~
+Type: One-handed
+Requires:
+ 13 Strength
+
+Weight: 12~
 
 @1376 = ~Ferthgil Trollslayer's Battle Axe~
-@1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his father’s honor onto the battlefield.
+@1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his father's honor onto the battlefield.
 
 STATISTICS:
 
-Damage: 1D8 +3 vs Giants, +2 vs all Monsters
-THAC0: +3 vs Giants, +2 vs all Monsters
-Damage type: slashing
-Weight: 5
+THAC0: +3 vs. giant humanoids, +2 vs. monsters
+Damage: 1d8 (slashing), +3 vs. giant humanoids, +2 vs. monsters
 Speed Factor: 5
 Proficiency Type: Axe
-Type: 1-handed~
+Type: One-handed
+Requires:
+ 10 Strength
 
-@1379 = ~Battle Axe +2: 'Enrager'~
+Weight: 5~
+
+@1379 = ~Battle Axe +2, Enrager~
 @1381 = ~The history of this weapon is unknown, but one look at it and it is easy to tell that it is a very fine axe created by dwarven hands. The weapon seems to call to you to wield it and charge into battle.
 
 STATISTICS:
 
-Damage: 1D8 + 2
-THAC0: +2 bonus
-Damage type: slashing
-Weight: 7
+Combat abilities:
+– Each successful hit has 50% chance to cause the wielder to go berserk (Save vs. Spell negates)
+
+THAC0: +2
+Damage: 1d8+2 (slashing)
 Speed Factor: 6
 Proficiency Type: Axe
-Type: 1-handed
-Requires: 10 Strength~
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
 
 @1382 = ~Minotaur Axe~
 @1383 = ~These axes are powerfully enchanted by Minotaur sorcerers in a process known only to them. They are light where they should be heavy, and slice through metal armor as easy as they slice through cloth.
 
 STATISTICS:
 
-Damage: 2D4 + 2
-THAC0: +1 bonus
-Damage type: slashing
-Weight: 5
+THAC0: +1
+Damage: 2d4+2 (slashing)
 Speed Factor: 2
 Proficiency Type: Axe
-Type: 1-handed
-Requires: 10 Strength~
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 5~
 
 @1384 = ~Pole Axe~
-@1385 = ~Dwarven War Axe +2: 'Screaming Death'~
-
+@1385 = ~Dwarven War Axe +2, Screaming Death~
 @1386 = ~Like the Halberd, pole axes is created as an anti-horseman weapon. However, pole axes have no tip. They are behemoths on the battlefield, which can deal great damage.
 
 STATISTICS:
 
-Damage: 1D12
-Damage type: slashing
-Weight: 20
+Damage: 1d12 (slashing)
 Speed Factor: 12
 Proficiency Type: Axe
-Type: 2-handed
-Requires: 13 Strength~
+Type: Two-handed
+Requires:
+ 13 Strength
 
+Weight: 20~
 @1387 = ~This axe dates back to the clan wars, it was made by Thordar of The Vale for his son Kelvin to use in battle. Kelvin was never much of a warrior, and the axe was made to assist him in his weaknesses. The name comes from the battle of Wyvern Falls, the first time Kelvin used it in battle. Each time he struck down an opponent, Kelvin would scream in disbelief, hence the name 'Screaming Death.'
 
 STATISTICS:
 
-Damage: 1D8 + 2
-THAC0: +2 bonus
-Special:
-  1D6 Backswing Damage (Save v. death for half damage)
-  Armor Class +1 bonus
-Damage type: slashing
-Weight: 20
+Equipped abilities:
+– Armor Class: +1
+
+THAC0: +2
+Damage: 1d8+2 (slashing), +1d6 damage (Save vs. Death for half)
 Speed Factor: 10
 Proficiency Type: Axe
-Type: 2-handed
-Requires: 15 Strength~
+Type: Two-handed
+Requires:
+ 15 Strength
 
-@1390 = ~Pole Axe +2: 'Kilther'~
+Weight: 20~
+
+@1390 = ~Pole Axe +2, Kilther~
 @1391 = ~Kilther was the general of "Silver Knights". When they were invaded by a Huge Orc Cavalry, all of his knights wanted to ride mounts into the orc hoards. But, Kilther banned this. He forced his men to walk on foot, equipped with bow, halberd or pole axe. He chose this particular one. When fighting began, the poles stopped the orcs advance. Showers of arrows were launched and the axes brought the Orcs mounts to a halt. The Orcs lost thousands while the Silver Knights lost only 19 men, including Kilther.
 
 STATISTICS:
 
-Damage: 1D12 + 2
-THAC0: +2 bonus
-Damage type: slashing
-Weight: 10
+THAC0: +2
+Damage: 1d12+2 (slashing)
 Speed Factor: 9
 Proficiency Type: Axe
-Type: 2-handed
-Requires: 12 Strength~
+Type: Two-handed
+Requires:
+ 12 Strength
 
-@1393 = ~Dwarven Throwing Axe +1: 'The Furnace'~
+Weight: 10~
+
+@1393 = ~Dwarven Throwing Axe +1, The Furnace~
 @1395 = ~This throwing axe has not only been finely balanced for use as a missile weapon but has also been the subject of significant magical enhancement. As a result, it is both more damaging and more accurate than any non-magical weapon of a similar style.
 
 STATISTICS:
 
-THAC0: +1 bonus
-Damage: 1D6 +1 (ranged), 1D8 +1 (melee)
-Damage type(melee): slashing
-Damage type(thrown): missile (piercing)
-Special:
- Returns to users hand once thrown
- 1D3 Fire Damage
-Weight: 3
+Combat abilities:
+– Returns to the wielder's hand when thrown
+
+THAC0: +1
+Damage (melee): 1d8+1 (slashing), +1d3 fire damage
+Damage (thrown): 1d6+1 (missile), +1d3 fire damage
 Speed Factor: 6
 Proficiency Type: Axe
-Type: 1-handed
-Requires: 4 Strength~
+Type: One-handed
+Requires:
+ 4 Strength
+
+Weight: 3~
 
 @1396 = ~Staff of Life~
 @1398 = ~White and gold, pulsing with great power this staff was formed at the dawn of time by the first ray of the sun as it glistened off of a pure body of water. Offering little in the way of offense, this staff does provide its wielder with powerful protections.
 
 STATISTICS:
 
-Damage: 2D2 + 2
+Equipped abilities:
+– Immunity to 1st-level spells
+
+Charge abilities:
+– Creates Potions of Extra Healing and Antidotes (5 charges)
+
 THAC0: +1
-Special:
-  Creates Potions of Extra Healing and Antidotes (5 charges)
-  Protection from level 1 spells
-Damage type: crushing
-Weight: 3
+Damage: 2d2+2 (crushing)
 Speed Factor: 6
-Proficiency Type: Staff
-Type: 2-handed~
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
 
 @1399 = ~Staff of the Ancients~
 @1400 = ~Staff created by a race called the Ancients, who lived many centuries ago. Few relics from that time period exist today and even the decendants of the Ancients know very little about the artifacts.
 
 STATISTICS:
 
-Damage: 2d4 + 3
+Equipped abilities:
+– Armor Class: +1
+
 THAC0: +3
-Special: +1 AC
-Weight: 3
+Damage: 2d4+3 (crushing)
 Speed Factor: 1
-Damage type: crushing
-Proficiency Type: Staff
-Type: 2-handed~
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
 
 @1401 = ~Ethric~
 @1402 = ~This staff grants immunity to non-magical weapons. This is a powerful staff that has a very powerful evil enchantment. All of its properties are unknown.
 
 STATISTICS:
 
-Damage: 2D8 + 1
-THAC0: +1
-Special:
-  Immunity to Non-Magical Weapons
-Damage type: piercing
-Weight: 5
-Speed Factor: 8
-Proficiency Type: Staff
-Type: 2-handed~
+Equipped abilities:
+– Protection From Normal Weapons
 
-@1403 = ~Chitiruhkha - Warlock's Staff +2~
+THAC0: +1
+Damage: 2d8+1 (piercing)
+Speed Factor: 8
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@1403 = ~Warlock's Staff +2, Chitiruhkha~
 @1404 = ~This staff is of the Chanah'Rea, forged by lightning striking the tree of power, Chitiruhkha is possessed of lightning.
 
 STATISTICS:
 
-Damage: 1D8 +2, additional 2D6 Electrical Damage (half if save vs. wands)
-THAC0: +2
-Special:
-  casts "Lightning Bolt" (10 charges, 4D6 damage, with save for half)
-Damage type: crushing
-Weight: 3
-Speed Factor: 2
-Proficiency Type: Staff
-Type: 2-handed~
+Charge abilities:
+– Lightning Bolt (10 charges)
+  Damage: 4d6 electrical (Save vs. Spell for half)
+  Range: 60 ft.
+  Area of Effect: 1 creature
 
-@1407 = ~Quarter Staff +1: 'Bonebreaker'~
-@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master’s gift. It has not been seen since.
+THAC0: +2
+Damage: 1d8 +2 (crushing), +2d6 electrical damage (Save vs. Wands for half)
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@1407 = ~Quarter Staff +1, Bonebreaker~
+@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master's gift. It has not been seen since.
 
 STATISTICS:
 
-Damage: 1D6 + 1
+Combat abilities: 
+– 20% chance each hit that target will be slowed for 18 seconds (Save vs. Spell at -4 penalty negates)
+
 THAC0: +1
-Special: 20% Target is slowed unless save vs. spell at -4
-Damage type: crushing
-Weight: 4
+Damage: 1d6+1 (crushing)
 Speed Factor: 3
-Proficiency Type: Staff
-Type: 2-handed~ //%~
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
 
 @1409 = ~Staff Of Nature~
-@1410 = ~Staff Of Nature: 'Natures Protector'
-This staff has been used by a tribe of Druids for many centuries now. Passed down from leader to leader on the tribe of archdruids in the land of Kazgard. It is said that this staff was forged by nature itself and it glows green to show this staff truly is off natures power. This staff is very powerful and the passed owners of this staff were very powerful people indeed.
+@1410 = ~This staff has been used by a tribe of Druids for many centuries now. Passed down from leader to leader on the tribe of archdruids in the land of Kazgard. It is said that this staff was forged by nature itself and it glows green to show this staff truly is off natures power. This staff is very powerful and the passed owners of this staff were very powerful people indeed.
 
 STATISTICS:
 
-Damage: 2D3 + 1
-THAC0: +1 bonus
-Special:
-  +10 max Hitpoints
-  Lore +20 bonus
-  +2 1st level Priest spells
-Weight: 2
+Equipped abilities:
+– Hit Points: +10
+– Lore: +20
+– Can memorize two extra 1st-level divine spells
+
+THAC0: +1
+Damage: 2d3+1 (crushing)
 Speed Factor: 2
-Damage type: crushing
-Proficiency Type: Staff
-Type: 2-handed~
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
 
 @1411 = ~Skeezer Lumpkin's Staff of Unpredicability +1~
 @1412 = ~Skeezer created this staff to aid him in his travels. While in the process of creating it, he became distracted and lost track of the enchantments that he had placed on the staff. The result is a weapon that produces an entirely random effect on anything that Skeezer uses it on.
 
 STATISTICS:
 
-Damage: 1D6 + 2
-THAC0: +1
-Special: Unknown
-Damage type: crushing
-Weight: 4
-Speed Factor: 3
-Proficiency Type: Staff
-Type: 2-handed~
+Combat abilities:
+– Unknown
 
-@1414 = ~Tearlac Truehammer's War Hammer: 'Giant Feller'~
+THAC0: +1
+Damage: 1d6+2 (crushing)
+Speed Factor: 3
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+
+@1414 = ~Tearlac Truehammer's Giant Feller~
 @1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is made of very strong oak and is about 18 inches long.
 
 STATISTICS:
 
-Damage: 1D4 + 2, +4 vs. giant humanoids
-THAC0: +1 Bonus, +3 vs. giant humanoids
-Damage type: crushing
-Weight: 8
+THAC0: +1, +4 vs. giant humanoids
+Damage: 1d4+2 (crushing), +4 vs. giant humanoids
 Speed Factor: 2
 Proficiency Type: War Hammer
-Type: 1-handed
-Requires: 10 Strength~
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 8~
 
 @1420 = ~Spear of Fire~
 @1422 = ~This Spear's head is magically burning, which make this spear very deadly in combat.
 
 STATISTICS:
 
-Damage: 1D6 + 1, +1d6 fire damage
 THAC0: +1
-Damage type: piercing
-Weight: 3
+Damage: 1d6+1 (piercing), +1d6 fire damage
 Speed Factor: 3
 Proficiency Type: Spear
-Type: 2-handed~
+Type: Two-handed
+Requires:
+ 5 Strength
 
-@1423 = ~Spear +3: 'Dragon Scepter'~
+Weight: 3~
+
+@1423 = ~Spear +3, Dragon Scepter~
 @1424 = ~Named so because of the dragons ornately carved into the shaft of the spear. Its exact origins remain unknown.
 
 STATISTICS:
 
-Damage: 1D6 + 3
-THAC0: +3 bonus
-Damage type: piercing
-Weight: 5
+THAC0: +3
+Damage: 1d6+3 (piercing)
 Speed Factor: 5
 Proficiency Type: Spear
-Type: 2-handed~
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
 
 @1426 = ~Otho Truehammer's Mace +1~
 @1428 = ~Otho has created this finely crafted mace for you. The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end. In this case, the head is pyramidal and made of the finest Iron, as it sits atop a polished oak shaft. Even though there is an iron shortage all smithys keep on hand a small amount of fine iron for "special" purposes.
 
 STATISTICS:
 
-Damage: 1D6 + 2
 THAC0: +1
-Damage type: crushing
-Weight: 8
+Damage: 1d6+2 (crushing)
 Speed Factor: 6
 Proficiency Type: Mace
-Type: 1-handed
-Requires: 10 Strength~
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 8~
 
 @1429 = ~Otho Truehammer's Mace +1~
 @1430 = ~Elminster the Sage has placed a very powerful enchantment on this mace that Otho created for you giving it special powers to defeat evil undead creatures. You notice that the mace now glows with an inner blue light.
 
 STATISTICS:
 
-Damage: 1D6 + 2, +4 vs Undead
 THAC0: +1
-Damage type: crushing
-Weight: 8
+Damage: 1d6+2 (crushing), +4 vs. undead
 Speed Factor: 6
 Proficiency Type: Mace
-Type: 1-handed
-Requires: 10 Strength~
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 8~
 
 @1431 = ~Mace of Disruption - Blessed~
-@1432 = ~After Morninglord Jarent gave the mace the blessing of Lathander you notice that it seems to almost breathe with a life of its own. You can feel the power surge through your hands as you wield it. It seems to call to you...eager to seek out the undead!
+@1432 = ~After Morninglord Jarent gave the mace the blessing of Lathander you notice that it seems to almost breathe with a life of its own. You can feel the power surge through your hands as you wield it. It seems to call to you... eager to seek out the undead!
 
 STATISTICS:
 
-Damage: 1D6 + 2, +4 vs Undead
+Combat abilities:
+– Undead must save vs. Spell or be utterly destroyed
+
 THAC0: +1
-Special:
-  Will destroy undead unless save
-Damage type: crushing
-Weight: 8
+Damage: 1d6+2 (crushing), +4 vs. undead
 Speed Factor: 6
 Proficiency Type: Mace
-Type: 1-handed~
+Type: One-handed
+Requires:
+ 10 Strength
 
-@1436 = ~Dagger +2: 'AdderSting'~
+Weight: 8~
+
+@1436 = ~Dagger +2, Adder Sting~
 @1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator. The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin. This jet black blade is split in the middle and ends in two razor sharp points. In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches. Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
 
 STATISTICS:
 
-Damage (melee): 1d4 + 2 (plus 6 poison, save for half)
-Damage (missile): 1d4 + 2 (plus 6 poison, save for half)
-THAC0: +2 bonus
-Special:
-  5% chance of nicking yourself (6 poison, no save)
-  Returns when thrown
-Damage type: piercing
-Weight: 2
+Combat abilities:
+– Returns to the wielder's hand when thrown
+– 5% chance of nicking yourself (6 poison damage)
+
+THAC0: +2
+Damage: 1d4+2, +6 poison damage (Save vs. Spell for half)
+Damage type (melee): Piercing
+Damage type (thrown): Missile
 Speed Factor: 0
 Proficiency Type: Dagger
-Type: 1-handed
-Requires: 3 Strength~ //%~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 2~
 
 @1439 = ~Drow Adamantite Dagger +3~
 @1440 = ~Most drow carry daggers forged from adamantite alloy and reinforced with enchantments. Some are even coated with one of the several types of drow poisons, allowing them to be well-prepared to deal with assassins, a constant danger in drow society. Of course, the daggers are also used just as frequently by the assassins themselves...
@@ -1470,157 +1669,213 @@ This item, like most drow equipment, is created using adamantine, an alloy of ad
 
 STATISTICS:
 
-Damage: 1d4 + 3
-THAC0: +3 bonus
-Special:
-  Poison, 10 damage in 10 seconds unless a successful save vs poison with a -4 penalty is made
-  Renders the victim unconscious for 10 seconds (save without penalty)
+Combat abilities:
+– Target must save vs. Poison at -4 penalty or suffer 10 points of damage per second in 10 seconds
+– Target must save vs. Paralyze or become unconscious for 10 seconds
 
-Weight: 1
+THAC0: +3
+Damage: 1d4+3
 Speed Factor: 2
 Proficiency Type: Dagger
-Type: 1-handed
-Requires: 3 Strength~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
 
 @1441 = ~D'Raavhen's Fang +2~
 @1442 = ~Vampiric dagger of Lorik D'Raavhen. The mere sight of this dark blade strikes a fear in you that is beyond description. It pulses with such an aura of pure evil, your first, and only thought is to run until your body collapses from exhaustion. Its blackened blade was apparently forged from the arcane substance of the Abyss, giving the weapon an appearance as dark and foreboding as its master.
 
 STATISTICS:
 
-Damage: 1D4 + 2
-THAC0: +2 bonus
-Special: Vampiric effect
-Weight: 1
+Combat abilities:
+– Inflicts damage upon the wielder and heals the target
+
+THAC0: +2
+Damage: 1d4+2
 Speed Factor: 0
 Proficiency Type: Dagger
-Type: 1-handed
-Requires: 3 Strength~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
 
 @1446 = ~Keiria's Light Crossbow of Speed~
 @1448 = ~This light crossbow has no extra enchantments to distinguish it from others of its type. The only difference is its color, as Keiria strives always to remain fashionable, even on the battlefield.
 
 STATISTICS:
 
+Combat abilities:
+– 1 extra attack per round
+
+THAC0: +1
 Damage: +1 (missile)
-THAC0: +1 bonus
-Special: 1 extra attack per round
-Weight: 5
 Speed Factor: 3
 Proficiency Type: Crossbow
-Type: 2-handed~
+Type: Two-handed
+Requires:
+ 8 Strength
+
+Weight: 5~
 
 @1452 = ~Elven Bow, Goblin Bane~
 @1454 = ~This bow was created to be used by elves in defense of their forests from goblins and hobgoblins, though there is no special ability against goblins or hobgoblins.
 
 STATISTICS:
 
-Damage: +2
 THAC0: +2
-Weight: 2
+Damage: +2
 Speed Factor: 3
 Proficiency Type: Short Bow
-Type: 2-handed
-Requires: 3 Strength~
+Type: Two-handed
+Requires:
+ 3 Strength
 
-@1456 = ~Strength Long Bow +1: 'Vibradeath'~
+Weight: 2~
+
+@1456 = ~Strength Long Bow +1, Vibradeath~
 @1458 = ~Crafted by forest elves for the Snow Barbarian Prince, Corbus Denox, this bow provides increased strength, damage and accuracy. The resonant low hum after it is shot gave birth to its name.
 
 STATISTICS:
 
-Damage: +1
+Equipped abilities:
+– Strength: +1
+
 THAC0: +2
-Special: +1 Strength
-Weight: 2
+Damage: +1
 Speed Factor: 5
 Proficiency Type: Long Bow
-Type: 2-handed
-Requires: 6 Strength~
+Type: Two-handed
+Requires:
+ 6 Strength
 
-@1459 = ~Holy Bow of the Sukien: 'Saw Tooth'~
+Weight: 2~
+
+@1459 = ~Holy Bow of the Sukien, Saw Tooth~
 @1460 = ~Saw Tooth, probably so named from its appearance, sporting an array of tooth like barbs along its outer length. Only seen in the temple of the Sukien, this is the weapon of a Holy Guard. Runic carvings indicate a command word that when activated creates a block of 5 Arrows of Striking.
 
 STATISTICS:
 
-Damage: +3
+Charge abilities: 
+– Create Arrows of Striking once per day
+
 THAC0: +2
-Special: Create Arrows of Striking (1 arrow/day)
-Weight: 2
+Damage: +3
 Speed Factor: 5
 Proficiency Type: Long Bow
-Type: 2-handed
-Requires: 6 Strength~
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
 
 @1462 = ~Ettin's Wand~
 @1464 = ~Ettin was monk from the time of the Ancients. Aside from his priestly duties he was a very adept herbalist. He discovered three magical herbs that when, combined have the effect of paralyzing the user for a short period of time. There is also a small chance of being poisoned when using these herbs. Ettin's knowledge was later discovered by a mage who found a way to deliver the herbs from a distance by coating magical spheres with the herbs.
 
 STATISTICS:
 
-Usage: 10 charges
-Effect: Stuns Target for 2 rounds (save vs wands at -4)
-Special: 30% chance to poison target (30 damage in 15 seconds)
-Range: 100 ft
-Area: 1 creature~ //%~
+Charge abilities:
+– 30% chance to poison target
+  Damage: 30 posion damage in 15 seconds
+  Range: 100 ft.
+  Area of Effect: 1 creature
+
+– Stun target (Save vs. Wand at -4 penalty negates)
+  Range: 100 ft.
+  Area of Effect: 1 creature
+  Duration: 2 rounds
+
+Requires:
+ 9 Intelligence
+
+Weight: 1~
 
 @1465 = ~Sapphire Wand~
 @1466 = ~Used by the Mage King Varashar while he was holding audience, or court. He used the wand as a form of punishment after he had past judgment. According to most stories he said "Your amount of guilt will determine your amount of pain."
 
 STATISTICS:
 
-Damage: 2d4
-Special: Possibility of additional damage for the next 3 rounds.~
+Charge abilities:
+– Punishment
+  Damage: 2d4
+  Area of Effect: 1 creature
+  Special: Possibility of additional damage for the next 3 rounds.
+
+Requires:
+ 9 Intelligence
+
+Weight: 1~
 
 @1467 = ~Wand of Chain Lightning~
-@1468 = ~When activated, the wand will eject a ball of electrical energy that darts forth to target area. When the ball reaches the target is discharges in a 20 yard area doing 6D6 +6 electrical damage to all creatures within that area, half with successful save vs. wand.
+@1468 = ~When activated, the wand will eject a ball of electrical energy that darts forth to target area. When the ball reaches the target is discharges in a 40 ft. area doing 6d6+6 electrical damage to all creatures within that area, half with successful save vs. wand.
 
 STATISTICS:
 
-Special: Ball of Electrical Energy
-Damage: 6D6 (save vs wands for half)
-Range: 40 ft
-Area: 20 yardse~
+Charge abilities:
+– Ball of Electrical Energy
+  Damage: 6d6 electrical (Save vs. Wands for half)
+  Range: 40 ft.
+  Area of Effect: 40 ft.
 
-@1470 = ~Elgenon's Bramble: 'The Branch of Many Thorns'~
+Requires:
+ 9 Intelligence
+
+Weight: 1~
+
+@1470 = ~The Branch of Many Thorns~
 @1472 = ~Crafted by nymphs for the keepers of the wood this bramble bush branch is enchanted with thorns that grow anew upon use. Originally gifted to Elgenon the Wise, protector of the Tree of Wisdom, it has since been passed on to druids who have proven their worth as protectors of the wood.
 
 STATISTICS:
 
-Damage: 1D8 + 1
+Combat abilities:
+– Returns to the wielder's hand when thrown
+– +5 poison damage in 5 rounds (Save vs. Poison negates)
+
 THAC0: +1
-Poison Damage: 1 point per round, up to a total of 5 damage (save negates)
-Special: Can be thrown and returns to the hand of the wielder
-Weight: 4
+Damage: 1d8+1
+Damage type (melee): Crushing
+Damage type (thrown): Missile
 Speed Factor: 1
 Proficiency Type: Club
-Type: 1-handed
-Requires: 3 Strength~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 4~
 
 @1473 = ~Ass' Jawbone~
-@1474 = ~This appears to be nothing more than the jawbone of an animal, perhaps a donkey or mule. In a pinch this could be used as a primitive club.....
+@1474 = ~This appears to be nothing more than the jawbone of an animal, perhaps a donkey or mule. In a pinch this could be used as a primitive club...
 
 STATISTICS:
 
-Damage: 1D6
-Damage type: crushing
-Weight: 3
+Damage: 1d6 (crushing)
 Speed Factor: 4
 Proficiency Type: Club
-Type: 1-handed
-Requires: 3 Strength~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 3~
 
 @1475 = ~This is the jawbone of a donkey that the Nazerite warrior/priest Samson used to kill 600 Philistines in one day. A formidable weapon of humble origin.
 
 STATISTICS:
 
-Damage: 1D6 + 2
+Equipped abilities:
+– Character's outline becomes blurred
+– Armor Class: +1
+– Saving Throws: +1
+
 THAC0: +2
-Special:
-  Upon equipping weapon character's outline becomes blurred, giving a +1 AC bonus and a +1 bonus to all saving throws.
-Damage type: crushing
-Weight: 3
+Damage: 1d6+2 (crushing)
 Speed Factor: 2
 Proficiency Type: Club
-Type: 1-handed
-Requires: 3 Strength~
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 3~
 
 @1476 = ~Mielikki's Blade~
 @1477 = ~Trungle's Supplies~

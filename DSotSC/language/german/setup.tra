@@ -1137,18 +1137,7 @@ Bringt die Seelenbehälter zu den Phantomen, um ihnen ihren Frieden wiederzugeben
 Um einee Leiche zerstören zu können muss man den Behälter besitzen, in dem sich seine Lebensessenz befindet. Dies wird sie daran hindern, sich selbst wiederzubeleben.~
 @1162 = ~Antike Reliquie des Lathander~
 @1163 = ~Dies ist die Reliquie, nach der Ihr gesucht habt.~
-@1164 = ~Antiker Kelch~
-@1165 = ~Heiliger Kelch~
-@1166 = ~Dieser Kelch scheint sehr alt zu sein.~
-@1167 = ~Ein Gerücht besagt, dass jeder, der aus diesem Kelch trinkt, wahrhaftig gesegnet sein wird. Die Gravuren darauf lauten: "Jene, die im Licht wandeln, werden gesegnet sein."
 
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Besonderheit: Verleiht die natürliche Fähigkeit "Jünger des Lichts"
-
-Kann nur verwendet werden von:
- Paladinen
- Priestern (Guter Gesinnung)~
 @1168 = ~Horn~
 @1169 = ~Kampfschrei~
 @1170 = ~Dieses ungewöhnliche Horn ist mit roten Streifen und Runen-Schnitzereien versehen.~
@@ -1243,16 +1232,6 @@ SPEZIFISCHE EIGENSCHAFTEN:
 
 Kann nur verwendet werden von:
  bösen Wesen~
-@1259 = ~Blausteinkette der Geschicklichkeit~
-@1260 = ~Ihr habt in der Tat großes Glück. Diese magische Blausteinkette steigert Eure Geschicklichkeit wie kaum ein anderer Gegenstand! Lasst sie nur nicht in die falschen Hände fallen...
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-ETW0-Bonus: -3
-Geschicklichkeits-Bonus: +3
-
-Kann nicht verwendet werden von:
- Magierkiller~
 @1261 = ~Amulett des Glaubens~
 @1262 = ~Es gibt eine Menge vergleichbare Gegenstände in den Reichen. Die meisten haben eher einen symbolischen als praktischen Nutzen, im Allgemeinen um den Glauben des Trägers zu verdeutlichen.
 
@@ -1414,21 +1393,6 @@ Rüstungsklasse-Bonus: -3
 Besonderheit: Erhöhte Kälteresistenz und Feuerresistenz
 Gewicht: 3
 Mindeststärke: 4
-
-Kann nicht verwendet werden von:
- Druiden
- Barden
- Magiern
- Dieben
- Mönchen
- Kensai~
-@1312 = ~Der mittlere Schild wird auf die selbe Weise getragen wie der kleine Schild, ist jedoch so schwer, dass mit der Schildhand keine anderen Aktionen ausgeführt werden können. Mittlere Schilde bestehen für gewöhnlich aus Metall und haben einen Durchmesser von 90 bis 120 cm. Es gibt sie in zahlreichen Formen; von rund über quadratisch bis zur Form der gespreizten Drachenflügel. Ein typischer mittlerer Schild ist dreieckig, wobei eine Spitze nach unten zeigt. Dieser spezielle Schild bietet dank magischer Energie besseren Schutz als gewöhnliche Schilde.
-
-SPEZIFISCHE EIGENSCHAFTEN:
-
-Rüstungsklasse-Bonus: -3
-Gewicht: 6
-Mindeststärke: 12
 
 Kann nicht verwendet werden von:
  Druiden

@@ -1248,17 +1248,6 @@ Return these vials to the phantoms to give them their freedom.~
 To destroy the Lich known as the Dark One, you must have possession of this Phylactery. This will prohibit the lich from resurrecting himself.~
 @1162 = ~Ancient Relic of Lathander~
 @1163 = ~This is the relic that you seek.~
-@1164 = ~Ancient Goblet~
-@1165 = ~Holy Goblet~
-@1166 = ~This goblet appears to be quite old.~
-@1167 = ~It is said that those who drink from this most holy goblet are truly blessed. The engraving on the goblet reads: "Those who walketh in the Light are most surely blessed"
-
-Special:
-  Grants innate ability 'Disciple of Light'
-
-Usable By:
- Paladin
- Cleric (Good Aligned Only)~
 
 @1169 = ~Battle Cry~
 @1170 = ~This delicately crafted horn is decorated with reb ribbons and runic carvings.~
@@ -1367,15 +1356,6 @@ Special: Gain 25% Protection from Fire
 
 Only usable by:
  Evil Alignment~
-
-@1259 = ~Bluestone Necklace of Dexterity~
-@1260 = ~You are a very lucky adventurer indeed. This Bluestone Necklace increases your Dexterity and gives you a +1 THAC0 bonus! Just don't let it fall into the wrong hands.....
-
-Special:
-  +1 Dexterity Bonus and +1 THAC0 while wearing
-
-Not Usable By:
- Wizardslayer~
 
 @1261 = ~Amulet of Faith~
 @1262 = ~There are many similar items throughout the realms, those that have a more symbolic purpose rather than a practical one. Most commonly such items are used to express one's belief in a certain deity.
@@ -1540,22 +1520,6 @@ Special:
   Decreased Resistance to Fire: -25%
 
 Weight: 3
-
-Not Usable By:
- Bard
- Druid
- Mage
- Thief
- Monk
- Kensai~
-
-@1312 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward.
-
-STATISTICS:
-
-Armor Class Bonus: 3
-Weight: 6
-Requires: 12 Strength
 
 Not Usable By:
  Bard
