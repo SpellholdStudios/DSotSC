@@ -1,8 +1,8 @@
 //DSCOFF1.baf; DSCOFF2.baf
-@0 = ~El vampiro se retira a su ataúd una vez vencido. Si tenéis una estaca de madera, podéis mirar de matarlo.~
-@1 = ~Claváis la estaca en el corazón corrupto del vampiro. La criatura no dejará más víctimas chupando su sangre.~
-@2 = ~El vampiro por fin ha muerto y su ataúd apesta a carroña. No hay nada más que podáis hacer.~
-@3 = ~Estáis muy lejos para usar eso.~
+@0 = ~El vampiro se retira a su ataÃºd una vez vencido. Si tenÃ©is una estaca de madera, podÃ©is tratar de matarlo.~
+@1 = ~ClavÃ¡is la estaca en el corazÃ³n corrupto del vampiro. La criatura no se alimentarÃ¡ mÃ¡s de la sangre de los demÃ¡s.~
+@2 = ~El vampiro por fin ha muerto y su ataÃºd apesta a carroÃ±a. No hay nada mÃ¡s que podÃ¡is hacer.~
+@3 = ~EstÃ¡is muy lejos para usar eso.~
 
 //DSDUEGWA.BAF
-@10 = ~¡Alerta! ¡Intrusos!~
+@10 = ~Â¡Alerta! Â¡Intrusos!~
