@@ -1,0 +1,1615 @@
+///////////
+//Items
+///////////
+
+@1000 = ~Corona~
+@1001 = ~Corona del Archidruida~
+@1002 = ~Las Coronas no existen sólo para decorar, alguna de ella también ofrecen protección.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Protege contra golpes críticos
+Peso: 2 lbs~
+
+@1003 = ~Esta corona, fue del líder de los "Druidas del Bosque Negro" hace 13 generaciones, pero tras una invasión orca que acabó con dicha comunidad druídica, la corona ha cambiado de dueño con asiduidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Protección contra golpes críticos
+ 1 hechizo extra de nivel 1 a 3
+Aptitudes especiales: 
+ Encantar animales excepto si salvación contra varitas
+   Alcance: 12 metros
+   Área: 1 animal
+   Duración: 10 turnos
+Peso: 2 lbs~
+
+@1004 = ~Corona de Alarphon~
+@1005 = ~Entre las filas de los Magos Guerreros de Corymr existe una orden que se aseguran de que ninguno de los magos traicione a su nación o rey. Espiando a sus compañeros, los miembros del Alarphon son desconocidos incluso entre ellos. Muchos utilizan coronas similares a esta para que los demás sepan que pertenecen a la orden
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas:
+ Protege contra golpes críticos
+ Inmunidad al encantamiento y al miedo
+Peso: 2 lbs~
+
+@1006 = ~Sombrero~
+@1007 = ~Sombrero del Explorador~
+@1008 = ~El sombrero de fieltro es el favorito de los bardos, aunque ofrecen poca protección y más bien son decorativos a veces. Raras veces se descubre uno que está encantado con magia.
+
+CARACTERÍSTICAS:
+
+Peso: 2 lbs~
+
+@1009 = ~Este sombrero ha sido encantado, y aunque parece tan frágil como las típicas ropas o gorras de fieltro, tiene la resistencia de parar un buen golpe...y también infundir confianza en el usuario
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Protección de efectos de Miedo
+Peso: 2 lbs~
+
+@1010 = ~Tiara~
+@1011 = ~Tiara de Chanah'Rea~
+@1012 = ~Esta clase de tiaras decorativas echas de cuentas o metales, se llevan en la cabeza. Generalmente están adornadas con joyas u otras piedras preciosas y son del gusto de los brujos.
+
+CARACTERÍSTICAS:
+
+Peso: 2~
+
+@1013 = ~Mientras que la mayor parte de las tiaras son simples objetos ornamentales, ésta está encantada por los Altos Sacerdotes de Chanah'Rea. Se cree que la piedra situada en su centro es del mismísimo Stonenhedge.
+
+CARACTERÍSTICAS:
+
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas:
+ Resiste al encantamiento
+ Protege contra golpes críticos
+Peso: 2 lbs~
+
+@1015 = ~Yelmo de Ferthgil~
+@1017 = ~Este es el yelmo que usaba Ferthgil Matatrolls, el hijo de Breachin Matatrolls. El clan Piedradelbrezal se lo entregó durante su estancia en él tras la muerte de su padre. El mentor de Ferthgil, Gulmoth Piedradelbrezal lanzó la bendición de Clangeddin sobre él para ayudarle a canalizar de forma clara sus pensamientos, Aptitudes poseídasmente en el fragor de la batalla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Protege contra golpes críticos
+ Protege contra encantamiento, pánico y parálisis.
+Peso: 2 lbs~
+
+@1022 = ~Yelmo de Cristal~
+@1023 = ~Creado de cristales mágicos de ahora una Mina abandonada de Enanos. Los cristales tienen una resistencia natural al calor y al frío.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Aptitudes poseídas:
+ Protege contra golpes críticos
+ +10% resistencia a fuego
+ +10% resistencia a frío
+Peso: 2 lbs~
+
+@1024 = ~Casco de Batalla 'Enano' de Skeezer Lumpkin~
+@1025 = ~Este yelmo es un regalo a Skeezer de un buen amigo suyo: Gothmog Suelodepiedra, un enano del clan Suelodepiedra. Skeezer y Gothmog se hicieron buenos amigos después de que el primero le salvara la vida al segundo. Gothmog había sido sorprendido por una patrulla duérgar, que había salido a la superficie una noche sin luna en busca de víctimas. Skeezer, que pasaba por allí, golpeo su vara contra el suelo provocando que el cielo se iluminara como si fuese mediodía, lo que por supuesto hizo huir a los duérgar. La amistad que surgió de este encuentro resultó tan profunda que hasta consiguió que Gothmog se interesase por la magia gnómica de Skeezer y que en secreto hasta practicase algún que otro hechizo, ya que por supuesto era consciente de que a su clan no le gustarían nada esas actividades si se enterasen.
+
+Aunque Skeezer afirma que el casco es bendecido con todos los poderes de Clangeddin mismo, los cuernos prominentes que sobresalen de sus lados te impresionan mucho más, particularmente cuando uno casi perfora tu brazo. Afortunadamente, parece que lo hace sólo al anticipar la batalla
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Protege contra golpes críticos
+ Protege contra todas las formas de pánico y aumenta la moral
+Peso: 2 lbs~
+
+@1026 = ~Yelmo del Guardia Santo~
+@1027 = ~Este yelmo con marcas ornamentales parece más para lucir que para proteger; de todas formas el parecido puede ser decepcionante. Encantado por altos sacerdotes Sukien, provee al portador suficiente fuerza mental para resistir cualquier tentación.
+
+CARACTERÍSTICAS:
+
+Aptitudes Aptitudes poseídases:
+ Protege contra golpes críticos
+ Protege contra ataques mentales (excepto Paralisis)
+Peso: 2 lbs~
+
+@1028 = ~Yelmo de Thorfinn~
+@1029 = ~Este yelmo otorga inmunidad a todas las formas de miedo y pánico, ya sean de origen natural o mágico.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Protege contra los golpes críticos
+ Protección a todas las formas de Pánico y Miedo
+Peso: 2 lbs~
+
+@1030 = ~Armadura de Espinas~
+@1032 = ~Tras una observación más detallada, se aprecia que la armadura no está hecha de cuero, sino de un intrincado tejido de enredaderas y ramas espinosas. Esta armadura es un regalo de las ninfas a los druidas, un regalo por la admiración hacia una interminable protección de los bosques.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5 (4 contra daño de proyectil, 7 contra daño cortante)
+Tirada de salvación: bonificación +1
+Peso: 4 lbs
+Requisitos: Fuerza 6~
+
+@1033 = ~Armadura de cuero +2: 'La perdición de Bhaelros'~
+@1034 = ~Aunque las ordenes de druidas fueron tradicionalmente extrañas en el ambiente duro de Calimshan, existe un pequeño grupo de ellos cerca de las "Montañas marchantes". Fuero perseguidos y ridiculizados por los Calishites, y a menudo eran atacado por los sacerdotes de Bhaelros. Con el fin de proteger a los miembros de su orden crean armaduras como estas, permitiendo así a los druidas protejerce de los hechizos eléctricos de los clérigos malvados. Desafortunadamente, ellos no puedieron proveer la misma protección para los árboles, y huyeron cuando su hogar fue destruído...
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 6 (8 contra daño perofante y de proyectil)
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas: +25% Resistencia a la Electricidad
+Peso: 6 lbs
+Requisitos: Fuerza 4~
+
+@1036 = ~Armadura Enana de Batalla de Mithril de Ferthgil~
+@1038 = ~Esta armadura de placas, hecha de una aleación de mithril, es obra de Ferthgil Matatrolls bajo la tutela de Otho Martillofiel, maestro herrero, líder del clan Martillofiel y padre de su mejor amigo, Tearlac Martillofiel. Esta armadura demuestra que es un fantástico herrero, aunque prefiera el fuego de la batalla al de la forja. La calidad de esta armadura la convierte en equivalente a una que haya sido encantada para proporcionar una bonificación de +5 a la clase de armadura, a pesar de que no se utilizó ningún hechizo durante su creación.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 1 (-2 contra daño cortante)
+Peso: 30 lbs
+Requisitos: Fuerza 14~
+
+@1039 = ~Armadura de placas Bendita de Conchobhair Fuertefilo~
+@1040 = ~Esta armadura de placas ha sido bendecida para proporcionar una protección adicional en el combate contra criaturas de gran tamaño y monstruos en general, lo cual es ideal desde el punto de vista de Conchobhair y su cruzada contra los dragones. Esta armadura le proporciona una buena defensa al mismo tiempo que no coarta su movilidad.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2 (-1 contra daño cortante)
+Peso: 18 lbs
+Requisitos: Fuerza 18~
+
+@1041 = ~Armadura de Placas de Cristal~
+@1042 = ~Forjada con cristales mágicos extraídos de una mina enana ya hace tiempo abandonada, esta armadura conserva la resistencia natural al fuego y al frío observados en su materia prima.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2
+Aptitudes poseídas:
+ +15% Resistencia al fuego
+ +15% Resistencia al frío
+Peso: 20 lbs
+Requisitos: Fuerza 11~
+
+@1047 = ~Armadura de pieles de Thorfinn~
+@1048 = ~Esta es la armadura personal de Thorfinn Hauskluniff. Aunque no posee ninguna habilidad mágica, es una pieza bien construida, casi que parece ser cuero tradicional debido a su corte y diseño. Un lobo que gruñe blasonado en el pecho evoca sus orígenes más salvajes.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 6 (8 contra daño perforante y de proyectil)
+Peso: 3 lbs
+Requisitos: Fuerza 3~
+
+@1052 = ~Armadura del Cruzado~
+@1054 = ~La Armadura laminada es la preferida de la clase guerrera del cruzado, conocido como el paladín. A veces llamados azotadores religiosos, estos guerreros luchan fuertemente con gran fe en las leyes que ellos defienden.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2 (1 contra daño perforante y de proyectil, 0 contra daño contundente)
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas:
+ +20% de puntos de golpe
+Peso: 20 lbs
+Requisitos: Fuerza 8~
+
+@1055 = ~Cota de mallas +2 'Cota de mallas bendita'~
+@1056 = ~Esta cota de mallas +2 es, a veces, llevada por sacerdotes que buscan su fe. Cuando se lleva, el sacerdote está bendecido con un hechizo.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3 (1 contra daño cortante, 5 contra daño contundente)
+Aptitudes poseídas: 
+ Ayuda: El beneficiario de este hechizo obtiene los beneficios de un hechizo 'Bendecir' (+1 a tiradas de ataque y a las tiradas de salvación) y un bono Aptitudes poseídas de 1D8 de puntos de golpe adicionales durante la duración del hechizo.
+Peso: 10 lbs
+Requisitos: Fuerza 7~
+
+@1057 = ~Armadura sagrada Sukien~
+@1058 = ~La armadura sagrada Sukien, llevada por la Guardia Santa del Templo de los Sukien, posee una gran magia. Presumiendo de no ser nunca derrotados en batalla, la Guardia Santa son azotadores incondicionales para ganar, lo que se cree, un regalo de los cielos. Esta armadura marcada con su emblema visible en su pecho es igual de hortera y descarado que sus portadores.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 0 (-2 contra daño cortante, 2 contra daño contundente)
+Apatitudes poseídas: Protección a envenenamiento
+Peso: 18 lbs
+Requisitos: Fuerza 11~
+
+@1059 = ~Cota de Mallas de Jet'laya~
+@1060 = ~Esta es la cota de mallas personal de Jet'laya. Fue forjada para ella por su hermano gemelo, Rennar. A pesar de su inusual color, parece ser un conjunto normal de cota de mallas élficas.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5 (3 contra daño cortante, 7 contra daño contundente)
+Aptitudes poseídas: Se pueden lanzar conjuros.
+Peso: 15 lbs
+Requisitos: Fuerza 5~
+
+@1061 = ~Armadura laminada: 'La Piel de Korim'~
+@1062 = ~Forjada por el hechicero Netheril y el explorador la mano de Korim, esta cota de láminas tiene un peculiar color verde para una armadura de este tipo, y es extremadamente ligera. Korim fue un auténtico portento en las artes mágicas y en los senderos de la naturaleza. Tras una fiera batalla en la que resultó herido, decidió que necesitaba una mayor protección que aún le permitiera usar sus talentos Aptitudes poseídases.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 4 (3 contra daño perforante y de proyectil, 2 contra daño contundente)
+Aptitudes poseías: Ninguna penalización a las habilidades de mago
+Peso: 7 lbs
+Requisitos: Fuerza 7~
+
+@1063 = ~Armadura de Cuero de CúChoinneach +2~
+@1064 = ~CúChoinneach se hizo esta armadura durante sus días de explorador.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5 (3 contra daño cortante, 4 contra daño perforante y de proyectil)
+Aptitudes poseídas: +15% Ocultarse en las Sombras
+Peso: 8 lbs
+Requisitos: Fuerza 6~
+
+@1065 = ~Armadura barda de cuero tachonado de Keiria Hilodeplata~
+@1066 = ~Keiria mantiene un contacto estrecho con su herencia élfica y por lo tanto a tenido la oportunidad de hacerse con unos cuantos objetos encantados por esta raza, uno de ellos es esta armadura de cuero, que no sólo le proporciona una protección mágica incrementada sino que también le permite realizar hechizos.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7 (5 contra daño cortante, 6 contra daño perforante y de proyectil)
+Peso: 10 lbs
+Requisitos: Fuerza 6~
+
+@1067 = ~Cuero de Gnomo obrero~
+@1068 = ~Cuero de Gnomo obrero +2~
+@1069 = ~La armadura de cuero de Gnomo obrero es una variante de la armadura de cuero gnoma de alta calidad. El cuero de obrero Gnomo está adornado con docenas de herramientas y bolsas, típicamente llenas de la colección más extensa de cuñas, clavos, útiles, armas, chismes y tuercas nunca vistas. Por esta razón, este conjunto provee una protección idéntica a la armadura de cuero laminado.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7 (5 contra daño cortante, 6 contra daño perforante y de proyectil)
+Peso: 25 lbs
+Requisitos: Fuerza 10~
+
+@1070 = ~Este conjunto de armadura fue creado por un maestro artesano gnomo y encantada para ofrecer una mejor protección contra accidentes imprevisibles. Los útiles y el equipo de la armadura hace que abrir cerraduras bloqueadas sea más fácil.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5 (3 contra daño cortante, 4 contra daño perforante y de proyectil)
+Peso: 8 lbs
+Requisitos: Fuerza 6~
+
+@1072 = ~Túnica de mago de Skeezer Lumpkin~
+@1074 = ~Colorida, brillante y...colorida...La túnica de SKeezer podría describirse apropiadamente como un alboroto de telas rojas, particularmente cuando se adorna con las muchas baratijas que él tiene en su alta estima. El gnomo clama que inventó un nuevo tipo de tejido que proteje del abrasibo aliento de los dragones, de los insidiosos tentaculos de los ilicidos y los rayos mágicos de los cotempladores. Por lo que se puede decir, la túnica no podría si quiera resistir a la daga de un kobold cojo. Sin embargo, dada la habilidad de Skeezer como un mago, no tienes duda de que lleva al menos alguna protección mágica.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7
+Tiradas de salvación: bonificación +1
+Apatitudes poseídas: +5% Resistencia mágica 
+Peso: 6 lbs~
+
+@1075 = ~Túnica del Hechicero~
+@1076 = ~Esta túnica de mago está hecha para la magia más avanzada, dando por terminado su periodo de aprendizaje y dejando que ya pueda viajar solo. Su clase de armadura y sus bonos para conjuros hacen de esta túnica la ideal para llevarla en los viajes.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 8
+Aptitudes poseídas: 1 hechizo extra de nivel 1 y 2
+Peso: 3 lbs~
+
+@1077 = ~Túnica del Gran hechicero~
+@1078 = ~Se rumorea que este poderoso traje tiene una oscura historia. Supuestamente creado por el archimago Halaster para atormentar a los aprendices de magia jóvenes, ha sembrado el caos en sus viajes a través de los Reinos, dejando asesinato y traición a su paso. A pesar de tener potentes hechizos de protección, rara vez ha permanecido con un solo dueño durante mucho tiempo, y algunos susurran que la bata misma no desea nada menos que la destrucción de cualquiera que pretenda reclamarla.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas: +25% Resistencia mágica
+Peso: 6 lbs~
+
+@1079 = ~Túnica de Dh'arlo'me~
+@1080 = ~Esta poderosa Túnica de Mago ofrece protección contra todas las formas de ataque físico mientras al mismo tiempo incrementa su resistencia mágica. Debido a la naturaleza de su encantamiento, sólo puede ser quitada por Quitar maldición.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 4
+Aptitudes poseídas:
+ +1 Inteligencia
+ +1 Sabiduría
+ +10 Resistencia mágica
+ Inmune a conjuros de nivel 1 a 2
+ +1 a conjuros de nivel 3 y 4
+ +1 A la velocidad de lanzar conjuros
+ Inmune a todas las armas normales
+Peso: 6 lbs~
+
+@1081 = ~Túnica de Drakelor~
+@1082 = ~Esta túnica fue originalmente un regalo del famoso mago Drakelor a un amigo, que tenía que partir en un viaje largo y peligroso. Por desgracia, la túnica fue robada cuando el amigo descansaba en una taberna tras un agotador viaje. El ladrón, que conocía bien el valor de su botín pero no su origen, preparó una reunión con el más poderoso mago que conocía. Drakelor, sin embargo, reconoció su obra y comprendió inmediatamente lo que había sucedido. El destino del ladrón no necesita más descripciones.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Tiradas de salvación: bonificación +1
+Peso: 3 lbs~
+
+@1083 = ~Túnica de Mago Drow~
+@1084 = ~Poderosos magos elfos oscuros a menudo se ven vistiendo capas finas que hacen que se mezclen en su entorno, por lo que es bastante difícil enfrentarse a ellos en la batalla. El material utilizado para fabricar estas capas no se corta fácilmente y es resistente al fuego.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Aptitudes poseídas:
+ Aumenta la Inteligencia en 2
+ Memoriza un conjuro extra de nivel 6 y 7
+ +6 a la salvación contra armas de aliento
+ +50% a la resistencia al fuego
+ No detectable
+Peso: 1 lbs~
+
+@1085 = ~Túnica del Abismo~
+@1086 = ~Es este sin duda alguna un terrible artefacto. Tejidas con la esencia del mismísimo abismo, estas poderosas túnicas ofrecen protección contra toda forma de ataque físico al mismo tiempo que incrementan la resistencia mágica y las tiradas de salvación. Debido a su naturaleza, sólo puede ser utilizada por magos de alineamiento malvado.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +2
+Tirada de salvación: bonificación +2
+Apatitudes poseídas:
+ +10% Resistencia mágica
+ Memoriza un conjuro extra de nivel 5, 6 y 7
+ -30% Constitución
+Peso: 6 lbs~
+
+@1087 = ~Túnica del Alto Templario~
+@1088 = ~Esta poderosa túnica de mago ofrece protección contra todas las formas de ataque físico al tiempo que aumenta la resistencia mágica y los tiros de protección. Debido a la naturaleza de su encantamiento, sólo la pueden llevar los magos alineados con el bien.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Tirada de salvación: bonificación +1
+Aptitudes poseídas:
+ +10% Resistencia mágica
+Peso: 6 lbs~
+
+@1096 = ~Manto de Morridin~
+@1098 = ~Este manto perteneció en su momento al famoso bardo Morridin. A pesar de las filigranas de oro que lo adornan, Morridin solía decir de él que: "... no es más que un simple manto para guarecerme de los elementos". Éste manto, al igual que muchos otros objetos personales suyos, se ha convertido en un objeto de debate en muchos círculos.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Aptitudes poseídas: +1 Carisma
+Peso: 3 lbs~
+
+@1099 = ~Manto Atenuante~
+@1100 = ~Este manto fue creado por el loco Lord Hechicero Noober Harpell. Fundado de los mantos élficos que vio en sus viajes, hizo de este una réplica similar. Cuando se lleva, el portador se oculta completamente a la vista, permitiendo moverse con toda impunidad. Dentro del manto se puede leer 'Propiedad de Noober, hijo de Noober'
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Oculta al portador en un 75% (similar a la invisibilidad)
+Peso: 3 lbs~
+
+@1101 = ~Manto de los Bosques~
+@1102 = ~Este manto, robado del templo de Erreth-Akbe, fue recuperado por el Archidruida Yarrow durante su venganza contra los profanadores del mismo. Se rumorea que más tarde se lo regaló a su hijo Shephesh.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ +20% Sigilo
+ No detectable
+Peso: 3 lbs~
+
+@1103 = ~Manto de Mystra~
+@1104 = ~Se dice de estos mantos que sólo les fueron dados a unos cuantos elegidos de Mystra, principalmente sacerdotes. Aunque debido a las 'desapariciones' de algunos de estos elegidos, alguno de estos mantos han sido vistos fuera de esta organización religiosa. El manto da al que lo lleve puesto bonos contra los ataques físicos y mágicos, así como contra los no-muertos.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +2
+Tirada de salvación: bonificación +1
+Aptitudes poseídas: Protección contra el plano negativo
+Peso: 3 lbs~
+
+@1106 = ~Brazales de Piel de Dragón~
+@1108 = ~Estos brazales están hechos de piel de dragón. Objetos similares son realizados por artesanos druidas en las raras ocasiones en que encuentran el cadáver de un viejo dragón, o de una de sus crías.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 4
+Peso: 2 lbs~
+
+@1110 = ~Guanteletes de Destreza~
+@1112 = ~Es muy probable que este par de guanteletes se confeccionaran en Kara-Tur para ayudar a los maestros de artes marciales. Las leyendas cuentan que estos maestros venían del Lejano Oriente y que traían consigo estos objetos en sus viajes, aunque los detalles son imprecisos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: +2 Destreza
+Peso: 2 lbs~
+
+@1113 = ~Guantes de Mago~
+@1114 = ~Incluso el más poderoso mago puede encontrarse en algún momento indefenso ante la inminente batalla o sin los hechizos necesarios para acabar con un adversario. Es precisamente para estas ocasiones para las que Sarga encargó estos guantes, ya que proporcionan al mago una pequeña ayuda para cuando la lucha degenera en combate directo.
+
+CARACTERÍSTICAS:
+
+Tiradas de salvación: bonificación +1
+Apatitudes de combate: 1 ataque extra por turno
+Peso: 2 lbs~
+
+@1115 = ~Regalo de los Bosques~
+@1116 = ~A lo largo del tiempo, los druidas y exploradores han hecho todo lo posible para proteger los bosques de la civilización, y algunas veces, los habitantes de éstos les agradecen su protección regalándoles objetos que los puedan ayudar en su causa.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +3 contra proyectiles
+Aptitudes poseídas:
+ +3 tirada de salvación contra petrificación y poliformismo
+Peso: 2 lbs~
+
+@1117 = ~Brazales de Mago~
+@1118 = ~El origen exacto de estos brazaletes es desconocido. A lo largo de la historia se han escuchado rumores de todo tipo sobre la historia y origen. A pesar del tiempo los encantamientos son todavía muy fuertes, como muchos objetos del mismo tiempo.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7
+Aptitudes poseídas: Velocidad de lanzamiento de conjuro aumentada +1
+Peso: 2 lbs~
+
+@1119 = ~Guantes del Guerrero Fiel~
+@1120 = ~A través del tiempo, se sabe que muchas deidades han otorgado bonificaciones a sus seguidores en forma de objetos benditos. Aunque el origen exacto de esos guantes es desconocido seguramente pasa lo mismo con estos.
+
+CARACTERÍSTICAS:
+
+Daño: bonificación +2
+GAC0: bonificación +2
+Peso: 1 lbs~
+
+@1127 = ~Anillo del Aprendiz~
+@1128 = ~Anillos como este son, a menudo, regalados a aprendices que poseen una habilidad excepcional o algún tipo de mérito.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Añade un conjuro de nivel 1 y 2
+Peso: o lbs~
+
+@1129 = ~Anillo de Clérigo de Ghaunadaur~
+@1131 = ~Una deidad altamente impredecible, Ghaunadaur recompensa a menudo a sus seguidores leales con las bendiciones y los regalos, incluyendo anillos como este. Por otra parte, él también recompensa a esos fanáticos con tortura y muerte.
+
+CARACTERÍSTICAS
+
+Aptitudes poseídas: Inmunidad al ácido y al veneno
+Peso: o lbs~
+
+@1133 = ~Piedra de Guarda de la Suerte de Mopap~
+@1135 = ~Corren rumores a lo largo de la Costa de la Espada sobre la existencia de una ardilla chillona que posee una piedra de guarda de la suerte. Sin embargo, nadie ha podido desmentir estos rumores.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: +1 Suerte
+Peso: 0 lbs~
+
+@1136 = ~Anillo Místico~
+@1137 = ~Los orígenes precisos de este anillo son desconocidos, de todas formas, se cree que fue propiedad de un viejo mago que vivía en un pequeño pueblo y que ejerció de 'hombre sabio' de la comunidad hasta su muerte.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Añade un conjuro de Nivel 3 y 4
+Peso: 0 lbs~
+
+@1138 = ~'El Desviador Constante de Misiles'~
+@1139 = ~Este anillo crea un campo invisible de fuerza alrededor del portador que desvía misiles. Incluso un misil cargado perfectamente se desviará o parará en medio del aire cayéndose al suelo.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Da al portador protección completa a misiles no mágicos.
+Peso: 0 lbs~
+
+@1140 = ~Anillo del Viajero~
+@1141 = ~Este anillo perteneció al famoso bardo Morridin, le falta una de sus gemas. Cuando se le preguntaba a Morridin por este hecho, él contestaba que: " se le cayó mientras viajaba". Por ello se le dio el nombre de "el anillo del viajero". Debido a que Morridin nunca le dijo a nadie que es lo que hacía, la naturaleza de sus encantamientos sigue siendo un misterio.
+
+CARACTERÍSTICAS:
+
+Desconocido
+Peso: 0 lbs~
+
+@1142 = ~Anillo bardo de Keiria~
+@1143 = ~Este anillo perteneció una vez al famoso bardo Morridin. El Rey Mago Varashar, un descendiente de los magos Netherese, celebró un concurso de siete años para encontrar el bardo más realizado en la magia y la música. Cuando Morridin finalmente superó a sus competidores con su propia variación de una broma simple, Varashar le concedió con el título de Bardo Corte y este anillo.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: Otorga un conjuro de nivel 1, 2 y 3 al bardo.
+Peso: 0 lbs~
+
+@1144 = ~Anillo de Sello de Sukien~
+@1145 = ~Anillo encantado con magia por los Altos Sacerdotes del Templo Sukien, este anillo lo llevan todos cuantos protegen el templo del mal.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Tiradas de salvación: bonificación +1
+Aptitudes especiales: 
+ Protección contra la petrificación una vez por días
+   Alcance: 9 metros
+   Área: Una criatura
+   Duración: 6 horas
+Peso: 0 lbs~
+
+@1146 = ~'Brillo de Charvirak'~
+@1147 = ~Durante la invasión de la Horda Negra, en la que incluso las naciones del sur fueron invadidas, el druida Charvirak buscó desesperadamente proteger el Bosque de Tethir de los incendios iniciados por los orcos y los duendes. Capturando la esencia de un Efreeti en este anillo, lo utilizó para caminar directamente a través de las llamas de los árboles ardientes, poniéndolos fuera antes de que pudieran causar cualquier daño duradero.
+
+CARACTERÍSTICAS:
+
+Clase de Armadura: bonificación +1
+Aptitudes poseídas: +30 Resistencia al fuego
+Peso: 0 lbs~
+
+@1148 = ~Anillo de Jet'laya~
+@1149 = ~Este anillo pertenecía a la madre de Jet'laya. Es de origen elfo y contiene un fuerte encantamiento que protege Jet'laya de venir bajo la influencia de hechizos y efectos de encanto.
+
+CARACTERÍSTICAS
+
+Aptitudes poseídas: Inmunidad al encantamiento y al hechizo horrendo
+Peso: 0 lbs~
+
+@1151 = ~Davaeorn,
+
+
+Mis fuentes me han dicho que una pequeña banda de mercenarios, algunos de los cuales pueden ser miembros de los Harperos, se encuentra en el área de la Posada del Brazo Amigo. Envié a Tarnesh a investigar y a detener a los sospechosos, pero no he vuelto a tener noticias de él. Sugiero que enviéis a Drasus y a Genthore inmediatamente a la Posada del Brazo Amigo. Notificad a Tazok de la situación.
+
+Reiltar~
+@1152 = ~Otho, amigo mío,
+
+Aquí están los valientes aventureros de quienes os hablé. Apreciaría que creaseis para ellos una maza de la mejor calidad y fuerza. Me han realizado un gran servicio y han demostrado ser dignos. El arma será muy importante para ellos en el futuro inmediato.
+
+Vuestro amigo,
+ Lennan~
+@1153 = ~Lord Daerthmac,
+
+Dedico mi cuerpo, alma y mente a serviros y amaros como nunca antes he hecho.
+
+Vuestra por la eternidad,
+Clairis~
+@1154 = ~Amigos,
+Habéis actuado con valor y honor. Con vuestra ayuda, hemos impedido que Lord Daerthmac siguiese extendiendo el terror. Os dejo ahora porque tal es mi modo de vida. Sin embargo, si vuelvo a partir en aventuras con otro grupo, espero que sean tan valientes y honorables como vosotros.
+
+Os saludo,
+CúChoinneach agus Madadh n'Sgàil~
+@1155 = ~Carta a Thomic~
+@1156 = ~Thomic,
+Dejasteis la lista de la compra, de nuevo, en casa. No olvidéis traer los siguientes productos cuando volváis a casa.
+
+Pan
+Leche
+Pollo
+
+Aseguraos de que todo ello es fresco. ¿Habéis cogido vuestra capa para la lluvia? Parece ser que está nublado.
+
+Daos prisa e intentad no deteneros en cada barra que encontréis por el camino.
+
+Katerin~
+@1157 = ~Berrto Ghaskill~
+@1158 = ~Tarro Mágico~
+@1159 = ~Este frasco es uno de los seis que contiene la esencia de la vida de los compañeros y una vez amigos del mago que se volvió liche, conocido como el Oscuro.
+
+Devolved estos frascos a los fantasmas para darles su libertad.~
+@1160 = ~Esencia Vital de Koroval Na'Krugen~
+@1161 = ~Esta vasija contiene la esencia vital del Oscuro, conocido anteriormente como Koroval Na'Krugen. A través de un perverso ritual, él pudo transformarse en un no-muerto muy poderoso, conocido como liche. Un liche utilizará toda su existencia en descubrir la magia más poderosa que no pudo conseguir en vida. Esta es la razón principal por la que un mago elige convertirse en esta horrible forma de existencia.
+
+Para destruir al Liche conocido como el Oscuro, debéis poseer esta vasija. Esto impedirá que el Liche resurja de su destrucción, una vez que acabéis con él.~
+@1162 = ~Antigua Reliquia de Lathander~
+@1163 = ~Esta es la reliquia que estáis buscando.~
+
+@1169 = ~Lamento de la Batalla~
+@1170 = ~Este delicado cuerno está decorado con lazos rojos y grabados rúnicos.~
+@1171 = ~Cuando Neshum Serret lideraba sus fuerzas contra los orcos, trajo un joven bardo al que regaló un cuerno encantado con gran poder. Al comenzar cada batalla el bardo tocaba el Lamento de la Batalla, el extraño y amenazante sonido que producía aterraba los corazones de muchos enemigos.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales: 
+ Hace correr a los enemigos por miedo una vez por día
+   Especial : Miedo por 15 turnos (+2 de salvación contra conjuros niega el efecto)
+   Alcance: 30 metros
+   Área: Radio de 7 metros
+Peso: 1 lbs~
+
+@1173 = ~Al igual que sucede con otras bolsas mágicas, ésta tiene el aspecto de un saco de tela corriente de entre 60 centímetros y 1'20 metros de alto. La bolsa de contención se abre a un espacio no dimensional, y es mayor por dentro que por fuera. El saco siempre pesará lo mismo, sin importar lo que se meta en su interior.~
+
+@1174 = ~Laúd~
+@1175 = ~La Canción de Nyriad~
+@1176 = ~Este delicado laúd tiene cuerdas plateadas incrustadas en un decorado cuerpo incrustado con oro. La manufactura es exquisita y perfecta, casi inhumana, tanto que incluso unas manos inexpertas recorriendo sus cuerdas al azar producen unas encantadoras melodías. Observar este instrumento provoca un escalofrío reverencial.~
+@1177 = ~El origen de este laúd es desconocido, su creador sin embargo llevó eso de que "la música tiene un encanto..." a un nuevo nivel. Cuando es usado por un músico de calidad el instrumento produce un sonido que puede dejar a la audiencia totalmente embelesada.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales: Hechizo horrendo
+ Alcance: 30 metros
+ Área: Una criatura
+ Duración: 1 turno
+Peso: 1 lbs~
+
+@1239 = ~Tomo de los Grandes Magos de Grun'lerthkin~
+@1241 = ~Bajo su fina cubierta de cuero, este tomo guarda las notas y runas mágicas del gran mago Grun'lerthkin, que vivió en Myth Drannor durante su época más gloriosa. A medida que leéis sus notas mágicas y explicaciones os volvéis más sabio y de alguna forma sentís que poseéis las habilidades de un mago con el doble de experiencia de la que teníais.
+
+CARACTERÍSTICAS:
+
+Experiencia: Otorga 10000 puntos al lector
+Especial: El libro se consume una vez utilizado
+Forma de uso: Ponerlo en una ranura de uso rápido
+Peso: 25 lbs~
+@124100 = ~10000 de experiencia ganados~
+
+@1242 = ~Historia de El Lado Oscuro~
+@1243 = ~Historia de El Lado Oscuro
+
+Hace mucho tiempo un sabio mago llamado Roach se encontró con el joven elfo CúChoinneach. Roach vio en este joven elfo un sincero espíritu aventurero y juntos se adentraron en un largo viaje. Esta aventura consistía en adentrarse en los numerosos e intrincados misterios existentes a lo largo de la Costa de la Espada. Roach sabía que había mucho que ver, y con su sabia guía, CúChoinneach y él, desvelarían muchos de los misterios escondidos en el Camino de la Costa de la Espada. Muchas noches en vela fueron consumidas para desvelar el siguiente misterio que se cruzaba en su camino. A veces tuvo éxito, para su sorpresa. Sin embargo, en otras ocasiones no fue tan afortunado. En su contra estaba la creencia general de que El Lado Oscuro no existía, o que en caso afirmativo era cuestión de un aventurero más curtido. Pero, CúChoinneach no desistió en su búsqueda.
+
+Durante su viaje, CúChoinneach y Roach encontraron gran variedad de individuos que, en mayor o menor medida, contribuyeron a descubrir más de un misterio. Entre todos los individuos que se cruzaron en su camino a lo largo de la Costa de la Espada, destacó uno de ellos: Ken el Panadero, que no era tal, pero nadie sabe como consiguió ese apodo. El, normalmente, se encuentra en el mesón del Malabarista Jovial de Beregost, normalmente bastante "cómodo" después de una victoria del Equipo Puerta de Baldur. Ken también pensó que habían muchos misterios escondidos a la largo de la Costa de la Espada, y así comenzó el equipo de "Hechizadores" que investigarían los misterios. Entre estos hechizadores habían: encantadores, ilusionistas, y representantes de todas las escuelas.
+
+Uno de estos individuos, llamado Banelord, enseñó a CúChoinneach los puntos más delicados de la Hechicería, pero después de un tiempo no se supo más de él. Rumores abundan acerca de la razón de esta desaparición, pero nada ha sido confirmado.
+
+La lista continúa creciendo a medida que la aventura así lo hace...
+
+Créditos:
+Concepto original: Roach
+Desarrollo de la historia: CúChoinneach y Roach
+Áreas y criaturas creadas y hechizadas por: CúChoinneach
+Logotipo del Lado Oscuro: WoRm
+Los objetos han sido creados por un gran número de hechizadores, y es imposible enumerarlos a todos en este manuscrito...
+Los sonidos de Jet'Laya, Keiria Hilodeplata y Conchobhair Fuertefilo han revisados por Grog.
+NPC Jet'Laya fue creada por Grog.
+Los demás NPC's han sido creados por CúChoinneach
+Voces y Cuerpo de Ferthgil Matatrolls suministrados por Gothmog del Clan Suelodepiedra
+Iconos originales de algunos objetos han sido creados por WoRm
+Sitio Web y Publicidad: Ken el Panadero
+
+Nada de esto habría sido posible si no hubiera sido por Ken el Panadero y la creación del Equipo Puerta de Baldur (TEAMBG). ¡El equipo permitió la unión de todos en una exitosa concentración de ingredientes que dio como resultado una bebida deliciosa!
+
+Finalmente un rápido agradecimiento a Gustov Montessie, que ha contribuido con sus editores y otros programas que han hecho posible la creación de artículos y hechizos. Y gracias a todos los compañeros del Equipo Puerta de Baldur (TEAMBG)
+
+Agradecimientos Aptitudes poseídases a Black Isle Studios, Bioware Corp., Interplay Productions, y todos los individuos envueltos en la creación de Baldur's Gate y Tales of the Sword Coast. Sin duda el CRPG más grande nunca construido, y sin los que no hubiera creado DSotSC.
+
+¡Mi último agradecimiento es para vos! Aventurero que leéis esto y lo encontrasteis en alguna parte de algún estante para libros del Lado Oscuro de la Costa de la Espada. Ahora sal ahí fuera e id a cortar las cabezas de "¡los Trasgos!"
+
+CúChoinneach~
+
+@1244 = ~Agua Bendita~
+@1245 = ~El agua de este frasco ha sido bendecida y al ser lanzada contra cualquier criatura no-muerta causará 1d8 de daño en su equivalencia con ácido.
+
+CARACTERÍSTICAS
+
+Peso: 1 lbs~
+
+@1247 = ~Corazón de los Bosques~
+@1249 = ~Los grabados en el amuleto hablan sobre la vida y el poder de la Diosa Madre. Tiene una runa inconfundible, el símbolo de Erreth-Akbe, el más grande de los templos druídicos del norte. A pesar de poder apreciarse claramente su antigüedad, sus encantamientos aún relucen como recién imbuidos, su poder debe residir en ese resplandor. Tras una observación más precisa, pueden apreciarse ciertos principios de desvanecimiento, quizás su poder no es tan eterno como el de la diosa a la que venera.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: +25% Resitencia al ácido
+Peso: 1 lbs~
+
+@1251 = ~Collar de Ferium~
+@1253 = ~Este collar fue entregado a Ferium por su prometida: Ken'lan. La inscripción en su reverso dice: "Os entrego mi amor hasta que la Luna desaparezca."
+
+Jet'Laya ha sugerido llevarlo a Lennan, su tío, que está esperando en el Malabarista Jovial en Beregost.
+
+CARACTERÍSTICAS
+
+Peso: 1 lbs~
+
+@1256 = ~La verdadera naturaleza de este amuleto es desconocida. Parece ser de gran poder.
+
+CARACTERÍSTICAS
+
+Peso: 1 lbs~
+
+@1257 = ~Amuleto del Sello de los Segoy~
+@1258 = ~Este amuleto lleva el símbolo particular de los Segoy, una despiadada banda de asesinos. Casi parece que el mismo mal emana de él mientras lo sostenéis entre vuestras manos. Éste en particular, está encantado con hechizos que proporcionan un aura de protección, de todas formas puedes sentir que sus poderes tienen un límite.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: +25% Resistencia al fuego
+Peso: 1 lbs~
+
+@1261 = ~Amuleto de Fe~
+@1262 = ~Hay muchos objetos similares a lo largo y ancho de los reinos, como aquellos que tienen una utilidad más simbólica que práctica. En general tales objetos se utilizan para expresar la creencia en determinada deidad.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +1
+Aptitudes poseídas:
+ +1 Salvación contra Muerte
+ +1 al primer nivel de conjuros de sacerdote
+Peso: 1 lbs~
+
+@1263 = ~Collar Antiguo de Perlas de Jules~
+@1264 = ~Amuleto del Erudito~
+@1265 = ~Regalos parecidos son frecuentemente otorgados a los aprendices de mago que han terminado sus enseñanzas.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Añade un conjuro extra de nivel 3
+Peso: 1 lbs~
+
+@1268 = ~Amuleto de Gran Providencia~
+@1269 = ~Amuleto de Gran Providencia Conocido por su habilidad de incrementar la visión del portador, el Amuleto de Gran Providencia es muy buscado por líderes de grandes armadas puesto que son capaces de ver al ejercito enemigo desde millas de distancia y así reaccionar a las estrategias enemigas. Su origen e historia recientes son desconocidos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ Provee al usuario de visión mejorada (Clarividencia)
+Peso: 1 lbs~
+
+@1271 = ~Flecha Matadragones~
+@1273 = ~Esta flecha se retuerce y es negra, como si irradiara maldad o si estuviera poseída por algo más grande que ella misma. Fue hecha específicamente para penetrar las escamas y matar a un tipo de criatura solamente. En este caso el siempre temido dragón. Esta flecha matará cualquier dragón menor o draco, hace daño extra a grandes dragones y dracos y tiene grandes posibilidades de matar las amenazas de los bosques élficos, el Dragón Verde o el Dragón del Bosque.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +3 contra dragones
+GAC0: bonificación +3 contra dragones
+Tipo de daño (proyectil): Perforación
+Aptitudes poseídas:
+ Mata dragones y dracos menores al contacto (Salvación contra conjuros niega el efecto)
+Peso: 0 lbs
+Lanzada desde: Arco~
+
+@1278 = ~Flecha golpeante~
+@1279 = ~Esta flecha es brillante y azul con un toque dorado. Irradia magia y es más ligera y pequeña que las flechas normales. Es la flecha preferida de la Guardia Santa de los Sukien, que se rumoreaba que poseían un arco que las podía crear.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2, +2D3 de daño mágico
+Tipo de daño (proyectil): Perforación
+Peso: 0 lbs
+Lanzada desde: Arco~
+
+@1281 = ~Virote de disipación +1~
+@1283 = ~Los Virotes son la munición disparada por ballestas a pesar del tamaño del arma. Aunque este virote ha sido imbuido con una pequeña cantidad de propiedades mágicas que aumentan su rendimiento en vuelo, como si el virote fuera guiado al objetivo.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+GAC0: bonificación +1
+Tipo de daño (proyectil): Perforación
+Aptitudes de combate: Disipar magia en el objetivo cuando golpea (Salvación contra conjuros +2 niega el efecto)
+Peso: 0 lbs
+Lanzada desde: Ballesta~
+
+@1285 = ~Bala de Detonación~
+@1287 = ~Esta bala tiene un efecto letal en sus víctimas. Cuando impacta en su objetivo, genera una gran explosión de fuego y metralla que abarca a todos los personajes dentro del área de acción.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +1, +6D6 de daño de fuego al impactar (Salvación contra conjuros la mitad)
+Tipo de daño (proyectil): Perforación
+Peso: 0 lbs
+Lanzada desde: Honda~
+
+@1288 = ~Bala de Agua Bendita~
+@1289 = ~Este proyectil de honda, no sólo está imbuido con efectos mágicos que lo equilibran y aligeran un poco más al lanzarlo al enemigo, sino que también está empapado en agua bendita, proporcionando por lo tanto un daño extra a las criaturas no muertas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +2, +2D3 daño contra no-muertos
+GAC0: bonificación +1
+Tipo de daño (proyectil): Perforación
+Peso: 0 lbs
+Lanzada desde: Honda~
+
+@1292 = ~Botas del Bosque~
+@1294 = ~Estas botas, tejidas a partir de ramas delgadas y flexibles con tal maestría para parecer hechas de cuero, las Botas del Bosque son uno de los muchos regalos otorgados a los protectores de los bosques. Estas personas juran que las botas no sólo les permiten viajar a un ritmo mayor, sino también proporcionarles una sensibilidad mucho mayor a su entorno.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ +15% Sigilo
+ Inmunidad a los conjuros Red, Grasa y Enredar
+Peso: 4 lbs~
+
+@1295 = ~Botas del Valor: 'Pie tronante'~
+@1296 = ~La magia de estas botas ha sido diseñada de tal forma que ayuda al que las lleva a resistir ataques aplastantes, se agarran fuertemente al suelo permitiendo que se resista el golpe.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +5 contra armas aplastantes
+Peso: 18 lbs~
+
+@1302 = ~Escudo Pequeño +1 de CúChoinneach~
+@1304 = ~CúChoinneach creó este escudo después de recibir la cimitarra 'Mairail' de Sehanine Arcolunar. Está hecho de mithril y las más duras maderas del bosque.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +4
+Aptitudes poseídas: Sin protección contra armas de proyectiles
+Peso: 3 lbs
+Requisitos: Fuerza 4~
+
+@1305 = ~Escudo pequeño de Jet'laya~
+@1306 = ~Este es el escudo personal de Jet'laya. La madera de la que está hecho se cortó en un bosque sagrado, y el metal usado en la construcción del escudo fue forjado en agua bendita. Así, simplemente estar en la presencia de este escudo causa que todos, salvo los más poderosos entre los no muertos se acobarden frente a su portador.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +3
+Aptitudes poseídas:
+ Sin protección contra armas de proyectiles
+ GAC0: bonificación +2 contra no muertos
+Peso: 4 lbs
+Requisitos: Fuerza 4~
+
+@1307 = ~Escudo Solar +2~
+@1308 = ~Este escudo está caliente al tacto, como si algo estuviera ardiendo en su interior. Sus orígenes son desconocidos al igual que la respuesta a muchos de los enigmas que plantea.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +3
+Aptitudes poseídas:
+ +30% Resistencia al Frío
+ -25% Resistencia al Fuego
+Peso: 3 lbs
+Requisitos: Fuerza 4~
+
+@1313 = ~Corazón de Dragón +2~
+@1314 = ~Un caballero relativamente desconocido de nombre Neshum, y que según parece no era demasiado rápido en lo que se refiere a procesos mentales, se encontró un día mientras viajaba por el norte a un grupo de guerreros enfrentándose a un dragón; tras pensárselo durante un rato, Neshum llegó a la conclusión de que la batalla era injusta y desenvainó su arma en defensa del dragón. Su ayuda fue lo que decidió el combate, y los guerreros fueron derrotados. Benderesk, que así se llamaba el dragón, agradecido, le obsequió con un escudo que proporcionaba la fuerza del corazón de un dragón, escudo que por cierto volvió a sus garras años después cuando una aldea contrató a Neshum para que les librase de las depredaciones de cierto dragón.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +3
+Aptitudes poseídas:
+ +10% Puntos de golpe
+ +5% Resistencia mágica
+Peso: 6 lbs
+Requisitos: Fuerza 12~
+
+@1315 = ~Escudo grande +2: 'El Muro' ~
+@1317 = ~En los primeros días de la batalla de Selidor, el ejército de Kelub era acosado por ola tras ola de flechas, en tales cantidades que incluso oscurecían el cielo. Kelub ordenó a sus mejores herreros que construyeran un escudo tal que pudiese servir como punta a la carga de su ejército. Los herreros trabajaron hasta la extenuación y crearon doce de estos escudos, con los cuales se abrieron camino entre las flechas hasta alcanzar las líneas del enemigo. Por desgracia llegaron demasiado cansados para luchar.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: bonificación +3, +7 contra proyectiles
+Peso: 20 lbs
+Requisitos: Fuerza 13~
+
+@1323 = ~Katana +2, 'Masamune'~
+@1325 = ~Esta katana fue forjada por el famoso creador de katanas Masamume. Como otras katanas realizadas por él salta a la vista que se trata de una "obra maestra", la Reina de todas las Espadas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +2 
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Aptitudes poseídas: +1 Destreza
+Peso: 8 lbs
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6~
+
+@1326 = ~Katana +3, 'Muramasa'~
+@1328 = ~A pesar de que esta katana es un arma excelente, hay quien dice que está maldita y algunos hasta piensan que tiene una inteligencia propia oscura y sedienta de sangre. Cuando "Muramasa" prueba la sangre su portador tiene la posibilidad de entrar en un estado de 'Furioso' o furia mientras es controlado por el arma.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +3
+GAC0: bonificación +3
+Tipo de daño: Cortante
+Aptitudes poseídas:
+ 33% de posibilidades de 'Furioso' tras cada golpe exitoso
+Peso: 10 lbs
+Factor de velocidad: 3
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1330 = ~Cimitarra +3, 'Lágrimas de Yarrow'~
+@1332 = ~Fue justo la caída del templo de Erreth-Akbe, que el Archidruida Yarrow había vuelto de viaje y encontró su templo destrozado. El poderoso druida pidió a los Dioses venganza, y entonces lloró; cayendo sus lágrimas en su cimitarra. Las lágrimas empañaron su cimitarra con su dolor y anhelo de venganza.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Aptitudes de combate: 20% de Atontar al objetivo por golpe si no hay salvación contra conjuros
+Aptitudes especiales: Lanza Encantar persona o mamífero una vez al día
+Peso: 3 lbs
+Factor de velocidad: 2
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 8~
+
+@1334 = ~La Matadragones de Conchobhair~
+@1336 = ~Esta espada está imbuida con un encantamiento muy fuerte y cualquier intento de ver la verdadera naturaleza de la espada esta protegida por fuerte magia. Su origen e historia es desconocida. La espada 'elige' al portador, y por eso previene de que sólo éste pueda llevarla. Cualquier intento de controlar el arma llevará a la peor perdición.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +1, +3 contra Todos los Dragones
+GAC0: bonificación +1, +3 contra Todos los Dragones
+Tipo de daño: Cortante
+Aptitudes poseídas:
+ 20% de resistencia al fuego y al ácido
+ +1 bonificación a salvación contra armas de aliento
+Peso: 15 lbs
+Factor de velocidad: 8
+Talento marcial: Espada A dos manos
+Tipo: A dos manos
+Requisitos: Fuerza 14~
+
+@1337 = ~Cimitarra +1: 'El Relámpago Dentado'~
+@1338 = ~El filo de mithril de esta cimitarra esta aserrado de forma que parezca un relámpago ligeramente curvo. Fue creada hace mucho tiempo en Calimshan por una orden religiosa que reverenciaba al dios del trueno. La utilizaban los guerreros del templo en misiones sagradas. La electricidad fluye a lo largo de su hoja en forma de pequeños chisporroteos de energía que provocan diminutos relámpagos entre su filo aserrado. Su encantamiento permite que parte de la energía eléctrica que se dirija al que la empuña sea absorbida por la cimitarra y que éste sea siempre el primero en actuar en combate.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1, +1D4 de daño eléctrico
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Aptitudes poseídas:
+ Otorga 30% de resistencia a la electricidad
+Peso: 4 lbs
+Factor de velocidad: n/d
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 8~
+
+@1339 = ~Espada del 'Campeón del Campo'~
+@1340 = ~En los días perdidos de Netheril, el nigromante J'K'Voorkan intentó poner en acabar con un reino de no-muertos. Embate tras embate de los muertos vivientes amenazaban con tragarse las Realidades, hasta que el druida hierofante, LOrax, pidió ayuda a los dioses. Ellos hicieron que el Árbol de la Vida produjese una única espina, que LOrax cogió. En una dura prueba de ayuno, oración, meditación y lanzamiento de conjuros de una luna nueva a la siguiente, el Gran Círculo produjo a Espina. Espina fue presentada a uno de los principales líderes de las fuerzas de la Luz y la Vida, SMokye, llamado 'El Oso', por sus tropas, por su implacable resistencia a los muertos. Se convirtió en el primer Explorador y el primer Campeón del Campo. Espina es entregada a cada nuevo Campeón cuando es ascendido. Tal es el poder de Espina que las mismas plantas de la tierra pueden ser invocadas para ayudar a su portador.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +1
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Aptitudes especiales: El usuario puede lanzar 'Enredar' una vez al día
+Peso: 9 lbs
+Factor de velocidad: 6
+Talento marcial: Espada a 2 manos
+Tipo: A dos manos
+Requisitos: Fuerza 14~
+
+@1341 = ~Sable~
+@1342 = ~Sable +2, 'Colmillo de O-Tokne'~
+@1343 = ~El característico filo único, largo y curvo de tanto sables como cimitarras a pesar de resultar tan familiar, tiene su origen en zonas bastante lejanas de Faerûn. El sable, por su ligereza suele ser el arma favorita de ladrones y salteadores.
+
+CARACTERÍSTICAS:
+
+Daño: 3D3
+Tipo de daño: Cortante
+Peso: 4 lbs
+Factor de velocidad: 5
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1344 = ~Creado a partir del colmillo de un dragón, este sable parece dirigirse por sí mismo a su objetivo, esta característica le permite al que lo empuña poder concentrarse en planear nuevos ataques.
+
+CARACTERÍSTICAS:
+
+Daño: 3D3 +2
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Peso: 3 lbs
+Factor de velocidad: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: 10 Fuerza~
+
+@1345 = ~Sable +1 'Abrasador'~
+@1346 = ~Forjados de capas de metal rojo colocados uno sobre el otro para hacer que parezca arrugado, este sable es inusualmente frío al tacto. Esculturas rúnicas cerca de la empuñadura que recuerdan a las lenguas tribales de los tramos septentrionales de Vaasa, dan a la hoja su nombre. Su aspecto y aparente falta de encantamiento han hecho que muchos aventureros lo consideren inútil. Aquellos más con mentes más inquisitivas que la llevan para asegurarse, siempre están gratamente sorprendidos. Una vez en movimiento en la batalla balanceándose hacia su objetivo, Abrasador hace honor a su nombre, ya que se enciende con una llama ardiente.
+
+CARACTERÍSTICAS:
+
+Daño: 3D3 +1, +2D3 Daño de fuego
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Peso: 3 lbs
+Factor de velocidad: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1347 = ~Sable +2 'Hoja Fantasmal'~
+@1348 = ~Cada vez que un luchador blande su espada, puede ver aún imágenes de su arma que quedan atrás durante unos instantes, este arma no es diferente en eso, pero a diferencia de un arma normal, esas hojas que quedan atrás también cortan. Este arma perteneció en un principio a un tipo bastante porcino y vago llamado Bordger, del que se rumoreaba que había tenido algún entrenamiento en los caminos de la magia antes de convertirse en un ladrón, teniendo en cuenta lo bien encantada que está esta espada puede que le hubiese resultado mejor seguir siendo mago.
+
+CARACTERÍSTICAS:
+
+Daño: 3D2 +2, +2D3 Daño cortante
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Peso: 3 lbs
+Factor de velocidad: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1349 = ~Sable +1 'Chispas'~
+@1350 = ~Mortal con energía eléctrica, es fácil de ver como este sable tiene este nombre. Sus orígenes no son conocidos, pero las historias de extrañas tierras siempre acompañan esta espada. El primer propietario conocido fue un pirata que solo volvía a un puerto. Le robaron y mataron mientras estaba borracho e incluso su nombre sigue siendo un misterio como esta espada.
+
+CARACTERÍSTICAS:
+
+Daño: 3D3 +1, +2D3 de daño eléctrico
+GAC0: Bonificación +2
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1352 = ~La Espada del Mentiroso~
+@1354 = ~Denat "El Mentiroso" fue una vez un bardo muy famoso. Contaba no sólo relatos de héroes, sino también sus aventuras, afirmando siempre que era el mejor espadachín de la realidad. Al final de sus relatos, se batiría en duelo contra el mejor espadachín de su público, y siempre le ganaba. Su caída vino cuando utilizó erróneamente una espada normal en vez de su espada llena de hechizos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1
+GAC0: Bonificación +5
+Tipo de daño: Cortante
+Clase de armadura: bonificación +1
+Aptitudes poseídas: +1 Destreza
+Peso: 4 lbs
+Factor de velocidad: 2
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisitos: Fuerza 6~
+
+@1356 = ~Espada del Campeón~
+@1358 = ~Esta es la espada dorada que el mismo Helm entrega al miembro de mayor rango de la 'Orden del Radiante Corazón'.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 +1
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Aptitudes poseídas: Encanta al portador con el hechizo de 'Bendición'
+Peso: 12 lbs
+Factor de velocidad: 5
+Talento marcial: Espada bastarda
+Tipo: A una mano
+Requisitos: Fuerza 12~
+
+@1363 = ~Mairial 'El Cazador de la Muerte'~
+@1364 = ~Esta es la cimitarra personal de CúChoinneach. Hecha de puro mithril ha sido bañada con la luz de la luna llena, y le fue dada por Sehanine Arcodeluna, la diosa élfica del misticismo, sueños, muerte, viajes, trascendencia, la luna, las estrellas y los cielos. Vino a él en un sueño poco después que, Fia'nna, había sido muerta por un ejército de no muertos liderados por un vampiro. Sehanine dijo a CúChoinneach que él sería el cazador, que había sido escogido por ella para cazar a los no muertos más malvados de los reinos. Cuando despertó, encontró esta cimitarra a su lado. El símbolo de Sehanine es la luna creciente. Le dio la espada como símbolo y para recordarle su soporte. Los poderes imbuidos en la espada son desconocidos, incluso a CúChoinneach. Sus poderes completos no se saben.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +2
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Aptitudes poseídas: Protección contra el plano negativo
+Peso: 3 lbs
+Factor de velocidad: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1366 = ~La Venganza de Nemmerle~
+@1368 = ~En la clásica batalla entre el bien y el mal el Archimago Nemmerle vio que su derrota era inevitable y reunió toda la magia oscura que le quedaba para encantar este bastón y teletransportarlo a su novato aprendiz. Solamente al final se dio cuenta de lo que era necesario para acabar vivo el día, y careciendo de la fuerza para llevarlo a cabo por él mismo, vio que incluso de la derrota él podría conseguir una pequeña victoria. Su enemigo, Gensher, había encantado sus túnicas para aguantar cualquier golpe por Contundente, ya que incluso en disputas de 2 oponentes equivalentes en conocimientos de magia, él sabía que la batalla acabaría en un combate cuerpo a cuerpo y habría tomado ventaja su oponente. El bastón desprende un débil aura de alteración mágica. Tras pronunciar la palabra de mando, el bastón toma los atributos de una Alabarda, lo cual permite blandirlo permitiendo causar daño por corte.
+
+CARACTERÍSTICAS:
+
+Daño: 2D6 +2
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Aptitudes de combate: Cada golpe exitoso ocasiona Panico en el objetivo (Salvación contra conjuros +2 niega el efecto)
+Peso: 4 lbs
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 3~
+
+@1370 = ~Mayal del Caos~
+@1372 = ~El Mayal del Caos es la esencia del Abismo a la que se le ha dado forma de arma. Tanto su origen, como los encantamientos necesarios para su creación son desconocidos. Se especula que se hayan utilizado almas de vampiros para forjarla lo que permitiría que el arma absorbiese la fuerza vital de sus víctimas. Lo que si es seguro, es que el que utiliza esta arma no puede dejar de hacerlo a no ser que se le aplique un hechizo de extirpar maldición y que su aura sea tan vampírica como la que impregna al arma.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Apatitudes de combate: Cada golpe exitoso restaura 2 puntos de golpe
+Peso: 7 lbs
+Factor de velocidad: 3
+Talento marcial: Mayal/Lucero del alba
+Tipo: A una mano
+Requisitos: Fuerza 13~
+
+@1373 = ~Justicia~
+@1374 = ~Entregada a un alto sacerdote durante la época de los antiguos, Justicia ha sido desde entonces una de las armas más poderosas para luchar contra el mal en manos de clérigos y paladines. A primera vista, Justicia parece un arma normal, pero al ser empuñada por "un puro de corazón" toda ella brilla en una luz dorada. Se cree que los poseedores de esta arma son personas bendecidas por los dioses.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 +2
+GAC0: bonificación +2
+Tipo de daño: Contundente
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas: bonificación +4 a puntos de golpe
+Peso: 12 lbs
+Factor de velocidad: 7
+Talento marcial: Mayal/Lucero del alba
+Tipo: A una mano
+Requisitos: Fuerza 13~
+
+@1376 = ~Hacha de Batalla de Ferthgil Matatrolls~
+@1378 = ~Esta hacha de batalla era el arma del padre de Ferthgil, Breachin Matatrolls. Es el único objeto que conserva de su padre. La guardó tras su muerte a manos de unos verbeegs en las montañas de los Picos Nublados. Ferthgil prefiere usar esta arma más que cualquier otra en el campo de batalla.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8, +3 contra Gigantes, +2 contra Monstruos
+GAC0: Bonificación +3, +3 contra Gigantes, +2 contra Monstruos
+Tipo de daño: Cortante
+Peso: 5 lbs
+Factor de velocidad: 5
+Talento marcial: Hacha
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1379 = ~Hacha de Batalla +2 'Enfurecedora'~
+@1381 = ~La historia de esta arma es desconocida, pero uno la mira y es fácil decir que es una hacha de calidad creada por manos de enanos. El arma parece que os llama a llevarla y a arremeter contra la batalla.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +2
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Peso: 7 lbs
+Factor de velocidad: 6
+Talento marcial: Hacha
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1382 = ~Hacha de Minotauro~
+@1383 = ~Estas hachas están poderosamente encantadas por hechiceros minotauros mediante un proceso que sólo ellos conocen. Son ligeras, a pesar de que deberían ser pesadas y atraviesan una armadura metálica como si se tratase de tela.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 +2
+GAC0: bonificación +1
+Tipo de daño: Cortante
+Peso: 5 lbs
+Factor de velocidad: 2
+Talento marcial: Hacha
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1384 = ~Hacha enastada~
+@1385 = ~Hacha de Guerra enana +2 'Muerte Aullante'~
+@1386 = ~Como la Alabarda, las hachas enastadas son creadas como armas anti-jinetes. Sin embargo, estas hachas no tienen truco. Son enormes en el campo de batalla, y pueden provocar grandes daños.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12
+Tipo de daño: Cortante
+Peso: 20 lbs
+Factor de velocidad: 12
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisitos: Fuerza 13~
+
+@1387 = ~El origen de esta hacha se remonta a la guerra de los clanes, la forjó Thordar del Valle para que su hijo Kelvin la empuñara en la batalla. Kelvin nunca fue un buen guerrero, y el hacha se planteó como una ayuda para superar su debilidad. Su nombre se acuñó en la batalla de las Cataratas del Draco, lugar en que Kelvin la utilizó por primera vez en combate, cada vez que golpeaba a un oponente, Kelvin gritaba sorprendido, de ahí el nombre 'Muerte Aullante'.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +2, 1D6 de daño de retroceso (salvación contra muerte la mitad del daño)
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Clase de armadura: bonificación +1
+Peso: 20 lbs
+Factor de velocidad: 10
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisitos: Fuerza 15~
+
+@1390 = ~Hacha enastada +2, 'Kilther'~
+@1391 = ~Kilther era el general de los "Caballeros plateados". Cuando sus tierras fueron invadidas por un gran destacamento de caballería orca, sus caballeros se dispusieron a montar en sus caballos para enfrentarse a ellos. Kilther se lo impidió, les ordenó que luchasen a pie, armados con arcos, alabardas o hachas largas siendo una de estas últimas la que eligió para él. Cuando se inició el combate, las hachas largas contuvieron el avance del enemigo, sobre el que empezó a caer una lluvia de flechas. Miles de orcos murieron mientras que los "Caballeros plateados" tan sólo perdieron a 19 hombres, incluyendo al mismo Kilther.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12 +2
+GAC0: bonificación +2
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisitos: Fuerza 12~
+
+@1393 = ~Hacha arrojadiza enana +2 'El Horno'~
+@1395 = ~Esta hacha arrojadiza no solamente ha sido cuidadosamente balanceada para utilizarla como proyectil sino que también ha sido encantada mágicamente. Como resultado, es igual de peligrosa y precisa que cualquier arma de un estilo similar no mágica.
+
+CARACTERÍSTICAS:
+
+Daño: 1d6+1
+GAC0: bonificación +1
+Tipo de daño(cuerpo): 1D8 +1 de daño cortante, +1D3 daño de fuego
+Tipo de daño(arrojadiza): 1D6 +1 de daño de proyectil, +1D3 daño de fuego
+Aptitudes poseídas: Vuelve al usuario una vez lanzada
+Peso: 3 lbs
+Factor de velocidad: 6
+Talento marcial: Hacha
+Tipo: A una mano
+Requisitos: Fuerza 4~
+
+@1396 = ~Bastón de Vida~
+@1398 = ~Blanco y dorado, palpitante de poder, este bastón se formó al principio de los tiempos con el primer rayo de sol cuando atravesaba la más pura de las aguas. Tiene poco valor ofensivo, pero protege a su dueño con poderosas defensas.
+
+CARACTERÍSTICAS:
+
+Daño: 2D2 +2
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Aptitudes poseídas: Protección de hechizos de nivel 1
+Apatitudes especiales: Crea pociones de curación y antídotos (5 cargas)
+Peso: 3 lbs
+Factor de velocidad: 6
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1399 = ~Bastón de los Antiguos~
+@1400 = ~Este bastón fue creado por una raza llamada Los Antiguos, que vivieron hace varios siglos. Hoy en día quedan pocas reliquias de esos tiempos, e incluso sus descendientes saben pocas cosas respecto a tales artefactos.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 +3
+GAC0: bonificación +3
+Tipo de daño: Contundente
+Clase de armadura: bonificación +1
+Peso: 3 lbs
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1401 = ~Ethric~
+@1402 = ~Este bastón proporciona inmunidad contra armas no mágicas. Es una poderosa arma que se ha sido sometida a un poderoso y oscuro encantamiento. Se desconoce la totalidad de sus propiedades.
+
+CARACTERÍSTICAS:
+
+Daño: 2D8 +1
+GAC0: +1
+Tipo de daño: Perforante
+Aptitudes poseídas: Inmunidad a armas no mágicas
+Peso: 3 lbs
+Factor de velocidad: 8
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1403 = ~Chitiruhkha - La Vara del Brujo +2~
+@1404 = ~Esta vara pertenece a los Chanah'Rea, forjada por un rayo que cayó en el árbol del poder, Chitiruhkha esta poseída por el espíritu del rayo.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +2, +2D6 de daño eléctrico (la mitad si salvación contra varas)
+GAC0: bonificación +2
+Tipo de daño: Contundente
+Aptitudes especiales:
+ Lanza "Rayo relampagueante" 10 veces por día
+   Daño: 4D6 de daño eléctrico (la mitad si salvación contra varas)
+   Alcance: 18 metros
+   Área: Una criatura
+Peso: 3 lbs
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1407 = ~Bastón +1, 'Rompehuesos'~
+@1408 = ~Mientras la mayoría de los magos son menudos de estatura, Estaroil era menudo comparado con un mago. Su maestro el Archimago Heleth Otrad temió que su aprendiz no sobreviviría nunca a ningún conflicto y construyó para él éste bastón. Heleth encantó el bastón con la habilidad de hacer añicos los huesos de un impacto, lentificando por tanto al oponente y dando al frágil Estaroil alguna oportunidad. Después de un tiempo Estaroil creció no siendo sólo un poderoso mago, sino también en estatura y finalmente desechó el regalo de su antiguo maestro. No ha sido visto desde entonces.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Aptitudes de combate: 20% de relantizar al objetivo por 18 segundos (si hay salvación contra conjuros a -4 se negará el efecto)
+Peso: 4 lbs
+Factor de velocidad: 3
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1409 = ~Bastón de la Naturaleza~
+@1410 = ~Este bastón ha sido usado por una tribu de druidas desde hace varios siglos. Fue transmitido de líder a líder de la tribu de los Archidruidas en la tierra de Kazgard. Se dice que este bastón fue forjado por la misma Madre Naturaleza y tiene un brillo de color verde para mostrar que este bastón proviene verdaderamente del poder de la naturaleza. Este bastón es muy poderoso, de hecho, los antiguos dueños del bastón fueron gente muy poderosa.
+
+CARACTERÍSTICAS:
+
+Daño: 2D3 +1
+GAC0: bonificación +2
+Tipo de daño: Contundente
+Aptitudes poseídas:
+ +10 a los puntos de golpe
+ +20 Sabiduría
+ +2 conjuros de sacerdote de Nivel 1
+Peso: 2 lbs
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1411 = ~Bastón Imprevisible de Skeezer +1~
+@1412 = ~Skeezer creó este bastón para que lo ayudase en sus viajes, mientras lo estaba encantando se distrajo y perdió el control de sus encantamientos, esto provocó que el bastón produzca efectos aleatorios al ser utilizado.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Aptitudes de combate: Desconocido
+Peso: 4 lbs
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1414 = ~Martillo de Guerra de Tearlac Martillofiel 'Matagigantes'~
+@1416 = ~Este martillo de guerra pertenece a Tearlac Martillofiel, hijo de Otho Martillofiel. Lo forjó el mismo tras muchos años de práctica bajo la mirada de su padre. Muchos consideran a Otho como uno de los mejores herreros (sino el mejor) de la costa de la espada, y la calidad de esta arma hace pensar que Tearlac está casi a su altura. Las runas que tiene grabadas hablan del honor de su familia. El martillo está hecho de una aleación de mithril. Las rodelas son pequeños discos de metal, a veces con forma diseños decorativos. El palo está hecho de roble muy resistente y mide cerca de medio metro.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +2, +4 contra humanoides gigantes
+GAC0: bonificación +1, +4 contra humanoides gigantes
+Tipo de daño: Contundente
+Peso: 8 lbs
+Factor de velocidad: 2
+Talento marcial: Martillo de guerra
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1420 = ~Lanza de Fuego~
+@1422 = ~La punta de esta lanza arde mágicamente, lo cual hace que sea Aptitudes poseídasmente mortífera en combate.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1, +1D6 de daño de fuego
+GAC0: bonificación +1
+Tipo de daño: Perforante
+Peso: 3 lbs
+Factor de velocidad: 3
+Talento marcial: Lanza
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1423 = ~Lanza +3: 'El Cetro del Dragón'~
+@1424 = ~Llamado así por los adornos tallados de dragones de la base de la lanza. Sus orígenes exactos son totalmente desconocidos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +3
+GAC0: bonificación +3
+Tipo de daño: Perforante
+Peso: 5 lbs
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo: A dos manos
+Requisitos: Fuerza 5~
+
+@1426 = ~Maza +1 de Otho Martillofiel~
+@1428 = ~Otho ha creado esta maza cuidadosamente forjada para vos. La maza es un descendiente directo del garrote básico, siendo apenas un bastón de madera con una cabeza de piedra o hierro montada en un extremo. En este caso, la cabeza es piramidal y hecha del mejor hierro, y está situada sobre una empuñadura de roble pulida.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Peso: 8 lbs
+Factor de velocidad: 6
+Talento marcial: Maza
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1429 = ~Maza +1 de Otho Martillofiel~
+@1430 = ~Elminster ha puesto un poderoso encantamiento en esta maza que Otho ha creado para vos dándole poderes Aptitudes poseídases para derrotar al mal contra criaturas no muertas. Veis como ahora la maza brilla con una luz interior azul.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2, +4 contra no muertos
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Peso: 8 lbs
+Factor de velocidad: 6
+Talento marcial: Maza
+Tipo: A una mano
+Requisitos: Fuerza 10~
+
+@1431 = ~Maza de Disrupción - Bendita~
+@1432 = ~Después de que Jarent Señor del Alba le haya dado a la maza la bendición de Lathander sentís como si casi respirara con vida propia. Podéis sentir una oleada de poder a través de vuestras manos mientras la sostenéis. ¡Parece llamaros... ansiosa por perseguir no muertos!
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2, +4 contra no muertos
+GAC0: bonificación +1
+Tipo de daño: Contundente
+Aptitudes de combate:
+ Los no muertos deberán tirar una salvación contra conjuros o serán destruidos
+Peso: 8
+Factor de velocidad: 6
+Talento marcial: Maza
+Tipo: A una mano
+Requsitos: Fuerza 10~
+
+@1436 = ~Daga +2: 'Aguijón de Víbora'~
+@1438 = ~Creada por un mago-ladrón loco que la utilizó bastante poco. Las circunstancias en que murió se desconocen, pero el arma reapareció al poco tiempo en manos de un asesino bastante conocido. Su filo, negro como el azabache, está dividido por su zona central y rematado en dos afiladas puntas. Además, segrega un veneno verdoso que inflige dolorosas heridas con sólo un roce. Por desgracia, el que la usa no es inmune a su veneno, e incluso el más cuidadoso se vera salpicado por el mismo alguna que otra vez.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +2, +6 de daño por envenamiento (tirada de salvación contra conjuros reduce los daños a la mitad) 
+GAC0: bonificación +2
+Tipo de daño(cuerpo): Perforante
+Tipo de daño(proyectil): Proyectil
+Aptitudes de combate:
+ 5% de posibilidades de dañarse uno mismo (+6 de veneno)
+ Regresa cuando se lanza
+Peso: 2 lbs
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo: A una mano
+Requisitos: Fuerza 3~
+
+@1439 = ~Daga Drow de Adamantita +3~
+@1440 = ~Muchos drow usan dagas hechas de una aleación de adamantita que pueden tener una bonificación desde +1 a +3. Algunas incluso están impregnadas con alguno de los diversos tipos de veneno drow. Entre 2 y 12 días la daga pierde sus propiedades.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +3
+GAC0: bonificación +3
+Aptitudes de combate:
+ Veneno, 10 de daño en 10 segundos si no hay salvación contra veneno con penalización -4
+ Deja a la víctima inconsciente durante 10 segundos si no hay salvación contra paralización
+Peso: 1 lbs
+Factor de velocidad: 2
+Talento marcial: Daga
+Tipo: A una mano
+Requisitos: Fuerza 3~
+
+@1441 = ~Colmillo de D'Raavhen~
+@1442 = ~Daga vampírica de Lorik D'Raavhen. La mera visión de esta daga causa un temor más allá de cualquier descripción. Palpita con un aura maléfica tal, que lo primero que le viene a la cabeza al observador es la idea de correr hasta caer exhausto. De su oscura hoja se dice que fue forjada de la misma materia del Abismo, lo que le da al arma la misma y oscura apariencia que su maestro.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +2
+GAC0: bonificación +2
+Aptitudes de combate: Vampírica (Inflige daño al portador y sana al objetivo)
+Peso: 1 lbs
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo: A una mano
+Requisitos: Fuerza 3~
+
+@1446 = ~Ballesta ligera de Velocidad de Keiria Hilodeplata~
+@1448 = ~Esta ballesta ligera no posee más habilidades que las de una ballesta de velocidad normal, la única diferencia radica en su color, ya que Keira siempre intenta ir a la moda, incluso en la batalla.
+
+CARACTERÍSTICAS:
+
+Daño: +1
+GAC0: bonificación +1
+Tipo de daño: Proyectil
+Aptitudes de combate: 1 ataque extra por asalto
+Peso: 5 lbs
+Factor de velocidad: 3
+Talento marcial: Ballesta
+Tipo: A dos manos
+Requisitoss: Fuerza 8~
+
+@1452 = ~Arco élfico, Plaga de Trasgos~
+@1454 = ~Este arco fue creado para ser usado por los elfos como defensa en sus bosques de trasgos y grandes trasgos, aunque no tiene ninguna habilidad Aptitudes poseídas contra ellos.
+
+CARACTERÍSTICAS:
+
+Daño: +2
+GAC0: bonificación +2
+Peso: 2 lbs
+Factor de velocidad: 3
+Talento marcial: Arco corto
+Tipo: A dos manos
+Requisitos: Fuerza 3~
+
+@1456 = ~Arco largo de Fuerza +1 'Vibramuerte'~
+@1458 = ~Creado por los elfos del bosque para el príncipe de los bárbaros de las nieves Corbus Denox, este arco proporciona incrementos a la fuerza, daño y precisión. Un zumbido resonante y profundo que se oye tras dispararlo es el origen de su nombre.
+
+CARACTERÍSTICAS:
+
+Daño: +1
+GAC0: bonificación +2
+Aptitudes poseídas: +1 Fuerza
+Peso: 2 lbs
+Factor de velocidad: 5
+Talento marcial: Arco largo
+Tipo: A dos manos
+Requisitos: Fuerza 6~
+
+@1459 = ~Arco Sagrado de Sukien 'Diente de Sierra'~
+@1460 = ~Diente de Sierra ha sido llamado así probablemente por el modo en que fue hallado; con un juego completo de aserrados dientes repartidos por toda su longitud. Sólo ha sido visto en el templo de Sukien, ya que es una de las armas de su guardia sagrada. Runas grabadas simbolizan una palabra de poder, que al activarla, crea 5 flechas de choque.
+
+CARACTERÍSTICAS:
+
+Daño: +3
+GAC0: bonificación +2
+Aptitudes especiales: Crea Flechas de Golpe una vez al día
+Peso: 2 lbs
+Factor de velocidad: 5
+Talento marcial: Arco largo
+Tipo: A dos manos
+Requisitos: Fuerza 6~
+
+@1462 = ~Varita de Ettin~
+@1464 = ~Ettin fue un monje de la era de los Antiguos que aparte de sus tareas propias del clero era muy aficionado a la herboristería. Descubrió tres plantas mágicas que combinadas, producían un efecto de paralización durante un corto espacio de tiempo aparte de una pequeña posibilidad de causar envenenamiento. Este descubrimiento de Ettin fue años después recuperado por un mago que descubrió también la forma de provocar este efecto a distancia combinando la mezcla con esferas mágicas.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ 30% de posibilidades de envenenar el objetivo
+   Daño: 30 de daño por envenenamiento en 15 segundos
+   Alcance: 40 metros
+   Área: Una critura
+ Aturdir el objetivo
+   Alcance: 40 metros
+   Área: Una criatura
+   Duración: 2 asaltos
+Peso: 1 lbs
+Requisitoss: Inteligencia 9~
+
+@1465 = ~Vara de Zafiro~
+@1466 = ~Utilizada por el Rey Mago Varashar cuando recibía invitados o presidía un tribunal. Usaba la vara como forma de castigo después de emitir un veredicto. Según la mayoría de las historias, él decía: "Vuestra cantidad de culpa determinará vuestra cantidad de dolor".
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales: 
+ Castigo
+   Daño: 2D4
+   Área: Una criatura
+   Aptitudes poseídas: Posibilidad de daño adicional los 3 asaltos siguientes
+Peso: 1 lbs
+Requisitoss: Inteligencia 9~
+
+@1467 = ~Vara de Cadena de Relámpagos~
+@1468 = ~Cuando se activa, esta vara lanza una esfera de energía eléctrica que se dirige hacia la zona designada, cuando llega allí, descarga su furia en un área de 16 metros haciendo 6d6+6 puntos de daño eléctrico a todas las criaturas alcanzadas, la mitad si salvan contra varitas.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales: 
+ Esfera de energía eléctrica
+   Daño: 6D6 de daño eléctrico (tirada de salvación contra varita para sufrir la mitad de daño)
+   Alcance: 12 metros
+   Área: 12 metros
+Peso: 1 lbs
+Requisitoss: Inteligencia 9~
+
+@1470 = ~La Zarza de Elgenon - 'La Rama de Muchas Espinas'~
+@1472 = ~Creada por ninfas para los guardianes del bosque, este zarzal está encantado mágicamente para que crezcan espinas después de cada uso. Originalmente fue un regalo para Elgenon El Sabio, protector del Árbol de la Sabiduría, desde entonces los druidas han demostrado su valía como guardianes de los bosques con esta poderosa arma.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1
+GAC0: bonificación +1
+Tipo de daño (cuerpo): Contundente
+Tipo de daño (lanzado): Proyectil
+Aptitudes de combate:
+  Regresa a la mano del portador cuando se lanza
+  +5 de daño por envenenamiento en 5 turnos (Una tirada de salvación contra el envenamiento negará el efecto)
+Peso: 4 lbs
+Factor de velocidad: 1
+Talento marcial: Garrote
+Tipo: A una mano
+Requisitos: Fuerza 3~
+
+@1473 = ~Mandíbula de Asno~
+@1474 = ~Esto parece ser nada más que la mandíbula de un animal, quizás un mono o una mula. En un apuro puede ser usada como un garrote primitivo...
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: Contundente
+Peso: 3 lbs
+Factor de velocidad: 4
+Talento marcial: Garrote
+Tipo: A una mano
+Requisitoss: Fuerza 3~
+
+@1475 = ~Esta es la mandíbula de un burro que el sacerdote/guerrero Nazerite, Samson, usó para matar a 600 Filisteos en un día. Un arma formidable de origen humilde.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +3
+GAC0: bonificación +2
+Tipo de daño: Contundente
+Tiradas de salvación: bonificación +1
+Aptitudes poseídas:
+ El personaje se volverá borroso semejante al conjuro de mago de Nivel 2
+Peso: 3 lbs
+Factor de velocidad: 2
+Talento marcial: Garrote
+Tipo: A una mano
+Requisitoss: Fuerza 3~
+
+@1476 = ~Espada de Mielikki~
+@1477 = ~Suministros de Trungle~
