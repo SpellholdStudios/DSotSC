@@ -5,7 +5,7 @@
 //UNSOLVED_JOURNAL, @7
 @90000 = ~El hijo de Gillian Muertenecrario
 
-Hemos decidido unirnos a un elfo llamado C√∫Choinneach. Parece creer que podemos encontrar al hijo de Muertenecrario en la ciudadela que se encuentra al sur.~
+Hemos decidido unirnos a un elfo llamado C˙Choinneach. Parece creer que podemos encontrar al hijo de Muertenecrario en la ciudadela que se encuentra al sur.~
 
 /////                                                  \\\\\
 ///// dsgilian.d                                       \\\\\
@@ -14,43 +14,43 @@ Hemos decidido unirnos a un elfo llamado C√∫Choinneach. Parece creer que podemos
 //UNSOLVED_JOURNAL, @25
 @90100 = ~El hijo de Gillian Muertenecrario
 
-Gillian Muertenecrario nos ha pedido que encontremos a su beb√©. Esta ma√±ana hab√≠a desaparecido y ella no tiene ninguna pista sobre d√≥nde puede estar. Nos ha hablado de la ni√±era del beb√©, una semielfa de Calimshan. Pero no nos ha contado mucho sobre ella. La √∫ltima vez que la vieron fue anoche cuando fue a casa a dormir. Le has preguntado a la se√±ora Muertenecrario d√≥nde vive la chica, pero tampoco lo sabe. Es demasiado confiada...~
+Gillian Muertenecrario nos ha pedido que encontremos a su bebÈ. Esta manana habÌa desaparecido y ella no tiene ninguna pista sobre dÛnde puede estar. Nos ha hablado de la ninera del bebÈ, una semielfa de Calimshan. Pero no nos ha contado mucho sobre ella. La ˙ltima vez que la vieron fue anoche cuando fue a casa a dormir. Le has preguntado a la senora Muertenecrario dÛnde vive la chica, pero tampoco lo sabe. Es demasiado confiada...~
 
 //SOLVED_JOURNAL, @35
 @90101 = ~El hijo de Gillian Muertenecrario
 
-Hemos devuelto el beb√© Muertenecrario a su madre. Est√° muy contenta de verlo. Clairis estaba obviamente bajo un hechizo. Es una l√°stima que nadie sepa si ten√≠a familia.~
+Hemos devuelto el bebÈ Muertenecrario a su madre. Est· muy contenta de verlo. Clairis estaba obviamente bajo un hechizo. Es una l·stima que nadie sepa si tenÌa familia.~
 
 /////                                                  \\\\\
 ///// dsjaren.d                                        \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @15
-@90200 = ~A la caza del drag√≥n
+@90200 = ~A la caza del dragÛn
 
-Jarent, Se√±or del Alba de Lathander nos ha pedido que recuperemos una reliquia que es muy importante para su iglesia. Nos coment√≥ que la reliquia fue robada por un joven drag√≥n del bosque. Adem√°s nos dijo que el drag√≥n se pod√≠a encontrar al este de la Mina de Nashkel. ¬°Finalmente una oportunidad de encontrarnos con un drag√≥n!~
+Jarent, Senor del Alba de Lathander nos ha pedido que recuperemos una reliquia que es muy importante para su iglesia. Nos comentÛ que la reliquia fue robada por un joven dragÛn del bosque. Adem·s nos dijo que el dragÛn se podÌa encontrar al este de la Mina de Nashkel. !Finalmente una oportunidad de encontrarnos con un dragÛn!~
 
 //SOLVED_JOURNAL, @21
-@90201 = ~A la caza del drag√≥n
+@90201 = ~A la caza del dragÛn
 
-Devolvimos la reliquia a Jarent y nos dijo que lo busc√°ramos si alguna vez necesit√°bamos algo de √©l o de su iglesia. Tengo que recordar esto para el futuro.~
+Devolvimos la reliquia a Jarent y nos dijo que lo busc·ramos si alguna vez necesit·bamos algo de Èl o de su iglesia. Tengo que recordar esto para el futuro.~
 
 //JOURNAL, @26
-@90202 = ~Fuimos al Templo de la Canci√≥n del Alba y le pedimos a Jarent que bendijera nuestra maza como Elminster nos sugiri√≥. Dijo que estar√≠a encantado de hacerlo por nosotros. De alguna forma ahora tengo m√°s confianza respecto el poder encontrar al hijo del Alcade.~
+@90202 = ~Fuimos al Templo de la CanciÛn del Alba y le pedimos a Jarent que bendijera nuestra maza como Elminster nos sugiriÛ. Dijo que estarÌa encantado de hacerlo por nosotros. De alguna forma ahora tengo m·s confianza respecto el poder encontrar al hijo del Alcade.~
 
 /////                                                  \\\\\
 ///// dsjeremy.d                                       \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @17
-@90300 = ~A la caza del drag√≥n
+@90300 = ~A la caza del dragÛn
 
-Jeremy, el ayudante del alcalde de Nashkel nos ha pedido que protejamos la ciudad de un drag√≥n que ha estado causando estragos por los alrededores. Hemos accedido y nos ponemos en marcha.~
+Jeremy, el ayudante del alcalde de Nashkel nos ha pedido que protejamos la ciudad de un dragÛn que ha estado causando estragos por los alrededores. Hemos accedido y nos ponemos en marcha.~
 
 //UNSOLVED_JOURNAL / JOURNAL, @23
-@90301 = ~A la caza del drag√≥n
+@90301 = ~A la caza del dragÛn
 
-De regreso a Nashkel, Jeremy estaba ah√≠ para darnos la bienvenida. Je, es un tipo curioso. Pero parec√≠a bastante simp√°tico. ¬øMe pregunto si estar√° emparentado con Noober?~
+De regreso a Nashkel, Jeremy estaba ahÌ para darnos la bienvenida. Je, es un tipo curioso. Pero parecÌa bastante simp·tico. ?Me pregunto si estar· emparentado con Noober?~
 
 /////                                                  \\\\\
 ///// dslennan.d                                       \\\\\
@@ -59,41 +59,41 @@ De regreso a Nashkel, Jeremy estaba ah√≠ para darnos la bienvenida. Je, es un ti
 //SOLVED_JOURNAL, @5
 @90400 = ~La hermana perdida de Jet'Laya
 
-Hemos tenido que llevar malas noticias al t√≠o de Ferium, doncella elfa de Cormanthor. Su sobrina fue transformada en una horrible banshee y mi grupo se vio obligado a matarla. Fue lo mejor que se pod√≠a hacer. Su esp√≠ritu ahora podr√° descansar en paz. De todas formas no tuve la sangre fr√≠a de decirle a Lennan la verdad, s√≥lo que ahora estar√° en un lugar mejor. Le devolvimos el amuleto que su amante le hab√≠a regalado. Lennan parec√≠a muy agradecido y nos dio una carta para que se la llev√°ramos a un herrero enano que se llama Otho y que se encuentra de visita en la forja de Martillotronante. Nos coment√≥ que este viejo amigo suyo nos forjar√≠a un arma que ser√° de gran importancia en el futuro. Lo que quiso decir con esto, no lo s√©, pero estoy seguro que lo averiguar√© en el momento adecuado.~
+Hemos tenido que llevar malas noticias al tÌo de Ferium, doncella elfa de Cormanthor. Su sobrina fue transformada en una horrible banshee y mi grupo se vio obligado a matarla. Fue lo mejor que se podÌa hacer. Su espÌritu ahora podr· descansar en paz. De todas formas no tuve la sangre frÌa de decirle a Lennan la verdad, sÛlo que ahora estar· en un lugar mejor. Le devolvimos el amuleto que su amante le habÌa regalado. Lennan parecÌa muy agradecido y nos dio una carta para que se la llev·ramos a un herrero enano que se llama Otho y que se encuentra de visita en la forja de Martillotronante. Nos comentÛ que este viejo amigo suyo nos forjarÌa un arma que ser· de gran importancia en el futuro. Lo que quiso decir con esto, no lo sÈ, pero estoy seguro que lo averiguarÈ en el momento adecuado.~
 
 //SOLVED_JOURNAL, @7
 @90401 = ~La hermana perdida de Jet'Laya
 
-Bueno, le dijimos a Lennan que su sobrina hab√≠a muerto. No pareci√≥ tom√°rselo muy bien... Pero, supongo que es comprensible. De todas formas. Nos dio una carta para que se la llev√°ramos a un herrero enano que se llama Otho y que est√° visitando la forja de Martillotronante. Nos coment√≥ que este viejo amigo suyo nos forjar√≠a un arma que ser√° de gran importancia en el futuro. ¬øQue querr√≠a decir con eso? Ojal√° la gente simplemente dijera las cosas claras en vez de hablar con adivinanzas.~
+Bueno, le dijimos a Lennan que su sobrina habÌa muerto. No pareciÛ tom·rselo muy bien... Pero, supongo que es comprensible. De todas formas. Nos dio una carta para que se la llev·ramos a un herrero enano que se llama Otho y que est· visitando la forja de Martillotronante. Nos comentÛ que este viejo amigo suyo nos forjarÌa un arma que ser· de gran importancia en el futuro. ?Que querrÌa decir con eso? Ojal· la gente simplemente dijera las cosas claras en vez de hablar con adivinanzas.~
 
 /////                                                  \\\\\
 ///// dsnorby.d                                        \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @2
-@90500 = ~A la caza del drag√≥n
+@90500 = ~A la caza del dragÛn
 
-Un extra√±o nos ha contado que el drag√≥n que nos encomend√≥ eliminar Jarent Se√±or del Alba, se encontraba en la ciudad de Nashkel. Sin embargo, Jarent nos dijo que estaba todav√≠a bastante alejado de la ciudad. Bueno, quiz√°s debi√©ramos comprobarlo, para estar m√°s seguros.~
+Un extrano nos ha contado que el dragÛn que nos encomendÛ eliminar Jarent Senor del Alba, se encontraba en la ciudad de Nashkel. Sin embargo, Jarent nos dijo que estaba todavÌa bastante alejado de la ciudad. Bueno, quiz·s debiÈramos comprobarlo, para estar m·s seguros.~
 
 /////                                                  \\\\\
 ///// dsotho.d                                         \\\\\
 /////                                                  \\\\\
 
 //JOURNAL, @4
-@90600 = ~Otho Martillofiel est√° forjando una maza para nosotros. Nos dijo que hab√≠a bastante misterio sobre las razones por las que lo hac√≠a. Realmente no entiendo de qu√© va todo esto. Pero supongo que el tiempo me lo dir√°.~
+@90600 = ~Otho Martillofiel est· forjando una maza para nosotros. Nos dijo que habÌa bastante misterio sobre las razones por las que lo hacÌa. Realmente no entiendo de quÈ va todo esto. Pero supongo que el tiempo me lo dir·.~
 
 //JOURNAL, @6
-@90601 = ~Fuimos a recoger la maza que Otho nos hab√≠a forjado. Tengo que decir que es una de las mejores armas que creo haber visto en mi vida. Estoy seguro de que ser√° muy √∫til.~
+@90601 = ~Fuimos a recoger la maza que Otho nos habÌa forjado. Tengo que decir que es una de las mejores armas que creo haber visto en mi vida. Estoy seguro de que ser· muy ˙til.~
 
 //UNSOLVED_JOURNAL, @24
 @90602 = ~El sobrino perdido de Otho
 
-Aceptamos ayudar a Otho, el herrero enano que hizo nuestra fant√°stica maza. Parece ser que su sobrino ha estado desaparecido durante varios d√≠as y quiere que lo encontremos. Dijo que hab√≠a sido visto por √∫ltima vez al sur de Beregost en el paso de las monta√±as justo antes de alcanzar Nashkel. Los orcos que atacaron el grupo est√°n acampados en una zona cercana a una cueva.~
+Aceptamos ayudar a Otho, el herrero enano que hizo nuestra fant·stica maza. Parece ser que su sobrino ha estado desaparecido durante varios dÌas y quiere que lo encontremos. Dijo que habÌa sido visto por ˙ltima vez al sur de Beregost en el paso de las montanas justo antes de alcanzar Nashkel. Los orcos que atacaron el grupo est·n acampados en una zona cercana a una cueva.~
 
 //SOLVED_JOURNAL, @30
 @90603 = ~El sobrino perdido de Otho
 
-Tuvimos que llevar las malas noticias a Otho. Su sobrino, Tearlac, muri√≥ cuando su grupo fue asaltado hace unos d√≠as por un grupo de orcos. Pareci√≥ recibir las noticias con entereza, pero se puede decir que el viejo enano estaba desolado de saber que su sobrino hab√≠a desaparecido para siempre. Al menos supo que su sobrino muri√≥ luchando valientemente. De todas formas, parec√≠a que el campamento orco era realmente un puesto de guardia colocado a la entrada de un complejo minero que estaba siendo explotado por un ej√©rcito du√©rgar, y al frente de toda la operaci√≥n estaban los Bregan D'Aerthe, un grupo de mercenarios drow. El drow que parec√≠a tener la voz cantante se llamaba Shar Nadal y habl√≥ de alguien llamado Jarlaxle. No s√© qui√©n es este Jarlaxle y apuesto a que es alguien que no me gustar√≠a encontrar. Parece ser que los Bregan D'Aerthe estaban envueltos en el asunto de la creaci√≥n de un extra√±o l√≠quido que era usado para corromper el hierro de la Costa de la Espada y de alguna manera est√°n relacionados con el Trono de Hierro. Si los drow est√°n metidos por medio, este asunto puede ser realmente serio.~
+Tuvimos que llevar las malas noticias a Otho. Su sobrino, Tearlac, muriÛ cuando su grupo fue asaltado hace unos dÌas por un grupo de orcos. PareciÛ recibir las noticias con entereza, pero se puede decir que el viejo enano estaba desolado de saber que su sobrino habÌa desaparecido para siempre. Al menos supo que su sobrino muriÛ luchando valientemente. De todas formas, parecÌa que el campamento orco era realmente un puesto de guardia colocado a la entrada de un complejo minero que estaba siendo explotado por un ejÈrcito duÈrgar, y al frente de toda la operaciÛn estaban los Bregan D'Aerthe, un grupo de mercenarios drow. El drow que parecÌa tener la voz cantante se llamaba Shar Nadal y hablÛ de alguien llamado Jarlaxle. No sÈ quiÈn es este Jarlaxle y apuesto a que es alguien que no me gustarÌa encontrar. Parece ser que los Bregan D'Aerthe estaban envueltos en el asunto de la creaciÛn de un extrano lÌquido que era usado para corromper el hierro de la Costa de la Espada y de alguna manera est·n relacionados con el Trono de Hierro. Si los drow est·n metidos por medio, este asunto puede ser realmente serio.~
 
 /////                                                  \\\\\
 ///// ferthg.d                                         \\\\\
@@ -102,7 +102,7 @@ Tuvimos que llevar las malas noticias a Otho. Su sobrino, Tearlac, muri√≥ cuando
 //UNSOLVED_JOURNAL, @16
 @90700 = ~El sobrino perdido de Otho
 
-Hemos decidido ayudar a un enano llamado Ferthgil a investigar esas minas y galer√≠as que hay bajo la Costa de la Espada. Es muy extra√±o el porqu√© de que este lugar est√© aqu√≠, y qui√©n o qu√© hay tras ello.~
+Hemos decidido ayudar a un enano llamado Ferthgil a investigar esas minas y galerÌas que hay bajo la Costa de la Espada. Es muy extrano el porquÈ de que este lugar estÈ aquÌ, y quiÈn o quÈ hay tras ello.~
 
 /////                                                  \\\\\
 ///// jetla.d                                          \\\\\
@@ -111,14 +111,14 @@ Hemos decidido ayudar a un enano llamado Ferthgil a investigar esas minas y gale
 //UNSOLVED_JOURNAL, @11
 @90800 = ~La hermana perdida de Jet'Laya
 
-Hemos decidido ayudar a una joven cl√©riga elfa con el nombre de Jet'Laya a buscar a su hermana perdida. Nos ha dicho que cree que su hermana est√° en la zona del bosque, al este del Valle de los Botines. Dijo que su t√≠o podr√≠a estar esperando en el Malabarista Jovial de Beregost y deber√≠amos volver all√≠ tan pronto como encontremos a Ferium.~
+Hemos decidido ayudar a una joven clÈriga elfa con el nombre de Jet'Laya a buscar a su hermana perdida. Nos ha dicho que cree que su hermana est· en la zona del bosque, al este del Valle de los Botines. Dijo que su tÌo podrÌa estar esperando en el Malabarista Jovial de Beregost y deberÌamos volver allÌ tan pronto como encontremos a Ferium.~
 
 /////                                                  \\\\\
 ///// elmin3.d                                         \\\\\
 /////                                                  \\\\\
 
 //JOURNAL, @5
-@91000 = ~Bueno, una vez m√°s me encontr√© con ese exc√©ntrico pero √∫til viejo mago. Lanz√≥ un encantamiento en la maza que Otho hizo para nosotros. Esta maza parece ser bastante importante. Elminster sugiri√≥ que deber√≠a hacer que alguien la bendijera tambi√©n. Pero, ¬øa qui√©n conozco que pueda hacerlo?. Mmm. ¬øTal vez el Se√±or del Alba de Lathander que quer√≠a que le devolviera la reliquia que le robo el drag√≥n podr√≠a ayudarme?~
+@91000 = ~Bueno, una vez m·s me encontrÈ con ese excÈntrico pero ˙til viejo mago. LanzÛ un encantamiento en la maza que Otho hizo para nosotros. Esta maza parece ser bastante importante. Elminster sugiriÛ que deberÌa hacer que alguien la bendijera tambiÈn. Pero, ?a quiÈn conozco que pueda hacerlo?. Mmm. ?Tal vez el Senor del Alba de Lathander que querÌa que le devolviera la reliquia que le robo el dragÛn podrÌa ayudarme?~
 
 //JOURNAL, @7
-@91001 = ~~Una vez m√°s ese viejo apareci√≥ para molestarme. Dijo que no estaba tratando de influenciarme o interferir con el camino que he elegido, a√∫n as√≠, lanz√≥ un encantamiento a la maza que hizo Otho para nosotros. Dijo que era necesario debido al gran mal que estoy a punto de encontrar. No necesito su ayuda ni la de nadie. Lo que quiera que sea ese gran mal estoy seguro de que podr√© cuidarme de √©l solo. Elminster sugiri√≥ que tambi√©n consiguiera a alguien que la bendijera. ¬øA qui√©n conozco que pueda hacerlo? Mmm, ¬øTal vez ese viejo del Templo al este de Beregost que quer√≠a que le fuera devuelta la reliquia que el drag√≥n le rob√≥?
+@91001 = ~Una vez m·s ese viejo apareciÛ para molestarme. Dijo que no estaba tratando de influenciarme o interferir con el camino que he elegido, a˙n asÌ, lanzÛ un encantamiento a la maza que hizo Otho para nosotros. Dijo que era necesario debido al gran mal que estoy a punto de encontrar. No necesito su ayuda ni la de nadie. Lo que quiera que sea ese gran mal estoy seguro de que podrÈ cuidarme de Èl solo. Elminster sugiriÛ que tambiÈn consiguiera a alguien que la bendijera. ?A quiÈn conozco que pueda hacerlo? Mmm, ?Tal vez ese viejo del Templo al este de Beregost que querÌa que le fuera devuelta la reliquia que el dragÛn le robÛ?~

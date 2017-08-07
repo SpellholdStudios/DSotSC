@@ -9,9 +9,9 @@
 
 BACKUP ~DSotSC/backup~
 AUTHOR ~~
-VERSION ~v3.0~
+VERSION ~v3.0 beta~
 README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
-AUTO_TRA ~DSotSC/language/%s/D~ //%~
+AUTO_TRA ~DSotSC/language/%LANGUAGE%/D~
 ASK_EVERY_COMPONENT
 
 /////                                                  \\\\\
@@ -21,9 +21,6 @@ ASK_EVERY_COMPONENT
 ALWAYS
 <<<<<<<< .../blank.txt
 >>>>>>>>
-	OUTER_SET valid_answer = 0
-	OUTER_SET button = 0
-
 	ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
 		OUTER_SPRINT os_slash ~\~
 		OUTER_SPRINT exe ~.exe~
@@ -69,8 +66,8 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 			END
-			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets_dsotsc journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
+			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap setup-ee END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
@@ -91,14 +88,14 @@ LANGUAGE
 	~english~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/english/setup.tra~
-	~DSotSC/language/english/soundsets_dsotsc.tra~
+	~DSotSC/language/english/soundsets.tra~
 	~DSotSC/language/english/journal.tra~
 LANGUAGE
 	~Castilian (translation updated by Lisandro & Unknow_error)~
 	~castilian~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/castilian/setup.tra~
-	~DSotSC/language/castilian/soundsets_dsotsc.tra~
+	~DSotSC/language/castilian/soundsets.tra~
 	~DSotSC/language/castilian/journal.tra~
 /*LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
@@ -117,7 +114,7 @@ LANGUAGE
 	~polish~
 	~DSotSC/language/polish/prompts.tra~
 	~DSotSC/language/polish/setup.tra~
-	~DSotSC/language/polish/soundsets_dsotsc.tra~
+	~DSotSC/language/polish/soundsets.tra~
 	~DSotSC/language/polish/journal.tra~
 LANGUAGE
 	~Russian (translation aVoddle, Alex, Badgert & aerie.ru & prowler)~
@@ -139,36 +136,6 @@ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
 
 /////                                                  \\\\\
-///// sound sets menu                                  \\\\\
-/////                                                  \\\\\
-
-ACTION_IF FILE_EXISTS ~DSotSC/wav_version.txt~ BEGIN //for easier BWS implementation
-	COPY - ~DSotSC/wav_version.txt~ ~.../DSotSC~
-		READ_ASCII 0x0 wav_version (%SOURCE_SIZE%)
-	ACTION_IF (~%wav_version%~ STRING_EQUAL_CASE ~original~) OR (~%wav_version%~ STRING_EQUAL_CASE ~revised~) BEGIN
-		OUTER_SET valid_answer = 1
-	END
-END
-
-OUTER_WHILE (valid_answer = 0) BEGIN
-	ACTION_IF (button = 1) BEGIN //original
-		OUTER_SPRINT wav_version ~original~
-		OUTER_SET valid_answer = 1
-	END ELSE ACTION_IF (button = 2) BEGIN //IWD
-		OUTER_SPRINT wav_version ~revised~
-		OUTER_SET valid_answer = 1
-	END ELSE BEGIN
-		PRINT ~Choose which voice pack should be used for joinable NPCs:
- 1] voices from original version of DSotSC (supported languages: English, partial German)
- 2] new voice sets from IWD1 and IWD2 (supported languages: English, Polish, more in future)~
-		ACTION_READLN ~button~
-		ACTION_IF NOT (IS_AN_INT %button%) BEGIN
-			OUTER_SET button = 0
-		END
-	END
-END
-
-/////                                                  \\\\\
 ///// install journal strings                          \\\\\
 /////                                                  \\\\\
 
@@ -188,12 +155,6 @@ APPEND ~TRIGGER.IDS~ ~0x00A6 SpellCastPriestRES(S:Spell*,O:Object*)~
               UNLESS ~0x00A6 SpellCastPriestRES(S:Spell\*,O:Object\*)~
 APPEND ~TRIGGER.IDS~ ~0x00A7 SpellCastInnateRES(S:Spell*,O:Object*)~
               UNLESS ~0x00A7 SpellCastInnateRES(S:Spell\*,O:Object\*)~
-
-// Install new 2da files
-
-COPY ~DSotSC/base/2da/dsotsc.2da~ ~override~
-	REPLACE ~99990~ @2305
-	REPLACE ~99991~ @2306
 
 // Modify existing 2da files
 
@@ -1683,7 +1644,7 @@ COPY_EXISTING ~takiyah.cre~ ~override~
 
 // Soundsets
 
-INCLUDE ~DSotSC/lib/soundsets_%wav_version%.tpa~
+INCLUDE ~DSotSC/lib/soundsets.tpa~
 
 /////                                                  \\\\\
 ///// item usability                                   \\\\\
@@ -2067,33 +2028,18 @@ LAF HANDLE_AUDIO
 	output_path = ~DSotSC/biff~
 END
 
-ACTION_IF ~%wav_version%~ STRING_EQUAL_CASE ~original~ BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg_original~
-	ACTION_BASH_FOR ~DSotSC/language/english/ogg_original~ ~^.*\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS ~%ogg_dir%/%BASH_FOR_FILE%~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%ogg_dir%~
-		END
-	END
-	LAF HANDLE_AUDIO
-		STR_VAR
-		audio_path = EVAL ~%ogg_dir%~
-		oggdec_path = ~DSotSC/bin/win32~
-		sox_path = ~DSotSC/bin/osx~
-		output_path = ~DSotSC/biff~
-	END
+ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
+	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
 END ELSE BEGIN
-	ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
-		OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
-	END ELSE BEGIN
-		OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
-	END
-	LAF HANDLE_AUDIO
-		STR_VAR
-		audio_path = EVAL ~%ogg_dir%~
-		oggdec_path = ~DSotSC/bin/win32~
-		sox_path = ~DSotSC/bin/osx~
-		output_path = ~DSotSC/biff~
-	END
+	OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
+END
+
+LAF HANDLE_AUDIO
+	STR_VAR
+	audio_path = EVAL ~%ogg_dir%~
+	oggdec_path = ~DSotSC/bin/win32~
+	sox_path = ~DSotSC/bin/osx~
+	output_path = ~DSotSC/biff~
 END
 
 PRINT ~Biffing files....~

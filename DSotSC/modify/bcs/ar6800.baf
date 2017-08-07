@@ -47,10 +47,5 @@ IF
 	Global("DSOTSC","GLOBAL",0)
 THEN
 	RESPONSE #100
-		SetInterrupt(FALSE)
-		TextScreen("DSOTSC")
-		Wait(2)
-		SetInterrupt(TRUE)
-		AddJournalEntry(@2304,USER)
 		SetGlobal("DSOTSC","GLOBAL",1)
 END
