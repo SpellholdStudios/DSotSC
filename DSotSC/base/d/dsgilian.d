@@ -69,7 +69,7 @@ END
 IF ~~ THEN BEGIN 10
   SAY @26
   IF ~~ THEN REPLY @27 GOTO 11
-  IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillia","GLOBAL",1)
+  IF ~~ THEN REPLY @28 DO ~SetGlobal("TalkedGillian","GLOBAL",1)
 SetGlobal("GilliaPay","GLOBAL",1)
 ~ UNSOLVED_JOURNAL @90100 EXIT
 END
