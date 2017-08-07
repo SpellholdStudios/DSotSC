@@ -93,13 +93,14 @@ LANGUAGE
 	~DSotSC/language/english/setup.tra~
 	~DSotSC/language/english/soundsets_dsotsc.tra~
 	~DSotSC/language/english/journal.tra~
-/*LANGUAGE
-	~Castilian (translation updated by Lisandro)~
+LANGUAGE
+	~Castilian (translation updated by Lisandro & Unknow_error)~
 	~castilian~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/castilian/setup.tra~
+	~DSotSC/language/castilian/soundsets_dsotsc.tra~
 	~DSotSC/language/castilian/journal.tra~
-LANGUAGE
+/*LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
 	~german~
 	~DSotSC/language/english/prompts.tra~
