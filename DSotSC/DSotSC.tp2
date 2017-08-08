@@ -2007,6 +2007,7 @@ END
 /////                                                  \\\\\
 
 MKDIR ~DSotSC/biff~
+	~DSotSC/language/%LANGUAGE%/ogg~
 
 ACTION_IF GAME_IS ~eet~ BEGIN
 	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/bg5500sr.bmp~
@@ -2028,15 +2029,15 @@ LAF HANDLE_AUDIO
 	output_path = ~DSotSC/biff~
 END
 
-ACTION_IF FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/2BFM001.ogg~ BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/%LANGUAGE%/ogg~
-END ELSE BEGIN
-	OUTER_SPRINT ogg_dir ~DSotSC/language/english/ogg~
+ACTION_BASH_FOR ~DSotSC/language/english/ogg~ ~^.+\.ogg$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~DSotSC/language/%LANGUAGE%/ogg/%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~DSotSC/language/%LANGUAGE%/ogg~
+	END
 END
 
 LAF HANDLE_AUDIO
 	STR_VAR
-	audio_path = EVAL ~%ogg_dir%~
+	audio_path = EVAL ~DSotSC/language/%LANGUAGE%/ogg~
 	oggdec_path = ~DSotSC/bin/win32~
 	sox_path = ~DSotSC/bin/osx~
 	output_path = ~DSotSC/biff~
