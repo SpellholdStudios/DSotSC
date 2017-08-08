@@ -11,7 +11,7 @@ BACKUP ~DSotSC/backup~
 AUTHOR ~~
 VERSION ~v3.0 beta~
 README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
-AUTO_TRA ~DSotSC/language/%LANGUAGE%/D~
+AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
 
 /////                                                  \\\\\
