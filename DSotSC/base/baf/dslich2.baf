@@ -108,18 +108,15 @@ IF
   GlobalGT("Lich","GLOBAL",7)
   GlobalLT("Lich","GLOBAL",10)
 THEN
-  RESPONSE #25
+  RESPONSE #33
     EquipMostDamagingMelee()
     AttackOneRound(NearestEnemyOf(Myself))
     IncrementGlobal("Lich","GLOBAL",1)
-  RESPONSE #25
+  RESPONSE #33
     PlaySound("DSGHOST5")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_FIRE_SEEDS)
     IncrementGlobal("Lich","GLOBAL",1)
-  RESPONSE #25
-    ForceSpell(NearestEnemyOf(Myself),CLERIC_CIRCLE_OF_PROTECTION)
-    IncrementGlobal("Lich","GLOBAL",1)
-  RESPONSE #25
+  RESPONSE #33
     PlaySound("DSGHOST2")
     ForceSpell(NearestEnemyOf(Myself),CLERIC_MAGIC_RESISTANCE)
     IncrementGlobal("Lich","GLOBAL",1)
@@ -129,12 +126,9 @@ IF
   See(NearestEnemyOf(Myself))
   Global("Lich","GLOBAL",10)
 THEN
-  RESPONSE #75
+  RESPONSE #100
     EquipMostDamagingMelee()
     AttackOneRound(NearestEnemyOf(Myself))
-    Continue()
-  RESPONSE #25
-    ForceSpell(NearestEnemyOf(Myself),CLERIC_CIRCLE_OF_PROTECTION)
     Continue()
 END
 
