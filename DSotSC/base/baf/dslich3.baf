@@ -5,7 +5,7 @@ THEN
   RESPONSE #100
     ForceSpellPoint([1348.799],WIZARD_DIMENSION_DOOR)
     Wait(5)
-    ForceSpell(NearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR2)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR2%",NearestEnemyOf(Myself(Myself)))
     SmallWait(5)
     ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
     SmallWait(5)
@@ -20,9 +20,9 @@ THEN
   RESPONSE #100
     ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_FEEBLEMIND)
     SmallWait(5)
-    ForceSpell(SecondNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR2)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR2%",SecondNearestEnemyOf(Myself(Myself)))
     SmallWait(5)
-    ForceSpell(ThirdNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR%",ThirdNearestEnemyOf(Myself(Myself)))
     SmallWait(5)
     SetGlobal("Lich","GLOBAL",2)
 END

@@ -15,7 +15,7 @@ THEN
   RESPONSE #100
     Wait(15)
     DisplayString(LastTrigger(Myself),102922)
-    ForceSpell(LastTrigger(Myself),SUMMON_SKELETON_WARRIOR)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR%",LastTrigger(Myself))
 END
 
 IF

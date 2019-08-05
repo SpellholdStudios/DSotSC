@@ -26,8 +26,8 @@ IF
 THEN
   RESPONSE #100
     Enemy()
-    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
-    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR3%",NearestEnemyOf(Myself))
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR3%",NearestEnemyOf(Myself))
     ForceSpellPoint([1811.1904],DRYAD_TELEPORT)
     SetGlobal("LordDaerthmac1","GLOBAL",2)
     EscapeArea()
@@ -78,7 +78,7 @@ IF
   Global("LordDaerthmac1","GLOBAL",5)
 THEN
   RESPONSE #100
-    ForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR3%",NearestEnemyOf(Myself))
     Wait(1)
     ForceSpell(NearestEnemyOf(Myself),VAMPIRE_DOMINATION)
     Wait(1)
@@ -94,7 +94,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("VampLordDead","GLOBAL",1)
-    ReallyForceSpell(NearestEnemyOf(Myself),SUMMON_SKELETON_WARRIOR3)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR3%",NearestEnemyOf(Myself))
     ReallyForceSpell(Myself,RED_HOLY_MIGHT)
     Wait(2)
     ReallyForceSpell(Myself,RED_SWIRL)

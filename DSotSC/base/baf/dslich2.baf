@@ -16,11 +16,11 @@ IF
 THEN
   RESPONSE #100
     PlaySound("DSGHOST5")
-    ForceSpell(NearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR3)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR3%",NearestEnemyOf(Myself(Myself)))
     SmallWait(5)
-    ForceSpell(SecondNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR2)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR2%",SecondNearestEnemyOf(Myself(Myself)))
     SmallWait(5)
-    ForceSpell(ThirdNearestEnemyOf(Myself(Myself)),SUMMON_SKELETON_WARRIOR)
+    ForceSpellRES("%SUMMON_SKELETON_WARRIOR%",ThirdNearestEnemyOf(Myself(Myself)))
     SmallWait(5)
     ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
     SmallWait(5)
