@@ -1,0 +1,87 @@
+// WeiDU prompts
+@-1000 = ~Il %TP2_FILE_NAME% mod ha~
+@-1001 = ~componenti distinti opzionali.
+Per risparmiare tempo, puoi scegliere cosa fare con i componenti piuttosto che richiedere cosa farne uno per uno.~
+@-1002 = ~Cosa desideri fare con tutti i componenti che NON SONO ANCORA installati?
+[I]nstallali, [S]altali, [A]chiedi uno per uno?~
+@-1003 = ~ Cosa desideri fare con tutti i componenti che sono GIA’ installati?
+[R]e-installali, [U]disinstallali, [S]altali, [A] chiedi uno per uno?~
+
+@-1004 = ~PER FAVORE manda una mail del file~
+@-1005 = ~a~
+
+@-1006 = ~Installa il Componente [~
+@-1007 = ~]?
+[R]e-Installa, [N]on cambiare o [U]disinstalla o [Q]uscire? ~
+@-1008 = ~]?
+[I]nstalla, o [N]on installare o [Q]uscire? ~
+
+@-1009 = ~Inserisci parte del nome di un mod: ~
+
+@-1010 = ~Re-Installando [~
+@-1011 = ~] componente ~
+@-1012 = ~Re-Installando Usando la Lingua~
+
+@-1013 = ~Rimuovendo la vecchia installazione di [~
+@-1014 = ~] primo ...~
+@-1015 = ~RIMOSSO IL VECCHIO CON SUCCESSO~
+
+@-1016 = ~Installando~
+@-1017 = ~ERROR durante l’Installazione [~
+@-1018 = ~], tornando allo stato precedente~
+@-1019 = ~INSTALLAZIONE AVVENUTA CON SUCCESSO ~
+@-1020 = ~Saltando~
+@-1021 = ~Rimuovendo [~
+@-1022 = ~] (componente #~
+@-1023 = ~)~
+@-1024 = ~SUCCESSIVAMENTE RIMOSSO [~
+
+@-1025 = ~]?
+[R]e-installa, [N]on Cambiare, [U]disinstalla, [Q]esco o scegline una:~
+@-1026 = ~]?
+[N]o, [Q]esco o scegline una:~
+@-1027 = ~ (attualmente installati =~
+
+@-1028 = ~Vuoi visualizzare i component da [~
+@-1029 = ~]?
+[Y]si, [N]o? ~
+
+@-1030 = ~]?
+Scegline uno:~
+@-1031 = ~]?
+[R]e-installa, [N]on cambiare, [Q]esci o scegline uno:~
+@-1032 = ~NON INSTALLATO A CAUSA DI ERRORI~
+@-1033 = ~INSTALLATO CON AVVERTENZE ~
+@-1034 = ~Vuoi vedere il readme? [Y]si [N]o~
+@-1035 = ~Sto utilizzando il linguaggio~
+
+@-1036 = ~Saltando il GRUPPO [~
+@-1037 = ~] perché non soddisfa i requisiti.~
+
+@-1038 = ~[A]chiedi per ogni componente, [S]alta tutto, o scegli una selezione pre-definita:~
+@-1039 = ~[A]chiedi per ogni componente, [R]einstalla la configurazione corrente, [U]disinstalla tutto, [S]alta tutto, o scegli una selezione pre-definita:~
+
+@-1040 = ~
+Prego scegli la lingua con cui desideri giocare.
+Se successivamente desidererai giocare con una lingua diversa dovrai editare il file weidu.conf e reinstallare i tuoi mod.~
+@-1041 = ~Ceco~
+@-1042 = ~Tedesco~
+@-1043 = ~Inglese~
+@-1044 = ~Spagnolo~
+@-1045 = ~Francese~
+@-1046 = ~Italiano~
+@-1047 = ~Polacco~
+@-1048 = ~Portoghese~
+@-1049 = ~Turco~
+@-1050 = ~Giapponese~
+@-1051 = ~Koreano~
+@-1052 = ~Cinese Semplifcato~
+
+@-1060 = ~
+Questo gioco é disponibile in diverse lingue, ma WeiDU non sa quale lingua di gioco é stata utilizzata quando questo mod é stato installato.
+
+Per favore indica quale lingua di gioco é stata utilizzata quando é stato installato questo mod. La scelta sarà utilizzata fino a che non si uscirà da WeiDU ma non verrà ricordata.
+~
+@-1061 = ~
+Utilizzando~
+@-1062 = ~ e ~
