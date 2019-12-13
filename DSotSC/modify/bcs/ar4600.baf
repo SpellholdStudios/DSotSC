@@ -93,7 +93,7 @@ END
 IF
   Global("DragonSpawn","%GibberlingMountains%",1)
   Global("DragonDoor","%GibberlingMountains%",0)
-  NumDeadGT("DSHALFD",2)
+  NumDeadGT("DSHALFD",1)
 THEN
   RESPONSE #100
     ActionOverride("Salandiaxarxes",EscapeAreaDestroy(15)) //real fight takes place in DS2110.ARE
