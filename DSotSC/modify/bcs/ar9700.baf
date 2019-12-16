@@ -27,7 +27,7 @@ THEN
 END
 
 IF
-	Global("TalkedJeremy","GLOBAL",1)
+//	Global("TalkedJeremy","GLOBAL",1)
 	Global("BubSpawn","%SouthBeregostRoad%",0)
 	OR(2)
 		Level(Player1,4)
@@ -39,7 +39,7 @@ THEN
 END
 
 IF
-	Global("TalkedJeremy","GLOBAL",1)
+//	Global("TalkedJeremy","GLOBAL",1)
 	Global("BubSpawn","%SouthBeregostRoad%",0)
 	LevelGT(Player1,5)
 THEN

@@ -1,5 +1,6 @@
 /*
 Changes:
+pre 1:
 -revised Italian version by ilot
 -Holy Water works against undead
 -Holy Water can also be bought in Temple of Helm in NBG
@@ -7,6 +8,16 @@ Changes:
 -Bub Snikt + Concho* do no longer crash game (actually it was Conch*'s armor): colors fixed
 -main component is checked by REQUIRE_COMPONENT instead of "MOD_IS_INSTALLED" as this does not deinstall the components automatically)
 -(BGT) large portraits assigned correctly (medium size)
+---
+pre 2:
+-all text tras in ANSI.
+-corrected DSotSC area naming in unisono with the BP-BGT-Worldmap mod: DSC001 is "Wood of Sharp Teeth", DSC002 is "East Wood of Sharp Teeth", DSC004 is "Forest of Forgotten Souls", DSC010 is "Castle Daerthmac".
+-Megan should open the door to Nashkel Manor House (is "DOOR4804" in BGT, too).
+-spawning of higher level Bub Snikt no longer dependent on whether PC talked to Jeremy.
+-changed "sir" to <PRO_SIRMAAM> in dsjeremy.tra.
+-Skeezer Lumkin VI's personal helm has inventory icon of Balduran's Helm (as in v2)
+-removed worldmap.tra from the charsetsNoConvertArray
+
 
 */
 
@@ -22,7 +33,7 @@ Changes:
 BACKUP ~DSotSC/backup~
 //AUTHOR ~~
 SUPPORT ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~v3.1 pre~ //
+VERSION ~v3.1 pre 2~ //
 README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
 AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -51,7 +62,7 @@ ALWAYS
 		INCLUDE ~DSotSC/lib/g3_bgt_cpmvars.tpa~
 		OUTER_SPRINT platform ~bgt~
 		OUTER_SPRINT engine ~vanilla~
-		OUTER_SPRINT Nashkel_door ~DOOR3704~ //used in ar3700.baf and megacut.baf
+		OUTER_SPRINT Nashkel_door ~DOOR4804~ //used in ar3700.baf and megacut.baf
 		OUTER_SPRINT NorthNashkelRoad_entrance ~EXIT3200~ //patching ARE
 		OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~ //patching ARE
 
@@ -85,7 +96,7 @@ ALWAYS
 				"castilian" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap setup-ee END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
@@ -115,18 +126,22 @@ LANGUAGE
 	~DSotSC/language/castilian/setup.tra~
 	~DSotSC/language/castilian/soundsets.tra~
 	~DSotSC/language/castilian/journal.tra~
-/*LANGUAGE
+LANGUAGE
+	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net) & Turambar)~
+	~italian~
+	~DSotSC/language/italian/prompts.tra~
+	~DSotSC/language/italian/setup.tra~
+	~DSotSC/language/italian/soundsets.tra~
+	~DSotSC/language/italian/journal.tra~
+/*
+LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
 	~german~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/german/setup.tra~
+	~DSotSC/language/english/soundsets.tra~
 	~DSotSC/language/german/journal.tra~
-LANGUAGE
-	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net) & Turambar)~
-	~italian~
-	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/italian/setup.tra~
-	~DSotSC/language/italian/journal.tra~
+
 LANGUAGE
 	~Polish (translation Black Dragon & Promilus)~
 	~polish~
@@ -139,7 +154,9 @@ LANGUAGE
 	~russian~
 	~DSotSC/language/english/prompts.tra~
 	~DSotSC/language/russian/setup.tra~
-	~DSotSC/language/russian/journal.tra~*/
+	~DSotSC/language/english/soundsets.tra~
+	~DSotSC/language/russian/journal.tra~
+*/
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

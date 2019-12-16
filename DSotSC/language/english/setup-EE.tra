@@ -9,7 +9,7 @@
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protects against critical hits
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -18,11 +18,11 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Can memorize one extra 1st- and 2nd-level druid spell
-‚Äì Protects against critical hits
+ñ Can memorize one extra 1st- and 2nd-level druid spell
+ñ Protects against critical hits
 
 Charge abilities:
-‚Äì Charm animal once per day (Save vs. Wands negates)
+ñ Charm animal once per day (Save vs. Wands negates)
   Range: 40 ft.
   Area of Effect: 1 animal
   Duration: 10 turns
@@ -35,10 +35,10 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
-‚Äì Immunity to charm and fear
-‚Äì Protects against critical hits
+ñ Armor Class: +1
+ñ Saving Throws: +1
+ñ Immunity to charm and fear
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -55,7 +55,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Immunity to fear
+ñ Immunity to fear
 
 Weight: 2~
 
@@ -72,9 +72,9 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Saving Throws: +1
-‚Äì Immunity to charm
-‚Äì Protects against critical hits
+ñ Saving Throws: +1
+ñ Immunity to charm
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -84,8 +84,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protects against all forms of charms, panic and holds
-‚Äì Protects against critical hits
+ñ Protects against all forms of charms, panic and holds
+ñ Protects against critical hits
 
 Weight: 4~
 
@@ -95,10 +95,10 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Fire Resistance: +10%
-‚Äì Cold Resistance: +10%
-‚Äì Protects against critical hits
+ñ Armor Class: +1
+ñ Fire Resistance: +10%
+ñ Cold Resistance: +10%
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -110,8 +110,8 @@ Though Skeezer claims the helm is blessed with all the powers of Clangeddin hims
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protects against all forms of panic and boosts morale
-‚Äì Protects against critical hits
+ñ Protects against all forms of panic and boosts morale
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -121,8 +121,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protects against mental attacks (except hold)
-‚Äì Protects against critical hits
+ñ Protects against mental attacks (except hold)
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -132,8 +132,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protects against all forms of panic and fear
-‚Äì Protects against critical hits
+ñ Protects against all forms of panic and fear
+ñ Protects against critical hits
 
 Weight: 2~
 
@@ -143,7 +143,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Saving Throws: +1
+ñ Saving Throws: +1
 
 Armor Class: 5 (4 vs. missile, 7 vs. slashing)
 Requires:
@@ -157,8 +157,8 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Saving Throws: +1
-‚Äì Electricity Resistance: +25%
+ñ Saving Throws: +1
+ñ Electricity Resistance: +25%
 
 Armor Class: 6 (8 vs. piercing and missile)
 Requires:
@@ -194,8 +194,8 @@ Weight: 18~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Fire Resistance: +15%
-‚Äì Cold Resistance: +15%
+ñ Fire Resistance: +15%
+ñ Cold Resistance: +15%
 
 Armor Class: 2
 Requires:
@@ -220,8 +220,8 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Saving Throws: +1
-‚Äì Hit Points: +20%
+ñ Saving Throws: +1
+ñ Hit Points: +20%
 
 Armor Class: 2 (1 vs. piercing and missile, 0 vs. crushing)
 Requires:
@@ -235,7 +235,7 @@ Weight: 20~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Aid: The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
+ñ Aid: The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
 
 Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
 Requires:
@@ -249,7 +249,7 @@ Weight: 10~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Immunity to poison
+ñ Immunity to poison
 
 Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
 Requires:
@@ -263,7 +263,7 @@ Weight: 18~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Spellcasting is not disabled
+ñ Spellcasting is not disabled
 
 Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
 Requires:
@@ -277,7 +277,7 @@ Weight: 15~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Spellcasting is not disabled
+ñ Spellcasting is not disabled
 
 Armor Class: 4 (3 vs. piercing and missile, 2 vs. crushing)
 Requires:
@@ -285,13 +285,13 @@ Requires:
 
 Weight: 7~
 
-@1063 = ~C√∫Choinneach's Studded Leather Armor +2~
-@1064 = ~C√∫Choinneach constructed this armor for himself during his days as a ranger.
+@1063 = ~C˙Choinneach's Studded Leather Armor +2~
+@1064 = ~C˙Choinneach constructed this armor for himself during his days as a ranger.
 
 STATISTICS:
 
 Equipped abilities:
-‚Äì Hide In Shadows: +15%
+ñ Hide In Shadows: +15%
 
 Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
 Requires:
@@ -327,8 +327,8 @@ Weight: 25~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Open Locks: +10%
-‚Äì Find Traps: +10%
+ñ Open Locks: +10%
+ñ Find Traps: +10%
 
 Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
 Requires:
@@ -342,9 +342,9 @@ Weight: 8~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 7
-‚Äì Saving Throws: +1
-‚Äì Magic Resistance: +5%
+ñ Armor Class: 7
+ñ Saving Throws: +1
+ñ Magic Resistance: +5%
 
 Weight: 6~
 
@@ -354,8 +354,8 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 8
-‚Äì Can memorize one extra 1st- and 2nd-level wizard spell
+ñ Armor Class: 8
+ñ Can memorize one extra 1st- and 2nd-level wizard spell
 
 Weight: 3~
 
@@ -365,9 +365,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
-‚Äì Magic Resistance: +10%
+ñ Armor Class: +1
+ñ Saving Throws: +1
+ñ Magic Resistance: +10%
 
 Weight: 6~
 
@@ -377,14 +377,14 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 4
-‚Äì Intelligence: +1
-‚Äì Wisdom: +1
-‚Äì Magic Resistance: +10%
-‚Äì Protection From Normal Weapons
-‚Äì Immunity to 1st and 2nd-level spells
-‚Äì Can memorize one extra 3rd- and 4th-level wizard spell
-‚Äì Improves casting speed by 1
+ñ Armor Class: 4
+ñ Intelligence: +1
+ñ Wisdom: +1
+ñ Magic Resistance: +10%
+ñ Protection From Normal Weapons
+ñ Immunity to 1st and 2nd-level spells
+ñ Can memorize one extra 3rd- and 4th-level wizard spell
+ñ Improves casting speed by 1
 
 Weight: 6~
 
@@ -394,8 +394,8 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
+ñ Armor Class: +1
+ñ Saving Throws: +1
 
 Weight: 3~
 
@@ -407,12 +407,12 @@ This item, like most drow equipment, is created using adamantine, an alloy of ad
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 3
-‚Äì Save vs. Breath: +6
-‚Äì Intelligence: +2
-‚Äì Fire Resistance: +50%
-‚Äì Non-detection
-‚Äì Can memorize one extra 6th- and 7th-level wizard spell
+ñ Armor Class: 3
+ñ Save vs. Breath: +6
+ñ Intelligence: +2
+ñ Fire Resistance: +50%
+ñ Non-detection
+ñ Can memorize one extra 6th- and 7th-level wizard spell
 
 Weight: 1~
 
@@ -422,11 +422,11 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +2
-‚Äì Saving Throws: +2
-‚Äì Magic Resistance: +10%
-‚Äì Can memorize one extra 5th-, 6th- and 7th-level wizard spell
-‚Äì Constitution: -30%
+ñ Armor Class: +2
+ñ Saving Throws: +2
+ñ Magic Resistance: +10%
+ñ Can memorize one extra 5th-, 6th- and 7th-level wizard spell
+ñ Constitution: -30%
 
 Weight: 6~
 
@@ -436,9 +436,9 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
-‚Äì Magic Resistance: +10%
+ñ Armor Class: +1
+ñ Saving Throws: +1
+ñ Magic Resistance: +10%
 
 Weight: 6~
 
@@ -448,8 +448,8 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Charisma: +1
+ñ Armor Class: +1
+ñ Charisma: +1
 
 Weight: 3~
 
@@ -459,7 +459,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Fades wearer: 75%
+ñ Fades wearer: 75%
 
 Weight: 3~
 
@@ -469,8 +469,8 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Move Silently: +20%
-‚Äì Non-detection
+ñ Move Silently: +20%
+ñ Non-detection
 
 Weight: 3~
 
@@ -480,9 +480,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +2
-‚Äì Saving Throws: +1
-‚Äì Negative Plane Protection
+ñ Armor Class: +2
+ñ Saving Throws: +1
+ñ Negative Plane Protection
 
 Weight: 3~
 
@@ -492,7 +492,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 4
+ñ Armor Class: 4
 
 Weight: 2~
 
@@ -502,7 +502,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Dexterity: +2
+ñ Dexterity: +2
 
 Weight: 2~
 
@@ -512,10 +512,10 @@ Weight: 2~
 STATISTICS:
 
 Combat abilities:
-‚Äì 1 extra attack per round
+ñ 1 extra attack per round
 
 Equipped abilities:
-‚Äì Saving Throws: +1
+ñ Saving Throws: +1
 
 Weight: 2~
 
@@ -525,8 +525,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +3 vs. missiles
-‚Äì Save vs. Petrification/Polymorph: +3
+ñ Armor Class: +3 vs. missiles
+ñ Save vs. Petrification/Polymorph: +3
 
 Weight: 2~
 
@@ -536,8 +536,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: 7
-‚Äì Improves casting speed by 1
+ñ Armor Class: 7
+ñ Improves casting speed by 1
 
 Weight: 2~
 
@@ -547,8 +547,8 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì THAC0: +2
-‚Äì Damage: +2
+ñ THAC0: +2
+ñ Damage: +2
 
 Weight: 1~
 
@@ -558,7 +558,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Can memorize one extra 1st- and 2nd-level wizard spell
+ñ Can memorize one extra 1st- and 2nd-level wizard spell
 
 Weight: 0~
 
@@ -566,7 +566,7 @@ Weight: 0~
 @1131 = ~A highly unpredictable deity, Ghaunadaur often rewards his loyal followers with boons and gifts, including rings such as this. On the other hand, he just as often rewards those zealots with torture and death.
 
 Equipped abilities:
-‚Äì Immunity to poison and acid
+ñ Immunity to poison and acid
 
 Weight: 0~
 
@@ -576,7 +576,7 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Luck: +1
+ñ Luck: +1
 
 Weight: 0~
 
@@ -586,7 +586,7 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Can memorize one extra 3rd- and 4th-level wizard spell
+ñ Can memorize one extra 3rd- and 4th-level wizard spell
 
 Weight: 0~
 
@@ -596,7 +596,7 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protection from non-magic missile weapons
+ñ Protection from non-magic missile weapons
 
 Weight: 0~
 
@@ -615,7 +615,7 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Can memorize one extra 1st-, 2nd-, and 3rd-level bard spell
+ñ Can memorize one extra 1st-, 2nd-, and 3rd-level bard spell
 
 Weight: 0~
 
@@ -625,11 +625,11 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
+ñ Armor Class: +1
+ñ Saving Throws: +1
 
 Charge abilities:
-‚Äì Protection From Petrification once per day
+ñ Protection From Petrification once per day
   Range: 30 ft.
   Area of Effect: 1 creature
   Duration: 6 hours
@@ -642,8 +642,8 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Fire Resistance: +30%
+ñ Armor Class: +1
+ñ Fire Resistance: +30%
 
 Weight: 0~
 
@@ -653,7 +653,7 @@ Weight: 0~
 STATISTICS: 
 
 Equipped abilities:
-‚Äì Immunity to Charm and Dire Charm
+ñ Immunity to Charm and Dire Charm
 
 Weight: 0~
 
@@ -679,7 +679,7 @@ Clairis~
 You acted bravely and honorably. With your help we stopped Daerthmac from spreading terror any further. But I must now depart, for my mission is not yet ended. Other evils still threaten the Sword Coast and beyond, and I fear that we may not have heard the last of the vampire or his ilk. However, if I were to ever adventure with a group again, I would hope that they are as brave and honorable as you.
 
 Fare thee well,
-C√∫Choinneach agus Madadh n'Sgail~
+C˙Choinneach agus Madadh n'Sgail~
 @1155 = ~Letter to Thomic~
 @1156 = ~Thomic,
 
@@ -711,7 +711,7 @@ To destroy the Lich known as the Dark One, you must have possession of this Phyl
 STATISTICS:
 
 Charge abilities:
-‚Äì Battle Cry once per day
+ñ Battle Cry once per day
   Special: Fear for 15 rounds (Save vs. Spells at +2 bonus negates)
   Range: 100 ft.
   Area of Effect: 20-ft. radius
@@ -728,7 +728,7 @@ Weight: 1~
 STATISTICS:
 
 Charge abilities:
-‚Äì Dire Charm once per day (Save vs. Spell at -2 penalty negates)
+ñ Dire Charm once per day (Save vs. Spell at -2 penalty negates)
   Range: 30 ft.
   Duration: 1 turn
   Area of Effect: 1 creature
@@ -750,23 +750,23 @@ Weight: 25~
 @1242 = ~History of the Dark Side~
 @1243 = ~History of the Dark Side
 
-A long time ago a wise mage by the name Roach happened upon the young elf C√∫Choinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, C√∫Choinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, C√∫Choinneach paid them no mind and continued the search.
+A long time ago a wise mage by the name Roach happened upon the young elf C˙Choinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, C˙Choinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, C˙Choinneach paid them no mind and continued the search.
 
-During his journey, C√∫Choinneach met a range of unique individuals that, in thier own way, had contributed to Roach and C√∫Choinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
+During his journey, C˙Choinneach met a range of unique individuals that, in thier own way, had contributed to Roach and C˙Choinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
 
-One of these individuals went simply by the name of Banelord. He was able to show C√∫Choinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
+One of these individuals went simply by the name of Banelord. He was able to show C˙Choinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
 
 The list continues to grow as the journey continues...
 
 Credits:
 Original Concept by Roach
-Story Development by C√∫Choinneach and Roach
-Areas and Creatures Designed and Hexed by C√∫Choinneach
+Story Development by C˙Choinneach and Roach
+Areas and Creatures Designed and Hexed by C˙Choinneach
 Darkside Logo created WoRm
-Items created by a large number of hexers that is too numerous to list here... (Also, C√∫Choinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
+Items created by a large number of hexers that is too numerous to list here... (Also, C˙Choinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
 Sounds for Jet'Laya, Keiria Silverstring and Conchobhair Strongblade, edited by Grog
 NPC Jet'Laya was created by Grog
-All other NPC's were created by C√∫Choinneach
+All other NPC's were created by C˙Choinneach
 Voice and Bio for Ferthgil Trollslayer provided by Gothmog of the Stonehearth Clan.
 Original Iconsfor some of the items were created by WoRm Website and Publicity by Ken Baker.
 
@@ -778,7 +778,7 @@ Special thanks to Black Isle Studios, Bioware Corp., Interplay Productions, and 
 
 My last thank you goes to you! The adventurer that who is reading this and was able to find it stashed in a bookcase somewhere in the Dark Side of the Sword Coast. Now get out there and bust some heads ye "Greedy Goblins!"
 
-C√∫Choinneach~
+C˙Choinneach~
 
 @1244 = ~Holy Water~
 @1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.
@@ -793,7 +793,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Acid Resistance: +25%
+ñ Acid Resistance: +25%
 
 Weight: 1~
 
@@ -818,7 +818,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Fire Resistance: +25%
+ñ Fire Resistance: +25%
 
 Weight: 1~
 
@@ -828,9 +828,9 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì Save vs. Death: +1
-‚Äì Can memorize one extra 1st-level priest spell
+ñ Armor Class: +1
+ñ Save vs. Death: +1
+ñ Can memorize one extra 1st-level priest spell
 
 Weight: 1~
 
@@ -841,7 +841,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Can memorize one extra 3rd-level wizard spell
+ñ Can memorize one extra 3rd-level wizard spell
 
 Weight: 1~
 
@@ -851,7 +851,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Clairvoyance
+ñ Clairvoyance
 
 Weight: 1~
 
@@ -861,7 +861,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-‚Äì Slay wyverns upon touch (Save vs. Spell negates)
+ñ Slay wyverns upon touch (Save vs. Spell negates)
 
 THAC0: +3 vs. dragons
 Damage: 1d6 (missile), +3 vs. dragons
@@ -885,7 +885,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-‚Äì Dispel Magic on target when hit (Save vs. Spell at +2 bonus negates)
+ñ Dispel Magic on target when hit (Save vs. Spell at +2 bonus negates)
 
 Damage: 1d8 (missile)
 Launcher: Crossbow
@@ -919,8 +919,8 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Move Silently: +15%
-‚Äì Immunity to Web, Grease and Entangle
+ñ Move Silently: +15%
+ñ Immunity to Web, Grease and Entangle
 
 Weight: 4~
 
@@ -930,18 +930,18 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +3 vs. blunt attacks
+ñ Armor Class: +3 vs. blunt attacks
 
 Weight: 18~
 
-@1302 = ~C√∫Choinneach's Small Shield +1~
-@1304 = ~C√∫Choinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
+@1302 = ~C˙Choinneach's Small Shield +1~
+@1304 = ~C˙Choinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
 
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +2
-‚Äì No protection against missile attacks
+ñ Armor Class: +2
+ñ No protection against missile attacks
 
 Requires:
  4 Strength
@@ -954,9 +954,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
-‚Äì THAC0: +2 vs. undead
-‚Äì No protection against missile attacks
+ñ Armor Class: +1
+ñ THAC0: +2 vs. undead
+ñ No protection against missile attacks
 
 Requires:
  4 Strength
@@ -969,9 +969,9 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +3
-‚Äì Cold Resistance: +30%
-‚Äì Fire Resistance: -25%
+ñ Armor Class: +3
+ñ Cold Resistance: +30%
+ñ Fire Resistance: -25%
 
 Requires:
  4 Strength
@@ -984,9 +984,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +3
-‚Äì Magic Resistance: +5%
-‚Äì Hit Points: +10
+ñ Armor Class: +3
+ñ Magic Resistance: +5%
+ñ Hit Points: +10
 
 Requires:
  12 Strength
@@ -999,7 +999,7 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +3, +7 vs. missile attacks
+ñ Armor Class: +3, +7 vs. missile attacks
 
 Requires:
  13 Strength
@@ -1012,7 +1012,7 @@ Weight: 20~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Dexterity: +1
+ñ Dexterity: +1
 
 THAC0: +2
 Damage: 1d10+2 (slashing)
@@ -1030,7 +1030,7 @@ Weight: 8~
 STATISTICS:
 
 Combat abilities:
-‚Äì 33% chance of wielder go into Berserk upon successful hit
+ñ 33% chance of wielder go into Berserk upon successful hit
 
 THAC0: +3
 Damage: 1d10+3 (slashing)
@@ -1048,15 +1048,15 @@ Weight: 10~
 STATISTICS:
 
 Combat abilities:
-‚Äì 20% chance per hit that target is stunned (Save vs. Spell negates)
+ñ 20% chance per hit that target is stunned (Save vs. Spell negates)
 
 Charge abilities:
-‚Äì Charm Person or Mammal once per day
+ñ Charm Person or Mammal once per day
 
 THAC0: +1
 Damage: 1d8+1 (slashing)
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  8 Strength
@@ -1069,9 +1069,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Acid Resistance: 20%
-‚Äì Fire Resistance: 20%
-‚Äì Save vs. Breath: +1
+ñ Acid Resistance: 20%
+ñ Fire Resistance: 20%
+ñ Save vs. Breath: +1
 
 THAC0: +1, +3 vs. dragons
 Damage: 1d10+1 (slashing), +3 vs. dragons
@@ -1089,11 +1089,11 @@ Weight: 15~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Electricity Resistance: +30%
+ñ Electricity Resistance: +30%
 
 THAC0: +1
 Damage: 1d8+1 (slashing), +1d4 lightning damage
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Speed Factor: n/a
 Type: One-handed
 Requires:
@@ -1107,7 +1107,7 @@ Weight: 4~
 STATISTICS:
 
 Charge abilities:
-‚Äì Entangle once per day
+ñ Entangle once per day
 
 THAC0: +1
 Damage: 1d10+1 (slashing)
@@ -1127,7 +1127,7 @@ STATISTICS:
 
 Damage: 3d3 (slashing)
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1141,7 +1141,7 @@ STATISTICS:
 THAC0: +2
 Damage: 3d3+2 (slashing)
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1156,7 +1156,7 @@ STATISTICS:
 THAC0: +1
 Damage: 3d3+1 (slashing), +2d3 fire damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1171,7 +1171,7 @@ STATISTICS:
 THAC0: +2
 Damage: 3d2+2 (slashing), +2d3 slashing damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1186,7 +1186,7 @@ STATISTICS:
 THAC0: +1
 Damage: 3d3+1 (slashing), +2d3 electrical damage
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1199,8 +1199,8 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Dexterity: +1
-‚Äì Armor Class: +1
+ñ Dexterity: +1
+ñ Armor Class: +1
 
 THAC0: +5
 Damage: 1d8+1 (slashing)
@@ -1218,7 +1218,7 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Bless
+ñ Bless
 
 THAC0: +1
 Damage: 2d4 +1 (slashing)
@@ -1231,17 +1231,17 @@ Requires:
 Weight: 12~
 
 @1363 = ~Mairial +2, The Death Hunter~
-@1364 = ~This is the personal scimitar of C√∫Choinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told C√∫Choinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to C√∫Choinneach. Its complete powers are unknown.
+@1364 = ~This is the personal scimitar of C˙Choinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told C˙Choinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to C˙Choinneach. Its complete powers are unknown.
 
 STATISTICS:
 
 Equipped abilities:
-‚Äì Negative Plane Protection
+ñ Negative Plane Protection
 
 THAC0: +2
 Damage: 1d8+2 (slashing)
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjat≈ç
+Proficiency Type: Scimitar/Wakizashi/Ninjato
 Type: One-handed
 Requires:
  10 Strength
@@ -1254,7 +1254,7 @@ Weight: 3~
 STATISTICS:
 
 Combat abilities:
-‚Äì Each successful hit casts Panic on the target (Save vs. Spell at +2 bonus negates)
+ñ Each successful hit casts Panic on the target (Save vs. Spell at +2 bonus negates)
 
 THAC0: +2
 Damage: 2d6+2 (slashing)
@@ -1272,7 +1272,7 @@ Weight: 4~
 STATISTICS:
 
 Combat abilities:
-‚Äì Each successful hit restored 2 Hit Points
+ñ Each successful hit restored 2 Hit Points
 
 THAC0: +1
 Damage: 1d6+2 (crushing)
@@ -1290,8 +1290,8 @@ Weight: 7~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Hit Points: +4
-‚Äì Saving Throws: +1
+ñ Hit Points: +4
+ñ Saving Throws: +1
 
 THAC0: +2
 Damage: 2d4+2 (crushing)
@@ -1324,7 +1324,7 @@ Weight: 5~
 STATISTICS:
 
 Combat abilities:
-‚Äì Each successful hit has 50% chance to cause the wielder to go berserk (Save vs. Spell negates)
+ñ Each successful hit has 50% chance to cause the wielder to go berserk (Save vs. Spell negates)
 
 THAC0: +2
 Damage: 1d8+2 (slashing)
@@ -1370,7 +1370,7 @@ Weight: 20~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
+ñ Armor Class: +1
 
 THAC0: +2
 Damage: 1d8+2 (slashing), +1d6 damage (Save vs. Death for half)
@@ -1403,7 +1403,7 @@ Weight: 10~
 STATISTICS:
 
 Combat abilities:
-‚Äì Returns to the wielder's hand when thrown
+ñ Returns to the wielder's hand when thrown
 
 THAC0: +1
 Damage (melee): 1d8+1 (slashing), +1d3 fire damage
@@ -1422,10 +1422,10 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Immunity to 1st-level spells
+ñ Immunity to 1st-level spells
 
 Charge abilities:
-‚Äì Creates Potions of Extra Healing and Antidotes (5 charges)
+ñ Creates Potions of Extra Healing and Antidotes (5 charges)
 
 THAC0: +1
 Damage: 2d2+2 (crushing)
@@ -1443,7 +1443,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Armor Class: +1
+ñ Armor Class: +1
 
 THAC0: +3
 Damage: 2d4+3 (crushing)
@@ -1461,7 +1461,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Protection From Normal Weapons
+ñ Protection From Normal Weapons
 
 THAC0: +1
 Damage: 2d8+1 (piercing)
@@ -1479,7 +1479,7 @@ Weight: 3~
 STATISTICS:
 
 Charge abilities:
-‚Äì Lightning Bolt (10 charges)
+ñ Lightning Bolt (10 charges)
   Damage: 4d6 electrical (Save vs. Spell for half)
   Range: 60 ft.
   Area of Effect: 1 creature
@@ -1500,7 +1500,7 @@ Weight: 3~
 STATISTICS:
 
 Combat abilities: 
-‚Äì 20% chance each hit that target will be slowed for 18 seconds (Save vs. Spell at -4 penalty negates)
+ñ 20% chance each hit that target will be slowed for 18 seconds (Save vs. Spell at -4 penalty negates)
 
 THAC0: +1
 Damage: 1d6+1 (crushing)
@@ -1518,9 +1518,9 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Hit Points: +10
-‚Äì Lore: +20
-‚Äì Can memorize two extra 1st-level divine spells
+ñ Hit Points: +10
+ñ Lore: +20
+ñ Can memorize two extra 1st-level divine spells
 
 THAC0: +1
 Damage: 2d3+1 (crushing)
@@ -1538,7 +1538,7 @@ Weight: 2~
 STATISTICS:
 
 Combat abilities:
-‚Äì Unknown
+ñ Unknown
 
 THAC0: +1
 Damage: 1d6+2 (crushing)
@@ -1631,7 +1631,7 @@ Weight: 8~
 STATISTICS:
 
 Combat abilities:
-‚Äì Undead must save vs. Spell or be utterly destroyed
+ñ Undead must save vs. Spell or be utterly destroyed
 
 THAC0: +1
 Damage: 1d6+2 (crushing), +4 vs. undead
@@ -1649,8 +1649,8 @@ Weight: 8~
 STATISTICS:
 
 Combat abilities:
-‚Äì Returns to the wielder's hand when thrown
-‚Äì 5% chance of nicking yourself (6 poison damage)
+ñ Returns to the wielder's hand when thrown
+ñ 5% chance of nicking yourself (6 poison damage)
 
 THAC0: +2
 Damage: 1d4+2, +6 poison damage (Save vs. Spell for half)
@@ -1672,8 +1672,8 @@ This item, like most drow equipment, is created using adamantine, an alloy of ad
 STATISTICS:
 
 Combat abilities:
-‚Äì Target must save vs. Poison at -4 penalty or suffer 10 points of damage per second in 10 seconds
-‚Äì Target must save vs. Paralyze or become unconscious for 10 seconds
+ñ Target must save vs. Poison at -4 penalty or suffer 10 points of damage per second in 10 seconds
+ñ Target must save vs. Paralyze or become unconscious for 10 seconds
 
 THAC0: +3
 Damage: 1d4+3
@@ -1691,7 +1691,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-‚Äì Inflicts damage upon the wielder and heals the target
+ñ Inflicts damage upon the wielder and heals the target
 
 THAC0: +2
 Damage: 1d4+2
@@ -1709,7 +1709,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-‚Äì 1 extra attack per round
+ñ 1 extra attack per round
 
 THAC0: +1
 Damage: +1 (missile)
@@ -1742,7 +1742,7 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Strength: +1
+ñ Strength: +1
 
 THAC0: +2
 Damage: +1
@@ -1760,7 +1760,7 @@ Weight: 2~
 STATISTICS:
 
 Charge abilities: 
-‚Äì Create Arrows of Striking once per day
+ñ Create Arrows of Striking once per day
 
 THAC0: +2
 Damage: +3
@@ -1778,12 +1778,12 @@ Weight: 2~
 STATISTICS:
 
 Charge abilities:
-‚Äì 30% chance to poison target
+ñ 30% chance to poison target
   Damage: 30 posion damage in 15 seconds
   Range: 100 ft.
   Area of Effect: 1 creature
 
-‚Äì Stun target (Save vs. Wand at -4 penalty negates)
+ñ Stun target (Save vs. Wand at -4 penalty negates)
   Range: 100 ft.
   Area of Effect: 1 creature
   Duration: 2 rounds
@@ -1799,7 +1799,7 @@ Weight: 1~
 STATISTICS:
 
 Charge abilities:
-‚Äì Punishment
+ñ Punishment
   Damage: 2d4
   Area of Effect: 1 creature
   Special: Possibility of additional damage for the next 3 rounds.
@@ -1815,7 +1815,7 @@ Weight: 1~
 STATISTICS:
 
 Charge abilities:
-‚Äì Ball of Electrical Energy
+ñ Ball of Electrical Energy
   Damage: 6d6 electrical (Save vs. Wands for half)
   Range: 40 ft.
   Area of Effect: 40 ft.
@@ -1831,8 +1831,8 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-‚Äì Returns to the wielder's hand when thrown
-‚Äì +5 poison damage in 5 rounds (Save vs. Poison negates)
+ñ Returns to the wielder's hand when thrown
+ñ +5 poison damage in 5 rounds (Save vs. Poison negates)
 
 THAC0: +1
 Damage: 1d8+1
@@ -1865,9 +1865,9 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-‚Äì Character's outline becomes blurred
-‚Äì Armor Class: +1
-‚Äì Saving Throws: +1
+ñ Character's outline becomes blurred
+ñ Armor Class: +1
+ñ Saving Throws: +1
 
 THAC0: +2
 Damage: 1d6+2 (crushing)
