@@ -5,8 +5,7 @@ Note: For downloading the current version from GitHub, make sure you go to the r
 
 Original creator of DSotSC: CuChoinneach and his team
 BGT version by SirBillyBob, updated by erebusant (up to version 215) and Turambar (to v217)
-(BG:EE version by Solaufein and Red Carnelian at TeamBG.com: 
-http://www.baldursgatemods.com/forums/index.php?board=146.0 )
+(BG:EE version by Solaufein and Red Carnelian at [TeamBG.com](http://www.baldursgatemods.com/forums/index.php?board=146.0)
 EET version and tp2 code revamp by K4thos
 ITM/SPL/CRE balancing revision by Vlar
 NPC suggestions for NPC balancing by WithinAmnesia
