@@ -1,0 +1,318 @@
+Version 3.1 (by jastey):
+-revised Italian version by ilot
+-Holy Water works against undead
+-Holy Water can also be bought in Temple of Helm in NBG
+-removed patching of holy water into temple of Northern Citadel (NTotSC): NTotSC should be installed after DSotSC
+-Bub Snikt + Concho* do no longer crash game (actually it was Conch*'s armor): colors fixed
+-main component is checked by REQUIRE_COMPONENT instead of "MOD_IS_INSTALLED" as this does not deinstall the components automatically)
+-(BGT) large portraits assigned correctly (medium size)
+-all text tras in ANSI.
+-corrected DSotSC area naming in unisono with the BP-BGT-Worldmap mod: DSC001 is "Wood of Sharp Teeth", DSC002 is "East Wood of Sharp Teeth", DSC004 is "Forest of Forgotten Souls", DSC010 is "Castle Daerthmac".
+-Megan should open the door to Nashkel Manor House (is "DOOR4804" in BGT, too).
+-spawning of higher level Bub Snikt no longer dependent on whether PC talked to Jeremy.
+-changed "sir" to <PRO_SIRMAAM> in dsjeremy.tra.
+-Skeezer Lumkin VI's personal helm has inventory icon of Balduran's Helm (as in v2)
+-removed worldmap.tra from the charsetsNoConvertArray
+-added dsotsc.ini with mod metadata for compatibility with ALIEN's Project Infinity
+-revised item BAMs by Sam.:
+--   Deleted extraneous sequences
+--   Added missing but necessary sequences
+--   Added missing shadows to item icons
+--   Added EE compatibility
+--   Ensured proper offsets of all frames
+--   Hyper-compressed all BAMs (which includes a wide variety of other corrections and fixes)
+-removed biffing
+
+Version 3.0 (by k4thos):
+-EET version and tp2 code revamp 
+-ITM/SPL/CRE balancing revision by Vlar
+-NPC suggestions for NPC balancing by WithinAmnesia
+-vanilla items and XP balancing by Manduran
+-Bub Snikt is no longer joinable NPC
+
+Version 2.17  
+-Some bugfixes: http://www.shsforums.net/topic/54625-dsotsc-v216-bug-thread/
+
+Version 2.16 (by Turambar)
+1- Added compatibility for Linux (and OSx - still in beta) by reducing access to batch scripts and using different character encodings
+   depending on the OS
+2- Biffing process now uses MAKE_BIFF
+3- Biffing of new resources (a part from .wed, .tis, .bmp, .mos and .wav) is now an optional component (improves mega-mod installations)
+4- Some bugfixes:
+  - Xvarts from improved village were inactive unless BP was installed
+  - dsclub01 had wrong animation sequence probabilities (all values set to 0)
+  - dsfordra.baf: removed some *Spell actions which had no valid spell: http://www.shsforums.net/topic/52117-big-world-project-bwp-v102-released/page__view__findpost__p__525072
+  - a bug in wb_ext_sounds caused Extended NPC soundsets to fail unless Interparty banters was installed
+  - all bugs from http://www.shsforums.net/topic/38354-dsotsc-v215-bug-reports/
+5- Strings from optional components traified
+6- Tooltip.2da patching code updated
+7- FJ_CRE_VALIDITY &co now use the default WeiDU FUNCTION
+8- Enhanced armors, shields, helmets,... on some enemies now replace existing armors: it was illogical to have one person having two armors in their inventary!
+
+Version 2.15
+Several bugfixes and updated installer to WeiDU v209.
+
+Version 2.10
+re-translation included. Updated installer to WeiDU v208.
+
+Version 2.05a
+Features updated Castilian and Italian translations.
+
+Version 2.05
+Enabled Thorfinn, an NPC from the original mod.  Added English soundclips
+for Bardo, Bub and Thorfinn.  Added optional components for interparty
+banter and alternate portraits. Fixes the stupid error disabling travel to the 
+Wood of Sharp Teeth that v2.00 introduced.
+
+Version 2.00
+Included Castilian language, fixed bug that didn't load .oggs for Italian language & updated Weidu support. updated Worldmap travel links.
+
+Version 1.95
+Included Italian language.
+
+Version 1.90
+Included Russian language, added German language corrections, updated Weidu support.
+
+
+Version 1.85
+Includes major fixes from King Diamond.  This version compresses the WAV files to OGG
+      which makes the whole download smaller.  KD also included compatibility with his Baldurdash
+      fixes.  Weigo included German sounds to some of the NPCs.  They even have their dialogs
+      displayed on screen - cool!
+1) CUCHOINP.D created (+ all .tra's). Based on the first 2 states from old CUCHOINJ.D
+2) All BCS's decompiled to BAFs to save some space. TP2 modified.
+3) Missing KOBOLD02, KOBOLD11 added.
+4) Non-existing xvarts (XVART_D, XVARTPRE) replaced by existing ones in AR3498.BAF
+5) Auto-biffer implemented.
+6) Several BUT_ONLY_IF_IT_CHANGES checks added.
+7) All NPCs' party dialogues fixed
+8) Invalid Non-pausing flags removed from all dialogue headers.
+
+9) For all creatures: no-existing script references removed (set to NONE).
+
+10) Items changes (everything is according to their descriptions or common sense)
+
+AROW50 - were +15 THAC0(!) and +3 damage (should be 0 and 2)
+         'max in stack' changed from 9999 to 40
+
+DSAMUL03 - usability fixed
+DSAMUL04 - poisoning effect made While Equipped instead confusing temporary duration
+DSAMUL06 - usability fixed
+DSAMUL08 - usability fixed
+DSAMUL12 - equipping effects must be non-dispellable
+
+DSARROW1 - 'Arrow' flag set
+           'max in stack' changed from 9999 to 40
+           was +15 THAC0(!) (set to 0)
+           removed useless +3 THAC0 for Wyverns (it's already slays them for 100%)
+
+DSARROW2 - 'max in stack' changed from 9999 to 40
+           all effects set to Not dispell/Not Bypass resistance
+           useless 2nd effect for portrait icon removed
+
+DSAXE01 - usability fixed (restriction for Beastmaster instead of Wildmage)
+          THAC0 and Damage bonus changed to +2 instead of +4
+DSAXE02 - usability fixed (restriction for Beastmaster instead of Wildmage)
+          THAC0 and Damage bonus changed to +2 instead of +3
+          2D4 instead of 2D5
+DSAXE03 - proficiency fixed (Axe instead Halberd)
+          THAC0 and Damage bonus changed to +2 instead of +4
+          Weight=20 (was 5)
+          requires 15 STR (was 10)
+          Speed factor=10 instead of 1
+DSAXE04 - usability fixed (restriction for Beastmaster instead of Wildmage)
+DSAXE05 - usability fixed (restriction for Beastmaster instead of Wildmage)
+DSAXE06 - usability fixed
+          proficiency fixed (Axe)
+          attack bonus fixed (was "Set to 2", needed - "+1")
+
+DSBAG01 - cleared 'unsellable' flag
+
+DSBARDR  - usability fixed (Bards only - no retrictions should be applied for Races)
+DSBELT01 - usability fixed (Bards only - no retrictions should be applied for Races)
+
+DSBOLT01 - 'max in stack' changed from 9999 to 40
+           THAC0 bonus set to +1 instead of +2
+
+DSBOOK01 - incorrect diplayed string effect fixed
+
+DSBOOT01 - usability fixed (single calss only)
+DSBOOT02 - usability fixed
+           extra +1 AC for all weapon effect removed
+DSBOW01  - usability fixed (+ kensai & cavalier)
+DSBOW02  - usability fixed (no retrictions should be applied for Races)
+           Speed(5) and THAC0 bonus(2) were messed up
+DSBRAC01 - bonus to save vs. polymorph fixed to +1 (as all other)
+DSBRAC02 - all non-described effects removed
+
+DSBULL01 - 'max in stack' changed from 9999 to 40
+           THAC0 bonus reset from 32000 to 0
+DSBULL02 - 'max in stack' changed from 9999 to 40
+
+DSCDRUID - usability fixed (no retrictions should be applied for Races)
+           magical Charm Animal effect fixed (charges, recharging mechanism)
+DSCHAN01 - usability fixed
+DSCHAN03 - usability fixed
+
+DSCLCK03 - non-described effects removed (THAC0 and save vs polymorph bonuses)
+DSCLCK04 - all equipping effects must be Non-dispellable
+           non-described Vocalize effect removed
+
+DSCLUB01 - usability fixed (Bards only - no retrictions should be applied for Races)
+           were +4 THAC0(!) and +5 damage (should be 1 and 1)
+           melee damage type fixed (crushing, was piercing)
+DSCOHELM - non-described effects removed (bonus to AC, magic resistance and save vs poly)
+DSCOSWD  - Bonus to AC fixed (was set as Base AC=1 instead of +1 Bonus)
+           bonuses vs Dragons fixed (+3 to all)
+           2% dragon slaying effect added to Melee ability
+
+DSCROWN1 - Acid resistance bonus fixed
+DSCRYARM - usability fixed
+DSCRYHLM - usability fixed
+           missing Display portrait icon for Cold added
+DSCUSHLD - non-described Undead THAC0 + effect removed
+
+DSCUCW01 - all craziness fixed
+DSCUSWD  - THAC0 bonus fixed (+4 instead of +5)
+
+DSDAGG02 - usability fixed
+           extra +4AC bonus effect removed
+           1d8 fixed to 1d4
+DSDAGG03 - usability fixed
+           some price set
+           THAC0 bonus fixed (3 instead of 2)
+DSEBHELM - usability fixed
+
+DSFEARM  - usability fixed
+           price lowered to 15000 (50000 was too high)
+           non-described +2 CON bonus removed
+DSFEAXE  - usability fixed
+DSFEHELM - usability fixed
+           price lowered 8000 (35000 was too high)
+DSFLAIL1 - usability fixed
+           Speed fixed
+DSGBBOW  - usability fixed
+DSHAMM01 - usability fixed
+DSHELM01 - usability fixed
+           non-described +10 AC vs Crushing attack removed
+DSHORN01 - usability fixed (Bards only - no retrictions should be applied for Races)
+DSJEARM - non-described Immunity to Disease effect removed
+DSKATAN1,2 - usability fixed
+DSKEARM  - usability fixed
+           non-described Remove Fear effect removed
+DSKEXBOW - usability fixed
+           attack bonus fixed (was "Set to 2", needed - "+1")
+DSLUTE01 - usability fixed (Bards only - no retrictions should be applied for Races)
+DSMACE04 - bonus undead damage effect fixed
+DSMETEOR - damage amount fixed
+DSNEMSTF - damage type fixed (slashing)
+DSPOTN01 - 'max in stack' changed from 9999 to 10
+DSRNG04  - Acid resistance bonus fixed
+DSRNG05  - usability fixed
+           effects' craziness fixed - just +1 to Luck
+DSRNG103 - magic ability fixed
+           usability fixed
+DSRNGFSH - usability fixed
+           magic ability fixed
+DSRNGJET - marked as Undroppable
+
+DSSHLD01 - usability fixed
+           UNUSED ITEM
+
+DSSKHELM - usability fixed
+DSSKROBE - usability fixed
+DSSKSTAF - non-described +1 Bonus to AC effect removed
+           damage amount fixed: 1d6+3 instead of 2d4+3
+DSSTAF01 - magic effect fixed
+
+DSSTAF05 - undroppable creature weapon
+DSSTAF07 - THAC0 and Damage bonuses fixed
+DSSWD02  - magic effect fixed
+DSSWD07  - Attack per Round effect fixed
+DSSWD08  - proficiency fixed
+           Speed, Damage and THAC0 bonuses fixed
+
+DSSWD10 - UNUSED ITEM
+          DSDANCER.CRE as well unused
+          
+DSTDRUID - usability fixed (Bards only - no retrictions should be applied for Races)
+           Acid Resistance bonus fixed
+DSTEARS  - usability fixed (Bards only - no retrictions should be applied for Races)
+           magic effect fixed
+DSTHRARM - usability fixed (Bards only - no retrictions should be applied for Races)
+           non-declared effects removed
+DSWRKARM - usability fixed (Bards only - no retrictions should be applied for Races)
+           non-declared effects removed
+DSWRLSTF - usability fixed (Bards only - no retrictions should be applied for Races)
+
+
+11) BGT v1.00 songlist.
+12) More TOOLTIP entries added.
+13) Casting effect for all scrolls fixed: there were different Trgets but always TargetSelf effect's flag.
+
+
+1.81  Includes fixes from the NTotSC 1.41 patch.  Also added Russian and Polish language
+      translations to the package.
+1.80  Fixed spawn problem in DSC001 and DSC002.  Fix music for several DSC areas.
+      Changed area updates to use WeiDU instead of copies.  Should be more compatible with
+      other mods now.
+1.72  Fixed dagger problems, tested with BG1NPC for compatibility.  Added Weigo's
+      German translations (Danke schon!).
+1.71  Fixed several areas that 1.7 was overwriting.
+1.7   Rebuilt mod to work with BGT-WeiDU.  Changed NPC's kits to match generic kits
+      of BG2.  This version does not work with BGT-BP.
+1.6   Removed the worldmap, use Yacomo's map.  Downgraded some items to closely match
+      CoM's version of the mod.  Rebuilt TP2 file to modify some CRE files without
+      having to host them in the mod package (should make for better compatability
+      with other mods).
+1.5   Removed redundant TIS files, corrected some BAM files.
+      New biff utility included.
+1.3   Included CtB compatibility.  Added compatibility with new NTotSC mod.
+      Fixed all items, add WraithForm spell.
+1.2   Made compatible with CtB by changing a spell and item.  Doesn't install
+      Worldmap if CtB is already installed.
+1.1   Fixed some area scripts.
+1.0   First attempt at full package.  Lets see what bugs are still in the mod!
+0.3   Minor fix for DSC016 cutscene.
+0.2   Small fixes including area scripts and updated items.  Spells added.
+0.1   First version, bugs and all.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

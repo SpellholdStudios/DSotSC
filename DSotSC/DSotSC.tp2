@@ -1,23 +1,19 @@
 /*
-Changes:
-pre 1:
--revised Italian version by ilot
--Holy Water works against undead
--Holy Water can also be bought in Temple of Helm in NBG
--removed patching of holy water into temple of Northern Citadel (NTotSC): NTotSC should be installed after DSotSC
--Bub Snikt + Concho* do no longer crash game (actually it was Conch*'s armor): colors fixed
--main component is checked by REQUIRE_COMPONENT instead of "MOD_IS_INSTALLED" as this does not deinstall the components automatically)
--(BGT) large portraits assigned correctly (medium size)
----
-pre 2:
--all text tras in ANSI.
--corrected DSotSC area naming in unisono with the BP-BGT-Worldmap mod: DSC001 is "Wood of Sharp Teeth", DSC002 is "East Wood of Sharp Teeth", DSC004 is "Forest of Forgotten Souls", DSC010 is "Castle Daerthmac".
--Megan should open the door to Nashkel Manor House (is "DOOR4804" in BGT, too).
--spawning of higher level Bub Snikt no longer dependent on whether PC talked to Jeremy.
--changed "sir" to <PRO_SIRMAAM> in dsjeremy.tra.
--Skeezer Lumkin VI's personal helm has inventory icon of Balduran's Helm (as in v2)
--removed worldmap.tra from the charsetsNoConvertArray
+Known issues:
 
+1. Duplicated icons:
+DSKEARM.BAM = DSTHRARM.BAM
+DSROBE02.BAM = DSROBE06.BAM
+DSCUSHLD.BAM = DSJESHLD.BAM
+
+2. Items not assigned:
+DSSWD04.ITM
+DSSWD06.ITM
+DSDAGG01.ITM
+
+3. NPC Skeezer Lumkin VI's personal helm does not show as a helm on the paperdoll and on the sprites 
+
+4. translations needs to be revised with respect to the changed item stats + EE syntax
 
 */
 
@@ -33,8 +29,8 @@ pre 2:
 BACKUP ~DSotSC/backup~
 //AUTHOR ~~
 SUPPORT ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~v3.1 pre 2~ //
-README ~DSotSC/docs/[%LANGUAGE%]ReadMe-DSotSC.html~ ~DSotSC/docs/[english]ReadMe-DSotSC.html~
+VERSION ~v3.1~ //
+README ~DSotSC/docs/readme.%LANGUAGE%.dsotsc.txt~ ~DSotSC/docs/readme.english.dsotsc.txt~
 AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
 
@@ -2048,18 +2044,18 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 END
 
 /////                                                  \\\\\
-///// Decompressing and buffing                        \\\\\
+///// Decompressing and no biffing                        \\\\\
 /////                                                  \\\\\
 
-MKDIR ~DSotSC/biff~
+MKDIR //~DSotSC/biff~
 	~DSotSC/language/%LANGUAGE%/ogg~
 
 ACTION_IF GAME_IS ~eet~ BEGIN
 	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/bg5500sr.bmp~
-		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/bg2400sr.bmp~
+	~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/bg2400sr.bmp~
 END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN //not used
 	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/ar5500sr.bmp~
-		~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/ar2400sr.bmp~
+	~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/ar2400sr.bmp~
 END
 
 ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
@@ -2071,7 +2067,7 @@ LAF HANDLE_AUDIO
     audio_path = ~DSotSC/base/ogg~
     oggdec_path = ~DSotSC/bin/win32~
     sox_path = ~DSotSC/bin/osx~
-	output_path = ~DSotSC/biff~
+	output_path =  ~override~ //~DSotSC/biff~
 END
 
 ACTION_BASH_FOR ~DSotSC/language/english/ogg~ ~^.+\.ogg$~ BEGIN
@@ -2085,8 +2081,11 @@ LAF HANDLE_AUDIO
 	audio_path = EVAL ~DSotSC/language/%LANGUAGE%/ogg~
 	oggdec_path = ~DSotSC/bin/win32~
 	sox_path = ~DSotSC/bin/osx~
-	output_path = ~DSotSC/biff~
+	output_path = ~override~ //~DSotSC/biff~
 END
+
+/* Deactivated biffing because it caused problems with modding iOS devices
+also for BGT: for Megamod installs, player can use General Biffing if wanted.
 
 PRINT ~Biffing files....~
 
@@ -2098,6 +2097,14 @@ MAKE_BIFF ~DSotSC~ BEGIN
 	~DSotSC/base/portraits/%engine%~ ~^.*$~
 	~DSotSC/base/portraits/l~ ~^.*$~
 END
+*/
+
+
+COPY	~DSotSC/base/bam~ ~override~
+COPY	~DSotSC/base/bmp~ ~override~
+COPY	~DSotSC/base/mos/%engine%~ ~override~
+COPY	~DSotSC/base/portraits/%engine%~ ~override~
+COPY	~DSotSC/base/portraits/l~ ~override~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
