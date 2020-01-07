@@ -14,7 +14,8 @@ vanilla items and XP balancing by Manduran
 
 ## Introduction
 
-This is a WeiDU-based version of the original TeamBG mod.  This is only compatible with BGT-WeiDU (with or without BP-WeiDU, NeJ, SoBH or BG1NPC) and EET. If you're interested in a TUTU or BG:EE version of this mod, have a look at [TeamBG.com](http://www.baldursgatemods.com/forums/index.php?board=146.0)
+This is a WeiDU-based version of the original TeamBG mod.  This is only compatible with BGT-WeiDU (with or without BP-WeiDU, NeJ, SoBH or BG1NPC) and EET. If you're interested in a TUTU or BG:EE version of this mod, have a look at 
+[TeamBG.com](http://www.baldursgatemods.com/forums/index.php?board=146.0)
 It can be installed anytime after you completely install the BGT-WeiDU or EET game. See FAQ below for installation order suggestions. It is recommended that you choose NOT to BIFF the game resources while installing BGT but at the end of all installed mods using Generalized Biffing.
 
 Post in the Mod's Forum at Spellhold Studios forum if you have issues/problems. Neither Sir BillyBob, erebusant, Turambar, nor k4thos maintain this mod any longer.
