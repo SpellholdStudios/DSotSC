@@ -1,6 +1,6 @@
                         Dark Side of the Sword Coast
       a WeiDU mod For Baldur's Gate Trilogy and Enhanced Edition Trilogy
-                                VERSION 3.1
+                                VERSION 3.2
 
 Original creator of DSotSC: CuChoinneach and his team
 BGT version by SirBillyBob, updated by erebusant (up to version 215) and Turambar (to v217)

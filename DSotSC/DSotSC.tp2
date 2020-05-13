@@ -15,6 +15,8 @@ DSDAGG01.ITM
 
 4. translations needs to be revised with respect to the changed item stats + EE syntax
 
+5. Boots of the Forest (DSBOOT01) do not really protect against web and entangle although the description states so.
+
 */
 
 // Dark Side of the Sword Coast for BGT/EET
@@ -29,7 +31,7 @@ DSDAGG01.ITM
 BACKUP ~DSotSC/backup~
 //AUTHOR ~~
 SUPPORT ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~v3.1~ //
+VERSION ~v3.2~ //
 README ~DSotSC/docs/readme.%LANGUAGE%.dsotsc.txt~ ~DSotSC/docs/readme.english.dsotsc.txt~
 AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -78,10 +80,7 @@ ALWAYS
 
 	INCLUDE ~DSotSC/lib/macros.tpa~
 
-	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-		COPY - ~weidu.conf~ ~.../weidu.conf~
-			READ_2DA_ENTRY 0 2 3 "lang_dir"
-		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
+	ACTION_IF ENGINE_IS ~bgee bg2ee eet~ BEGIN
 			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
 				"german" => "CP1252"
 				"english" => "CP1252"
@@ -92,7 +91,7 @@ ALWAYS
 				"castilian" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
+//			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
@@ -103,7 +102,7 @@ ALWAYS
 				reload_array = charsetsReloadArray
 				noconvert_array = charsetsNoConvertArray
 			END
-		END
+		LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup.tra~
 		LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-ee.tra~
 	END
 END
@@ -1288,12 +1287,14 @@ COPY ~DSotSC/base/cre/dsbardo.cre~ ~override~
 	SAY NAME1 @2002
 	SAY NAME2 @2002
 	SAY BIO @20358
-	WRITE_ASCII 0x3c  ~BARDO%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~BARDO%LARGE%~ #8   // assign "large" portrait
 
 
 COPY ~DSotSC/base/cre/dsblane.cre~ ~override~
 	SAY NAME1 @2003
 	SAY NAME2 @2003
+
+COPY ~DSotSC/base/cre/dsbonego.cre~ ~override~
 
 COPY ~DSotSC/base/cre/dsbub.cre~ ~override~
 	~DSotSC/base/cre/dsbub2.cre~ ~override~
@@ -1302,7 +1303,7 @@ COPY ~DSotSC/base/cre/dsbub.cre~ ~override~
 	SAY NAME1 @2004
 	SAY NAME2 @2004
 	SAY BIO @20645
-	WRITE_ASCII 0x3c  ~DSBUB%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~DSBUB%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dsclars.cre~ ~override~
 	SAY NAME1 @2005
@@ -1320,7 +1321,7 @@ COPY ~DSotSC/base/cre/dsconch.cre~ ~override~
 	SAY NAME1 @2008
 	SAY NAME2 @2008
 	SAY BIO @2046
-	WRITE_ASCII 0x3c  ~CONCHO%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~CONCHO%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dscooshe.cre~ ~override~
 	SAY NAME1 @2047
@@ -1333,7 +1334,7 @@ COPY ~DSotSC/base/cre/dscucho.cre~ ~override~
 	SAY NAME1 @2048
 	SAY NAME2 @2048
 	SAY BIO @2077
-	WRITE_ASCII 0x3c  ~CUCHOIN%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~CUCHOIN%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dsdeazle.cre~ ~override~
 	SAY NAME1 @2079
@@ -1390,7 +1391,7 @@ COPY ~DSotSC/base/cre/dsferth.cre~ ~override~
 	SAY NAME1 @2091
 	SAY NAME2 @2091
 	SAY BIO @2133
-	WRITE_ASCII 0x3c  ~FERTHG%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~FERTHG%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dsfeydo.cre~ ~override~
 	SAY NAME1 @2134
@@ -1485,7 +1486,7 @@ COPY ~DSotSC/base/cre/dsjetla.cre~ ~override~
 	SAY NAME1 @2163
 	SAY NAME2 @2163
 	SAY BIO @2202
-	WRITE_ASCII 0x3c  ~JETLAYA%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~JETLAYA%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dsjules.cre~ ~override~
 	SAY NAME1 @2203
@@ -1506,7 +1507,7 @@ COPY ~DSotSC/base/cre/dskeiri.cre~ ~override~
 	SAY NAME1 @2206
 	SAY NAME2 @2206
 	SAY BIO @2245
-	WRITE_ASCII 0x3c  ~KEIRIA%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~KEIRIA%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dskenb.cre~ ~override~
 	SAY NAME1 @2246
@@ -1604,7 +1605,7 @@ COPY ~DSotSC/base/cre/dsskeez.cre~ ~override~
 	SAY NAME1 @2261
 	SAY NAME2 @2261
 	SAY BIO @2286
-	WRITE_ASCII 0x3c  ~SKEEZR%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~SKEEZR%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dsspec.cre~ ~override~
 	SAY NAME1 @2287
@@ -1621,7 +1622,7 @@ COPY ~DSotSC/base/cre/dsthorf.cre~ ~override~
 	SAY NAME1 @2249
 	SAY NAME2 @2249
 	SAY BIO @21050
-	WRITE_ASCII 0x3c  ~THORF%LARGE%~ #8   // assign "large" portrait
+	WRITE_EVALUATED_ASCII 0x3c  ~THORF%LARGE%~ #8   // assign "large" portrait
 
 COPY ~DSotSC/base/cre/dstorqui.cre~ ~override~
 	SAY NAME1 @2289
@@ -1995,7 +1996,6 @@ EXTEND_TOP ~%NorthNashkelRoad_BCS%.bcs~ ~DSotSC/modify/bcs/ar8700.baf~ EVALUATE_
 COMPILE ~DSotSC/base/d~ EVALUATE_BUFFER
 
 //Modify existing dialogues
-COMPILE ~DSotSC/modify/dlg/blane.d~ EVALUATE_BUFFER
 COMPILE ~DSotSC/modify/dlg/elmin3.d~ EVALUATE_BUFFER
 
 /////                                                  \\\\\
@@ -2057,9 +2057,13 @@ END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN //not used
 	MOVE ~DSotSC/base/bmp/ar4600sr.bmp~ ~DSotSC/base/bmp/ar5500sr.bmp~
 	~DSotSC/base/bmp/ar8900sr.bmp~ ~DSotSC/base/bmp/ar2400sr.bmp~
 END
-
+/*
 ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
 	AT_NOW ~%tileconv% -e -o "DSotSC%os_slash%biff%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
+END
+*/
+ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
+	AT_NOW ~%tileconv% -e -o "override%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
 END
 
 LAF HANDLE_AUDIO

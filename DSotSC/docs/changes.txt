@@ -1,3 +1,11 @@
+Version 3.2 (by jastey):
+-medium sized portraits for NPCs fixed
+-no more crashing areas (extraction of tis-files to override works now)
+-deleted remnant characters of original game in areas (prisoners, female cook)
+-bone golems use custom cre now (compatibility with VC's component "Improved Shadows and Shadow Dragon (by Vlad)")
+-(EET) correct text character transformation for English version, as well (CúChoinneach's name and items should not crash the game)
+-custom Priest Blane should use custom dialogue dsblane.dlg instead of switching to blane.dlg (by Roxanne) 
+
 Version 3.1 (by jastey):
 -revised Italian version by ilot
 -Holy Water works against undead
