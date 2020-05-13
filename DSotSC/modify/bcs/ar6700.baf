@@ -7,8 +7,7 @@ THEN
 	RESPONSE #100
 		CreateCreature("DSBLANE",[4601.3033],6)
 		SetGlobal("BlaneSpawn","%Beregost%",1)
-		ActionOverride("DSBLANE",SetDialog("BLANE")) //why?
-END
+		END
 
 IF
 	Global("FindRelic","GLOBAL",1)
