@@ -1,3 +1,8 @@
+Version 4.0 (by jastey)
+-Russian translation revised and completed by Arkie & p_zombie
+-spell "Selune's Blessing" has correct name
+-added PVRZ for EET
+
 Version 3.2 (by jastey):
 -medium sized portraits for NPCs fixed
 -no more crashing areas (extraction of tis-files to override works now)

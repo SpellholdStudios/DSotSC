@@ -31,7 +31,7 @@ DSDAGG01.ITM
 BACKUP ~DSotSC/backup~
 //AUTHOR ~~
 SUPPORT ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~v3.2~ //
+VERSION ~v4.0~ //
 README ~DSotSC/docs/readme.%LANGUAGE%.dsotsc.txt~ ~DSotSC/docs/readme.english.dsotsc.txt~
 AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -128,6 +128,15 @@ LANGUAGE
 	~DSotSC/language/italian/setup.tra~
 	~DSotSC/language/italian/soundsets.tra~
 	~DSotSC/language/italian/journal.tra~
+
+LANGUAGE
+	~Russian (translation of v2 by aVoddle, Alex, Badgert & aerie.ru & prowler, completion of v4.0 by Arkie & p_zombie)~
+	~russian~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/russian/setup.tra~
+	~DSotSC/language/english/soundsets.tra~
+	~DSotSC/language/russian/journal.tra~
+
 /*
 LANGUAGE
 	~German (translation Leonard Watson & Jastey)~
@@ -144,13 +153,7 @@ LANGUAGE
 	~DSotSC/language/polish/setup.tra~
 	~DSotSC/language/polish/soundsets.tra~
 	~DSotSC/language/polish/journal.tra~
-LANGUAGE
-	~Russian (translation aVoddle, Alex, Badgert & aerie.ru & prowler)~
-	~russian~
-	~DSotSC/language/english/prompts.tra~
-	~DSotSC/language/russian/setup.tra~
-	~DSotSC/language/english/soundsets.tra~
-	~DSotSC/language/russian/journal.tra~
+
 */
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -2062,8 +2065,13 @@ ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
 	AT_NOW ~%tileconv% -e -o "DSotSC%os_slash%biff%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
 END
 */
-ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
-	AT_NOW ~%tileconv% -e -o "override%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~ EXACT
+ACTION_IF GAME_IS ~bgt~ BEGIN
+  ACTION_BASH_FOR ~DSotSC/base/tis~ ~^.+\.tbc$~ BEGIN
+	AT_NOW ~%tileconv% -e -o "override%os_slash%%BASH_FOR_RES%.tis" "DSotSC%os_slash%base%os_slash%tis%os_slash%%BASH_FOR_FILE%" %bash_debug%~   EXACT
+  END
+END
+ACTION_IF GAME_IS ~eet~ BEGIN
+  COPY ~DSotSC/base/pvrz~ ~override~
 END
 
 LAF HANDLE_AUDIO
@@ -2407,7 +2415,7 @@ ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~ //Druid
 	SAY UNIDENTIFIED_DESC @27
 
 ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~ //Cleric
-	WRITE_LONG 0x8 "34735"
+	WRITE_LONG 0x8 ~22633~
 	SAY UNIDENTIFIED_DESC @28
 
 ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~ //Cleric
@@ -2684,8 +2692,8 @@ COPY_EXISTING ~izefia.cre~ ~override~
 	ADD_CRE_ITEM ~DSSPERF~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 COPY_EXISTING ~kahrk.cre~ ~override~
-	WRITE_ASCII 0x34 ~None~ #8 //Portrait
-	WRITE_ASCII 0x3c ~None~ #8 //Portrait
+//	WRITE_ASCII 0x34 ~None~ #8 //Portrait
+//	WRITE_ASCII 0x3c ~None~ #8 //Portrait
 	ADD_CRE_ITEM ~SCRL8Q~ #0 #0 #0 ~UNSTEALABLE~ ~INV5~
 
 COPY_EXISTING ~kestor.cre~ ~override~
