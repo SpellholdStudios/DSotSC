@@ -4,7 +4,7 @@
 
 @1000 = ~Crown~
 @1001 = ~Crown of the Archdruid~
-@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages
+@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages.
 
 STATISTICS:
 
@@ -30,7 +30,7 @@ Charge abilities:
 Weight: 2~
 
 @1004 = ~Crown of the Alarphon~
-@1005 = ~Within the ranks of the famed War Wizards of Corymr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
+@1005 = ~Within the ranks of the famed War Wizards of Cormyr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
 
 STATISTICS:
 
@@ -79,7 +79,7 @@ Equipped abilities:
 Weight: 2~
 
 @1015 = ~Ferthgil's Helmet~
-@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stoneheath Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
+@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stonehearth Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
 
 STATISTICS:
 
@@ -1179,7 +1179,7 @@ Requires:
 Weight: 3~
 
 @1349 = ~Cutlass +1, Sparks~
-@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
+@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword...
 
 STATISTICS:
 

@@ -1,0 +1,1877 @@
+
+@4 = ~Zadawanie lekkich ran (Nekromancja)
+Poziom: 1
+Sfera: Leczenie
+Zasiêg: dotyk
+Czas dzia³ania: sta³y
+Czas rzucania: 5
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: neguje
+
+Jest to odwrotnoœæ czaru Leczenie lekkich ran. Dotkniête stworzenie traci 1-8 punktów ¿ycia, chyba ¿e wykona udany rzut przeciw magii. Wyrz¹dzone rany mog¹ byæ normalnie leczone.~
+
+@6 = ~P³omieñ (Wywo³ywanie)
+Poziom: 1
+Sfera: ¯ywio³y (Ogieñ)
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 4
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+Rzucaj¹cy przyzywa ogieñ i tworzy z niego niewielki pocisk zmierzaj¹cy do celu wyrz¹dzaj¹c 1K6 obra¿eñ od ognia. Cel czaru musi wykonaæ udany rzut przeciw magii lub dozna kolejnych 1K6 obra¿eñ od ognia.~
+
+@8 = ~Stopienie pancerza (Przemiany)
+Poziom: 1
+Sfera: Walka
+Zasiêg: pole widzenia
+Czas dzia³ania: 1 tura
+Czas rzucania: 4
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Rzucaj¹c ten czar kap³an mo¿e spowodowaæ zmianê w okreœlonym materiale. Pancerze i inne metalowe obiekty zaczn¹ siê topiæ. Jakiekolwiek stworzenie dotkniête zaklêciem traci 4 punkty Klasy Pancerza. Udany rzut przeciw czarom pogarsza Klasê Pancerza o 2 punkty.~
+
+@10 = ~Leczenie pomniejszych ran (Nekromancja)
+Poziom: 2
+Sfera: Leczenie
+Zasiêg: dotyk
+Czas dzia³ania: sta³y
+Czas rzucania: 5
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+Rzucaj¹c ten czar z rêkami na stworzeniu, kap³an leczy 12 punktów ¿ycia wybranemu stworzeniu. To zaklêcie nie odniesie efektu na nieumar³ych lub stworzeniach z innych sfer.~
+
+@13 = ~Iskry (Wywo³ywanie)
+Poziom: 2
+Sfera: Walka, Pogoda
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 5
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Za pomoc¹ tego zaklêcia, druid kumuluje elektrycznoœæ z otaczaj¹cego go powietrza i ciska ni¹ w cel wyrz¹dzaj¹c 4K6 obra¿eñ od elektrycznoœci. Udany rzut obronny przeciw magii redukuje obra¿enia o po³owê.~
+
+@15 = ~Znak ochronny (Wywo³ywanie)
+Poziom: 2
+Sfera: Ochrona
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 2 tury
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Kiedy ten czar jest rzucony, niewidzialna bariera pojawia siê przed rzucaj¹cym. Ustala ona podstawow¹ Klasê Pancerza rzucaj¹cego na 3.~
+
+@18 = ~Ból (Zaczarowania/Zauroczenia)
+Poziom: 3
+Sfera: Uroki
+Zasiêg: pole widzenia
+Czas dzia³ania: 1 tura
+Czas rzucania: 4
+Obszar dzia³ania: ofiara i ka¿dy w promieniu 10 metrów
+Rzut obronny: neguje
+
+Ten czar wywo³uje rozdzieraj¹cy ból we wszystkich wrogich stworzeniach w zasiêgu dzia³ania. Czar nie czyni ¿adnych obra¿eñ, ale tym którym nie uda siê rzut obronny przeciw czarom z modyfikatorem -2 strac¹ 2 punkty zrêcznoœci i otrzymaj¹ karê -2 do rzutów na trafienie na jedn¹ turê. Stworzenia, które nie czuj¹ normalnie bólu (jak nieumarli) nie odczuj¹ efektów tego czaru.~
+
+@20 = ~Pancerz ciemnoœci (Sprowadzenie)
+Poziom: 3
+Sfera: Ochrona, S³oñce
+Zasiêg: dotyk
+Czas dzia³ania: 1 runda/poziom (maksymalnie 1 tura)
+Czas rzucania: 6
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+Bogini nocy Shar obdarza kap³anów moc¹ przywo³ania ca³unu mistycznej ciemnoœci, która okrywa cel czaru. Kiedy cel jest okryty ciemnoœci¹, jego poziom pancerza wzrasta o 2 a rzuty obronne przeciw czarom s¹ wykonywane z modyfikatorem +2. Cel uzyskuje te¿ infrawizjê oraz nie dzia³a na niego oœlepienie. Z powodu z³ej natury tego czaru, rzucaj¹cy otrzymuje 3 punkty obra¿eñ, gdy rzuca to zaklêcie.~
+
+@23 = ~Rozpylenie trucizny (Nekromancja)
+Poziom: 4
+Sfera: Roœliny
+Zasiêg: 5 m
+Czas dzia³ania: 8 rund
+Czas rzucania: 4
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Druid przyzywa truciznê z obszaru, na którym siê znajduje i rozpyla j¹ na cel zadaj¹c 4 punkty obra¿eñ przez rundê do maksymalnie 32 punktów. Jeœli ofiara wykona rzut obronny przeciw œmierci, odniesie po³owê obra¿eñ.~
+
+@25 = ~Ostrze Mielikki (Wywo³ywanie)
+Poziom: 4
+Sfera: Walka, Natura
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 6 rund + 1 runda/poziom (maksymalnie 12 rund)
+Czas rzucania: 4
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Czar przyzywa magiczne ostrze bêd¹ce symbolem bogini Mielikki. Ogromny sejmitar p³on¹cy zimnym niebieskim ogniem jest u¿ywany jak magiczna bron +4 zadaj¹ca 1-8 punktów obra¿eñ, przy czym ka¿de stworzenie trafione ostrzem musi wykonaæ rzut obronny albo ucierpi kolejne 1-6 obra¿eñ od zimna. Ostrze Mielikki daje tak¿e druidowi odpornoœæ na ogieñ tak d³ugo jak istnieje.~
+
+@27 = ~Ostrza (Przemiany)
+Poziom: 5
+Sfera: Walka
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 6
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Druid przyzywa rój ma³ych ostrzy, które s¹ wystrzelone w kierunku wybranego stworzenia tn¹c je i wyrz¹dzaj¹c 4K8 punktów obra¿eñ. Obra¿enia s¹ zmniejszone o po³owê przy udanym rzucie obronnym.~
+
+@28 = ~B³ogos³awieñstwo Selune (Odrzucanie)
+Poziom: 5
+Sfera: Ochrona
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 tura
+Czas rzucania: 5
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Czar wzywa moc bogini Selune, aby chroni³a kap³ana przed fizyczn¹ i magiczn¹ szkod¹. Rzucaj¹cy jest otoczony przez lœni¹ce pole o promieniu 5 metrów, które poprawia Klasê Pancerza o 4 punkty i zapobiega efektom czarów z poziomów 1-3. Tak jak czar maga Klosz Niewra¿liwoœci, czary wci¹¿ mog¹ byæ rzucane bez ujemnych modyfikatorów. Zaklêcie jest podatne na czary Rozproszenie magii, Przeszywaj¹ca magia i podobne.~
+
+@30 = ~Wezwanie nieumar³ych (Nekromancja)
+Poziom: 5
+Sfera: Nekromancja, Przywo³ywanie
+Zasiêg: 10 metrów
+Czas dzia³ania: 5 tur 
+Czas rzucania: 5
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Po rzuceniu tego czaru, od 3 do 6 ghuli i od 0 do 2 ghastów powstanie spod ziemi, aby s³u¿yæ rzucaj¹cemu. Stworzenia potrafi¹ zrozumieæ proste rozkazy i pozostan¹ pod kontrol¹ przez 5 tur, chyba ¿e zostan¹ zniszczone lub odes³ane.~
+
+@32 = ~Transport przez roœliny (Przemiany)
+Poziom: 5
+Sfera: Roœliny
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Za pomoc¹ tego czaru, rzucaj¹cy mo¿e przenieœæ siê z dowolnego miejsca wchodz¹c w roœlinê i natychmiast wy³oniæ siê z innej roœliny w zasiêgu wzroku.~
+
+@38 = ~Dusz¹ce winoroœla (Przemiany)
+Poziom: 6
+Sfera: Roœliny
+Zasiêg: pole widzenia
+Czas dzia³ania: 3 rundy
+Czas rzucania: 7
+Obszar dzia³ania: w promieniu 18 m
+Rzut obronny: specjalny
+
+Druid przyzywa moce ziemi, aby stworzyæ winoroœla, które chwytaj¹ wszystkie stworzenia w wybranym obszarze mia¿d¿¹c je przez 3 rundy. Ka¿de stworzenie z³apane przez winoroœl zostanie spowolnione i otrzyma 4K5 obra¿eñ kiedy winoroœl atakuje oraz musi wykonaæ rzut obronny z modyfikatorem -2 albo otrzyma takie same obra¿enia w nastêpnej rundzie.~
+
+@40 = ~Kradzie¿ ¿ycia (Nekromancja)
+Poziom: 6
+Sfera: Nekromancja, Leczenie
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 9
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Rzucaj¹cy modli siê o bosk¹ pomoc i próbuje wykraœæ si³ê ¿yciow¹ z wybranego stworzenia. Cel traci 6K5 punktów ¿ycia lub po³owê tego jeœli wykona udany rzut obronny. Rzucaj¹cy nastêpnie absorbuje si³y ¿yciowe lecz¹c do 27 punktów ¿ycia.~
+
+@44 = ~Aura ochronna (Sprowadzanie/Przywo³ywanie)
+Poziom: 7
+Sfera: Ochrona
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 tura
+Czas rzucania: 1
+Obszar dzia³ania: dru¿yna
+Rzut obronny: brak
+
+Rzucaj¹cy prosi swega boga o ³askê dla dru¿yny. To zaklêcie ustanawia Klasê Pancerza na 0 u wszystkich cz³onków dru¿yny kap³ana.~
+
+@46 = ~Mroczny rytua³ (Przemiany)
+Poziom: 7
+Sfera: Ochrona
+Zasiêg: dotyk
+Czas dzia³ania: 15 rund
+Czas rzucania: 7
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+To zaklêcie czerpie moce z ciemnoœci i dodaje premiê +4 do KP oraz podnosi liczbê punktów ¿ycia o 12. Ze wzglêdu na mroczn¹ naturê tego zaklêcia si³a rzucaj¹cego jest zmniejszona o 1.~
+
+@48 = ~Sprowadzenie syren (Sprowadzanie/Przywo³ywanie)
+Poziom: 7
+Sfera: Przywo³ywanie
+Zasiêg: pole widzenia
+Czas dzia³ania: 2 tury
+Czas rzucania: 9
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Czar przywo³uje cztery syreny, które bêd¹ s³u¿yæ druidowi swoj¹ najbardziej agresywn¹ postaw¹.~
+
+@50 = ~Piorun (Wywo³ywanie)
+Poziom: 7
+Sfera: Walka
+Zasiêg: 45 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 5
+Obszar dzia³ania: specjalny
+Rzut obronny: 1/2
+
+Czar ten jest podobny do zaklêcia maga B³yskawica. Ka¿da trafiona ofiara otrzyma 12K4 obra¿eñ od elektrycznoœci, a rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê.~
+
+@53 = ~Dym (Przemiany)
+Poziom: 1
+Zasiêg: 40 stóp
+Czas dzia³ania: 2 rundy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+Ten czar pozwala magowi zamieniæ ofiarê w dym na okreœlony czas.~
+
+@55 = ~Broñ z b³yskawicy (Sprowadzanie/Przywo³ywanie)
+Poziom: 2
+Zasiêg: dotyk
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 1
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+Ten czar jest potê¿niejsz¹ wersj¹ czaru Pora¿aj¹cy uœcisk. Jeœli mag trafi stworzenie, zostanie ono og³uszone na 1 rundê oraz dozna 2K6 obra¿eñ elektrycznych.~
+
+@57 = ~Lodowy pocisk (Wywo³ywanie)
+Poziom: 2
+Zasiêg: 5 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Inkantacja pozwala stworzyæ kulê zimna, która po trafieniu przeciwnika zadaje 2K10 obra¿eñ bez mo¿liwoœci rzutu obronnego. Jednak¿e, istota posiadaj¹ca odpornoœæ na zimno lub magiê mo¿e oprzeæ siê efektom tego czaru.~
+
+@59 = ~Kula ciemnoœci (Przemiany)
+Poziom: 2
+Zasiêg: 1,5 metra/poziom
+Czas dzia³ania: 1 tura + 3 rundy/poziom
+Czas rzucania: 2
+Obszar dzia³ania: w promieniu 5 m
+Rzut obronny: brak
+
+Ten czar powoduje ca³kowit¹ ciemnoœæ na obszarze dzia³ania. Naturalne i magiczne œwiat³o nie dzia³a w ciemnoœci, za wyj¹tkiem przeciwstawnych zaklêæ opartych na œwietle. Równiez infrawizja staje siê nieprzydatna przeciwko temu zaklêciu.~
+
+@61 = ~Promieñ mrozu (Wywo³ywanie)
+Poziom: 3
+Zasiêg: 20 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 3
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+Na skutek tego czaru z r¹k rzucaj¹cego wystrzela strumieñ przeraŸliwego zimna o d³ugoœci do 20 metrów, który zadaje 5K6 punktów obra¿eñ i, o ile nie uda siê rzut obronny przeciw czarom, powoduje parali¿. Odpornoœæ na zimno lub magiê mog¹ zatrzymaæ dzia³anie czaru.~
+
+@63 = ~Armia jednego (Iluzje/Urojenia)
+Poziom: 3
+Zasiêg: dotyk
+Czas dzia³ania: 1 tura
+Czas rzucania: 5
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: neguje
+
+Iluzja powoduje, ¿e ka¿dy kto spojrzy na stworzenie znajduj¹ce siê pod wp³ywem tego zaklêcia myœli, ¿e ma do czynienia z ca³¹ armi¹. Si³a, Kondycja i Zrêcznoœæ s¹ zwiêkszone o 2 punkty pozwalaj¹c u¿ytkownikowi zaklêcia dokonywaæ heroicznych czynów.~
+
+@66 = ~Leczenie Ettina (Nekromancja)
+Poziom: 4
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 16 tur
+Czas rzucania: 5
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Ettin, mnich ¿yj¹cy w pobli¿u Dalekowzgórza, s³yn¹³ ze swoich receptur zio³owych lecz¹cych cia³o. Czar pozwala na regeneracjê 1 punktu ¿ycia na turê, do maksymalnie 16 punktów ¿ycia.~
+
+@70 = ~Eksploduj¹ce meteory Melfa (Wywo³ania, Przemiany)
+Poziom: 5
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 minuta
+Czas rzucania: 5
+Obszar dzia³ania: specjalny
+Rzut obronny: specjalny
+
+To zaklêcie jest podobne do trzeciopoziomowego czaru Miniaturowe meteory Melfa, przy czym wybuch jest du¿o groŸniejszy. Wszystkie istoty znajduj¹ce siê w obszarze dzia³ania eksplozji otrzymuj¹ 2-12 punktów obra¿eñ lub po³owê po udanym rzucie obronnym.~
+
+@74 = ~Tarcza antymagiczna (Odrzucanie)
+Poziom: 6
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 5 rund
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+To zaklêcie powo³uje migocz¹c¹ barierê wokó³ rzucaj¹cego, która porusza siê wraz z nim i czyni go ca³kowicie niewra¿liwym na wszelkie zaklêcia. Ochrona dotyczy równie¿ wszelkich zioniêæ oraz broni o podobnym dzia³aniu. Zaklêcie Rozproszenie magii nie usuwa bariery, jednak pow³oka mo¿e zostaæ przebita za pomoc¹ zaklêæ typu Uderzenie czaru.~
+
+@80 = ~Grupowe zauroczenie (Zaczarowania/Zauroczenia)
+Poziom: 7
+Zasiêg: pole widzenia
+Czas dzia³ania: 5 rund
+Czas rzucania: 2
+Obszar dzia³ania: w promieniu 20 m
+Rzut obronny: neguje
+
+To zaklêcie zaurocza na 30 sekund wszystkie humanoidy znajduj¹ce siê na obszarze o promieniu 20 m. Do humanoidów zalicza siê: cz³owieka, driadê, krasnoluda, elfa, gnoma, golina, hobgoblina itd. Du¿e stwory, takie jak ogry, s¹ odporne na dzia³anie tego czaru. Stworzenia, którym powiedzie siê rzut obronny przeciw zaklêciom neguj¹ efekty czaru.~
+
+@84 = ~Kl¹twa Vestcakesa (Wywo³ywanie)
+Poziom: 7
+Zasiêg: 30 metrów
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 5
+Obszar dzia³ania: w promieniu 30 m
+Rzut obronny: brak
+
+Ta potê¿na kl¹twa przywo³uje chmurê gor¹cego gazu. Jest ona na³adowana energi¹ i tworzy ma³e wy³adowania elektryczne wokó³ niej. Jakiekolwiek stworzenie znajduj¹ce siê w obszar dzia³ania chmury bêdzie otrzymywaæ ci¹g³e obra¿enia od elektrycznoœci do koñca trwania zaklêcia.~
+
+@86 = ~Piekielny ogieñ Enigmy (Wywo³ywanie)
+Poziom: 8
+Zasiêg: 20 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 5
+Obszar dzia³ania: w promieniu 10 m
+Rzut obronny: specjalny
+
+Piekielny ogieñ Enigmy to wytwór szalonego arcymaga, lepiej znanego jako arcyastronoma pochodz¹cego z Netheril. By³ to zagorza³y piroman i podobno wkrótce po skompletowaniu zaklêcia zgin¹³... Stanowi ona potê¿n¹ mieszankê powszechnych czarów opartych na ogniu i w zwi¹zku z jej nieprzewidywalnoœci¹, powinna byæ wypróbowana z dala od w³asnej osoby. Ka¿dy kto znajduje siê w obszarze podmuchu otrzyma 6K6 obra¿eñ od ognia oraz dodatkowe 2K6 obra¿eñ jeœli nie powiedzie siê rzut obronny.~
+
+@91 = ~Piorun (Wywo³ywanie)
+Poziom: 8
+Zasiêg: 135 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 5
+Obszar dzia³ania: specjalny
+Rzut obronny: 1/2
+
+W pewnych krêgach arcymagów rzucanie zwyk³ych b³yskawic uwa¿a siê za oznakê s³aboœci. Tym bardziej, ¿e posiadaj¹ oni wiedzê o du¿o potê¿niejszym zaklêciu Piorun. Jego wad¹ jest jednak to, ¿e odbija siê on po dosiêgniêciu celu i nale¿y zawsze o tym pamiêtaæ, poniewa¿ niewiele istot potrafi wytrzymaæ takie trafienie. Ka¿de stworzenie uderzone przez piorun otrzyma 12K4 obra¿eñ od elektrycznoœci. Udany rzut obronny redukuje otrzymane obra¿enia o po³owe.~
+
+@93 = ~Wyssanie ¿ycia Varashara (Nekromancja)
+Poziom: 8
+Zasiêg: 10 metrów
+Czas dzia³ania: specjalny
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Wed³ug plotek, król Varashar u¿y³ tego zaklêcia wielokrotnie, aby przed³u¿aæ swoje ¿ycie podczas jego 120-letniego okresu panowania. Podobnie do zaklêcia Pomniejsze dr¹¿enie Larlocha, mag wysysa si³y ¿yciowe ofiary i przekazuje je sobie. Ofiara czaru straci 5-20 punktów ¿ycia, podczas gdy mag zyska 25% swoich punktów ¿ycia. Jeœli zdobyte si³y ¿yciowe przekrocz¹ maksymaln¹ wartoœæ punktów ¿ycia czarodzieja, to straci on je po 4 turach.~
+
+@1002 = ~Ten rodzaj dekoracyjnej metalowej korony jest noszony na g³owie. Korony s¹ czêsto dekorowane przy u¿yciu klejnotów lub innych drogocennych elementów ozdobnych i powszechnie u¿ywane przez magów.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1003 = ~Ten wieniec stanowi³ w³asnoœæ przywódcy gaju druidów z Czarnej Kniei ponad trzysta lat temu. Artefakt zbugiono po napaœci orków na spo³ecznoœæ druidów. Od tamtego czasu korona zmienia³a wielokrotnie swojego w³aœciciela.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów 1. i 2.
+ Pozwala rzucaæ Zauroczenie zwierzêcia na 10 tur (rzut obronny przeciw ró¿d¿kom neguje)
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1005 = ~Wœród znanych magów bitewnych z Cormyru, istnia³ pewien zastêp magów upewniaj¹cych siê, ¿e ¿aden inny czarodziej nie próbuje zdradziæ ich króla czy narodu. Szpieguj¹c swoich kompanów, równie¿ sami cz³onkowie grupy Alarphon nie wiedzieli czy przynale¿¹ do tego samego ugrupowania. Wielu z nich nosi³o podobne korony w celu ukrycia swojej przynale¿noœci do grupy.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ Odpornoœæ na zauroczenie i strach
+ +1 do wszystkich rzutów obronnych
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1008 = ~Kapelusze to ulubione nakrycia g³owy bardów, które z regu³y oferuj¹ wiêcej wra¿eñ estetycznych ni¿ ochronê. Niektóre z nich bywaj¹ obdarzane pewnymi w³asnoœciami magicznymi.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Waga: 2~
+
+@1009 = ~Kapelusze to ulubione nakrycia g³owy bardów, które z regu³y oferuj¹ wiêcej wra¿eñ estetycznych ni¿ ochronê. Dziêki swojemu niebywa³emu wygl¹dowi, ten egzemplarz kapelusza daje u¿ytkownikowi wielk¹ pewnoœæ siebie.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Odpornoœæ na strach
+Waga: 2~
+
+@1012 = ~Wiêkszoœæ tiar jest po prostu ozdob¹ wykonan¹ z metalu lub korali i noszona na g³owie. Jest to czêsty atrybut szamanów, przyozdabiany dodatkowo kamieniami lub z³otem.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Waga: 2~
+
+@1013 = ~Podczas gdy wiêkszoœæ tiar jest po prostu ozdob¹, ten egzemplarz zosta³ poœwiêcony przez Wysok¹ Kap³ankê o imieniu Chanah'Rea. Uwa¿a siê, ¿e kamieñ umieszczony na œrodku tej tiary pochodzi w³aœnie z jej œwi¹tyni.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Odpornoœæ na zauroczenie
+ +1 do wszystkich rzutów obronnych
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1017 = ~To he³m wykonany specjalnie dla Ferthgila Trollslayera, syna Breachina Trollslayera. He³m zosta³ podarowany Ferthgilowi przez klan Stonehearth w czasie jego pobytu z nimi po œmierci ojca Ferthgila. Gulmoth Stonehearth, mentor Ferthgila, pob³ogos³awi³ ten he³m, aby pomóc Fertgilowi skupiæ myœli w czasie walki.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed wszystkimi formami zauroczenia, paniki i unieruchomienia
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1023 = ~Wykonany z magicznych kryszta³ów pochodz¹cych z zapomnianych kopalñ krasnoludów. Kryszta³y wykonane do tego he³mu s¹ niezwykle rzadkie i posiadaj¹ naturaln¹ odpornoœæ na gor¹co i zimno.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +10% do odpornoœci na ogieñ
+ +10% do odpornoœci na zimno
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1025 = ~Skeezer otrzyma³ ten he³m od przyjaciela, Gothmoga Stoneheartha, krasnoluda z klanu Stonehearth. Skeezer i Gothmog zostali przyjaciólmi, kiedy napadniêty przez duergarów Gothmog zosta³ uratowany przez Skeezera. Tamtego dnia, Skeezer wbi³ swój kostur w ziemiê, powoduj¹c ogromny rozb³ysk na niebie zmuszaj¹c duergary do ucieczki. Gothmog, wiedz¹c, ¿e jego klan potêpi³by takie zachowanie, zainteresowa³ siê zdolnoœciami magicznymi jego gnomiego przyjaciela i wspólnie zastosowali zaklêcia przy tworzeniu tego he³mu.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed wszystkimi formami paniki i zwiêksza morale
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1027 = ~Ten nadmiernie ozdobny he³m wydaje siê mieæ wiêksze znaczenie dekoracyjne ni¿ ochronne. Jest to jednak z³udne mniemanie, poniewa¿ posiada moce kap³anów Sukien, wzmacniaj¹ce zdolnoœci umys³u.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed atakami psionicznymi
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1029 = ~Ten he³m zapewnia odpornoœæ na wszystkie formy strachu i paniki, wywo³ane zarówno naturalnie jak i magicznie.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Odpornoœæ na strach
+ Chroni przed trafieniami krytycznymi
+Waga: 2~
+
+@1032 = ~Bli¿szy rzut oka ujawnia, ¿e ten pancerz nie jest wykonany ze skóry, ale z przeplataj¹cych siê krzaków cierni i winogron. Jest to dar nimf dla druidów za ich poœwiêcenie w walce o obronê natury.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Specjalne:
+ +1 do Klasy Pancerza przeciw broni strzeleckiej
+ -2 do Klasy Pancerza przeciw broni siecznej
+ +1 do wszystkich rzutów obronnych
+Waga: 4
+Wymagana si³a: 6~
+
+@1034 = ~Skórzana zbroja +2: 'Zmora Bhaelros'
+
+Chocia¿ zrzeszenia druidów s¹ rzadko spotykane w trudnym klimacie Calimshanu, ma³a grupa mog³a zostaæ znaleziona w pobli¿u Maszeruj¹cych Gór. Oprócz przeœladowania i wyœmiewania przez pobliskich mieszkañców, byli czêsto atakowani przez kap³anów Bhaelros. Aby ochroniæ siê, wykonano zestaw takich zbroi pozwalaj¹c druidom odepchn¹æ zaklêcia b³yskawic z³ych kap³anów. Niestety, taka sama ochrona nie obejmowa³a drzew, przez co druidzi uciekli, gdy ich dom zosta³ zniszczony.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Specjalne:
+ -2 do Klasy Pancerza przeciw broni strzeleckiej i k³utej
+ +1 do wszystkich rzutów obronnych
+ +25% do odpornoœci na elektrycznoœæ
+Waga: 6
+Wymagana si³a: 4~
+
+@1038 = ~Ta mitrylowa zbroja stworzona zosta³a przez Ferthgila pod okiem Otho Prawdziwego M³ota. Ferthgil okaza³ siê wiêc przyzwoitym kowalem, ale zdecydowanie woli przygody. Zbroja jest nad podziw wytrzyma³a choæ nie u¿yto do jej stworzenia ¿adnych zaklêæ.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Specjalne:
+ +3 do Klasy Pancerza przeciw broni siecznej
+Waga: 30
+Wymagana si³a: 14~
+
+@1040 = ~Ten pancerz ma stanowiæ zabezpieczenie szczególnie preciw atakom potworów i innych wiêkszych przeciwników. Conchobhair uzna³, ¿e jest idealna dla jego drogi ¿yciowej jako zabójcy smoków, tym bardziej, ¿e daje kilka dodatkowych atutów w walce.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Specjalne:
+ +3 do Klasy Pancerza przeciw broni siecznej
+Waga: 18
+Wymagana si³a: 11~
+
+@1042 = ~Wykonana z magicznych kryszta³ów z opuszczonych kopalni krasnoludów. Kryszta³y wykazuj¹ naturaln¹ odpornoœæ na zimno i gor¹co.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Specjalne:
+ +15% do odpornoœci na ogieñ
+ +15% do odpornoœci na zimno
+Waga: 20
+Wymagana si³a: 11~
+
+@1048 = ~Jest to osobista zbroja Thorfinna Hauskluniffa. Ta zbroja nie zosta³a w ¿aden sposób magicznie ulepszona, jednak jej konstrukcja zosta³a wzmocniona przeplataj¹cymi siê elementami skórzanymi, co czyni j¹ jeszcze bardziej wytrzyma³¹ przy zachowaniu ma³ego ciê¿aru.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Specjalne:
+ -2 do Klasy Pancerza przeciw broni strzeleckiej i k³utej
+Waga: 3~
+
+@1054 = ~Ten rodzaj zbroi jest czêsto wykorzystywany przez paladynów, krzy¿owców i fanatyków religijnych. Zapewne maj¹ zaufanie do tego typu rozwi¹zañ.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Specjalne:
+ +1 do wszystkich rzutów obronnych
+ +20% do maksymalnych punktów ¿ycia
+Waga: 20
+Wymagana si³a: 8~
+
+@1056 = ~Kolczuga +2: 'Poœwiêcona kolczuga'
+
+Ta kolczuga czêsto u¿ywana jest przez kap³anów w czasie ich podró¿y. Dziêki jej œwiêceniom zapewnia nosz¹cemu wp³yw zaklêcia Pomoc.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Specjalne:
+ Sta³e zaklêcie Pomoc
+Waga: 10
+Wymagana si³a: 7~
+
+@1058 = ~Nale¿a³a do Œwiêtego Stra¿nika œwi¹tyni Sukien i jak nale¿y siê spodziewaæ, jest niezwykle potê¿na. Stra¿nik nosi³ j¹ zawsze, kiedy jego towarzysze potrzebowali wsparcia, bowiem kiedy mia³ j¹ na sobie wszyscy byli przekonani, ¿e czekaj¹cej ich bitwy nie mo¿na przegraæ.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne:
+ Odpornoœæ na trucizny
+Waga: 18
+Wymagana si³a: 11~
+
+@1060 = ~To jest osobista kolczuga Jet'layi. Wykona³ j¹ jej brat bliŸniak, Rennar. Poza niezwyk³¹ kolorystyk¹ i niewielk¹ wag¹, jest to tradycyjna kolczuga noszona przez elfy.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Specjalne:
+ +2 do Klasy Pancerza przeciw broni siecznej
+ -2 do Klasy Pancerza przeciw broni obuchowej
+Waga: 15~
+
+@1062 = ~Zbroja paskowa: 'Skóra Korima'
+
+Tê zbrojê wykona³ netheresañski mag/³owca Korim a tak¿e na³o¿y³ na ni¹ bardzo silne zaklêcia powoduj¹ce œwiecenie na zielono. Zbroja paskowa pozwala³a Korimowi na wielkie dokonania, tym bardziej, ¿e zapewnia³a u¿ytkownikowi lepsz¹ ochronê ni¿ szaty maga nie trac¹c przy tym mo¿liwoœci rzucania czarów.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Specjalne:
+ +1 do Klasy Pancerza przeciw broni strzeleckiej i k³utej
+ +2 do Klasy Pancerza przeciw broni obuchowej
+ Nie ogranicza mo¿liwoœci rzucania czarów
+Waga: 7~
+
+@1064 = ~CúChoinneach wykona³ tê zbrojê dla w³asnych potrzeb i s³u¿by jako ³owca.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Specjalne:
+ +1 do Klasy Pancerza przeciw broni strzeleckiej i k³utej
+ +2 do Klasy Pancerza przeciw broni siecznej
+ +15% do Krycia siê
+Waga: 8~
+
+@1066 = ~Keiria zachowuje ³¹cznoœæ ze swoimi pobratymcami i zapewne dlatego ma na wyposa¿eniu kilka typowych elfich przedmiotów. Ten pancerz nie przeszkadza w rzucaniu czarów.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Specjalne:
+ +1 do Klasy Pancerza przeciw broni strzeleckiej i k³utej
+ +2 do Klasy Pancerza przeciw broni siecznej
+Waga: 10~
+
+@1069 = ~Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Wymagana si³a: 10~
+@1070 = ~Sztuka gnomów w tworzeniu uzbrojenia nie jest powszechna, ale akurat to dzie³o wydaje siê byæ bardzo udane i oferuje znacz¹c¹ ochronê przed nieprzewidzianymi wypadkami. Dodatkowo zbroja u³atwia poszukiwanie i wykrywanie pu³apek oraz otwieranie zamków.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Specjalne:
+ +10% do Znajdowania pu³apek
+ +10% do Otwierania zamków
+Waga: 8
+Wymagana si³a: 6~
+
+@1074 = ~Kolorowa, œwiec¹ca i... jeszcze raz kolorowa... szata Skeezera mo¿e zostaæ trafnie okreœlona jako "bunt czerwieni", zw³aszcza ¿e jest wysadzona szlachetnymi kamieniami, do których Skeezer ma wielki szacunek. Gnom twierdzi, ¿e wynalaz³ nowy rodzaj materia³u podczas szycia tej szaty. Materia³ podobno jest tak mocny, ¿e ochroni nawet przed zioniêciem smoka, podstêpnymi mackami ³upie¿ców umys³u czy nawet magicznymi promieniami obserwatorów. Z tego co sam<PRO_HESHE> jesteœ w stanie zaobserwowaæ to to, ¿e ta szata mia³aby problemy z zatrzymaniem sztyletu kulawego kobolda. Niemniej jednak, znaj¹c umiejêtnoœci magiczne Skeezera, nie masz w¹tpliwoœci, ¿e szata posiada chocia¿by trochê magicznej ochrony.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Specjalne:
+ +5% do odpornoœci na magiê
+ +1 do wszystkich rzutów obronnych
+Waga: 6~
+
+@1076 = ~Ta szata, z uwagi na swoj¹ Klasê Pancerza i zdolnoœci magiczne wydaje siê dobrym strojem podró¿nika, któremu nie wystarczaj¹ zwyk³e szaty magiczne.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+Specjalne:
+ Pozwala zapamiêtaæ 1 dodatkowy czar z poziomów 1. i 2.
+Waga: 3~
+
+@1078 = ~Mówi siê, ¿e ta potê¿na szata posiada mroczn¹ historiê. Prawdopodobnie zosta³a stworzona przez arcymaga Halastera, za pomoc¹ której zasia³ chaos podczas swoich podró¿y przez Krainy pozostawiaj¹c po sobie œmieræ i zdradê. Pomimo skutecznych zaklêæ ochronnych, rzadko siê zdarza³o, ¿eby szata zostawa³a ze swoim w³aœcicielem na d³u¿ej. Ludnoœæ szepcze, ¿e ta szata sama z siebie pragnie zniszczenia ka¿dego kto j¹ posi¹dzie.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +10% do odpornoœci na magiê
+ +1 do wszystkich rzutów obronnych
+Waga: 6~
+
+@1080 = ~Ta magiczna szata zapewnia ochronê przed wszelkimi atakami fizycznymi, podnosz¹c jednoczeœnie odpornoœæ na magiê. Niestety wszelkie zalety tej szaty mog¹ byæ równie¿ jej przekleñstwem. By j¹ zdj¹æ potrzebne jest usuniêce kl¹twy.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Specjalne:
+ +10% do odpornoœci na magiê
+ Ochrona przed czarami 1. i 2. poziomu
+ Ochrona przed zwyk³ymi broniami
+ Pozwala zapamiêtaæ 1 dodatkowy czar z poziomów 3. i 4.
+ +1 do M¹droœci i Inteligencji
+ Zmniejsza czas rzucania zaklêæ o 1
+Waga: 6~
+
+@1082 = ~Ta szata stanowi³a prezent od znanego maga Drakelora dla jego przyjaciela wyruszaj¹cego w d³ug¹, niebezpieczn¹ podró¿. Niestety, zosta³a skradziona, kiedy w³aœciciel odpoczywa³ w tawernie po wykañczaj¹cej walce. Z³odziej zna³ wartoœæ tej szaty i zdecydowa³ siê j¹ sprzedaæ najwiêkszemu poœród znanych mu magów. Niefortunnie zwróci³ siê z tym do Drakelora, który rozpozna³ swe dzie³o. Los z³odzieja nie wymaga dalszych wyjaœnieñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do wszystkich rzutów obronnych
+Waga: 3~
+
+@1084 = ~Najpotê¿niejsi magowie drowów posiadaj¹ p³aszcze pozwalaj¹ce na skuteczne zlewanie siê z otoczeniem, co utrudnia znalezienie ich w trakcie walki. Materia³ u¿yty do ich wykonania jest wytrzyma³y i dodatkowo uodparnia na ogieñ.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, kiedy zostanie wystawiony na promienie s³oñca.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Specjalne:
+ +2 do Inteligencji
+ Pozwala zapamiêtaæ 1 dodatkowy czar z poziomów 6. i 7.
+ +6 do rzutów obronnych przeciw zioniêciom
+ +50% do odpornoœci na ogieñ
+ Niewykrywalnoœæ
+Waga: 1~
+
+@1086 = ~Jest to wyj¹tkowo dziwaczny przedmiot. Pochodzi z mroków Otch³ani i zapewnia ochronê przed wszelkimi atakami fizycznymi, podnosz¹c jednoczeœnie odpornoœæ na magiê i rzuty obronne i zdolnoœci magiczne. Mo¿e byæ u¿ywany tylko przez tych o z³ym charakterze.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +10% do odpornoœci na magiê
+ +2 do wszystkich rzutów obronnych
+ Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu z poziomów 5., 6. i 7.
+ -30% do Kondycji
+Waga: 6~
+
+@1088 = ~Ju¿ sam wygl¹d tej szaty pozwala przypuszczaæ, ¿e stworzona zosta³a przez rêce pe³ne dobra. Kiedy zostanie za³o¿ona przez w³aœciw¹ osobê, mo¿na byæ pewnym, ¿e zaoferuje praktyczn¹ ochronê przed obra¿eniami fizycznymi, poprawê rzutów obronnych i odpornoœæ na magiê.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +10% do odpornoœci na magiê
+ +1 do wszystkich rzutów obronnych
+Waga: 6~
+
+@1098 = ~P³aszcz niegdyœ nale¿a³ do barda Morridina. Pytany o jego w³asnoœci zawsze powtarza³: "po prostu dodaje mi uroku". P³aszcz, jak i reszta jego przedmiotów stanowi³ temat niekoñcz¹cych siê dyskusji.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do Charyzmy
+Waga: 3~
+
+@1100 = ~Twórca tego p³aszcza, lord Noober Harpell, oszala³. Ale zapewne nie z tego powodu, ¿e ten p³aszcz stanowi replikê elfiego orygina³u. Ubranie tego p³aszcza powoduje prawie ca³kowity zanik widzialnoœci nosz¹cego, pozwalaj¹c mu na niemal¿e niewykrywalne poruszanie siê. Od wewn¹trz wyhaftowano napis: "W³asnoœæ Noobera, syna Noobera".
+
+PARAMETRY:
+
+Specjalne:
+ Powoduje zanik na poziomie 75% (podobne do niewidzialnoœci)
+Waga: 3~
+
+@1102 = ~Skradziony ze œwi¹tyni Erreth-Akbe, nale¿a³ do Arcydruida Yarrowa, kiedy planowa³ zemstê na dewastatorach jego œwi¹tyni. Potem, podobno przekaza³ go swemu synowi Shepheshowi jako dar.
+
+PARAMETRY:
+
+Specjalne:
+ +20% do Cichego chodzenia
+ Niewykrywalnoœæ
+Waga: 3~
+
+@1104 = ~P³aszcz ochrony: 'P³aszcz Mystry'
+
+Dawno temu, zwyczajem Mystry by³o darowywanie takich p³aszczy swoim dzielnym wyznawcom. Dlatego zapewne wraz ze œmierci¹ wyznawców tego koœcio³a, liczba tych podarków zaczê³a byæ bardziej dostêpna poza krêgiem religijnym. Ten p³aszcz zapewnia dodatkowe premie do rzutów obronnych i ataków oraz chroni przed o¿ywieñcami.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +1 do wszystkich rzutów obronnych
+ Sta³a Ochrona przed negatywn¹ stref¹
+Waga: 3~
+
+@1108 = ~Te bransolety wykonano ze skóry smoka. Podobne dzie³a stanowi¹ rzadki rezultat rytua³ów wykonywanych przez druidów po œmierci jednej z tych istot.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 2~
+
+@1112 = ~Rêkawice zrêcznoœci: 'Wprawne rêce'
+
+Podobnie jak rêkawice 'Zwinne rêce', tak i te rêkawice stworzono w Kara-Tur z myœl¹ o mistrzach sztuk walki, których potêgê mia³y zwiêkszyæ. Niezbyt szczegó³owe legendy powiadaj¹ o wielu mistrzach z dalekiego wschodu, którzy podczas podró¿y przynieœli ze sob¹ te przedmioty.
+
+PARAMETRY:
+
+Specjalne:
+ +2 do Zrêcznoœci
+Waga: 2~
+
+@1114 = ~Otrad Atwah: 'Rêkawice skupienia'
+
+Nawet najtê¿si mêdrcy czasem zostaj¹ zaskoczeni nieprzewidywalnymi okolicznoœciami i dlatego niejaki Sharga stworzy³ te rêkawice. Pozwalaj¹ one przyst¹piæ do walki oszczêdzaj¹c czas na przygotowania.
+
+PARAMETRY:
+
+Specjalne:
+ Jeden dodatkowy atak na rundê
+ +1 do wszystkich rzutów obronnych
+Waga: 2~
+
+@1116 = ~Od czasów, gdy druidzi i ³owcy staraj¹ siê chroniæ przyrodê przed zakusami cywilizacji, znane s¹ przypadki dawania podarków swoim najwiêkszym przyjacio³om i towarzyszom przez mieszkañców lasów.
+
+PARAMETRY:
+
+Specjalne:
+ +3 do Klasy Pancerza przeciw broni strzeleckiej
+ +3 do rzutów obronnych przeciwko petryfikacji
+Waga: 2~
+
+@1118 = ~Znalezienie takich bransolet to rzadki przypadek, nic te¿ nie wiadomo o ich pochodzeniu. Pomimo ich wieku, zaklêcia na³o¿one na te bransolety wci¹¿ s¹ bardzo silne.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Specjalne:
+ Zmniejsza czas rzucania zaklêæ o 1
+Waga: 2~
+
+@1120 = ~Od niepamiêtnych czasów potê¿ne podarunki stanowi³y zwyczajowo skutek gorliwej lojalnoœci oddanych wyznawców i s³ug. Choæ nie wiadomo sk¹d pochodz¹ te przedmioty, to na pewno by³y w³aœnie dowodem wdziêcznoœci.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +2
+Waga: 1~
+
+@1128 = ~Podobne pierœcienie to czêste atrybuty m³odych, uzdolnionych adeptów sztuki czarnoksiêskiej.
+
+PARAMETRY:
+
+Specjalne:
+ Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu z poziomów 1. i 2.~
+
+@1131 = ~Ghaunadaur, wysoce nieprzewidywalne bóstwo, czêsto wynagradza³ swoich lojalnych poddanych dobrodziejstwem i ró¿nymi prezentami, w tym tak¿e pierœcieniami jak ten tutaj. Z drugiej strony, bóstwo czêsto nagradza³o swoich wyznawców torturami i œmierci¹.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na trucizny i kwas~
+
+@1135 = ~Kr¹¿y mnóstwo pog³osek o piskliwej wiewiórce, która podobno posiada pewien unikalny kamieñ, ale nikt, jak dot¹d, nie zdo³a³ potwierdziæ tych rewelacji... a¿ do teraz.
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Szczêœcia~
+
+@1137 = ~Nie ma ¿adnych pewnych wiadomoœci na temat tego pierœcienia, ponad t¹, ¿e nosi³ go pewien mag mieszkaj¹cy w ma³ej wiosce.
+
+PARAMETRY:
+
+Specjalne:
+ Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu z poziomów 3. i 4.~
+
+@1139 = ~Pierœcieñ wytwarza wokó³ nosz¹cego niewidzialne pole si³owe, które obija pociski. Nawet niezwykle precyzyjnie wycelowane strza³y w nosz¹cego pierœcieñ spud³uj¹ lub po prostu zatrzymaj¹ siê w powietrzu po czym upadn¹ na ziemiê.
+
+PARAMETRY:
+
+Specjalne:
+ Ochrona przed zwyk³ymi pociskami~
+
+@1141 = ~Osobisty pierœcieñ barda Morridina. Brak w nim kamienia. Morridin zapytany o kamieñ i w³aœciwoœci pierœcienia, odpowiada³ z uœmiechem: "Stracony w czasie podró¿y...". Tak te¿ nazwano go, a jego w³aœciwoœci pozosta³y nieznane.
+
+PARAMETRY:
+
+Specjalne:
+ W³aœciwoœci nieznane~
+
+@1143 = ~Ten pierœcieñ nale¿a³ kiedyœ do s³awnego barda Morridina. Król Varashar, bêd¹cy równie¿ potomkiem netherañskich magów, og³osi³ kiedyœ siedmioletni konkurs w celu znalezienia najbardziej utalentowanego muzycznie i magicznie barda. Gdy Morridin ostatecznie pokona³ swoich rywali za pomoc¹ prostego magicznego triku, Varashar nagrodzi³ go tytu³em dworskiego barda oraz tym pierœcieniem.
+
+PARAMETRY:
+
+Specjalne:
+ Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów od 1 do 3~
+
+@1145 = ~Pob³ogows³awiony przez wysoko postawion¹ kap³ankê œwi¹tyni Sukien, pierœcieñ ten jest noszony przez wszystkich, którzy broni¹ œwi¹tyni przed z³em.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do wszystkich rzutów obronnych
+ Raz dziennie mo¿e rzucaæ Ochronê przed petryfikacj¹~
+
+@1147 = ~Pierœcieñ ognistej tarczy: '¯ar Charviraka'
+
+Podczas inwazji Czarnej Hordy nawet rejony po³o¿one na po³udniu zosta³y najechane. Driud Charvirak desperacko stara³ siê ochroniæ Lasy Tethyru przed ogniem wznieconym przez orki i gobliny. Pochwyciwszy esencjê ifryta, u¿y³ jej do stworzenia tego pierœcienia. Dziêki nim by³ w stanie przejœæ prosto przez p³on¹ce lasy i pozbyæ siê ognia bez doznania trwa³ych uszkodzeñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +30% do odpornoœci na ogieñ~
+
+@1149 = ~Ten pierœcieñ nale¿a³ do matki Jet'layi. Ma elfickie pochodzenie i zosta³ nasycony siln¹ magi¹. Pierœcieñ chroni Jet'layê przed wp³ywem uroków.
+
+PARAMETRY:
+
+Specjalne:
+ Nosz¹ca go osoba jest odporna na zauroczenia~
+
+@1171 = ~Kiedy Neshum Serret prowadzi³ swe si³y przeciw orkom, mia³ przy sobie m³odego barda, któremu wczeœniej sprawi³ ten róg. M³odzieniec podczas ka¿dej bitwy d¹³ w niego, a wydobywaj¹ce siê niesamowite dŸwiêki przypomina³y tumult armi, która w³aœnie by³a bliska zwyciêstwa. Strach opanowywa³ oddzia³y wroga, gdy us³ysza³y Okrzyk Bitewny.
+
+PARAMETRY:
+
+Specjalne:
+ Przeciwnik ucieka w panice, o ile nie powiedzie siê rzut obronny przeciw czarom (z modyfikatorem +2)
+Zasiêg: 30 metrów
+Czas dzia³ania: 15 rund
+Obszar dzia³ania: w promieniu 5 m~
+
+@1177 = ~Pochodzenie tego instrumentu jest raczej mgliste, ale nie ma w¹tpliwoœci, ¿e w³aœciciel bardzo pragn¹³ uznania publicznoœci. Gdy na tej lutni zagra doœwiadczony muzyk, produkowane dŸwiêki potrafi¹ tak oczarowaæ s³uchaczy, ¿e chc¹ oni s³u¿yæ muzykowi.
+
+PARAMETRY:
+
+Specjalne:
+ Lutnia mo¿e rzucaæ Okropne zauroczenie
+Zasiêg: 10 metrów
+Czas dzia³ania: 10 rund
+Obszar dzia³ania: 1 istota~
+
+@1241 = ~Ta ksiêga poœród skórzanych ok³adek zawiera zapiski maga Grun'lerthkina, mieszkañca Myth Drannor. Czytaj¹c j¹ wydajesz siê stawaæ m¹drzejszy.
+
+PARAMETRY:
+
+Postaæ zyska 10000 punktów doœwiadzcenia
+Specjalne: znika po przeczytaniu
+U¿ycie: w³ó¿ do przegródki Podrêcznego przedmiotu~
+
+@1249 = ~Bogini Matka natchnê³a ten amulet moc¹ ¿ycia. Zawiera symbol runiczny pó³nocnych druidów Erreth-Akbe. Pomimo staroœci, znaki wci¹¿ lœni¹ jak nowe i mo¿na wyczuæ ich moc. Szczegó³owe oglêdziny ujawniaj¹ jednak oznaki zu¿ycia. Byæ mo¿e jego moc nie jest tak wieczna, jak bogini, której jest poœwiêcony.
+
+PARAMETRY:
+
+Specjalne:
+ +25% do odpornoœci na kwas~
+
+@1258 = ~Ten amulet ma wygrawerowany znak Segoyi, znanego stowarzyszenia bezwzglêdnych zabójców. Gdy trzymasz amulet w d³oniach, z³o niemal pulsuje z jego wnêtrza. Ten konkretny egzemplarz jest umagiczniony magi¹ ochronn¹, chocia¿ mo¿esz wyczuæ, ¿e istnieje limit mocy tego amuletu.
+
+PARAMETRY:
+
+Specjalne:
+ +25% do odpornoœci na ogieñ~
+
+@1262 = ~Takie przedmioty s¹ czêsto spotykane w Krainach i z regu³y stanowi¹ czêœciej symbol oddania pewnej sprawie, ni¿ przedstawiaj¹ wartoœæ praktyczn¹.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do rzutów obronnych przeciw œmierci
+ Umo¿liwia zapamiêtanie dodatkowego zaklêcia z 1. poziomu~
+
+@1265 = ~Przedmioty tego rodzaju s¹ z regu³y prezentem jakiegoœ znacznego maga dla swojego ucznia, który w³aœnie ukoñczy³ naukê u mistrza. Poniewa¿ magowie rzadko miewaj¹ zwyczaj ujawniania swoich sekretów, wiêc zapewne historia i tego amuletu pozostanie tajemnic¹ poprzednich w³aœcicieli...
+
+PARAMETRY:
+
+Specjalne:
+ Umo¿liwia zapamiêtanie dodatkowego zaklêcia z 3. poziomu~
+
+@1269 = ~Amulet wielkiego widzenia poprawia zdolnoœci wzroku w³asciciela i jest poszukiwanym elementem uzbrojenia dowódców wojsk z uwagi na mo¿liwoœæ obserwacji odleg³ych zdarzeñ i planowania odpowiedniej strategii. Nie jest znane jego pochodzenie.
+
+PARAMETRY:
+
+Specjalne:
+ Zapewnia nosz¹cemu Jasnowidzenie~
+
+@1273 = ~Ta strza³a jest powykrêcana i czarna, emanuje z³em, jakby by³a wype³niona jak¹œ piekieln¹ moc¹. Zosta³a stworzona tylko w jednym celu: zabicia istoty, nale¿¹cej do jednego, œciœle okreœlonego gatunku. W tym przypadku jest to wywerna. Strza³y te s¹ równie¿ efektywne w starciu ze smokami, gdy¿ zadaj¹ im dodatkowe obra¿enia.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ Trafienie zabija wywernê (rzut obronny neguje)
+ +3 do trafienia i obra¿eñ przeciw smokom
+Waga: 0
+Wyrzutnia: ³uk~
+
+@1279 = ~Te wspania³e strza³y maj¹ lekko niebiesk¹ barwê i z³ocony grot. S¹ l¿ejsze i nieco smuklejsze od swych typowych wersji. Promieniuje z nich magia, która podobno pochodzi od Œwiêtego Stra¿nika Sukien, który posiada³ ³uk mog¹cy je tworzyæ.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ +2K3 pkt. obra¿eñ od magii
+Waga: 0
+Wyrzutnia: ³uk~
+
+@1283 = ~Be³ty to amunicja wystrzeliwana przez kusze, niezale¿nie od wielkoœci broni. Jednak te pociski posiadaj¹ dodatkowe w³asnoœci magiczne, czyni¹ce z nich skuteczniejsz¹ broñ od ich tradycyjnych odpowiedników. Po trafieniu w cel, rozproszenie likwiduje wszystkie zaklêcia, którymi jest otoczona ofiara.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ Cel zostaje objêty Rozproszeniem magii
+Waga: 0
+Wyrzutnia: kusza~
+
+@1287 = ~Na ten szczególny rodzaj pocisku nale¿y bardzo u¿ywaæ z uwagi na eksplozjê, któr¹ wywo³uje przy uderzeniu.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ +6K6 pkt. obra¿eñ od ognia (po³owa po rzucie obronnym przeciw czarom)
+Waga: 0
+Wyrzutnia: proca~
+
+@1289 = ~Po zanurzeniu tego pocisku w œwiêconej wodzie, staje siê on idealna broni¹ przeciw nieumar³ym, choæ jego w³aœciwe wywa¿enie powoduje, ¿e mo¿e siê przydaæ w ka¿dej potyczce.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ +2K3 pkt. obra¿eñ przeciw nieumar³ych
+Waga: 0
+Wyrzutnia: proca~
+
+@1294 = ~Te skórzane buty s¹ jednym z wielu prezentów, którymi obdarowuje siê obroñców lasów. Ci osobnicy, ubieraj¹c takie buty, nie tylko mniej ha³asuj¹ podczas poruszania siê ale równie¿ s¹ w stanie znacznie lepiej wyczuæ otaczaj¹ce ich œrodowisko.
+
+PARAMETRY:
+
+Specjalne:
+ +15% do Cichego chodzenia
+ Niewra¿liwoœæ na dzia³anie Pajêczyny, Œliskoœci i Opl¹tania
+Waga: 4~
+
+@1296 = ~Buty mêstwa: 'Niewra¿liwe stopy'
+
+Magia tych butów skupia siê na ochronie przeciw atakom obuchowym. Przenosz¹ one si³ê ataków bezpoœrednio na grunt pod nogami.
+
+PARAMETRY:
+
+Specjalne:
+ +3 do Klasy Pancerza przeciw broni obuchowej
+Waga: 18~
+
+@1304 = ~Ma³a tarcza +1: 'Ksiê¿yc'
+
+CúChoinneach po otrzymaniu swojego sejmitara, postanowi³ uzupe³niæ swoje wyposa¿enie w³aœnie o tak¹ tarczê. Jest wykonana z mitrylu i najtwardszego leœnego drewna.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ Nie chroni przed broni¹ strzeleck¹
+Waga: 3~
+
+@1306 = ~To jest osobista tarcza Jet'layi. Drewno wykorzystane do stworzenia tej tarczy pochodzi ze œwiêtego gaju, a elementy metalowe zosta³y specjalnie poœwiêcone. Powoduje to, ¿e nawet najpotê¿niejsze nieumar³e istoty unikaj¹ w³aœciciela jak ognia.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ Nie chroni przed broni¹ strzeleck¹
+ +2 do trafienia przeciw nieumar³ym
+Waga: 4~
+
+@1308 = ~Ma³a tarcza +2: 'Tarcza s³oñca'
+
+Z wnêtrza tej tarczy wydobywa siê niezwyk³e ciep³o, ale brak jakichkolwiek danych o jej pochodzeniu uniemo¿liwia pe³ne poznanie jej w³aœciwoœci.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Specjalne:
+ +30% do odpornoœci na zimno
+ -25% do odpornoœci na ogieñ
+Waga: 3~
+
+@1314 = ~Œrednia tarcza +2: 'Serce smoka'
+
+Ma³o znany rycerz Neshum nigdy nie grzeszy³ inteligencj¹. Kiedy nieopatrznie przy³¹czy³ siê do walk na pó³nocy, stan¹³ nagle przed kilkoma wojownikami otaczaj¹cymi smoka. Poniewa¿ uzna³, ¿e walka nie jest sprawiedliwa stan¹³ w obronie smoka. Pomoc Nashuma by³a kluczowa w tej potyczce i doprowadzi³a do pokonania wojowników. Smok Benderesk w podziêce podarowa³ mu tarczê, któr¹ natchn¹³ moc¹ pochodz¹c¹ z jego serca. Benderesk odzyska³ swój dar kilka lat póŸniej, gdy Neshum zosta³ wynajêty przez tê sam¹ wioskê co poprzedni wojownicy w celu pozbycia siê k³opotliwego smoka.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Specjalne:
+ +10 do maksymalnych punktów ¿ycia
+ +5% do odpornoœci na magiê
+Waga: 6~
+
+@1317 = ~Du¿a tarcza +2: 'Mur'
+
+W pierwszym dniu bitwy pod Selidor, armia Keluba zosta³a zasypana gradem strza³, które przyæmi³y niebo. By unikn¹æ podobnych niespodzianek Kelub natychmiast nakaza³ swym najlepszym rzemieœlnikom i magom stworzyæ tarczê zdoln¹ je powstrzymaæ. Stworzono wiêc tuzin takich tarcz. Spisywa³y siê œwietnie przeciwko strza³om, jednak¿e gdy wojownicy dotarli wreszcie do szeregów wroga byli zbyt zmêczeni, by podj¹æ walkê.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +7 przeciw pociskom
+Waga: 20
+Wymagana si³a: 13~
+
+@1325 = ~Katana +2: 'Masamune'
+
+Katanê tê wykona³ znany mistrz wykuwania katan ze wschodu o imieniu Masamune. Jak przy ka¿dej broni, która wysz³a spod jego rêki, ³atwo zrozumieæ znaczenie s³owa "mistrzostwo" w odniesieniu do tej broni.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1 do Zrêcznoœci
+Waga: 8
+OpóŸnienie: 2
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+Wymagana si³a: 6~
+
+@1328 = ~Katana +3: 'Muramasa'
+
+To jest naprawdê doskona³a katana. Niektórzy twierdz¹ jednak, ¿e jest przeklêta, a inni, ¿e byæ mo¿e po prostu posiada w³asn¹, krn¹brn¹ duszê. Tym nie mniej, prawd¹ jest, ¿e jego w³aœciciele mieli zwyczaj wpadaæ w sza³ podczas walki, ¿e zdawa³o siê, i¿ to miecz jest w³aœcicielem posiadacza.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ 33% szansa na to, ¿e dzier¿¹ca go osoba wpadnie w sza³ berserkera po udanym trafieniu
+Waga: 10
+OpóŸnienie: 3
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1332 = ~Sejmitar +1: 'Gorzka ³za'
+
+Wkrótce po upadku œwi¹tyni Erreth-Akbe, Arcydruid Yarrow powróci³ z dalekiej wyprawy i odkry³ zdewastowany przybytek. Rozwœcieczony druid poprosi³ bogów o dokonanie zemsty, po czym zacz¹³ p³akaæ. Lzy spada³y na jego sejmitar, wzmacniaj¹c broñ jego ¿alem i chêci¹ zemsty.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ Raz dziennie rzuca Zauroczenie osoby lub ssaka
+ 20% szansa na og³uszenie celu (rzut obronny przeciw czarom neguje)
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 8~
+
+@1336 = ~Nasycone siln¹ magi¹, to œwiête ostrze chroni w³aœciciela magicznym p³aszczem. Pochodzenie oraz historia tej broni s¹ nieznane ale mówi siê, ¿e miecz sam wybiera swojego w³aœciciela i nie pozwala sob¹ w³adaæ przez nikogo innego. Niejednokronie znajdowano ledwo ¿ywych œmia³ków, którzy próbowali u¿ywaæ miecza a nie byli przez niego wybrani.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +1, +3 przeciwko smokom
+TraK0: +1, +3 przeciwko smokom
+Typ obra¿eñ: sieczne
+Specjalne:
+ +20% do odpornoœci na kwas
+ +20% do odpornoœci na ogieñ
+ +1 do rzutów obronnych przeciw zioniêciom
+Waga: 15
+OpóŸnienie: 8
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+Wymagana si³a: 14~
+
+@1338 = ~Sejmitar +1: 'Poszarpana b³yskawica'
+
+Mitrylowe ostrze tego sejmitara jest z¹bkowane, dlatego przypomina zakrzywiony piorun. Sejmitar zosta³ wykuty w zamierzch³ych czasach w Calimshanie, przez religijn¹ sektê wierz¹c¹ w boga b³yskawic. By³ wykorzystywany przez œwiêtych wojowników tego kultu w ich misjach. Elektrycznoœæ przep³ywa przez miecz a ma³e pioruny wydostaj¹ siê poprzez z¹bkowan¹ krawêdŸ ostrza. Niektóre spiêcia elektryczne poch³ania miecz, a niektóre sprawiaj¹, ¿e w³aœciciel jest w stanie zaatakowaæ pierwszy.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ +30% do odpornoœci na elektrycznoœæ
+ +1K4 pkt. obra¿eñ od elektrycznoœci
+Waga: 4
+OpóŸnienie: 0
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 8~
+
+@1340 = ~Miecz oburêczny +1: 'Cierñ'
+    
+W dawnych czasach Netheril, nekromanta J'K'Voorkan próbowa³ stworzyæ królewstwo nieumar³ych. Kolejnymi szturmami hordy nieumar³ych opanowywa³y Krainy, dopóki arcydruid L'Orax nie wezwa³ na pomoc bogów. Orax otrzyma³ od nich jeden cierñ pochodz¹cy z Drzewa ¯ycia. W procesie d³ugich mod³ów i medytacji, Wielki Kr¹g stworzy³ ten oto miecz. Cierñ, bo tak nazwano ten miecz, zosta³ przekazany S'Mokye’owi, przywódcy si³ Œwiat³a i ¯ycia. S'Mokye, zwany "NiedŸwiedziem" z racji jego nadludzkiej odpornoœci na œmiertelne ciosy, zosta³ mianowany pierwszym ³owc¹ a tak¿e pierwszym Mistrzem Zieleni. Cierñ by³ przekazywany ka¿demu nowemu, wyniesionemu na piedesta³ ³owcy. Miecz potrafi zapuœciæ korzenie w ziemi, powstrzymuj¹c przeciwników od dotarcia do w³adaj¹cego broni¹.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ Raz dziennie mo¿e rzucaæ Opl¹tanie
+Waga: 9
+OpóŸnienie: 6
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+Wymagana si³a: 14~
+
+@1343 = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa jak i sejmitara, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerunu. Ze wzglêdu na swoj¹ nisk¹ wagê, kordelas jest broni¹ czêsto wybieran¹ przez z³odziei oraz rozbójników.
+
+PARAMETRY:
+
+Obra¿enia: 3K3
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1344 = ~Kordelas +2: 'Kie³ O-Tokne’a'
+
+Wykonany ze smoczego k³a, ten kordelas wydaje siê niemal sam kierowaæ w przeciwnika. Lekkoœæ z jak¹ mo¿na u¿ywaæ tej broni daje w³aœcicielowi jeszcze wiêksz¹ chêæ do walki, przyspieszaj¹c w ten sposób jego atak.
+
+PARAMETRY:
+
+Obra¿enia: 3K3 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1346 = ~Kordelas +1: 'Spiekota'
+
+Wykuty z czerwonego metalu ten kordelas jest ch³odny w dotyku. Nazwa broni, Spiekota, wziê³a siê od znaczenia run znajduj¹cych siê blisko rêkojeœci. Runy przypominaj¹ plemienny jêzyk pochodz¹cy z pó³nocnych czêœci tundry Vaasa. Niepozorny wygl¹d zmyli³ ju¿ wielu poszukiwaczy przygód, gdy¿ na pierwszy rzut oka kordelas wygl¹da na bezu¿yteczny. Tych, których jednak zainteresowa³a ta broñ czeka³a mi³a niespodzianka. Spiekota nie rozgrzewa siê dopóki nie zacznie siê ni¹ atakowaæ, jednak gdy ju¿ jest w ruchu w³aœciwoœci tej broni przestaj¹ byæ tajemnic¹.
+
+PARAMETRY:
+
+Obra¿enia: 3K3 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2K3 pkt. obra¿eñ od ognia
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1348 = ~Kordelas +2: 'Ostrze ducha'
+    
+Za ka¿dym razem, gdy wojownik macha tym ostrzem, mo¿na zauwa¿yæ niewielk¹ smugê jak¹ ostrze zostawia za sob¹. Ta smuga nie ró¿ni siê niczym od widocznego ostrza i wydaje siê jakby równie¿ mog³a ci¹æ. Ten kordelas by³ pocz¹tkowo u¿ywany przez leniwego cz³owieka o imieniu Bordger, który podobno zanim sta³ siê z³odziejem przeszed³ kilka magicznych szkoleñ. Zwa¿aj¹c jak dobrze zosta³o zaklête to ostrze, mo¿na by pomyœleæ, ¿e Bordger móg³by lepiej sobie radziæ jako mag.
+
+PARAMETRY:
+
+Obra¿enia: 3K2 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2K3 pkt. obra¿eñ siecznych
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1350 = ~Kordelas +1: 'Iskra'
+
+Elektryczne b³yski na powierzchni ostrza wyjaœniaj¹ jego nazwê. Pochodzenie tego ostrza nie jest znane, choæ podobno pierwszym posiadaczem broni by³ pirat. Zaraz po przybyciu do portu, upojony alkoholem pirat zosta³ okradziony i zabity. Nawet imiê tego pirata pozostaje tajemnic¹ podobnie jak historia tego miecza.
+
+PARAMETRY:
+
+Obra¿enia: 3K3 +1 
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2K3 pkt. obra¿eñ od elektrycznoœci
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1354 = ~Denat "oszust" by³ niegdyœ znanym bardem. Oprócz opowieœci o bohaterach, mia³ zwyczaj opowiadania o swoich przygodach i przechwalania siê w nich w³asn¹ bieg³oœci¹ w pos³ugiwaniu siê mieczem. Ka¿da taka przechwa³ka z regu³y koñczy³a siê pojedynkiem z jakimœ s³uchaczem, przy czym Denat zawsze wygrywa³. Jego koniec nast¹pi³ podczas jednego z pojedynków, gdy bard chwyci³ nie swój miecz i poleg³.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +5
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1 do Zrêcznoœci
+ +1 do Klasy Pancerza
+Waga: 4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+Wymagana si³a: 6~
+
+@1358 = ~Takie z³ocone miecze by³y nagrod¹ za s³u¿bê w Zakonie Promiennego Serca i wrêczane by³y wy³¹cznie przez Helma.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ B³ogos³awieñstwo
+Waga: 12
+OpóŸnienie: 5
+Rodzaj bieg³oœci: miecz pó³torarêczny
+Typ broni: 1-rêczna
+Wymagana si³a: 12~
+
+@1363 = ~£owca œmierci +2~
+@1364 = ~Mairial +2: '£owca œmierci'
+
+To jest osobisty sejmitar CúChoinneacha. Wykonany z czystego mitrylu i wystawiony na o¿ywcze œwiat³o ksiê¿yca w pe³ni. Miecz zosta³ mu przekazany przez Sehanine Moonbow, elfick¹ bogini mistycyzmu, snów, œmierci, podró¿y, transcendencji, ksiê¿yca, gwiazd i niebios. Bogini odwiedzi³a go we œnie, wkrótce po œmierci jego wybranki Fia'nny zabitej przez armiê nieumar³ych pod przywództwem wampira. Sehanine powiedzia³a CúChoinneachowi, by sta³ siê ³owc¹ i zosta³by wtedy wybrany przez ni¹ do polowania na najbardziej pod³e nieumar³e kreatury Faerunu. Gdy siê obudzi³, znalaz³ ten sejmitar le¿¹cy przy sobie. Ostrze zaœ ma byæ symbolem ich przymierza, choæ nawet CúChoinneach nie zna prawdziwej mocy tej broni.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ Ochrona przed sfer¹ negatywn¹
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna~
+
+@1368 = ~Arcymag Nemmerle podczas swojej ostatniej bitwy dobra ze z³em przewidzia³ swoj¹ pora¿kê i zebra³ ca³¹ pozosta³¹ mu mroczn¹ magiê, aby przekszta³ciæ swój kij w tê broñ. Wydaj¹c rozkaz, kij nabiera w³aœciwoœci halabardy i zadaje obra¿enia sieczne.
+
+PARAMETRY:
+
+Obra¿enia: 2K6 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ Udane trafienie wzbudza strach u wroga (rzut obronny z modyfikatorem +2 neguje)
+Waga: 4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1372 = ~Ten cep bojowy zosta³ uformowany w broñ z esencji pochodz¹cej z Otch³ani. Przypuszcza siê, ¿e uwiêziono w tej broni dusze wampirów poniewa¿ walcz¹cy naocznie mo¿e dojrzeæ jak si³y przeciwnika s¹ niemal wyrywane z cia³a przy ka¿dym trafieniu. Cep sczepia siê ze swoim nowym w³aœcicielem i mo¿e zostaæ usuniêty tylko za pomoc¹ zdjêcia kl¹twy. Mówi siê, ¿e mo¿na poczuæ moc wampirów pochodz¹c¹ zarówno od broni jak i w³aœciciela.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ Uderzenie wampiryczne
+Waga: 7
+OpóŸnienie: 3
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ broni: 1-rêczna
+Wymagana si³a: 13~
+
+@1374 = ~Sprawiedliwoœæ by³a najpotê¿niejsz¹ broni¹ w walce przeciwko z³u, u¿ywan¹ przez kap³anów i paladynów w czasach rasy Staro¿ytnych. Sprawiedliwoœæ wydaje siê byæ zwyczajnym cepem, ale w rêkach kogoœ o czystym sercu rozb³yska œwiat³em i przekazuje swe b³ogos³awieñstwo wprost od bogów.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +4 do maksymalnych punktów ¿ycia
+ +1 do wszystkich rzutów obronnych
+Waga: 12
+OpóŸnienie: 7
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ broni: 1-rêczna
+Wymagana si³a: 13~
+
+@1378 = ~Ten topór nale¿a³ wczeœniej do ojca Ferthgila, Breachina Trollslayera. Breachin zgin¹³ w potyczce z patrolem verbeegów, kiedy jeszcze Ferthgil by³ m³ody. Od tamtego czasu Ferthgil u¿ywa tylko tej broni w walce z uwagi na honor ojca.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2, +3 przeciw olbrzymom
+TraK0: +2, +3 przeciw olbrzymom
+Typ obra¿eñ: sieczne
+Waga: 5
+OpóŸnienie: 5
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna~
+
+@1379 = ~Wœciek³oœæ +2~
+@1381 = ~Topór bojowy +2: 'Wœciek³oœæ'
+
+Pochodzenie tego topora nie jest znane ale wystarczy rzut oka, aby stwierdziæ krasnoludzkie pochodzenie broni. Topór wydaje siê zapraszaæ w³aœciciela do wypróbowania go w walce.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Waga: 7
+OpóŸnienie: 6
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1383 = ~Tylko magowie minotaurów znaj¹ sposób tworzenia tego silnie umagicznionego przedmiotu. Jest lekki, ale przeszywa metal niczym s³ab¹ tkaninê.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +2
+TraK0: +1
+Typ obra¿eñ: sieczne
+Waga: 5
+OpóŸnienie: 2
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1386 = ~Podobnie do halabardy, topory oburêczne stanowi¹ doskona³¹ broñ przeciw jeŸdŸcom konnym. Ale równie dobrze sprawuj¹ siê podczas pieszych potyczek, z uwagi na zadawane obra¿enia.
+
+PARAMETRY:
+
+Obra¿enia: 1K12
+Typ obra¿eñ: sieczne
+Waga: 20
+OpóŸnienie: 12
+Rodzaj bieg³oœci: topór
+Typ broni: 2-rêczna
+Wymagana si³a: 13~
+
+@1387 = ~Krasnoludzki topór oburêczny +2: 'Krzycz¹ca Œmieræ'
+
+Ten topór pochodzi z okresu wojen klanowych a wykona³ go Thordar z Doliny dla swego syna Kelvina. Kelvin by³ raczej kiepskim wojownikiem i ten dar mia³ pomóc mu w jego s³aboœæ. Nazwa pochodzi od wydarzeñ z bitwy stoczonej w pobli¿u Wodospadu Wywern, gdzie Kelvin po raz pierwszy u¿y³ topora. Przy ka¿dym œmiertelnym trafieniu przeciwnika Kelvin wrzeszcza³ nie wierz¹c w³asnym oczom.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1K6 pkt. obra¿eñ od zamachu broni¹ (po³owa po rzucie obronnym przeciw œmierci)
+ +1 do Klasy Pancerza
+Waga: 20
+OpóŸnienie: 10
+Rodzaj bieg³oœci: topór
+Typ broni: 2-rêczna
+Wymagana si³a: 15~
+
+@1390 = ~Kilther +2~
+@1391 = ~Topór oburêczny +2: 'Kilther'
+
+Kilther by³ genera³em „Srebrzystych Rycerzy”. Kiedy ich ziemie zosta³y zaatakowane przez kawaleriê orków, wszyscy jego ludzie chcieli dosi¹œæ koni i rzuciæ siê na najeŸd¿ców. Jednak genera³ powstrzyma³ ich. Zmusi³ te¿, by poszli pieszo uzbrojeni w ³uki, topory i halabardy, a sam wybra³ ten topór. Bronie drzewcowe zatrzyma³y konie orków a grad strza³ dokoñczy³ dzie³a. Tysi¹ce orków zosta³o wtedy unicestwionych, podczas gdy Srebrzyœci Rycerzy stracili ledwie 19 ludzi, w tym Kilthera.
+
+PARAMETRY:
+
+Obra¿enia: 1K12 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Waga: 10
+OpóŸnienie: 9
+Rodzaj bieg³oœci: topór
+Typ broni: 2-rêczna
+Wymagana si³a: 12~
+
+@1395 = ~Krasnoludzki toporek +1: 'Piec'
+
+Ten topór do rzucania nie tylko jest doskonale wywa¿ony jako broñ miotana ale tak¿e zosta³ magicznie ulepszony. W wyniku tego zadaje wiêcej obra¿eñ i jest celniejszy ni¿ jakakolwiek podobna niemagiczna broñ.
+
+PARAMETRY:
+
+Obra¿enia (w zwarciu): 1K8 +1
+Obra¿enia (miotane): 1K6 +1
+TraK0: +1
+Typ obra¿eñ (w zwarciu): sieczne
+Typ obra¿eñ (miotane): pocisk (k³ute)
+Specjalne:
+ Wraca do rêki w³aœciciela po rzuceniu
+ +1K3 pkt. obra¿eñ od ognia
+Waga: 3
+OpóŸnienie: 6
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Wymagana si³a: 4~
+
+@1398 = ~Ten bia³y kostur z elementami z³ota pulsuje ogromn¹ energi¹. Zosta³ uformowany u zarania dziejów przez pierwsze promienie s³oneczne odbite od krystalicznie czystej wody. Pomimo niewielkiej przydatnoœci w walce, ta broñ u¿ycza cenne ochronne w³aœciwoœci.
+
+PARAMETRY:
+
+Obra¿enia: 2K2 +2
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ Tworzy mikstury dodatkowego leczenia i antidota (1 ³adunek)
+ Ochrona przed czarami 1. poziomu
+Waga: 3
+OpóŸnienie: 6
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1400 = ~Ten kij stworzono przed wiekami, w czasach istnienia rasy Staro¿ytnych. Wci¹¿ kilka artefaktów z tamtego okresu pozostaje dzisiaj w u¿yciu, ale nawet ich spadkobiercy niewiele konkretnego potrafi¹ o nich powiedzieæ.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +1 do Klasy Pancerza
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1402 = ~Ten kij zapewnia ochronê przed niemagiczn¹ broni¹. Na tej broni ci¹¿y potê¿na i z³a magia. Nie wszystkie jej w³aœciwoœci s¹ znane.
+
+PARAMETRY:
+
+Obra¿enia: 2K8 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+Specjalne:
+ Ochrona przed zwyk³ymi broniami
+Waga: 5
+OpóŸnienie: 8
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1404 = ~Kostur szamana +2: 'Chitiruhkha'
+
+Ten kij pochodzi od samej Chanah'Rei, która za pomoc¹ drzewa mocy wyposa¿y³a go w dodatkowe w³asnoœci elektryczne.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +2K6 pkt. obra¿eñ od elektrycznoœci (po³owa po rzucie obronnym przeciw ró¿d¿kom)
+ Rzuca B³yskawicê zadaj¹c¹ 4K6 pkt. obra¿eñ od elektrycznoœci (po³owa po rzucie obronnym przeciw ró¿d¿kom) kosztem jednego ³adunku (10 ³adunków)
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1408 = ~Kij +1: '£amacz koœci'
+
+Estaroil nawet jak na maga by³ w¹t³ej postury. Jego nauczyciel, Arcymag Heleth Otrad obawiaj¹c siê, ¿e jego wychowanek mo¿e nie prze¿yæ ¿adnej walki, stworzy³ tê broñ. Heleth na³o¿y³ zaklêcia sprawiaj¹ce, ¿e laska posiada zdolnoœæ ³amania koœci przy uderzeniu, co skutecznie spowalnia przeciwnika i daje Estaroilowi jak¹œ szansê. Z czasem w¹t³y Estaroil wyrós³ na potê¿nego maga, by w koñcu pozbyæ siê tego daru od swojego mistrza. O tamtego czasu nikt tej broni nie widzia³.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ 20% szansa na spowolnienie celu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
+Waga: 4
+OpóŸnienie: 3
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1410 = ~Kostur natury +1: 'Obroñca natury'
+
+Ta laska by³a wykorzystywana przez druidów od wielu wieków. Przekazywana przez pokolenia kolejnym przywódcom zgromadzenia arcydruidów w krainie Kazgard. Podobno jest to dar samej Matki Natury a zielony kolor laski ma o tym nieustannie przypominaæ. Jest to bardzo potê¿ny artefakt a poprzedni w³aœciciele tego kosturu zaiste równie¿ byli potê¿ni.
+
+PARAMETRY:
+
+Obra¿enia: 2K3 +1
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +10 do maksymalnych punktów ¿ycia
+ +20 do wiedzy
+ Umo¿liwia zapamiêtanie 2 dodatkowych zaklêæ z 1. poziomu
+Waga: 2
+OpóŸnienie: 2
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1412 = ~Skeezer stworzy³ ten kij, by wspomóc sobie w wêdrówkach. Poniewa¿ podczas procesu tworzenia magia wymknê³a siê spod jego kontroli, mo¿e przynieœæ ró¿ne, nie zawsze przewidywalne efekty w czasie walki.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ W³aœciwoœci nieznane
+Waga: 4
+OpóŸnienie: 3
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna~
+
+@1416 = ~To jest m³ot bojowy u¿ywany przez Tearlaca Prawdziwego M³ota, syna Otho Prawdziwego M³ota. Tearlac stworzy³ ten m³ot pod czujnym okiem swojego ojca. Jakoœæ wykonania tej broni sprawia, i¿ niektórzy uwa¿aj¹, ¿e niezrównane rzemios³o ojca odziedziczy³ równie¿ m³ody krasnolud. Tearlac pokry³ m³ot dekoracyjnymi runami, aby z dum¹ pokazywaæ swoje dziedzictwo. Sam m³ot jest wykonany ze stopu mitrylu a trzonek z bardzo trwa³ego drewna dêbowego dodatkowo wzmocnionego ma³ymi metalowymi dyskami.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2, +4 przeciw olbrzymom
+TraK0: +1, +3 przeciw olbrzymom
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 2
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1422 = ~Grot tej w³óczni p³onie nieustaj¹co co czyni j¹ œmiercionoœn¹ w czasie walki.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+Specjalne:
+ +1K6 pkt. obra¿eñ od ognia
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna~
+
+@1424 = ~W³ócznia +3: 'Smocze ber³o'
+
+Nazwa zapewne pochodzi od bogato wyrzeŸbionych smoków na trzonie tej w³óczni. Jednak dok³adne pochodzenie w³óczni pozosta³o nieznane.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 5
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna~
+
+@1428 = ~Tê wekierê wykona³ Otho Prawdziwy M³ot. Wekiera jest w prostej linii spadkobierczyni¹ zwyk³ej maczugi, bêd¹c po prostu drewnianym trzonem, na którym zosta³a osadzona kamienna lub metalowa g³owa o ró¿nym kszta³cie i ró¿nej jakoœci. Pomimo wystêpuj¹cych k³opotów z ¿elazem, ka¿dy szanowany kowal zawsze trzyma pewien zapas na "czarn¹ godzinê".
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1430 = ~Tê wekierê wykona³ Otho Prawdziwy M³ot. Zosta³a ona dodatkowo wzmocniona potê¿nym czarem Elminstera przeciwko nieumar³ym. Teraz otacza j¹ b³êkitna poœwiata.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2, +4 przeciw nieumar³ym
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1432 = ~Kap³an Pieœni Poranka, Jarent, pob³ogos³awi³ tê broñ tak, ¿e mo¿esz wyczuæ niemal¿e jej moc ¿ycia i pragnienie unicestwiania nieumar³ych.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2, +4 przeciw nieumar³ym
+TraK0: +1
+Typ obra¿eñ: obuchowe
+Specjalne:
+ Nieumarli musz¹ wykonaæ rzut obronny albo ulegn¹ zniszczeniu
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
+Wymagana si³a: 10~
+
+@1438 = ~Sztylet +2: 'Zdradliwe ¿¹d³o'
+
+Stworzony przez szalonego maga i z³odzieja, ten sztylet by³ u¿ywany bardzo krótko przez swojego twórcê. Dok³adne okolicznoœci œmierci maga nie s¹ znane, jednak nied³ugo po tym zdarzeniu sztylet by³ ju¿ w rêkach dobrze znanego zabójcy. Czarne ostrze sztyletu jest rozdwojone od po³owy d³ugoœci i zakoñczone ostrymi punktami. Dodatkowo ostrze wydziela zielonkaw¹ truciznê, która zadaje ogromny ból w momencie dostania siê do organizmu. Oczywiœcie u¿ytkownik nie jest odporny na tê truciznê i nawet najbardziej ostro¿ni w³aœciciele potrafili siê okazyjnie zaci¹æ t¹ broni¹.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +2
+Typ obra¿eñ: k³ute
+Specjalne:
+ +6 pkt. obra¿eñ od trucizny (po³owa po rzucie obronnym)
+ 5% szansa na zaciêcie siê rzucaj¹cego (6 pkt. obra¿eñ od trucizny, bez mo¿liwoœci rzutu obronnego)
+ Wraca do rêki w³aœciciela
+Waga: 2
+OpóŸnienie: 0
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@1440 = ~Adamantynowy sztylet drowów +3
+
+Wiêkszoœæ drowów nosi ze sob¹ wzmocnione magi¹ sztylety wykonane ze stopu adamantytu. Niektóre z nich s¹ pokryte kilkoma rodzajami trucizn, pozwalaj¹c w ten sposób byæ przygotowanym na ataki zabójców, którzy s¹ sta³ym zagro¿eniem w spo³eczeñstwie drowów. Oczywiœcie takie same sztylety s¹ wykorzystywane przez samych zabójców.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy zostanie wystawiony na promienie s³oneczne.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ Cel musi wykonaæ rzut obronny przeciw truciŸnie z modyfikatorem -4 albo bêdzie otrzymywa³ 10 pkt. obra¿eñ od trucizny na sekundê przez 10 sekund
+ Cel musi wykonaæ rzut obronny przeciw parali¿owi albo straci przytomnoœæ na 10 sekund
+Waga: 1
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@1442 = ~Jest to wampiryczny sztylet Lorika D'Raavhena. Nie da siê opisaæ strachu jaki wywo³uje samo spojrzenie na to mroczne ostrze. Z³o pulsuje w tej broni emanuj¹c nieprzyjazn¹ i mroczn¹ aurê, tak mocno wyczuwaln¹, ¿e jedyne o czym siê myœli to ucieczka zdala od tej broni ile si³ w nogach. Ciemny materia³, z którego wykonano to ostrze pochodzi z Otch³ani i nadaje broni wygl¹d tak samo mroczny jak jej pierwszy w³aœciciel.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +2
+Typ obra¿eñ: k³ute
+Specjalne:
+ Zadaje obra¿enia w³aœcicielowi i leczy cel
+Waga: 1
+OpóŸnienie: 0
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@1448 = ~Jest to zwyczajna lekka kusza szybkoœci, której jedyn¹ ró¿nic¹ wzglêdem typowych odpowiedników jest jej wyró¿niaj¹cy siê kolor. Keiria uzna³a, ¿e nawet w walce nale¿y prezentowaæ siê modnie.
+
+PARAMETRY:
+
+Obra¿enia: +1 (pocisk)
+TraK0: +1
+Specjalne:
+ 1 dodatkowy atak na rundê
+Waga: 5
+OpóŸnienie: 3
+Rodzaj bieg³oœci: kusza
+Typ broni: 2-rêczna~
+
+@1454 = ~Elfi ³uk: 'Zguba goblinów'
+
+Elfy stworzy³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +2
+Waga: 2
+OpóŸnienie: 3
+Rodzaj bieg³oœci: krótki £uk
+Typ broni: 2-rêczna
+Wymagana si³a: 6~
+
+@1458 = ~D³ugi ³uk si³y +1: 'Wibruj¹ca œmieræ'
+
+Ksi¹¿ê pó³nocnych barbarzyñców, Corbus Denox, otrzyma³ ten ³uk w darze od leœnych elfów. Zapewnia on celnoœæ i dodatkowe obra¿enia, a tak¿e zwiêksza si³ê posiadacza. Nazwê zawdziêcza niskim dŸwiêkom jakie towarzysz¹ podczas uwalniania ciêciwy.
+
+PARAMETRY:
+
+Obra¿enia: +1
+TraK0: +2
+Specjalne:
+ +1 do Si³y
+Waga: 2
+OpóŸnienie: 5
+Rodzaj bieg³oœci: d³ugi £uk
+Typ broni: 2-rêczna
+Wymagana si³a: 6~
+
+@1460 = ~Œwiêty ³uk Sukien: 'Ostry z¹b'
+
+Swoj¹ nazwê zawdziêcza prawdopodobnie kszta³towi drzewca. Nale¿a³ do Œwiêtego Stra¿nika Sukien o czym mog¹ œwiadczyæ typowe znaki runiczne aktywuj¹ce specjaln¹ w³aœciwoœæ tej broni, mianowicie tworzenie strza³ uderzenia.
+
+PARAMETRY:
+
+Obra¿enia: +3
+TraK0: +2
+Specjalne:
+ Raz dziennie tworzy jedn¹ strza³ê uderzenia
+Waga: 2
+OpóŸnienie: 5
+Rodzaj bieg³oœci: d³ugi £uk
+Typ broni: 2-rêczna
+Wymagana si³a: 6~
+
+@1464 = ~Ettin by³ mnichem, ¿yj¹cym w czasach rasy Staro¿ytnych. Oprócz swoich codziennych obowi¹zków, uczy³ siê zielarstwa. Odkry³, ¿e ³¹cz¹c ze sob¹ pewne trzy magiczne zio³a mo¿na wywo³aæ parali¿ przez krótki czas. Istnieje te¿ ryzyko zatrucia siê tymi zio³ami. Wiedza o tych w³asnoœciach zió³ pos³u¿y³a póŸniej pewnemu magowi, który stworzy³ tê magiczn¹ ró¿d¿kê.
+
+PARAMETRY:
+
+Specjalne:
+ Og³usza ofiarê, jeœli nie wykona rzutu przeciw ró¿d¿kom z modyfikatorem -4
+ 30% szansa na zatrucie ofiary (30 pkt. obra¿eñ od trucizny przez 15 sekund)
+Zasiêg: 30 metrów
+Czas trwania: 2 rundy
+Obszar dzia³ania: 1 istota~
+
+@1466 = ~Wynalaz³ j¹ król Varashar, bêd¹cy zarazem magiem, na potrzeby swoiœcie rozumianego poczucia sprawiedliwoœci, którym kierowa³ siê wydaj¹c wyroki s¹dowe. Powo³uj¹c siê na opowieœci œwiadków tych zdarzeñ, król Varashar zawsze mówi³ do skazañca: "rozmiar twojej winy rozstrzygnie rozmiar twojej kary".
+
+PARAMETRY:
+
+Specjalne:
+ Zadaje obra¿enia, gdy ³adunek uderzy w cel
+ Szansa na zadanie dodatkowych obra¿eñ przez nastêpne 3 rundy
+Obra¿enia: 2K4
+Zasiêg: 30 metrów
+Obszar dzia³ania: 1 istota~
+
+@1468 = ~Po aktywowaniu ró¿d¿ka uwalnia kulê energii elektrycznej wybuchaj¹cej na wybranym obszarze o promieniu 20 metrów. Gdy kula dotrze do celu zadaje 6K6 pkt. obra¿eñ od elektrycznoœci ka¿dej napotknej istocie na obszarze dzia³ania. Rzut obronny przeciw ró¿d¿kom zmniejsza zadawane obra¿enia o po³owê.
+
+PARAMETRY:
+
+Specjalne:
+ Wy³adowanie ³añcuchowe na wybranym obszarze 
+Obra¿enia: 6K6 (po³owa po rzucie przeciw ró¿d¿kom)
+Zasiêg: 10 metrów
+Obszar dzia³ania: w promieniu 20 metrów~
+
+@1472 = ~Konar Elgenona: 'Kolczasta ga³¹Ÿ'
+
+Nimfy rzadko zajmuj¹ siê wytwarzaniem broni, dlatego nale¿y spodziewaæ siê, ¿e jest to niezwyk³y orê¿. Wykonany zosta³ dla ich ulubieñców czyli obroñców lasu - druidów, a pierwszym obdarowanym by³ Elgenon M¹dry, znany równie¿ jako obroñca Drzewa M¹droœci. Na miejsce ka¿dego z³amanego kolca tej broni natychmaist wyrasta nastêpny.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (miotane): pocisk (k³ute)
+Specjalne:
+ Cel musi wykonaæ rzut obronny przeciw truciŸnie albo bêdzie otrzymywa³ 1 pkt. obra¿eñ na rundê (maksymalnie 5 pkt. obra¿eñ)
+ Wraca do rêki w³aœciciela po rzuceniu
+Waga: 4
+OpóŸnienie: 1
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@1474 = ~Jest to du¿a szczêka jakiegoœ zwierzêcia, prawdopodobnie mu³a lub os³a i wszystko wskazuje na to, ¿e mo¿e s³u¿yæ za rodzaj maczugi...
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@1475 = ~Jest to szczêka os³a, któr¹ s³ynny wojownik/kap³an Samson zabi³ swoich 600 przeciwników jednego dnia. Zaprawdê potê¿na broñ skromnego pochodzenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +1 do Klasy Pancerza
+ +1 do wszystkich rzutów obronnych
+ W³aœciciel ulega rozmyciu
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+
+@30008  = ~Ogieñ Faerie~
+@30009  = ~Ogieñ Faerie (Przemiany)
+Poziom: 1
+Sfera: Pogoda
+Zasiêg: 70 metrów
+Czas dzia³ania: 4 rundy + 1 runda/poziom
+Czas rzucania: 4
+Obszar dzia³ania: w promieniu 5 metrów
+Rzut obronny: brak
+
+Gdy ogieñ Faerie zostaje rzucony, druid przyzywa specjaln¹, œwiêt¹ substancje, która naœwietla wszystkie stworzenia w promieniu 5 metrów. Naœwietlone istoty s¹ widoczne na odleg³oœæ 70 metrów. Ponadto ³atwiej trafiæ w tak naœwietlon¹ istotê, wiêc atakuj¹cy otrzymuje +2 do rzutów na trafienie. Czar nie zadaje obra¿eñ ¿adnej z istot.~
+
+@30010  = ~Wywo³anie choroby~
+@30011  = ~Wywo³anie choroby (Nekromancja)
+Poziom: 3
+Sfera: Leczenie
+Zasiêg: dotyk
+Czas dzia³ania: 8 godzin
+Czas rzucania: 1 runda
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+Zaklêcie to dzia³a tylko na jedno stworzenie z chwil¹, gdy kap³an sprowadza chorobê odbieraj¹c¹ 5-20 punktów Si³y oponenta. Rzut obronny przeciw czarom uchroni przed efektami zaklêcia. Nie skutkuje ono na nieumar³ych, konstrukty i istoty z innych sfer.~
