@@ -128,7 +128,6 @@ LANGUAGE
 	~DSotSC/language/italian/setup.tra~
 	~DSotSC/language/italian/soundsets.tra~
 	~DSotSC/language/italian/journal.tra~
-
 LANGUAGE
 	~Russian (translation of v2 by aVoddle, Alex, Badgert & aerie.ru & prowler, completion of v4.0 by Arkie & p_zombie)~
 	~russian~
@@ -136,6 +135,13 @@ LANGUAGE
 	~DSotSC/language/russian/setup.tra~
 	~DSotSC/language/english/soundsets.tra~
 	~DSotSC/language/russian/journal.tra~
+LANGUAGE
+	~Polish (translation Black Dragon & Promilus, corrections by Roberciiik)~
+	~polish~
+	~DSotSC/language/polish/prompts.tra~
+	~DSotSC/language/polish/setup.tra~
+	~DSotSC/language/polish/soundsets.tra~
+	~DSotSC/language/polish/journal.tra~
 
 /*
 LANGUAGE
@@ -145,15 +151,6 @@ LANGUAGE
 	~DSotSC/language/german/setup.tra~
 	~DSotSC/language/english/soundsets.tra~
 	~DSotSC/language/german/journal.tra~
-
-LANGUAGE
-	~Polish (translation Black Dragon & Promilus)~
-	~polish~
-	~DSotSC/language/polish/prompts.tra~
-	~DSotSC/language/polish/setup.tra~
-	~DSotSC/language/polish/soundsets.tra~
-	~DSotSC/language/polish/journal.tra~
-
 */
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
