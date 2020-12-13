@@ -1,3 +1,7 @@
+Version 4.1 (by Roberciiik)
+- Revised Polish version
+- typo corrections
+
 Version 4.0 (by jastey)
 -Russian translation revised and completed by Arkie & p_zombie
 -spell "Selune's Blessing" has correct name
