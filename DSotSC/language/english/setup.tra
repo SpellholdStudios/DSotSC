@@ -436,7 +436,7 @@ The Mage King Varashar, according to rumor, used this spell to extend his life m
 
 @1000 = ~Crown~
 @1001 = ~Crown of the Archdruid~
-@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages
+@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages.
 
 STATISTICS:
 
@@ -465,7 +465,7 @@ Only usable by:
  Druid~
 
 @1004 = ~Crown of the Alarphon~
-@1005 = ~Within the ranks of the famed War Wizards of Corymr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
+@1005 = ~Within the ranks of the famed War Wizards of Cormyr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
 
 STATISTICS:
 
@@ -531,7 +531,7 @@ Only usable by:
  Druid~
 
 @1015 = ~Ferthgil's Helmet~
-@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stoneheath Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
+@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stonehearth Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
 
 STATISTICS:
 
@@ -1066,8 +1066,8 @@ Special:
 Weight: 2
 
 Only usable by:
- Druids
- Rangers~
+ Druid
+ Ranger~
 
 @1117 = ~Mage's Bracers~
 @1118 = ~The exact origin of these bracers in unknown. Throughout history, there have been numerous rumors to its current whereabouts and its origins. Dispute their age the enchantments placed upon these bracers is still very strong, unlike many artifacts of a similar age.
@@ -1781,7 +1781,7 @@ Not Usable By:
  Beast Master~
 
 @1349 = ~Cutlass +1: 'Sparks'~
-@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword..
+@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword...
 
 STATISTICS:
 
@@ -2661,7 +2661,7 @@ in Baldur's Gate.~
 
 @20358 = ~When asked about his past, BARDO FURFOOT announces he is a halfling from the sleepy village of Gullykin. He was always restless in his surroundings as a boy. Although he loves Gullykin, he just wasn't happy living in Gullykin. His greatest wish was to have exciting adventures like the ones he's read about in books and heard from adventurers passing through his village. The inhabitants of Gullykin always found him daydreaming instead of doing his regular duties. To him, adventuring was everything. One day, his village was beset with a flurry of activity as the villagers had learned of a forest dragon that was on the move toward Gullykin. Gandolar Luckyfoot organized a group to battle the dragon before it could get much closer to the village. Bardo eagerly joined the effort, anxious to see some adventure finally.~
 
-@20645 = ~When asked about his past, BUB SNIKT relates he was born in Daggerford, a village situated on the Trade Way between Baldur's Gate and Waterdeep. The seventh son of a farmer, Bub grew up on the farm and became his father's favorite son. In his youth, his father taught him the ways of rural life, and his brothers helped him with hunting skills. It wasn't long before they noticed Bub had a keen eye, and his skill with the bow became as good as any archer of the castle guard. Each year, life on the farm carried on as usual. Occasionally, he would find himself with his brothers and the local militia defending Daggerford's farmsteads against marauding lizardfolk from the Lizard Marsh, but most of the time life on the farm went unchanged. It was a few days after one particular Highharvesttide that things started to change. Bub had made his regular visit to Daggerford to sell produce at the local market, when the call to arms was made. A group of ogres had sneaked through the Misty Forest from the High
+@20645 = ~When asked about his past, BUB SNIKT relates he was born in Daggerford, a village situated on the Trade Way between Baldur's Gate and Waterdeep. The seventh son of a farmer, Bub grew up on the farm and became his father's favorite son. In his youth, his father taught him the ways of rural life, and his brothers helped him with hunting skills. It wasn't long before they noticed Bub had a keen eye, and his skill with the bow became as good as any archer of the castle guard. Each year, life on the farm carried on as usual. Occasionally, he would find himself with his brothers and the local militia defending Daggerford's farmsteads against marauding lizardfolk from the Lizard Marsh, but most of the time life on the farm went unchanged. It was a few days after one particular Highharvestide that things started to change. Bub had made his regular visit to Daggerford to sell produce at the local market, when the call to arms was made. A group of ogres had sneaked through the Misty Forest from the High
 Moor and were attacking the local farmsteads, killing farmers and stealing whatever food they could carry. Concerned for his family's safety, Bub left the wagon and rode at a gallop straight out of Farmer's Gate with three miles ahead of him. By the time he'd reached the farm, his brothers were already heavy into fighting several large ogres, the sheer size of which sent fear coursing through Bub's body. It was at that time that he remembered the talisman his father had given him as a child. The symbol of Tempus hung around his neck. Bub can't remember what happened that day, but when he joined his brothers in battle, it was as if he'd been blessed with the speed and strength of ten men. No ogre stood in his way. His arrows were true to the mark and each swing of his blade offered no resistance. Within the space of an hour, all of the ogres were dead, and his brothers could only look upon him with awe. Soon after the encounter, Bub's attitude changed. He became less interested in rural life and decided to
 take up a profession as a hired adventurer. He traveled first to Baldur's Gate then to the town of Beregost where he plies his trade as a swordsman protecting the local farmsteads from ogres and any other unwanted guests.~
 
