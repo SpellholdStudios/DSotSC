@@ -2128,145 +2128,327 @@ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
-ADD_SPELL ~DSotSC/base/spl/dsspwi11.spl~ 2 1 ~WIZARD_ORB_OF_AIR~
-	SAY NAME1 @52
-	SAY UNIDENTIFIED_DESC @53
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds11.itm~ ~override~
-	SAY NAME2 @52
-	SAY DESC @53
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ORB_OF_AIR~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_ORB_OF_AIR~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds11.itm~ ~override~
+		SAY NAME2 @52
+		SAY DESC @53
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi11.spl~ 2 1 ~WIZARD_ORB_OF_AIR~
+		SAY NAME1 @52
+		SAY UNIDENTIFIED_DESC @53
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds11.itm~ ~override~
+		SAY NAME2 @52
+		SAY DESC @53
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi21.spl~ 2 2 ~WIZARD_THUNDERSLAP~
-	SAY NAME1 @54
-	SAY UNIDENTIFIED_DESC @55
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds21.itm~ ~override~
-	SAY NAME2 @54
-	SAY DESC @55
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_THUNDERSLAP~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_THUNDERSLAP~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds21.itm~ ~override~
+		SAY NAME2 @54
+		SAY DESC @55
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi21.spl~ 2 2 ~WIZARD_THUNDERSLAP~
+		SAY NAME1 @54
+		SAY UNIDENTIFIED_DESC @55
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds21.itm~ ~override~
+		SAY NAME2 @54
+		SAY DESC @55
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi22.spl~ 2 2 ~WIZARD_ICE_BOLT~
-	SAY NAME1 @56
-	SAY UNIDENTIFIED_DESC @57
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds22.itm~ ~override~
-	SAY NAME2 @56
-	SAY DESC @57
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ICE_BOLT~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_ICE_BOLT~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds22.itm~ ~override~
+		SAY NAME2 @56
+		SAY DESC @57
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi22.spl~ 2 2 ~WIZARD_ICE_BOLT~
+		SAY NAME1 @56
+		SAY UNIDENTIFIED_DESC @57
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds22.itm~ ~override~
+		SAY NAME2 @56
+		SAY DESC @57
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi23.spl~ 2 2 ~WIZARD_DARKNESS_15_FOOT~
-	SAY NAME1 @58
-	SAY UNIDENTIFIED_DESC @59
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds23.itm~ ~override~
-	SAY NAME2 @58
-	SAY DESC @59
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DARKNESS_15_FOOT~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_DARKNESS_15_FOOT~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds23.itm~ ~override~
+		SAY NAME2 @58
+		SAY DESC @59
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi23.spl~ 2 2 ~WIZARD_DARKNESS_15_FOOT~
+		SAY NAME1 @58
+		SAY UNIDENTIFIED_DESC @59
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds23.itm~ ~override~
+		SAY NAME2 @58
+		SAY DESC @59
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi31.spl~ 2 3 ~WIZARD_RAY_OF_FROST~
-	SAY NAME1 @60
-	SAY UNIDENTIFIED_DESC @61
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds31.itm~ ~override~
-	SAY NAME2 @60
-	SAY DESC @61
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_RAY_OF_FROST~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_RAY_OF_FROST~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds31.itm~ ~override~
+		SAY NAME2 @60
+		SAY DESC @61
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi31.spl~ 2 3 ~WIZARD_RAY_OF_FROST~
+		SAY NAME1 @60
+		SAY UNIDENTIFIED_DESC @61
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds31.itm~ ~override~
+		SAY NAME2 @60
+		SAY DESC @61
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi32.spl~ 2 3 ~WIZARD_ARMY_OF_ONE~
-	SAY NAME1 @62
-	SAY UNIDENTIFIED_DESC @63
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds32.itm~ ~override~
-	SAY NAME2 @62
-	SAY DESC @63
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ARMY_OF_ONE~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_ARMY_OF_ONE~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds32.itm~ ~override~
+		SAY NAME2 @62
+		SAY DESC @63
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi32.spl~ 2 3 ~WIZARD_ARMY_OF_ONE~
+		SAY NAME1 @62
+		SAY UNIDENTIFIED_DESC @63
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds32.itm~ ~override~
+		SAY NAME2 @62
+		SAY DESC @63
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi41.spl~ 2 4 ~WIZARD_ETTINS_HEALING~
-	SAY NAME1 @65
-	SAY UNIDENTIFIED_DESC @66
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds41.itm~ ~override~ //quest item?
-	SAY NAME2 @65
-	SAY DESC @66
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ETTINS_HEALING~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_ETTINS_HEALING~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds41.itm~ ~override~
+		SAY NAME2 @65
+		SAY DESC @66
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi41.spl~ 2 4 ~WIZARD_ETTINS_HEALING~
+		SAY NAME1 @65
+		SAY UNIDENTIFIED_DESC @66
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds41.itm~ ~override~ //quest item?
+		SAY NAME2 @65
+		SAY DESC @66
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi51.spl~ 2 5 ~WIZARD_MELFS_EXPLOSIVE_METEORS~
-	SAY NAME1 @69
-	SAY UNIDENTIFIED_DESC @70
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds51.itm~ ~override~
-	SAY NAME2 @69
-	SAY DESC @70
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MELFS_EXPLOSIVE_METEORS~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_MELFS_EXPLOSIVE_METEORS~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds51.itm~ ~override~
+		SAY NAME2 @69
+		SAY DESC @70
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi51.spl~ 2 5 ~WIZARD_MELFS_EXPLOSIVE_METEORS~
+		SAY NAME1 @69
+		SAY UNIDENTIFIED_DESC @70
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds51.itm~ ~override~
+		SAY NAME2 @69
+		SAY DESC @70
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi62.spl~ 2 6 ~WIZARD_ANTIMAGIC_SHELL~
-	SAY NAME1 @73
-	SAY UNIDENTIFIED_DESC @74
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds62.itm~ ~override~
-	SAY NAME2 @73
-	SAY DESC @74
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ANTIMAGIC_SHELL~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_ANTIMAGIC_SHELL~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds62.itm~ ~override~
+		SAY NAME2 @73
+		SAY DESC @74
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi62.spl~ 2 6 ~WIZARD_ANTIMAGIC_SHELL~
+		SAY NAME1 @73
+		SAY UNIDENTIFIED_DESC @74
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds62.itm~ ~override~
+		SAY NAME2 @73
+		SAY DESC @74
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi72.spl~ 2 7 ~WIZARD_MASS_CHARM~
-	SAY NAME1 @79
-	SAY UNIDENTIFIED_DESC @80
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds72.itm~ ~override~
-	SAY NAME2 @79
-	SAY DESC @80
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MASS_CHARM~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_MASS_CHARM~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds72.itm~ ~override~
+		SAY NAME2 @79
+		SAY DESC @80
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi72.spl~ 2 7 ~WIZARD_MASS_CHARM~
+		SAY NAME1 @79
+		SAY UNIDENTIFIED_DESC @80
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds72.itm~ ~override~
+		SAY NAME2 @79
+		SAY DESC @80
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi74.spl~ 2 7 ~WIZARD_VESTCAKES_FLOATING_CURSE~
-	SAY NAME1 @83
-	SAY UNIDENTIFIED_DESC @84
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds74.itm~ ~override~
-	SAY NAME2 @83
-	SAY DESC @84
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_VESTCAKES_FLOATING_CURSE~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_VESTCAKES_FLOATING_CURSE~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds74.itm~ ~override~
+		SAY NAME2 @83
+		SAY DESC @84
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi74.spl~ 2 7 ~WIZARD_VESTCAKES_FLOATING_CURSE~
+		SAY NAME1 @83
+		SAY UNIDENTIFIED_DESC @84
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds74.itm~ ~override~
+		SAY NAME2 @83
+		SAY DESC @84
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi81.spl~ 2 8 ~WIZARD_INFERNAL_COMBUSTION_ENIGMA~
-	SAY NAME1 @85
-	SAY UNIDENTIFIED_DESC @86
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds81.itm~ ~override~
-	SAY NAME2 @85
-	SAY DESC @86
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_INFERNAL_COMBUSTION_ENIGMA~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_INFERNAL_COMBUSTION_ENIGMA~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds81.itm~ ~override~
+		SAY NAME2 @85
+		SAY DESC @86
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi81.spl~ 2 8 ~WIZARD_INFERNAL_COMBUSTION_ENIGMA~
+		SAY NAME1 @85
+		SAY UNIDENTIFIED_DESC @86
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds81.itm~ ~override~
+		SAY NAME2 @85
+		SAY DESC @86
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi84.spl~ 2 8 ~WIZARD_THUNDER_BOLT~
-	SAY NAME1 @49
-	SAY UNIDENTIFIED_DESC @91
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds84.itm~ ~override~
-	SAY NAME2 @49
-	SAY DESC @91
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_THUNDER_BOLT~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_THUNDER_BOLT~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds84.itm~ ~override~
+		SAY NAME2 @49
+		SAY DESC @91
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi84.spl~ 2 8 ~WIZARD_THUNDER_BOLT~
+		SAY NAME1 @49
+		SAY UNIDENTIFIED_DESC @91
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds84.itm~ ~override~
+		SAY NAME2 @49
+		SAY DESC @91
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
-ADD_SPELL ~DSotSC/base/spl/dsspwi85.spl~ 2 8 ~WIZARD_VARASHARS_LIFE_DRAIN~
-	SAY NAME1 @92
-	SAY UNIDENTIFIED_DESC @93
-	SPRINT spell ~%DEST_RES%~
-COPY ~DSotSC/base/itm/scrlds85.itm~ ~override~
-	SAY NAME2 @92
-	SAY DESC @93
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_VARASHARS_LIFE_DRAIN~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_VARASHARS_LIFE_DRAIN~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY ~DSotSC/base/itm/scrlds85.itm~ ~override~
+		SAY NAME2 @92
+		SAY DESC @93
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END ELSE BEGIN
+	ADD_SPELL ~DSotSC/base/spl/dsspwi85.spl~ 2 8 ~WIZARD_VARASHARS_LIFE_DRAIN~
+		SAY NAME1 @92
+		SAY UNIDENTIFIED_DESC @93
+		SPRINT spell ~%DEST_RES%~
+	COPY ~DSotSC/base/itm/scrlds85.itm~ ~override~
+		SAY NAME2 @92
+		SAY DESC @93
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+END
 
 ACTION_DEFINE_ASSOCIATIVE_ARRAY add_area_itemScrollsVanilla BEGIN
 	1 , "SCRLDS22" , 0 , 0 , 0 , 11 => "%CloakwoodMines_L3%"
@@ -2358,94 +2540,159 @@ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_FAERIE_FIRE~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr143.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ //Druid
+		SAY NAME1 @30008
+		SAY UNIDENTIFIED_DESC @30009
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr143.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ //Druid
-	SAY NAME1 @30008
-	SAY UNIDENTIFIED_DESC @30009
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CAUSE_LIGHT_WOUNDS~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr145.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~ //Cleric and Druid
+		SAY NAME1 @3
+		SAY UNIDENTIFIED_DESC @4
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr145.spl~ 1 1 ~CLERIC_CAUSE_LIGHT_WOUNDS~ //Cleric and Druid
-	SAY NAME1 @3
-	SAY UNIDENTIFIED_DESC @4
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_FIRE_BOLT~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr146.spl~ 1 1 ~CLERIC_FIRE_BOLT~ //Druid
+		SAY NAME1 @5
+		SAY UNIDENTIFIED_DESC @6
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr146.spl~ 1 1 ~CLERIC_FIRE_BOLT~ //Druid
-	SAY NAME1 @5
-	SAY UNIDENTIFIED_DESC @6
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_ARMOR_MELT~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr147.spl~ 1 1 ~CLERIC_ARMOR_MELT~ //Cleric
+		SAY NAME1 @7
+		SAY UNIDENTIFIED_DESC @8
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr147.spl~ 1 1 ~CLERIC_ARMOR_MELT~ //Cleric
-	SAY NAME1 @7
-	SAY UNIDENTIFIED_DESC @8
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CAUSE_MODERATE_WOUNDS~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr245.spl~ 1 2 ~CLERIC_CAUSE_MODERATE_WOUNDS~ //Cleric and Druid
+		SAY NAME1 @9
+		SAY UNIDENTIFIED_DESC @10
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr245.spl~ 1 2 ~CLERIC_CAUSE_MODERATE_WOUNDS~ //Cleric and Druid
-	SAY NAME1 @9
-	SAY UNIDENTIFIED_DESC @10
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_SPARKS~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr246.spl~ 1 2 ~CLERIC_SPARKS~ //Druid
+		SAY NAME1 @12
+		SAY UNIDENTIFIED_DESC @13
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr246.spl~ 1 2 ~CLERIC_SPARKS~ //Druid
-	SAY NAME1 @12
-	SAY UNIDENTIFIED_DESC @13
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_WARD_OF_PROTECTION~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr247.spl~ 1 2 ~CLERIC_WARD_OF_PROTECTION~ //Cleric
+		SAY NAME1 @14
+		SAY UNIDENTIFIED_DESC @15
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr247.spl~ 1 2 ~CLERIC_WARD_OF_PROTECTION~ //Cleric
-	SAY NAME1 @14
-	SAY UNIDENTIFIED_DESC @15
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CAUSE_DISEASE~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr316.spl~ 1 3 ~CLERIC_CAUSE_DISEASE~ //Cleric and Druid
+		SAY NAME1 @30010
+		SAY UNIDENTIFIED_DESC @30011
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr316.spl~ 1 3 ~CLERIC_CAUSE_DISEASE~ //Cleric and Druid
-	SAY NAME1 @30010
-	SAY UNIDENTIFIED_DESC @30011
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_PAIN~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr345.spl~ 1 3 ~CLERIC_PAIN~ //Cleric and Druid
+		SAY NAME1 @17
+		SAY UNIDENTIFIED_DESC @18
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr345.spl~ 1 3 ~CLERIC_PAIN~ //Cleric and Druid
-	SAY NAME1 @17
-	SAY UNIDENTIFIED_DESC @18
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_ARMOR_OF_DARKNESS~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr346.spl~ 1 3 ~CLERIC_ARMOR_OF_DARKNESS~ //Cleric
+		SAY NAME1 @19
+		SAY UNIDENTIFIED_DESC @20
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr346.spl~ 1 3 ~CLERIC_ARMOR_OF_DARKNESS~ //Cleric
-	SAY NAME1 @19
-	SAY UNIDENTIFIED_DESC @20
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_POISON_SPRAY~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr445.spl~ 1 4 ~CLERIC_POISON_SPRAY~ //Druid
+		SAY NAME1 @22
+		SAY UNIDENTIFIED_DESC @23
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr445.spl~ 1 4 ~CLERIC_POISON_SPRAY~ //Druid
-	SAY NAME1 @22
-	SAY UNIDENTIFIED_DESC @23
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_MIELIKKIS_BLADE~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr446.spl~ 1 4 ~CLERIC_MIELIKKIS_BLADE~ //Druid
+		SAY NAME1 @24
+		SAY UNIDENTIFIED_DESC @25
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr446.spl~ 1 4 ~CLERIC_MIELIKKIS_BLADE~ //Druid
-	SAY NAME1 @24
-	SAY UNIDENTIFIED_DESC @25
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_BLADES~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~ //Druid
+		SAY NAME1 @26
+		SAY UNIDENTIFIED_DESC @27
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr545.spl~ 1 5 ~CLERIC_BLADES~ //Druid
-	SAY NAME1 @26
-	SAY UNIDENTIFIED_DESC @27
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_SELUNES_BLESSING~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~ //Cleric
+		WRITE_LONG 0x8 ~22633~
+		SAY UNIDENTIFIED_DESC @28
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr546.spl~ 1 5 ~CLERIC_SELUNES_BLESSING~ //Cleric
-	WRITE_LONG 0x8 ~22633~
-	SAY UNIDENTIFIED_DESC @28
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CALL_UNDEAD~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~ //Cleric
+		SAY NAME1 @29
+		SAY UNIDENTIFIED_DESC @30
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr547.spl~ 1 5 ~CLERIC_CALL_UNDEAD~ //Cleric
-	SAY NAME1 @29
-	SAY UNIDENTIFIED_DESC @30
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_TRANSPORT_VIA_PLANTS~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr548.spl~ 1 5 ~CLERIC_TRANSPORT_VIA_PLANTS~ //Druid
+		SAY NAME1 @31
+		SAY UNIDENTIFIED_DESC @32
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr548.spl~ 1 5 ~CLERIC_TRANSPORT_VIA_PLANTS~ //Druid
-	SAY NAME1 @31
-	SAY UNIDENTIFIED_DESC @32
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CHOKING_VINES~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr649.spl~ 1 6 ~CLERIC_CHOKING_VINES~ //Druid
+		SAY NAME1 @37
+		SAY UNIDENTIFIED_DESC @38
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr649.spl~ 1 6 ~CLERIC_CHOKING_VINES~ //Druid
-	SAY NAME1 @37
-	SAY UNIDENTIFIED_DESC @38
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_LIFE_STEAL~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~ //Cleric
+		SAY NAME1 @39
+		SAY UNIDENTIFIED_DESC @40
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr650.spl~ 1 6 ~CLERIC_LIFE_STEAL~ //Cleric
-	SAY NAME1 @39
-	SAY UNIDENTIFIED_DESC @40
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_AURA_OF_PROTECTION~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr739.spl~ 1 7 ~CLERIC_AURA_OF_PROTECTION~ //Cleric
+		SAY NAME1 @43
+		SAY UNIDENTIFIED_DESC @44
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr739.spl~ 1 7 ~CLERIC_AURA_OF_PROTECTION~ //Cleric
-	SAY NAME1 @43
-	SAY UNIDENTIFIED_DESC @44
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_DARK_RITUAL~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr740.spl~ 1 7 ~CLERIC_DARK_RITUAL~ //Cleric
+		SAY NAME1 @45
+		SAY UNIDENTIFIED_DESC @46
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr740.spl~ 1 7 ~CLERIC_DARK_RITUAL~ //Cleric
-	SAY NAME1 @45
-	SAY UNIDENTIFIED_DESC @46
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_SUMMON_SIRINE~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr755.spl~ 1 7 ~CLERIC_SUMMON_SIRINE~ //Druid
+		SAY NAME1 @47
+		SAY UNIDENTIFIED_DESC @48
+END
 
-ADD_SPELL ~DSotSC/base/spl/sppr755.spl~ 1 7 ~CLERIC_SUMMON_SIRINE~ //Druid
-	SAY NAME1 @47
-	SAY UNIDENTIFIED_DESC @48
-
-ADD_SPELL ~DSotSC/base/spl/sppr756.spl~ 1 7 ~CLERIC_THUNDER_BOLT~ //Druid
-	SAY NAME1 @49
-	SAY UNIDENTIFIED_DESC @50
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_THUNDER_BOLT~)
+ACTION_IF (spell_num < 0) BEGIN
+	ADD_SPELL ~DSotSC/base/spl/sppr756.spl~ 1 7 ~CLERIC_THUNDER_BOLT~ //Druid
+		SAY NAME1 @49
+		SAY UNIDENTIFIED_DESC @50
+END
 
 COMPILE ~DSotSC/base/baf/spell_cleric~ EVALUATE_BUFFER USING ~DSotSC/language/%LANGUAGE%/baf.tra~
 
