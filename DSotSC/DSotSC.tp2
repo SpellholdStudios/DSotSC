@@ -2209,6 +2209,16 @@ ACTION_IF (spell_num > 0) BEGIN
 		SAY DESC @59
 		WRITE_ASCIIE 0xf6 ~%spell%~ #8
 		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	//special-case Darkness, 15' if it comes from SoD through EET or the BG2EE Fixpack, with a hidespl.2da entry
+	COPY_EXISTING ~hidespl.2da~ ~override~
+		COUNT_2DA_COLS hidesplcolcount
+		COUNT_2DA_ROWS hidesplcolcount hidesplrowcount
+		FOR (row=0; row < hidesplrowcount; ++row) BEGIN
+			READ_2DA_ENTRY row 0 hidesplcolcount hiddenspell
+			PATCH_IF ~%hiddenspell%~ STR_EQ ~%spell%~ BEGIN
+				SET_2DA_ENTRY row 1 hidesplcolcount 0
+			END
+		END
 END ELSE BEGIN
 	ADD_SPELL ~DSotSC/base/spl/dsspwi23.spl~ 2 2 ~WIZARD_DARKNESS_15_FOOT~
 		SAY NAME1 @58
@@ -2547,6 +2557,20 @@ ACTION_IF (spell_num < 0) BEGIN
 	ADD_SPELL ~DSotSC/base/spl/sppr143.spl~ 1 1 ~CLERIC_FAERIE_FIRE~ //Druid
 		SAY NAME1 @30008
 		SAY UNIDENTIFIED_DESC @30009
+END ELSE BEGIN	//special-case Faerie Fire if it comes from SoD through EET or the BG2EE Fixpack, with a hidespl.2da entry
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~CLERIC_FAERIE_FIRE~
+		RET spell_num = spell_num spell = spell_res
+	END
+	COPY_EXISTING ~hidespl.2da~ ~override~
+		COUNT_2DA_COLS hidesplcolcount
+		COUNT_2DA_ROWS hidesplcolcount hidesplrowcount
+		FOR (row=0; row < hidesplrowcount; ++row) BEGIN
+			READ_2DA_ENTRY row 0 hidesplcolcount hiddenspell
+			PATCH_IF ~%hiddenspell%~ STR_EQ ~%spell%~ BEGIN
+				SET_2DA_ENTRY row 1 hidesplcolcount 0
+			END
+		END
 END
 
 OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CAUSE_LIGHT_WOUNDS~)
