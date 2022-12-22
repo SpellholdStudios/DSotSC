@@ -164,6 +164,7 @@ LANGUAGE
 BEGIN ~Dark Side of the Sword Coast (DSotSC)~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
+LABEL SHS-DSOTSC-TRILOGY-MAIN
 
 /////                                                  \\\\\
 ///// install journal strings                          \\\\\
@@ -2126,6 +2127,7 @@ COPY	~DSotSC/base/portraits/l~ ~override~
 BEGIN ~DSotSC Wizard spells~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+LABEL SHS-DSOTSC-TRILOGY-WIZARD-SPELLS
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
 OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ORB_OF_AIR~)
@@ -2538,6 +2540,7 @@ COPY_EXISTING ~dsmortus.cre~ ~override~
 BEGIN ~DSotSC Priest spells~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+LABEL SHS-DSOTSC-TRILOGY-PRIEST-SPELLS
 
 //add spells (type: 1 = sppr, 2 = spwi, 3 = spin, 4 = spcl)
 OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_FAERIE_FIRE~)
@@ -2710,6 +2713,7 @@ COPY_EXISTING ~dsarchdr.cre~ ~override~
 BEGIN ~More common encounters in vanilla areas~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+LABEL SHS-DSOTSC-TRILOGY-MORE-ENCOUNTERS
 
 //install creatures
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~kobold02.cre~ BEGIN
@@ -2800,6 +2804,7 @@ EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar6600.baf~ EV
 BEGIN ~Distribute DSotSC items also in vanilla content~
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+LABEL SHS-DSOTSC-TRILOGY-ITEMS
 
 // Modify existing creatures
 
