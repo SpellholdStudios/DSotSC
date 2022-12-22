@@ -280,8 +280,8 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",3)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
@@ -294,9 +294,9 @@ THEN
 	RESPONSE #100
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[849.169],0) // Chill Hobgoblin - Hobgoblin
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
 
@@ -306,9 +306,9 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",5)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
-		CreateCreature("HOBARC03",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
+		CreateCreature("HOBARC01",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[849.169],0) // Hobgoblin
@@ -326,9 +326,9 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",3)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
 
@@ -338,11 +338,11 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",4)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
 
@@ -356,12 +356,12 @@ THEN
 		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1816.3040],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
-		CreateCreature("HOBARC03",[1816.3040],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1816.3040],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[1816.3040],0) // Chill Hobgoblin - Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
@@ -372,8 +372,8 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",3)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
 END
@@ -384,9 +384,9 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",4)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOBC",[1313.1758],0) // Chill Hobgoblin - Hobgoblin
 		IncrementGlobal("RandomSpawn","GLOBAL",1)
@@ -398,9 +398,9 @@ IF
 	GlobalLT("RandomSpawn","GLOBAL",5)
 THEN
 	RESPONSE #100
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
-		CreateCreature("HOBARC03",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
+		CreateCreature("HOBARC01",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
 		CreateCreature("HOBGOA_C",[1313.1758],0) // Hobgoblin
