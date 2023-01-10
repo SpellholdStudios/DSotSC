@@ -240,7 +240,7 @@ BUT_ONLY
 
 //future update:
 //OUTER_SET strref = RESOLVE_STR_REF (@40000)
-//@40000 = ~CúChoinneach refuse to part with his personal equipment.~
+//@40000 = ~Cï¿½Choinneach refuse to part with his personal equipment.~
 //DSMADDIE CUCHOINNEACH %strref% 3
 
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
@@ -2219,6 +2219,7 @@ ACTION_IF (spell_num > 0) BEGIN
 				SET_2DA_ENTRY row 1 hidesplcolcount 0
 			END
 		END
+	BUT_ONLY IF_EXISTS
 END ELSE BEGIN
 	ADD_SPELL ~DSotSC/base/spl/dsspwi23.spl~ 2 2 ~WIZARD_DARKNESS_15_FOOT~
 		SAY NAME1 @58
@@ -2571,6 +2572,7 @@ END ELSE BEGIN	//special-case Faerie Fire if it comes from SoD through EET or th
 				SET_2DA_ENTRY row 1 hidesplcolcount 0
 			END
 		END
+	BUT_ONLY IF_EXISTS
 END
 
 OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~CLERIC_CAUSE_LIGHT_WOUNDS~)
