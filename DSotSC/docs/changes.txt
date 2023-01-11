@@ -1,3 +1,11 @@
+Version 4.2 (by Graion Dilach)
+- better spell compatibility against SoD/EET, SR and IWDification
+- fix primary character levels overwriting secondary classes
+- fix Slythe weaponry
+- substitute a TDD monster reference with vanilla one in the More encounters component
+- add Project Infinity label support
+- typo corrections
+
 Version 4.1 (by Roberciiik)
 - Revised Polish version
 - typo corrections
