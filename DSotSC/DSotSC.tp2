@@ -30,7 +30,7 @@ DSDAGG01.ITM
 BACKUP ~DSotSC/backup~
 //AUTHOR ~~
 SUPPORT ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~v4.2~ //
+VERSION ~v4.2~
 README ~DSotSC/docs/readme.%LANGUAGE%.dsotsc.txt~ ~DSotSC/docs/readme.english.dsotsc.txt~
 AUTO_TRA ~DSotSC/language/%s/D~
 ASK_EVERY_COMPONENT
