@@ -1,0 +1,124 @@
+/////                                                  \\\\\
+///// cuchoin.d                                        \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @7
+@90000 = ~Gillian's Ghastkill baby
+
+We have decided to join up with an elf named CúChoinneach. He seems to think that we may be able to find the Ghastkill baby in a citadel that lies to the south.~
+
+/////                                                  \\\\\
+///// dsgilian.d                                       \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @25
+@90100 = ~Gillian's Ghastkill baby
+
+We have been asked by Gillian Ghastkill to help her find her baby. She found him missing this morning and really has not a clue as to his whereabouts. She told us about the child's nanny, a half-elf from Calimshan. However, she could not tell us much about her. The last she had seen her was last evening when she went home for the evening. We asked Mrs. Ghastkill were the girl lived, but she did not know that either. She is just far too trusting...~
+
+//SOLVED_JOURNAL, @35
+@90101 = ~Gillian's Ghastkill baby
+
+We returned the Ghastkill baby to his mother. She was very glad to see him. Clairis was obviously under a spell. It's too bad that no one knows if she had any family.~
+
+/////                                                  \\\\\
+///// dsjaren.d                                        \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @15
+@90200 = ~Dragon hunt
+
+Jarent, a Morninglord of Lathander has asked us to recover a relic that is very important to the temple. He told us that the relic was stolen by a young forest dragon. He also told us that this dragon could be found in the area east of the Nashkell Mine. Finally a chance to face a dragon!~
+
+//SOLVED_JOURNAL, @21
+@90201 = ~Dragon hunt
+
+We returned the relic to Jarent and he told us to seek him out if we ever needed anything from him or the Temple of the Morning Sun. I will have to remember that in the future.~
+
+//JOURNAL, @26
+@90202 = ~We went to the Song of the Morning Temple and asked Morninglord Jarent to bless our mace for us. He said he was pleased to do it for us. Somehow now I feel much more confidence in myself and I know we will find the Mayor's son now.~
+
+/////                                                  \\\\\
+///// dsjeremy.d                                       \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @17
+@90300 = ~Dragon hunt
+
+Jeremy, assistant to the Mayor of Nashkell asked us to protect the town from this dragon that has been ravaging the countryside. We agreed to do it and are on our way.~
+
+//UNSOLVED_JOURNAL / JOURNAL, @23
+@90301 = ~Dragon hunt
+
+When we returned to Nashkell, Jeremy was there to greet us. Heh, he is such an odd character. But he seemed nice enough. I wonder if he is related to Noober?~
+
+/////                                                  \\\\\
+///// dslennan.d                                       \\\\\
+/////                                                  \\\\\
+
+//SOLVED_JOURNAL, @5
+@90400 = ~Jet'Laya's missing sister
+
+We had to deliver some bad news to the uncle of Ferium, an elven maid from Cormanthor. His niece had been transformed into a horrible banshee and my party was forced to kill her. It was the best thing to do. Her spirit can now rest in peace. However, I didn't have the heart to tell Lennan the horrible truth, just that she is now in a happier place. We returned the amulet that her lover had given to her. I don't know what the circumstances were in that relationship, but I hope that he is made aware of the broken heart that he had given to Ferium. Lennan seemed very grateful to us and gave us a letter to take to a dwarven smithy by the name of Otho that was visiting the Thunderhammer Smithy. He told us that this long time friend of his would create for us a weapon that would be of great importance to us in the future. What he meant by that I don't know, but I'm sure I will find out.~
+
+//SOLVED_JOURNAL, @7
+@90401 = ~Jet'Laya's missing sister
+
+Well we told Lennan that his niece was dead. He didn't seem to take it well...but, I guess that's understandable. Anyway, he gave us a letter to take to a dwarven smithy by the name of Otho that was visiting the Thunderhammer Smithy. He told us that this long time friend of his would create for us a weapon that would be of great importance to us in the future. What did he mean by that? I wish people would just come out and say what they mean instead of speaking so mystical all the time....shesh.~
+
+/////                                                  \\\\\
+///// dsnorby.d                                        \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @2
+@90500 = ~Dragon hunt
+
+A strange fellow just told us that the dragon that we were just sent to fight by Morninglord Jarent, was in the city of Nashkel. However, Morninglord Jarent told us that it was still some distance from Nashkel. Oh well, perhaps we should go check it out, just to be sure.~
+
+/////                                                  \\\\\
+///// dsotho.d                                         \\\\\
+/////                                                  \\\\\
+
+//JOURNAL, @4
+@90600 = ~Otho Truehammer is creating a mace for us. He hinted that there was a lot of mystery about the reasons for making it. I don't really understand what all this is about. But I suppose time will tell.~
+
+//JOURNAL, @6
+@90601 = ~We went a picked up the mace that Otho crafted for us. I have to say it is one of the finest weapons I think I have ever seen. I'm sure it will be very useful.~
+
+//UNSOLVED_JOURNAL, @24
+@90602 = ~Otho's missing nephew
+
+We agreed to help Otho, the dwarven smithy who made our fine mace. It seems that his nephew has been missing for a few days and he wants us to find him. He said that he was last seen south of Beregost at the mountain pass just before Nashkell. The orcs that attacked the group are camped in the area.~
+
+//SOLVED_JOURNAL, @30
+@90603 = ~Otho's missing nephew
+
+We had to be the bearer of bad news to Otho. His nephew, Tearlac, died when his group was jumped a few days ago by a group of orcs. He seemed to handled the news well, but I could tell that the old dwarf was very sad to know that his nephew was gone. At least he has the knowledge that his nephew died fighting bravely. On a different note, it appears that the orc encampment was really a guard post set up at the entrance of a mining complex that was being operated by an army of duergar and in charge of the whole operation was Bregan D'aerthe, a mercenary group of drow elves. The drow that was calling the shots was named Shar Nadal and he referred to someone by the name of, Jarlaxle. I don't know who this Jarlaxle is and I bet he's not someone I would like to meet anytime soon. It seems that the Bregan D'aerthe had a hand in creating that strange liquid that was used to poison the iron of the Sword Coast and somehow have connections to the Iron Throne. This is a very serious matter indeed if the drow are involved.~
+
+/////                                                  \\\\\
+///// ferthg.d                                         \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @16
+@90700 = ~Otho's missing nephew
+
+We have decided to help a dwarf by the name of Ferthgil investigate these mines and warrens that lie beneath the Sword Coast. It is indeed very strange why this place is here and who or what is behind it.~
+
+/////                                                  \\\\\
+///// jetla.d                                          \\\\\
+/////                                                  \\\\\
+
+//UNSOLVED_JOURNAL, @11
+@90800 = ~Jet'Laya's missing sister
+
+We have decided to help a young elven cleric by the name of Jet'Laya find her missing sister. She has told us that she thinks her sister is in the wooded area east of Peldvale. She said that her uncle would be waiting at the Jovial Juggler in Beregost and should return there as soon as we have found Ferium.~
+
+/////                                                  \\\\\
+///// elmin3.d                                         \\\\\
+/////                                                  \\\\\
+
+//JOURNAL, @5
+@91000 = ~Well once again I met that eccentric but helpful old sage! He placed an enchantment on the mace that Otho made for us. This mace seems to very important. Elminster suggested that I have someone bless it as well. But who do I know that could do this? Hmm, perhaps the Morninglord that wanted his relic returned from the dragon could help?~
+
+//JOURNAL, @7
+@91001 = ~Well once again that weird old man came around pestering me. He says that he is not trying to influence me or interfere with my chosen path and yet he placed an enchantment on the mace that Otho made for us. He told me that it was necessary because of the great evil that I was about to face. I don't need his help or anyone else's. Whatever this great evil is I'm sure that I can take care of myself. Elminster suggested that I have someone bless it as well. Who do I know that could do that? Hmm, maybe that old man from the Temple east of Beregost that wanted his relic returned from the dragon would do it?~

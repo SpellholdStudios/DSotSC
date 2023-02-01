@@ -141,6 +141,17 @@ LANGUAGE
 	~DSotSC/language/polish/setup.tra~
 	~DSotSC/language/polish/soundsets.tra~
 	~DSotSC/language/polish/journal.tra~
+LANGUAGE
+	~French~
+	~french~
+	~DSotSC/language/english/prompts.tra~
+	~DSotSC/language/english/setup.tra~
+	~DSotSC/language/english/soundsets.tra~
+	~DSotSC/language/english/journal.tra~
+	~DSotSC/language/french/prompts.tra~
+	~DSotSC/language/french/setup.tra~
+	~DSotSC/language/french/soundsets.tra~
+	~DSotSC/language/french/journal.tra~
 
 /*
 LANGUAGE

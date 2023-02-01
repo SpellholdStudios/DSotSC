@@ -1,0 +1,8 @@
+//DSCOFF1.baf; DSCOFF2.baf
+@0 = ~The vampire retreated to this coffin once you defeated it. If you have a wooden stake, you can try to kill it.~
+@1 = ~You pound the stake through the vampire's foul heart. The creature shall prey no more on the blood of others.~
+@2 = ~The vampire is truly dead and the coffin reeks of carrion. There is nothing else you can do with it.~
+@3 = ~You are too far away to use that.~
+
+//DSDUEGWA.BAF
+@10 = ~Alert! Intruders!~
