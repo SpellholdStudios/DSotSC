@@ -3,122 +3,122 @@
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @7
-@90000 = ~Gillian's Ghastkill baby
+@90000 = ~Le nouveau né de Gillian Tuemort
 
-We have decided to join up with an elf named CúChoinneach. He seems to think that we may be able to find the Ghastkill baby in a citadel that lies to the south.~
+Nous avons décidé de faire équipe avec un elfe nommé CúChoinneach. Il semble penser que nous pourrions trouver le bébé Tuemort dans une citadelle qui se trouve au sud.~
 
 /////                                                  \\\\\
 ///// dsgilian.d                                       \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @25
-@90100 = ~Gillian's Ghastkill baby
+@90100 = ~Le nouveau né de Gillian Tuemort
 
-We have been asked by Gillian Ghastkill to help her find her baby. She found him missing this morning and really has not a clue as to his whereabouts. She told us about the child's nanny, a half-elf from Calimshan. However, she could not tell us much about her. The last she had seen her was last evening when she went home for the evening. We asked Mrs. Ghastkill were the girl lived, but she did not know that either. She is just far too trusting...~
+Gillian Tuemort nous a demandés de l'aider à retrouver son bébé. Elle a découvert sa disparition ce matin et n'a vraiment aucune idée de l'endroit où il peut être. Elle nous a parlés de la nounou de son enfant, une demi-elfe de Calimshan. Cependant elle n'a pas pu nous apprendre grand-chose sur la nounou. La dernière fois que Mme Tuemort a vu la demi-elfe était hier soir quand elle est rentrée chez elle. Nous avons demandé à Mme Tuemort où la fille vivait mais elle ne le savait pas non plus. Elle a bien trop confiance.~
 
 //SOLVED_JOURNAL, @35
-@90101 = ~Gillian's Ghastkill baby
+@90101 = ~Le nouveau né de Gillian Tuemort
 
-We returned the Ghastkill baby to his mother. She was very glad to see him. Clairis was obviously under a spell. It's too bad that no one knows if she had any family.~
+Nous avons ramené le bébé Tuemort à sa mère. Elle était très heureuse de le revoir. Clairis était manifestement sous l'emprise d'un sortilège. Quel dommage que personne ne sache si elle avait de la famille.~
 
 /////                                                  \\\\\
 ///// dsjaren.d                                        \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @15
-@90200 = ~Dragon hunt
+@90200 = ~Chasseur de dragon
 
-Jarent, a Morninglord of Lathander has asked us to recover a relic that is very important to the temple. He told us that the relic was stolen by a young forest dragon. He also told us that this dragon could be found in the area east of the Nashkell Mine. Finally a chance to face a dragon!~
+Jarent, un Seigneur de l'Aube de Lathandre, nous a demandé de retrouver une relique très importante pour le temple. Il nous a dit que la relique avait été dérobée par un jeune dragon des fôrets. Il nous a aussi indiqué que le dragon pouvait se trouver dans la zone à l'est des mines de Nashkel. Enfin une chance d'affronter un dragon !~
 
 //SOLVED_JOURNAL, @21
-@90201 = ~Dragon hunt
+@90201 = ~Chasseur de dragon
 
-We returned the relic to Jarent and he told us to seek him out if we ever needed anything from him or the Temple of the Morning Sun. I will have to remember that in the future.~
+Vous avons ramené la relique à Jarent et il nous a dit de venir le trouver si jamais nous avions besoin de quelque chose de sa part ou du Temple de la Chanson du Matin. Il faudra que je m'en souvienne à l'avenir.~
 
 //JOURNAL, @26
-@90202 = ~We went to the Song of the Morning Temple and asked Morninglord Jarent to bless our mace for us. He said he was pleased to do it for us. Somehow now I feel much more confidence in myself and I know we will find the Mayor's son now.~
+@90202 = ~Nous sommes allés au Temple de la Chanson du matin et avons demandé au Seigneur de l'Aube Jarent de bénir notre masse. Il a dit qu'il était ravi de le faire pour nous. D'une certaine façon, je me sens désormais bien plus en confiance et je sais que nous trouverons le fils du maire à présent.~
 
 /////                                                  \\\\\
 ///// dsjeremy.d                                       \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @17
-@90300 = ~Dragon hunt
+@90300 = ~Chasseur de dragon
 
-Jeremy, assistant to the Mayor of Nashkell asked us to protect the town from this dragon that has been ravaging the countryside. We agreed to do it and are on our way.~
+Jeremy, l'adjoint au Maire de Nashkel, nous a demandé de protéger la ville d'un dragon qui est en train de ravager la campagne. Nous avons accepté et sommes en chemin.~
 
 //UNSOLVED_JOURNAL / JOURNAL, @23
-@90301 = ~Dragon hunt
+@90301 = ~Chasseur de dragon
 
-When we returned to Nashkell, Jeremy was there to greet us. Heh, he is such an odd character. But he seemed nice enough. I wonder if he is related to Noober?~
+Quand nous sommes revenus à Nashkel, Jeremy était là pour nous accueillir. Hé, c'est vraiment un drôle d'individu. Mais il a l'air assez gentil. Je me demande s'il est de la famille de Noober ?~
 
 /////                                                  \\\\\
 ///// dslennan.d                                       \\\\\
 /////                                                  \\\\\
 
 //SOLVED_JOURNAL, @5
-@90400 = ~Jet'Laya's missing sister
+@90400 = ~La sœur disparue de Jet'Laya
 
-We had to deliver some bad news to the uncle of Ferium, an elven maid from Cormanthor. His niece had been transformed into a horrible banshee and my party was forced to kill her. It was the best thing to do. Her spirit can now rest in peace. However, I didn't have the heart to tell Lennan the horrible truth, just that she is now in a happier place. We returned the amulet that her lover had given to her. I don't know what the circumstances were in that relationship, but I hope that he is made aware of the broken heart that he had given to Ferium. Lennan seemed very grateful to us and gave us a letter to take to a dwarven smithy by the name of Otho that was visiting the Thunderhammer Smithy. He told us that this long time friend of his would create for us a weapon that would be of great importance to us in the future. What he meant by that I don't know, but I'm sure I will find out.~
+Nous avons dû apporter de mauvaises nouvelles à l'oncle de Férium, une jeune fille elfe de Cormanthor. Sa nièce avait été transformée en une horrible banshee et mon groupe a été forcé de la tuer. C'était la meilleure chose à faire. Son âme peut maintenant reposer en paix. Toutefois je n'ai pas eu le coeur de dire l'horrible vérité à Lennan, mais seulement qu'elle était maintenant dans un monde meilleur. Nous avons restitué l'amulette que l'amant de Férium lui avait donnée. Je ne sais pas ce qui s'est produit dans leurs relations mais j'espère qu'on lui fera savoir qu'il avait brisé le coeur de Férium. Lennan a semblé très reconnaissant à notre égard et nous a donné une lettre à apporter à un forgeron nain du nom d'Otho actuellement en visite à la forge de Grondemarteau. Il nous a dit que son ami de longue date nous forgerait une arme qui prendrait une grande importance pour nous à l'avenir. Que voulait-il dire par là, je l'ignore mais je le découvrirai bien.~
 
 //SOLVED_JOURNAL, @7
-@90401 = ~Jet'Laya's missing sister
+@90401 = ~La sœur disparue de Jet'Laya
 
-Well we told Lennan that his niece was dead. He didn't seem to take it well...but, I guess that's understandable. Anyway, he gave us a letter to take to a dwarven smithy by the name of Otho that was visiting the Thunderhammer Smithy. He told us that this long time friend of his would create for us a weapon that would be of great importance to us in the future. What did he mean by that? I wish people would just come out and say what they mean instead of speaking so mystical all the time....shesh.~
+Bon, nous avons annoncé à Lennan que sa nièce était morte. Il n'a pas semblé bien le prendre... mais je crois que c'est compréhensible. En tout cas il nous a donné une lettre à apporter à un forgeron nain du nom d'Otho actuellement en visite à la forge de Grondemarteau. Il nous a dit que son ami de longue date nous forgerait une arme qui prendrait une grande importance pour nous à l'avenir. Que voulait-il dire par là ? Je souhaiterais que les gens disent clairement ce qu'ils veulent dire au lieu de parler de façon si mystérieuse tout le temps... pfff.~
 
 /////                                                  \\\\\
 ///// dsnorby.d                                        \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @2
-@90500 = ~Dragon hunt
+@90500 = ~Chasseur de dragon
 
-A strange fellow just told us that the dragon that we were just sent to fight by Morninglord Jarent, was in the city of Nashkel. However, Morninglord Jarent told us that it was still some distance from Nashkel. Oh well, perhaps we should go check it out, just to be sure.~
+Un type étrange vient juste de nous dire que le dragon que le Seigneur de l'Aube Jarent nous a envoyé combattre était dans la ville de Nashkel. Pourtant le Seigneur de l'Aube Jarent nous avait dit qu'il était encore à bonne distance de Nashkel. Bon, peut-être que nous devrions aller vérifier, pour en être sûrs.~
 
 /////                                                  \\\\\
 ///// dsotho.d                                         \\\\\
 /////                                                  \\\\\
 
 //JOURNAL, @4
-@90600 = ~Otho Truehammer is creating a mace for us. He hinted that there was a lot of mystery about the reasons for making it. I don't really understand what all this is about. But I suppose time will tell.~
+@90600 = ~Otho Marteauloyal est en train de nous forger une masse. Il a laissé entendre qu'il y avait beaucoup de mystère autour des raisons de la fabriquer. Je ne comprends pas vraiment de quoi il est question. Mais je suppose que le temps le dira.~
 
 //JOURNAL, @6
-@90601 = ~We went a picked up the mace that Otho crafted for us. I have to say it is one of the finest weapons I think I have ever seen. I'm sure it will be very useful.~
+@90601 = ~Nous sommes allés chercher la masse qu'Otho a forgée pour nous. Je dois dire que c'est une des plus belles armes que j'ai jamais vue, je crois. Je suis certain qu'elle sera très utile.~ ~Nous sommes allés chercher la masse qu'Otho a forgée pour nous. Je dois dire que c'est une des plus belles armes que j'ai jamais vue, je crois. Je suis certaine qu'elle sera très utile.~
 
 //UNSOLVED_JOURNAL, @24
-@90602 = ~Otho's missing nephew
+@90602 = ~Retrouver neveu d'Otho
 
-We agreed to help Otho, the dwarven smithy who made our fine mace. It seems that his nephew has been missing for a few days and he wants us to find him. He said that he was last seen south of Beregost at the mountain pass just before Nashkell. The orcs that attacked the group are camped in the area.~
+Nous avons accepté d'aider Otho, le forgeron nain qui a fabriqué notre belle masse. Il semble que son neveu ait disparu depuis quelques jours et il veut que nous le retrouvions. Il a dit que son neveu avait été aperçu pour la dernière fois au sud de Bérégost à la passe de la montagne juste avant Nashkel. Les orques qui ont attaqué le groupe ont un campement dans les environs.~
 
 //SOLVED_JOURNAL, @30
-@90603 = ~Otho's missing nephew
+@90603 = ~Retrouver neveu d'Otho
 
-We had to be the bearer of bad news to Otho. His nephew, Tearlac, died when his group was jumped a few days ago by a group of orcs. He seemed to handled the news well, but I could tell that the old dwarf was very sad to know that his nephew was gone. At least he has the knowledge that his nephew died fighting bravely. On a different note, it appears that the orc encampment was really a guard post set up at the entrance of a mining complex that was being operated by an army of duergar and in charge of the whole operation was Bregan D'aerthe, a mercenary group of drow elves. The drow that was calling the shots was named Shar Nadal and he referred to someone by the name of, Jarlaxle. I don't know who this Jarlaxle is and I bet he's not someone I would like to meet anytime soon. It seems that the Bregan D'aerthe had a hand in creating that strange liquid that was used to poison the iron of the Sword Coast and somehow have connections to the Iron Throne. This is a very serious matter indeed if the drow are involved.~
+Il nous a fallu annoncer la mauvaise nouvelle à Otho. Son neveu, Tearlac, est mort quand son groupe a été agressé par une troupe d'orques il y a quelques jours. Il a semblé bien supporter la nouvelle, mais je pouvais deviner que le vieux nain était très triste d'apprendre la mort de son neveu. Au moins il a eu connaissance du fait que son neveu était mort en se battant avec courage. Par ailleurs il apparaît que le campement orque était en réalité un poste de garde établi à l'entrée d'un complexe minier qui était opéré par une armée de duergars, et en charge de l'opération se trouvait Bregan D'aerthe, un groupe mercenaire d'elfes noirs. Le drow qui menait le jeu se nommait Shar Nadal et il a fait référence à quelqu'un du nom de Jarlaxle. Je ne sais pas qui est ce Jarlaxle mais je parie que ce n'est pas quelqu'un que je voudrais rencontrer de sitôt. On dirait que les Bregan D'aerthe étaient impliqués dans la génèse de cet étrange liquide qui était employé pour empoisonner le fer de la Côte des Épées et qu'ils ont d'une façon ou d'une autre des liens avec le Trône de Fer. C'est une affaire très grave effectivement, si les drows sont impliqués.~
 
 /////                                                  \\\\\
 ///// ferthg.d                                         \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @16
-@90700 = ~Otho's missing nephew
+@90700 = ~Retrouver neveu d'Otho
 
-We have decided to help a dwarf by the name of Ferthgil investigate these mines and warrens that lie beneath the Sword Coast. It is indeed very strange why this place is here and who or what is behind it.~
+Nous avons décidé d'aider un nain du nom de Ferthgil à enquêter sur ces mines et terriers qui se situent sous la Côte des Épées. C'est en effet très étrange de trouver ici un tel endroit et je me demande qui ou quoi se cache derrière.~
 
 /////                                                  \\\\\
 ///// jetla.d                                          \\\\\
 /////                                                  \\\\\
 
 //UNSOLVED_JOURNAL, @11
-@90800 = ~Jet'Laya's missing sister
+@90800 = ~La sœur disparue de Jet'Laya
 
-We have decided to help a young elven cleric by the name of Jet'Laya find her missing sister. She has told us that she thinks her sister is in the wooded area east of Peldvale. She said that her uncle would be waiting at the Jovial Juggler in Beregost and should return there as soon as we have found Ferium.~
+Nous avons décidé d'aider une jeune prêtresse elfe nommée Jet'laya à trouver sa soeur disparue, Férium. Elle nous a indiqué qu'elle pensait que sa soeur était dans la zone boisée à l'est de Valpeld. Elle a dit que son oncle attendrait au Jongleur Jovial à Bérégost et qu'elle devrait y retourner dès que nous aurons trouvé Férium.~
 
 /////                                                  \\\\\
 ///// elmin3.d                                         \\\\\
 /////                                                  \\\\\
 
 //JOURNAL, @5
-@91000 = ~Well once again I met that eccentric but helpful old sage! He placed an enchantment on the mace that Otho made for us. This mace seems to very important. Elminster suggested that I have someone bless it as well. But who do I know that could do this? Hmm, perhaps the Morninglord that wanted his relic returned from the dragon could help?~
+@91000 = ~Bon, une nouvelle fois, j'ai rencontré ce vieux sage excentrique mais serviable ! Il a placé un enchantement sur la masse qu'Otho a faite pour nous. Cette masse semble être d'une grande importance. Elminster a suggéré que je la fasse aussi bénir par quelqu'un. Mais qui parmi mes connaissances pourrait le faire ? Hum, peut-être que le Seigneur de l'Aube qui voulait qu'on récupère sa relique des griffes du dragon pourrait m'aider ?~
 
 //JOURNAL, @7
-@91001 = ~Well once again that weird old man came around pestering me. He says that he is not trying to influence me or interfere with my chosen path and yet he placed an enchantment on the mace that Otho made for us. He told me that it was necessary because of the great evil that I was about to face. I don't need his help or anyone else's. Whatever this great evil is I'm sure that I can take care of myself. Elminster suggested that I have someone bless it as well. Who do I know that could do that? Hmm, maybe that old man from the Temple east of Beregost that wanted his relic returned from the dragon would do it?~
+@91001 = ~Bon, une nouvelle fois, ce vieil homme étrange est revenu m'importuner. Il dit qu'il n'essaie pas de m'influencer ni d'interférer dans la voie que j'ai choisie et pourtant il a placé un enchantement sur la masse qu'Otho a faite pour nous. Il m'a dit que c'était nécessaire en prévision du grand mal que j'étais sur le point d'affronter. Je n'ai pas besoin de son aide ni de celle de quiconque. Quel que soit ce grand mal, je suis sûr que je peux me débrouiller tout seul. Elminster a suggéré que je la fasse aussi bénir par quelqu'un. Qui parmi mes connaissances pourrait le faire ? Hum, peut-être que ce vieil homme du Temple à l'est de Bérégost qui voulait  qu'on récupère sa relique des griffes du dragon le ferait ?~

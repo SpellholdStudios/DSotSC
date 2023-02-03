@@ -1,90 +1,105 @@
-// WeiDU prompts
-@-1000 = ~The %TP2_FILE_NAME% mod has~
-@-1001 = ~distinct optional components.
-To save time, you can choose what to do with them at a high level rather
-than being asked about each one.
-~
-@-1002 = ~What should be done with all components that are NOT YET installed?
-[I]nstall them, [S]kip them, [A]sk about each one?~
-@-1003 = ~What should be done with all components that are ALREADY installed?
-[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one?~
 
-@-1004 = ~PLEASE email the file~
-@-1005 = ~to~
+/* =============== *
+ *  WeiDU prompts  *
+ * =============== */
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 
-@-1006 = ~Install Component [~
-@-1007 = ~]?
-[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? ~
-@-1008 = ~]?
-[I]nstall, or [N]ot Install or [Q]uit? ~
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
 
-@-1009 = ~Enter part of a module name: ~
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
 
-@-1010 = ~Re-Installing [~
-@-1011 = ~] component ~
-@-1012 = ~Re-Installing Using Language~
+@-1009= "Entrez une partie du nom du module : "
 
-@-1013 = ~Removing old installation of [~
-@-1014 = ~] first ...~
-@-1015 = ~SUCCESSFULLY REMOVED OLD~
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
 
-@-1016 = ~Installing~
-@-1017 = ~ERROR Installing [~
-@-1018 = ~], rolling back to previous state~
-@-1019 = ~SUCCESSFULLY INSTALLED ~
-@-1020 = ~Skipping~
-@-1021 = ~Removing [~
-@-1022 = ~] (component #~
-@-1023 = ~)~
-@-1024 = ~SUCCESSFULLY REMOVED [~
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
 
-@-1025 = ~]?
-[R]e-install, [N]o Change, [U]ninstall, [Q]uit or choose one:~
-@-1026 = ~]?
-[N]o, [Q]uit or choose one:~
-@-1027 = ~ (currently installed =~
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
 
-@-1028 = ~Would you like to display the components from [~
-@-1029 = ~]?
-[Y]es, [N]o? ~
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
 
-@-1030 = ~]?
-choose one:~
-@-1031 = ~]?
-[R]e-install, [N]o Change, [Q]uit or choose one:~
-@-1032 = ~NOT INSTALLED DUE TO ERRORS~
-@-1033 = ~INSTALLED WITH WARNINGS ~
-@-1034 = ~Would you like to display the readme? [Y]es [N]o~
-@-1035 = ~Using Language~
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
 
-@-1036 = ~Skipping GROUP [~
-@-1037 = ~] because it fails its requirements.~
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
 
-@-1038 = ~[A]sk about each component, [S]kip all, or choose a pre-defined selection:~
-@-1039 = ~[A]sk about each component, [R]einstall the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:~
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
 
-@-1040 = ~
-Please choose the language in which you wish to play the game.
-If you later wish to play the game in a different language you will need to edit the file weidu.conf and reinstall your mods.
-~
-@-1041 = ~Czech~
-@-1042 = ~German~
-@-1043 = ~English~
-@-1044 = ~Spanish~
-@-1045 = ~French~
-@-1046 = ~Italian~
-@-1047 = ~Polish~
-@-1048 = ~Portuguese~
-@-1049 = ~Turkish~
-@-1050 = ~Japanese~
-@-1051 = ~Korean~
-@-1052 = ~Simplified Chinese~
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
 
-@-1060 = ~
-This game is available in multiple languages, but WeiDU does not know which game language was used when this mod was installed.
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
 
-Please indicate which game language was used when you installed this mod. Your choice will be used until WeiDU exits but will not be remembered.
-~
-@-1061 = ~
-Using~
-@-1062 = ~ and ~
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
+
+@-1063= "INSTALLATION ABANDONNEE"
+@-1064= "Abandon de l'installation de ["
+@-1065= "], retour a l'etat anterieur"
+
+
+
+
+

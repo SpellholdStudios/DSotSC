@@ -2,1882 +2,2252 @@
 //Items
 ///////////
 
-@1000 = ~Crown~
-@1001 = ~Crown of the Archdruid~
-@1002 = ~This class of decorative crown, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items and are commonly worn by mages.
+@1000 = ~Couronne~
+@1001 = ~Couronne de l'Archidruide~
+@1002 = ~Les couronnes décoratives de ce type, faites à partir de perles ou de métal, sont portées sur la tête. Elles sont généralement décorées de gemmes ou d'autres objets précieux, et fréquemment portées par des mages.
 
-STATISTICS:
+PARAMÈTRES :
 
-Equipped abilities:
-– Protects against critical hits
+- Protège contre les coups critiques
 
-Weight: 2~
+Poids : 2~
 
-@1003 = ~Worn by the leader of the druids of the Black Woods over thirteen generations ago, this artifact was lost when an orcish invasion crushed the druidic community. It has since changed owners often, usually through violent means.
+@1003 = ~Cette couronne a appartenu au chef des « Druides du Bois Noir », il y a plus de treize générations. Cependant, après qu'une invasion d'orques ait anéanti cette communauté druidique, cette couronne a bien souvent changé de propriétaire.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Can memorize one extra 1st- and 2nd-level druid spell
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Mémorisation d'un sort divin supplémentaire de niveau 1 et 2
 
-Charge abilities:
-– Charm animal once per day (Save vs. Wands negates)
-  Range: 40 ft.
-  Area of Effect: 1 animal
-  Duration: 10 turns
+Capacités de charge : 
+- Charme les animaux pendant 2 heures (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter) (5 fois par jour)
 
-Weight: 2~
+Poids : 2~
 
 @1004 = ~Crown of the Alarphon~
 @1005 = ~Within the ranks of the famed War Wizards of Cormyr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
-– Immunity to charm and fear
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Dissipation de l'horreur
+- Immunité à l'horreur
+- Immunité aux charmes
+- Immunité à la panique
 
-Weight: 2~
+Poids : 2~
 
-@1006 = ~Hat~
-@1007 = ~Rogue's Hat~
-@1008 = ~Felt hats such as this are favorites of bards. Though they offer little in the way of protection, their fashionable appearance matters more to those who wear them. On rare occasions one is discovered that bears enchantments.
+@1006 = ~Chapeau~
+@1007 = ~Chapeau de voleur~
+@1008 = ~Le chapeau en feutre est le préféré des bardes ; malgré l'absence de protection, ils peuvent faire office de décoration à l'occasion. Dans de rares cas, on découvre que l'un d'entre eux fut enchanté avec un peu de magie.
 
-STATISTICS:
+PARAMÈTRES :
 
-Weight: 2~
+Poids : 2~
 
-@1009 = ~Though it appears as flimsy as a common felt cap, this hat has the resilience to withstand a good blow, and it also instill confidence in the wearer.
+@1009 = ~Ce chapeau a été enchanté, bien qu'il ait l'air aussi fragile qu'un chapeau en feutre classique, il permet de contenir un bon coup porté et donne du courage au porteur.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Immunity to fear
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Dissipation de l'horreur
+- Immunité à l'horreur
+- Immunité à la panique
 
-Weight: 2~
+Poids : 2~
 
-@1010 = ~Tiara~
-@1011 = ~Tiara of the Chanah'Rea~
-@1012 = ~This class of decorative tiara, made of beads or metal, is worn on the head. They are usually decorated with jewels or other precious items, and are commonly worn by warlocks.
+@1010 = ~Tiare~
+@1011 = ~Tiare de Chanah'Rea~
+@1012 = ~Les tiares décoratives de ce type, faites à partir de perles ou de métal, sont portées sur la tête. Elles sont généralement décorées de gemmes ou d'autres objets précieux, et fréquemment portées par des sorciers.
 
-STATISTICS:
+PARAMÈTRES :
 
-Weight: 2~
+Poids : 2~
 
-@1013 = ~Where most tiaras are simply ornamental items, this powerful artifact was worn by the High Priests of the Chanah'Rea. It is believed that the stone that graces its center is a fragment of the Standing Stone in the Dalelands.
+@1013 = ~Alors que beaucoup de tiares sont des objets ornementaux, celle-ci est enchantée par les hauts prêtres de Chanah'Rea. On pense que la pierre qui orne son front provient de Stonehenge lui-même.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Saving Throws: +1
-– Immunity to charm
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Jets de sauvegarde : +1
+- Immunité aux charmes
 
-Weight: 2~
+Poids : 2~
 
-@1015 = ~Ferthgil's Helmet~
-@1017 = ~This helmet was forged especially for Ferthgil Trollslayer, son of Breachin Trollslayer. Given to Ferthgil by the Stonehearth Clan during his stay with them after his father died, it fits the dwarf perfectly. Gulmoth Stonehearth, Ferthgil's mentor, placed the blessing of Clanggedin upon it to help Ferthgil channel all of his emotions when needed, especially in battle.
+@1015 = ~Heaume de Ferthgil~
+@1017 = ~C'est le heaume porté par Ferthgil Tueurdetroll, fils de Breachin Tueurdetroll. Ce heaume fut donné à Ferthgil par le clan Foyerdepierre durant son séjour parmi eux après la mort de son père. Gulmoth Foyerdepierre, le mentor de Ferthgil, apposa la bénédiction de Clanggedin dessus afin d'aider Ferthgil à canaliser toutes ses pensées au moment où il en avait vraiment besoin, en particulier au combat.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Protects against all forms of charms, panic and holds
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Dissipation de l'horreur
+- Immunité à l'horreur
+- Immunité à la débilité mentale
+- Immunité à la confusion
+- Immunité au sommeil
+- Immunité aux charmes
+- Immunité à la paralysie
+- Immunité à la panique
 
-Weight: 4~
+Poids : 4~
 
-@1022 = ~Crystal Helm~
-@1023 = ~Crafted from magical crystals mined from a now-abandoned dwarven mine, armor such as this is exceedingly rare, as the location of the mine itself has long since been lost. The crystals, found only in a single vein, possess a natural resistance to the elements.
+@1022 = ~Heaume de cristal~
+@1023 = ~Fabriqué à partir de cristaux magiques en provenance d'une mine naine désormais abandonnée. Les cristaux ont une résistance naturelle au feu et au froid.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Fire Resistance: +10%
-– Cold Resistance: +10%
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Classe d'armure : +1
+- Résistance au feu : +10 %
+- Résistance au froid : +10 %
 
-Weight: 2~
+Poids : 2~
 
-@1024 = ~Skeezer Lumpkin's 'Dwarven' War Helmet~
-@1025 = ~Skeezer was given this helmet by his good friend, Gothmog Stonehearth, a dwarven skald of the Stonehearth clan. Skeezer and Gothmog became good friends after the gnome saved Gothmog's life. Gothmog was ambushed by a patrol of duergar, who made their way to the surface one moonless night to seek out prey. Skeezer, camping nearby, witnessed the attack and thrust his staff into the ground, causing the sky to become as bright as any midday and sending the duergar running. From that day on, Gothmog and Skeezer became close friends. Gothmog even became interested in his gnomish friend's magical abilities, and in secret tried out a few small spells when making the helm, knowing of course that his clan would frown upon such activities.
+@1024 = ~Heaume de guerre 'nain' de Skeezer Lumpkin~
+@1025 = ~C'est son bon ami, Gothmog Foyerdepierre, un nain scalde du clan Foyerdepierre, qui donna ce heaume à Skeezer. Skeezer et Gothmog devinrent bons amis après que Skeezer ait sauvé la vie de Gothmog, une nuit. Gothmog fut pris en embuscade par une patrouille de duergars qui faisait route vers la surface par une nuit sans lune afin de chercher des proies. Quand Skeezer le vit, il planta son bâton dans le sol, rendant le ciel aussi brillant qu'un ciel radieux à midi. Bien entendu cela provoqua la fuite des duergars. A partir de ce jour, Gothmog et Skeezer devinrent des amis proches et Gothmog s'intéressa même aux capacités magiques de son ami gnome, et peut-être même essaya-t-il en secret quelques petits sorts, sachant bien sûr que son clan désapprouverait de telles activités.
 
 Though Skeezer claims the helm is blessed with all the powers of Clangeddin himself, the prominent horns jutting from its sides impress you far more, particularly when one nearly pierces your arm. Thankfully, he seems to don it only when anticipating battle.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Protects against all forms of panic and boosts morale
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Dissipation de l'horreur
+- Immunité à l'horreur
+- Immunité à la panique
 
-Weight: 2~
+Poids : 2~
 
-@1026 = ~Helm of the Falcon~
-@1027 = ~Bold and ornamental this helm looks to be more of a show piece then a source of protection; looks however can be very deceiving. Enchanted by the high priests of the Sukien, it provides the wearer with the strength of mind to resist all forms of temptation.
+@1026 = ~Heaume de la Garde Sacrée~
+@1027 = ~Voyant et ornemental, ce casque appelé aussi « Heaume du Faucon » paraît être davantage une pièce de représentation que de protection. Les apparences peuvent cependant être trompeuses. Enchanté par les hauts prêtres de Sukien, le casque offre à son porteur la force mentale de résister à toutes les formes de tentation.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Protects against mental attacks (except hold)
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Dissipation de l'horreur
+- Immunité à la détection de l'alignement
+- Immunité à l'horreur
+- Immunité à la débilité mentale
+- Immunité à la confusion
+- Immunité au sommeil
+- Immunité aux charmes
+- Immunité à la panique
 
-Weight: 2~
+Poids : 2~
 
-@1028 = ~Thorfinn's Helmet~
-@1029 = ~This helm grants immunity to all forms of fear and panic, whether natural or magical.
+@1028 = ~Heaume de Thorfinn~
+@1029 = ~Ce heaume procure une immunité contre toute forme de peur et de panique, que son origine soit naturelle ou magique.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Protects against all forms of panic and fear
-– Protects against critical hits
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Dissipation de l'horreur
+- Immunité à l'horreur
+- Immunité à la panique
 
-Weight: 2~
+Poids : 2~
 
-@1030 = ~Armor of Thorns~
-@1032 = ~Upon closer inspection, one discovers that this armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches. The armor was a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
+@1030 = ~Armure d'épines~
+@1032 = ~En y regardant de plus près, on peut découvrir que l'armure n'est pas du tout faite de cuir, mais d'un entrelacement étroit de vignes et de branches d'arbuste épineux. L'armure est un don des nymphes aux druides, un signe de leur admiration envers leur inlassable protection des forêts.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Saving Throws: +1
+Capacités d'équipement : 
+- Classe d'armure de base : 5
+- Classe d'armure : -2 contre les armes tranchantes
+- Classe d'armure : +1 contre les projectiles
+- Jets de sauvegarde : +1
 
-Armor Class: 5 (4 vs. missile, 7 vs. slashing)
-Requires:
- 6 Strength
+Poids : 6
 
-Weight: 4~
+Nécessite : 
+- Force : 6~
 
 @1033 = ~Bhaelros' Bane +2~
 @1034 = ~Though druidic orders were traditionally rare in the harsh climate of Calimshan, a small number could be found near the Marching Mountains. Persecuted and ridiculed by the Calishites, they often came under attack by priests of Bhaelros. To protect the members of their order, suits of armor such as these were created, allowing the druids to brush aside the lightning spells of the evil clerics. Unfortunately, they could not provide the same protection for the trees, and they fled when their home was destroyed.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Saving Throws: +1
-– Electricity Resistance: +25%
+Capacités d'équipement : 
+- Classe d'armure de base : 6
+- Classe d'armure : -2 contre les armes perforantes et les projectiles
+- Jets de sauvegarde : +1
+- Résistance à l'électricité : +25 %
 
-Armor Class: 6 (8 vs. piercing and missile)
-Requires:
- 4 Strength
+Poids : 6
 
-Weight: 6~
+Nécessite : 
+- Force : 4~
 
-@1036 = ~Ferthgil's Dwarven Mithril Plate Battle Armor~
-@1038 = ~This plate armor, made of strong plates of mithril alloy, was crafted by Fergil Trollslayer under the tutelage of Otho Truehammer, master smithy, leader of Clan Truehammer and father of his best friend Tearlac Truehammer. Ferthgil has shown himself quite a worthy smithy, but prefers the battlefield to the forge. This armor has the equivalent abilities of normal plate mail that has been enchanted to give it a +2 armor class bonus. However, no magic or enchantments were utilized in the creation of this armor.
+@1036 = ~Armure de plates naine de bataille en Mithril de Ferthgil~
+@1038 = ~Cette armure de plates, constituée de solides plaques d'alliage de mithril, fut forgée par Ferthgil Tueurdetroll sous la tutelle d'Otho Marteauloyal, maître forgeron, chef du clan Marteauloyal et oncle de son meilleur ami, Tearlac Marteauloyal. Ferthgil s'est avéré être lui-même un forgeron tout à fait compétent mais il préfère le champ de bataille à la forge. Cette armure possède les capacités équivalentes à une armure de plates normale qui aurait été enchantée pour lui donner un bonus de classe d'armure de +5. Toutefois aucune magie ni aucun enchantement n'ont été utilisés pour la création de cette armure.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Armor Class: 1 (-2 vs. slashing)
-Requires:
- 14 Strength
+Capacités d'équipement : 
+- Classe d'armure de base : 1
+- Classe d'armure : +3 contre les armes tranchantes
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
 
-Weight: 30~
+Poids : 30
 
-@1039 = ~Conchobhair's Blessed Plate Mail Armor~
-@1040 = ~This plate mail has been blessed to provide extra protection when fighting against large enemies and monsters. Conchobhair finds it to be just perfect for his chosen path of Dragonslayer, giving him good protection and allowing a certain degree of freedom of movement.
+Nécessite : 
+- Force : 14~
 
-STATISTICS:
+@1039 = ~Armure de plates Bénie de Conchobhair Lamesolide~
+@1040 = ~Cette armure de plates a été bénie afin d'apporter des protections supplémentaires lors de combats contre des ennemis et des monstres de grande taille. Conchobhair la trouve simplement parfaite pour la voie qu'il s'est choisie de Tueur de dragon car elle lui procure une bonne protection et lui permet un certain degré de liberté de mouvement.
 
-Armor Class: 2 (-1 vs. slashing)
-Requires:
- 11 Strength
+PARAMÈTRES : 
 
-Weight: 18~
+Capacités d'équipement : 
+- Classe d'armure de base : 2
+- Classe d'armure : +3 contre les armes tranchantes
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
 
-@1041 = ~Crystal Plate Mail~
-@1042 = ~Forged from magical crystals mined from a now abandoned Dwarven mine. The crystals have a natural resistance to fire and cold.
+Poids : 18
 
-STATISTICS:
+Nécessite : 
+- Force : 11~
 
-Equipped abilities:
-– Fire Resistance: +15%
-– Cold Resistance: +15%
+@1041 = ~Armure de Plate de Cristal~
+@1042 = ~Forgée à partir de cristaux magiques en provenance d'une mine naine désormais abandonnée. Les cristaux ont une résistance naturelle au feu et au froid.
 
-Armor Class: 2
-Requires:
- 11 Strength
+PARAMÈTRES : 
 
-Weight: 20~
+Capacités d'équipement : 
+- Classe d'armure de base : 2
+- Classe d'armure : +3 contre les armes tranchantes
+- Résistance au feu : +15 %
+- Résistance au froid : +15 %
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
 
-@1047 = ~Thorfinn's Hide Armor~
-@1048 = ~This is the personal hide armor of Thorfinn Hauskluniff. Though it does not possess any magical abilities, it is a well-constructed piece, almost appearing to be traditional leather due to its cut and design. A snarling wolf emblazoned on the breast evokes its wilder origins.
+Poids : 20
 
-STATISTICS:
+Nécessite : 
+- Force : 11~
 
-Armor Class: 6 (8 vs. piercing and missile)
-Requires:
- 9 Strength
+@1047 = ~Armure de peau de Thorfinn~
+@1048 = ~C'est l'armure de peau personnelle de Thorfinn Hauskluniff Though it does not possess any magical abilities, it is a well-constructed piece, almost appearing to be traditional leather due to its cut and design. A snarling wolf emblazoned on the breast evokes its wilder origins.
 
-Weight: 3~
+PARAMÈTRES : 
 
-@1052 = ~Crusader's Armor~
-@1054 = ~The Splint Mail is the preferred armor of the crusader class warrior, also know as the paladin. Often called religious zealots these warriors fight strongly with great faith in the laws that they boldly defend.
+Capacités d'équipement : 
+- Classe d'armure de base : 6
+- Classe d'armure : -2 contre les armes perforantes et les projectiles
+- Vol à la tire : -30 %
+- Crochetage de serrures : -10 %
+- Détection / Désamorçage des pièges : -10 %
+- Camouflage dans l'ombre : -20 %
+- Furtivité : -20 %
 
-STATISTICS:
+Poids : 3
 
-Equipped abilities:
-– Saving Throws: +1
-– Hit Points: +20%
+Nécessite : 
+- Force : 9~
 
-Armor Class: 2 (1 vs. piercing and missile, 0 vs. crushing)
-Requires:
- 8 Strength
+@1052 = ~Armure des Croisés~ // dschan02
+@1054 = ~Cette armure feuilletée est l'armure préférée du combattant croisé, aussi connu sous le nom de paladin. Souvent qualifiés de fanatiques religieux, ces guerriers combattent férocement et ont grande foi dans les lois qu'ils défendent vigoureusement.
 
-Weight: 20~
+PARAMÈTRES : 
 
-@1055 = ~Blessed Chain Mail +2~
-@1056 = ~This +2 Chain Mail is often worn by priests who are on quests for their faiths. When worn, the priest is blessed with an Aid spell.
+Capacités d'équipement : 
+- Classe d'armure de base : 2
+- Classe d'armure : +2 contre les armes contondantes
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
+- Jets de sauvegarde : +1
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
+- 1 % de chance de multiplier par 20 % les points de vie maximums du porteur
 
-STATISTICS:
+Poids : 20
 
-Equipped abilities:
-– Aid: The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
+Nécessite : 
+- Force : 8~
 
-Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
-Requires:
- 7 Strength
+@1055 = ~Cotte de Mailles Bénite~
+@1056 = ~Cette cotte de mailles +2 est souvent portée par les prêtres qui sont en quête pour leur culte. Lorsqu'ils la portent, ils bénéficient d'un sort d'Aide.
 
-Weight: 10~
+PARAMÈTRES : 
 
-@1057 = ~Sukien Holy Armor~
-@1058 = ~Sukien Holy Armor, worn by the Holy Guard of the Sukien Temple, this mail possess great magic. Boasting of never being defeated in battle, the Holy Guard are staunch zealots with a will to win that is believed by many to be a gift from the very heavens. This trademark armor with its emblem proudly displayed on the chest is as brash and bold as its wearers.
+Capacités d'équipement : 
+- Classe d'armure de base : 3
+- Classe d'armure : +2 contre les armes tranchantes
+- Classe d'armure : -2 contre les armes contondantes
+- Aide : The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
 
-STATISTICS:
+Poids : 10
 
-Equipped abilities:
-– Immunity to poison
+Nécessite : 
+- Force : 7~
 
-Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
-Requires:
- 11 Strength
+@1057 = ~Armure Sainte de Sukien~
+@1058 = ~Armure Sainte de Sukien : portée par la Sainte Garde du Temple de Sukien
+Cette armure détient beaucoup de magie. Se targuant de n'avoir jamais été vaincue lors d'un combat, la Sainte Garde est constituée d'ardents fanatiques dotés d'une volonté de vaincre dont beaucoup pensent qu'elle est insufflée par les dieux. Cette armure caractéristique, avec son emblème ostentatoire sur la poitrine, est aussi exubérante et éclatante que ses porteurs.
 
-Weight: 18~
+PARAMÈTRES : 
 
-@1059 = ~Jet'laya's Chainmail~
-@1060 = ~This is Jet'laya's personal set of chainmail. This extremely light chainmail is made of very fine mithral links and was forged for her by her twin brother, Rennar.
+Capacités d'équipement : 
+- Classe d'armure de base : 0
+- Classe d'armure : +2 contre les armes tranchantes
+- Classe d'armure : -2 contre les armes contondantes
+- Immunité à la modification du score d'ivresse
+- Immunité à l'empoisonnement
+- Empêche l'utilisation des compétences de voleur
+- Empêche l'utilisation du camouflage dans l'ombre
 
-STATISTICS:
+Poids : 18
 
-Equipped abilities:
-– Spellcasting is not disabled
+Nécessite : 
+- Force : 11~
 
-Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
-Requires:
- 5 Strength
+@1059 = ~Cotte de maille de Jet'laya~
+@1060 = ~C'est la cotte de mailles personnelle Jet'laya. Son frère jumeau, Rennar, la forgea pour elle. En dépit de la couleur inhabituelle, elle ressemble à une armure en cotte de mailles elfique normale.
 
-Weight: 15~
+PARAMÈTRES : 
 
-@1061 = ~Korim's Skin~
-@1062 = ~Curiously tinged with green, this heavily enchanted armor is unusually light and supple for splint mail. Constructed by the Netherese sorcerer and ranger Korim, it allowed him far greater protection than robes while also enabling him to take full advantage of his range of casting ability.
+Capacités d'équipement : 
+- Classe d'armure de base : 5
+- Classe d'armure : -2 contre les armes contondantes
+- Classe d'armure : +2 contre les armes tranchantes
+- Permet de lancer des sorts profanes
 
-STATISTICS:
+Poids : 15
 
-Equipped abilities:
-– Spellcasting is not disabled
+Nécessite : 
+- Force : 5~
 
-Armor Class: 4 (3 vs. piercing and missile, 2 vs. crushing)
-Requires:
- 7 Strength
+@1061 = ~Peau de Korim~
+@1062 = ~Ayant appartenu au sorcier/rôdeur néthère Korim, cette armure feuilletée aux reflets verts est imprégnée de puissants enchantements. L'étrange métal (un alliage de cuivre et d'uranium) est léger et souple, et pourtant presque imperméable à la plupart des coups. L'armure permit à Korim d'utiliser ses compétences de façon optimale.
 
-Weight: 7~
+PARAMÈTRES : 
 
-@1063 = ~CúChoinneach's Studded Leather Armor +2~
-@1064 = ~CúChoinneach constructed this armor for himself during his days as a ranger.
+Capacités d'équipement : 
+- Classe d'armure de base : 4
+- Classe d'armure : +2 contre les armes contondantes
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
+- Permet de lancer des sorts profanes
+- Empêche l'utilisation du camouflage dans l'ombre
+- Empêche l'utilisation des compétences de voleur
 
-STATISTICS:
+Poids : 7
 
-Equipped abilities:
-– Hide In Shadows: +15%
+Nécessite : 
+- Force : 7~
 
-Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
-Requires:
- 6 Strength
+@1063 = ~Armure de CúChoinneach~
+@1064 = ~CúChoinneach s'est fabriqué cette armure pour son propre usage au cours de sa vie de rôdeur..
 
-Weight: 8~
+PARAMÈTRES : 
 
-@1065 = ~Keiria's Bard Armor~
-@1066 = ~Keiria has maintained close ties to her elven heritage, and as a result has been able to obtain a few enchanted items from her long-lived kin. Among them is this studded leather armor, magically imbued with protective spells and in turn designed to allow the wearer more freedom when casting spells.
+Capacités d'équipement : 
+- Camouflage dans l'ombre : +15%
 
-STATISTICS:
+- Classe d'armure de base : 
+- Classe d'armure : +1 contre les armes tranchantes 
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
 
-Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile)
-Requires:
- 6 Strength
+Poids : 8
 
-Weight: 10~
+Nécessite : 
+- Force : 6~
 
-@1067 = ~Gnomish Workman's Leather~
-@1068 = ~Gnomish Workman's Leather +2~
-@1069 = ~Gnomish Workman's Leather armor is a variation of high-quality gnomish leather armor. Gnomish workman's leather is adorned with dozens of tiny tool holders and pouches, typically filled with the most bizarre collection of coins, nails , tools, weapons, widgets and sprockets ever assembled on one body. For this reason, a set of gnomish workman's leather provides the protection identical to studded leather armor.
+@1065 = ~Besantine de Barde de Keiria Silverstring~
+@1066 = ~Keiria a conservé des liens étroits avec ses ancêtres elfes et, grâce à cela, a été en mesure d'obtenir quelques objets elfes enchantés de sa famille. Cette armure de cuir est un de ces objets. Elle lui procure la protection d'une bonne armure de cuir +1 et lui donne la capacité de lancer des sorts tout en la portant.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile)
-Requires:
- 10 Strength
+Capacités d'équipement : 
+- Classe d'armure de base : 7
+- Classe d'armure : +2 contre les armes tranchantes
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
+- Permet de lancer des sorts profanes
 
-Weight: 25~
+Poids : 10
 
-@1070 = ~This set of armor was created by a gnomish master craftsman and enchanted to offer better protection against unforeseen accidents. The tools and equipment stored in the armor makes finding and picking locks easier.
+Nécessite : 
+- Force : 6~
 
-STATISTICS:
+@1067 = ~Cuir d'ouvrier gnome~
+@1068 = ~Cuir d'ouvrier gnome +2~
+@1069 = ~L'armure de cuir d'ouvrier gnome est une variation de l'armure de cuir gnome de grande qualité. Le cuir d'ouvrier gnome est paré de douzaines de minuscules poches et porte-outils, typiquement emplis de la collection la plus bigarrée de pièces, clous, outils, armes, gadgets et pignons jamais rassemblée. Pour cette raison, un cuir d'ouvrier gnome offre une protection identique à une armure de cuir clouté.
 
-Equipped abilities:
-– Open Locks: +10%
-– Find Traps: +10%
+PARAMÈTRES : 
 
-Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
-Requires:
- 6 Strength
+Capacités d'équipement : 
+- Classe d'armure de base : 7
+- Classe d'armure : +2 contre les armes tranchantes
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
 
-Weight: 8~
+Poids : 25
 
-@1072 = ~Skeezer Lumpkin's Mage Robe~
+Nécessite : 
+- Force : 10~
+
+@1070 = ~Cette armure a été conçue par un maître-ouvrier gnome et fut enchantée de manière à offrir une meilleure protection face aux inattendus. Les outils et l'équipement contenus dans l'armure permettent de trouver des pièges et crocheter des serrures plus facilement.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Classe d'armure de base : 5
+- Classe d'armure : +2 contre les armes tranchantes
+- Classe d'armure : +1 contre les armes perforantes et les projectiles
+- Crochetage de serrures : +10 %
+- Détection / Désamorçage des pièges : +10 %
+
+Poids : 8
+
+Nécessite : 
+- Force : 6~
+
+@1072 = ~Robe de mage de Skeezer Lumpkin~
 @1074 = ~Colorful, bright and... colorful... Skeezer's robe could aptly be described as a riot of red, particularly when adorned with the many trinkets he holds in high regard. The gnome claims that he invented a new kind of fabric when creating it, one that protects from the withering breath of dragons, the insidious tentacles of mind flayers and the magical blasts of beholders. From what you can tell, the robe would have a difficult time stopping the dagger of a lame kobold. Nonetheless, given Skeezer's skill as a mage, you have no doubt that it carries at least some magical protection.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: 7
-– Saving Throws: +1
-– Magic Resistance: +5%
+Capacités d'équipement : 
+- Classe d'armure de base : 7
+- Jets de sauvegarde : +1
+- Résistance à la magie : +5 %
 
-Weight: 6~
+Poids : 6~
 
-@1075 = ~Sorcerer's Robe~
-@1076 = ~This Mage Robe has been made for the more advanced mage who has ended his apprentice time and goes at it alone. Its armor class and spell bonus make him better equipped for traveling.
+@1075 = ~Robe de Sorcier~
+@1076 = ~Cette robe de mage a été fabriquée pour un mage de niveau avancé qui a terminé son apprentissage et qui suit sa propre route. La classe d'armure et les sortilèges supplémentaires qu'elle offre lui permettent d'être mieux équipé pour l'aventure.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: 8
-– Can memorize one extra 1st- and 2nd-level wizard spell
+Capacités d'équipement : 
+- Mémorisation d'un sort profane supplémentaire de niveau 1 et 2
+- Classe d'armure de base : 8
 
-Weight: 3~
+Poids : 3~
 
-@1077 = ~Robe of the Grand Wizard~
+@1077 = ~Robe du Grand Sorcier~
 @1078 = ~This powerful robe is rumored to have a dark history. Supposedly created by the archmage Halaster to torment young magelings, it has sown chaos in its travels through the Realms, leaving murder and betrayal in its wake. Despite boasting potent protective enchantments, it has rarely remained with a single owner for long, and some whisper that the robe itself desires nothing less than the destruction of any who seek to claim it.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
-– Magic Resistance: +10%
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
 
-Weight: 6~
+Poids : 6~
 
-@1079 = ~Robe of Dh'arlo'me~
-@1080 = ~This powerful robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance. Due to the nature of its enchantment, it can only be removed by remove curse.
+@1079 = ~Robe de Dh'arlo'me~
+@1080 = ~Cette robe de mage aux pouvoirs immenses protège son porteur contre toute forme d'attaque physique, tout en accroissant sa résistance à la magie. Étant donnée la nature de ses enchantements, cette robe ne peut être retirée que par une délivrance de la malédiction.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: 4
-– Intelligence: +1
-– Wisdom: +1
-– Magic Resistance: +10%
-– Protection From Normal Weapons
-– Immunity to 1st and 2nd-level spells
-– Can memorize one extra 3rd- and 4th-level wizard spell
-– Improves casting speed by 1
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Mémorisation d'un sort profane supplémentaire de niveau 3 et 4
+- Mémorisation d'un sort divin supplémentaire de niveau 3 et 4
+- Classe d'armure de base : 4
+- Temps d'incantation : Passe à 1
+- Force : -4
+- Dextérité : -4
+- Constitution : -4
+- Intelligence : +1
+- Sagesse : +1
+- Charisme : -4
+- Immunité aux sorts de niveau 1 et 2
+- Immunité contre les armes non-magiques
+- Résistance à la magie : +10 %
 
-Weight: 6~
+Poids : 6~
 
-@1081 = ~Drakelor's Robe~
-@1082 = ~This robe was originally a present from the famous mage Drakelor to a friend, who had to go on a long and dangerous journey. Unfortunately, the robe was stolen as the friend rested in an inn after a tiring walk. The thief, who knew well about his loot's value, but not about its origin, arranged a meeting with the most powerful mage he knew. Drakelor, however, recognized his work and immediately understood what had happened. The thief's fate does not need further description.
+@1081 = ~Robe de Drakelor~
+@1082 = ~Cette robe fut à l'origine un cadeau du célèbre mage Drakelor à un ami, qui devait effectuer un long et périlleux voyage. Malheureusement, la robe fut volée alors que l'ami se reposait dans une auberge, après une marche éprouvante. Le voleur, qui connaissait bien la valeur de son larcin, mais pas son origine, arrangea une rencontre avec le mage le plus puissant qu'il connaissait. Drakelor, cependant, reconnut son travail et comprit immédiatement ce qu'il s'était passé. Le destin du voleur ne nécessite pas de développement supplémentaire.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
 
-Weight: 3~
+Poids : 4~
 
-@1083 = ~Drow Mage Cloak~
-@1084 = ~Powerful drow mages are often seen wearing fine cloaks that cause them to blend into their surroundings, making it quite difficult to face them in battle. The material used to make these cloaks does not cut easily and is fire resistant.
+@1083 = ~Robe de mage drow~
+@1084 = ~Les drows expérimentés portent des capes qui leur offrent 75% de chance de rester indécelables dans les ombres. Le matériau utilisé pour fabriquer ces capes ne se coupe pas aisément, est résistant au feu et donne aux capes un bonus de +6 aux jets de sauvegarde contre les souffles. Ces capes ne peuvent être portées que par ceux qui ont la stature d'un elfe.
 
-This item, like most drow equipment, is created using adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+En raison de la nature du tissu drow, s'il est exposé à la lumière du soleil, sa décomposition irrémédiable est entamée. Sous deux à douze jours, elle perdra toutes ses propriétés protectrices et pourrira, la rendant totalement inutile.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: 3
-– Save vs. Breath: +6
-– Intelligence: +2
-– Fire Resistance: +50%
-– Non-detection
-– Can memorize one extra 6th- and 7th-level wizard spell
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Mémorisation d'un sort profane supplémentaire de niveau 6 et 7
+- Classe d'armure de base : 3
+- Jets de sauvegarde : +6 contre les souffles
+- Intelligence : +2
+- Non-détection
+- Résistance au feu : +50 %
 
-Weight: 1~
+Poids : 3~
 
-@1085 = ~Robe of the Abyss~
-@1086 = ~A foul artifact indeed. Woven from the fabric of the Abyss itself, these powerful robes offer protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its origin, it can only be worn by mages of evil alignment.
+@1085 = ~Robe des Abysses~
+@1086 = ~Un artéfact vraiment souillé. Tissées avec l'étoffe-même des Abysses, ces puissantes robes de mage offrent une protection contre toute forme d'attaque physique, et augmentent simultanément la résistance à la magie ainsi que les jets de sauvegarde de son porteur. À cause de la nature de leurs origines, elles ne peuvent être portées que par les mages d'alignement mauvais.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +2
-– Saving Throws: +2
-– Magic Resistance: +10%
-– Can memorize one extra 5th-, 6th- and 7th-level wizard spell
-– Constitution: -30%
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Mémorisation d'un sort profane supplémentaire de niveau 5, 6 et 7
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+- Force : -30 %
+- Constitution : -30 %
+- Résistance à la magie : +10 %
 
-Weight: 6~
+Poids : 6~
 
-@1087 = ~Robe of the High Templar~
-@1088 = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of good alignment.
+@1087 = ~Robe de Haut Templier~
+@1088 = ~Cette puissante robe de mage offre une protection contre toute forme d'attaque physique, et augmente simultanément la résistance à la magie ainsi que les jets de sauvegarde de son porteur. À cause de la nature de ses enchantements, elle ne peut être portée que par les mages d'alignement bon.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
-– Magic Resistance: +10%
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
 
-Weight: 6~
+Poids : 6~
 
-@1096 = ~Morridin's Cloak~
-@1098 = ~This cloak once belonging to the famous bard Morridin. The cloak, which despite the lavish gold weaved into it, Morridin said was only "...a simple cloak that offers modest protection against the elements". The cloak, along with many other personal items of Morridin became a topic of discussion among many.
+@1096 = ~Cape de Morridin~
+@1098 = ~Cette cape a autrefois appartenu au célèbre barde Morridin. Malgré les fils d'or tissés en son sein, Morridin en disait qu'il ne s'agissait que "d'une simple cape pour me protéger des éléments". La cape, de même que bien d'autres objets personnels de Morridin, est devenue un sujet de conversation parmi tant d'autres.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Charisma: +1
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Charisme : +1
 
-Weight: 3~
+Poids : 3~
 
-@1099 = ~Faded Cloak~
-@1100 = ~This cloak was crafted by the now mad Lord Sorcerer Noober Harpell. Fond of the elven cloaks he saw during his travels, he made this as a similar replica. When worn, it fades the owner almost completely from sight, allowing moving about almost with impunity. Inside the cloak is sewn 'Property of Noober, son of Noober'
+@1099 = ~Cape atténuante~
+@1100 = ~Cette cape fut conçue par le seigneur sorcier Noober Harpell, désormais fou. Obnubilé par les capes elfiques qu'il vit durant ses voyages, il fabriqua celle-ci comme une réplique. Lorsqu'elle est portée, elle atténue son porteur, le rendant pratiquement invisible, lui permettant de se mouvoir presque en toute impunité.
 
-STATISTICS:
+À l'intérieur de la cape, il est cousu la mention "Propriété de Noober, fils de Noober"
 
-Equipped abilities:
-– Fades wearer: 75%
+PARAMÈTRES :
 
-Weight: 3~
+Capacités d'équipement :
+– atténue le porteur de 75 %
 
-@1101 = ~Cloak of the Woods~
-@1102 = ~Stolen from the temple of Erreth-Akbe, the cloak was recovered by Archdruid Yarrow when he sought out his revenge against those who defaced his temple. It was rumored that the cloak was given to his son Shephesh as a gift.
+Poids : 3~
 
-STATISTICS:
+@1101 = ~Cape des bois~
+@1102 = ~Dérobée au temple d'Erreth-Akbe, la cape fut récupérée par l'archidruide Yarrow alors qu'elle cherchait vengeance contre ceux qui avait dégradé son temple. La rumeur dit que son fils Shephesh obtint la cape en cadeau.
 
-Equipped abilities:
-– Move Silently: +20%
-– Non-detection
+PARAMÈTRES : 
 
-Weight: 3~
+Capacités d'équipement : 
+- Furtivité : +25 %
+- Non-détection
 
-@1103 = ~Mystra's Cloak~
-@1104 = ~These cloaks are said to be given only to a chosen few of Mystra's most worthy priests. Although, due to some of these priests 'untimely' demise, a few cloaks have been seen outside the ranks of this religious organization. The cloak gives the wearer bonuses to physical and magical attacks as well as protection from undead attacks.
+Poids : 3~
 
-STATISTICS:
+@1103 = ~Cape de Mystra~
+@1104 = ~On dit que ces capes sont uniquement données à un nombre restreint des prêtres les plus méritants de Mystra. À cause de quelques décès « prématurés » de ces prêtres, quelques-unes de ces capes sont sorties des rangs de cet ordre religieux. Ces capes offrent une résistance aux attaques tant physiques que magiques, ainsi qu'une protection contre les attaques des morts-vivants.
 
-Equipped abilities:
-– Armor Class: +2
-– Saving Throws: +1
-– Negative Plane Protection
+PARAMÈTRES : 
 
-Weight: 3~
+Capacités d'équipement : 
+- Classe d'armure : +2
+- Jets de sauvegarde : +1
+- Immunité au drain de niveaux
 
-@1106 = ~Dragon Skin Bracers~
-@1108 = ~These bracers are made of dragon skin leather. Similar items are made by druidic craftsmen on rare occasions such as the death of an old dragon of a dragon whelp.
+Poids : 3~
 
-STATISTICS:
+@1106 = ~Bracelets en peau de Dragon~
+@1108 = ~Ces bracelets sont faits à partir de peau de dragon. De tels objets sont fabriqués par des artisans druides à de rares occasions telle que la mort d'un vieux dragon ou lors d'une naissance.
 
-Equipped abilities:
-– Armor Class: 4
+PARAMÈTRES : 
 
-Weight: 2~
+Capacités d'équipement : 
+- Classe d'armure de base : 4
 
-@1110 = ~The Brawling Hands~
-@1112 = ~This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy.
+Poids : 2~
 
-STATISTICS:
+@1110 = ~les Mains de Rixe~
+@1112 = ~Cette paire de gantelets fut probablement mise au point à Kara-Tur pour aider les maîtres des arts martiaux. Les légendes racontent que ces maîtres auraient rapporté ces objets d'Extrême-Orient, mais on ne dispose pas d'informations précises.
 
-Equipped abilities:
-– Dexterity: +2
+PARAMÈTRES : 
 
-Weight: 2~
+Capacités d'équipement : 
+- Dextérité : +2
 
-@1113 = ~Gloves of the Magi~
-@1114 = ~Even the most powerful of sages can at times find themselves unprepared for a battle and without the magic to defeat an opponent. It was for just these times that Sharga commissioned these gloves to be made. They provide a practitioner of magic with a little extra help when the fight degenerates to direct combat.
+Poids : 2~
 
-STATISTICS:
+@1113 = ~Gants de Mage~
+@1114 = ~Même les sages les plus puissants peuvent parfois se retrouver pris au dépourvu en combat et privés de magie pour vaincre un adversaire. C'est justement pour ces circonstances que Sharga ordonna la fabrication de ces gants. Ils offrent, pour un pratiquant de la magie profane, une petite aide supplémentaire lorsque le combat dégénère en corps-à-corps.
 
-Combat abilities:
-– 1 extra attack per round
+PARAMÈTRES : 
 
-Equipped abilities:
-– Saving Throws: +1
+Capacités d'équipement : 
+- Attaque par round : +1
+- Jets de sauvegarde : +1
 
-Weight: 2~
+Poids : 2~
 
-@1115 = ~Gift of the Woods~
-@1116 = ~Throughout time druids and rangers have struggled to protect the wild from the ever encroaching civilization. On occasion the dwellers of the wild do grant these zealots with favors to aid them in their endeavors to protect them.
+@1115 = ~Don des Bois~
+@1116 = ~De tout temps, les druides et les rôdeurs ont combattu pour protéger la nature de la civilisation toujours plus envahissante. À l'occasion, les habitants de la nature accordent des faveurs à ces fanatiques afin de les aider dans les efforts qu'ils font pour les protéger.
 
-STATISTICS:
 
-Equipped abilities:
-– Armor Class: +3 vs. missiles
-– Save vs. Petrification/Polymorph: +3
+PARAMÈTRES : 
 
-Weight: 2~
+Capacités d'équipement : 
+- Classe d'armure : +3 contre les projectiles
+- Jets de sauvegarde : +3 contre la pétrification et la métamorphose
 
-@1117 = ~Mage's Bracers~
-@1118 = ~The exact origin of these bracers in unknown. Throughout history, there have been numerous rumors to its current whereabouts and its origins. Dispute their age the enchantments placed upon these bracers is still very strong, unlike many artifacts of a similar age.
+Poids : 2~
 
-STATISTICS:
+@1117 = ~Bracelets de mage~
+@1118 = ~L'origine exacte de ces bracelets est inconnue. Tout au long de l'histoire, de nombreuses rumeurs ont circulé quant à leurs emplacement et origine. Malgré leur âge, les enchantements instillés dans ces bracelets restent très puissants, au contraire de nombreux artéfacts d'un âge similaire.
 
-Equipped abilities:
-– Armor Class: 7
-– Improves casting speed by 1
+PARAMÈTRES : 
 
-Weight: 2~
+Capacités d'équipement : 
+- Classe d'armure de base : 7
+- Temps d'incantation : -1
 
-@1119 = ~Gauntlets of the Faithful Warrior~
-@1120 = ~Throughout time, many deities have been know to grant boons to their followers in the way of blessed items. Even though the exact origins of these gauntlets are unknown that must surely be the case with this particular set.
+Poids : 2~
 
-STATISTICS:
+@1119 = ~Gants du guerrier fidèle~
+@1120 = ~De tous temps, de nombreuses divinités furent connues pour octroyer à leurs suivants des avantages grâce à des objets bénis. Même si l'origine précise de ces gants n'est pas connue, ils entrent sans doute dans cette catégorie.
 
-Equipped abilities:
-– THAC0: +2
-– Damage: +2
+PARAMÈTRES : 
 
-Weight: 1~
+Capacités d'équipement : 
+- Dégâts : +2
+- TAC0 : +2
 
-@1127 = ~Apprentice's Ring~
-@1128 = ~Similar rings are often given to apprentice's that show exceptional skill or merit.
+Poids : 1
 
-STATISTICS:
+Nécessite : 
+- Sagesse : 3~
 
-Equipped abilities:
-– Can memorize one extra 1st- and 2nd-level wizard spell
+@1127 = ~Anneau d'apprenti~
+@1128 = ~De tels anneaux sont souvent offerts aux apprentis qui font preuve d'une aptitude ou d'un mérite exceptionnel.
 
-Weight: 0~
+PARAMÈTRES : 
 
-@1129 = ~Ring of Ghaunadaur~
+Capacités d'équipement : 
+- Mémorisation d'un sort profane supplémentaire de niveau 1 et 2
+
+Poids : 0~
+
+@1129 = ~Anneau de Ghaunadaur~
 @1131 = ~A highly unpredictable deity, Ghaunadaur often rewards his loyal followers with boons and gifts, including rings such as this. On the other hand, he just as often rewards those zealots with torture and death.
 
-Equipped abilities:
-– Immunity to poison and acid
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement : 
+- Immunité à l'empoisonnement
+- Immunité à l'acide
 
-@1133 = ~Mopap's Lucky Rune Wardstone~
-@1135 = ~Many rumors are passed around the Sword Coast about a chirping squirrel that guards a lucky wardstone. However, no one had ever been able to confirm these rumors until now.
+Poids : 0~
 
-STATISTICS:
+@1133 = ~Pierre-sésame Porte-Chance de Mopap~
+@1135 = ~Beaucoup de rumeurs circulent sur la Côte des Épées à propos d'un écureuil gazouilleur qui aurait une pierre-sésame de chance. Néanmoins personne n'a pu confirmer ces rumeurs.
 
-Equipped abilities:
-– Luck: +1
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement : 
+- Chance : +1 (non cumulable)
 
-@1136 = ~Mystic Ring~
-@1137 = ~The exact origins of this ring are unknown, however, it is believed that this ring was in the possession of an older mage living in a small village and acting as their 'wise man' before he died.
+Poids : 5~
 
-STATISTICS:
+@1136 = ~Anneau mystique~
+@1137 = ~L'origine exacte de cet anneau est inconnue, cependant, on pense que cet anneau fut en possession d'un vieux mage vivant dans un petit village, et qui tenait le rôle de sage avant de décéder.
 
-Equipped abilities:
-– Can memorize one extra 3rd- and 4th-level wizard spell
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement : 
+- Mémorisation d'un sort profane supplémentaire de niveau 3 et 4
 
-@1138 = ~The Unfailing Missile Deflector~
-@1139 = ~This ring creates an invisible force field around its wearer that deflects missiles. Even a perfectly aimed missile will deflect to miss the ringwearer or even stop in mid-flight and drop to the ground.
+Poids : 0~
 
-STATISTICS:
+@1138 = ~L'Infaillible Déviateur de Projectiles~
+@1139 = ~Cet anneau crée un champ de force invisible autour de son porteur, qui dévie les projectiles. Même les projectiles parfaitement ciblés sont déviés pour éviter le porteur, voire même sont arrêtés en plein vol et choient au sol.
 
-Equipped abilities:
-– Protection from non-magic missile weapons
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement : 
+- Immunité contre les haches de jet non magiques
+- Immunité contre les billes non magiques
+- Immunité contre les fléchettes non magiques
+- Immunité contre les dagues de jet non magiques
+- Immunité contre les carreaux non magiques
+- Immunité contre les flèches non magiques
 
-@1140 = ~Traveler's Ring~
-@1141 = ~Personal ring of the famous bard Morridin. It is missing a stone. When asked how his ring came to lose its setting, Morridin simply replied, "It fell out while I was traveling." His ring quickly became known as the Traveler's ring. Since Morridin never told anyone what the ring did, the exact nature of the enchantments upon it are unknown.
+Poids : 0~
 
-STATISTICS:
+@1140 = ~Anneau du voyageur~
+@1141 = ~L'anneau personnel du célèbre barde Morridin, auquel il manque une pierre. Lorsqu'on l'interrogeait sur la façon dont l'anneau avait perdu son ornement, Morridin répondait simplement : "Il est tombé pendant que je voyageais.". Son anneau est rapidement devenu connu sous le nom d'anneau du voyageur. Comme Morridin n'a jamais révélé à quiconque ce que l'anneau faisait, la nature exacte de ses enchantements est inconnue.
 
-Unknown
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement : 
+- ...
 
-@1142 = ~Keiria's Bard Ring~
-@1143 = ~This ring once belonged to the famous bard Morridin. The Mage King Varashar, a descendent of the Netherese mages, held a seven-year contest to find the most accomplished bard in both magic and music. When Morridin finally overcame his competitors with his own variation of a simple cantrip, Varashar awarded him with the title of Court Bard and this ring.
+Poids : 0~
 
-STATISTICS:
+@1142 = ~Anneau de Barde de Keiria~
+@1143 = ~Cet anneau appartenait autrefois au célèbre barde Morridin. Le roi mage Varashar fit forger l'anneau pour Morridin après qu'il eût gagné un concours de magie et de musique entre les bardes de la cour qui dura sept années. When Morridin finally overcame his competitors with his own variation of a simple cantrip, Varashar awarded him with the title of Court Bard and this ring.
 
-Equipped abilities:
-– Can memorize one extra 1st-, 2nd-, and 3rd-level bard spell
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités d'équipement :
+- Mémorisation d'un sort profane supplémentaire de niveau 1 à 3
 
-@1144 = ~Signet Ring of the Sukien~
-@1145 = ~Enchanted with magic by the High Priests of the Sukien Temple, this ring is worn by all those who protect the temple from evil.
+Poids : 0~
 
-STATISTICS:
+@1144 = ~Anneau du sceau de Sukien~
+@1145 = ~Enchanté par la magie des hauts prêtres du temple de Sukien, cet anneau est porté par tous ceux qui protègent le temple du mal.
 
-Equipped abilities:
-– Armor Class: +1
-– Saving Throws: +1
+PARAMÈTRES : 
 
-Charge abilities:
-– Protection From Petrification once per day
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+
+Capacités de charge : 
+- Immunise la cible à la pétrification pendant 6 heures (1 fois par jour)
   Range: 30 ft.
   Area of Effect: 1 creature
   Duration: 6 hours
 
-Weight: 0~
+Poids : 0~
 
-@1146 = ~Charvirak's Glow~
+@1146 = ~Éclat de Charvirak~
 @1147 = ~During the invasion of the Black Horde, in which even the southern nations were overrun, the druid Charvirak sought desperately to protect the Forest of Tethir from the fires started by rampaging orcs and goblins. Capturing the essence of an efreeti in this ring, he used it to walk directly through the flames of the burning trees, putting them out before they could cause any lasting damage.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– Fire Resistance: +30%
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Résistance au feu : +30 %
 
-Weight: 0~
+Poids : 1~
 
-@1148 = ~Jet'laya's Ring~
-@1149 = ~This ring belonged to Jet'laya's mother. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
+@1148 = ~Anneau de Jet'laya~
+@1149 = ~Cet anneau a appartenu à la mère de Jet'laya. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
 
-STATISTICS: 
+PARAMÈTRES : 
 
-Equipped abilities:
-– Immunity to Charm and Dire Charm
+Capacités d'équipement :
+- Immunité aux charmes
 
-Weight: 0~
+Poids : 0~
 
-@1151 = ~Davaeorn,
+@1151 = ~Davaëorn,
 
-My sources have told me that a small band of mercenaries, some of whom may be members of the Harpers, were in the area of the Friendly Arm Inn. I sent Tarnesh to investigate and stop them, but I have not heard back from him. I suggest you send Drasus and Genthore to the Friendly Arm Inn immediately, and notify Tazok of the situation.
+Mes sources m'ont rapporté qu'une petite bande de mercenaires, dont certains pourraient faire partie des Ménestrels, étaient dans les environs de l'auberge de Brasamical. J'ai envoyé Tarnesh investiguer et neutraliser qui que ce soit mais je n'ai pas eu de ses nouvelles. Je vous suggère d'envoyer immédiatement Drasus et Genthore à l'auberge de Brasamical. Notifiez Tazok de la situation.
 
 Rieltar~
-@1152 = ~Otho my friend,
+@1152 = ~Otho, mon ami,
 
-These are the brave adventurers I spoke of whom I spoke. I would be grateful if you would create for them a mace of the finest quality and strength. They performed a great service for me and have proved themselves worthy. The weapon will be very important to them in the very near future.
+Voici les aventuriers courageux dont je t'ai parlé. Je te serai reconnaissant si tu pouvais fabriquer pour eux une masse de la meilleure qualité et robustesse. Ils m'ont rendu un grand service et se sont montrés méritants. L'arme leur sera d'une grande importance dans un futur très proche.
 
-Your friend,
+Ton ami,
 Lennan~
 @1153 = ~Lord Daerthmac,
 
-I devote my body, soul and mind to serve ye and love thee as I have never known.
+Je voue mon corps, mon âme et mon esprit à vous servir et à vous aimer comme jamais.
 
-Yours for eternity,
+A vous pour l'éternité,
 Clairis~
-@1154 = ~Friends,
+@1154 = ~Mes amis,
 
-You acted bravely and honorably. With your help we stopped Daerthmac from spreading terror any further. But I must now depart, for my mission is not yet ended. Other evils still threaten the Sword Coast and beyond, and I fear that we may not have heard the last of the vampire or his ilk. However, if I were to ever adventure with a group again, I would hope that they are as brave and honorable as you.
+Vous avez agi avec bravoure et honneur. Avec votre aide, nous avons empêché Lord Daerthmac de répandre davantage la terreur. Je pars maintenant car ainsi va ma vie. Néanmoins, si jamais je devais à nouveau partir à l'aventure avec un groupe, j'espère qu'ils seront aussi courageux et honorables que vous.
 
-Fare thee well,
-CúChoinneach agus Madadh n'Sgail~
-@1155 = ~Letter to Thomic~
+Portez-vous bien,
+CúChoinneach agus Madadh n'Sgàil~
+@1155 = ~Lettre à Thomic~
 @1156 = ~Thomic,
 
-You left the shopping list at home again. Don't forget to bring these goods with you when you come home:
+Tu as de nouveau laissé la liste de courses à la maison. N'oublie pas d'apporter ces affaires quand tu rentreras à la maison.
 
-Bread
-Milk
-Chicken
+Pain
+Lait
+Poulet
 
-Make sure they are fresh. Also, did you bring your rain tunic? It looks like it may rain. Hurry back and try not to stop at every bar between here and there.
+Assure-toi qu'ils soient frais. Par ailleurs as-tu emportée ta tunique pour la pluie ? Le temps paraît incertain.
+
+Dépêche-toi de rentrer et n'essaie pas de t'arrêter à chaque bar sur ta route.
 
 Katerin~
 @1157 = ~Berrto Ghaskill~
-@1158 = ~Magic Jar~
-@1159 = ~This vial is one of six that contains the life essence of the former companions and one time friends of the mage turned lich, known as the Dark One.
+@1158 = ~Jarre magique~
+@1159 = ~Cette fiole est l'une des six qui contiennent l'essence vitale des anciens compagnons et amis du mage devenu liche, le Sombre.
 
-Return these vials to the phantoms to give them their freedom.~
-@1160 = ~Phylactery of Koroval Na'Krugen~
-@1161 = ~This vessel contains the life essence of the Dark One, formerly known as Koroval Na'Krugen. Through a very evil ritual, he was able to transform himself into a very powerful undead being known as a lich. A Lich will spend their entire existence discovering more powerful magics that they were able to obtain in their mortal form. This is usually the reason that a mage chooses to take such a horrid form of existence.
+Portez ces fioles aux fantômes pour leur rendre leur liberté.~
+@1160 = ~Phylactère de Koroval Na'Krugen~
+@1161 = ~Ce récipient contient l'essence vitale du Sombre, autrefois connu sous le nom de Koroval Na'Krugen. Grâce à un rituel particulièrement odieux, il parvint à se métamorphoser en un mort-vivant très puissant connu sous le nom de liche. Une liche passe toute son existence à découvrir de la magie plus puissante que celle qu'elle était capable d'acquérir sous sa forme mortelle. C'est généralement la raison qui pousse un mage à prendre une telle voie.
 
-To destroy the Lich known as the Dark One, you must have possession of this Phylactery. This will prohibit the lich from resurrecting himself.~
-@1162 = ~Ancient Relic of Lathander~
-@1163 = ~This is the relic that you seek.~
+Pour détruire le Sombre, vous devez être en possession de ce phylactère. Cela empêchera la liche de ressusciter.~
+@1162 = ~Relique Antique de Lathandre~
+@1163 = ~C'est la relique que vous recherchez.~
 
-@1169 = ~Battle Cry~
-@1170 = ~This delicately crafted horn is decorated with reb ribbons and runic carvings.~
-@1171 = ~When Neshum Serret was leading his forces against the orcs he brought with him a young bard whom he gave a gift, a horn enchanted with great power. At the start of each battle the bard would play Battle Cry, the strange and menacing sound it made struck fear into the hearts of many on the opposing side.
+@1169 = ~Cri de Guerre~
+@1170 = ~Cette corne finement ouvragée est décorée de rubans rouges et d'arabesques runiques.~
+@1171 = ~Lorsque Neshum Serret mena ses troupes contre les orques, il emmena avec lui un jeune barde à qui il offrit un cadeau, une corne enchantée d'un grand pouvoir. Au début de chaque bataille, le barde jouait le Cri de Guerre, et le son étrange et menaçant frappait de terreur le cœur de nombreux ennemis.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Charge abilities:
-– Battle Cry once per day
+Capacités de charge :
+– Cri de Guerre once per day
   Special: Fear for 15 rounds (Save vs. Spells at +2 bonus negates)
   Range: 100 ft.
   Area of Effect: 20-ft. radius
  
-Weight: 1~
+Poids : 1~
 
 @1173 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
 
-@1174 = ~Lute~
-@1175 = ~Song of the Nyriad~
-@1176 = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold. The craftsmanship appears exquisite, perfect, and almost inhuman. So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords. Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
-@1177 = ~The origins of this lute are not known, its creator however did seem to take that old adage "Music has charms..." to a new level. When played by a skilled musician this instrument produces a sound that can leave the target audience totally beholding.
+@1174 = ~Luth~
+@1175 = ~Chanson de la Nyriad~
+@1176 = ~Les cordes d'argent de ce luth délicatement travaillé sont fixées à une armature de bois peint incrustée d'or. Cet instrument est absolument exquis, parfait et presque inhumain. Au point que même des doigts inexpérimentés effleurant ses cordes produisent des musiques absolument sublimes. Bizarrement, il n'y a pas de clefs d'accordement, comme si cela n'était pas nécessaire. Un sentiment d'ébahissement envahit celui qui observe en détails ce magnifique instrument.~
+@1177 = ~Les origines de ce luth sont inconnues, mais il semble que son créateur ait voulu porter l'ancien adage « la musique adoucit les mœurs » à un niveau supérieur. Lorsqu'un musicien expérimenté en joue, cet instrument produit un son qui peut littéralement subjuguer son auditoire.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Charge abilities:
-– Dire Charm once per day (Save vs. Spell at -2 penalty negates)
+Capacités de charge :
+– Charme néfaste once per day (Save vs. Spell at -2 penalty negates)
   Range: 30 ft.
   Duration: 1 turn
   Area of Effect: 1 creature
 
-Weight: 1~
+Poids : 1~
 
-@1239 = ~Grun'lerthkin's Tome of the Greater Wizard~
-@1241 = ~This tome contains within the finely leather bound cover, the magical runes and notes of the great mage Grun'lerthkin. Grun'lerthkin was a resident of Myth Drannor during its peak. As you read the magical scribbles and notes you begin to become more knowledgeable and somehow feel that you have the abilities of a mage with twice the experience of your former self.
+@1239 = ~Grimoire du Grand Mage Grun'lerthkin~
+@1241 = ~Cet ouvrage contient, sous sa couverture délicatement reliée de cuir, les runes magiques et les notes du Grand Mage Grun'lerthkin. Grun'lerthkin habitait Myth Drannor durant son apogée. Tandis que vous lisez les écrits cabalistiques, vous devenez de plus en plus compétent et vous vous rendez compte que vos capacités sont celles d'un mage ayant une expérience double de la vôtre auparavant.
 
-STATISTICS:
+PARAMÈTRES :
 
-Experience: Raised by 10000 points
-Special: The book is consumed upon use
-Usage: Place into quick item slot
+Expérience: Augmentée de 10000 points
+Spécial : l'ouvrage est détruit après la lecture
+Utilisation : à placer dans les objets rapides
 
-Weight: 25~
-@124100 = ~10000 Experience points gained~
+Poids : 25~
+@124100 = ~A gagné 10000 points d'expérience~
 
-@1242 = ~History of the Dark Side~
-@1243 = ~History of the Dark Side
+@1242 = ~Histoire de la Face Cachée~
+@1243 = ~Histoire de la Face Cachée
 
-A long time ago a wise mage by the name Roach happened upon the young elf CúChoinneach. Roach saw in this young elf the true spirit of adventure and proceeded to ask him to take a long journey. This journey descended into the mysteries that lie hidden in the Swordcoast. Roach knew that there was much more here than met the eye. With Roach's guidance and encouragement, CúChoinneach begin to uncover the many dark stories that still lie hidden beneath the surface of the idealic setting of the Coast Road Way. He spent many a sleepless night trying to cast just the right Hex to reveal yet another mystery. Sometimes he would succeed, much to his surprise. Yet, other times his failure would be miserable and disheartening. He also had to deal with the fact that many said the Dark Side didn't exists, or if it does, it's better left to a more seasoned adventurer. But, CúChoinneach paid them no mind and continued the search.
+Il y a très longtemps, un mage sage du nom de Roach tomba sur le jeune elfe CúChoinneach. Roach reconnut dans ce jeune elfe le véritable esprit de l'aventure et décida de lui demander d'accomplir un long voyage. Ce voyage était une descente dans les mystères qui se cachent sur la Côte des Épées. Roach savait qu'il y avait là bien davantage qu'il n'y paraissait. Avec les conseils et les encouragements de Roach, CúChoinneach commença à découvrir les nombreuses histoires sombres qui se cachent encore sous la surface du cadre idyllique de la Voie Côtière. Il passa beaucoup de nuits blanches à essayer simplement de jeter le bon sortilège Hex pour révéler un nouveau mystère. Parfois il y parvenait, à sa grande surprise. Pourtant à d'autres moments son échec était lamentable et décourageant. Il lui fallut aussi composer avec le fait que beaucoup disaient que la Face Cachée n'existait pas, ou dans le cas contraire, qu'il valait mieux la laisser à un aventurier plus expérimenté. Mais CúChoinneach ne fit pas attention à eux et poursuivit ses recherches.
 
-During his journey, CúChoinneach met a range of unique individuals that, in thier own way, had contributed to Roach and CúChoinneach's discoveries. Among these colorful denizens of the Sword Coast was a man known simply as Ken the Baker, though he is not a Baker, no one really knows how he got that name. He is often found in the Jovial Juggler in Beregost, usually right after a big victory by Team Baldur's Gate. Ken, as some call him, too believed that many mysteries lie hidden in the Sword Coast and started his team of "Hexers" to begin research of these mysteries. Among these hexers were enchanters, illustionist, and representatives from just about every school.
+Pendant son voyage CúChoinneach rencontra un groupe d'individus remarquables qui, à leur façon, avaient contribué aux découvertes de Roach et CúChoinneach. Parmi ces habitants pittoresques de la Côte des Épées figurait un homme connu simplement comme Ken the Baker, bien qu'il ne soit pas boulanger ; personne ne sait vraiment comment il fut nommé ainsi. On le trouve souvent au Jongleur Jovial à Bérégost, généralement juste après une grande victoire de la Team Baldur's Gate. Ken, comme certains l'appellent, crut aussi que beaucoup de mystères restaient cachés sur la Côte des Épées et lança son équipe de "Hexers" pour commencer la recherche de ces mystères. Parmi ces hexers figuraient des enchanteurs, des illusionnistes et des représentants d'à peu-près toutes les écoles.
 
-One of these individuals went simply by the name of Banelord. He was able to show CúChoinneach some of the finer points of Hexing, but a short time after that Banelord faded from the scene. Rumours abound as to the reason for his quick departure, but nothing has ever been confirmed.
+Un de ces individus se faisait appeler simplement Banelord. Il fut en mesure de montrer à CúChoinneach quelques-uns des points les plus subtils du Hex, mais peu de temps après Banelord disparut de la scène. Il regorge de rumeurs à propos des raisons de son départ rapide mais rien n'a jamais été confirmé.
 
-The list continues to grow as the journey continues...
+La liste continua de grandir tandis que le voyage se poursuivait...
 
-Credits:
-Original Concept by Roach
-Story Development by CúChoinneach and Roach
-Areas and Creatures Designed and Hexed by CúChoinneach
-Darkside Logo created WoRm
-Items created by a large number of hexers that is too numerous to list here... (Also, CúChoinneach doesn't wish to leave anyone out. But if you go to the TeamBG site you can visit the TeamBG partner sites and find the creator of your favorite item.)
-Sounds for Jet'Laya, Keiria Silverstring and Conchobhair Strongblade, edited by Grog
-NPC Jet'Laya was created by Grog
-All other NPC's were created by CúChoinneach
-Voice and Bio for Ferthgil Trollslayer provided by Gothmog of the Stonehearth Clan.
-Original Iconsfor some of the items were created by WoRm Website and Publicity by Ken Baker.
+Crédits :
+Concept original par Roach
+Développement de l'histoire par CúChoinneach et Roach
+Cartes et créatures conçues et "hexées" par CúChoinneach
+Logo Darkside créé par WoRm
+Objets créés par un grand nombre de hexers qui sont trop nombreux pour les citer ici... (Par ailleurs CúChoinneach ne souhaite en oublier aucun. Mais si vous allez sur le site TeamBG vous pouvez visiter les sites partenaires de TeamBG et trouver le créateur de votre objet favori.)
+Voix pour Jet'laya, Keiria Silverstring et Conchobhair Lamesolide édités par Grog
+Le PNJ Jet'laya fut créé par Grog
+Tous les autres PNJ furent créés par CúChoinneach
+Voix et biographie pour Ferthgil Tueurdetroll fournies par Gothmog du clan Foyerdepierre
+Les icônes originales de certains des objets sont l'oeuvre de WoRm
+Site web et promotion par Ken Baker
 
-None of this would not have been possible if it weren't for Ken Baker and the creation of TeamBG. TeamBG allowed the coming together of minds and provided the ingredients necessary for a successful brew!
+Rien de tout ceci n'aurait été possible s'il n'y avait eu Ken Baker et la création de TeamBG. TeamBG permit de rassembler les esprits et fournit les ingrédients nécessaires pour un brassage réussi !
 
-Finally a quick thank you to Gustov Montessie who has been a major contributor of editors and other programs that make it possible to create a number of the items and spells. And thanks to all the TeamBG Partners.
+Enfin, merci à Gustov Montessi qui a été un contributeur majeur en éditeurs et autres programmes qui rendent possibles de créer de nombreux objets et sorts. Et merci à tous les partenaires de TeamBG.
 
-Special thanks to Black Isle Studios, Bioware Corp., Interplay Productions, and all of the individuals who were involved in the creation of Baldur's Gate and Tales of the Sword Coast. Without any doubt the greatest CRPG ever created, and without which I would not have created DSotSC.
+Remerciements spéciaux à Black Isle Studios, Bioware Corp., Interplay Productions et toutes les personnes qui ont participé à la création de Baldur's Gate et de Tales of the Sword Coast. Sans aucun doute le meilleur RPG pour ordinateur jamais réalisé et sans lequel je n'aurais pas créé DSotSC.
 
-My last thank you goes to you! The adventurer that who is reading this and was able to find it stashed in a bookcase somewhere in the Dark Side of the Sword Coast. Now get out there and bust some heads ye "Greedy Goblins!"
+Mes derniers remerciements s'adressent à toi ! L'aventurier qui lit ceci et fut capable de le trouver planqué dans une bibliothèque quelque part dans la Face Cachée de la Côte des Épées. Maintenant file d'ici et va fracasser quelques crânes, sale "gobelin avide" !
 
 CúChoinneach~
 
-@1244 = ~Holy Water~
-@1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.
+@1244 = ~Eau bénite~
+@1245 = ~L'eau de cette fiole a été bénite, et lorsqu'elle est lancée sur une créature mort-vivante, provoque l'équivalent de 2D8 points de dégâts d'acide.
 
-STATISTICS:
+PARAMÈTRES :
 
-Weight: 1~
+Poids : 1~
 
-@1247 = ~Heart of the Woods~
-@1249 = ~The carvings on the amulet speak of life and power from the mother goddess. There is one unmistakable runic mark, the symbol of Erreth-Akbe, the great northern druid's temple. Though clearly ancient the charm still glistens like it was new, its power must lie within its resilience. Upon a closer inspection you note some small signs of wear; perhaps its power is not as eternal as the goddess it pays homage to.
+@1247 = ~Cœur des bois~
+@1249 = ~Les gravures sur l'amulette évoquent la vie et les pouvoirs de la déesse mère. Il y a une marque runique reconnaissable, le symbole de Erreth-Akbe, le grand temple des druides du nord. Bien que clairement ancien, le charme brille toujours comme s'il était nouveau, son pouvoir doit provenir de sa résistance. Après une inspection plus approfondie vous constatez quelques petites traces d'usage ; peut-être son pouvoir n'est-il pas aussi éternel que la déesse à qui elle rend hommage.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Acid Resistance: +25%
+Capacités d'équipement : 
+- Résistance à l'acide : +25 %
 
-Weight: 1~
+Poids : 1
 
-@1251 = ~Ferium's Necklace~
-@1253 = ~This necklace was given to Ferium by her chosen, Ken'lan. The inscription on the back reads "My love to thee 'til the moon doth fade."
+Nécessite : 
+- Intelligence : 9~
 
-Jet'Laya has suggested to take this to Lennan, her uncle who is waiting at the Jovial Juggler in Beregost.
+@1251 = ~Collier de Férium~
+@1253 = ~Ce collier fut donné à Férium par l'élu de son coeur, Ken'lan. L'inscription au dos indique « Mon amour pour toi jusqu'à ce que la lune baisse ».
 
-STATISTICS:
+Jet'laya a suggéré de le rapporter à Lennan, son oncle, qui attend au Jongleur Jovial à Bérégost.
 
-Weight: 1~
+PARAMÈTRES : 
 
-@1256 = ~The true nature of this amulet is unknown. It seems to be of great power.
+Poids : 1~
 
-STATISTICS:
+@1256 = ~La véritable nature de cette amulette est inconnue. Elle paraît avoir un grand pouvoir.
 
-Weight: 1~
+PARAMÈTRES :
 
-@1257 = ~Segoy Signet Amulet~
-@1258 = ~This amulet bares the trademark symbol of the Segoy, a ruthless band of assassins. The evil seems almost to radiate from the amulet as you hold it in your hands. This particular one is enchanted with magics providing a protective charm, although you can sense that there is a limit to its powers.
+Capacités d'équipement : 
+- ...
 
-STATISTICS:
+Poids : 1~
 
-Equipped abilities:
-– Fire Resistance: +25%
+@1257 = ~Amulette du Sceau de Segoy~
+@1258 = ~Cette amulette porte le symbole de reconnaissance des Segoy, une bande d'assassins sans pitié. Le mal semble presque irradier de l'amulette quand vous le tenez entre vos mains. Celle-ci est enchantée avec de la magie apportant un charme de protection, néanmoins vous pouvez sentir qu'il y a une limite à ses pouvoirs.
 
-Weight: 1~
+PARAMÈTRES : 
 
-@1261 = ~Amulet of Faith~
-@1262 = ~There are many similar items throughout the realms, those that have a more symbolic purpose rather than a practical one. Most commonly such items are used to express one's belief in a certain deity.
+Capacités d'équipement : 
+- Résistance au feu : +25 %
 
-STATISTICS:
+Poids : 1
 
-Equipped abilities:
-– Armor Class: +1
-– Save vs. Death: +1
-– Can memorize one extra 1st-level priest spell
+Nécessite : 
+- Intelligence : 9~
 
-Weight: 1~
+@1261 = ~Amulette de la foi~
+@1262 = ~Il existe beaucoup d'objets similaires à travers les royaumes, qui ont une vocation plus symbolique que pratique. La plupart du temps, ces objets servent à exprimer sa croyance en une divinité particulière.
 
-@1263 = ~Jules Antique Pearl Necklace~
-@1264 = ~Amulet of the Learned~
-@1265 = ~Similar gifts are often bestowed upon apprentice's that have finished or are close to finishing their apprenticeship with a mage.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Can memorize one extra 3rd-level wizard spell
+Capacités d'équipement : 
+- Mémorisation d'un sort divin supplémentaire de niveau 1
+- Classe d'armure : +1
+- Jets de sauvegarde : +1 contre la paralysie, la mort et les poisons
 
-Weight: 1~
+Poids : 1
 
-@1268 = ~Amulet of Great Foresight~
+Nécessite : 
+- Sagesse : 3~
+
+@1263 = ~Collier de perles ancien de Jules~
+@1264 = ~Amulette de la connaissance~
+@1265 = ~De tels objets sont souvent offerts aux apprentis qui ont terminé ou sont en passe de terminer leur apprentissage auprès d'un mage..
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Mémorisation d'un sort profane supplémentaire de niveau 3
+
+Poids : 1~
+
+@1268 = ~Amulet of Great Foresight~ //@13 dsamul12
 @1269 = ~Amulet of Great Foresight Known for its ability to enhance the vision of its wearer, the Amulet of Great Foresight is highly sought after by leaders of great armies since they are able to see things from miles away and react to enemy strategies. Its origin and recent history are unknown.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Clairvoyance
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Cécité
 
-Weight: 1~
+Poids : 1~
 
-@1271 = ~Arrow of Dragon Slaying~
-@1273 = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger then itself. It was made specifically to pierce the mighty armor-like scales to kill one type of creature and one type only. In this case the ever feared dragon. This arrow will kill any wyvern outright and does extra damage to dragons.
+@1271 = ~Flèches tueuses de dragon~
+@1273 = ~Cette flèche est tordue et noire, irradiant presque le mal comme si elle était possédée par quelque chose de plus puissant qu'elle. Elle a été créée spécialement pour transpercer les écailles robustes et tuer un genre de créatures en particulier. Dans ce cas, il s'agit du redouté dragon. Cette flèche a 30% de chances de tuer tout dragon mineur ou toute wiverne, inflige des dégâts accrus aux grands dragons et a une petite chance de tuer l'une des pires menaces des forêts elfiques, le dragon vert ou dragon des forêts.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Combat abilities:
-– Slay wyverns upon touch (Save vs. Spell negates)
+Capacités de charge : 
+- Capacité 1 (usage unique)
+  Inflige 3 points de dégâts de projectiles contre les dragons
+  Augmente de 3 le TAC0 des dragons contre les dragons de manière permanente
+  Tue instantanément les wyvernes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
-THAC0: +3 vs. dragons
-Damage: 1d6 (missile), +3 vs. dragons
-Launcher: Bow
+Enchantement : +1
+Dégâts : 1d6
+Type de dégâts : Projectile
+Arme de jet : Arc
 
-Weight: 0~
+Poids : 0~
 
-@1278 = ~Arrow of Striking~
-@1279 = ~This arrow is brilliant and blue with a bright gold tip. It radiates with magic and is lighter and smaller then normal arrows. It is the preferred arrow of the Holy Guard of the Sukien, who are rumored to possess a bow that can create them.
+@1278 = ~Flèches percutantes~
+@1279 = ~Cette flèche est brillante et bleue avec une pointe d'or vif. Elle irradie de magie et est plus légère et petite que des flèches normales. Ce sont les flèches préférées de la Sainte Garde du temple de Sukien.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Damage: 1d6+2 (missile), +2d3 magic damage
-Launcher: Bow
+Capacités de charge : 
+- Inflige 2d3 points de dégâts magiques à la cible (usage unique)
 
-Weight: 0~
+Enchantement : +1
+Dégâts : 1d6 +2
+Type de dégâts : Projectile
+Arme de jet : Arc
 
-@1281 = ~Bolt +1 of Dispelling~
-@1283 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size. However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+Poids : 0~
 
-STATISTICS:
+@1281 = ~Carreau +1 de dissipation~
+@1283 = ~Les carreaux sont les munitions tirées par les arbalètes, quelle que soit la taille de l'arme. Cependant, ce carreau a été infusé d'un soupçon de propriétés magiques, qui améliorent ses performances en vol, presque comme s'il était guidé jusqu'à sa cible.
 
-Combat abilities:
-– Dispel Magic on target when hit (Save vs. Spell at +2 bonus negates)
+PARAMÈTRES : 
 
-Damage: 1d8 (missile)
-Launcher: Crossbow
+Capacités de charge : 
+- Dissipation de la magie inéluctable sur la cible (jet de sauvegarde à +2 contre les sorts pour éviter) (usage unique)
 
-Weight: 0~
+Dégâts : 1d8
+Type de dégâts : Projectile
+Arme de jet : Arbalète
 
-@1285 = ~Bullet of Detonation~
-@1287 = ~This bullet has a particularly debilitating effect on its victims as, upon impact, it explodes into a huge ball of fire and shrapnel effecting all within the area.
+Poids : 0~
 
-STATISTICS:
+@1285 = ~Bille de Détonation~
+@1287 = ~Cette bille a un effet particulièrement handicapant sur ses victimes, car, dès l'impact, elle explose en une énorme boule de feu et d'éclats qui affecte tout le monde dans la zone.
 
-Damage: 1d4+1 (missile), +6d6 fire damage (Save vs. Spell for half)
-Launcher: Sling
+PARAMÈTRES : 
 
-Weight: 0~
+Capacités de charge : 
+- Capacité 1 (usage unique)
+  Inflige 3d6 points de dégâts de feu à la cible (jet de sauvegarde contre les sorts pour éviter)
+  Inflige 3d6 points de dégâts de feu à la cible
 
-@1288 = ~Bullet of Holy Water~
-@1289 = ~This bullet not only embedded with magical currents so to be a little more balanced and lighter as it jumps towards an opponent, but it is also soaked in holy water, thus providing extra damage to undead creatures.
+Dégâts : 1d4 +1
+Type de dégâts : Projectile
+Arme de jet : Fronde
 
-STATISTICS:
+Poids : 0~
 
-THAC0: +1
-Damage: 1d4+2 (missile), +2d3 damage vs. undead
-Launcher: Sling
+@1288 = ~Bille d'eau bénite~
+@1289 = ~Cette bille est non seulement imprégnée de courants magiques pour être un peu mieux équilibrée et légère alors qu'elle file vers un ennemi, mais elle est également imbibée d'eau bénite, provoquant donc des dégâts accrus aux morts-vivants.
 
-Weight: 0~
+PARAMÈTRES : 
 
-@1292 = ~Boots of the Forest~
-@1294 = ~These boots, woven from slim, supple branches with such expertise so as to appear made of leather, the Boots of the Forest are one of the many gifts bestowed upon the protectors of the forests. Such individuals swear that the boots not only allow them to travel at a greater pace, but also provide them with a much greater sensitivity to their surroundings.
+Capacités de charge : 
+- Inflige 2d3 +1 points de dégâts magiques contre les morts-vivants (usage unique)
 
-STATISTICS:
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d4 +2
+Type de dégâts : Projectile
+Arme de jet : Fronde
 
-Equipped abilities:
-– Move Silently: +15%
-– Immunity to Web, Grease and Entangle
+Poids : 0~
 
-Weight: 4~
+@1292 = ~Bottes de la Forêt~
+@1294 = ~Les Bottes de la Forêt sont l'un des nombreux présents accordés aux protecteurs des forêts. Ces bottes permettent à leur porteur de se déplacer légèrement plus rapidement, augmentent sa capacité à se fondre dans les ombres et à éviter de se retrouver piégé.
 
-@1295 = ~Boots of Valor~
-@1296 = ~The magic of these boots was specifically designed to aid the wearer in resisting bludgeoning attacks. They plant the wearer's feet firmly on the ground giving them the ability to withstand the blow.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités d'équipement : 
+- Furtivité : +15 %
+- Immunité à l'enchevêtrement
+- Immunité aux toiles
 
-Equipped abilities:
-– Armor Class: +3 vs. blunt attacks
+Poids : 4~
 
-Weight: 18~
+@1295 = ~Bottes de bravoure~
+@1296 = ~La magie de des bottes « Pied de tonnerre » fut spécialement façonnée afin d'aider leur porteur à résister aux attaques contondantes. Elles ancrent fermement les pieds du porteur au sol, lui donnant la capacité d'encaisser les chocs.
 
-@1302 = ~CúChoinneach's Small Shield +1~
-@1304 = ~CúChoinneach created this shield for himself after receiving the scimitar 'Mairail' from Sehanine Moonbow. It is fashioned of mithril and the hardest wood of the forest.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités d'équipement : 
+- Classe d'armure : +3 contre les armes contondantes
 
-Equipped abilities:
-– Armor Class: +2
-– No protection against missile attacks
+Poids : 18
 
-Requires:
- 4 Strength
+Nécessite : 
+- Force : 11~
 
-Weight: 3~
+@1302 = ~Rondache de CúChoinneach~
+@1304 = ~Rondache +3 « La lune »
 
-@1305 = ~Jet'laya's Small Shield~
-@1306 = ~This is the personal shield of Jet'laya. The wood that the shield is made from was cut from a tree in a holy forest, and the metal used in the construction of the shield was forged in holy water. Thus, just being in the presence of this shield causes all but the strongest of undead to shy away from its wielder.
+CúChoinneach a créé ce bouclier pour son propre usage après avoir reçu le cimeterre « Mairial » de Sehanine Archelune. Il est fabriqué à base de Mithril et des bois les plus durs de la forêt.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +1
-– THAC0: +2 vs. undead
-– No protection against missile attacks
+Capacités d'équipement :
+- Classe d'armure : +2
+– Pas de protection contre les armes à projectiles
 
-Requires:
- 4 Strength
+Poids : 3
 
-Weight: 4~
+Nécessite : 
+- Force : 4~
 
-@1307 = ~Sun Shield +2~
-@1308 = ~This shield is warm to the touch as if a fire was burning deep within it. The origins of the shield are unknown and much of its secrets remain just that.
+@1305 = ~Rondache de Jet'laya~
+@1306 = ~Il s'agit du bouclier personnel de Jet'laya. Le bois dont le bouclier est fait fut coupé d'un arbre d'une forêt sacrée et le métal employé pour la construction du bouclier fut forgé dans de l'eau bénite. Par conséquent le simple fait d'être en présence de ce bouclier pousse tous les morts-vivants à l'exception des plus puissants à éviter celui qui le porte.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +3
-– Cold Resistance: +30%
-– Fire Resistance: -25%
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Classe d'armure : -1 contre les projectiles
+- TAC0 : +2 contre les morts-vivants
 
-Requires:
- 4 Strength
+Poids : 4
 
-Weight: 3~
+Nécessite : 
+- Force : 4~
 
-@1313 = ~Heart of the Dragon +2~
-@1314 = ~A relatively unknown knight, Neshum was never to swift of the mind. When traveling through the north he came upon a battle, before him were several warriors and a dragon. Neshum decided that the battle was unfair, and took arms in defense of the dragon. Neshum's aid was the turning point and the warriors were defeated. Benderesk, the dragon, repaid the knight's aid by giving him a shield which he bestowed with the strength of a dragon's heart. Benderesk retrieved his gift some years later when Neshum was hired by the same village as the warrior to rid them of this troublesome dragon.
+@1307 = ~Bouclier du soleil~
+@1308 = ~Ce bouclier est chaud au toucher, comme si du feu brûlait en son sein. Les origines de ce bouclier sont inconnues, de même que ses secrets.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +3
-– Magic Resistance: +5%
-– Hit Points: +10
+Capacités d'équipement : 
+- Classe d'armure : +3
+- Résistance au feu : -25 %
+- Résistance au froid : +30 %
 
-Requires:
- 12 Strength
+Poids : 3
 
-Weight: 6~
+Nécessite : 
+- Force : 4~
 
-@1315 = ~The Wall +2~
-@1317 = ~In the first days of the battle over Selidor, Kelub's army was besieged by a sea of arrows that blackened the skies. Kelub ordered his finest smiths to make a shield such that his army might be led by a row of them through the onslaught. The smiths worked feverishly and produced a dozen of these shields. They worked splendidly against the arrows, however, when his troops reached the enemy the front row was to exhausted too fight.
+@1313 = ~Cœur du dragon~
+@1314 = ~Un chevalier assez inconnu, Neshum, n'était jamais très rapide d'esprit. Lorsqu'il voyageait dans le nord, il arriva sur les lieux d'une bataille. Plusieurs guerriers et un dragon se tenaient devant lui. Neshum estima que le combat était inégal, et il prit les armes en défendant le dragon. L'aide de Neshum fut déterminante et les guerriers furent défaits. Benderesk, le dragon, remercia le chevalier en lui remettant un bouclier dans lequel il instilla la force d'un coeur de dragon. Benderesk récupéra son cadeau quelques années plus tard lorsque Neshum fut engagé par les gens du même village d'où venaient les guerriers, pour se débarrasser de ce trublion de dragon.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Armor Class: +3, +7 vs. missile attacks
+Capacités d'équipement : 
+- Classe d'armure : +3
+- Points de vie maximums : +10
+- Résistance aux dégâts magiques : +5 %
 
-Requires:
- 13 Strength
+Poids : 6
 
-Weight: 20~
+Nécessite : 
+- Force : 12~
 
-@1323 = ~Katana +2, Masamune~
-@1325 = ~This katana was forged by famous katana-creater Masamune. Just like any katanas made by him, you can easily understand this is a "Masterpiece", the King of all Blades.
+@1315 = ~Le Rempart~
+@1317 = ~Les premiers jours de la bataille de Selidor, l'armée de Kelub fut assaillie par une marée de flèches qui masquait le ciel. Kelub ordonna à ses meilleurs forgerons de fabriquer un bouclier tel que son armée pût utiliser en première ligne pour avancer à l'assaut. Les forgerons travaillèrent fébrilement et en fabriquèrent une douzaine. Ils fonctionnèrent à merveille contre les flèches, mais, lorsque ses troupes atteignirent l'ennemi, le premier rang était trop épuisé pour combattre.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Dexterity: +1
+Capacités d'équipement : 
+- Classe d'armure : +3
+- Classe d'armure : +7 contre les projectiles
 
-THAC0: +2
-Damage: 1d10+2 (slashing)
-Speed Factor: 2
-Proficiency Type: Katana
-Type: One-handed
-Requires:
- 6 Strength
+Poids : 20
 
-Weight: 8~
+Nécessite : 
+- Force : 13~
 
-@1326 = ~Katana +3, Muramasa~
-@1328 = ~This is an excellent katana. However, some say it's "cursed", and others think this sword has its own mind, no doubt a dark brood thirsty mind.
+@1323 = ~Masamune~
+@1325 = ~Ce katana fut forgé par le célèbre maître-forgeron Masamune. Tout comme les autres katanas qu'il a forgés, on se rend vite compte qu'il s'agit d'un Chef d'Oeuvre, la Reine de toutes les lames.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Combat abilities:
-– 33% chance of wielder go into Berserk upon successful hit
+Capacités d'équipement : 
+- Dextérité : +1
 
-THAC0: +3
-Damage: 1d10+3 (slashing)
-Speed Factor: 3
-Proficiency Type: Katana
-Type: One-handed
-Requires:
- 10 Strength
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d10 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à 1 main
 
-Weight: 10~
+Poids : 8
 
-@1330 = ~Scimitar +1, Yarrow's Tears~
-@1332 = ~It was just after the fall of the temple of Erreth-Akbe, the Archdruid Yarrow had just returned from a trip to discover his temple ravaged in his absence. The powerful druid pleaded to the Gods for revenge, and then cried; his tears falling upon his scimitar. The tears empowered his scimitar with his grief and longing for revenge.
+Nécessite : 
+- Force : 6~
 
-STATISTICS:
+@1326 = ~Muramasa~
+@1328 = ~Un katana excellent. Cependant, d'aucuns disent qu'il est maudit, et d'autres pensent que cette épée est dotée d'une âme, sans aucun doute une âme noire et assoiffée de sang. Lorsque cette épée goûte au sang, le porteur peut devenir berserk, car il est contrôlé par l'épée.
 
-Combat abilities:
-– 20% chance per hit that target is stunned (Save vs. Spell negates)
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
 
-Charge abilities:
-– Charm Person or Mammal once per day
+Capacités de combat : 
+- En combat ; 34 % de chance de provoquer la folie du berserker chez le porteur pendant 5 rounds (jet de sauvegarde à -2 contre les sorts pour éviter)
 
-THAC0: +1
-Damage: 1d8+1 (slashing)
-Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 8 Strength
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d10 +3
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Katana
+Type : Arme à 2 mains
 
-Weight: 3~
+Poids : 10
 
-@1334 = ~Dragonslayer~
-@1336 = ~Imbued with strong enchantments, this mighty blade is also shielded by a cloaking spell, preventing any attempts at discerning its true nature. Its origin and history are thus largely unknown, though it is rumored that the sword chooses its wielder, and will prevent any other from using it. Those who have attempted to forcibly control the weapon have found their wills sapped, or worse...
+Nécessite : 
+- Force : 10
+- Dextérité : 10
+- Sagesse : 5~
 
-STATISTICS:
+@1330 = ~Larmes de Yarrow~
+@1332 = ~Juste après la chute du temple d'Erreth-Akbe, l'archidruide Yarrow revint d'un long voyage pour découvrir son temple ravagé durant son absence. La puissante druidesse appela les dieux à la vengeance, et pleura, ses larmes tombant sur son cimeterre. Les larmes emplirent l'arme de la puissance de sa rancœur et de sa soif de vengeance.
 
-Equipped abilities:
-– Acid Resistance: 20%
-– Fire Resistance: 20%
-– Save vs. Breath: +1
+PARAMÈTRES : 
 
-THAC0: +1, +3 vs. dragons
-Damage: 1d10+1 (slashing), +3 vs. dragons
-Speed Factor: 8
-Proficiency Type: Two-handed Sword
-Type: Two-handed
-Requires:
- 14 Strength
+Capacités de charge : 
+- Charme-personne ou mammifère (1 fois par jour)
+  Charme-personne ou mammifère (comme un lanceur de sorts de niveau 7) (jet de sauvegarde à +2 contre les sorts pour éviter)
 
-Weight: 15~
+Capacités de combat : 
+- 21 % de chance d'étourdir la cible pendant 1 round (jet de sauvegarde contre les sorts pour éviter)
 
-@1337 = ~Scimitar +1, The Jagged Lightning~
-@1338 = ~The mithril blade of this scimitar is serrated so that it resembles a slightly curved lightning bolt. The scimitar was created in Calimshan in ancient times by a religious cult worshipping a thunder god. It was used by holy warriors of the cult on special, holy missions. Electricity flows through the blade and small surges of energy cause little lightning bolts to flicker along its serrated edge. Some of the electric energy directed at its wielder will be absorbed by the scimitar. The magic of the scimitar also allows its wielder to strike first in any combat situation.
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-STATISTICS:
+Poids : 3
 
-Equipped abilities:
-– Electricity Resistance: +30%
+Nécessite : 
+- Force : 8~
 
-THAC0: +1
-Damage: 1d8+1 (slashing), +1d4 lightning damage
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Speed Factor: n/a
-Type: One-handed
-Requires:
- 8 Strength
+@1334 = ~Pourfendeur de Dragon~
+@1336 = ~Cette épée est imprégnée d'un enchantement très puissant et toute tentative de découvrir la véritable nature de cette épée est bloquée par une magie très forte. Son origine et son histoire sont inconnues. L'épée 'choisit' celui qui la manie et par conséquent empêche quiconque autre que l'élu de la porter. Quiconque tenterait de contrôler l'arme se trouverait soumis à elle, sinon pire.
 
-Weight: 4~
+PARAMÈTRES : 
 
-@1339 = ~Sword of the 'Champion of the Green'~
-@1340 = ~In the lost days of Netheril, the necromancer J'K'Voorkan attempted to engender a reign of undeath. Onslaught after onslaught of the walking dead threatened to engulf the Realms, until the Hierophant Druid, L'Orax, called to the gods for aid. They caused the Tree of Life to produce a single thorn, which L'Orax took. In a grueling ordeal of fasting, prayer, meditation, and spellcasting from one new moon to the next, the Great Circle produced Thorn. Thorn was presented to one of the key leaders of the forces of Light and Life - S'Mokye, called "The Bear" by his troops for his relentless resistance to the dead. He became the first Ranger, and the first Champion of the Green. Thorn is passed to each new Champion upon his ascension. Such is the power of Thorn that the very plants of the earth may be called upon for aid by the wielder.
+Capacités d'équipement : 
+- TAC0 : +2 contre les dragons
+- Jets de sauvegarde : +1 contre les souffles
+- Résistance au feu : +20 %
+- Résistance à l'acide : +20 %
 
-STATISTICS:
+Capacités de combat : 
+- Inflige 2 points de dégâts tranchants contre les dragons
 
-Charge abilities:
-– Entangle once per day
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d10 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 8
+Type de compétence : Épée à deux mains
+Type : Arme à 2 mains
 
-THAC0: +1
-Damage: 1d10+1 (slashing)
-Proficiency Type: Two-handed Sword
-Speed Factor: 6
-Type: Two-handed
-Requires:
- 14 Strength
+Poids : 15
 
-Weight: 9~
+Nécessite : 
+- Force : 14~
 
-@1341 = ~Cutlass~
-@1342 = ~Cutlass +2, O-Tokne's Fang~
-@1343 = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
+@1337 = ~L'Éclair Dentelé~
+@1338 = ~La lame en mithril de ce cimeterre est dentelée, de telle sorte qu'elle ressemble à un éclair légèrement incurvé. Ce cimeterre fut forgé en Calimshan, voici longtemps, par un culte religieux, adorateur d'un dieu du tonnerre. Il était utilisé par les guerriers saints de ce culte, lors de missions saintes particulières.
 
-STATISTICS:
+De l'électricité s'échappe de la lame, et de petites décharges d'énergie entrainent le scintillement de petits éclairs le long de son fil. Une partie de l'énergie électrique dirigée vers son porteur est ainsi absorbée par le cimeterre. La magie du cimeterre permet également à son porteur de frapper en premier lieu quelle que soit la situation.
 
-Damage: 3d3 (slashing)
-Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+PARAMÈTRES : 
 
-Weight: 4~
+Capacités d'équipement : 
+- Résistance à l'électricité : +30 %
 
-@1344 = ~Fashioned from the fang of a dragon, this cutlass seems to almost guide itself at the target. Its added grace gives new energy to the wielder enabling them to attack faster.
+Capacités de combat : 
+- Inflige 1d4 points de dégâts d'électricité à la cible
 
-STATISTICS:
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 0
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-THAC0: +2
-Damage: 3d3+2 (slashing)
-Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+Poids : 3
 
-Weight: 3~
+Nécessite : 
+- Force : 8~
 
-@1345 = ~Cutlass +1, Scorcher~
-@1346 = ~Forged of layers of red metal, laid upon one another so as to make it appear wrinkled, this cutlass is unusually cold to the touch. Runic carvings near the hilt, reminiscent of the tribal languages of the northern reaches of Vaasa, give the blade its name. Its appearance and apparent lack of enchantment have caused many an adventurer to mistake it as useless. Those more with more inquisitive minds, who carry it along just to be sure, are always pleasantly surprised. Once in motion in battle, swinging toward its target, Scorcher's name becomes clear, as it ignites with a burning flame.
+@1339 = ~Épine~
+@1340 = ~Durant les derniers jours de Néthéril, le nécromancien J'K'Voorkan tenta d'établir un règne de morts-vivants. Assaut après assaut, les morts-vivants menaçaient d'envahir les Royaumes, jusqu'à ce que le druide hiérophante L'Orax appela les dieux à l'aide. Ils firent pousser une épine unique sur l'Arbre de Vie, dont L'Orax s'empara. Après une épreuve exténuante de jeûne, de prière, de méditation et de lancement de sortilèges durant une lune entière, le Grand Cercle fabriqua Épine.
+Épine fut proposée à l'un des meneurs-clef des forces de la Lumière et de la Vie, S'Mokye, appelé « l'Ours » par ses troupes pour sa résistance effrénée aux morts-vivants. Il devint le premier rôdeur, et le premier Champion de la Nature. Épine passa à chaque nouveau Champion lors de son ascension.
+Le pouvoir d'Épine est tel que toutes les plantes de la terre peuvent être appelées pour venir en aide à son porteur.
 
-STATISTICS:
+PARAMÈTRES : 
 
-THAC0: +1
-Damage: 3d3+1 (slashing), +2d3 fire damage
-Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+Capacités de charge : 
+- Enchevêtrement (1 fois par jour)
+  Enchevêtrement (comme un lanceur de sorts de niveau 6)
 
-Weight: 3~
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d10 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : Épée à deux mains
+Type : Arme à 2 mains
 
-@1347 = ~Cutlass +2, Ghost Blade~
-@1348 = ~Anytime a swordsman swings their blade they can see slight images of it tracing along behind. This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut. It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief. Given how well this blades enchantment works he might have been better served to stay a mage.
+Poids : 9
 
-STATISTICS:
+Nécessite : 
+- Force : 14~
 
-THAC0: +2
-Damage: 3d2+2 (slashing), +2d3 slashing damage
-Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+@1341 = ~Coutelas~
+@1342 = ~Griffe d'O-Tokne~
+@1343 = ~Une lame longue, courbe et à simple tranchant est caractéristique des coutelas et des cimeterres, même s'ils trouvent leurs origines à des endroits différents de Féérune. Le coutelas, pour son corps plus léger, est l'arme de choix de nombre de voleurs et brigands.
 
-Weight: 3~
+PARAMÈTRES : 
 
-@1349 = ~Cutlass +1, Sparks~
-@1350 = ~Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword...
+Dégâts : 3d3
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-STATISTICS:
+Poids : 3
 
-THAC0: +1
-Damage: 3d3+1 (slashing), +2d3 electrical damage
-Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+Nécessite : 
+- Force : 10~
 
-Weight: 3~
+@1344 = ~Fabriqué à partir d'une griffe de dragon, ce coutelas semble se diriger de lui-même vers sa cible. Sa grâce surnaturelle offre une énergie nouvelle à son porteur, ce qui lui permet d'attaquer plus souvent.
 
-@1352 = ~Deceiver's Blade~
-@1354 = ~Denat "The Deceiver" was once a very famous bard. He told not only tales of heroes, but also his adventures, he always claimed he was the best swordsman in the realm. At the end of his tales he would dual the best swordsman of his listeners and always wins. His downfall came when he mistakenly used a normal sword instead of this heavily enchanted one.
+PARAMÈTRES : 
 
-STATISTICS:
+Enchantement : +1
+TAC0 : +2
+Dégâts : 3d3 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-Equipped abilities:
-– Dexterity: +1
-– Armor Class: +1
+Poids : 3
 
-THAC0: +5
-Damage: 1d8+1 (slashing)
-Speed Factor: 2
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
+Nécessite : 
+- Force : 10~
 
-Weight: 4~
+@1345 = ~Brûleur~
+@1346 = ~Froissé et rouge, ce coutelas est froid au toucher. Les gravures runiques indiquent seulement « Brûleur ». Son apparence a souvent fait que de nombreux aventuriers l'ont pris pour une arme usée, vieille ou inutile. Les plus curieux qui l'ont transporté "au cas où" furent toujours agréablement surpris. En fait, Brûleur ne devient chaud que lorsqu'il fend l'air, mais une fois qu'il est en mouvement, en direction d'une cible, son nom apparaît clairement justifié.
 
-@1356 = ~Champion Sword~
-@1358 = ~This is the golden sword given to the highest ranking members of the 'Order of the Most Radiant Heart' by Helm.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités de combat : 
+- Inflige 3d2 points de dégâts de feu à la cible
 
-Equipped abilities:
-– Bless
+Enchantement : +1
+TAC0 : +1
+Dégâts : 3d3 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-THAC0: +1
-Damage: 2d4 +1 (slashing)
-Speed Factor: 5
-Proficiency Type: Bastard Sword
-Type: One-handed
-Requires:
- 12 Strength
+Poids : 3
 
-Weight: 12~
+Nécessite : 
+- Force : 10~
 
-@1363 = ~Mairial +2, The Death Hunter~
-@1364 = ~This is the personal scimitar of CúChoinneach. Made of pure mithril that has been bathed in the light of the full moon, it was given to him by Sehanine Moonbow, the elven goddess of mysticism, dreams, death, journeys, transcendence, the moon, the stars, and the heavens. She came to him in a dream a short time after his chosen, Fia'nna, had been killed by army of undead, led by a vampire. Sehanine told CúChoinneach that he would be the hunter, that he was chosen by her to hunt down the most evil undead of the realms. When he awoke he found this scimitar by his side. Sehanine's symbol is the crescent moon. She gave him the blade as a symbol and to remind him of her support. The powers that are bound to the blade are unknown, even to CúChoinneach. Its complete powers are unknown.
+@1347 = ~Lame Fantôme~
+@1348 = ~Toute épée fendant l'air donne l'impression de montrer de légères répliques d'elle-même le long du tracé parcouru. Cette lame n'est pas différente, mais à l'inverse d'une lame classique, on dirait que les répliques fantomatiques de celle-ci peuvent également trancher. Elle fut, à l'origine, en la possession d'un type plutôt sale et paresseux nommé Bordger, dont on disait qu'il avait suivi une formation arcanique avant de devenir voleur. Étant donné l'efficacité des enchantements de cette lame, il aurait peut-être mieux fait d'insister dans cette voie.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Negative Plane Protection
+Capacités de combat : 
+- Inflige 3d2 points de dégâts tranchants à la cible
 
-THAC0: +2
-Damage: 1d8+2 (slashing)
-Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: One-handed
-Requires:
- 10 Strength
+Enchantement : +2
+TAC0 : +2
+Dégâts : 3d3 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
 
-Weight: 3~
+Poids : 3
+
+Nécessite : 
+- Force : 10~
+
+@1349 = ~Étincelles~
+@1350 = ~Bourdonnant d'énergie électrique, il est facile de savoir comment ce coutelas a gagné son nom. Ses origines sont inconnues, mais des histoires d'une étrange contrée accompagnent toujours tout conte à son sujet. Son premier propriétaire connu était un pirate tout juste de retour au port. Il fut volé et tué alors qu'il était abruti par l'alcool, et même son nom demeure un mystère aussi épais que celui de cette épée...
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Inflige 3d2 points de dégâts d'électricité à la cible
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 3d3 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
+
+Poids : 3
+
+Nécessite : 
+- Force : 10~
+
+@1352 = ~Epée du Berneur~
+@1354 = ~Denat « le berneur » fut autrefois un barde très célèbre. Il ne contait pas que des histoires de héros, mais également ses propres aventures. Il se réclamait toujours être le meilleur bretteur des Royaumes. À la fin de ses récits, il affrontait le meilleur duelliste parmi son public, et le battait à chaque fois. Sa chute arriva lorsqu'il utilisa par erreur une épée normale au lieu de celle-ci, lourdement enchantée.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Dextérité : +1
+
+Enchantement : +5
+TAC0 : +5
+Dégâts : 1d8 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Épée longue
+Type : Arme à 1 main
+
+Poids : 4
+
+Nécessite : 
+- Force : 6~
+
+@1356 = ~Epée du champion~
+@1358 = ~C'est l'épée dorée donnée par Heaum au membre de rang le plus élevé du Très Noble Ordre du Coeur Radieux.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Bénédiction
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 2d4 +1
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : Épée bâtarde
+Type : Arme à 1 main
+
+Poids : 12
+
+Nécessite : 
+- Force : 12~
+
+@1363 = ~Le Chasseur de Mort~
+@1364 = ~C'est le cimeterre personnel de CúChoinneach. Forgé de pur Mithril ayant baigné dans la lumière de la pleine lune, il lui fut donné par Sehanine Archelune, la déesse elfe du mysticisme, des rêves, de la mort, des voyages, de la transcendance, de la lune, des étoiles et des cieux. Elle lui apparut en rêve peu de temps après que l'élue de son coeur, Fia'nna, ait été tuée par une armée de morts-vivants dirigée par un vampire. Sehanine dit à CúChoinneach qu'il serait le chasseur, qu'elle l'avait choisi pour traquer les morts-vivants les plus malveillants des royaumes. Quand il se réveilla, il découvrit ce cimeterre à ses côtés. Le symbole de Sehanine est le croissant de lune. Elle lui donna le cimeterre comme un symbole et pour lui rappeler son soutien. Les pouvoirs liés à la lame sont inconnus, même de CúChoinneach.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+– Protection contre le Plan négatif
+
+TAC0 : +2
+Dégâts : 1d8+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Cimeterre / Wakizashi / Ninjato
+Type : Arme à 1 main
+
+Poids : 3
+
+Nécessite : 
+- Force : 10~
 
 @1366 = ~Nemmerle's Revenge~
-@1368 = ~In a classic battle of good vs. evil the Archmage Nemmerle saw his defeat was inevitable and summoned what was left of his dark magic to enchant his staff and teleported it to his fledgling apprentice. Only in the end did he realize what was needed to win the day, and lacking the strength to accomplish it himself, he saw to it that even in defeat he might grasp some small victory. Gensher had enchanted his robes to withstand any crushing blows, evenly matched in magic he knew the battle would end in close combat and had outwitted the evil sage. The staff gives off a very faint aura of alteration magic. Upon identification of the command word, the staff takes on the attributes of a halberd, which allows it to do slashing damage.
+@1368 = ~Durant un sempiternel combat entre le bien et le mal, l'archimage Nemmerle vit que la défaite était inévitable, et il utilisa ce qu'il lui restait de sa magie noire pour enchanter son bâton et l'envoyer à son jeune apprenti. Ce fut seulement à la fin, comprenant ce dont il avait besoin pour remporter la victoire, et qu'il manquait de force pour ce faire, qu'il vit que même dans la défaite, il pourrait arracher une petite victoire. Gensher avait enchanté sa robe de manière à contrer toute attaque d'objets contondants, sachant qu'étant de force égale en terme de magie, la bataille s'achèverait sur un combat au corps-à-corps, de sorte qu'il se montra plus malin que le magicien malveillant.
+Le bâton présente une très faible aura d'altération magique. Sur mention du mot de commande, le bâton adopte les attributs d'une hallebarde, ce qui lui permet d'occasionner des dégâts tranchants.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Combat abilities:
-– Each successful hit casts Panic on the target (Save vs. Spell at +2 bonus negates)
+Capacités de combat : 
+- Inflige Horreur à la cible pendant 5 rounds (jet de sauvegarde à +2 contre les sorts pour éviter)
 
-THAC0: +2
-Damage: 2d6+2 (slashing)
-Speed Factor: 2
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 3 Strength
+Enchantement : +2
+TAC0 : +2
+Dégâts : 2d6 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-Weight: 4~
+Poids : 4
 
-@1370 = ~Chaos Flail~
-@1372 = ~The Chaos Flail is an essence of the Abyss that was formed into a weapon. The magics and origin are unknown. What is speculated is that the souls of vampires have been permeated into the weapon's substance and the item will drink an opponent's life force before the wielders eyes. This weapon also grafts itself to its new owner and can only be removed via a remove curse. It is said the wielder of the weapon also will glow with the vampiric force that now impregnates them as well as the weapon.
+Nécessite : 
+- Force : 3~
 
-STATISTICS:
+@1370 = ~Fléau du Chaos~
+@1372 = ~Le fléau du Chaos est une essence des Abysses qui a pris la forme d'une arme. Sa magie et son origine sont inconnues. On suppute que des âmes de vampires ont été infusées dans la substance de l'arme, et elle prend la force vitale d'un adversaire sous les yeux du porteur. Cette arme se greffe sur la main de son porteur et elle ne peut être enlevée que grâce à une délivrance de la malédiction. On dit que le porteur brille à cause des forces vampiriques qui l'imprègnent tout autant que l'arme !
 
-Combat abilities:
-– Each successful hit restored 2 Hit Points
+PARAMÈTRES : 
 
-THAC0: +1
-Damage: 1d6+2 (crushing)
-Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: One-handed
-Requires:
- 13 Strength
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
 
-Weight: 7~
+Capacités de combat : 
+- Restaure 2 points de vie au porteur
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes / Étoile du matin
+Type : Arme à 1 main
+
+Poids : 7
+
+Nécessite : 
+- Force : 13~
 
 @1373 = ~Justice~
-@1374 = ~Given to a High Priest during the time of the Ancients, Justice has been a paladin or cleric's most powerful weapon in the fight against evil. Justice is as an ordinary flail to most, but when equipped by "one pure of heart" the entire weapon shines with a golden light. It was believed that Justice's wielder was blessed of the gods.
+@1374 = ~Donnée à un Haut Prêtre durant le temps des Anciens, Justice est l'arme la plus puissante d'un paladin ou d'un prêtre dans le combat contre le Mal. Justice ressemble à un fléau d'armes, aux yeux de tous, mais lorsqu'un "coeur pur" s'en saisit, l'arme entière brille d'une lueur dorée. On pense que le porteur de Justice est alors béni des dieux.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Jets de sauvegarde : +1
+- Points de vie maximums : +4
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 2d4 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 7
+Type de compétence : Fléau d'armes / Étoile du matin
+Type : Arme à 1 main
+
+Poids : 12
+
+Nécessite : 
+- Force : 13~
+
+@1376 = ~Hache de Guerre de Ferthgil Tueurdetroll~
+@1378 = ~Cette hache de guerre appartint au père de Ferthgil, Breachin Tueurdetroll. Breachin perdit la vie lorsque Ferthgil était adolescent en le protégeant d'une patrouille de verbeegs. Depuis Ferthgil n'a toujours utilisé que cette hache de guerre au combat et il refuse d'employer toute autre arme afin de porter l'honneur de son père sur le champ de bataille.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Inflige 2 points de dégâts tranchants contre les monstres
+- Inflige 3 points de dégâts tranchants contre les géants
+
+Enchantement : +3
+Dégâts : 1d8
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : Arme à 1 main
+
+Poids : 5
+
+Nécessite : 
+- Force : 10~
+
+@1379 = ~Enrageuse~
+@1381 = ~L'histoire de cette arme est inconnue, mais d'un simple regard il est facile d'en déduire qu'il s'agit d'une très belle hache créée par des mains naines. L'arme semble vous demander de la porter et de vous ruer au combat.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Capacités de combat : 
+- En combat ; 51 % de chance de provoquer la folie du berserker chez le porteur pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : Hache
+Type : Arme à 1 main
+
+Poids : 7
+
+Nécessite : 
+- Force : 10~
+
+@1382 = ~Hache de Minotaure~
+@1383 = ~Ces haches sont puissamment enchantées par des sorciers minotaures suivant un procédé gardé secret. Elles sont légères alors qu'elles devraient être pesantes, et tranchent le métal des armures comme si c'était du tissu.
+
+PARAMÈTRES : 
+
+Enchantement : +2
+TAC0 : +1
+Dégâts : 2d4 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Hache
+Type : Arme à 1 main
+
+Poids : 5
+
+Nécessite : 
+- Force : 10~
+
+@1384 = ~Grande hache~
+@1385 = ~Mort Hurlante~
+@1386 = ~Comme la hallebarde, les grandes haches ont été conçues comme une arme anti-cavalier. Cependant, les grandes haches n'ont pas de pointe. Elles sont des colosses sur le champ de bataille, qui peuvent infliger de gros dégâts.
 
 STATISTICS:
 
-Equipped abilities:
-– Hit Points: +4
-– Saving Throws: +1
+Dégâts : 1d12
+Type de dégâts : Tranchant
+Facteur de vitesse : 12
+Type de compétence : Hache
+Type : Arme à 2 mains
 
-THAC0: +2
-Damage: 2d4+2 (crushing)
-Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: One-handed
-Requires:
- 13 Strength
+Poids : 20
 
-Weight: 12~
+Nécessite : 
+- Force : 13~
+@1387 = ~Cette hache date des guerres de clans nains et fut fabriquée par Thordar des Vaux pour son fils Kelvin, afin qu'il l'utilise en combat. Kelvin était un piètre guerrier, et la hache était faite de telle sorte qu'elle palliait ses faiblesses. Son nom provient de la bataille des Chutes de la Wiverne, la première à laquelle Kelvin prit part. À chaque fois qu'il abattait un ennemi, Kelvin en criait d'incrédulité, d'où ce nom de « Mort Hurlante ».
 
-@1376 = ~Ferthgil Trollslayer's Battle Axe~
-@1378 = ~This battle axe belonged to Ferthgil's father, Breachin Trollslayer. Breachin lost his life, while Ferthgil was a teenager, protecting him from a patrol of verbeegs. Ferthgil has since only used this battle axe in battle and refuses to use any other weapon carrying his father's honor onto the battlefield.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités d'équipement : 
+- Classe d'armure : +1
 
-THAC0: +3 vs. giant humanoids, +2 vs. monsters
-Damage: 1d8 (slashing), +3 vs. giant humanoids, +2 vs. monsters
-Speed Factor: 5
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 10 Strength
+Capacités de combat : 
+- Inflige 1d3 points de dégâts contondants à la cible
+- Inflige 1d3 points de dégâts contondants à la cible (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
-Weight: 5~
+Enchantement : +1
+TAC0 : +2
+Dégâts : 1d8 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 10
+Type de compétence : Hache
+Type : Arme à 2 mains
 
-@1379 = ~Battle Axe +2, Enrager~
-@1381 = ~The history of this weapon is unknown, but one look at it and it is easy to tell that it is a very fine axe created by dwarven hands. The weapon seems to call to you to wield it and charge into battle.
+Poids : 20
 
-STATISTICS:
+Nécessite : 
+- Force : 15~
 
-Combat abilities:
-– Each successful hit has 50% chance to cause the wielder to go berserk (Save vs. Spell negates)
+@1390 = ~Kilther~
+@1391 = ~Kilther était le général des "Chevaliers d'Argent". Lorsqu'ils furent assaillis par une cavalerie d'orques géants, tous ses chevaliers voulurent charger à cheval les hordes d'orques, mais Kilther refusa. Il obligea ses hommes à aller à pied, équipés d'arcs, de hallebardes ou de grande hache. Il choisit celle-ci en particulier. Lorsque le combat s'engagea, les haches longues freinèrent l'élan des orques. Une pluie de flèches s'abattit sur eux, et les haches forcèrent les montures des orques à s'arrêter. Les orques moururent par milliers tandis que les Chevaliers d'Argent déplorèrent la mort de dix-neuf hommes, dont Kilther.
 
-THAC0: +2
-Damage: 1d8+2 (slashing)
-Speed Factor: 6
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 10 Strength
+PARAMÈTRES : 
 
-Weight: 7~
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d12 +2
+Type de dégâts : Tranchant
+Facteur de vitesse : 9
+Type de compétence : Hache
+Type : Arme à 2 mains
 
-@1382 = ~Minotaur Axe~
-@1383 = ~These axes are powerfully enchanted by Minotaur sorcerers in a process known only to them. They are light where they should be heavy, and slice through metal armor as easy as they slice through cloth.
+Poids : 10
 
-STATISTICS:
+Nécessite : 
+- Force : 12~
 
-THAC0: +1
-Damage: 2d4+2 (slashing)
-Speed Factor: 2
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 10 Strength
+@1393 = ~La Fournaise~
+@1395 = ~Cette hache de jet n'a pas seulement été précisément équilibrée pour être utilisée à distance, mais a aussi été sujette à des améliorations magiques substantielles. Au final, elle est à la fois plus dévastatrice et plus précise que n'importe quelle arme non magique du même
 
-Weight: 5~
+PARAMÈTRES : 
 
-@1384 = ~Pole Axe~
-@1385 = ~Dwarven War Axe +2, Screaming Death~
-@1386 = ~Like the Halberd, pole axes is created as an anti-horseman weapon. However, pole axes have no tip. They are behemoths on the battlefield, which can deal great damage.
+Capacités de combat (Jeté) : 
+- Revient dans la main du lanceur
+- Inflige 1d3 points de dégâts de feu à la cible
 
-STATISTICS:
+Dégâts : 1d6
+Type de dégâts : Projectile
+Facteur de vitesse : 6
 
-Damage: 1d12 (slashing)
-Speed Factor: 12
-Proficiency Type: Axe
-Type: Two-handed
-Requires:
- 13 Strength
+Capacités de combat (Mêlée) : 
+- Inflige 1d3 points de dégâts de feu à la cible
 
-Weight: 20~
-@1387 = ~This axe dates back to the clan wars, it was made by Thordar of The Vale for his son Kelvin to use in battle. Kelvin was never much of a warrior, and the axe was made to assist him in his weaknesses. The name comes from the battle of Wyvern Falls, the first time Kelvin used it in battle. Each time he struck down an opponent, Kelvin would scream in disbelief, hence the name 'Screaming Death.'
+Dégâts : 1d8
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : Hache
+Type : Arme à 1 main
 
-STATISTICS:
+Poids : 3
 
-Equipped abilities:
-– Armor Class: +1
+Nécessite : 
+- Force : 4~
 
-THAC0: +2
-Damage: 1d8+2 (slashing), +1d6 damage (Save vs. Death for half)
-Speed Factor: 10
-Proficiency Type: Axe
-Type: Two-handed
-Requires:
- 15 Strength
+@1396 = ~Bâton de Vie~
+@1398 = ~Blanc, doré et vibrant d'un grand pouvoir, ce bâton fut formé à l'aube des temps par le premier rayon de soleil lorsqu'il brilla sur l'onde pure de l'eau. S'il a peu à offrir sur la plan offensif, ce bâton apporte à son porteur de puissantes protections.
 
-Weight: 20~
+PARAMÈTRES : 
 
-@1390 = ~Pole Axe +2, Kilther~
-@1391 = ~Kilther was the general of "Silver Knights". When they were invaded by a Huge Orc Cavalry, all of his knights wanted to ride mounts into the orc hoards. But, Kilther banned this. He forced his men to walk on foot, equipped with bow, halberd or pole axe. He chose this particular one. When fighting began, the poles stopped the orcs advance. Showers of arrows were launched and the axes brought the Orcs mounts to a halt. The Orcs lost thousands while the Silver Knights lost only 19 men, including Kilther.
+Capacités d'équipement : 
+- Immunité aux sorts de niveau 1
 
-STATISTICS:
+Capacités de charge : 
+- Capacité 1 (5 fois par jour)
+  Crée 1 "Potion de grands soins" dans l'inventaire du porteur de manière permanente
+  Crée 1 "Antidote" dans l'inventaire du porteur de manière permanente
 
-THAC0: +2
-Damage: 1d12+2 (slashing)
-Speed Factor: 9
-Proficiency Type: Axe
-Type: Two-handed
-Requires:
- 12 Strength
+Enchantement : +1
+TAC0 : +1
+Dégâts : 2d2 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 6
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-Weight: 10~
+Poids : 3
 
-@1393 = ~Dwarven Throwing Axe +1, The Furnace~
-@1395 = ~This throwing axe has not only been finely balanced for use as a missile weapon but has also been the subject of significant magical enhancement. As a result, it is both more damaging and more accurate than any non-magical weapon of a similar style.
+Nécessite : 
+- Force : 5~
 
-STATISTICS:
+@1399 = ~Bâton des Anciens~
+@1400 = ~Bâton créé par une race, appelée les Anciens, qui vécurent des siècles auparavant. Quelques reliques de ce temps existent encore, mais même les descendants des Anciens en savent très peu à leur sujet.
 
-Combat abilities:
-– Returns to the wielder's hand when thrown
+PARAMÈTRES : 
 
-THAC0: +1
-Damage (melee): 1d8+1 (slashing), +1d3 fire damage
-Damage (thrown): 1d6+1 (missile), +1d3 fire damage
-Speed Factor: 6
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 4 Strength
+Capacités d'équipement : 
+- Classe d'armure : +1
 
-Weight: 3~
+Enchantement : +2
+TAC0 : +2
+Dégâts : 2d4 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 1
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-@1396 = ~Staff of Life~
-@1398 = ~White and gold, pulsing with great power this staff was formed at the dawn of time by the first ray of the sun as it glistened off of a pure body of water. Offering little in the way of offense, this staff does provide its wielder with powerful protections.
+Poids : 3
 
-STATISTICS:
-
-Equipped abilities:
-– Immunity to 1st-level spells
-
-Charge abilities:
-– Creates Potions of Extra Healing and Antidotes (5 charges)
-
-THAC0: +1
-Damage: 2d2+2 (crushing)
-Speed Factor: 6
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
-
-Weight: 3~
-
-@1399 = ~Staff of the Ancients~
-@1400 = ~Staff created by a race called the Ancients, who lived many centuries ago. Few relics from that time period exist today and even the decendants of the Ancients know very little about the artifacts.
-
-STATISTICS:
-
-Equipped abilities:
-– Armor Class: +1
-
-THAC0: +3
-Damage: 2d4+3 (crushing)
-Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
-
-Weight: 3~
+Nécessite : 
+- Force : 5~
 
 @1401 = ~Ethric~
-@1402 = ~This staff grants immunity to non-magical weapons. This is a powerful staff that has a very powerful evil enchantment. All of its properties are unknown.
+@1402 = ~Ce bâton offre l'immunité contre les armes non magiques. Ce bâton est enchanté d'un pouvoir maléfique très puissant. On ne connaît pas toutes ses propriétés.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Protection From Normal Weapons
+Capacités d'équipement : 
+- Maudit : Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Classe d'armure : -13
+- Immunité contre les armes non-magiques
 
-THAC0: +1
-Damage: 2d8+1 (piercing)
-Speed Factor: 8
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
+Capacités de combat : 
+- Inflige 8 points de dégâts perforants au porteur
 
-Weight: 3~
+Enchantement : +1
+TAC0 : +1
+Dégâts : 2d8 +1
+Type de dégâts : Perforant
+Facteur de vitesse : 8
+Type de compétence : Bâton
+Type : Arme à 2 mains
+
+Poids : 3
+
+Nécessite : 
+- Force : 5~
+
+@1403 = ~Chitiruhkha~
+@1404 = ~Ce bâton de magicien est celui de Chanah'Rea, forgé par un éclair ayant frappé l'arbre de puissance. Chitiruhkha est investi par la foudre.
+
+PARAMÈTRES : 
+
+Capacités de charge : 
+- Capacité 1 (10 fois par jour)
+  Inflige 6d2 points de dégâts d'électricité à la cible
+  Inflige 6d2 points de dégâts d'électricité à la cible (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
+
+Capacités de combat : 
+- Inflige 1d6 points de dégâts d'électricité à la cible
+- Inflige 1d6 points de dégâts d'électricité à la cible (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
 
-@1403 = ~Warlock's Staff +2, Chitiruhkha~
-@1404 = ~This staff is of the Chanah'Rea, forged by lightning striking the tree of power, Chitiruhkha is possessed of lightning.
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 2
+Type de compétence : Bâton
+Type : Arme à 2 mains
+
+Poids : 3
+
+Nécessite : 
+- Force : 5~
 
-STATISTICS:
+@1407 = ~Brise Os~
+@1408 = ~Alors que la plupart des mages sont de frêle constitution, Estarriol était frêle par rapport à un mage. Son maître, l'archimage Heleth Otrad, craignait que son élève ne survive pas à son premier combat et lui fabriqua ce bâton. Heleth lui conféra la capacité de briser les os lorsqu'un coup est porté, ralentissant ainsi l'adversaire et donnant au fragile Estarriol une chance de s'en sortir. Avec le temps, Estarriol gagna en puissance et devint également plus costaud, et il se débarrassa finalement du cadeau de son ancienne mentor. Il n'avait pas été revu depuis lors.
 
-Charge abilities:
-– Lightning Bolt (10 charges)
-  Damage: 4d6 electrical (Save vs. Spell for half)
-  Range: 60 ft.
-  Area of Effect: 1 creature
+PARAMÈTRES : 
 
-THAC0: +2
-Damage: 1d8 +2 (crushing), +2d6 electrical damage (Save vs. Wands for half)
-Speed Factor: 2
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
+Capacités de combat : 
+- 21 % de chance d'infliger lenteur à la cible pendant 3 rounds (jet de sauvegarde à -4 contre les sorts pour éviter)
 
-Weight: 3~
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +1
+Type de dégâts : Contondant
+Facteur de vitesse : 3
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-@1407 = ~Quarter Staff +1, Bonebreaker~
-@1408 = ~While most mages are slight in stature, Estaroil was slight when compared to a mage. His master, the Archmage Heleth Otrad, feared that her student would never survive any conflict and crafted him this staff. Heleth enchanted it with the ability to shatter bones on impact, hence slowing the opponent and giving the fragile Estaroil some chance. In time Estaroil grew to be not only a powerful mage, but also in stature and eventually discarded his former master's gift. It has not been seen since.
+Poids : 4
+
+Nécessite : 
+- Force : 5~
 
-STATISTICS:
+@1409 = ~Protecteur de la Nature~
+@1410 = ~Ce bâton a été utilisé par un groupe de druides pendant des siècles. Il fut transmis de chef en chef, dans le groupe d'archidruides de la contrée de Kazgard. On raconte que ce bâton fut créé par la nature elle-même, et il a un éclat vert pour montrer qu'il est vraiment issu du pouvoir de la nature. Ce bâton est très puissant, et ses possesseurs précédents l'étaient également.
 
-Combat abilities: 
-– 20% chance each hit that target will be slowed for 18 seconds (Save vs. Spell at -4 penalty negates)
+PARAMÈTRES : 
 
-THAC0: +1
-Damage: 1d6+1 (crushing)
-Speed Factor: 3
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
+Capacités d'équipement : 
+- Mémorisation de 2 sorts divins supplémentaires de niveau 1
+- Points de vie : +10
+- Connaissance : +20
 
-Weight: 4~
+Enchantement : +1
+TAC0 : +1
+Dégâts : 2d3 +1
+Type de dégâts : Contondant
+Facteur de vitesse : 1
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-@1409 = ~Staff Of Nature~
-@1410 = ~This staff has been used by a tribe of Druids for many centuries now. Passed down from leader to leader on the tribe of archdruids in the land of Kazgard. It is said that this staff was forged by nature itself and it glows green to show this staff truly is off natures power. This staff is very powerful and the passed owners of this staff were very powerful people indeed.
+Poids : 2
 
-STATISTICS:
+Nécessite : 
+- Force : 5~
 
-Equipped abilities:
-– Hit Points: +10
-– Lore: +20
-– Can memorize two extra 1st-level divine spells
+@1411 = ~Bâton d'imprévisibilité de Skeezer~
+@1412 = ~Skeezer fabriqua ce bâton pour qu'il l'aide au cours de ses voyages. Alors qu'il était en train de le créer, il fut distrait et perdit trace des enchantements qu'il avait placés sur le bâton. Le résultat est un bâton qui a un effet très aléatoire sur tout ce que Skeezer touche.
 
-THAC0: +1
-Damage: 2d3+1 (crushing)
-Speed Factor: 2
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
+PARAMÈTRES : 
 
-Weight: 2~
+Capacités de combat : 
+- 5 % de chance d'endormir la cible pendant 5 rounds (jet de sauvegarde contre les sorts pour éviter)
+- 6 % de chance
+  - Inverse le sexe de la cible pendant 1 tour
+  - d'infliger Horreur à la cible pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
+  - En combat ; 6 % de chance de provoquer la folie du berserker chez la cible pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
+  - d'infliger lenteur à la cible pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
+  - d'infliger Confusion à la cible pendant 1 tour (jet de sauvegarde contre les sorts pour éviter)
+  - d'aveugler la cible pendant 5 rounds
+  - d'assourdir la cible pendant 1 tour
+  - d'endormir la cible pendant 5 rounds (jet de sauvegarde contre les sorts pour éviter)
+- 5 % de chance
+  - d'aveugler la cible pendant 5 rounds
+  - d'assourdir la cible pendant 1 tour
+  - d'endormir la cible pendant 5 rounds (jet de sauvegarde contre les sorts pour éviter)
 
-@1411 = ~Skeezer Lumpkin's Staff of Unpredicability +1~
-@1412 = ~Skeezer created this staff to aid him in his travels. While in the process of creating it, he became distracted and lost track of the enchantments that he had placed on the staff. The result is a weapon that produces an entirely random effect on anything that Skeezer uses it on.
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 3
+Type de compétence : Bâton
+Type : Arme à 2 mains
 
-STATISTICS:
+Poids : 4
+
+Nécessite : 
+- Force : 5~
+
+@1414 = ~Tombeur de Géant~
+@1416 = ~Ce marteau de guerre est l'arme personnelle de Tearlac Marteauloyal, neveu d'Otho Marteauloyal. Il forgea lui-même cette arme après plusieurs années de formation sous l'oeil attentif de son oncle. Certains considèrent Otho comme l'un des meilleurs, sinon le meilleur forgeron de la Côte des Épées et la qualité de l'arme montre que Tearlac n'était peut-être devancé que par son oncle. Tearlac grava des runes décoratives sur le manche afin de montrer fièrement son ascendance. Ce marteau de guerre est fait d'alliage de Mitril, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche est fait de chêne très solide et mesure environ 45 cm de long.
 
-Combat abilities:
-– Unknown
+PARAMÈTRES : 
 
-THAC0: +1
-Damage: 1d6+2 (crushing)
-Speed Factor: 3
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires:
- 5 Strength
+Capacités d'équipement : 
+- TAC0 : +2 contre les géants
 
-Weight: 4~
+Capacités de combat : 
+- Inflige 2 points de dégâts contondants contre les géants
 
-@1414 = ~Tearlac Truehammer's Giant Feller~
-@1416 = ~This war hammer is the personal war hammer of Tearlac Truehammer, son of Otho Truehammer. He forged this weapon himself after many years of training under the watchful eye of his father. Some consider Otho, to be one of the finest, if not the finest smithy on the Sword Coast and the quality of the weapon shows that Tearlac may just be second only to his father. Tearlac carved decorative runes on the shaft to display his heritage proudly. This war hammer is made of mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is made of very strong oak and is about 18 inches long.
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d4 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 2
+Type de compétence : Marteau de guerre
+Type : Arme à 1 main
 
-STATISTICS:
+Poids : 8
 
-THAC0: +1, +4 vs. giant humanoids
-Damage: 1d4+2 (crushing), +4 vs. giant humanoids
-Speed Factor: 2
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 10 Strength
+Nécessite : 
+- Force : 10~
 
-Weight: 8~
+@1420 = ~Lance de feu~
+@1422 = ~La tête de cette lance brûle d'un feu magique, qui la rend mortelle au combat.
 
-@1420 = ~Spear of Fire~
-@1422 = ~This Spear's head is magically burning, which make this spear very deadly in combat.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités de combat : 
+- Inflige 1d6 points de dégâts de feu à la cible
 
-THAC0: +1
-Damage: 1d6+1 (piercing), +1d6 fire damage
-Speed Factor: 3
-Proficiency Type: Spear
-Type: Two-handed
-Requires:
- 5 Strength
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +1
+Type de dégâts : Perforant
+Facteur de vitesse : 3
+Type de compétence : Lance
+Type : Arme à 2 mains
 
-Weight: 3~
+Poids : 3
 
-@1423 = ~Spear +3, Dragon Scepter~
-@1424 = ~Named so because of the dragons ornately carved into the shaft of the spear. Its exact origins remain unknown.
+Nécessite : 
+- Force : 5~
+
+@1423 = ~Sceptre du Dragon~
+@1424 = ~Ainsi nommé à cause des dragons qui ornent le manche de cet épieu. Ses origines exactes demeurent inconnues.
 
-STATISTICS:
+PARAMÈTRES : 
 
-THAC0: +3
-Damage: 1d6+3 (piercing)
-Speed Factor: 5
-Proficiency Type: Spear
-Type: Two-handed
-Requires:
- 5 Strength
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d6 +3
+Type de dégâts : Perforant
+Facteur de vitesse : 5
+Type de compétence : Lance
+Type : Arme à 2 mains
 
-Weight: 5~
+Poids : 5
 
-@1426 = ~Otho Truehammer's Mace +1~
-@1428 = ~Otho has created this finely crafted mace for you. The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end. In this case, the head is pyramidal and made of the finest Iron, as it sits atop a polished oak shaft. Even though there is an iron shortage all smithys keep on hand a small amount of fine iron for "special" purposes.
+Nécessite : 
+- Force : 5~
 
-STATISTICS:
+@1426 = ~Masse d'Otho Marteauloyal~
+@1428 = ~Otho a fabriqué pour vous cette masse finement travaillée. La masse descend directement du simple gourdin ; elle n'est rien de plus qu'une hampe de bois avec une tête en pierre ou en fer fixée à l'extrémité. Dans le cas présent, la tête est pyramidale et est faite du meilleur fer. Elle est placée à l'extrémité d'une hampe de chêne poli.
+Bien qu'il y ait une pénurie de fer, tous les forgerons conservent une petite quantité de bon fer pour des besoins « spéciaux ».
 
-THAC0: +1
-Damage: 1d6+2 (crushing)
-Speed Factor: 6
-Proficiency Type: Mace
-Type: One-handed
-Requires:
- 10 Strength
+PARAMÈTRES : 
 
-Weight: 8~
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 6
+Type de compétence : Masse d'armes
+Type : Arme à 1 main
 
-@1429 = ~Otho Truehammer's Mace +1~
-@1430 = ~Elminster the Sage has placed a very powerful enchantment on this mace that Otho created for you giving it special powers to defeat evil undead creatures. You notice that the mace now glows with an inner blue light.
+Poids : 8
 
-STATISTICS:
+Nécessite : 
+- Force : 10~
 
-THAC0: +1
-Damage: 1d6+2 (crushing), +4 vs. undead
-Speed Factor: 6
-Proficiency Type: Mace
-Type: One-handed
-Requires:
- 10 Strength
+@1429 = ~Mace  d'Otho Marteauloyal~
+@1430 = ~Elminster le Sage a placé un très puissant enchantement sur cette masse qu'Otho a fabriquée pour vous, ce qui lui confère le pouvoir de vaincre les créatures mort-vivantes malfaisantes. Vous remarquez que la masse brille désormais d'une lumière interne bleue.
 
-Weight: 8~
+PARAMÈTRES : 
 
-@1431 = ~Mace of Disruption - Blessed~
-@1432 = ~After Morninglord Jarent gave the mace the blessing of Lathander you notice that it seems to almost breathe with a life of its own. You can feel the power surge through your hands as you wield it. It seems to call to you... eager to seek out the undead!
+Capacités de combat : 
+- Inflige 2 points de dégâts contondants contre les morts-vivants
 
-STATISTICS:
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 6
+Type de compétence : Masse d'armes
+Type : Arme à 1 main
 
-Combat abilities:
-– Undead must save vs. Spell or be utterly destroyed
+Poids : 8
 
-THAC0: +1
-Damage: 1d6+2 (crushing), +4 vs. undead
-Speed Factor: 6
-Proficiency Type: Mace
-Type: One-handed
-Requires:
- 10 Strength
+Nécessite : 
+- Force : 10~
 
-Weight: 8~
+@1431 = ~Masse de perturbation~
+@1432 = ~Après que l'Aubemestre Jarent ait donné la bénédiction de Lathandre à la masse, vous remarquez qu'elle semble presque vibrer d'une vie propre. Vous pouvez ressentir la vague de puissance dans vos mains quand vous la tenez. Elle semble faire appel à vous... impatiente de dénicher des morts-vivants !
 
-@1436 = ~Dagger +2, Adder Sting~
-@1438 = ~Created by an insane mage thief, this tool was used but briefly by it's creator. The exact circumstances of his death are unknown, but the dagger appeared soon after in the hands of a well known assassin. This jet black blade is split in the middle and ends in two razor sharp points. In addition, the blade secretes a greenish poison that inflicts painful wounds on any it so much as scratches. Of course, the wielder is not immune to this poison and even the careful owner has been known to nick himself on occasion.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités de combat : 
+- Inflige 2 points de dégâts contondants contre les morts-vivants
+- Tue instantanément les morts-vivants (jet de sauvegarde à -4 contre la paralysie, la mort et les poisons pour éviter)
 
-Combat abilities:
-– Returns to the wielder's hand when thrown
-– 5% chance of nicking yourself (6 poison damage)
+Enchantement : +2
+TAC0 : +1
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 6
+Type de compétence : Masse d'armes
+Type : Arme à 1 main
 
-THAC0: +2
-Damage: 1d4+2, +6 poison damage (Save vs. Spell for half)
-Damage type (melee): Piercing
-Damage type (thrown): Missile
-Speed Factor: 0
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
+Poids : 8
 
-Weight: 2~
+Nécessite : 
+- Force : 10~
 
-@1439 = ~Drow Adamantite Dagger +3~
-@1440 = ~Most drow carry daggers forged from adamantite alloy and reinforced with enchantments. Some are even coated with one of the several types of drow poisons, allowing them to be well-prepared to deal with assassins, a constant danger in drow society. Of course, the daggers are also used just as frequently by the assassins themselves...
+@1436 = ~Dard de la vipère~
+@1438 = ~Fabriquée par un mage-voleur fou, cet outil fut utilisé seulement brièvement par son créateur. Les circonstances exactes de sa mort sont inconnues, mais la dague fut rapidement aperçue ensuite dans les mains d'un assassin bien connu. Cette arme d'un noir de jais se sépare en deux en son milieu et se termine par deux pointes coupantes comme des rasoirs. De plus, la lame sécrète un poison verdâtre qui inflige des blessures douloureuses à la moindre égratignure. Bien entendu, le porteur n'est pas immunisé à ce poison, et même les plus prudents se sont déjà blessés avec de temps à autre.
 
-This item, like most drow equipment, is created using adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités de combat : 
+- Revient dans la main du lanceur
+- Empoisonne la cible, lui infligeant 1 point de dégâts par seconde pendant 3 secondes
+- Empoisonne la cible, lui infligeant 1 point de dégâts par seconde pendant 3 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+- 6 % de chance d'empoisonner le porteur, lui infligeant 1 point de dégâts par seconde pendant 1 round
 
-Combat abilities:
-– Target must save vs. Poison at -4 penalty or suffer 10 points of damage per second in 10 seconds
-– Target must save vs. Paralyze or become unconscious for 10 seconds
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d4 +2
+Type de dégâts (Mêlée) : Perforant
+Type de dégâts (Jeté) : Projectile
+Facteur de vitesse : 0
+Type de compétence : Dague
+Type : Arme à 1 main
 
-THAC0: +3
-Damage: 1d4+3
-Speed Factor: 2
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
+Poids : 2
 
-Weight: 1~
+Nécessite : 
+- Force : 3~
 
-@1441 = ~D'Raavhen's Fang +2~
-@1442 = ~Vampiric dagger of Lorik D'Raavhen. The mere sight of this dark blade strikes a fear in you that is beyond description. It pulses with such an aura of pure evil, your first, and only thought is to run until your body collapses from exhaustion. Its blackened blade was apparently forged from the arcane substance of the Abyss, giving the weapon an appearance as dark and foreboding as its master.
+@1439 = ~Dague drow en adamantine~
+@1440 = ~La plupart des drows portent des dagues en alliage d'adamantite. Ces dagues peuvent avoir un bonus de +1 à +3. Celle-ci en particulier est enduite d'un puissant poison de sommeil.
 
-STATISTICS:
+En raison de la nature de l'adamantite, s'il est exposé à la lumière du soleil, sa décomposition irrémédiable est entamée. Sous deux à douze jours, elle perdra toutes ses propriétés protectrices et pourrira, la rendant totalement inutile.
 
-Combat abilities:
-– Inflicts damage upon the wielder and heals the target
+PARAMÈTRES : 
 
-THAC0: +2
-Damage: 1d4+2
-Speed Factor: 0
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
+Capacités de combat : 
+- Empoisonne la cible, lui infligeant 1 point de dégâts par seconde pendant 10 secondes (jet de sauvegarde à -4 contre la paralysie, la mort et les poisons pour éviter)
+- Endort la cible pendant 10 secondes (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
 
-Weight: 1~
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d4 +3
+Type de dégâts : Perforant
+Facteur de vitesse : 2
+Type de compétence : Dague
+Type : Arme à 1 main
 
-@1446 = ~Keiria's Light Crossbow of Speed~
-@1448 = ~This light crossbow has no extra enchantments to distinguish it from others of its type. The only difference is its color, as Keiria strives always to remain fashionable, even on the battlefield.
+Poids : 1
 
-STATISTICS:
+Nécessite : 
+- Force : 3~
 
-Combat abilities:
-– 1 extra attack per round
+@1441 = ~Dent de D'Raavhen~
+@1442 = ~Dague vampirique de Lorik D'Raavhen
+À la simple vue de cette sombre lame, vous êtes frappé d'une peur indescriptible. Elle dégage une aura de Mal pur, et votre seule et unique pensée est de vous enfuir jusqu'à ce que votre corps s'effondre d'épuisement. Cette lame noircie fut apparemment forgée à partir de la substantifique moelle des Abysses, lui donnant une apparence aussi sinistre et de mauvaise augure que son maître.
 
-THAC0: +1
-Damage: +1 (missile)
-Speed Factor: 3
-Proficiency Type: Crossbow
-Type: Two-handed
-Requires:
- 8 Strength
+PARAMÈTRES : 
 
-Weight: 5~
+Capacités de combat : 
+- Restaure 2 points de vie au porteur
 
-@1452 = ~Elven Bow, Goblin Bane~
-@1454 = ~This bow was created to be used by elves in defense of their forests from goblins and hobgoblins, though there is no special ability against goblins or hobgoblins.
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d4 +2
+Type de dégâts : Perforant
+Facteur de vitesse : 0
+Type de compétence : Dague
+Type : Arme à 1 main
 
-STATISTICS:
+Poids : 1
 
-THAC0: +2
-Damage: +2
-Speed Factor: 3
-Proficiency Type: Short Bow
-Type: Two-handed
-Requires:
- 3 Strength
+Nécessite : 
+- Force : 3~
 
-Weight: 2~
+@1446 = ~Arbalète légère de vitesse de Keiria Silverstring~
+@1448 = ~Cette arbalète légère n'a pas plus de capacité qu'une arbalète de vitesse normale. La seule différence est dans sa couleur car Keiria s'évertue toujours à rester à la mode, même sur un champ de bataille.
 
-@1456 = ~Strength Long Bow +1, Vibradeath~
-@1458 = ~Crafted by forest elves for the Snow Barbarian Prince, Corbus Denox, this bow provides increased strength, damage and accuracy. The resonant low hum after it is shot gave birth to its name.
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités d'équipement : 
+- Attaque par round : +1
 
-Equipped abilities:
-– Strength: +1
+Enchantement : +1
+TAC0 : +1
+Dégâts : +1
+Type de dégâts : Projectile
+Facteur de vitesse : 3
+Type de compétence : Arbalète
+Type : Arme à 2 mains
 
-THAC0: +2
-Damage: +1
-Speed Factor: 5
-Proficiency Type: Long Bow
-Type: Two-handed
-Requires:
- 6 Strength
+Poids : 5
 
-Weight: 2~
+Nécessite : 
+- Force : 8~
 
-@1459 = ~Holy Bow of the Sukien, Saw Tooth~
-@1460 = ~Saw Tooth, probably so named from its appearance, sporting an array of tooth like barbs along its outer length. Only seen in the temple of the Sukien, this is the weapon of a Holy Guard. Runic carvings indicate a command word that when activated creates a block of 5 Arrows of Striking.
+@1452 = ~Fléau Gobelin~
+@1454 = ~Cet arc fut fabriqué pour servir aux elfes à défendre leurs forêts des gobelins et hobgobelins, bien qu'il n'offre pas de pouvoir spécifique contre ces créatures..
 
-STATISTICS:
+PARAMÈTRES : 
 
-Charge abilities: 
-– Create Arrows of Striking once per day
+Capacités d'équipement : 
+- Attaque par round : Passe à 2
 
-THAC0: +2
-Damage: +3
-Speed Factor: 5
-Proficiency Type: Long Bow
-Type: Two-handed
-Requires:
- 6 Strength
+Enchantement : +2
+TAC0 : +2
+Dégâts : +2
+Type de dégâts : Projectile
+Facteur de vitesse : 3
+Type de compétence : Arc court
+Type : Arme à 2 mains
 
-Weight: 2~
+Poids : 2
 
-@1462 = ~Ettin's Wand~
-@1464 = ~Ettin was monk from the time of the Ancients. Aside from his priestly duties he was a very adept herbalist. He discovered three magical herbs that when, combined have the effect of paralyzing the user for a short period of time. There is also a small chance of being poisoned when using these herbs. Ettin's knowledge was later discovered by a mage who found a way to deliver the herbs from a distance by coating magical spheres with the herbs.
+Nécessite : 
+- Force : 6~
 
-STATISTICS:
+@1456 = ~Mortvibrante~
+@1458 = ~Fabriqué par des elfes des bois pour le prince des Barbares des Neiges, Corbus Denox, cet arc augmente la force, les dégâts et améliore la visée. Le bourdonnement grave qui suit chaque tir a donné naissance à son nom.
 
-Charge abilities:
-– 30% chance to poison target
-  Damage: 30 posion damage in 15 seconds
-  Range: 100 ft.
-  Area of Effect: 1 creature
+PARAMÈTRES : 
 
-– Stun target (Save vs. Wand at -4 penalty negates)
-  Range: 100 ft.
-  Area of Effect: 1 creature
-  Duration: 2 rounds
+Capacités d'équipement : 
+- Attaque par round : Passe à 2
+- Force : +1
 
-Requires:
- 9 Intelligence
+Enchantement : +1
+TAC0 : +2
+Dégâts : +1
+Type de dégâts : Projectile
+Facteur de vitesse : 5
+Type de compétence : Arc long
+Type : Arme à 2 mains
 
-Weight: 1~
+Poids : 2
 
-@1465 = ~Sapphire Wand~
-@1466 = ~Used by the Mage King Varashar while he was holding audience, or court. He used the wand as a form of punishment after he had past judgment. According to most stories he said "Your amount of guilt will determine your amount of pain."
+Nécessite : 
+- Force : 6~
 
-STATISTICS:
+@1459 = ~Dent de Scie~
+@1460 = ~L'Arc sacré de Sukien « Dent de Scie », probablement appelé ainsi en raison de son apparence, présente une rangée de dents comme des barbillons le long de son bord extérieur. Cette arme est utilisée par la Sainte Garde du Temple de Sukien. Les gravures runiques indiquent un mot de commande qui, lorsqu'il est activé, crée 1 Flèche percutante.
 
-Charge abilities:
-– Punishment
-  Damage: 2d4
-  Area of Effect: 1 creature
-  Special: Possibility of additional damage for the next 3 rounds.
+PARAMÈTRES : 
 
-Requires:
- 9 Intelligence
+Capacités d'équipement : 
+- Attaque par round : Passe à 2
 
-Weight: 1~
+Capacités de charge : 
+- Crée 1 "Flèche percutante" dans l'inventaire du porteur de manière permanente (1 fois par jour)
 
-@1467 = ~Wand of Chain Lightning~
-@1468 = ~When activated, the wand will eject a ball of electrical energy that darts forth to target area. When the ball reaches the target is discharges in a 40 ft. area doing 6d6+6 electrical damage to all creatures within that area, half with successful save vs. wand.
+Enchantement : +3
+TAC0 : +2
+Dégâts : +3
+Type de dégâts : Projectile
+Facteur de vitesse : 5
+Type de compétence : Arc long
+Type : Arme à 2 mains
 
-STATISTICS:
+Poids : 2
 
-Charge abilities:
-– Ball of Electrical Energy
-  Damage: 6d6 electrical (Save vs. Wands for half)
-  Range: 40 ft.
-  Area of Effect: 40 ft.
+Nécessite : 
+- Force : 6~
 
-Requires:
- 9 Intelligence
+@1462 = ~Baguette d'Ettin~
+@1464 = ~Ettin était moine au temps des Anciens. À côté de ses tâches moniales, il était un herboriste passionné. Il découvrit trois herbes magiques qui, lorsqu'elles sont combinées, peuvent paralyser le manipulateur pendant une courte période de temps. Il y a également un risque d'être empoisonné par ces herbes. Les connaissances d'Ettin furent découvertes plus tard par un mage qui trouva le moyen d'employer les herbes à distance en recouvrant des sphères magiques de ces herbes.
 
-Weight: 1~
+PARAMÈTRES : 
 
-@1470 = ~The Branch of Many Thorns~
-@1472 = ~Crafted by nymphs for the keepers of the wood this bramble bush branch is enchanted with thorns that grow anew upon use. Originally gifted to Elgenon the Wise, protector of the Tree of Wisdom, it has since been passed on to druids who have proven their worth as protectors of the wood.
+Capacités de charge : 
+– 30 % de chance d'empoisonner la cible, lui infligeant 30 points de dégâts en 15 secondes
+  Portée : 30 m.
+  Zone d'effet : 1 créature
 
-STATISTICS:
+– Étourdit la cible (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
+  Portée : 30 m.
+  Zone d'effet : 1 créature
+  Durée : 2 rounds
 
-Combat abilities:
-– Returns to the wielder's hand when thrown
-– +5 poison damage in 5 rounds (Save vs. Poison negates)
+Poids : 1
 
-THAC0: +1
-Damage: 1d8+1
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: Club
-Type: One-handed
-Requires:
- 3 Strength
+Nécessite : 
+- Intelligence : 9~
 
-Weight: 4~
+@1465 = ~Baguette de saphir~
+@1466 = ~Utilisé par le roi mage Varasha lorsqu'il tenait une audience, ou à sa cour. Il utilisait la baguette en guise de châtiment une fois un jugement prononcé. Selon la plupart des témoignages, il disait : « Votre degré de culpabilité déterminera votre degré de douleur ».
 
-@1473 = ~Ass' Jawbone~
-@1474 = ~This appears to be nothing more than the jawbone of an animal, perhaps a donkey or mule. In a pinch this could be used as a primitive club...
+PARAMÈTRES : 
 
-STATISTICS:
+Capacités de charge : 
+– Punition
+  Dégâts : 2d4
+  Zone d'effet : 1 créature
+  Spécial : possibilité de dégâts supplémentaires durant les trois rounds suivants.
 
-Damage: 1d6 (crushing)
-Speed Factor: 4
-Proficiency Type: Club
-Type: One-handed
-Requires:
- 3 Strength
+Poids : 1
 
-Weight: 3~
+Nécessite : 
+- Intelligence : 9~
 
-@1475 = ~This is the jawbone of a donkey that the Nazerite warrior/priest Samson used to kill 600 Philistines in one day. A formidable weapon of humble origin.
+@1467 = ~Baguette d'éclair~
+@1468 = ~Lorsqu'on l'active, la baguette envoie une boule d'énergie électrique qui se précipite vers la zone ciblée. Lorsque la boule atteint sa cible, elle explose sur 12 mètres, provoquant 6D6+6 points de dégâts électriques à toutes les créatures au sein de la zone, dégâts diminués de moitié si elles réussissent un jet de sauvegarde contre les baguettes.
 
-STATISTICS:
+PARAMÈTRES : 
 
-Equipped abilities:
-– Character's outline becomes blurred
-– Armor Class: +1
-– Saving Throws: +1
+Capacités de charge :
+– Boule d'énergie électrique
+  Dégâts : 6d6 points de dégâts d'électricité (jet de sauvegarde contre les baguettes, les sceptres et les bâtons pour éviter)
+  Portée : 12 m.
+  Zone d'effet : 12 m.
 
-THAC0: +2
-Damage: 1d6+2 (crushing)
-Speed Factor: 2
-Proficiency Type: Club
-Type: One-handed
-Requires:
- 3 Strength
+Poids : 1
 
-Weight: 3~
+Nécessite : 
+- Intelligence : 9~
 
-@1476 = ~Mielikki's Blade~
-@1477 = ~Trungle's Supplies~
+@1470 = ~La branche d'épines~
+@1472 = ~La ronce d'Elgenon « La branche d'épines »
+Fabriquée par des nymphes pour les gardiens des bois, cette branche de ronce est enchantée, avec des épines qui repoussent après chaque utilisation de l'arme. À l'origine, elle fut offerte à Elgenon le Sage, protecteur de l'Arbre de la Sagesse. Elle a depuis été donnée aux druides qui ont prouvé leur valeur en tant que protecteur des bois.
+
+PARAMÈTRES : 
+
+Capacités de combat : 
+- Revient dans la main du lanceur
+- Empoisonne la cible, lui infligeant 1 point de dégâts par seconde pendant 5 rounds (jet de sauvegarde contre la paralysie, la mort et les poisons pour éviter)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8 +1
+Type de dégâts (Jeté) : Projectile
+Type de dégâts (Mêlée) : Contondant
+Facteur de vitesse : 1
+Type de compétence : Gourdin
+Type : Arme à 1 main
+
+Poids : 4
+
+Nécessite : 
+- Force : 3~
+
+@1473 = ~Mâchoire d'Ass~
+@1474 = ~Il semblerait que cela ne soit rien de plus qu'une mâchoire d'animal, peut-être un âne ou une mule. À la rigueur, cela pourrait être utilisé en guise de gourdin primitif...
+
+PARAMÈTRES : 
+
+Dégâts : 1d6
+Type de dégâts : Contondant
+Facteur de vitesse : 4
+Type de compétence : Gourdin
+Type : Arme à 1 main
+
+Poids : 3
+
+Nécessite : 
+- Force : 3~
+
+@1475 = ~C'est la mâchoire d'un âne que le guerrier/prêtre nasserien Samson utilisa pour tuer six cents Phillistins en un jour. Une arme formidable d'origine modeste.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+
+Enchantement : +3
+TAC0 : +2
+Dégâts : 1d6 +2
+Type de dégâts : Contondant
+Facteur de vitesse : 2
+Type de compétence : Gourdin
+Type : Arme à 1 main
+
+Poids : 3
+
+Nécessite : 
+- Force : 3~
+
+@1476 = ~Lame de Mielikki~
+@1477 = ~Trungle~
