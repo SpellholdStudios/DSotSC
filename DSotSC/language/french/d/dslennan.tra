@@ -1,6 +1,6 @@
-@1 = ~Hello, you are <CHARNAME> are you not? I am Lennan. I assume you have some news about my niece Ferium?~
-@2 = ~Yes sir, and I have some bad news. I am regretfully sorry to tell you that your niece is dead!~
-@3 = ~Yeah we found her alright. But, she had become a freakin' banshee...so we had to kill her!~
-@4 = ~I see...and I see you have returned with her amulet...I..I thank you for your help..... here, take this letter to Otho, a dwarven master weaponsmith, in the Thunderhammer smithy. He is a very good friend of mine and he will make a weapon for you that will have very great importance in the near future. I thank you for your trouble. Good bye!~
-@6 = ~You...ah...she, I see...and I see you have returned with her amulet...I..well, I suppose you had to do what was necessary..... here, take this letter to Otho, a dwarven master weaponsmith, in the Thunderhammer smithy. He is a very good friend of mine and he will make a weapon for you that will have very great importance in the near future. I need to leave now, good bye!~
-@8 = ~Have you not found my niece? Please I beg you...she is wandering out in the wilderness alone. Please find her!~
+@1 = ~Bonjour, vous êtes <CHARNAME>, n'est-ce pas ? Je suis Lennan. Je suppose que vous avez des nouvelles de ma nièce Férium ?~
+@2 = ~Oui monsieur, et j'ai de mauvaises nouvelles. J'ai l'immense regret de vous annoncer que votre nièce est morte.~
+@3 = ~Ouais, nous l'avons bien trouvée. Mais elle était devenue une foutue banshee... alors nous avons dû la tuer !~
+@4 = ~Je vois... Et je vois que vous avez rapporté son amulette... Je... Je vous remercie de votre aide.... Tenez, portez cette lettre à Otho, un maître armurier nain, à la forge de Grondemarteau. C'est un très bon ami à moi et il vous forgera une arme qui aura une très grande importance dans un proche avenir. Je vous remercie pour la peine que vous vous êtes donnée. Au revoir !~
+@6 = ~Vous... ah... elle... Je vois... Et je vois que vous avez rapporté son amulette... Je... bien, je suppose que vous avez dû faire ce qu'il fallait... Tenez, portez cette lettre à Otho, un maître armurier nain, à la forge de Grondemarteau. C'est un très bon ami à moi et il vous forgera une arme qui aura une très grande importance dans un proche avenir. Je dois partir maintenant, au revoir !~
+@8 = ~Vous n'avez pas trouvé ma nièce ? S'il vous plaît, je vous en supplie... elle erre toute seule dans la nature. Trouvez-là, je vous en prie !~

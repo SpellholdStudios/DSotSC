@@ -1,8 +1,8 @@
-@0 = ~Hail and well met! I am Thorfinn Hauskluniff. I heard you are well-known adventurers who solved the iron problem. I would like to join you and help if I can.~
-@1 = ~No, we do not have enough room right now.~
-@2 = ~Yes, you may join us. All help is welcome.~
-@3 = ~I understand. Perhaps next time?~
-@4 = ~I shall endeavor to help you any way I can.~
-@5 = ~Have you changed your minds about my joining?~
-@6 = ~We have no room for another in our party.~
-@7 = ~Yes, join us.~
+@0 = ~Salut à vous et bonne rencontre ! Je m'appelle Thorfinn Hauskluniff et j'ai entendu que vous étiez les aventuriers renommés qui ont résolu le problème du fer. J'aimerai me joindre à vous et aider si je le peux.~
+@1 = ~Non, nous n'avons pas assez de place pour le moment.~
+@2 = ~Oui, vous pouvez vous joindre à nous. Toute aide est bienvenue.~
+@3 = ~Je comprends. Peut-être la prochaine fois ?~
+@4 = ~Je m'efforcerai de vous aider de mon mieux.~
+@5 = ~Avez-vous changé d'avis à propos de mon entrée dans le groupe ?~
+@6 = ~Il n'y a de place pour personne d'autre dans notre groupe.~
+@7 = ~Oui, joignez-vous à nous.~
