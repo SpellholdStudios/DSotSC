@@ -25,8 +25,8 @@ Capacités de charge :
 
 Poids : 2~
 
-@1004 = ~Crown of the Alarphon~
-@1005 = ~Within the ranks of the famed War Wizards of Cormyr there exists an order of mages who ensure that none of the wizards betray their nation or king. Spying on their fellow War Wizards, the members of the Alarphon are unknown even to one another. Many wear crowns similar to this to prevent others of knowing their affiliation.
+@1004 = ~Couronne de l'Alarphon~
+@1005 = ~Dans les rangs des célèbres Sorciers de combat de Cormyr, il existe un ordre de mages qui veille à ce que chacun reste fidèle à sa nation et à son roi. Espionnant leurs collègues, les membres de l'Alarphon restent anonymes et ne se connaissent pas. Beaucoup d'entre eux portent des couronnes semblables à celle-ci pour masquer leur affiliation.
 
 PARAMÈTRES : 
 
@@ -114,7 +114,7 @@ Poids : 2~
 @1024 = ~Heaume de guerre 'nain' de Skeezer Lumpkin~
 @1025 = ~C'est son bon ami, Gothmog Foyerdepierre, un nain scalde du clan Foyerdepierre, qui donna ce heaume à Skeezer. Skeezer et Gothmog devinrent bons amis après que Skeezer ait sauvé la vie de Gothmog, une nuit. Gothmog fut pris en embuscade par une patrouille de duergars qui faisait route vers la surface par une nuit sans lune afin de chercher des proies. Quand Skeezer le vit, il planta son bâton dans le sol, rendant le ciel aussi brillant qu'un ciel radieux à midi. Bien entendu cela provoqua la fuite des duergars. A partir de ce jour, Gothmog et Skeezer devinrent des amis proches et Gothmog s'intéressa même aux capacités magiques de son ami gnome, et peut-être même essaya-t-il en secret quelques petits sorts, sachant bien sûr que son clan désapprouverait de telles activités.
 
-Though Skeezer claims the helm is blessed with all the powers of Clangeddin himself, the prominent horns jutting from its sides impress you far more, particularly when one nearly pierces your arm. Thankfully, he seems to don it only when anticipating battle.
+Bien que Skeezer affirme que le casque est doté de tous les pouvoirs de Clangeddin lui-même, ce sont ses cornes proéminentes qui vous impressionnent le plus, surtout lorsque l'une d'entre elles risque de vous transpercer le bras. Heureusement, il ne semble le porter que lorsque une bataille se prépare.
 
 PARAMÈTRES : 
 
@@ -173,8 +173,8 @@ Poids : 6
 Nécessite : 
 - Force : 6~
 
-@1033 = ~Bhaelros' Bane +2~
-@1034 = ~Though druidic orders were traditionally rare in the harsh climate of Calimshan, a small number could be found near the Marching Mountains. Persecuted and ridiculed by the Calishites, they often came under attack by priests of Bhaelros. To protect the members of their order, suits of armor such as these were created, allowing the druids to brush aside the lightning spells of the evil clerics. Unfortunately, they could not provide the same protection for the trees, and they fled when their home was destroyed.
+@1033 = ~Fléau des Bhaelros~
+@1034 = ~Bien que les ordres de druide soient généralement peu nombreux dans le climat sec de Calimshan, on en trouve un petit nombre près des Monts de la Marche. Persécutés et ridiculisés par les Calishites, ils subissaient fréquemment les attaques des suivants de Bhaelros. Afin de protéger les membres de leur ordre, ils firent confectionner des armures qui leur permettaient de repousser la foudre de ces clercs maléfiques. Malheureusement, les arbres ne bénéficiaient pas d'une telle protection, et les druides durent se résoudre à fuir lorsque leur foyer fut détruit.
 
 PARAMÈTRES : 
 
@@ -240,7 +240,7 @@ Nécessite :
 - Force : 11~
 
 @1047 = ~Armure de peau de Thorfinn~
-@1048 = ~C'est l'armure de peau personnelle de Thorfinn Hauskluniff Though it does not possess any magical abilities, it is a well-constructed piece, almost appearing to be traditional leather due to its cut and design. A snarling wolf emblazoned on the breast evokes its wilder origins.
+@1048 = ~C'est l'armure de peau personnelle de Thorfinn Hauskluniff. Bien que sans propriétés magiques, elle est de bonne facture et ressemble presque à une besantine traditionnelle de par sa coupe et sa finition. Un loup féroce brodé sur la poitrine témoigne de ses origines plus rustiques.
 
 PARAMÈTRES : 
 
@@ -286,7 +286,7 @@ Capacités d'équipement :
 - Classe d'armure de base : 3
 - Classe d'armure : +2 contre les armes tranchantes
 - Classe d'armure : -2 contre les armes contondantes
-- Aide : The recipient of this spell gains the benefits of a Bless spell (+1 to attack rolls and Saving Throws) and a special bonus of 1d8 additional Hit Points for the duration of the spell.
+- Aide : Le destinataire de ce sort bénéficie des avantages d'un sort de bénédiction (+1 pour les jets d'attaque et les jets de sauvegarde) et d'un bonus spécial de 1d8 points de vie supplémentaires pendant la durée du sort.
 - Empêche l'utilisation des compétences de voleur
 - Empêche l'utilisation du camouflage dans l'ombre
 
@@ -415,7 +415,7 @@ Nécessite :
 - Force : 6~
 
 @1072 = ~Robe de mage de Skeezer Lumpkin~
-@1074 = ~Colorful, bright and... colorful... Skeezer's robe could aptly be described as a riot of red, particularly when adorned with the many trinkets he holds in high regard. The gnome claims that he invented a new kind of fabric when creating it, one that protects from the withering breath of dragons, the insidious tentacles of mind flayers and the magical blasts of beholders. From what you can tell, the robe would have a difficult time stopping the dagger of a lame kobold. Nonetheless, given Skeezer's skill as a mage, you have no doubt that it carries at least some magical protection.
+@1074 = ~Colorée, brillante et surtout... colorée... La robe de Skeezer pourrait être décrite comme une marée rouge, d'autant plus lorsqu'elle est ornée de nombreux bibelots qu'il affectionne tant. Le gnome prétend avoir inventé un nouveau type de tissu qui protège du souffle flétrissant des dragons, des tentacules sournois des flagelleurs mentaux et des rayons magiques des spectateurs. D'après ce que vous pouvez constater, cette robe aurait bien du mal à arrêter la dague d'un kobold estropié. Néanmoins, considérant les compétences magiques de Skeezer, vous ne doutez pas qu'elle comporte quelques protections magiques.
 
 PARAMÈTRES : 
 
@@ -438,7 +438,7 @@ Capacités d'équipement :
 Poids : 3~
 
 @1077 = ~Robe du Grand Sorcier~
-@1078 = ~This powerful robe is rumored to have a dark history. Supposedly created by the archmage Halaster to torment young magelings, it has sown chaos in its travels through the Realms, leaving murder and betrayal in its wake. Despite boasting potent protective enchantments, it has rarely remained with a single owner for long, and some whisper that the robe itself desires nothing less than the destruction of any who seek to claim it.
+@1078 = ~La rumeur veut que cette puissante robe ait une histoire des plus sombres. Supposément créée par l'archimage Halaster pour tourmenter les jeunes magiciens, elle a semé le chaos au cours de ses voyages dans les royaumes, entraînant meurtres et trahisons dans son sillage. Bien que dotée de puissants enchantements, elle est rarement restée longtemps entre les mains du même propriétaire, et certains murmurent que la robe elle-même ne désire qu'une seule chose : destruction de tous ceux qui voudraient la posséder.
 
 PARAMÈTRES : 
 
@@ -483,10 +483,10 @@ Capacités d'équipement :
 
 Poids : 4~
 
-@1083 = ~Robe de mage drow~
-@1084 = ~Les drows expérimentés portent des capes qui leur offrent 75% de chance de rester indécelables dans les ombres. Le matériau utilisé pour fabriquer ces capes ne se coupe pas aisément, est résistant au feu et donne aux capes un bonus de +6 aux jets de sauvegarde contre les souffles. Ces capes ne peuvent être portées que par ceux qui ont la stature d'un elfe.
+@1083 = ~Robe de mage elfe noir~
+@1084 = ~Les elfes noirs expérimentés portent des capes qui leur offrent 75% de chance de rester indécelables dans les ombres. Le matériau utilisé pour fabriquer ces capes ne se coupe pas aisément, est résistant au feu et donne aux capes un bonus de +6 aux jets de sauvegarde contre les souffles. Ces capes ne peuvent être portées que par ceux qui ont la stature d'un elfe.
 
-En raison de la nature du tissu drow, s'il est exposé à la lumière du soleil, sa décomposition irrémédiable est entamée. Sous deux à douze jours, elle perdra toutes ses propriétés protectrices et pourrira, la rendant totalement inutile.
+En raison de la nature du tissu elfe noir, s'il est exposé à la lumière du soleil, sa décomposition irrémédiable est entamée. Sous deux à douze jours, elle perdra toutes ses propriétés protectrices et pourrira, la rendant totalement inutile.
 
 PARAMÈTRES : 
 
@@ -530,7 +530,7 @@ Capacités d'équipement :
 Poids : 6~
 
 @1096 = ~Cape de Morridin~
-@1098 = ~Cette cape a autrefois appartenu au célèbre barde Morridin. Malgré les fils d'or tissés en son sein, Morridin en disait qu'il ne s'agissait que "d'une simple cape pour me protéger des éléments". La cape, de même que bien d'autres objets personnels de Morridin, est devenue un sujet de conversation parmi tant d'autres.
+@1098 = ~Cette cape a autrefois appartenu au célèbre barde Morridin. Malgré les fils d'or tissés en son sein, Morridin en disait qu'il ne s'agissait que « d'une simple cape pour me protéger des éléments ». La cape, de même que bien d'autres objets personnels de Morridin, est devenue un sujet de conversation parmi tant d'autres.
 
 PARAMÈTRES : 
 
@@ -543,12 +543,12 @@ Poids : 3~
 @1099 = ~Cape atténuante~
 @1100 = ~Cette cape fut conçue par le seigneur sorcier Noober Harpell, désormais fou. Obnubilé par les capes elfiques qu'il vit durant ses voyages, il fabriqua celle-ci comme une réplique. Lorsqu'elle est portée, elle atténue son porteur, le rendant pratiquement invisible, lui permettant de se mouvoir presque en toute impunité.
 
-À l'intérieur de la cape, il est cousu la mention "Propriété de Noober, fils de Noober"
+À l'intérieur de la cape, il est cousu la mention « Propriété de Noober, fils de Noober »
 
 PARAMÈTRES :
 
 Capacités d'équipement :
-– atténue le porteur de 75 %
+– atténue le porteur de 75 % (Effet seulement visuel)
 
 Poids : 3~
 
@@ -596,7 +596,7 @@ Capacités d'équipement :
 Poids : 2~
 
 @1113 = ~Gants de Mage~
-@1114 = ~Même les sages les plus puissants peuvent parfois se retrouver pris au dépourvu en combat et privés de magie pour vaincre un adversaire. C'est justement pour ces circonstances que Sharga ordonna la fabrication de ces gants. Ils offrent, pour un pratiquant de la magie profane, une petite aide supplémentaire lorsque le combat dégénère en corps-à-corps.
+@1114 = ~Même les sages les plus puissants peuvent parfois se retrouver pris au dépourvu en combat et privés de magie pour vaincre un adversaire. C'est justement pour ces circonstances que Sharga ordonna la fabrication des gants « Otrad Atwah ». Ils offrent, pour un pratiquant de la magie profane, une petite aide supplémentaire lorsque le combat dégénère en corps-à-corps.
 
 PARAMÈTRES : 
 
@@ -654,7 +654,7 @@ Capacités d'équipement :
 Poids : 0~
 
 @1129 = ~Anneau de Ghaunadaur~
-@1131 = ~A highly unpredictable deity, Ghaunadaur often rewards his loyal followers with boons and gifts, including rings such as this. On the other hand, he just as often rewards those zealots with torture and death.
+@1131 = ~Imprévisible divinité, Ghaunadaur récompense souvent ses fidèles avec ses faveurs et des cadeaux, comme cet anneau. D'un autre côté, il récompense tout aussi souvent ces partisans fanatiques en les torturant jusqu'à ce que mort s'ensuive.
 
 PARAMÈTRES : 
 
@@ -700,7 +700,7 @@ Capacités d'équipement :
 Poids : 0~
 
 @1140 = ~Anneau du voyageur~
-@1141 = ~L'anneau personnel du célèbre barde Morridin, auquel il manque une pierre. Lorsqu'on l'interrogeait sur la façon dont l'anneau avait perdu son ornement, Morridin répondait simplement : "Il est tombé pendant que je voyageais.". Son anneau est rapidement devenu connu sous le nom d'anneau du voyageur. Comme Morridin n'a jamais révélé à quiconque ce que l'anneau faisait, la nature exacte de ses enchantements est inconnue.
+@1141 = ~L'anneau personnel du célèbre barde Morridin, auquel il manque une pierre. Lorsqu'on l'interrogeait sur la façon dont l'anneau avait perdu son ornement, Morridin répondait simplement : « Il est tombé pendant que je voyageais. ». Son anneau est rapidement devenu connu sous le nom d'anneau du voyageur. Comme Morridin n'a jamais révélé à quiconque ce que l'anneau faisait, la nature exacte de ses enchantements est inconnue.
 
 PARAMÈTRES : 
 
@@ -710,7 +710,7 @@ Capacités d'équipement :
 Poids : 0~
 
 @1142 = ~Anneau de Barde de Keiria~
-@1143 = ~Cet anneau appartenait autrefois au célèbre barde Morridin. Le roi mage Varashar fit forger l'anneau pour Morridin après qu'il eût gagné un concours de magie et de musique entre les bardes de la cour qui dura sept années. When Morridin finally overcame his competitors with his own variation of a simple cantrip, Varashar awarded him with the title of Court Bard and this ring.
+@1143 = ~Cet anneau appartenait autrefois au célèbre barde Morridin. Le roi mage Varashar fit forger l'anneau pour Morridin après qu'il eût gagné un concours de magie et de musique entre les bardes de la cour qui dura sept années. Lorsque Morridin finit par triompher de ses concurrents avec sa propre adaptation d'un simple cantique, Varashar lui décerna le titre de Barde de la Cour ainsi que cet anneau.
 
 PARAMÈTRES : 
 
@@ -730,14 +730,14 @@ Capacités d'équipement :
 
 Capacités de charge : 
 - Immunise la cible à la pétrification pendant 6 heures (1 fois par jour)
-  Range: 30 ft.
-  Area of Effect: 1 creature
-  Duration: 6 hours
+  Portée : 9 m.
+  Zone d'effet : 1 créature
+  Durée : 6 heures
 
 Poids : 0~
 
 @1146 = ~Éclat de Charvirak~
-@1147 = ~During the invasion of the Black Horde, in which even the southern nations were overrun, the druid Charvirak sought desperately to protect the Forest of Tethir from the fires started by rampaging orcs and goblins. Capturing the essence of an efreeti in this ring, he used it to walk directly through the flames of the burning trees, putting them out before they could cause any lasting damage.
+@1147 = ~Pendant la grande invasion de la Horde noire, au cours de laquelle même les nations du sud ont été submergées, le druide Charvirak cherchait désespérément à protéger la forêt de Tethir des nombreux feux provoqués par les orcs et les gobelins déchaînés. Capturant l'essence d'un efrit dans cet anneau, il l'a utilisé pour marcher à travers les flammes et eteindre les arbres en feu avant que les dommages ne soient irréparables.
 
 PARAMÈTRES : 
 
@@ -748,7 +748,7 @@ Capacités d'équipement :
 Poids : 1~
 
 @1148 = ~Anneau de Jet'laya~
-@1149 = ~Cet anneau a appartenu à la mère de Jet'laya. It is of elven origin and contains a strong enchantment that protects Jet'laya from coming under the influence of charm spells and effects.
+@1149 = ~Cet anneau a appartenu à la mère de Jet'laya. Il est d'origine elfique et contient un puissant enchantement qui protège Jet'laya de l'influence et des effets des charmes.
 
 PARAMÈTRES : 
 
@@ -813,14 +813,14 @@ Pour détruire le Sombre, vous devez être en possession de ce phylactère. Cela em
 PARAMÈTRES : 
 
 Capacités de charge :
-– Cri de Guerre once per day
-  Special: Fear for 15 rounds (Save vs. Spells at +2 bonus negates)
-  Range: 100 ft.
-  Area of Effect: 20-ft. radius
+– Cri de Guerre une fois par jour
+  Spécial : Inflige la peur pendant 15 rounds (jet de sauvegarde contre les sorts avec un bonus de +2 pour annuler).
+  Portée : 30 m.
+  Zone d'effet : rayon de 6 m
  
 Poids : 1~
 
-@1173 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
+@1173 = ~Comme d'autres sacs magiques, celui-ci ressemble à un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intérieur est plus grand que l'extérieur. Le poids du sac reste inchangé, quels que soient les objets qui y sont déposés.~
 
 @1174 = ~Luth~
 @1175 = ~Chanson de la Nyriad~
@@ -830,10 +830,10 @@ Poids : 1~
 PARAMÈTRES : 
 
 Capacités de charge :
-– Charme néfaste once per day (Save vs. Spell at -2 penalty negates)
-  Range: 30 ft.
-  Duration: 1 turn
-  Area of Effect: 1 creature
+– Charme néfaste une fois par jour (jet de sauvegarde contre les sorts à -2 pour annuler)
+  Portée : 9 m.
+  Durée : 1 tour
+  Zone d'effet : 1 créature
 
 Poids : 1~
 
@@ -854,7 +854,7 @@ Poids : 25~
 
 Il y a très longtemps, un mage sage du nom de Roach tomba sur le jeune elfe CúChoinneach. Roach reconnut dans ce jeune elfe le véritable esprit de l'aventure et décida de lui demander d'accomplir un long voyage. Ce voyage était une descente dans les mystères qui se cachent sur la Côte des Épées. Roach savait qu'il y avait là bien davantage qu'il n'y paraissait. Avec les conseils et les encouragements de Roach, CúChoinneach commença à découvrir les nombreuses histoires sombres qui se cachent encore sous la surface du cadre idyllique de la Voie Côtière. Il passa beaucoup de nuits blanches à essayer simplement de jeter le bon sortilège Hex pour révéler un nouveau mystère. Parfois il y parvenait, à sa grande surprise. Pourtant à d'autres moments son échec était lamentable et décourageant. Il lui fallut aussi composer avec le fait que beaucoup disaient que la Face Cachée n'existait pas, ou dans le cas contraire, qu'il valait mieux la laisser à un aventurier plus expérimenté. Mais CúChoinneach ne fit pas attention à eux et poursuivit ses recherches.
 
-Pendant son voyage CúChoinneach rencontra un groupe d'individus remarquables qui, à leur façon, avaient contribué aux découvertes de Roach et CúChoinneach. Parmi ces habitants pittoresques de la Côte des Épées figurait un homme connu simplement comme Ken the Baker, bien qu'il ne soit pas boulanger ; personne ne sait vraiment comment il fut nommé ainsi. On le trouve souvent au Jongleur Jovial à Bérégost, généralement juste après une grande victoire de la Team Baldur's Gate. Ken, comme certains l'appellent, crut aussi que beaucoup de mystères restaient cachés sur la Côte des Épées et lança son équipe de "Hexers" pour commencer la recherche de ces mystères. Parmi ces hexers figuraient des enchanteurs, des illusionnistes et des représentants d'à peu-près toutes les écoles.
+Pendant son voyage CúChoinneach rencontra un groupe d'individus remarquables qui, à leur façon, avaient contribué aux découvertes de Roach et CúChoinneach. Parmi ces habitants pittoresques de la Côte des Épées figurait un homme connu simplement comme Ken le Boulanger, bien qu'il ne soit pas boulanger ; personne ne sait vraiment comment il fut nommé ainsi. On le trouve souvent au Jongleur Jovial à Bérégost, généralement juste après une grande victoire de la Team Baldur's Gate. Ken, comme certains l'appellent, crut aussi que beaucoup de mystères restaient cachés sur la Côte des Épées et lança son équipe de « Hexers » pour commencer la recherche de ces mystères. Parmi ces hexers figuraient des enchanteurs, des illusionnistes et des représentants d'à peu-près toutes les écoles.
 
 Un de ces individus se faisait appeler simplement Banelord. Il fut en mesure de montrer à CúChoinneach quelques-uns des points les plus subtils du Hex, mais peu de temps après Banelord disparut de la scène. Il regorge de rumeurs à propos des raisons de son départ rapide mais rien n'a jamais été confirmé.
 
@@ -863,14 +863,14 @@ La liste continua de grandir tandis que le voyage se poursuivait...
 Crédits :
 Concept original par Roach
 Développement de l'histoire par CúChoinneach et Roach
-Cartes et créatures conçues et "hexées" par CúChoinneach
+Cartes et créatures conçues et « Hexées » par CúChoinneach
 Logo Darkside créé par WoRm
 Objets créés par un grand nombre de hexers qui sont trop nombreux pour les citer ici... (Par ailleurs CúChoinneach ne souhaite en oublier aucun. Mais si vous allez sur le site TeamBG vous pouvez visiter les sites partenaires de TeamBG et trouver le créateur de votre objet favori.)
 Voix pour Jet'laya, Keiria Silverstring et Conchobhair Lamesolide édités par Grog
 Le PNJ Jet'laya fut créé par Grog
 Tous les autres PNJ furent créés par CúChoinneach
 Voix et biographie pour Ferthgil Tueurdetroll fournies par Gothmog du clan Foyerdepierre
-Les icônes originales de certains des objets sont l'oeuvre de WoRm
+Les icônes originales de certains des objets sont l’œuvre de WoRm
 Site web et promotion par Ken Baker
 
 Rien de tout ceci n'aurait été possible s'il n'y avait eu Ken Baker et la création de TeamBG. TeamBG permit de rassembler les esprits et fournit les ingrédients nécessaires pour un brassage réussi !
@@ -879,7 +879,7 @@ Enfin, merci à Gustov Montessi qui a été un contributeur majeur en éditeurs et a
 
 Remerciements spéciaux à Black Isle Studios, Bioware Corp., Interplay Productions et toutes les personnes qui ont participé à la création de Baldur's Gate et de Tales of the Sword Coast. Sans aucun doute le meilleur RPG pour ordinateur jamais réalisé et sans lequel je n'aurais pas créé DSotSC.
 
-Mes derniers remerciements s'adressent à toi ! L'aventurier qui lit ceci et fut capable de le trouver planqué dans une bibliothèque quelque part dans la Face Cachée de la Côte des Épées. Maintenant file d'ici et va fracasser quelques crânes, sale "gobelin avide" !
+Mes derniers remerciements s'adressent à toi ! L'aventurier qui lit ceci et fut capable de le trouver planqué dans une bibliothèque quelque part dans la Face Cachée de la Côte des Épées. Maintenant file d'ici et va fracasser quelques crânes, sale « gobelin avide » !
 
 CúChoinneach~
 
@@ -904,7 +904,7 @@ Nécessite :
 - Intelligence : 9~
 
 @1251 = ~Collier de Férium~
-@1253 = ~Ce collier fut donné à Férium par l'élu de son coeur, Ken'lan. L'inscription au dos indique « Mon amour pour toi jusqu'à ce que la lune baisse ».
+@1253 = ~Ce collier fut donné à Férium par l'élu de son cœur, Ken'lan. L'inscription au dos indique « Mon amour pour toi jusqu'à ce que la lune baisse ».
 
 Jet'laya a suggéré de le rapporter à Lennan, son oncle, qui attend au Jongleur Jovial à Bérégost.
 
@@ -1123,7 +1123,7 @@ Nécessite :
 - Force : 4~
 
 @1313 = ~Cœur du dragon~
-@1314 = ~Un chevalier assez inconnu, Neshum, n'était jamais très rapide d'esprit. Lorsqu'il voyageait dans le nord, il arriva sur les lieux d'une bataille. Plusieurs guerriers et un dragon se tenaient devant lui. Neshum estima que le combat était inégal, et il prit les armes en défendant le dragon. L'aide de Neshum fut déterminante et les guerriers furent défaits. Benderesk, le dragon, remercia le chevalier en lui remettant un bouclier dans lequel il instilla la force d'un coeur de dragon. Benderesk récupéra son cadeau quelques années plus tard lorsque Neshum fut engagé par les gens du même village d'où venaient les guerriers, pour se débarrasser de ce trublion de dragon.
+@1314 = ~Un chevalier assez inconnu, Neshum, n'était jamais très rapide d'esprit. Lorsqu'il voyageait dans le nord, il arriva sur les lieux d'une bataille. Plusieurs guerriers et un dragon se tenaient devant lui. Neshum estima que le combat était inégal, et il prit les armes en défendant le dragon. L'aide de Neshum fut déterminante et les guerriers furent défaits. Benderesk, le dragon, remercia le chevalier en lui remettant un bouclier dans lequel il instilla la force d'un cœur de dragon. Benderesk récupéra son cadeau quelques années plus tard lorsque Neshum fut engagé par les gens du même village d'où venaient les guerriers, pour se débarrasser de ce trublion de dragon.
 
 PARAMÈTRES : 
 
@@ -1333,7 +1333,7 @@ Nécessite :
 - Force : 10~
 
 @1345 = ~Brûleur~
-@1346 = ~Froissé et rouge, ce coutelas est froid au toucher. Les gravures runiques indiquent seulement « Brûleur ». Son apparence a souvent fait que de nombreux aventuriers l'ont pris pour une arme usée, vieille ou inutile. Les plus curieux qui l'ont transporté "au cas où" furent toujours agréablement surpris. En fait, Brûleur ne devient chaud que lorsqu'il fend l'air, mais une fois qu'il est en mouvement, en direction d'une cible, son nom apparaît clairement justifié.
+@1346 = ~Torsadé et rouge, ce coutelas est froid au toucher. Les gravures runiques indiquent seulement « Brûleur ». Son apparence a souvent fait que de nombreux aventuriers l'ont pris pour une arme usée, vieille ou inutile. Les plus curieux qui l'ont transporté « au cas où » furent toujours agréablement surpris. En fait, Brûleur ne devient chaud que lorsqu'il fend l'air, mais une fois qu'il est en mouvement, en direction d'une cible, son nom apparaît clairement justifié.
 
 PARAMÈTRES : 
 
@@ -1354,7 +1354,7 @@ Nécessite :
 - Force : 10~
 
 @1347 = ~Lame Fantôme~
-@1348 = ~Toute épée fendant l'air donne l'impression de montrer de légères répliques d'elle-même le long du tracé parcouru. Cette lame n'est pas différente, mais à l'inverse d'une lame classique, on dirait que les répliques fantomatiques de celle-ci peuvent également trancher. Elle fut, à l'origine, en la possession d'un type plutôt sale et paresseux nommé Bordger, dont on disait qu'il avait suivi une formation arcanique avant de devenir voleur. Étant donné l'efficacité des enchantements de cette lame, il aurait peut-être mieux fait d'insister dans cette voie.
+@1348 = ~Toute épée fendant l'air donne l'impression de montrer de légères répliques d'elle-même le long du tracé parcouru. Cette lame n'est pas différente, mais à l'inverse d'un coutelas classique, on dirait que les répliques fantomatiques de celle-ci peuvent également trancher. Elle fut, à l'origine, en la possession d'un type plutôt sale et paresseux nommé Bordger, dont on disait qu'il avait suivi une formation arcanique avant de devenir voleur. Étant donné l'efficacité des enchantements de cette lame, il aurait peut-être mieux fait d'insister dans cette voie.
 
 PARAMÈTRES : 
 
@@ -1375,7 +1375,7 @@ Nécessite :
 - Force : 10~
 
 @1349 = ~Étincelles~
-@1350 = ~Bourdonnant d'énergie électrique, il est facile de savoir comment ce coutelas a gagné son nom. Ses origines sont inconnues, mais des histoires d'une étrange contrée accompagnent toujours tout conte à son sujet. Son premier propriétaire connu était un pirate tout juste de retour au port. Il fut volé et tué alors qu'il était abruti par l'alcool, et même son nom demeure un mystère aussi épais que celui de cette épée...
+@1350 = ~Coutelas bourdonnant d'énergie électrique, il est facile de savoir comment ce coutelas a gagné son nom. Ses origines sont inconnues, mais des histoires d'une étrange contrée accompagnent toujours tout conte à son sujet. Son premier propriétaire connu était un pirate tout juste de retour au port. Il fut volé et tué alors qu'il était abruti par l'alcool, et même son nom demeure un mystère aussi épais que celui de cette épée...
 
 PARAMÈTRES : 
 
@@ -1418,7 +1418,7 @@ Nécessite :
 - Force : 6~
 
 @1356 = ~Epée du champion~
-@1358 = ~C'est l'épée dorée donnée par Heaum au membre de rang le plus élevé du Très Noble Ordre du Coeur Radieux.
+@1358 = ~C'est l'épée dorée donnée par Heaum au membre de rang le plus élevé du Très Noble Ordre du Cœur Radieux.
 
 PARAMÈTRES : 
 
@@ -1438,8 +1438,8 @@ Poids : 12
 Nécessite : 
 - Force : 12~
 
-@1363 = ~Le Chasseur de Mort~
-@1364 = ~C'est le cimeterre personnel de CúChoinneach. Forgé de pur Mithril ayant baigné dans la lumière de la pleine lune, il lui fut donné par Sehanine Archelune, la déesse elfe du mysticisme, des rêves, de la mort, des voyages, de la transcendance, de la lune, des étoiles et des cieux. Elle lui apparut en rêve peu de temps après que l'élue de son coeur, Fia'nna, ait été tuée par une armée de morts-vivants dirigée par un vampire. Sehanine dit à CúChoinneach qu'il serait le chasseur, qu'elle l'avait choisi pour traquer les morts-vivants les plus malveillants des royaumes. Quand il se réveilla, il découvrit ce cimeterre à ses côtés. Le symbole de Sehanine est le croissant de lune. Elle lui donna le cimeterre comme un symbole et pour lui rappeler son soutien. Les pouvoirs liés à la lame sont inconnus, même de CúChoinneach.
+@1363 = ~Mairial, Le Chasseur de Mort~
+@1364 = ~C'est le cimeterre personnel de CúChoinneach. Forgé de pur Mithril ayant baigné dans la lumière de la pleine lune, il lui fut donné par Sehanine Archelune, la déesse elfe du mysticisme, des rêves, de la mort, des voyages, de la transcendance, de la lune, des étoiles et des cieux. Elle lui apparut en rêve peu de temps après que l'élue de son cœur, Fia'nna, ait été tuée par une armée de morts-vivants dirigée par un vampire. Sehanine dit à CúChoinneach qu'il serait le chasseur, qu'elle l'avait choisi pour traquer les morts-vivants les plus malveillants des royaumes. Quand il se réveilla, il découvrit ce cimeterre à ses côtés. Le symbole de Sehanine est le croissant de lune. Elle lui donna le cimeterre comme un symbole et pour lui rappeler son soutien. Les pouvoirs liés à la lame sont inconnus, même de CúChoinneach.
 
 PARAMÈTRES : 
 
@@ -1458,7 +1458,7 @@ Poids : 3
 Nécessite : 
 - Force : 10~
 
-@1366 = ~Nemmerle's Revenge~
+@1366 = ~Revanche de Nemmerle~
 @1368 = ~Durant un sempiternel combat entre le bien et le mal, l'archimage Nemmerle vit que la défaite était inévitable, et il utilisa ce qu'il lui restait de sa magie noire pour enchanter son bâton et l'envoyer à son jeune apprenti. Ce fut seulement à la fin, comprenant ce dont il avait besoin pour remporter la victoire, et qu'il manquait de force pour ce faire, qu'il vit que même dans la défaite, il pourrait arracher une petite victoire. Gensher avait enchanté sa robe de manière à contrer toute attaque d'objets contondants, sachant qu'étant de force égale en terme de magie, la bataille s'achèverait sur un combat au corps-à-corps, de sorte qu'il se montra plus malin que le magicien malveillant.
 Le bâton présente une très faible aura d'altération magique. Sur mention du mot de commande, le bâton adopte les attributs d'une hallebarde, ce qui lui permet d'occasionner des dégâts tranchants.
 
@@ -1505,7 +1505,7 @@ Nécessite :
 - Force : 13~
 
 @1373 = ~Justice~
-@1374 = ~Donnée à un Haut Prêtre durant le temps des Anciens, Justice est l'arme la plus puissante d'un paladin ou d'un prêtre dans le combat contre le Mal. Justice ressemble à un fléau d'armes, aux yeux de tous, mais lorsqu'un "coeur pur" s'en saisit, l'arme entière brille d'une lueur dorée. On pense que le porteur de Justice est alors béni des dieux.
+@1374 = ~Donnée à un Haut Prêtre durant le temps des Anciens, Justice est l'arme la plus puissante d'un paladin ou d'un prêtre dans le combat contre le Mal. Justice ressemble à un fléau d'armes, aux yeux de tous, mais lorsqu'un « cœur pur » s'en saisit, l'arme entière brille d'une lueur dorée. On pense que le porteur de Justice est alors béni des dieux.
 
 PARAMÈTRES : 
 
@@ -1630,7 +1630,7 @@ Nécessite :
 - Force : 15~
 
 @1390 = ~Kilther~
-@1391 = ~Kilther était le général des "Chevaliers d'Argent". Lorsqu'ils furent assaillis par une cavalerie d'orques géants, tous ses chevaliers voulurent charger à cheval les hordes d'orques, mais Kilther refusa. Il obligea ses hommes à aller à pied, équipés d'arcs, de hallebardes ou de grande hache. Il choisit celle-ci en particulier. Lorsque le combat s'engagea, les haches longues freinèrent l'élan des orques. Une pluie de flèches s'abattit sur eux, et les haches forcèrent les montures des orques à s'arrêter. Les orques moururent par milliers tandis que les Chevaliers d'Argent déplorèrent la mort de dix-neuf hommes, dont Kilther.
+@1391 = ~Kilther était le général des « Chevaliers d'Argent ». Lorsqu'ils furent assaillis par une cavalerie d'orques géants, tous ses chevaliers voulurent charger à cheval les hordes d'orques, mais Kilther refusa. Il obligea ses hommes à aller à pied, équipés d'arcs, de hallebardes ou de grande hache. Il choisit celle-ci en particulier. Lorsque le combat s'engagea, les haches longues freinèrent l'élan des orques. Une pluie de flèches s'abattit sur eux, et les haches forcèrent les montures des orques à s'arrêter. Les orques moururent par milliers tandis que les Chevaliers d'Argent déplorèrent la mort de dix-neuf hommes, dont Kilther.
 
 PARAMÈTRES : 
 
@@ -1684,8 +1684,8 @@ Capacités d'équipement :
 
 Capacités de charge : 
 - Capacité 1 (5 fois par jour)
-  Crée 1 "Potion de grands soins" dans l'inventaire du porteur de manière permanente
-  Crée 1 "Antidote" dans l'inventaire du porteur de manière permanente
+  Crée 1 « Potion de grands soins » dans l'inventaire du porteur de manière permanente
+  Crée 1 « Antidote » dans l'inventaire du porteur de manière permanente
 
 Enchantement : +1
 TAC0 : +1
@@ -1852,7 +1852,7 @@ Poids : 4
 Nécessite : 
 - Force : 5~
 
-@1414 = ~Tombeur de Géant~
+@1414 = ~le Tombeur de Géant de Tearlac Marteauloyal~
 @1416 = ~Ce marteau de guerre est l'arme personnelle de Tearlac Marteauloyal, neveu d'Otho Marteauloyal. Il forgea lui-même cette arme après plusieurs années de formation sous l'oeil attentif de son oncle. Certains considèrent Otho comme l'un des meilleurs, sinon le meilleur forgeron de la Côte des Épées et la qualité de l'arme montre que Tearlac n'était peut-être devancé que par son oncle. Tearlac grava des runes décoratives sur le manche afin de montrer fièrement son ascendance. Ce marteau de guerre est fait d'alliage de Mitril, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche est fait de chêne très solide et mesure environ 45 cm de long.
 
 PARAMÈTRES : 
@@ -2002,8 +2002,8 @@ Poids : 2
 Nécessite : 
 - Force : 3~
 
-@1439 = ~Dague drow en adamantine~
-@1440 = ~La plupart des drows portent des dagues en alliage d'adamantite. Ces dagues peuvent avoir un bonus de +1 à +3. Celle-ci en particulier est enduite d'un puissant poison de sommeil.
+@1439 = ~Dague en adamantine~
+@1440 = ~La plupart des elfes noirs portent des dagues en alliage d'adamantite. Ces dagues peuvent avoir un bonus de +1 à +3. Celle-ci en particulier est enduite d'un puissant poison de sommeil.
 
 En raison de la nature de l'adamantite, s'il est exposé à la lumière du soleil, sa décomposition irrémédiable est entamée. Sous deux à douze jours, elle perdra toutes ses propriétés protectrices et pourrira, la rendant totalement inutile.
 
@@ -2121,7 +2121,7 @@ Capacités d'équipement :
 - Attaque par round : Passe à 2
 
 Capacités de charge : 
-- Crée 1 "Flèche percutante" dans l'inventaire du porteur de manière permanente (1 fois par jour)
+- Crée 1 « Flèche percutante » dans l'inventaire du porteur de manière permanente (1 fois par jour)
 
 Enchantement : +3
 TAC0 : +2
@@ -2172,7 +2172,7 @@ Poids : 1
 Nécessite : 
 - Intelligence : 9~
 
-@1467 = ~Baguette d'éclair~
+@1467 = ~Baguette chaîne d'éclair~
 @1468 = ~Lorsqu'on l'active, la baguette envoie une boule d'énergie électrique qui se précipite vers la zone ciblée. Lorsque la boule atteint sa cible, elle explose sur 12 mètres, provoquant 6D6+6 points de dégâts électriques à toutes les créatures au sein de la zone, dégâts diminués de moitié si elles réussissent un jet de sauvegarde contre les baguettes.
 
 PARAMÈTRES : 
