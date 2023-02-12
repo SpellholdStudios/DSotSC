@@ -1,0 +1,8 @@
+//DSCOFF1.baf; DSCOFF2.baf
+@0 = ~Le vampire s'est retiré dans son cercueil une fois vaincu. Si vous avez un pieu de bois, vous pouvez essayer de le tuer.~
+@1 = ~Vous enfoncez le pieu dans le cœur maléfique du vampire. Cette créature ne se nourrira plus jamais du sang des autres.~
+@2 = ~Le vampire est vraiment mort et le cercueil grouille de vers. Il n'y a rien d'autre à faire avec.~
+@3 = ~Vous êtes trop loin pour pouvoir l'utiliser.~
+
+//DSDUEGWA.BAF
+@10 = ~Alerte ! Des intrus !~

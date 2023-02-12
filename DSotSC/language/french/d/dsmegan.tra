@@ -1,0 +1,11 @@
+@1 = ~Êtes-vous <CHARNAME> ?~
+@2 = ~Oui c'est moi, et voici mes loyaux acolytes.~
+@3 = ~Non, jamais entendu parler.~
+@4 = ~Je suis Megan Tuemort, la fille du maire. Ma mère m'a envoyée vous demander de venir lui parler. Elle vous attend au manoir.~
+@5 = ~Pourquoi a-t-elle besoin de me parler ?~
+@6 = ~J'ai des choses plus importantes à faire que de passer mon temps à raconter mes hauts faits à des nobles qui s'ennuient !~
+@7 = ~Mon petit frère a été enlevé dans notre maison, elle a besoin de votre aide pour le retrouver.~
+@8 = ~Montrez-nous le chemin.~
+@9 = ~Vous n'êtes pas un vrai héros ! Un vrai héros aide les gens dans le besoin.~ ~Vous n'êtes pas une vraie héroïne ! Une vraie héroïne aide les gens dans le besoin.~
+@10 = ~Oh, je pensais bien que vous aviez l'air un peu trop négligé pour être l'héroïque <CHARNAME>. Si jamais vous croisez des héros, pourriez-vous leur demander d'aller parler à ma mère, s'il vous plaît ? C'est la femme du maire et nous habitons au manoir.~ ~Oh, je pensais bien que vous aviez l'air un peu trop négligée pour être l'héroïque <CHARNAME>. Si jamais vous croisez des héros, pourriez-vous leur demander d'aller parler à ma mère, s'il vous plaît ? C'est la femme du maire et nous habitons au manoir.~
+@11 = ~Bonjour.~ [AERIEC3]
