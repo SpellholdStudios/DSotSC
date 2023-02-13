@@ -1,3 +1,7 @@
+Version 4.5 (by 11jo)
+- French translation by Isaya and Mornagest
+- Add french soundset from IWD
+
 Version 4.2 (by Graion Dilach)
 - better spell compatibility against SoD/EET, SR and IWDification
 - fix primary character levels overwriting secondary classes
