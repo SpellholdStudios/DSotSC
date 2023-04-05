@@ -1,6 +1,7 @@
 Version 4.5 (by 11jo)
 - French translation by Isaya and Mornagest
 - Add french soundset from IWD
+- Fix Cure Moderate Wounds being installed as it's counterpart
 
 Version 4.2 (by Graion Dilach)
 - better spell compatibility against SoD/EET, SR and IWDification
@@ -24,7 +25,7 @@ Version 3.2 (by jastey):
 -no more crashing areas (extraction of tis-files to override works now)
 -deleted remnant characters of original game in areas (prisoners, female cook)
 -bone golems use custom cre now (compatibility with VC's component "Improved Shadows and Shadow Dragon (by Vlad)")
--(EET) correct text character transformation for English version, as well (CúChoinneach's name and items should not crash the game)
+-(EET) correct text character transformation for English version, as well (CÃºChoinneach's name and items should not crash the game)
 -custom Priest Blane should use custom dialogue dsblane.dlg instead of switching to blane.dlg (by Roxanne) 
 
 Version 3.1 (by jastey):
