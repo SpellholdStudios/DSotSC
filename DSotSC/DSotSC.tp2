@@ -88,6 +88,7 @@ ALWAYS
 				"polish" => "CP1250"
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
+				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
 //			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END
@@ -162,6 +163,14 @@ LANGUAGE
 	~DSotSC/language/english/soundsets.tra~
 	~DSotSC/language/german/journal.tra~
 */
+
+LANGUAGE
+	~Simplified Chinese~
+	~schinese~
+	~DSotSC/language/schinese/prompts.tra~
+	~DSotSC/language/schinese/setup.tra~
+	~DSotSC/language/schinese/soundsets.tra~
+	~DSotSC/language/schinese/journal.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -251,7 +260,7 @@ BUT_ONLY
 
 //future update:
 //OUTER_SET strref = RESOLVE_STR_REF (@40000)
-//@40000 = ~C�Choinneach refuse to part with his personal equipment.~
+//@40000 = ~C Choinneach refuse to part with his personal equipment.~
 //DSMADDIE CUCHOINNEACH %strref% 3
 
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
