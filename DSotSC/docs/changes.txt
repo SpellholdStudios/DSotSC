@@ -1,7 +1,14 @@
-Version 4.5 (by 11jo)
+Version 4.3
+By 11jo:
 - French translation by Isaya and Mornagest
 - Add french soundset from IWD
+By Graion Dilach:
 - Fix Cure Moderate Wounds being installed as it's counterpart
+- Update Infinity Auto Packager
+By Lzw104522773:
+- Upload Simplified Chinese translation
+By Roberciiik:
+- Fix ENGINE_IS inconsistency
 
 Version 4.2 (by Graion Dilach)
 - better spell compatibility against SoD/EET, SR and IWDification
