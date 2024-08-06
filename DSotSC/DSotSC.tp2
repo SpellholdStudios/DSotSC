@@ -40,8 +40,8 @@ ASK_EVERY_COMPONENT
 /////                                                  \\\\\
 
 ALWAYS
-<<<<<<<< .../blank.txt
->>>>>>>>
+
+
 	ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
 		OUTER_SPRINT os_slash ~\~
 		OUTER_SPRINT exe ~.exe~
@@ -64,7 +64,6 @@ ALWAYS
 		OUTER_SPRINT GibberlingMountains_entrance ~EXIT4600~ //patching ARE
 
 		OUTER_SPRINT ~LARGE~ ~M~ //for correct portrait assignment
-
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~DSotSC/lib/eet_cpmvars.tpa~
 		OUTER_SPRINT platform ~eet~
@@ -78,6 +77,7 @@ ALWAYS
 	END
 
 	INCLUDE ~DSotSC/lib/macros.tpa~
+
 
 	ACTION_IF ENGINE_IS ~bgee bg2ee eet~ BEGIN
 			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
@@ -102,6 +102,31 @@ ALWAYS
 				reload_array = charsetsReloadArray
 				noconvert_array = charsetsNoConvertArray
 			END
+=======
+	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+			"german" => "CP1252"
+			"english" => "CP1252"
+			"french" => "CP1252"
+			"italian" => "CP1252"
+			"polish" => "CP1250"
+			"russian" => "CP1251"
+			"castilian" => "CP1252"
+			"schinese" => "CP936"
+		END
+		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
+		// ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END
+		LAF ~HANDLE_CHARSETS~
+			INT_VAR
+			infer_charsets = 0
+			STR_VAR
+			tra_path = "DSotSC/language"
+			iconv_path = "DSotSC/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
+			charset_table = charsetsTable
+			reload_array = charsetsReloadArray
+			noconvert_array = charsetsNoConvertArray
+		END
+
 		LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup.tra~
 		LOAD_TRA ~DSotSC/language/%LANGUAGE%/setup-ee.tra~
 	END
