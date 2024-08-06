@@ -91,7 +91,7 @@ ALWAYS
 				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup soundsets journal END
-//			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END
+//			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN prompts END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
