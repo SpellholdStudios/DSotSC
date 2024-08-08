@@ -102,7 +102,7 @@ ALWAYS
 				reload_array = charsetsReloadArray
 				noconvert_array = charsetsNoConvertArray
 			END
-=======
+
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
 			"german" => "CP1252"
