@@ -1,3 +1,9 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/DSotSC).**
+
+<hr><br>
+
 # Dark Side of the Sword Coast
 A WeiDU mod For Baldur's Gate Trilogy and Enhanced Edition Trilogy
 
